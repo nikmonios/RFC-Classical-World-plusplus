@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Global Defines -->
+<Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
+	<Define>
+		<!-- Alerts the player whenever new mercenaries become available -->
+		<DefineName>MERCENARY_POOL_ALERT_ENABLE</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>GREAT_PEOPLE_ASSASSINATION_COST</DefineName>
+		<iDefineIntVal>120</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Chance per turn for tech gift; BTS default: 100 -->
+		<DefineName>HUMAN_AS_VASSAL_TECH_GIFT_CHANCE</DefineName>
+		<iDefineIntVal>15</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Chance per turn for bonus gift; BTS default: 100 -->
+		<DefineName>HUMAN_AS_VASSAL_BONUS_GIFT_CHANCE</DefineName>
+		<iDefineIntVal>33</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Speed -->
+		<DefineName>DISABLE_AUTOSAVES_DURING_AUTOPLAY</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- War success value of capturing a city.  BBAI default: 25, BTS 10 -->
+		<DefineName>WAR_SUCCESS_CITY_CAPTURING</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Better BTS AI: Allows human player to offer themselves as vassal to an AI.  The AI has been taught to value this appropriately.  (Def: 0) -->
+		<DefineName>BBAI_HUMAN_AS_VASSAL_OPTION</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Tech Diffusion: Plain BTS includes an adjustment to research rate based on how many civs you have met which already know a tech.
+		Tech Diffusion modifies this to take into account relationships, so tech diffuses fastest through open borders. 
+		In addition, it enables a kind of tech welfare to keep the civs who are far behind technologically relevant. -->
+		<DefineName>TECH_DIFFUSION_ENABLE</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Tech Diffusion: Power of research rate increase based on number of teams you know who already know the tech you're researching. -->
+		<DefineName>TECH_DIFFUSION_KNOWN_TEAM_MODIFIER</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Tech Diffusion: Threshold percentage of top known tech score at which extra tech welfare help begins. -->
+		<DefineName>TECH_DIFFUSION_WELFARE_THRESHOLD</DefineName>
+		<iDefineIntVal>80</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Tech Diffusion: Power of tech welfare assitance.  BBAI default: 30, for plain BTS: 0 -->
+		<DefineName>TECH_DIFFUSION_WELFARE_MODIFIER</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Research rate boost for knowing first OR tech prereq.  In vanilla BTS this is effectively 20, reducing the cost of most techs on the tech tree.  BBAI default: 20, for plain BTS: 20 -->
+		<DefineName>TECH_COST_FIRST_KNOWN_PREREQ_MODIFIER</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+	<Define>
+		<!-- Research rate boost for knowing additional OR tech prereqs.  In vanilla BTS this is 20.  Default: 20 -->
+		<DefineName>TECH_COST_KNOWN_PREREQ_MODIFIER</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+	<!-- BBAI has also introduced a tech cost modifier by era, which can be found in CIV4EraInfos.xml -->
+	<Define>
+		<!-- This variable allows the throttling of research rates, effectively changing the cost of all techs: so 5 makes techs effectively cost 5% more, -5 makes costs 5% lower. -->
+		<DefineName>TECH_COST_MODIFIER</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- InfluenceDriverWar -->
+	<Define>
+		<DefineName>IDW_ENABLED</DefineName>
+		<!-- Enable/Disable Influence Driven War Mod -->
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_BASE_COMBAT_INFLUENCE</DefineName>
+		<!-- Higher value: more influence from combat victory -->
+		<fDefineFloatVal>2.5</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_NO_CITY_DEFENDER_MULTIPLIER</DefineName>
+		<!-- Multiply influence if last city defender dies -->
+		<fDefineFloatVal>5.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_FORT_CAPTURE_MULTIPLIER</DefineName>
+		<!-- Multiply influence if fort is captured in combat -->
+		<fDefineFloatVal>5.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_EXPERIENCE_FACTOR</DefineName>
+		<!-- Increase influence due to experience of victorious unit (per experience point) -->
+		<fDefineFloatVal>0.025</fDefineFloatVal>
+	</Define>	
+	<Define>
+		<DefineName>IDW_WARLORD_MULTIPLIER</DefineName>
+		<!-- Multiply influence if warlord wins (works only in Warlords -->
+		<fDefineFloatVal>1.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_INFLUENCE_RADIUS</DefineName>
+		<!-- Max plot distance to be influenced -->
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_PLOT_DISTANCE_FACTOR</DefineName>
+		<!-- Higher value: influence decreases faster with distance from attacker/defended plot -->
+		<fDefineFloatVal>0.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_WINNER_PLOT_MULTIPLIER</DefineName>
+		<!-- By default: the same influence mulitiplier in attacker and defended plot -->
+		<fDefineFloatVal>1.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_LOSER_PLOT_MULTIPLIER</DefineName>
+		<!-- By default: the same influence mulitiplier in attacker and defended plot -->
+		<fDefineFloatVal>1.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_EMERGENCY_DRAFT_ENABLED</DefineName>
+		<!-- Enable/Disable militia "auto-draft"; works only if IDW_ENABLED = 1 -->
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_EMERGENCY_DRAFT_MIN_POPULATION</DefineName>
+		<!-- Minimal city size to draft militia -->
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_EMERGENCY_DRAFT_STRENGTH</DefineName>
+		<!-- Militia health ratio -->
+		<fDefineFloatVal>0.25</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_EMERGENCY_DRAFT_ANGER_MULTIPLIER</DefineName>
+		<!-- Draft anger from militia -->
+		<fDefineFloatVal>0.5</fDefineFloatVal>
+	</Define>			
+	<Define>
+		<DefineName>IDW_NO_BARBARIAN_INFLUENCE</DefineName>
+		<!-- if 1: barbarian influence is disabled and no militia emerges in case of barbarian combat -->
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_NO_NAVAL_INFLUENCE</DefineName>
+		<!-- if 1: naval influence is disabled -->
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_PILLAGE_INFLUENCE_ENABLED</DefineName>
+		<!-- Enable/Disable influence from pillage; works only if IDW_ENABLED = 1 -->
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_BASE_PILLAGE_INFLUENCE</DefineName>
+		<!-- Higher value: more influence from pillage -->
+		<fDefineFloatVal>1.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_NO_COMBAT_SPAM</DefineName>
+		<!-- if 1: no information will be displayed in the combat log -->
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_CITY_MULTIPLIER</DefineName>
+		<!-- Multiply influence if city is NOT captured in combat -->
+		<fDefineFloatVal>0.5</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>IDW_FORT_MULTIPLIER</DefineName>
+		<!-- Multiply influence if fort is NOT captured in combat -->
+		<fDefineFloatVal>0.5</fDefineFloatVal>
+	</Define>
+</Civ4Defines>

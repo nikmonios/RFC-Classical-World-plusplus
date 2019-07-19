@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Strategy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_1</Tag>
+		<English>To hire a mercenary, click on the "axe" icon in the upper left hand side of the screen.</English>
+		<French>Pour engager un mercenaire, cliquez sur la hache dans la partie supérieure gauche de l'écran.</French>
+		<German>Um einen Söldner anzuheuern, klicken Sie auf das Axt-Symbol in der oberen linken Ecke des Bildschirms.</German>
+		<Italian>Per assoldare dei mercenari clicca sull'icona a forma di &quot;ascia&quot; in alto a sinistra, sullo schermo.</Italian>
+		<Spanish>Para contratar a un mercenario, haz clic en el icono del hacha que hay en la parte superior izquierda de la pantalla.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_2</Tag>
+		<English>You can check the parameters influencing your stability in the Financial Advisor</English>
+		<French>Vous pouvez consulter les paramètres qui influencent votre stabilité dans l'écran du conseiller financier.</French>
+		<German>Sie können die für Ihre Stabilität entscheidenden Parameter im Finanzberater überprüfen.</German>
+		<Italian>Puoi controllare i parametri che influenzano la tua stabilit&#224; nella schermata del consigliere economico.</Italian>
+		<Spanish>Puedes comprobar los par&#225;metros que afectan a tu estabilidad en el consejero financiero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_3</Tag>
+		<English>Not every lake produces 2 food. Some are salt lakes, and thus produce 1 food, like coast.</English>
+		<French>Les lacs ne produisent pas tous 2 nourriture. Les lacs salés produisent seulement 1 nourriture, comme les côtes.</French>
+		<German>Nicht jeder See produziert 2 Nahrung. Einige von ihnen sind Salzwasserseen, die aus diesem Grund wie Küsten-Geländefelder nur 1 Nahrung produzieren.</German>
+		<Italian>Non tutti i laghi producono 2 cibo. Alcuni sono laghi salati, quindi producono 1 cibo, come la costa.</Italian>
+		<Spanish>No todos los lagos producen 2 alimentos. Algunos son salados y, por tanto, producen 1 alimento, como las costas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_4</Tag>
+		<English>RFC Classical World features Army and Navy Force Limits based on your population. You can see your force limits in the military advisor screen.</English>
+		<French>Si un crâne apparaît au-dessus d'une de vos villes, cela signifie qu'elle est frappée par la peste ! Attendez-vous alors à voir la population et les unités dans la ville et la région environnante diminuer considérablement. Pour réduire la durée et les effets de la peste, gardez vos villes en bonne santé.</French>
+		<German>Wenn ein Totenkopf über Ihren Städten eingeblendet wird, bedeutet dies, dass dort die Pest ausgebrochen ist! Die Anzahl der Bevölkerung und Einheiten in der betreffenden Stadt und ihrer näheren Umgebung werden aller Voraussicht nach dramatisch sinken. Um die Auswirkungen und Dauer der Pest zu reduzieren, sollten Sie den Gesundheitswert Ihrer Städte möglichst hoch halten.</German>
+		<Italian>Se vedi un teschio sulle tue citt&#224; significa che c'&#232; la peste! Popolazione e unit&#224; in citt&#224; e nella zona circostante diminuiranno drasticamente. Per ridurre effetti e durata della peste mantieni in salute le tue citt&#224;.</Italian>
+		<Spanish>Si aparece una calavera sobre tus ciudades... ¡es por que tienen la peste! La poblaci&#243;n y las unidades de la ciudad y su regi&#243;n circundante probablemente comiencen a decrecer dram&#225;ticamente. Para reducir los efectos y la duraci&#243;n de la peste, mant&#233;n elevada la salud de tus ciudades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_5</Tag>
+		<English>RFC Classical World features Army and Navy Force Limits based on your population. You can see your force limits in the military advisor screen.</English>
+		<French>La peste peut se propager de nombreuses façons. Elle peut être apportée par les routes commerciales, les routes et les villes voisines.</French>
+		<German>Die Pest kann sich auf viele Arten ausbreiten - über Handelswege, Straßen und zwischen benachbarten Städten.</German>
+		<Italian>La peste si pu&#242; diffondere in molti modi: attraverso rotte commerciali, lungo le strade e tra citt&#224; confinanti.</Italian>
+		<Spanish>La peste se puede propagar de muchas maneras, a trav&#233;s de las rutas comerciales, por los caminos o entre ciudades vecinas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_6</Tag>
+		<English>The civilization you choose to play affects your difficulty every bit as much as the difficulty level you choose. Make sure to pick a civ that suits your playing style and your level of expertise.</English>
+		<French>La difficulté du jeu dépend tout autant du niveau de difficulté sélectionné que de la civilisation avec laquelle vous jouez. Veillez à choisir une civilisation qui correspond à votre façon de jouer et à votre niveau d'expérience.</French>
+		<German>Neben dem eingestellten Schwierigkeitsgrad wirkt sich auch die Wahl der Zivilisation auf das Schwierigkeitsniveau im Spiel aus. Achten Sie deshalb darauf, eine Zivilisation zu wählen, die Ihrem Spielstil und Ihrem Erfahrungsstand entspricht.</German>
+		<Italian>La civilt&#224; che scegli influenza la difficolt&#224; tanto quanto il livello di difficolt&#224; che hai scelto. Assicurati di selezionare una civilt&#224; che sia adatta al tuo stile di gioco e al tuo livello di esperienza.</Italian>
+		<Spanish>La civilizaci&#243;n que elijas afecta a la dificultad tanto como el nivel de dificultad que elijas. Elige una civilizaci&#243;n que se acomode a tu estilo de juego y tu nivel de experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_7</Tag>
+		<English>Every civ has hidden modifiers that influence their growth. This way, later civs are not disadvantaged by their late start.</English>
+		<French>Des modificateurs cachés influent sur le développement de chaque civilisation. Ainsi, les civilisations modernes ne sont pas désavantagées en commençant plus tard.</French>
+		<German>Jede Zivilisation verfügt über verborgene Modifikatoren, die ihr Wachstum beeinflussen. Auf diese Weise werden auch moderne Zivilisationen trotz ihres späteren Spielstarts nicht benachteiligt.</German>
+		<Italian>Ogni civilt&#224; ha dei modificatori nascosti che ne influenzano la crescita. In questo modo le civilt&#224; moderne non sono svantaggiate dall'avvio in ritardo.</Italian>
+		<Spanish>Todas las civilizaciones tienen modificadores ocultos que afectan a su crecimiento. De este modo, el inicio tard&#237;o de las civilizaciones modernas no constituye una desventaja.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_8</Tag>
+		<English>You can declare war on independent states only by moving your units into their territory.</English>
+		<French>Vous ne pouvez déclarer la guerre aux états indépendants et aux petites civilisations qu'en envoyant des unités sur leur territoire.</French>
+		<German>Sie können unabhängigen Staaten und unbedeutenderen Zivilisationen nur dadurch den Krieg erklären, dass Sie Ihre Einheiten in ihr Territorium einmarschieren lassen.</German>
+		<Italian>Puoi dichiarare guerra agli stati indipendenti e alle civilt&#224; minori solo facendo entrare le tue unit&#224; nel loro territorio.</Italian>
+		<Spanish>Puedes declarar la guerra a estados independientes y civilizaciones menores si mueves tus unidades a su territorio.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_9</Tag>
+		<English>Combining certain civics will improve or harm the stability of your empire.</English>
+		<French>La combinaison de certaines doctrines peut améliorer ou réduire la stabilité de votre empire.</French>
+		<German>Die Kombination bestimmter Staatsformen kann die Stabilität Ihrer Zivilisation verbessern oder auch beeinträchtigen.</German>
+		<Italian>Combinare alcune forme di governo pu&#242; migliorare o peggiorare la stabilit&#224; del tuo impero.</Italian>
+		<Spanish>Al combinar algunos principios mejorar&#225;s o perjudicar&#225;s la estabilidad de tu imperio.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_XXX</Tag>
+		<English>In RFC Classical World all units with zero combat strength can enter independent cities and perform actions there.</English>
+		<French>N'oubliez pas que vous pouvez toujours prendre le contrôle d'une civilisation émergente, si la civilisation avec laquelle vous avez commencé ne vous plaît pas. Vous pouvez aussi utiliser cette option pour jouer à partir de 3000 av. J.-C., même si vous voulez choisir une civilisation qui commence plus tard.</French>
+		<German>Beachten Sie, dass Sie jederzeit eine neu entstandene Zivilisation übernehmen können, wenn Sie mit der Zivilisation, die Sie zuerst gewählt haben, nicht zufrieden sind. Sie können diese Möglichkeit auch nutzen, um bereits ab dem Jahr 3000 v. Chr. zu spielen, obwohl Sie sich eigentlich eine Zivilisation ausgesucht haben, die erst später im Spiel startet.</German>
+		<Italian>Ricorda che puoi sempre assumere il controllo di una civilt&#224; appena sorta, se non ti piace quella con cui hai iniziato. Inoltre puoi usare questa caratteristica per cominciare a giocare dal 3000 a.C. anche se vuoi scegliere una civilt&#224; che comincia più tardi.</Italian>
+		<Spanish>Recuerda que siempre puedes asumir el control de una civilizaci&#243;n reciente si no te gusta la civilizaci&#243;n con la que has empezado. Tambi&#233;n puedes aprovechar esta opci&#243;n para jugar desde el a&#241;o 3000 a. C. si deseas jugar con una civilizaci&#243;n que empiece m&#225;s tarde.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_XXX</Tag>
+		<English>In RFC Classical World, vassals can declare war.</English>
+		<French>Dans Rhye's and Fall of Civilization, les vassaux peuvent déclarer la guerre.</French>
+		<German>In Rhye's and Fall of Civilization können Vasallenstaaten Kriegserklärungen ausgeben.</German>
+		<Italian>In Rhye's and Fall i vassalli possono dichiarare guerra.</Italian>
+		<Spanish>Los vasallos pueden declarar una guerra en Rhye's and Fall of Civilization.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_10</Tag>
+		<English>In RFC Classical World, the max income from a shrine is half what it would be in regular CivIV and is capped at 10 gold.</English>
+		<French>Dans Rhye's and Fall of Civilization, le revenu maximum d'un sanctuaire est de 20 pièces d'or par tour.</French>
+		<German>In Rhye's and Fall of Civilization beträgt das maximale Einkommen durch Schreine 20 Gold pro Runde.</German>
+		<Italian>In Rhye's and Fall l'entrata massima da un santuario &#232; di 20 oro per turno.</Italian>
+		<Spanish>En Rhye's and Fall of Civilization los ingresos m&#225;ximos de un santuario o corporaci&#243;n son de 20 monedas por turno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_11</Tag>
+		<English>If you like the mod, and if you have any ideas to improve it, or you just have a bug to report, make sure to check out the development forum at CivFanatics.com.</English>
+		<French>Si le mod vous plaît et que vous avez des idées pour l'améliorer, ou simplement un bug à signaler, pensez à consulter le forum de développement sur CivFanatics.com.</French>
+		<German>Wenn Sie das Mod mögen und Verbesserungsvorschläge haben oder einen Bug melden wollen, besuchen Sie das Entwicklerforum unter CivFanatics.com.</German>
+		<Italian>Se ti piace questo mod e hai delle idee per migliorarlo, o anche se devi semplicemente segnalare un problema, assicurati di controllare il forum di sviluppo su CivFanatics.com.</Italian>
+		<Spanish>Si te gusta el mod y tienes ideas para mejorarlo o has encontrado algún error del que informar, visita el foro de dise&#241;o en CivFanatics.com.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_12</Tag>
+		<English>Creating an enormous empire may seem tempting, but you have to be very careful not to let your expansion destabilize your empire! The Empire and Bureaucracy Civics can help with that.</English>
+		<French>Créer un empire gigantesque peut sembler tentant, mais vous devez veiller à ce que votre expansion territoriale n'entraîne pas d''instabilité ! La doctrine Expansion peut vous faciliter la tâche.</French>
+		<German>Es mag verlockend erscheinen, ein riesiges Imperium aufzubauen, dennoch sollten Sie darauf achten, dass Ihre Expansionsbestrebungen nicht zu einer Destabilisierung Ihrer Zivilisation führen! Expansiv orientierte Staatsformen können dabei sicherlich hilfreich sein.</German>
+		<Italian>Potr&#224; anche sembrare una buona idea, creare un impero enorme, ma devi stare attento a non lasciare che la tua espansione destabilizzi l'impero! La forma di governo espansione ti pu&#242; aiutare.</Italian>
+		<Spanish>Crear un imperio enorme puede ser tentador, pero debes tener cuidado para que tu expansi&#243;n no lo desestabilice. Los principios de expansi&#243;n te ayudar&#225;n a conseguirlo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_13</Tag>
+		<English>RFC Classical World features the Pilgrim unit, which can turn into a Missionary of any religion in that religion's Holy City.</English>
+		<French>Dans Rhye's and Fall of Civilization, le raccourci pour activer la caméra libre est [CTRL + F].</French>
+		<German>In Rhye's and Fall of Civilization ist die Schnelltaste für den Kameraflugmodus [STRG + F]</German>
+		<Italian>In Rhye's and Fall la combinazione di tasti per la selezione rapida della visuale dall'alto &#232; diventata [CTRL + F]</Italian>
+		<Spanish>En Rhye's and Fall of Civilization se ha cambiado el atajo de teclado para la c&#225;mara a&#233;rea a [CTRL + F].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_14</Tag>
+		<English>If you attempt to stop the growth of newborn civs, some of your units will flip to their side.</English>
+		<French>Si vous tentez d'arrêter le développement d'une civilisation émergente, certaines de vos unités se rangeront de son côté.</French>
+		<German>Wenn Sie versuchen, das Wachstum neu entstandener Zivilisationen zu behindern, werden einige Ihrer Einheiten die Seiten wechseln.</German>
+		<Italian>Se provi a fermare la crescita delle civilt&#224; appena nate, alcune delle tue unit&#224; passeranno dalla loro parte.</Italian>
+		<Spanish>Si intentas frenar el crecimiento de civilizaciones recientes, algunas de tus unidades se unir&#225;n a ellas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_1</Tag>
+		<English>City founding is not allowed in desert or semi-desert if no fresh water is available.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_2</Tag>
+		<English>Some exotic mercenaries can only be hired if you have a city in or near their native province.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_3</Tag>
+		<English>The map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_4</Tag>
+		<English>Roads are not pillageable and cannot be built in some desert tiles.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_5</Tag>
+		<English>Some health and luxury resources are more effective than others.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_6</Tag>
+		<English>Companies replace corporations. Companies cannot be built - they spread on their own to cities that meet their requirements.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_7</Tag>
+		<English>There are 11 religions in RFC Classical World, and each has a minor benefit added to one of its buildings.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_8</Tag>
+		<English>There are no RFC Embassies, Congresses or the sixth Civic column in RFC Classical World.</English>
+		<French>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</French>
+		<German>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</German>
+		<Italian>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</Italian>
+		<Spanish>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_9</Tag>
+		<English>You can control a province by being the only civ with a city there or by completely covering it with your culture.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_10</Tag>
+		<English>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + U] to toggle the Stability Overlay.</English>
+		<French>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + U] to toggle the Stability Overlay.</French>
+		<German>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + U] to toggle the Stability Overlay.</German>
+		<Italian>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + U] to toggle the Stability Overlay.</Italian>
+		<Spanish>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + U] to toggle the Stability Overlay.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_11</Tag>
+		<English>Spies are limited to 3 at a time in RFC Classical World, like Missionaries, but are cheaper to build than in regular CivIV.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_12</Tag>
+		<English>Spies can be used in new ways in RFC Classical World. They can bribe barbarians to leave your lands or hire them as mercenaries. They can also conduct secret negotiations with an enemy civilization to end a war under certain conditions.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_13</Tag>
+		<English>In RFC Classical World, non-state religions continue producing culture, but at a slower rate than the state religion.</English>
+		<French>In RFC Classical World, non-state religions continue producing culture, but at a slower rate than the state religion.</French>
+		<German>In RFC Classical World, non-state religions continue producing culture, but at a slower rate than the state religion.</German>
+		<Italian>In RFC Classical World, non-state religions continue producing culture, but at a slower rate than the state religion.</Italian>
+		<Spanish>In RFC Classical World, non-state religions continue producing culture, but at a slower rate than the state religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_14</Tag>
+		<English>During the period covered by this mod, capitals of many empires changed often. Moving your capital in RFC Classical World is cheaper and will not affect your Stability as badly as in RFC.</English>
+		<French>During the period covered by this mod, capitals of many empires changed often. Moving your capital in RFC Classical World is cheaper and will not reduce your Stability as badly as in RFC.</French>
+		<German>During the period covered by this mod, capitals of many empires changed often. Moving your capital in RFC Classical World is cheaper and will not reduce your Stability as badly as in RFC.</German>
+		<Italian>During the period covered by this mod, capitals of many empires changed often. Moving your capital in RFC Classical World is cheaper and will not reduce your Stability as badly as in RFC.</Italian>
+		<Spanish>During the period covered by this mod, capitals of many empires changed often. Moving your capital in RFC Classical World is cheaper and will not reduce your Stability as badly as in RFC.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_15</Tag>
+		<English>In RFC Classical World, human players can be vassals of the AI.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_16</Tag>
+		<English>RFC Classical World features tradeable religious resources produced by buildings, similar to Hit Movies or Hit Singles in regular CivIV.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_16</Tag>
+		<English>Mines cannot be built unless there is a resource present on the tile.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_17</Tag>
+		<English>In RFC Classical World, you cannot convert to a state religion until it is present in at least half of your cities.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_18</Tag>
+		<English>Hold down the [CTRL] key to highlight the province's borders on the map.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_19</Tag>
+		<English>Hold down the [CTRL] key to highlight the province's borders on the map.</English>
+		<French>Hold down the [CTRL] key to highlight the province's borders on the map.</French>
+		<German>Hold down the [CTRL] key to highlight the province's borders on the map.</German>
+		<Italian>Hold down the [CTRL] key to highlight the province's borders on the map.</Italian>
+		<Spanish>Hold down the [CTRL] key to highlight the province's borders on the map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_20</Tag>
+		<English>Press [CTRL + U] to toggle the Stability Overlay on/off.</English>
+		<French>Press [CTRL + U] to toggle the Stability Overlay on/off.</French>
+		<German>Press [CTRL + U] to toggle the Stability Overlay on/off.</German>
+		<Italian>Press [CTRL + U] to toggle the Stability Overlay on/off.</Italian>
+		<Spanish>Press [CTRL + U] to toggle the Stability Overlay on/off.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_21</Tag>
+		<English>In RFC Classical World cities less than 4 tiles apart receive extra trade routes and a Great People bonus once certain population thresholds are reached.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+</Civ4GameText>

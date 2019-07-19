@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Diplomacy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_1</Tag>
+		<English>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]!</English>
+		<French>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]!</French>
+		<German>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]!</German>
+		<Italian>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]!</Italian>
+		<Spanish>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_GENERIC_1</Tag>
+		<English>I have nothing to say to you, you filthy pig.</English>
+		<French>Je n'ai rien &#224; vous dire, m&#233;prisable insecte.</French>
+		<German>Ich habe Euch nichts zu sagen! Für mich seid Ihr bloß Ungeziefer!</German>
+		<Italian>Non ho nulla da dirti, insetto pestilenziale.</Italian>
+		<Spanish>No tenemos nada que deciros, sabandija inmunda.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_GENERIC_1</Tag>
+		<English>There shall be no peace!</English>
+		<French>La paix ? Vous voulez rire, j'esp&#232;re !</French>
+		<German>Ihr wollt Frieden schließen? Macht Euch doch nicht lächerlich!</German>
+		<Italian>Pace? Ma non farmi ridere!</Italian>
+		<Spanish>¿Paz? ¡No me hagáis reír!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GENERIC_1</Tag>
+		<English>Blessed [CT_NAME]! I am honored to host the ruler of the great [CT_EMPIRE] in my humble halls!</English>
+		<French>Que le ciel vous b&#233;nisse, &#244; formidable [CT_NAME] ! Votre glorieuse pr&#233;sence est un grand honneur pour mon humble royaume !</French>
+		<German>Gesegnet seid Ihr, oh [NUM1:m&#228;chtiger:m&#228;chtige] [CT_NAME]! Es ist eine gro&#223;e Ehre f&#252;r unser bescheidenes K&#246;nigreich, eine solch ruhmreiche Pers&#246;nlichkeit wie Euch begr&#252;&#223;en zu d&#252;rfen!</German>
+		<Italian>Che Dio ti benedica, potente [CT_NAME]! &#200; un onore per il mio umile regno ospitare la tua grande persona!</Italian>
+		<Spanish>&#161;Mil bendiciones caigan sobre vos, omnipotente [CT_NAME]! &#161;La visita de alguien tan importante es un gran honor para mi humilde reino!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GENERIC_1</Tag>
+		<English>What is this? A pig in my palace? Call the guards!</English>
+		<French>Quelle surprise ! Je n'avais pas r&#233;alis&#233; que les sauterelles &#233;taient d&#233;j&#224; revenues.</French>
+		<German>Was f&#252;r eine &#220;berraschung! Niemand hat mir gesagt, dass schon wieder eine Heuschreckenplage bevorsteht!</German>
+		<Italian>Che sorpresa! Non avevo realizzato che era nuovamente giunta la stagione della locuste.</Italian>
+		<Spanish>&#161;Qu&#233; sorpresa! No me hab&#237;a dado cuenta de que ya era temporada de plagas de langostas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GENERIC_1</Tag>
+		<English>I, [OUR_NAME], must request a small donation from you, [CT_NAME]. The donation is, of course, voluntary and I have personally selected you as the volunteer.</English>
+		<French>Pour la gloire du divin, moi, [OUR_NAME], le plus puissant de tous ses serviteurs, je vous demande un modeste tribut, [CT_NAME]. Il serait sage de bien r&#233;fl&#233;chir &#224; ma requ&#234;te.</French>
+		<German>Bei der Herrlichkeit Gottes: Ich, [OUR_NAME], als sein m&#228;chtigster Untertan, bitte Euch um eine kleine Spende, [CT_NAME]. Wenn Ihr klug seid, denkt Ihr sorgf&#228;ltig dar&#252;ber nach!</German>
+		<Italian>In nome di Dio, io, [OUR_NAME], il pi&#249; grande dei suoi servi, ti faccio richiesta di una piccola donazione, [CT_NAME]. Considerala attentamente e prendi una decisione saggia.</Italian>
+		<Spanish>Por la gloria de Al&#225;, nos, [OUR_NAME], el m&#225;s poderoso de sus servidores, os solicitamos una peque&#241;a donaci&#243;n, [CT_NAME]. Os conviene considerar detenidamente mi petici&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GENERIC_1</Tag>
+		<English>[CT_NAME], you know that the existence of your little state depends on the protection provided by the [OUR_EMPIRE]. I have come to collect due payment for this service.</English>
+		<French>Il est normal pour les &#233;tats vassaux de verser un tribut &#224; leur seigneur et protecteur... en l'occurrence, moi.</French>
+		<German>Es ist nur angemessen, dass Vasallenstaaten ihren Schutzherren einen Tribut entrichten. Und Letzteres sind in diesem Fall wir!</German>
+		<Italian>In genere i vassalli devono pagare dei tributi al loro signore e protettore, che in questo caso sarei io.</Italian>
+		<Spanish>Es de lo m&#225;s adecuado que los estados vasallos rindan tributo a su se&#241;or y protector. Es decir, a nos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GENERIC_1</Tag>
+		<English>Friendship should be rewarded, don't you think? Here's a suggestion.</English>
+		<French>L'amiti&#233; est affaire d'attention r&#233;ciproque, ne pensez-vous pas ? Voici une petite suggestion.</French>
+		<German>Eine gute Freundschaft muss belohnt werden, findet Ihr nicht? Ich hätte da schon eine Idee ...</German>
+		<Italian>L'amicizia andrebbe ripagata, non credi? Ma guarda che bel consiglio che ti ho appena dato!</Italian>
+		<Spanish>La amistad debe recompensarse, ¿no os parece? Os dar&#233; una idea.</Spanish>
+	</TEXT>
+
+</Civ4GameText>

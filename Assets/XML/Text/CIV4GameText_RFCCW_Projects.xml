@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_PROJECT</Tag>
+		<English>Titles</English>
+		<French>
+			<Text>Projets</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Projekte</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Progetti</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Proyectos</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_WORLD_PROJECT</Tag>
+		<English>Title</English>
+		<French>Titre</French>
+		<German>Title</German>
+		<Italian>Titolo</Italian>
+		<Spanish>Title</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_WORLD_NUM_ALLOWED</Tag>
+		<English>[ICON_BULLET]Title (see requirements)</English>
+		<French>[ICON_BULLET]Title (see requirements)</French>
+		<German>[ICON_BULLET]Title (see requirements)</German>
+		<Italian>[ICON_BULLET]Title (see requirements)</Italian>
+		<Spanish>[ICON_BULLET]Title (see requirements)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_COMPLETES_PROJECT</Tag>
+		<English>%s1_PlyrName becomes the %s2_PrjctName!</English>
+		<French>%s1_PlyrName termine %s2_PrjctName!</French>
+		<German>%s1_PlyrName stellt %s2_PrjctName fertig!</German>
+		<Italian>%s1_PlyrName ha completato %s2_PrjctName!</Italian>
+		<Spanish>%s1_PlyrName ha completado %s2_PrjctName</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SOMEONE_HAS_COMPLETED</Tag>
+		<English>%s1_PlyrName has become the %s2_PrjctName!</English>
+		<French>%s1_PlyrName a achev&#233; : %s2_PrjctName !</French>
+		<German>%s1_PlyrName hat das Projekt %s2_PrjctName abgeschlossen!</German>
+		<Italian>%s1_PlyrName ha completato %s2_PrjctName!</Italian>
+		<Spanish>%s1_PlyrName ha completado %s2_PrjctName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SOMEONE_HAS_LOST_PROJECT</Tag>
+		<English>%s1_PlyrName has lost the title of the %s2_PrjctName!</English>
+		<French>%s1_PlyrName has lost the title of the %s2_PrjctName!</French>
+		<German>%s1_PlyrName has lost the title of the %s2_PrjctName!</German>
+		<Italian>%s1_PlyrName has lost the title of the %s2_PrjctName!</Italian>
+		<Spanish>%s1_PlyrName has lost the title of the %s2_PrjctName</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CONTACT_TITLE</Tag>
+		<English>[ICON_STAR]Holds the title of the %s1_Desc</English>
+		<French>[ICON_STAR]Holds the title of the %s1_Desc</French>
+		<German>[ICON_STAR]Holds the title of the %s1_Desc</German>
+		<Italian>[ICON_STAR]Holds the title of the %s1_Desc</Italian>
+		<Spanish>[ICON_STAR]Holds the title of the %s1_Desc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOUR_TITLE</Tag>
+		<English>[ICON_STAR]You hold the title of the %s1_Desc</English>
+		<French>[ICON_STAR]You hold the title of the %s1_Desc</French>
+		<German>[ICON_STAR]You hold the title of the %s1_Desc</German>
+		<Italian>[ICON_STAR]You hold the title of the %s1_Desc</Italian>
+		<Spanish>[ICON_STAR]You hold the title of the %s1_Desc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ROMAN_EMPEROR</Tag>
+		<English>Roman Emperor</English>
+		<French>Empereur romain</French>
+		<German>Romischer Kaiser</German>
+		<Italian>Imperatore romano</Italian>
+		<Spanish>Emperador romano</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ROMAN_EMPEROR_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cannot collapse as long as Constantinople is under control</English>
+		<French>[NEWLINE][ICON_BULLET]Cannot collapse as long as Constantinople is under control</French>
+		<German>[NEWLINE][ICON_BULLET]Cannot collapse as long as Constantinople is under control</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cannot collapse as long as Constantinople is under control</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cannot collapse as long as Constantinople is under control</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ROMAN_EMPEROR_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control Constantinople and 3 other cities in Thrace and Anatolia[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control Constantinople and 3 other cities in Thrace and Anatolia[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control Constantinople and 3 other cities in Thrace and Anatolia[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control Constantinople and 3 other cities in Thrace and Anatolia[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control Constantinople and 3 other cities in Thrace and Anatolia[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CALIPH</Tag>
+		<English>Commander of the Faithful</English>
+		<French>Commandeur des croyants</French>
+		<German>Amir al-Mu'minin</German>
+		<Italian>Comandante dei Credenti</Italian>
+		<Spanish>Principe de los creyentes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CALIPH_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Can call for a [LINK=Holy Wars]holy war[\LINK] against infidels and heretics[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with same State [ICON_RELIGION][NEWLINE][ICON_BULLET]+25% Base Piety[NEWLINE][ICON_BULLET]+50% Piety Loss for Actions Against State [ICON_RELIGION]</English>
+		<French>[NEWLINE][ICON_BULLET]Can call for a [LINK=Holy Wars]holy war[\LINK] against infidels and heretics[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with same State [ICON_RELIGION][NEWLINE][ICON_BULLET]+25% Base Piety[NEWLINE][ICON_BULLET]+50% Piety Loss for Actions Against State [ICON_RELIGION]</French>
+		<German>[NEWLINE][ICON_BULLET]Can call for a [LINK=Holy Wars]holy war[\LINK] against infidels and heretics[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with same State [ICON_RELIGION][NEWLINE][ICON_BULLET]+25% Base Piety[NEWLINE][ICON_BULLET]+50% Piety Loss for Actions Against State [ICON_RELIGION]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Can call for a [LINK=Holy Wars]holy war[\LINK] against infidels and heretics[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with same State [ICON_RELIGION][NEWLINE][ICON_BULLET]+25% Base Piety[NEWLINE][ICON_BULLET]+50% Piety Loss for Actions Against State [ICON_RELIGION]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Can call for a [LINK=Holy Wars]holy war[\LINK] against infidels and heretics[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with same State [ICON_RELIGION][NEWLINE][ICON_BULLET]+25% Base Piety[NEWLINE][ICON_BULLET]+50% Piety Loss for Actions Against State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CALIPH_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control Baghdad[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Islam.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control Baghdad[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Islam.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control Baghdad[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Islam.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control Baghdad[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Islam.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control Baghdad[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Islam.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ATTITUDE_CALIPH</Tag>
+		<English>%D1: "You are the Commander of the Faithful."</English>
+		<French>%D1: "You are the Commander of the Faithful."</French>
+		<German>%D1: "You are the Commander of the Faithful."</German>
+		<Italian>%D1: "You are the Commander of the Faithful."</Italian>
+		<Spanish>%D1: "You are the Commander of the Faithful."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHAHANSHAH</Tag>
+		<English>Shahanshah</English>
+		<French>Shahanshah</French>
+		<German>Shahanshah</German>
+		<Italian>Shahanshah</Italian>
+		<Spanish>Shahanshah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHAHANSHAH_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]+10 Stability[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] in All Cities</English>
+		<French>[NEWLINE][ICON_BULLET]+10 Stability[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] in All Cities</French>
+		<German>[NEWLINE][ICON_BULLET]+10 Stability[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] in All Cities</German>
+		<Italian>[NEWLINE][ICON_BULLET]+10 Stability[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] in All Cities</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+10 Stability[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHAHANSHAH_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control Jibal, Tabaristan, Fars, Kerman, Luristan, Kurdistan, Yazd and Western Khorasan[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control Jibal, Tabaristan, Fars, Kerman, Luristan, Kurdistan, Yazd and Western Khorasan[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control Jibal, Tabaristan, Fars, Kerman, Luristan, Kurdistan, Yazd and Western Khorasan[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control Jibal, Tabaristan, Fars, Kerman, Luristan, Kurdistan, Yazd and Western Khorasan[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control Jibal, Tabaristan, Fars, Kerman, Luristan, Kurdistan, Yazd and Western Khorasan[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHARIF_OF_MECCA</Tag>
+		<English>Sharif of Hejaz</English>
+		<French>Le chérif de la Mecque</French>
+		<German>Großscherif</German>
+		<Italian>Sharif of Mecca</Italian>
+		<Spanish>Jerife de La Meca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHARIF_OF_MECCA_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with [ICON_SUNNI] or [ICON_SHIA] State Religion</English>
+		<French>[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with [ICON_SUNNI] or [ICON_SHIA] State Religion</French>
+		<German>[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with [ICON_SUNNI] or [ICON_SHIA] State Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with [ICON_SUNNI] or [ICON_SHIA] State Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+1 Attitude vs. Leaders with [ICON_SUNNI] or [ICON_SHIA] State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SHARIF_OF_MECCA_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control Hejaz[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Mecca is lost, if the holder's civilization is destroyed, or if the holder abandons Islam.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control Hejaz[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Mecca is lost, if the holder's civilization is destroyed, or if the holder abandons Islam.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control Hejaz[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Mecca is lost, if the holder's civilization is destroyed, or if the holder abandons Islam.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control Hejaz[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Mecca is lost, if the holder's civilization is destroyed, or if the holder abandons Islam.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control Hejaz[NEWLINE][ICON_BULLET]Have [ICON_SUNNI] or [ICON_SHIA] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Mecca is lost, if the holder's civilization is destroyed, or if the holder abandons Islam.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ATTITUDE_SHARIF</Tag>
+		<English>%D1: "You protect the Holy City of Mecca."</English>
+		<French>%D1: "You protect the Holy City of Mecca."</French>
+		<German>%D1: "You protect the Holy City of Mecca."</German>
+		<Italian>%D1: "You protect the Holy City of Mecca."</Italian>
+		<Spanish>%D1: "You protect the Holy City of Mecca."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PROTECTOR</Tag>
+		<English>Protector of the Holy Sepulchre</English>
+		<French>Protector of the Holy Sepulchre</French>
+		<German>Protector of the Holy Sepulchre</German>
+		<Italian>Protector of the Holy Sepulchre</Italian>
+		<Spanish>Protector of the Holy Sepulchre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PROTECTOR_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]+20% Base Piety</English>
+		<French>[NEWLINE][ICON_BULLET]+20% Base Piety</French>
+		<German>[NEWLINE][ICON_BULLET]+20% Base Piety</German>
+		<Italian>[NEWLINE][ICON_BULLET]+20% Base Piety</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+20% Base Piety</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PROTECTOR_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control Jerusalem[NEWLINE][ICON_BULLET]Have [ICON_CATHOLICISM] or [ICON_ORTHODOXY] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Jerusalem is lost, if the holder's civilization is destroyed, or if the holder abandons Christianity.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control Jerusalem[NEWLINE][ICON_BULLET]Have [ICON_CATHOLICISM] or [ICON_ORTHODOXY] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Jerusalem is lost, if the holder's civilization is destroyed, or if the holder abandons Christianity.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control Jerusalem[NEWLINE][ICON_BULLET]Have [ICON_CATHOLICISM] or [ICON_ORTHODOXY] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Jerusalem is lost, if the holder's civilization is destroyed, or if the holder abandons Christianity.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control Jerusalem[NEWLINE][ICON_BULLET]Have [ICON_CATHOLICISM] or [ICON_ORTHODOXY] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Jerusalem is lost, if the holder's civilization is destroyed, or if the holder abandons Christianity.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control Jerusalem[NEWLINE][ICON_BULLET]Have [ICON_CATHOLICISM] or [ICON_ORTHODOXY] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if Jerusalem is lost, if the holder's civilization is destroyed, or if the holder abandons Christianity.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RAJA</Tag>
+		<English>Vikramaditya</English>
+		<French>Vikramaditya</French>
+		<German>Vikramaditya</German>
+		<Italian>Vikramaditya</Italian>
+		<Spanish>Vikramaditya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RAJA_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]All foreign provinces in Hindustan become border provinces[NEWLINE][ICON_BULLET]+2 Attitude vs. Leaders with [ICON_HINDUISM] State Religion</English>
+		<French>[NEWLINE][ICON_BULLET]All foreign provinces in Hindustan become border provinces[NEWLINE][ICON_BULLET]+2 Attitude vs. Leaders with [ICON_HINDUISM] State Religion</French>
+		<German>[NEWLINE][ICON_BULLET]All foreign provinces in Hindustan become border provinces[NEWLINE][ICON_BULLET]+2 Attitude vs. Leaders with [ICON_HINDUISM] State Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]All foreign provinces in Hindustan become border provinces[NEWLINE][ICON_BULLET]+2 Attitude vs. Leaders with [ICON_HINDUISM] State Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]All foreign provinces in Hindustan become border provinces[NEWLINE][ICON_BULLET]+2 Attitude vs. Leaders with [ICON_HINDUISM] State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ATTITUDE_RAJA</Tag>
+		<English>%D1: "Your valour is equal to the Sun."</English>
+		<French>%D1: "Your valour is equal to the Sun."</French>
+		<German>%D1: "Your valour is equal to the Sun."</German>
+		<Italian>%D1: "Your valour is equal to the Sun."</Italian>
+		<Spanish>%D1: "Your valour is equal to the Sun."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RAJA_PEDIA</Tag>
+		<English>Requirements:[NEWLINE][ICON_BULLET]Control at least 6 provinces in Hindustan[NEWLINE][ICON_BULLET]Have [ICON_HINDUISM] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Hinduism.</English>
+		<French>Requirements:[NEWLINE][ICON_BULLET]Control at least 6 provinces in Hindustan[NEWLINE][ICON_BULLET]Have [ICON_HINDUISM] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Hinduism.</French>
+		<German>Requirements:[NEWLINE][ICON_BULLET]Control at least 6 provinces in Hindustan[NEWLINE][ICON_BULLET]Have [ICON_HINDUISM] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Hinduism.</German>
+		<Italian>Requirements:[NEWLINE][ICON_BULLET]Control at least 6 provinces in Hindustan[NEWLINE][ICON_BULLET]Have [ICON_HINDUISM] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Hinduism.</Italian>
+		<Spanish>Requirements:[NEWLINE][ICON_BULLET]Control at least 6 provinces in Hindustan[NEWLINE][ICON_BULLET]Have [ICON_HINDUISM] as State Religion[NEWLINE][ICON_BULLET]If the title is not vacant, vassalize the holder[NEWLINE][NEWLINE]The title is lost if the holder's civilization is destroyed, or if the holder abandons Hinduism.</Spanish>
+	</TEXT>
+</Civ4GameText>

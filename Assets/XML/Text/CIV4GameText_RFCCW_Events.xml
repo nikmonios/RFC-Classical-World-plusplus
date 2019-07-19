@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_GREAT_SAINT_SUCCESS</Tag>
+		<English>%s1 successfully converted %d2 cities to our faith!</English>
+		<French>%s1 successfully converted %d2 cities to our faith!</French>
+		<German>%s1 successfully converted %d2 cities to our faith!</German>
+		<Italian>%s1 successfully converted %d2 cities to our faith!</Italian>
+		<Spanish>%s1 successfully converted %d2 cities to our faith!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_GREAT_SAINT_FAILURE</Tag>
+		<English>%s1 failed to convert any cities to our faith.</English>
+		<French>%s1 failed to convert any cities to our faith.</French>
+		<German>%s1 failed to convert any cities to our faith.</German>
+		<Italian>%s1 failed to convert any cities to our faith.</Italian>
+		<Spanish>%s1 failed to convert any cities to our faith.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AI_INVASION1</Tag>
+		<English>The</English>
+		<French>The</French>
+		<German>The</German>
+		<Italian>The</Italian>
+		<Spanish>The</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AI_INVASION2</Tag>
+		<English>are invading</English>
+		<French>are invading</French>
+		<German>are invading</German>
+		<Italian>are invading</Italian>
+		<Spanish>are invading</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OVEREXTENSION1</Tag>
+		<English>A general in the</English>
+		<French>A general in the</French>
+		<German>A general in the</German>
+		<Italian>A general in the</Italian>
+		<Spanish>A general in the</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OVEREXTENSION2</Tag>
+		<English>army has exceded his orders and conquered territories too distant to be effectively administered from the capital.</English>
+		<French>army has exceded his orders and conquered territories too distant to be effectively administered from the capital.</French>
+		<German>army has exceded his orders and conquered territories too distant to be effectively administered from the capital.</German>
+		<Italian>army has exceded his orders and conquered territories too distant to be effectively administered from the capital.</Italian>
+		<Spanish>army has exceded his orders and conquered territories too distant to be effectively administered from the capital.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECEDE_DISTANT1</Tag>
+		<English>The</English>
+		<French>The</French>
+		<German>The</German>
+		<Italian>The</Italian>
+		<Spanish>The</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECEDE_DISTANT2</Tag>
+		<English>is retreating from recent conquests and consolidating itself on a more stable footing.</English>
+		<French>is retreating from recent conquests and consolidating itself on a more stable footing.</French>
+		<German>is retreating from recent conquests and consolidating itself on a more stable footing.</German>
+		<Italian>is retreating from recent conquests and consolidating itself on a more stable footing.</Italian>
+		<Spanish>is retreating from recent conquests and consolidating itself on a more stable footing.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGIOUS_TURMOIL</Tag>
+		<English>Disappointed by your recent decision, many soldiers and citizens leave your realm!</English>
+		<French>Disappointed by your recent decision, many soldiers and citizens leave your realm!</French>
+		<German>Disappointed by your recent decision, many soldiers and citizens leave your realm!</German>
+		<Italian>Disappointed by your recent decision, many soldiers and citizens leave your realm!</Italian>
+		<Spanish>Disappointed by your recent decision, many soldiers and citizens leave your realm!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_HEPHTHALITES</Tag>
+		<English>Hephthalite nomads from Central Asia are invading northern India!</English>
+		<French>Hephthalite nomads from Central Asia are invading northern India!</French>
+		<German>Hephthalite nomads from Central Asia are invading northern India!</German>
+		<Italian>Hephthalite nomads from Central Asia are invading northern India!</Italian>
+		<Spanish>Hephthalite nomads from Central Asia are invading northern India!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_ARMENIA</Tag>
+		<English>The Armenians of Artashat have declared their independence!</English>
+		<French>The Armenians of Artashat have declared their independence!</French>
+		<German>The Armenians of Artashat have declared their independence!</German>
+		<Italian>The Armenians of Artashat have declared their independence!</Italian>
+		<Spanish>The Armenians of Artashat have declared their independence!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SASSANIDS</Tag>
+		<English>The House of Sasan has taken control of Persia and Mesopotamia!</English>
+		<French>The House of Sasan has taken control of Persia and Mesopotamia!</French>
+		<German>The House of Sasan has taken control of Persia and Mesopotamia!</German>
+		<Italian>The House of Sasan has taken control of Persia and Mesopotamia!</Italian>
+		<Spanish>The House of Sasan has taken control of Persia and Mesopotamia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_GUPTA</Tag>
+		<English>A new dynasty, the Guptas, has seized control of Magadha.</English>
+		<French>A new dynasty, the Guptas, has seized control of Magadha.</French>
+		<German>A new dynasty, the Guptas, has seized control of Magadha.</German>
+		<Italian>A new dynasty, the Guptas, has seized control of Magadha.</Italian>
+		<Spanish>A new dynasty, the Guptas, has seized control of Magadha.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_AXUM</Tag>
+		<English>A new nation of warriors and merchants has emerged in the mountains of Aksum.</English>
+		<French>A new nation of warriors and merchants has emerged in the mountains of Aksum.</French>
+		<German>A new nation of warriors and merchants has emerged in the mountains of Aksum.</German>
+		<Italian>A new nation of warriors and merchants has emerged in the mountains of Aksum.</Italian>
+		<Spanish>A new nation of warriors and merchants has emerged in the mountains of Aksum.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SATAVAHANA</Tag>
+		<English>The Satavahana clan has assumed control of central India!</English>
+		<French>The Satavahana clan has assumed control of central India!</French>
+		<German>The Satavahana clan has assumed control of central India!</German>
+		<Italian>The Satavahana clan has assumed control of central India!</Italian>
+		<Spanish>The Satavahana clan has assumed control of central India!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_DACIA</Tag>
+		<English>The people of Dacia have refused to submit to Roman rule and declared their intention to defend their homeland to the last man!</English>
+		<French>The people of Dacia have refused to submit to Roman rule and declared their intention to defend their homeland to the last man!</French>
+		<German>The people of Dacia have refused to submit to Roman rule and declared their intention to defend their homeland to the last man!</German>
+		<Italian>The people of Dacia have refused to submit to Roman rule and declared their intention to defend their homeland to the last man!</Italian>
+		<Spanish>The people of Dacia have refused to submit to Roman rule and declared their intention to defend their homeland to the last man!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_PALLAVAS</Tag>
+		<English>The Pallava dynasty has taken control of Andhra!</English>
+		<French>The Pallava dynasty has taken control of Andhra!</French>
+		<German>The Pallava dynasty has taken control of Andhra!</German>
+		<Italian>The Pallava dynasty has taken control of Andhra!</Italian>
+		<Spanish>The Pallava dynasty has taken control of Andhra!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_KALABHRAS</Tag>
+		<English>The Kalabhra dynasty has taken control of Tamil Nadu!</English>
+		<French>The Kalabhra dynasty has taken control of Tamil Nadu!</French>
+		<German>The Kalabhra dynasty has taken control of Tamil Nadu!</German>
+		<Italian>The Kalabhra dynasty has taken control of Tamil Nadu!</Italian>
+		<Spanish>The Kalabhra dynasty has taken control of Tamil Nadu!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_MACCABEES</Tag>
+		<English>Jewish religious zealots have attacked Jerusalem and vowed to cleanse its holy places of foreign influence!</English>
+		<French>Jewish religious zealots have attacked Jerusalem and vowed to cleanse its holy places of foreign influence!</French>
+		<German>Jewish religious zealots have attacked Jerusalem and vowed to cleanse its holy places of foreign influence!</German>
+		<Italian>Jewish religious zealots have attacked Jerusalem and vowed to cleanse its holy places of foreign influence!</Italian>
+		<Spanish>Jewish religious zealots have attacked Jerusalem and vowed to cleanse its holy places of foreign influence!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_HUNS_SCYTHIA</Tag>
+		<English>A fearsome nomad confederation known as the Huns has taken control of the Pontic Steppe!</English>
+		<French>A fearsome nomad confederation known as the Huns has taken control of the Pontic Steppe!</French>
+		<German>A fearsome nomad confederation known as the Huns has taken control of the Pontic Steppe!</German>
+		<Italian>A fearsome nomad confederation known as the Huns has taken control of the Pontic Steppe!</Italian>
+		<Spanish>A fearsome nomad confederation known as the Huns has taken control of the Pontic Steppe!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_HUNS_DACIA</Tag>
+		<English>The Huns are invading Dacia and Illyricum!</English>
+		<French>The Huns are invading Dacia and Illyricum!</French>
+		<German>The Huns are invading Dacia and Illyricum!</German>
+		<Italian>The Huns are invading Dacia and Illyricum!</Italian>
+		<Spanish>The Huns are invading Dacia and Illyricum!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_ROME</Tag>
+		<English>The armies of Rome have begun the conquest of Italy!</English>
+		<French>The armies of Rome have begun the conquest of Italy!</French>
+		<German>The armies of Rome have begun the conquest of Italy!</German>
+		<Italian>The armies of Rome have begun the conquest of Italy!</Italian>
+		<Spanish>The armies of Rome have begun the conquest of Italy!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_BYZANTINES</Tag>
+		<English>The unity of the Roman Empire is at an end! It has been divided into eastern and western halves.</English>
+		<French>The armies of Rome have completed the conquest of Italy!</French>
+		<German>The armies of Rome have completed the conquest of Italy!</German>
+		<Italian>The armies of Rome have completed the conquest of Italy!</Italian>
+		<Spanish>The armies of Rome have completed the conquest of Italy!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_PARTHIA</Tag>
+		<English>Mithridates of Parthia has revolted from Seleucid rule and invaded Persia!</English>
+		<French>Mithridates of Parthia has revolted from Seleucid rule and invaded Persia!</French>
+		<German>Mithridates of Parthia has revolted from Seleucid rule and invaded Persia!</German>
+		<Italian>Mithridates of Parthia has revolted from Seleucid rule and invaded Persia!</Italian>
+		<Spanish>Mithridates of Parthia has revolted from Seleucid rule and invaded Persia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_BACTRIA</Tag>
+		<English>The Greek armies in Bactria and Margiana have seceded from Seleucid control and declared their independence!</English>
+		<French>The Greek armies in Bactria and Margiana have seceded from Seleucid control and declared their independence!</French>
+		<German>The Greek armies in Bactria and Margiana have seceded from Seleucid control and declared their independence!</German>
+		<Italian>The Greek armies in Bactria and Margiana have seceded from Seleucid control and declared their independence!</Italian>
+		<Spanish>The Greek armies in Bactria and Margiana have seceded from Seleucid control and declared their independence!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_KUSHANS</Tag>
+		<English>The Kushans have pushed into northern India with the intent of establishing a permanent state!</English>
+		<French>The Kushans have pushed into northern India with the intent of establishing a permanent state!</French>
+		<German>The Kushans have pushed into northern India with the intent of establishing a permanent state!</German>
+		<Italian>The Kushans have pushed into northern India with the intent of establishing a permanent state!</Italian>
+		<Spanish>The Kushans have pushed into northern India with the intent of establishing a permanent state!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_HAN1</Tag>
+		<English>Civil war in China! The forces of Qin and Han struggle for mastery!</English>
+		<French>Civil war in China! The forces of Qin and Han struggle for mastery!</French>
+		<German>Civil war in China! The forces of Qin and Han struggle for mastery!</German>
+		<Italian>Civil war in China! The forces of Qin and Han struggle for mastery!</Italian>
+		<Spanish>Civil war in China! The forces of Qin and Han struggle for mastery!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_HAN2</Tag>
+		<English>Rebellion! Forces loyal to the Han faction threaten the unity of China!</English>
+		<French>Rebellion! Forces loyal to the Han faction threaten the unity of China!</French>
+		<German>Rebellion! Forces loyal to the Han faction threaten the unity of China!</German>
+		<Italian>Rebellion! Forces loyal to the Han faction threaten the unity of China!</Italian>
+		<Spanish>Rebellion! Forces loyal to the Han faction threaten the unity of China!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_MACEDON</Tag>
+		<English>The heirs of Antigonus are invading Greece!</English>
+		<French>The heirs of Antigonus are invading Greece!</French>
+		<German>The heirs of Antigonus are invading Greece!</German>
+		<Italian>The heirs of Antigonus are invading Greece!</Italian>
+		<Spanish>The heirs of Antigonus are invading Greece!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_GOGURYEO</Tag>
+		<English>A prince from Buyeo has founded an independent kingdom in Goguryeo!</English>
+		<French>A prince from Buyeo has founded an independent kingdom in Goguryeo!</French>
+		<German>A prince from Buyeo has founded an independent kingdom in Goguryeo!</German>
+		<Italian>A prince from Buyeo has founded an independent kingdom in Goguryeo!</Italian>
+		<Spanish>A prince from Buyeo has founded an independent kingdom in Goguryeo!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_VIETNAM</Tag>
+		<English>A great leader named Thuc Phan has united the Vietnamese kingdoms of Au Lac and Au Viet!</English>
+		<French>A great leader named Thuc Phan has united the Vietnamese kingdoms of Au Lac and Au Viet!</French>
+		<German>A great leader named Thuc Phan has united the Vietnamese kingdoms of Au Lac and Au Viet!</German>
+		<Italian>A great leader named Thuc Phan has united the Vietnamese kingdoms of Au Lac and Au Viet!</Italian>
+		<Spanish>A great leader named Thuc Phan has united the Vietnamese kingdoms of Au Lac and Au Viet!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_NEW_IMPLOSION</Tag>
+		<English>%s1 has lost much of its territory due to internal struggles!</English>
+		<French>%s1 has lost much of its territory due to internal struggles!</French>
+		<German>%s1 has lost much of its territory due to internal struggles!</German>
+		<Italian>%s1 has lost much of its territory due to internal struggles!</Italian>
+		<Spanish>%s1 has lost much of its territory due to internal struggles!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_NEW_IMPLOSION_YOU</Tag>
+		<English>Your empire is suffering from severe instability!</English>
+		<French>Your empire is suffering from severe instability!</French>
+		<German>Your empire is suffering from severe instability!</German>
+		<Italian>Your empire is suffering from severe instability!</Italian>
+		<Spanish>Your empire is suffering from severe instability!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_REVOLT</Tag>
+		<English>A revolt took place in the city of %s1_city!</English>
+		<French>A revolt took place in the city of %s1_city!</French>
+		<German>A revolt took place in the city of %s1_city!</German>
+		<Italian>A revolt took place in the city of %s1_city!</Italian>
+		<Spanish>A revolt took place in the city of %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITOR_REVOLT</Tag>
+		<English>A traitor has opened the gates of %s1_city! The city is in panic!</English>
+		<French>A traitor has opened the gates of %s1_city! The city is in panic!</French>
+		<German>A traitor has opened the gates of %s1_city! The city is in panic!</German>
+		<Italian>A traitor has opened the gates of %s1_city! The city is in panic!</Italian>
+		<Spanish>A traitor has opened the gates of %s1_city! The city is in panic!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_MASSACRE</Tag>
+		<English>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</English>
+		<French>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</French>
+		<German>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</German>
+		<Italian>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</Italian>
+		<Spanish>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_MASSACRE_OTHER</Tag>
+		<English>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</English>
+		<French>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</French>
+		<German>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</German>
+		<Italian>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</Italian>
+		<Spanish>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION</Tag>
+		<English>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</English>
+		<French>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</French>
+		<German>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</German>
+		<Italian>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</Italian>
+		<Spanish>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION_FAIL</Tag>
+		<English>Your inquisitor in %s1_city was unsuccessful.</English>
+		<French>Your inquisitor in %s1_city was unsuccessful.</French>
+		<German>Your inquisitor in %s1_city was unsuccessful.</German>
+		<Italian>Your inquisitor in %s1_city was unsuccessful.</Italian>
+		<Spanish>Your inquisitor in %s1_city was unsuccessful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION_GLOBAL</Tag>
+		<English>%s2_religion has been purged from %s1_city.</English>
+		<French>%s2_religion has been purged from %s1_city.</French>
+		<German>%s2_religion has been purged from %s1_city.</German>
+		<Italian>%s2_religion has been purged from %s1_city.</Italian>
+		<Spanish>%s2_religion has been purged from %s1_city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_JEWS</Tag>
+		<English>Jewish refugees settle in %s1_city.</English>
+		<French>Jewish refugees settle in %s1_city.</French>
+		<German>Jewish refugees settle in %s1_city.</German>
+		<Italian>Jewish refugees settle in %s1_city.</Italian>
+		<Spanish>Jewish refugees settle in %s1_city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_ICONOCLASTS_SPREAD</Tag>
+		<English>Iconoclasm has spread in %s1_city!</English>
+		<French>Iconoclasm has spread in %s1_city!</French>
+		<German>Iconoclasm has spread in %s1_city!</German>
+		<Italian>Iconoclasm has spread in %s1_city!</Italian>
+		<Spanish>Iconoclasm has spread in %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_HERESY</Tag>
+		<English>Heresy has spread in %s1_city!</English>
+		<French>Heresy has spread in %s1_city!</French>
+		<German>Heresy has spread in %s1_city!</German>
+		<Italian>Heresy has spread in %s1_city!</Italian>
+		<Spanish>Heresy has spread in %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_LIBYANS</Tag>
+		<English>A large force of Libyan tribesmen is on the march.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_NUMIDIANS</Tag>
+		<English>A large force of Numidian horsemen have assembled in the desert.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_SCYTHIANS</Tag>
+		<English>A large force of Scythian horsemen have assembled on the steppe.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_SARMATIANS</Tag>
+		<English>A large force of Sarmatian horsemen have assembled on the steppe.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_XIONGNU</Tag>
+		<English>A large force of Xiongnu horsemen have assembled on the steppe.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_KUSHANS</Tag>
+		<English>A mysterious people known as the Kushans, thought to be related to the Scyths and Sarmatians, are invading Central Asia!</English>
+		<French>A mysterious people known as the Kushans, thought to be related to the Scyths and Sarmatians, are invading Central Asia!</French>
+		<German>A mysterious people known as the Kushans, thought to be related to the Scyths and Sarmatians, are invading Central Asia!</German>
+		<Italian>A mysterious people known as the Kushans, thought to be related to the Scyths and Sarmatians, are invading Central Asia!</Italian>
+		<Spanish>A mysterious people known as the Kushans, thought to be related to the Scyths and Sarmatians, are invading Central Asia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_SAKAS</Tag>
+		<English>Hordes of Saka raiders are invading Iran and India!</English>
+		<French>Hordes of Saka raiders are invading Iran and India!</French>
+		<German>Hordes of Saka raiders are invading Iran and India!</German>
+		<Italian>Hordes of Saka raiders are invading Iran and India!</Italian>
+		<Spanish>Hordes of Saka raiders are invading Iran and India!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_HUNS1</Tag>
+		<English>A powerful new confederation known as the Huns has taken control of the Scythian steppe.</English>
+		<French>A new and powerful conferderation known as the Huns has taken control of the Scythian steppe.</French>
+		<German>A new and powerful conferderation known as the Huns has taken control of the Scythian steppe.</German>
+		<Italian>A new and powerful conferderation known as the Huns has taken control of the Scythian steppe.</Italian>
+		<Spanish>A new and powerful conferderation known as the Huns has taken control of the Scythian steppe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_ATILLA</Tag>
+		<English>The Huns have united under a single leader. He is called Atilla and he leads the most fearsome army ever seen!</English>
+		<French>The Huns have united under a single leader. He is called Atilla and he leads the most fearsome army ever seen!</French>
+		<German>The Huns have united under a single leader. He is called Atilla and he leads the most fearsome army ever seen!</German>
+		<Italian>The Huns have united under a single leader. He is called Atilla and he leads the most fearsome army ever seen!</Italian>
+		<Spanish>The Huns have united under a single leader. He is called Atilla and he leads the most fearsome army ever seen!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_406_WARNING</Tag>
+		<English>A giant horde of Asding Vandals, Siling Vandals, Marcomanni and Suevi, together with an army of Alans from the Stepppes of Scythia, have congregated north of the Alps. They are intent on plundering the cities of the Romans.</English>
+		<French>A giant horde of Asding Vandals, Siling Vandals, Marcomanni and Suevi, together with an army of Alans from the Stepppes of Scythia, have congregated north of the Alps. They are intent on plundering the cities of the Romans.</French>
+		<German>A giant horde of Asding Vandals, Siling Vandals, Marcomanni and Suevi, together with an army of Alans from the Stepppes of Scythia, have congregated north of the Alps. They are intent on plundering the cities of the Romans.</German>
+		<Italian>A giant horde of Asding Vandals, Siling Vandals, Marcomanni and Suevi, together with an army of Alans from the Stepppes of Scythia, have congregated north of the Alps. They are intent on plundering the cities of the Romans.</Italian>
+		<Spanish>A giant horde of Asding Vandals, Siling Vandals, Marcomanni and Suevi, together with an army of Alans from the Stepppes of Scythia, have congregated north of the Alps. They are intent on plundering the cities of the Romans.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_RESOURCE_EXHAUSTED</Tag>
+		<English>A source of [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] near %s2_CityName has been exhausted!</English>
+		<French>Notre source [NUM1:de:d'] [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] est perdue.</French>
+		<German>Verlust der Ressource [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT].</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] [NUM1:finito:finita].</Italian>
+		<Spanish>[NUM1:Se ha perdido el:Se ha perdido la:Se han perdido los:Se han perdido las] [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_SILK_GROWERS</Tag>
+		<English>%s3_civ_adjective [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT] growers open business near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_NEW_CROP</Tag>
+		<English>%s3_civ_adjective farmers begin planting [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_SUGAR</Tag>
+		<English>%s3_civ_adjective farmers begin planting [COLOR_HIGHLIGHT_TEXT]Sugar[COLOR_REVERT] cane near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_WHALES</Tag>
+		<English>%s3_civ_adjective sailors have spotted a new population of [COLOR_HIGHLIGHT_TEXT]Whales[COLOR_REVERT] near %s2_CityName!</English>
+		<French>Des marins ont rep&#233;r&#233; une nouvelle population de baleines.</French>
+		<German>Seeleute haben eine neue Walschule entdeckt.</German>
+		<Italian>I marinai hanno individuato una nuova popolazione di balene.</Italian>
+		<Spanish>Los marineros han avistado una nueva poblaci&#243;n de ballenas.</Spanish>
+	</TEXT>
+</Civ4GameText>

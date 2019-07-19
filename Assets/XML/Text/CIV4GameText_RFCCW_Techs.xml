@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHAINMAIL</Tag>
+		<English>Chainmail</English>
+		<French>Chainmail</French>
+		<German>Chainmail</German>
+		<Italian>Chainmail</Italian>
+		<Spanish>Chainmail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SCALE_ARMOR</Tag>
+		<English>Scale Armor</English>
+		<French>Scale Armor</French>
+		<German>Scale Armor</German>
+		<Italian>Scale Armor</Italian>
+		<Spanish>Scale Armor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CAVALRY_TACTICS</Tag>
+		<English>Cavalry Tactics</English>
+		<French>Cavalry Tactics</French>
+		<German>Cavalry Tactics</German>
+		<Italian>Cavalry Tactics</Italian>
+		<Spanish>Cavalry Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ELEPHANT_TRIANING</Tag>
+		<English>Elephant Training</English>
+		<French>Elephant Training</French>
+		<German>Elephant Training</German>
+		<Italian>Elephant Training</Italian>
+		<Spanish>Elephant Training</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FORTIFICATION</Tag>
+		<English>Fortification</English>
+		<French>Fortification</French>
+		<German>Fortification</German>
+		<Italian>Fortification</Italian>
+		<Spanish>Fortification</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LOGISTICS</Tag>
+		<English>Logistics</English>
+		<French>Logistics</French>
+		<German>Logistics</German>
+		<Italian>Logistics</Italian>
+		<Spanish>Logistics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER</Tag>
+		<English>Never</English>
+		<French>Never</French>
+		<German>Never</German>
+		<Italian>Never</Italian>
+		<Spanish>Never</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER_QUOTE</Tag>
+		<English>"Never gonna give you up. Never gonna let you down. Never gonna run around and desert you." - Rick Astley</English>
+		<French>"Never gonna give you up. Never gonna let you down. Never gonna run around and desert you." - Rick Astley</French>
+		<German>"Never gonna give you up. Never gonna let you down. Never gonna run around and desert you." - Rick Astley</German>
+		<Italian>"Never gonna give you up. Never gonna let you down. Never gonna run around and desert you." - Rick Astley</Italian>
+		<Spanish>"Never gonna give you up. Never gonna let you down. Never gonna run around and desert you." - Rick Astley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER_PEDIA</Tag>
+		<English>[TAB]This technology cannot be researched.</English>
+		<French>[TAB]This technology cannot be researched.</French>
+		<German>[TAB]This technology cannot be researched.</German>
+		<Italian>[TAB]This technology cannot be researched.</Italian>
+		<Spanish>[TAB]This technology cannot be researched.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SLAVERY</Tag>
+		<English>Slavery</English>
+		<French>Religious Architecture</French>
+		<German>Religious Architecture</German>
+		<Italian>Religious Architecture</Italian>
+		<Spanish>Religious Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORTICULTURE</Tag>
+		<English>Horticulture</English>
+		<French>Religious Architecture</French>
+		<German>Religious Architecture</German>
+		<Italian>Religious Architecture</Italian>
+		<Spanish>Religious Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JURISPRUDENCE</Tag>
+		<English>Jurisprudence</English>
+		<French>Religious Architecture</French>
+		<German>Religious Architecture</German>
+		<Italian>Religious Architecture</Italian>
+		<Spanish>Religious Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUTURE_TECH_II</Tag>
+		<English>something you will never have...</English>
+		<French>Religious Architecture</French>
+		<German>Religious Architecture</German>
+		<Italian>Religious Architecture</Italian>
+		<Spanish>Religious Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CROP_ROTATION</Tag>
+		<English>Crop Rotation</English>
+		<French>Religious Architecture</French>
+		<German>Religious Architecture</German>
+		<Italian>Religious Architecture</Italian>
+		<Spanish>Religious Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_ARCHITECTURE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_ARCHITECTURE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHERY</Tag>
+		<English>Archery</English>
+		<French>City Planning</French>
+		<German>City Planning</German>
+		<Italian>City Planning</Italian>
+		<Spanish>City Planning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CITY_PLANNING_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CITY_PLANNING_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIEGE_ENGINES</Tag>
+		<English>Siege Engines</English>
+		<French>Siege Engines</French>
+		<German>Siege Engines</German>
+		<Italian>Siege Engines</Italian>
+		<Spanish>Siege Engines</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_ORDNANCE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_ORDNANCE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARKSMANSHIP</Tag>
+		<English>Marksmanship</English>
+		<French>Patronage</French>
+		<German>Patronage</German>
+		<Italian>Patronage</Italian>
+		<Spanish>Patronage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PATRONAGE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PATRONAGE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AGRICULTURE</Tag>
+		<English>Agriculture</English>
+		<French>Asymmetric Warfare</French>
+		<German>Asymmetric Warfare</German>
+		<Italian>Asymmetric Warfare</Italian>
+		<Spanish>Asymmetric Warfare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASYMMETRIC_WARFARE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASYMMETRIC_WARFARE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORTICULTURE</Tag>
+		<English>Horticulture</English>
+		<French>Mechanical Engineering</French>
+		<German>Mechanical Engineering</German>
+		<Italian>Mechanical Engineering</Italian>
+		<Spanish>Mechanical Engineering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AUTOMATA_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AUTOMATA_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CROP_ROTATION</Tag>
+		<English>Crop Rotation</English>
+		<French>Textile Arts</French>
+		<German>Textile Arts</German>
+		<Italian>Textile Arts</Italian>
+		<Spanish>Textile Arts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEXTILE_ARTS_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEXTILE_ARTS_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASTE_SYSTEM</Tag>
+		<English>Caste System</English>
+		<French>Syncretism</French>
+		<German>Syncretism</German>
+		<Italian>Syncretism</Italian>
+		<Spanish>Syncretism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SYNCRETISM_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SYNCRETISM_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CALENDAR</Tag>
+		<English>Calendar</English>
+		<French>Cartography</French>
+		<German>Cartography</German>
+		<Italian>Cartography</Italian>
+		<Spanish>Cartography</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CARTOGRAPHY_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CARTOGRAPHY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WATER_MANAGEMENT</Tag>
+		<English>Water Management</English>
+		<French>Administrative Reforms</French>
+		<German>Administrative Reforms</German>
+		<Italian>Administrative Reforms</Italian>
+		<Spanish>Administrative Reforms</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ADMINISTRATIVE_REFORMS_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ADMINISTRATIVE_REFORMS_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AGRARIANISM</Tag>
+		<English>Agrarianism</English>
+		<French>Imperialism</French>
+		<German>Imperialism</German>
+		<Italian>Imperialism</Italian>
+		<Spanish>Imperialism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_IMPERIALISM_QUOTE</Tag>
+		<English>"A carpet is large enough to accommodate two sufis, but the world is not large enough for two Kings." - Yavuz Sultan Selim</English>
+		<French>"A carpet is large enough to accommodate two sufis, but the world is not large enough for two Kings." - Yavuz Sultan Selim</French>
+		<German>"A carpet is large enough to accommodate two sufis, but the world is not large enough for two Kings." - Yavuz Sultan Selim</German>
+		<Italian>"A carpet is large enough to accommodate two sufis, but the world is not large enough for two Kings." - Yavuz Sultan Selim</Italian>
+		<Spanish>"A carpet is large enough to accommodate two sufis, but the world is not large enough for two Kings." - Yavuz Sultan Selim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_IMPERIALISM_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THE_PLOUGH</Tag>
+		<English>The Plough</English>
+		<French>Economics</French>
+		<German>Economics</German>
+		<Italian>Economics</Italian>
+		<Spanish>Economics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARKET_ECONOMY_QUOTE</Tag>
+		<English>"Everything that is being bought and sold shall be measured by the dry measure, or by time, or in numbers."  - Al-Dimashqi</English>
+		<French>"Everything that is being bought and sold shall be measured by the dry measure, or by time, or in numbers."  - Al-Dimashqi</French>
+		<German>"Everything that is being bought and sold shall be measured by the dry measure, or by time, or in numbers."  - Al-Dimashqi</German>
+		<Italian>"Everything that is being bought and sold shall be measured by the dry measure, or by time, or in numbers."  - Al-Dimashqi</Italian>
+		<Spanish>"Everything that is being bought and sold shall be measured by the dry measure, or by time, or in numbers."  - Al-Dimashqi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARKET_ECONOMY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HUSBANDRY</Tag>
+		<English>Animal Husbandry</English>
+		<French>Islamic Learning</French>
+		<German>Islamic Learning</German>
+		<Italian>Islamic Learning</Italian>
+		<Spanish>Islamic Learning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ISLAMIC_LEARNING_QUOTE</Tag>
+		<English>"There is no wealth like knowledge, no poverty like ignorance." - Ali bin Abu-Talib</English>
+		<French>"There is no wealth like knowledge, no poverty like ignorance." - Ali bin Abu-Talib</French>
+		<German>"There is no wealth like knowledge, no poverty like ignorance." - Ali bin Abu-Talib</German>
+		<Italian>"There is no wealth like knowledge, no poverty like ignorance." - Ali bin Abu-Talib</Italian>
+		<Spanish>"There is no wealth like knowledge, no poverty like ignorance." - Ali bin Abu-Talib</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ISLAMIC_LEARNING_PEDIA</Tag>
+		<English>[TAB]The first major written Arabic work was the Qur'an, the holy book of the Islamic faith. With the spread of Islam, Arabic became the written language of the conquered lands, and Arabic became a major world language. During and after this period, people of many different ethnic origins used Arabic as their literary language. The first major literature to be written in this language was in the form of poetry, specifically qasidas, epic poems originally performed orally and akin to sagas of the Norse lands. These began to be written down during the Umayyad dynasty (661-750 AD). With the rise of the Abbasid dynasty (750-1258), the qasidas were joined by general writings known as adab, a word that now means literature, but then meant refinement. Adab referred to prose writing that educated and refined readers by providing information about the world around them and included essays and book-length works on such topics as language and style, the history of other peoples and nations, scientific subjects, intellectual and philosophical questions and human nature. While the Dark Ages held Europe in its grip of fear, superstition and ignorance, the lands of the Muslim World continued on, having translated the most important works of Western science, and added to this stockpile their continuing pursuit of knowledge. These Arabic texts, some from Cordovan Spain, but many more from plunder during the Crusades, allowed Europe to regain many secrets that they had previously lost.</English>
+		<French>[TAB]The first major written Arabic work was the Qur'an, the holy book of the Islamic faith. With the spread of Islam, Arabic became the written language of the conquered lands, and Arabic became a major world language. During and after this period, people of many different ethnic origins used Arabic as their literary language. The first major literature to be written in this language was in the form of poetry, specifically qasidas, epic poems originally performed orally and akin to sagas of the Norse lands. These began to be written down during the Umayyad dynasty (661-750 AD). With the rise of the Abbasid dynasty (750-1258), the qasidas were joined by general writings known as adab, a word that now means literature, but then meant refinement. Adab referred to prose writing that educated and refined readers by providing information about the world around them and included essays and book-length works on such topics as language and style, the history of other peoples and nations, scientific subjects, intellectual and philosophical questions and human nature. While the Dark Ages held Europe in its grip of fear, superstition and ignorance, the lands of the Muslim World continued on, having translated the most important works of Western science, and added to this stockpile their continuing pursuit of knowledge. These Arabic texts, some from Cordovan Spain, but many more from plunder during the Crusades, allowed Europe to regain many secrets that they had previously lost.</French>
+		<German>[TAB]The first major written Arabic work was the Qur'an, the holy book of the Islamic faith. With the spread of Islam, Arabic became the written language of the conquered lands, and Arabic became a major world language. During and after this period, people of many different ethnic origins used Arabic as their literary language. The first major literature to be written in this language was in the form of poetry, specifically qasidas, epic poems originally performed orally and akin to sagas of the Norse lands. These began to be written down during the Umayyad dynasty (661-750 AD). With the rise of the Abbasid dynasty (750-1258), the qasidas were joined by general writings known as adab, a word that now means literature, but then meant refinement. Adab referred to prose writing that educated and refined readers by providing information about the world around them and included essays and book-length works on such topics as language and style, the history of other peoples and nations, scientific subjects, intellectual and philosophical questions and human nature. While the Dark Ages held Europe in its grip of fear, superstition and ignorance, the lands of the Muslim World continued on, having translated the most important works of Western science, and added to this stockpile their continuing pursuit of knowledge. These Arabic texts, some from Cordovan Spain, but many more from plunder during the Crusades, allowed Europe to regain many secrets that they had previously lost.</German>
+		<Italian>[TAB]The first major written Arabic work was the Qur'an, the holy book of the Islamic faith. With the spread of Islam, Arabic became the written language of the conquered lands, and Arabic became a major world language. During and after this period, people of many different ethnic origins used Arabic as their literary language. The first major literature to be written in this language was in the form of poetry, specifically qasidas, epic poems originally performed orally and akin to sagas of the Norse lands. These began to be written down during the Umayyad dynasty (661-750 AD). With the rise of the Abbasid dynasty (750-1258), the qasidas were joined by general writings known as adab, a word that now means literature, but then meant refinement. Adab referred to prose writing that educated and refined readers by providing information about the world around them and included essays and book-length works on such topics as language and style, the history of other peoples and nations, scientific subjects, intellectual and philosophical questions and human nature. While the Dark Ages held Europe in its grip of fear, superstition and ignorance, the lands of the Muslim World continued on, having translated the most important works of Western science, and added to this stockpile their continuing pursuit of knowledge. These Arabic texts, some from Cordovan Spain, but many more from plunder during the Crusades, allowed Europe to regain many secrets that they had previously lost.</Italian>
+		<Spanish>[TAB]The first major written Arabic work was the Qur'an, the holy book of the Islamic faith. With the spread of Islam, Arabic became the written language of the conquered lands, and Arabic became a major world language. During and after this period, people of many different ethnic origins used Arabic as their literary language. The first major literature to be written in this language was in the form of poetry, specifically qasidas, epic poems originally performed orally and akin to sagas of the Norse lands. These began to be written down during the Umayyad dynasty (661-750 AD). With the rise of the Abbasid dynasty (750-1258), the qasidas were joined by general writings known as adab, a word that now means literature, but then meant refinement. Adab referred to prose writing that educated and refined readers by providing information about the world around them and included essays and book-length works on such topics as language and style, the history of other peoples and nations, scientific subjects, intellectual and philosophical questions and human nature. While the Dark Ages held Europe in its grip of fear, superstition and ignorance, the lands of the Muslim World continued on, having translated the most important works of Western science, and added to this stockpile their continuing pursuit of knowledge. These Arabic texts, some from Cordovan Spain, but many more from plunder during the Crusades, allowed Europe to regain many secrets that they had previously lost.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEMANSHIP</Tag>
+		<English>Horsemanship</English>
+		<French>Astronomy</French>
+		<German>Astronomy</German>
+		<Italian>Astronomy</Italian>
+		<Spanish>Astronomy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTRONOMY_QUOTE</Tag>
+		<English>"Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe."  - Alfonso X, King of Castile</English>
+		<French>"Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe."  - Alfonso X, King of Castile</French>
+		<German>"Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe."  - Alfonso X, King of Castile</German>
+		<Italian>"Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe."  - Alfonso X, King of Castile</Italian>
+		<Spanish>"Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe."  - Alfonso X, King of Castile</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SELECTIVE_BREEDING</Tag>
+		<English>Selective Breeding</English>
+		<French>Literature</French>
+		<German>Literature</German>
+		<Italian>Literature</Italian>
+		<Spanish>Literature</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LITERATURE_QUOTE</Tag>
+		<English>"Against the disease of writing one must take special precautions, since it is a dangerous and contagious disease."  - Peter Abelard</English>
+		<French>"Against the disease of writing one must take special precautions, since it is a dangerous and contagious disease."  - Peter Abelard</French>
+		<German>"Against the disease of writing one must take special precautions, since it is a dangerous and contagious disease."  - Peter Abelard</German>
+		<Italian>"Against the disease of writing one must take special precautions, since it is a dangerous and contagious disease."  - Peter Abelard</Italian>
+		<Spanish>"Against the disease of writing one must take special precautions, since it is a dangerous and contagious disease."  - Peter Abelard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THE_STIRRUP</Tag>
+		<English>The Stirrup</English>
+		<French>Paper</French>
+		<German>Paper</German>
+		<Italian>Paper</Italian>
+		<Spanish>Paper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PAPER_QUOTE</Tag>
+		<English>"Books have led some to learning and others to madness, when they swallow more than they can digest."  - Petrarch</English>
+		<French>"Books have led some to learning and others to madness, when they swallow more than they can digest."  - Petrarch</French>
+		<German>"Books have led some to learning and others to madness, when they swallow more than they can digest."  - Petrarch</German>
+		<Italian>"Books have led some to learning and others to madness, when they swallow more than they can digest."  - Petrarch</Italian>
+		<Spanish>"Books have led some to learning and others to madness, when they swallow more than they can digest."  - Petrarch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSE_ARCHERY</Tag>
+		<English>Horse Archery</English>
+		<French>Theology</French>
+		<German>Theology</German>
+		<Italian>Theology</Italian>
+		<Spanish>Theology</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY_QUOTE</Tag>
+		<English>"God, the supreme being, is neither circumscribed by space, nor touched by time; he cannot be found in a particular direction, and his essence cannot change."  - Avicenna</English>
+		<French>"God, the supreme being, is neither circumscribed by space, nor touched by time; he cannot be found in a particular direction, and his essence cannot change."  - Avicenna</French>
+		<German>"God, the supreme being, is neither circumscribed by space, nor touched by time; he cannot be found in a particular direction, and his essence cannot change."  - Avicenna</German>
+		<Italian>"God, the supreme being, is neither circumscribed by space, nor touched by time; he cannot be found in a particular direction, and his essence cannot change."  - Avicenna</Italian>
+		<Spanish>"God, the supreme being, is neither circumscribed by space, nor touched by time; he cannot be found in a particular direction, and his essence cannot change."  - Avicenna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FISHING</Tag>
+		<English>Fishing</English>
+		<French>Crucible Steel</French>
+		<German>Crucible Steel</German>
+		<Italian>Crucible Steel</Italian>
+		<Spanish>Crucible Steel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STEEL_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STEEL_PEDIA</Tag>
+		<English>[TAB]The smelting of iron in bloomeries probably began in Anatolia or the Caucasus in the second millennium BC or the latter part of the preceding one. Cast iron was first produced in China about 550 BC, but not in Europe until early in the second millennium AD. During the medieval period, means were found in Europe of producing wrought iron from cast iron (in this context known as pig iron) using finery forges. For all these processes, charcoal was required as fuel.</English>
+		<French>[TAB]The smelting of iron in bloomeries probably began in Anatolia or the Caucasus in the second millennium BC or the latter part of the preceding one. Cast iron was first produced in China about 550 BC, but not in Europe until early in the second millennium AD. During the medieval period, means were found in Europe of producing wrought iron from cast iron (in this context known as pig iron) using finery forges. For all these processes, charcoal was required as fuel.</French>
+		<German>[TAB]The smelting of iron in bloomeries probably began in Anatolia or the Caucasus in the second millennium BC or the latter part of the preceding one. Cast iron was first produced in China about 550 BC, but not in Europe until early in the second millennium AD. During the medieval period, means were found in Europe of producing wrought iron from cast iron (in this context known as pig iron) using finery forges. For all these processes, charcoal was required as fuel.</German>
+		<Italian>[TAB]The smelting of iron in bloomeries probably began in Anatolia or the Caucasus in the second millennium BC or the latter part of the preceding one. Cast iron was first produced in China about 550 BC, but not in Europe until early in the second millennium AD. During the medieval period, means were found in Europe of producing wrought iron from cast iron (in this context known as pig iron) using finery forges. For all these processes, charcoal was required as fuel.</Italian>
+		<Spanish>[TAB]The smelting of iron in bloomeries probably began in Anatolia or the Caucasus in the second millennium BC or the latter part of the preceding one. Cast iron was first produced in China about 550 BC, but not in Europe until early in the second millennium AD. During the medieval period, means were found in Europe of producing wrought iron from cast iron (in this context known as pig iron) using finery forges. For all these processes, charcoal was required as fuel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAILING</Tag>
+		<English>Sailing</English>
+		<French>Sailing</French>
+		<German>Sailing</German>
+		<Italian>Sailing</Italian>
+		<Spanish>Sailing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CIVIL_SERVICE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_WARFARE</Tag>
+		<English>Naval Warfare</English>
+		<French>Naval Warfare</French>
+		<German>Naval Warfare</German>
+		<Italian>Naval Warfare</Italian>
+		<Spanish>Naval Warfare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STERN_RUDDER</Tag>
+		<English>Stern Rudder</English>
+		<French>Stern Rudder</French>
+		<German>Stern Rudder</German>
+		<Italian>Stern Rudder</Italian>
+		<Spanish>Stern Rudder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVIGATION</Tag>
+		<English>Navigation</English>
+		<French>Agricultural Science</French>
+		<German>Agricultural Science</German>
+		<Italian>Agricultural Science</Italian>
+		<Spanish>Agricultural Science</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTROLABE</Tag>
+		<English>Astrolabe</English>
+		<French>Astrolabe</French>
+		<German>Astrolabe</German>
+		<Italian>Astrolabe</Italian>
+		<Spanish>Astrolabe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POTTERY</Tag>
+		<English>Pottery</English>
+		<French>Pottery</French>
+		<German>Pottery</German>
+		<Italian>Pottery</Italian>
+		<Spanish>Pottery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MASONRY</Tag>
+		<English>Masonry</English>
+		<French>Masonry</French>
+		<German>Masonry</German>
+		<Italian>Masonry</Italian>
+		<Spanish>Masonry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CONSTRUCTION</Tag>
+		<English>Construction</English>
+		<French>Construction</French>
+		<German>Construction</German>
+		<Italian>Construction</Italian>
+		<Spanish>Construction</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ENGINEERING</Tag>
+		<English>Engineering</English>
+		<French>Engineering</French>
+		<German>Engineering</German>
+		<Italian>Engineering</Italian>
+		<Spanish>Engineering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SANITATION</Tag>
+		<English>Sanitation</English>
+		<French>Sanitation</French>
+		<German>Sanitation</German>
+		<Italian>Sanitation</Italian>
+		<Spanish>Sanitation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MACHINERY</Tag>
+		<English>Machinery</English>
+		<French>Machinery</French>
+		<German>Machinery</German>
+		<Italian>Machinery</Italian>
+		<Spanish>Machinery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDICINE</Tag>
+		<English>Medicine</English>
+		<French>Medicine</French>
+		<German>Medicine</German>
+		<Italian>Medicine</Italian>
+		<Spanish>Medicine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHITECTURE</Tag>
+		<English>Architecture</English>
+		<French>Architecture</French>
+		<German>Architecture</German>
+		<Italian>Architecture</Italian>
+		<Spanish>Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARKSMANSHIP_QUOTE</Tag>
+		<English>"Do not throw the arrow which will return against you." - Kurdish Proverb</English>
+		<French>"Do not throw the arrow which will return against you." - Kurdish Proverb</French>
+		<German>"Do not throw the arrow which will return against you." - Kurdish Proverb</German>
+		<Italian>"Do not throw the arrow which will return against you." - Kurdish Proverb</Italian>
+		<Spanish>"Do not throw the arrow which will return against you." - Kurdish Proverb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARKSMANSHIP_PEDIA</Tag>
+		<English>[TAB]During the Middle Ages, archery in warfare was not as prevalent and dominant in Western Europe as popular myth dictates. Archers were quite often the lowest-paid soldiers in an army or were conscripted from the peasantry. This was due to the cheap nature of the bow and arrow, as compared to the expense needed to equip a professional man-at-arms with good armour and a sword. Professional archers required a lifetime of training and expensive bows to be effective, and were thus rare in Europe.</English>
+		<French>[TAB]During the Middle Ages, archery in warfare was not as prevalent and dominant in Western Europe as popular myth dictates. Archers were quite often the lowest-paid soldiers in an army or were conscripted from the peasantry. This was due to the cheap nature of the bow and arrow, as compared to the expense needed to equip a professional man-at-arms with good armour and a sword. Professional archers required a lifetime of training and expensive bows to be effective, and were thus rare in Europe.</French>
+		<German>[TAB]During the Middle Ages, archery in warfare was not as prevalent and dominant in Western Europe as popular myth dictates. Archers were quite often the lowest-paid soldiers in an army or were conscripted from the peasantry. This was due to the cheap nature of the bow and arrow, as compared to the expense needed to equip a professional man-at-arms with good armour and a sword. Professional archers required a lifetime of training and expensive bows to be effective, and were thus rare in Europe.</German>
+		<Italian>[TAB]During the Middle Ages, archery in warfare was not as prevalent and dominant in Western Europe as popular myth dictates. Archers were quite often the lowest-paid soldiers in an army or were conscripted from the peasantry. This was due to the cheap nature of the bow and arrow, as compared to the expense needed to equip a professional man-at-arms with good armour and a sword. Professional archers required a lifetime of training and expensive bows to be effective, and were thus rare in Europe.</Italian>
+		<Spanish>[TAB]During the Middle Ages, archery in warfare was not as prevalent and dominant in Western Europe as popular myth dictates. Archers were quite often the lowest-paid soldiers in an army or were conscripted from the peasantry. This was due to the cheap nature of the bow and arrow, as compared to the expense needed to equip a professional man-at-arms with good armour and a sword. Professional archers required a lifetime of training and expensive bows to be effective, and were thus rare in Europe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PAPER</Tag>
+		<English>Paper</English>
+		<French>Paper</French>
+		<German>Paper</German>
+		<Italian>Paper</Italian>
+		<Spanish>Paper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CAVALRY_TACTICS_QUOTE</Tag>
+		<English>"They swept through the city like hungry falcons attacking a flight of doves... with loose reins and shameless faces, murdering and spreading terror."  - Abdullah Wassaf on the Mongol Siege of Baghdad</English>
+		<French>"They swept through the city like hungry falcons attacking a flight of doves... with loose reins and shameless faces, murdering and spreading terror."  - Abdullah Wassaf on the Mongol Siege of Baghdad</French>
+		<German>"They swept through the city like hungry falcons attacking a flight of doves... with loose reins and shameless faces, murdering and spreading terror."  - Abdullah Wassaf on the Mongol Siege of Baghdad</German>
+		<Italian>"They swept through the city like hungry falcons attacking a flight of doves... with loose reins and shameless faces, murdering and spreading terror."  - Abdullah Wassaf on the Mongol Siege of Baghdad</Italian>
+		<Spanish>"They swept through the city like hungry falcons attacking a flight of doves... with loose reins and shameless faces, murdering and spreading terror."  - Abdullah Wassaf on the Mongol Siege of Baghdad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CAVALRY_TACTICS_PEDIA</Tag>
+		<English>[TAB]Medieval European knights attacked in several different ways, implementing shock tactics if possible, but always in formations of several knights, not individually. For defense and melee a formation of horsemen was as tight as possible next to each other in a line. This preventing their enemy from charging, and also from surrounding them individually. With their heavy and armoured chargers knights trampled through the enemy infantry. The most devastating charging method was to ride in a looser formation fast into attack. This attack was often protected by simultaneous or shortly preceding ranged attacks of archers or crossbowmen. The attack began from a distance of about 350 metres and took about 15-20 seconds to cross the contemporary long range weapon's effective distance. A most important element, and one not easily mastered, was to stay in one line with fixed spaces while accelerating and having the maximum speed at impact. Often knights would come in several waves, with the first being the best equipped and armored. The lance as primary weapon pierced the enemy. If an enemy soldier was hit in full gallop by a knight's lance embedded under the armpit, he was thrown backwards with such a momentum that he knocked over several of his compatriots. The heavy lances were dropped after the attack and the battle was continued with secondary weapons (sword, axe, mace or likewise).</English>
+		<French>[TAB]Medieval European knights attacked in several different ways, implementing shock tactics if possible, but always in formations of several knights, not individually. For defense and melee a formation of horsemen was as tight as possible next to each other in a line. This preventing their enemy from charging, and also from surrounding them individually. With their heavy and armoured chargers knights trampled through the enemy infantry. The most devastating charging method was to ride in a looser formation fast into attack. This attack was often protected by simultaneous or shortly preceding ranged attacks of archers or crossbowmen. The attack began from a distance of about 350 metres and took about 15-20 seconds to cross the contemporary long range weapon's effective distance. A most important element, and one not easily mastered, was to stay in one line with fixed spaces while accelerating and having the maximum speed at impact. Often knights would come in several waves, with the first being the best equipped and armored. The lance as primary weapon pierced the enemy. If an enemy soldier was hit in full gallop by a knight's lance embedded under the armpit, he was thrown backwards with such a momentum that he knocked over several of his compatriots. The heavy lances were dropped after the attack and the battle was continued with secondary weapons (sword, axe, mace or likewise).</French>
+		<German>[TAB]Medieval European knights attacked in several different ways, implementing shock tactics if possible, but always in formations of several knights, not individually. For defense and melee a formation of horsemen was as tight as possible next to each other in a line. This preventing their enemy from charging, and also from surrounding them individually. With their heavy and armoured chargers knights trampled through the enemy infantry. The most devastating charging method was to ride in a looser formation fast into attack. This attack was often protected by simultaneous or shortly preceding ranged attacks of archers or crossbowmen. The attack began from a distance of about 350 metres and took about 15-20 seconds to cross the contemporary long range weapon's effective distance. A most important element, and one not easily mastered, was to stay in one line with fixed spaces while accelerating and having the maximum speed at impact. Often knights would come in several waves, with the first being the best equipped and armored. The lance as primary weapon pierced the enemy. If an enemy soldier was hit in full gallop by a knight's lance embedded under the armpit, he was thrown backwards with such a momentum that he knocked over several of his compatriots. The heavy lances were dropped after the attack and the battle was continued with secondary weapons (sword, axe, mace or likewise).</German>
+		<Italian>[TAB]Medieval European knights attacked in several different ways, implementing shock tactics if possible, but always in formations of several knights, not individually. For defense and melee a formation of horsemen was as tight as possible next to each other in a line. This preventing their enemy from charging, and also from surrounding them individually. With their heavy and armoured chargers knights trampled through the enemy infantry. The most devastating charging method was to ride in a looser formation fast into attack. This attack was often protected by simultaneous or shortly preceding ranged attacks of archers or crossbowmen. The attack began from a distance of about 350 metres and took about 15-20 seconds to cross the contemporary long range weapon's effective distance. A most important element, and one not easily mastered, was to stay in one line with fixed spaces while accelerating and having the maximum speed at impact. Often knights would come in several waves, with the first being the best equipped and armored. The lance as primary weapon pierced the enemy. If an enemy soldier was hit in full gallop by a knight's lance embedded under the armpit, he was thrown backwards with such a momentum that he knocked over several of his compatriots. The heavy lances were dropped after the attack and the battle was continued with secondary weapons (sword, axe, mace or likewise).</Italian>
+		<Spanish>[TAB]Medieval European knights attacked in several different ways, implementing shock tactics if possible, but always in formations of several knights, not individually. For defense and melee a formation of horsemen was as tight as possible next to each other in a line. This preventing their enemy from charging, and also from surrounding them individually. With their heavy and armoured chargers knights trampled through the enemy infantry. The most devastating charging method was to ride in a looser formation fast into attack. This attack was often protected by simultaneous or shortly preceding ranged attacks of archers or crossbowmen. The attack began from a distance of about 350 metres and took about 15-20 seconds to cross the contemporary long range weapon's effective distance. A most important element, and one not easily mastered, was to stay in one line with fixed spaces while accelerating and having the maximum speed at impact. Often knights would come in several waves, with the first being the best equipped and armored. The lance as primary weapon pierced the enemy. If an enemy soldier was hit in full gallop by a knight's lance embedded under the armpit, he was thrown backwards with such a momentum that he knocked over several of his compatriots. The heavy lances were dropped after the attack and the battle was continued with secondary weapons (sword, axe, mace or likewise).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRINTING_PRESS</Tag>
+		<English>Printing Press</English>
+		<French>Printing Press</French>
+		<German>Printing Press</German>
+		<Italian>Printing Press</Italian>
+		<Spanish>Printing Press</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEMANSHIP_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEMANSHIP_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EDUCATION</Tag>
+		<English>Education</English>
+		<French>Bridge Building</French>
+		<German>Bridge Building</German>
+		<Italian>Bridge Building</Italian>
+		<Spanish>Bridge Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BRIDGE_BUILDING_PEDIA</Tag>
+		<English>[TAB]The first bridges were spans made of wooden logs or planks and eventually stones, using a simple support and crossbeam arrangement. The arch was first used by the Roman Empire for bridges and aqueducts, some of which still stand today. Much of the Roman knowledge disappeared during the Dark Ages, but was gradually rediscovered in the Middle Ages.</English>
+		<French>[TAB]The first bridges were spans made of wooden logs or planks and eventually stones, using a simple support and crossbeam arrangement. The arch was first used by the Roman Empire for bridges and aqueducts, some of which still stand today. Much of the Roman knowledge disappeared during the Dark Ages, but was gradually rediscovered in the Middle Ages.</French>
+		<German>[TAB]The first bridges were spans made of wooden logs or planks and eventually stones, using a simple support and crossbeam arrangement. The arch was first used by the Roman Empire for bridges and aqueducts, some of which still stand today. Much of the Roman knowledge disappeared during the Dark Ages, but was gradually rediscovered in the Middle Ages.</German>
+		<Italian>[TAB]The first bridges were spans made of wooden logs or planks and eventually stones, using a simple support and crossbeam arrangement. The arch was first used by the Roman Empire for bridges and aqueducts, some of which still stand today. Much of the Roman knowledge disappeared during the Dark Ages, but was gradually rediscovered in the Middle Ages.</Italian>
+		<Spanish>[TAB]The first bridges were spans made of wooden logs or planks and eventually stones, using a simple support and crossbeam arrangement. The arch was first used by the Roman Empire for bridges and aqueducts, some of which still stand today. Much of the Roman knowledge disappeared during the Dark Ages, but was gradually rediscovered in the Middle Ages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BUREAUCRACY</Tag>
+		<English>Bureaucracy</English>
+		<French>Mosaic Art</French>
+		<German>Mosaic Art</German>
+		<Italian>Mosaic Art</Italian>
+		<Spanish>Mosaic Art</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOSAIC_ART_QUOTE</Tag>
+		<English>"A man who works with his hands is a laborer; a man who works with his hands and his mind is a craftsman; but a man who works with his hands and his brain and his heart is an artist."  - Thomas Aquinas</English>
+		<French>"A man who works with his hands is a laborer; a man who works with his hands and his mind is a craftsman; but a man who works with his hands and his brain and his heart is an artist."  - Thomas Aquinas</French>
+		<German>"A man who works with his hands is a laborer; a man who works with his hands and his mind is a craftsman; but a man who works with his hands and his brain and his heart is an artist."  - Thomas Aquinas</German>
+		<Italian>"A man who works with his hands is a laborer; a man who works with his hands and his mind is a craftsman; but a man who works with his hands and his brain and his heart is an artist."  - Thomas Aquinas</Italian>
+		<Spanish>"A man who works with his hands is a laborer; a man who works with his hands and his mind is a craftsman; but a man who works with his hands and his brain and his heart is an artist."  - Thomas Aquinas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOSAIC_ART_PEDIA</Tag>
+		<English>[TAB]Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. Mosaics have been used to decorate buildings, especially those of religious nature, by most major cultures, but they were of particular importance in Byzantine, Persian and Islamic art. Walls and domes of the Palace of Constantinople, Hagia Sophia, the Dome of the Rock, the Umayyad Mosque and the Shah Mosque were all extensively covered by mosaics.</English>
+		<French>[TAB]Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. Mosaics have been used to decorate buildings, especially those of religious nature, by most major cultures, but they were of particular importance in Byzantine, Persian and Islamic art. Walls and domes of the Palace of Constantinople, Hagia Sophia, the Dome of the Rock, the Umayyad Mosque and the Shah Mosque were all extensively covered by mosaics.</French>
+		<German>[TAB]Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. Mosaics have been used to decorate buildings, especially those of religious nature, by most major cultures, but they were of particular importance in Byzantine, Persian and Islamic art. Walls and domes of the Palace of Constantinople, Hagia Sophia, the Dome of the Rock, the Umayyad Mosque and the Shah Mosque were all extensively covered by mosaics.</German>
+		<Italian>[TAB]Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. Mosaics have been used to decorate buildings, especially those of religious nature, by most major cultures, but they were of particular importance in Byzantine, Persian and Islamic art. Walls and domes of the Palace of Constantinople, Hagia Sophia, the Dome of the Rock, the Umayyad Mosque and the Shah Mosque were all extensively covered by mosaics.</Italian>
+		<Spanish>[TAB]Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. Mosaics have been used to decorate buildings, especially those of religious nature, by most major cultures, but they were of particular importance in Byzantine, Persian and Islamic art. Walls and domes of the Palace of Constantinople, Hagia Sophia, the Dome of the Rock, the Umayyad Mosque and the Shah Mosque were all extensively covered by mosaics.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LUXURY_TRADE</Tag>
+		<English>Luxury Trade</English>
+		<French>Religious Unity</French>
+		<German>Religious Unity</German>
+		<Italian>Religious Unity</Italian>
+		<Spanish>Religious Unity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_UNITY_QUOTE</Tag>
+		<English>"Kill them all. For the Lord knows them that are His."  - Arnaud Amalric, Abbot of Citeaux</English>
+		<French>"Kill them all. For the Lord knows them that are His."  - Arnaud Amalric, Abbot of Citeaux</French>
+		<German>"Kill them all. For the Lord knows them that are His."  - Arnaud Amalric, Abbot of Citeaux</German>
+		<Italian>"Kill them all. For the Lord knows them that are His."  - Arnaud Amalric, Abbot of Citeaux</Italian>
+		<Spanish>"Kill them all. For the Lord knows them that are His."  - Arnaud Amalric, Abbot of Citeaux</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_UNITY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MONARCHY</Tag>
+		<English>Monarchy</English>
+		<French>Siege Warfare</French>
+		<German>Siege Warfare</German>
+		<Italian>Siege Warfare</Italian>
+		<Spanish>Siege Warfare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIEGE_WARFARE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_VASSALAGE</Tag>
+		<English>Vassalage</English>
+		<French>Religious Philosophy</French>
+		<German>Religious Philosophy</German>
+		<Italian>Religious Philosophy</Italian>
+		<Spanish>Religious Philosophy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_QUOTE</Tag>
+		<English>"No more things should be presumed to exist than are absolutely necessary."  - William of Ockham</English>
+		<French>"No more things should be presumed to exist than are absolutely necessary."  - William of Ockham</French>
+		<German>"No more things should be presumed to exist than are absolutely necessary."  - William of Ockham</German>
+		<Italian>"No more things should be presumed to exist than are absolutely necessary."  - William of Ockham</Italian>
+		<Spanish>"No more things should be presumed to exist than are absolutely necessary."  - William of Ockham</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SERFDOM</Tag>
+		<English>Serfdom</English>
+		<French>Pilgrimage</French>
+		<German>Pilgrimage</German>
+		<Italian>Pilgrimage</Italian>
+		<Spanish>Pilgrimage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PILGRIMAGE_QUOTE</Tag>
+		<English>"And what is better than wisdom? Woman. And what is better than a good woman? Nothing."  - Canterbury Tales by Geoffrey Chaucer</English>
+		<French>"And what is better than wisdom? Woman. And what is better than a good woman? Nothing."  - Canterbury Tales by Geoffrey Chaucer</French>
+		<German>"And what is better than wisdom? Woman. And what is better than a good woman? Nothing."  - Canterbury Tales by Geoffrey Chaucer</German>
+		<Italian>"And what is better than wisdom? Woman. And what is better than a good woman? Nothing."  - Canterbury Tales by Geoffrey Chaucer</Italian>
+		<Spanish>"And what is better than wisdom? Woman. And what is better than a good woman? Nothing."  - Canterbury Tales by Geoffrey Chaucer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PILGRIMAGE_PEDIA</Tag>
+		<English>[TAB]In religion and spirituality, a pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's beliefs and faith. Members of every major religion participate in pilgrimages. A person who makes such a journey is called a pilgrim. [PARAGRAPH:2]In the Middle Ages, even as early as the 4th century AD, Christian pilgrimage was regarded as a sacred obligation and a trial of one's faith, since travel was dangerous, expensive and time-consuming. A returning pilgrim was called a palmer, as they would wear two crossed palm leaves to show they had made the pilgrimage. [PARAGRAPH:2]Pilgrimage to Mecca – the hajj – is one of the Five Pillars of Islam. It should be attempted at least once in the lifetime of all able-bodied Muslims who can afford. [PARAGRAPH:2]Pilgrims contributed an important element to long-distance trade before the modern era, and brought prosperity to successful pilgrimage sites, an economic phenomenon unequalled until the tourist trade of the 20th century. Encouraging pilgrims was a motivation for assembling (and sometimes fabricating) relics and for writing hagiographies of local saints, filled with inspiring accounts of miracle cures. Lourdes and other modern pilgrimage sites keep this spirit alive.</English>
+		<French>[TAB]In religion and spirituality, a pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's beliefs and faith. Members of every major religion participate in pilgrimages. A person who makes such a journey is called a pilgrim. [PARAGRAPH:2]In the Middle Ages, even as early as the 4th century AD, Christian pilgrimage was regarded as a sacred obligation and a trial of one's faith, since travel was dangerous, expensive and time-consuming. A returning pilgrim was called a palmer, as they would wear two crossed palm leaves to show they had made the pilgrimage. [PARAGRAPH:2]Pilgrimage to Mecca – the hajj – is one of the Five Pillars of Islam. It should be attempted at least once in the lifetime of all able-bodied Muslims who can afford. [PARAGRAPH:2]Pilgrims contributed an important element to long-distance trade before the modern era, and brought prosperity to successful pilgrimage sites, an economic phenomenon unequalled until the tourist trade of the 20th century. Encouraging pilgrims was a motivation for assembling (and sometimes fabricating) relics and for writing hagiographies of local saints, filled with inspiring accounts of miracle cures. Lourdes and other modern pilgrimage sites keep this spirit alive.</French>
+		<German>[TAB]In religion and spirituality, a pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's beliefs and faith. Members of every major religion participate in pilgrimages. A person who makes such a journey is called a pilgrim. [PARAGRAPH:2]In the Middle Ages, even as early as the 4th century AD, Christian pilgrimage was regarded as a sacred obligation and a trial of one's faith, since travel was dangerous, expensive and time-consuming. A returning pilgrim was called a palmer, as they would wear two crossed palm leaves to show they had made the pilgrimage. [PARAGRAPH:2]Pilgrimage to Mecca – the hajj – is one of the Five Pillars of Islam. It should be attempted at least once in the lifetime of all able-bodied Muslims who can afford. [PARAGRAPH:2]Pilgrims contributed an important element to long-distance trade before the modern era, and brought prosperity to successful pilgrimage sites, an economic phenomenon unequalled until the tourist trade of the 20th century. Encouraging pilgrims was a motivation for assembling (and sometimes fabricating) relics and for writing hagiographies of local saints, filled with inspiring accounts of miracle cures. Lourdes and other modern pilgrimage sites keep this spirit alive.</German>
+		<Italian>[TAB]In religion and spirituality, a pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's beliefs and faith. Members of every major religion participate in pilgrimages. A person who makes such a journey is called a pilgrim. [PARAGRAPH:2]In the Middle Ages, even as early as the 4th century AD, Christian pilgrimage was regarded as a sacred obligation and a trial of one's faith, since travel was dangerous, expensive and time-consuming. A returning pilgrim was called a palmer, as they would wear two crossed palm leaves to show they had made the pilgrimage. [PARAGRAPH:2]Pilgrimage to Mecca – the hajj – is one of the Five Pillars of Islam. It should be attempted at least once in the lifetime of all able-bodied Muslims who can afford. [PARAGRAPH:2]Pilgrims contributed an important element to long-distance trade before the modern era, and brought prosperity to successful pilgrimage sites, an economic phenomenon unequalled until the tourist trade of the 20th century. Encouraging pilgrims was a motivation for assembling (and sometimes fabricating) relics and for writing hagiographies of local saints, filled with inspiring accounts of miracle cures. Lourdes and other modern pilgrimage sites keep this spirit alive.</Italian>
+		<Spanish>[TAB]In religion and spirituality, a pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's beliefs and faith. Members of every major religion participate in pilgrimages. A person who makes such a journey is called a pilgrim. [PARAGRAPH:2]In the Middle Ages, even as early as the 4th century AD, Christian pilgrimage was regarded as a sacred obligation and a trial of one's faith, since travel was dangerous, expensive and time-consuming. A returning pilgrim was called a palmer, as they would wear two crossed palm leaves to show they had made the pilgrimage. [PARAGRAPH:2]Pilgrimage to Mecca – the hajj – is one of the Five Pillars of Islam. It should be attempted at least once in the lifetime of all able-bodied Muslims who can afford. [PARAGRAPH:2]Pilgrims contributed an important element to long-distance trade before the modern era, and brought prosperity to successful pilgrimage sites, an economic phenomenon unequalled until the tourist trade of the 20th century. Encouraging pilgrims was a motivation for assembling (and sometimes fabricating) relics and for writing hagiographies of local saints, filled with inspiring accounts of miracle cures. Lourdes and other modern pilgrimage sites keep this spirit alive.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STATE_RELIGION</Tag>
+		<English>State Religion</English>
+		<French>Levy Armies</French>
+		<German>Levy Armies</German>
+		<Italian>Levy Armies</Italian>
+		<Spanish>Levy Armies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LEVY_ARMIES</Tag>
+		<English>Levy Armies</English>
+		<French>Levy Armies</French>
+		<German>Levy Armies</German>
+		<Italian>Levy Armies</Italian>
+		<Spanish>Levy Armies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LEVY_ARMIES_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LEVY_ARMIES_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDIEVAL_COMBAT_PEDIA</Tag>
+		<English>[TAB]After the collapse of the Roman Empire in Europe and the subsequent loss of the Legions, local nobles realized that the ordered tactics of the Romans were something better than the disorganized style of warfare of the Celts and other tribes that had preceded them and set about ways of emulating them. Since the bonds of kinship and local loyalty were more important to the average European than the bonds of nation-state, most medieval combat units were made up of people from one locality, under the command of a local noble. These local units were important to the areas they came from in that they could keep the incessant bandit raids that accompanied the collapse of the Empire, but could also be called up by a more powerful noble to operate in an army if one was needed. These units were trained in various combat maneuvers and operated with discipline that, while not up to Legionary standards, was still a far cry from the wild screaming charge that was the hallmark of ancient warfare in Europe, and the addition of heavy armor to common infantry troops, until this period unthinkable in Europe, was a dramatic leap forward for unit survivability. This step in military organization led to a non-noble warrior culture in Europe and paved the way for standing professional armies.</English>
+		<French>[TAB]After the collapse of the Roman Empire in Europe and the subsequent loss of the Legions, local nobles realized that the ordered tactics of the Romans were something better than the disorganized style of warfare of the Celts and other tribes that had preceded them and set about ways of emulating them. Since the bonds of kinship and local loyalty were more important to the average European than the bonds of nation-state, most medieval combat units were made up of people from one locality, under the command of a local noble. These local units were important to the areas they came from in that they could keep the incessant bandit raids that accompanied the collapse of the Empire, but could also be called up by a more powerful noble to operate in an army if one was needed. These units were trained in various combat maneuvers and operated with discipline that, while not up to Legionary standards, was still a far cry from the wild screaming charge that was the hallmark of ancient warfare in Europe, and the addition of heavy armor to common infantry troops, until this period unthinkable in Europe, was a dramatic leap forward for unit survivability. This step in military organization led to a non-noble warrior culture in Europe and paved the way for standing professional armies.</French>
+		<German>[TAB]After the collapse of the Roman Empire in Europe and the subsequent loss of the Legions, local nobles realized that the ordered tactics of the Romans were something better than the disorganized style of warfare of the Celts and other tribes that had preceded them and set about ways of emulating them. Since the bonds of kinship and local loyalty were more important to the average European than the bonds of nation-state, most medieval combat units were made up of people from one locality, under the command of a local noble. These local units were important to the areas they came from in that they could keep the incessant bandit raids that accompanied the collapse of the Empire, but could also be called up by a more powerful noble to operate in an army if one was needed. These units were trained in various combat maneuvers and operated with discipline that, while not up to Legionary standards, was still a far cry from the wild screaming charge that was the hallmark of ancient warfare in Europe, and the addition of heavy armor to common infantry troops, until this period unthinkable in Europe, was a dramatic leap forward for unit survivability. This step in military organization led to a non-noble warrior culture in Europe and paved the way for standing professional armies.</German>
+		<Italian>[TAB]After the collapse of the Roman Empire in Europe and the subsequent loss of the Legions, local nobles realized that the ordered tactics of the Romans were something better than the disorganized style of warfare of the Celts and other tribes that had preceded them and set about ways of emulating them. Since the bonds of kinship and local loyalty were more important to the average European than the bonds of nation-state, most medieval combat units were made up of people from one locality, under the command of a local noble. These local units were important to the areas they came from in that they could keep the incessant bandit raids that accompanied the collapse of the Empire, but could also be called up by a more powerful noble to operate in an army if one was needed. These units were trained in various combat maneuvers and operated with discipline that, while not up to Legionary standards, was still a far cry from the wild screaming charge that was the hallmark of ancient warfare in Europe, and the addition of heavy armor to common infantry troops, until this period unthinkable in Europe, was a dramatic leap forward for unit survivability. This step in military organization led to a non-noble warrior culture in Europe and paved the way for standing professional armies.</Italian>
+		<Spanish>[TAB]After the collapse of the Roman Empire in Europe and the subsequent loss of the Legions, local nobles realized that the ordered tactics of the Romans were something better than the disorganized style of warfare of the Celts and other tribes that had preceded them and set about ways of emulating them. Since the bonds of kinship and local loyalty were more important to the average European than the bonds of nation-state, most medieval combat units were made up of people from one locality, under the command of a local noble. These local units were important to the areas they came from in that they could keep the incessant bandit raids that accompanied the collapse of the Empire, but could also be called up by a more powerful noble to operate in an army if one was needed. These units were trained in various combat maneuvers and operated with discipline that, while not up to Legionary standards, was still a far cry from the wild screaming charge that was the hallmark of ancient warfare in Europe, and the addition of heavy armor to common infantry troops, until this period unthinkable in Europe, was a dramatic leap forward for unit survivability. This step in military organization led to a non-noble warrior culture in Europe and paved the way for standing professional armies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CURRENCY</Tag>
+		<English>Currency</English>
+		<French>Plantation</French>
+		<German>Plantation</German>
+		<Italian>Plantation</Italian>
+		<Spanish>Plantation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PLANTATION_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PLANTATION_PEDIA</Tag>
+		<English>[TAB]A plantation is an intentional planting of a crop, on a larger scale, usually for uses other than cereal production or pasture. The term is most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming. Crops may be called plantation crops because of their association with a specific type of farming economy. Most of these involve a large landowner, raising crops with economic value rather than for subsistence, with a number of employees carrying out the work. Often it referred to crops newly introduced to a region. In past times it has been associated with slavery, indentured labour, and other economic models of high inequity. However, arable and dairy farming are both usually (but not always) excluded from such definitions. A comparable economic structure in antiquity was the latifundia that produced commercial quantities of olive oil or wine, for export.</English>
+		<French>[TAB]A plantation is an intentional planting of a crop, on a larger scale, usually for uses other than cereal production or pasture. The term is most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming. Crops may be called plantation crops because of their association with a specific type of farming economy. Most of these involve a large landowner, raising crops with economic value rather than for subsistence, with a number of employees carrying out the work. Often it referred to crops newly introduced to a region. In past times it has been associated with slavery, indentured labour, and other economic models of high inequity. However, arable and dairy farming are both usually (but not always) excluded from such definitions. A comparable economic structure in antiquity was the latifundia that produced commercial quantities of olive oil or wine, for export.</French>
+		<German>[TAB]A plantation is an intentional planting of a crop, on a larger scale, usually for uses other than cereal production or pasture. The term is most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming. Crops may be called plantation crops because of their association with a specific type of farming economy. Most of these involve a large landowner, raising crops with economic value rather than for subsistence, with a number of employees carrying out the work. Often it referred to crops newly introduced to a region. In past times it has been associated with slavery, indentured labour, and other economic models of high inequity. However, arable and dairy farming are both usually (but not always) excluded from such definitions. A comparable economic structure in antiquity was the latifundia that produced commercial quantities of olive oil or wine, for export.</German>
+		<Italian>[TAB]A plantation is an intentional planting of a crop, on a larger scale, usually for uses other than cereal production or pasture. The term is most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming. Crops may be called plantation crops because of their association with a specific type of farming economy. Most of these involve a large landowner, raising crops with economic value rather than for subsistence, with a number of employees carrying out the work. Often it referred to crops newly introduced to a region. In past times it has been associated with slavery, indentured labour, and other economic models of high inequity. However, arable and dairy farming are both usually (but not always) excluded from such definitions. A comparable economic structure in antiquity was the latifundia that produced commercial quantities of olive oil or wine, for export.</Italian>
+		<Spanish>[TAB]A plantation is an intentional planting of a crop, on a larger scale, usually for uses other than cereal production or pasture. The term is most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming. Crops may be called plantation crops because of their association with a specific type of farming economy. Most of these involve a large landowner, raising crops with economic value rather than for subsistence, with a number of employees carrying out the work. Often it referred to crops newly introduced to a region. In past times it has been associated with slavery, indentured labour, and other economic models of high inequity. However, arable and dairy farming are both usually (but not always) excluded from such definitions. A comparable economic structure in antiquity was the latifundia that produced commercial quantities of olive oil or wine, for export.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CODE_OF_LAWS</Tag>
+		<English>Code of Laws</English>
+		<French>Caste System</French>
+		<German>Caste System</German>
+		<Italian>Caste System</Italian>
+		<Spanish>Caste System</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASTE_SYSTEM_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_LAW</Tag>
+		<English>Religious Law</English>
+		<French>Botany</French>
+		<German>Botany</German>
+		<Italian>Botany</Italian>
+		<Spanish>Botany</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BOTANY_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BOTANY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BULK_TRADE</Tag>
+		<English>Bulk Trade</English>
+		<French>Silk Road</French>
+		<German>Silk Road</German>
+		<Italian>Silk Road</Italian>
+		<Spanish>Silk Road</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SILK_ROAD_PEDIA</Tag>
+		<English>[TAB]The Mongol expansion throughout the Asian continent from around 1215 to 1360 helped bring political stability and re-establish the Silk Road. In the late 13th century, a Venetian explorer named Marco Polo became one of the first Europeans to travel the Silk Road to China. Westerners became more aware of the Far East when Polo documented his travels in Il Milione. He was followed by numerous Christian missionnaries to the East, such as William of Rubruck, Benedykt Polak, Giovanni da Pian del Carpini, Andrew of Longjumeau, Odoric of Pordenone, Giovanni de Marignolli, Giovanni di Monte Corvino, and other travellers such as Ibn Battuta or Niccolo Da Conti. Luxury goods were traded from one middleman to another, from China to the West, resulting in high prices for the trade goods. [PARAGRAPH:2]Many technological innovations from the East seem to have filtered into Europe around that time. The period of the High Middle Ages in Europe saw major technological advances, including the adoption through the Silk Road of printing, gunpowder, and the compass.</English>
+		<French>[TAB]The Mongol expansion throughout the Asian continent from around 1215 to 1360 helped bring political stability and re-establish the Silk Road. In the late 13th century, a Venetian explorer named Marco Polo became one of the first Europeans to travel the Silk Road to China. Westerners became more aware of the Far East when Polo documented his travels in Il Milione. He was followed by numerous Christian missionnaries to the East, such as William of Rubruck, Benedykt Polak, Giovanni da Pian del Carpini, Andrew of Longjumeau, Odoric of Pordenone, Giovanni de Marignolli, Giovanni di Monte Corvino, and other travellers such as Ibn Battuta or Niccolo Da Conti. Luxury goods were traded from one middleman to another, from China to the West, resulting in high prices for the trade goods. [PARAGRAPH:2]Many technological innovations from the East seem to have filtered into Europe around that time. The period of the High Middle Ages in Europe saw major technological advances, including the adoption through the Silk Road of printing, gunpowder, and the compass.</French>
+		<German>[TAB]The Mongol expansion throughout the Asian continent from around 1215 to 1360 helped bring political stability and re-establish the Silk Road. In the late 13th century, a Venetian explorer named Marco Polo became one of the first Europeans to travel the Silk Road to China. Westerners became more aware of the Far East when Polo documented his travels in Il Milione. He was followed by numerous Christian missionnaries to the East, such as William of Rubruck, Benedykt Polak, Giovanni da Pian del Carpini, Andrew of Longjumeau, Odoric of Pordenone, Giovanni de Marignolli, Giovanni di Monte Corvino, and other travellers such as Ibn Battuta or Niccolo Da Conti. Luxury goods were traded from one middleman to another, from China to the West, resulting in high prices for the trade goods. [PARAGRAPH:2]Many technological innovations from the East seem to have filtered into Europe around that time. The period of the High Middle Ages in Europe saw major technological advances, including the adoption through the Silk Road of printing, gunpowder, and the compass.</German>
+		<Italian>[TAB]The Mongol expansion throughout the Asian continent from around 1215 to 1360 helped bring political stability and re-establish the Silk Road. In the late 13th century, a Venetian explorer named Marco Polo became one of the first Europeans to travel the Silk Road to China. Westerners became more aware of the Far East when Polo documented his travels in Il Milione. He was followed by numerous Christian missionnaries to the East, such as William of Rubruck, Benedykt Polak, Giovanni da Pian del Carpini, Andrew of Longjumeau, Odoric of Pordenone, Giovanni de Marignolli, Giovanni di Monte Corvino, and other travellers such as Ibn Battuta or Niccolo Da Conti. Luxury goods were traded from one middleman to another, from China to the West, resulting in high prices for the trade goods. [PARAGRAPH:2]Many technological innovations from the East seem to have filtered into Europe around that time. The period of the High Middle Ages in Europe saw major technological advances, including the adoption through the Silk Road of printing, gunpowder, and the compass.</Italian>
+		<Spanish>[TAB]The Mongol expansion throughout the Asian continent from around 1215 to 1360 helped bring political stability and re-establish the Silk Road. In the late 13th century, a Venetian explorer named Marco Polo became one of the first Europeans to travel the Silk Road to China. Westerners became more aware of the Far East when Polo documented his travels in Il Milione. He was followed by numerous Christian missionnaries to the East, such as William of Rubruck, Benedykt Polak, Giovanni da Pian del Carpini, Andrew of Longjumeau, Odoric of Pordenone, Giovanni de Marignolli, Giovanni di Monte Corvino, and other travellers such as Ibn Battuta or Niccolo Da Conti. Luxury goods were traded from one middleman to another, from China to the West, resulting in high prices for the trade goods. [PARAGRAPH:2]Many technological innovations from the East seem to have filtered into Europe around that time. The period of the High Middle Ages in Europe saw major technological advances, including the adoption through the Silk Road of printing, gunpowder, and the compass.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_REPUBLIC</Tag>
+		<English>Republic</English>
+		<French>Long-distance Trade</French>
+		<German>Long-distance Trade</German>
+		<Italian>Long-distance Trade</Italian>
+		<Spanish>Long-distance Trade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_DISTANCE_TRADE_QUOTE</Tag>
+		<English>"I had bought from an Iraqi merchant in Ghazna about thirty horses and a camel... This merchant went off to Khurasan and on returning to India received his money from me. He made an enormous profit."  - Ibn Battuta</English>
+		<French>"I had bought from an Iraqi merchant in Ghazna about thirty horses and a camel... This merchant went off to Khurasan and on returning to India received his money from me. He made an enormous profit."  - Ibn Battuta</French>
+		<German>"I had bought from an Iraqi merchant in Ghazna about thirty horses and a camel... This merchant went off to Khurasan and on returning to India received his money from me. He made an enormous profit."  - Ibn Battuta</German>
+		<Italian>"I had bought from an Iraqi merchant in Ghazna about thirty horses and a camel... This merchant went off to Khurasan and on returning to India received his money from me. He made an enormous profit."  - Ibn Battuta</Italian>
+		<Spanish>"I had bought from an Iraqi merchant in Ghazna about thirty horses and a camel... This merchant went off to Khurasan and on returning to India received his money from me. He made an enormous profit."  - Ibn Battuta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_DISTANCE_TRADE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BANKING</Tag>
+		<English>Banking</English>
+		<French>Movable Type</French>
+		<German>Movable Type</German>
+		<Italian>Movable Type</Italian>
+		<Spanish>Movable Type</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOVABLE_TYPE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOVABLE_TYPE_PEDIA</Tag>
+		<English>[TAB]Movable type is the system of printing and typography that uses movable components to reproduce the elements of a document. The world's first known movable type system for printing was created in China around 1040 AD. Printing using movable type spread from China to Central Asia during the Mongol Empire (1206-1405).</English>
+		<French>[TAB]Movable type is the system of printing and typography that uses movable components to reproduce the elements of a document. The world's first known movable type system for printing was created in China around 1040 AD. Printing using movable type spread from China to Central Asia during the Mongol Empire (1206-1405).</French>
+		<German>[TAB]Movable type is the system of printing and typography that uses movable components to reproduce the elements of a document. The world's first known movable type system for printing was created in China around 1040 AD. Printing using movable type spread from China to Central Asia during the Mongol Empire (1206-1405).</German>
+		<Italian>[TAB]Movable type is the system of printing and typography that uses movable components to reproduce the elements of a document. The world's first known movable type system for printing was created in China around 1040 AD. Printing using movable type spread from China to Central Asia during the Mongol Empire (1206-1405).</Italian>
+		<Spanish>[TAB]Movable type is the system of printing and typography that uses movable components to reproduce the elements of a document. The world's first known movable type system for printing was created in China around 1040 AD. Printing using movable type spread from China to Central Asia during the Mongol Empire (1206-1405).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MANUFACTURED_TRADE</Tag>
+		<English>Manufactured Trade</English>
+		<French>Companies</French>
+		<German>Companies</German>
+		<Italian>Companies</Italian>
+		<Spanish>Companies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMPANIES_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMPANIES_PEDIA</Tag>
+		<English>[TAB]Although some forms of companies are thought to have existed during Ancient Rome and Ancient Greece, the closest recognizable ancestors of the modern company did not appear until the second millennium. The first recognizable commercial associations were medieval guilds, where guild members agreed to abide by guild rules, but did not participate in ventures for common profit. The earliest forms of joint commercial enterprise under the lex mercatoria were in fact partnerships. But with the expansion of international trade, Royal charters were increasingly granted in Europe (notably in England and Holland) to merchant adventurers. The Royal charters usually conferred special privileges on the trading company (including, usually, some form of monopoly).</English>
+		<French>[TAB]Although some forms of companies are thought to have existed during Ancient Rome and Ancient Greece, the closest recognizable ancestors of the modern company did not appear until the second millennium. The first recognizable commercial associations were medieval guilds, where guild members agreed to abide by guild rules, but did not participate in ventures for common profit. The earliest forms of joint commercial enterprise under the lex mercatoria were in fact partnerships. But with the expansion of international trade, Royal charters were increasingly granted in Europe (notably in England and Holland) to merchant adventurers. The Royal charters usually conferred special privileges on the trading company (including, usually, some form of monopoly).</French>
+		<German>[TAB]Although some forms of companies are thought to have existed during Ancient Rome and Ancient Greece, the closest recognizable ancestors of the modern company did not appear until the second millennium. The first recognizable commercial associations were medieval guilds, where guild members agreed to abide by guild rules, but did not participate in ventures for common profit. The earliest forms of joint commercial enterprise under the lex mercatoria were in fact partnerships. But with the expansion of international trade, Royal charters were increasingly granted in Europe (notably in England and Holland) to merchant adventurers. The Royal charters usually conferred special privileges on the trading company (including, usually, some form of monopoly).</German>
+		<Italian>[TAB]Although some forms of companies are thought to have existed during Ancient Rome and Ancient Greece, the closest recognizable ancestors of the modern company did not appear until the second millennium. The first recognizable commercial associations were medieval guilds, where guild members agreed to abide by guild rules, but did not participate in ventures for common profit. The earliest forms of joint commercial enterprise under the lex mercatoria were in fact partnerships. But with the expansion of international trade, Royal charters were increasingly granted in Europe (notably in England and Holland) to merchant adventurers. The Royal charters usually conferred special privileges on the trading company (including, usually, some form of monopoly).</Italian>
+		<Spanish>[TAB]Although some forms of companies are thought to have existed during Ancient Rome and Ancient Greece, the closest recognizable ancestors of the modern company did not appear until the second millennium. The first recognizable commercial associations were medieval guilds, where guild members agreed to abide by guild rules, but did not participate in ventures for common profit. The earliest forms of joint commercial enterprise under the lex mercatoria were in fact partnerships. But with the expansion of international trade, Royal charters were increasingly granted in Europe (notably in England and Holland) to merchant adventurers. The Royal charters usually conferred special privileges on the trading company (including, usually, some form of monopoly).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAGE_LABOR</Tag>
+		<English>Wage Labor</English>
+		<French>Blast Furnace</French>
+		<German>Blast Furnace</German>
+		<Italian>Blast Furnace</Italian>
+		<Spanish>Blast Furnace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BLAST_FURNACE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BLAST_FURNACE_PEDIA</Tag>
+		<English>[TAB]A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron. In a blast furnace, fuel and ore are continuously supplied through the top of the furnace, while air is blown into the bottom of the chamber, so that the chemical reactions take place throughout the furnace as the material moves downward. Blast furnances were used primarily to produce pig iron - the intermediate material needed for large-scale production of steel.</English>
+		<French>[TAB]A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron. In a blast furnace, fuel and ore are continuously supplied through the top of the furnace, while air is blown into the bottom of the chamber, so that the chemical reactions take place throughout the furnace as the material moves downward. Blast furnances were used primarily to produce pig iron - the intermediate material needed for large-scale production of steel.</French>
+		<German>[TAB]A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron. In a blast furnace, fuel and ore are continuously supplied through the top of the furnace, while air is blown into the bottom of the chamber, so that the chemical reactions take place throughout the furnace as the material moves downward. Blast furnances were used primarily to produce pig iron - the intermediate material needed for large-scale production of steel.</German>
+		<Italian>[TAB]A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron. In a blast furnace, fuel and ore are continuously supplied through the top of the furnace, while air is blown into the bottom of the chamber, so that the chemical reactions take place throughout the furnace as the material moves downward. Blast furnances were used primarily to produce pig iron - the intermediate material needed for large-scale production of steel.</Italian>
+		<Spanish>[TAB]A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron. In a blast furnace, fuel and ore are continuously supplied through the top of the furnace, while air is blown into the bottom of the chamber, so that the chemical reactions take place throughout the furnace as the material moves downward. Blast furnances were used primarily to produce pig iron - the intermediate material needed for large-scale production of steel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MINING</Tag>
+		<English>Mining</English>
+		<French>Crop Rotation</French>
+		<German>Crop Rotation</German>
+		<Italian>Crop Rotation</Italian>
+		<Spanish>Crop Rotation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CROP_ROTATION_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CROP_ROTATION_PEDIA</Tag>
+		<English>[TAB]Crop rotation is the practice of growing a series of dissimilar types of crops in the same space in sequential seasons to avoid the buildup of pathogens and pests that often occurs when one species is continuously cropped. Crop rotation also seeks to balance the fertility demands of various crops to avoid excessive depletion of soil nutrients. [PARAGRAPH:2]The ninth century saw the development of the three-field system of crop rotation: wheat or rye was planted in one field, the second field had a nitrogen-fixing crop (barley, oats, peas, or beans), and third was fallow. Compared to the earlier two-field system, a three-field system allowed for significantly more land to be put under cultivation. Even more important, the system allowed for two harvests a year, reducing the risk that a single crop failure would lead to famine. Three-field agriculture created a suplus of oats that could be used to feed horses. Because the system required a major rearrangement of real estate and the social order, it took until the 11th century before it came into general use.</English>
+		<French>[TAB]Crop rotation is the practice of growing a series of dissimilar types of crops in the same space in sequential seasons to avoid the buildup of pathogens and pests that often occurs when one species is continuously cropped. Crop rotation also seeks to balance the fertility demands of various crops to avoid excessive depletion of soil nutrients. [PARAGRAPH:2]The ninth century saw the development of the three-field system of crop rotation: wheat or rye was planted in one field, the second field had a nitrogen-fixing crop (barley, oats, peas, or beans), and third was fallow. Compared to the earlier two-field system, a three-field system allowed for significantly more land to be put under cultivation. Even more important, the system allowed for two harvests a year, reducing the risk that a single crop failure would lead to famine. Three-field agriculture created a suplus of oats that could be used to feed horses. Because the system required a major rearrangement of real estate and the social order, it took until the 11th century before it came into general use.</French>
+		<German>[TAB]Crop rotation is the practice of growing a series of dissimilar types of crops in the same space in sequential seasons to avoid the buildup of pathogens and pests that often occurs when one species is continuously cropped. Crop rotation also seeks to balance the fertility demands of various crops to avoid excessive depletion of soil nutrients. [PARAGRAPH:2]The ninth century saw the development of the three-field system of crop rotation: wheat or rye was planted in one field, the second field had a nitrogen-fixing crop (barley, oats, peas, or beans), and third was fallow. Compared to the earlier two-field system, a three-field system allowed for significantly more land to be put under cultivation. Even more important, the system allowed for two harvests a year, reducing the risk that a single crop failure would lead to famine. Three-field agriculture created a suplus of oats that could be used to feed horses. Because the system required a major rearrangement of real estate and the social order, it took until the 11th century before it came into general use.</German>
+		<Italian>[TAB]Crop rotation is the practice of growing a series of dissimilar types of crops in the same space in sequential seasons to avoid the buildup of pathogens and pests that often occurs when one species is continuously cropped. Crop rotation also seeks to balance the fertility demands of various crops to avoid excessive depletion of soil nutrients. [PARAGRAPH:2]The ninth century saw the development of the three-field system of crop rotation: wheat or rye was planted in one field, the second field had a nitrogen-fixing crop (barley, oats, peas, or beans), and third was fallow. Compared to the earlier two-field system, a three-field system allowed for significantly more land to be put under cultivation. Even more important, the system allowed for two harvests a year, reducing the risk that a single crop failure would lead to famine. Three-field agriculture created a suplus of oats that could be used to feed horses. Because the system required a major rearrangement of real estate and the social order, it took until the 11th century before it came into general use.</Italian>
+		<Spanish>[TAB]Crop rotation is the practice of growing a series of dissimilar types of crops in the same space in sequential seasons to avoid the buildup of pathogens and pests that often occurs when one species is continuously cropped. Crop rotation also seeks to balance the fertility demands of various crops to avoid excessive depletion of soil nutrients. [PARAGRAPH:2]The ninth century saw the development of the three-field system of crop rotation: wheat or rye was planted in one field, the second field had a nitrogen-fixing crop (barley, oats, peas, or beans), and third was fallow. Compared to the earlier two-field system, a three-field system allowed for significantly more land to be put under cultivation. Even more important, the system allowed for two harvests a year, reducing the risk that a single crop failure would lead to famine. Three-field agriculture created a suplus of oats that could be used to feed horses. Because the system required a major rearrangement of real estate and the social order, it took until the 11th century before it came into general use.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BRONZE_WORKING</Tag>
+		<English>Bronze Working</English>
+		<French>Religious Art</French>
+		<German>Religious Art</German>
+		<Italian>Religious Art</Italian>
+		<Spanish>Religious Art</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_DRILL</Tag>
+		<English>Military Drill</English>
+		<French>Stern Rudder</French>
+		<German>Stern Rudder</German>
+		<Italian>Stern Rudder</Italian>
+		<Spanish>Stern Rudder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STERN_RUDDER_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STERN_RUDDER_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIOUS_LAW</Tag>
+		<English>Religious Law</English>
+		<French>Religious Law</French>
+		<German>Religious Law</German>
+		<Italian>Religious Law</Italian>
+		<Spanish>Religious Law</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BRIDGE_BUILDING</Tag>
+		<English>Bridge Building</English>
+		<French>Bridge Building</French>
+		<German>Bridge Building</German>
+		<Italian>Bridge Building</Italian>
+		<Spanish>Bridge Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INFANTRY_TACTICS</Tag>
+		<English>Infantry Tactics</English>
+		<French>Infantry Tactics</French>
+		<German>Infantry Tactics</German>
+		<Italian>Infantry Tactics</Italian>
+		<Spanish>Infantry Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METAL_CASTING</Tag>
+		<English>Metallurgy</English>
+		<French>Metallurgy</French>
+		<German>Metallurgy</German>
+		<Italian>Metallurgy</Italian>
+		<Spanish>Metallurgy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASTLE_BUILDING_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASTLE_BUILDING_PEDIA</Tag>
+		<English>[TAB]Castles served many functions in medieval Europe; not only were they formidable defensive positions, but they served as administrative and judicial centers and as the seat of a lord's power. Since food and supplies could be stockpiled at castles, castles exerted strong influence over very large surrounding territories. Secular lords were not the only ones to build castles; religious officials often did so as well, to provide themselves with stronger power bases. Early castles were usually little more than wooden stockades constructed on dirt mounds and perhaps surrounded by a shallow trench; by the time of the reign of Edward the Confessor in 13th century England, castle-building had become a much more elaborate affair, with hundreds of laborers and specialists constructing huge stone fortresses with intricate defenses in carefully selected geographic locations.</English>
+		<French>[TAB]Castles served many functions in medieval Europe; not only were they formidable defensive positions, but they served as administrative and judicial centers and as the seat of a lord's power. Since food and supplies could be stockpiled at castles, castles exerted strong influence over very large surrounding territories. Secular lords were not the only ones to build castles; religious officials often did so as well, to provide themselves with stronger power bases. Early castles were usually little more than wooden stockades constructed on dirt mounds and perhaps surrounded by a shallow trench; by the time of the reign of Edward the Confessor in 13th century England, castle-building had become a much more elaborate affair, with hundreds of laborers and specialists constructing huge stone fortresses with intricate defenses in carefully selected geographic locations.</French>
+		<German>[TAB]Castles served many functions in medieval Europe; not only were they formidable defensive positions, but they served as administrative and judicial centers and as the seat of a lord's power. Since food and supplies could be stockpiled at castles, castles exerted strong influence over very large surrounding territories. Secular lords were not the only ones to build castles; religious officials often did so as well, to provide themselves with stronger power bases. Early castles were usually little more than wooden stockades constructed on dirt mounds and perhaps surrounded by a shallow trench; by the time of the reign of Edward the Confessor in 13th century England, castle-building had become a much more elaborate affair, with hundreds of laborers and specialists constructing huge stone fortresses with intricate defenses in carefully selected geographic locations.</German>
+		<Italian>[TAB]Castles served many functions in medieval Europe; not only were they formidable defensive positions, but they served as administrative and judicial centers and as the seat of a lord's power. Since food and supplies could be stockpiled at castles, castles exerted strong influence over very large surrounding territories. Secular lords were not the only ones to build castles; religious officials often did so as well, to provide themselves with stronger power bases. Early castles were usually little more than wooden stockades constructed on dirt mounds and perhaps surrounded by a shallow trench; by the time of the reign of Edward the Confessor in 13th century England, castle-building had become a much more elaborate affair, with hundreds of laborers and specialists constructing huge stone fortresses with intricate defenses in carefully selected geographic locations.</Italian>
+		<Spanish>[TAB]Castles served many functions in medieval Europe; not only were they formidable defensive positions, but they served as administrative and judicial centers and as the seat of a lord's power. Since food and supplies could be stockpiled at castles, castles exerted strong influence over very large surrounding territories. Secular lords were not the only ones to build castles; religious officials often did so as well, to provide themselves with stronger power bases. Early castles were usually little more than wooden stockades constructed on dirt mounds and perhaps surrounded by a shallow trench; by the time of the reign of Edward the Confessor in 13th century England, castle-building had become a much more elaborate affair, with hundreds of laborers and specialists constructing huge stone fortresses with intricate defenses in carefully selected geographic locations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_IRON_WORKING</Tag>
+		<English>Iron Working</English>
+		<French>Cheque System</French>
+		<German>Cheque System</German>
+		<Italian>Cheque System</Italian>
+		<Spanish>Cheque System</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHEQUE_SYSTEM_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHEQUE_SYSTEM_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STEEL_WORKING</Tag>
+		<English>Steel Working</English>
+		<French>Cash Cropping</French>
+		<German>Cash Cropping</German>
+		<Italian>Cash Cropping</Italian>
+		<Spanish>Cash Cropping</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASH_CROPPING_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CASH_CROPPING_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BLAST_FURNACE</Tag>
+		<English>Blast Furnace</English>
+		<French>Water Management</French>
+		<German>Water Management</German>
+		<Italian>Water Management</Italian>
+		<Spanish>Water Management</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WATER_MANAGEMENT_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WATER_MANAGEMENT_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY</Tag>
+		<English>Alchemy</English>
+		<French>Selective Breeding</French>
+		<German>Selective Breeding</German>
+		<Italian>Selective Breeding</Italian>
+		<Spanish>Selective Breeding</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSE_BREEDING_QUOTE</Tag>
+		<English>"A horse, a horse, my kingdom for a horse!"  - Richard III by William Shakespeare</English>
+		<French>"A horse, a horse, my kingdom for a horse!"  - Richard III by William Shakespeare</French>
+		<German>"A horse, a horse, my kingdom for a horse!"  - Richard III by William Shakespeare</German>
+		<Italian>"A horse, a horse, my kingdom for a horse!"  - Richard III by William Shakespeare</Italian>
+		<Spanish>"A horse, a horse, my kingdom for a horse!"  - Richard III by William Shakespeare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSE_BREEDING_PEDIA</Tag>
+		<English>[TAB]Medieval Europe bred large horses specifically for war, called destriers. These horses were the ancestors of the great heavy horses of today, and their size was preferred not simply because of the weight of the armor, but also because a large horse provided more power for the knight’s lance. Weighing almost twice as much as a normal riding horse, the destrier was a powerful weapon in battle. [PARAGRAPH:2]On the other hand, during this same time, lighter horses were bred in northern Africa and the Middle East by Muslim warriors, who preferred a faster, more agile horse. The lighter horse suited the raids and battles of the Bedouins, allowing them to outmaneuver rather than overpower the enemy. When Muslim warriors and European knights collided in warfare, the heavy knights were frequently outmanuvered. The Europeans, however, soon made up for the lack of speed of their native breeds by adding hotter blood from captured oriental horses such as the Arabian, Barb to their stables. This cross-breeding led both to a nimbler war horse, such as today's Percheron, but also to created a type of horse known as a Courser, a predecessor to the Thoroughbred, which was used as a message horse.</English>
+		<French>[TAB]Medieval Europe bred large horses specifically for war, called destriers. These horses were the ancestors of the great heavy horses of today, and their size was preferred not simply because of the weight of the armor, but also because a large horse provided more power for the knight’s lance. Weighing almost twice as much as a normal riding horse, the destrier was a powerful weapon in battle. [PARAGRAPH:2]On the other hand, during this same time, lighter horses were bred in northern Africa and the Middle East by Muslim warriors, who preferred a faster, more agile horse. The lighter horse suited the raids and battles of the Bedouins, allowing them to outmaneuver rather than overpower the enemy. When Muslim warriors and European knights collided in warfare, the heavy knights were frequently outmanuvered. The Europeans, however, soon made up for the lack of speed of their native breeds by adding hotter blood from captured oriental horses such as the Arabian, Barb to their stables. This cross-breeding led both to a nimbler war horse, such as today's Percheron, but also to created a type of horse known as a Courser, a predecessor to the Thoroughbred, which was used as a message horse.</French>
+		<German>[TAB]Medieval Europe bred large horses specifically for war, called destriers. These horses were the ancestors of the great heavy horses of today, and their size was preferred not simply because of the weight of the armor, but also because a large horse provided more power for the knight’s lance. Weighing almost twice as much as a normal riding horse, the destrier was a powerful weapon in battle. [PARAGRAPH:2]On the other hand, during this same time, lighter horses were bred in northern Africa and the Middle East by Muslim warriors, who preferred a faster, more agile horse. The lighter horse suited the raids and battles of the Bedouins, allowing them to outmaneuver rather than overpower the enemy. When Muslim warriors and European knights collided in warfare, the heavy knights were frequently outmanuvered. The Europeans, however, soon made up for the lack of speed of their native breeds by adding hotter blood from captured oriental horses such as the Arabian, Barb to their stables. This cross-breeding led both to a nimbler war horse, such as today's Percheron, but also to created a type of horse known as a Courser, a predecessor to the Thoroughbred, which was used as a message horse.</German>
+		<Italian>[TAB]Medieval Europe bred large horses specifically for war, called destriers. These horses were the ancestors of the great heavy horses of today, and their size was preferred not simply because of the weight of the armor, but also because a large horse provided more power for the knight’s lance. Weighing almost twice as much as a normal riding horse, the destrier was a powerful weapon in battle. [PARAGRAPH:2]On the other hand, during this same time, lighter horses were bred in northern Africa and the Middle East by Muslim warriors, who preferred a faster, more agile horse. The lighter horse suited the raids and battles of the Bedouins, allowing them to outmaneuver rather than overpower the enemy. When Muslim warriors and European knights collided in warfare, the heavy knights were frequently outmanuvered. The Europeans, however, soon made up for the lack of speed of their native breeds by adding hotter blood from captured oriental horses such as the Arabian, Barb to their stables. This cross-breeding led both to a nimbler war horse, such as today's Percheron, but also to created a type of horse known as a Courser, a predecessor to the Thoroughbred, which was used as a message horse.</Italian>
+		<Spanish>[TAB]Medieval Europe bred large horses specifically for war, called destriers. These horses were the ancestors of the great heavy horses of today, and their size was preferred not simply because of the weight of the armor, but also because a large horse provided more power for the knight’s lance. Weighing almost twice as much as a normal riding horse, the destrier was a powerful weapon in battle. [PARAGRAPH:2]On the other hand, during this same time, lighter horses were bred in northern Africa and the Middle East by Muslim warriors, who preferred a faster, more agile horse. The lighter horse suited the raids and battles of the Bedouins, allowing them to outmaneuver rather than overpower the enemy. When Muslim warriors and European knights collided in warfare, the heavy knights were frequently outmanuvered. The Europeans, however, soon made up for the lack of speed of their native breeds by adding hotter blood from captured oriental horses such as the Arabian, Barb to their stables. This cross-breeding led both to a nimbler war horse, such as today's Percheron, but also to created a type of horse known as a Courser, a predecessor to the Thoroughbred, which was used as a message horse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUNPOWDER</Tag>
+		<English>Gunpowder</English>
+		<French>Shipbuilding</French>
+		<German>Shipbuilding</German>
+		<Italian>Shipbuilding</Italian>
+		<Spanish>Shipbuilding</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHIPBUILDING_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHIPBUILDING_PEDIA</Tag>
+		<English>[TAB]Ships were known in Europe since ancient time, but in the Middle Ages new types of shipbuilding developed. Viking longships developed from an alternate tradition of clinker-built hulls fastened with leather thongs. Sometime around the 12th century, northern European ships began to be built with a straight sternpost, enabling the mounting of a rudder, which was much more durable than a steering oar held over the side. Development in the Middle Ages favored "round ships", with a broad beam and heavily curved at both ends. The introduction of cannons onto ships encouraged the development of tumblehome, the inward slant of the abovewater hull, for additional stability, as well as techniques for strengthening the internal frame. This kind of considerations, as well as the demand for ships capable of operating safely in the open ocean, led to the documentation of design and construction practice in what had previously been a secretive trade, and ultimately the field of naval architecture.</English>
+		<French>[TAB]Ships were known in Europe since ancient time, but in the Middle Ages new types of shipbuilding developed. Viking longships developed from an alternate tradition of clinker-built hulls fastened with leather thongs. Sometime around the 12th century, northern European ships began to be built with a straight sternpost, enabling the mounting of a rudder, which was much more durable than a steering oar held over the side. Development in the Middle Ages favored "round ships", with a broad beam and heavily curved at both ends. The introduction of cannons onto ships encouraged the development of tumblehome, the inward slant of the abovewater hull, for additional stability, as well as techniques for strengthening the internal frame. This kind of considerations, as well as the demand for ships capable of operating safely in the open ocean, led to the documentation of design and construction practice in what had previously been a secretive trade, and ultimately the field of naval architecture.</French>
+		<German>[TAB]Ships were known in Europe since ancient time, but in the Middle Ages new types of shipbuilding developed. Viking longships developed from an alternate tradition of clinker-built hulls fastened with leather thongs. Sometime around the 12th century, northern European ships began to be built with a straight sternpost, enabling the mounting of a rudder, which was much more durable than a steering oar held over the side. Development in the Middle Ages favored "round ships", with a broad beam and heavily curved at both ends. The introduction of cannons onto ships encouraged the development of tumblehome, the inward slant of the abovewater hull, for additional stability, as well as techniques for strengthening the internal frame. This kind of considerations, as well as the demand for ships capable of operating safely in the open ocean, led to the documentation of design and construction practice in what had previously been a secretive trade, and ultimately the field of naval architecture.</German>
+		<Italian>[TAB]Ships were known in Europe since ancient time, but in the Middle Ages new types of shipbuilding developed. Viking longships developed from an alternate tradition of clinker-built hulls fastened with leather thongs. Sometime around the 12th century, northern European ships began to be built with a straight sternpost, enabling the mounting of a rudder, which was much more durable than a steering oar held over the side. Development in the Middle Ages favored "round ships", with a broad beam and heavily curved at both ends. The introduction of cannons onto ships encouraged the development of tumblehome, the inward slant of the abovewater hull, for additional stability, as well as techniques for strengthening the internal frame. This kind of considerations, as well as the demand for ships capable of operating safely in the open ocean, led to the documentation of design and construction practice in what had previously been a secretive trade, and ultimately the field of naval architecture.</Italian>
+		<Spanish>[TAB]Ships were known in Europe since ancient time, but in the Middle Ages new types of shipbuilding developed. Viking longships developed from an alternate tradition of clinker-built hulls fastened with leather thongs. Sometime around the 12th century, northern European ships began to be built with a straight sternpost, enabling the mounting of a rudder, which was much more durable than a steering oar held over the side. Development in the Middle Ages favored "round ships", with a broad beam and heavily curved at both ends. The introduction of cannons onto ships encouraged the development of tumblehome, the inward slant of the abovewater hull, for additional stability, as well as techniques for strengthening the internal frame. This kind of considerations, as well as the demand for ships capable of operating safely in the open ocean, led to the documentation of design and construction practice in what had previously been a secretive trade, and ultimately the field of naval architecture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ORGANISED_RELIGION</Tag>
+		<English>Organised Religion</English>
+		<French>Organised Religion</French>
+		<German>Organised Religion</German>
+		<Italian>Organised Religion</Italian>
+		<Spanish>Organised Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ORGANIZED_ARMIES_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ORGANIZED_ARMIES_PEDIA</Tag>
+		<English>[TAB]During the Early Middle Ages, the major figure that changed the state and army organization was Charles Martel. Charles was a brilliant strategic general and tactical commander, able to adapt his plans mid-battle to the unforeseen and repeatedly defeat enemies, even, as at Tours, when they were far superior in men and weaponry. Charles used ground, time, place, and troop morale to offset his foes' superior weaponry and tactics. [PARAGRAPH:2]He was also a skilled administrator and ruler, organizing what would become the medieval European government - a system of fiefdoms, loyal to barons, counts, dukes and ultimately the King. His close coordination of church with state also began the medieval pattern for such government. He created the first western standing army since the fall of Rome. In essence, he changed western Europe from a horde of barbarians fighting with one another, to an organized state.</English>
+		<French>[TAB]During the Early Middle Ages, the major figure that changed the state and army organization was Charles Martel. Charles was a brilliant strategic general and tactical commander, able to adapt his plans mid-battle to the unforeseen and repeatedly defeat enemies, even, as at Tours, when they were far superior in men and weaponry. Charles used ground, time, place, and troop morale to offset his foes' superior weaponry and tactics. [PARAGRAPH:2]He was also a skilled administrator and ruler, organizing what would become the medieval European government - a system of fiefdoms, loyal to barons, counts, dukes and ultimately the King. His close coordination of church with state also began the medieval pattern for such government. He created the first western standing army since the fall of Rome. In essence, he changed western Europe from a horde of barbarians fighting with one another, to an organized state.</French>
+		<German>[TAB]During the Early Middle Ages, the major figure that changed the state and army organization was Charles Martel. Charles was a brilliant strategic general and tactical commander, able to adapt his plans mid-battle to the unforeseen and repeatedly defeat enemies, even, as at Tours, when they were far superior in men and weaponry. Charles used ground, time, place, and troop morale to offset his foes' superior weaponry and tactics. [PARAGRAPH:2]He was also a skilled administrator and ruler, organizing what would become the medieval European government - a system of fiefdoms, loyal to barons, counts, dukes and ultimately the King. His close coordination of church with state also began the medieval pattern for such government. He created the first western standing army since the fall of Rome. In essence, he changed western Europe from a horde of barbarians fighting with one another, to an organized state.</German>
+		<Italian>[TAB]During the Early Middle Ages, the major figure that changed the state and army organization was Charles Martel. Charles was a brilliant strategic general and tactical commander, able to adapt his plans mid-battle to the unforeseen and repeatedly defeat enemies, even, as at Tours, when they were far superior in men and weaponry. Charles used ground, time, place, and troop morale to offset his foes' superior weaponry and tactics. [PARAGRAPH:2]He was also a skilled administrator and ruler, organizing what would become the medieval European government - a system of fiefdoms, loyal to barons, counts, dukes and ultimately the King. His close coordination of church with state also began the medieval pattern for such government. He created the first western standing army since the fall of Rome. In essence, he changed western Europe from a horde of barbarians fighting with one another, to an organized state.</Italian>
+		<Spanish>[TAB]During the Early Middle Ages, the major figure that changed the state and army organization was Charles Martel. Charles was a brilliant strategic general and tactical commander, able to adapt his plans mid-battle to the unforeseen and repeatedly defeat enemies, even, as at Tours, when they were far superior in men and weaponry. Charles used ground, time, place, and troop morale to offset his foes' superior weaponry and tactics. [PARAGRAPH:2]He was also a skilled administrator and ruler, organizing what would become the medieval European government - a system of fiefdoms, loyal to barons, counts, dukes and ultimately the King. His close coordination of church with state also began the medieval pattern for such government. He created the first western standing army since the fall of Rome. In essence, he changed western Europe from a horde of barbarians fighting with one another, to an organized state.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTRONOMY</Tag>
+		<English>Astronomy</English>
+		<French>Algebra</French>
+		<German>Algebra</German>
+		<Italian>Algebra</Italian>
+		<Spanish>Algebra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALGEBRA_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALGEBRA_PEDIA</Tag>
+		<English>[TAB]Algebra is a branch of mathematics concerning the study of structure, relation and quantity. The name is derived from the treatise written by the Persian mathematician Muhammad ibn Mu-sa- al-Khwa-rizmi titled "The Compendious Book on Calculation by Completion and Balancing", which provided symbolic operations for the systematic solution of linear and quadratic equations. [PARAGRAPH:2]Algebra was introduced to Europe largely through the work of Leonardo Fibonacci of Pisa in his work Liber Abaci.</English>
+		<French>[TAB]Algebra is a branch of mathematics concerning the study of structure, relation and quantity. The name is derived from the treatise written by the Persian mathematician Muhammad ibn Mu-sa- al-Khwa-rizmi titled "The Compendious Book on Calculation by Completion and Balancing", which provided symbolic operations for the systematic solution of linear and quadratic equations. [PARAGRAPH:2]Algebra was introduced to Europe largely through the work of Leonardo Fibonacci of Pisa in his work Liber Abaci.</French>
+		<German>[TAB]Algebra is a branch of mathematics concerning the study of structure, relation and quantity. The name is derived from the treatise written by the Persian mathematician Muhammad ibn Mu-sa- al-Khwa-rizmi titled "The Compendious Book on Calculation by Completion and Balancing", which provided symbolic operations for the systematic solution of linear and quadratic equations. [PARAGRAPH:2]Algebra was introduced to Europe largely through the work of Leonardo Fibonacci of Pisa in his work Liber Abaci.</German>
+		<Italian>[TAB]Algebra is a branch of mathematics concerning the study of structure, relation and quantity. The name is derived from the treatise written by the Persian mathematician Muhammad ibn Mu-sa- al-Khwa-rizmi titled "The Compendious Book on Calculation by Completion and Balancing", which provided symbolic operations for the systematic solution of linear and quadratic equations. [PARAGRAPH:2]Algebra was introduced to Europe largely through the work of Leonardo Fibonacci of Pisa in his work Liber Abaci.</Italian>
+		<Spanish>[TAB]Algebra is a branch of mathematics concerning the study of structure, relation and quantity. The name is derived from the treatise written by the Persian mathematician Muhammad ibn Mu-sa- al-Khwa-rizmi titled "The Compendious Book on Calculation by Completion and Balancing", which provided symbolic operations for the systematic solution of linear and quadratic equations. [PARAGRAPH:2]Algebra was introduced to Europe largely through the work of Leonardo Fibonacci of Pisa in his work Liber Abaci.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRIESTHOOD</Tag>
+		<English>Priesthood</English>
+		<French>Military Drill</French>
+		<German>Military Drill</German>
+		<Italian>Military Drill</Italian>
+		<Spanish>Military Drill</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_DRILL_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_DRILL_PEDIA</Tag>
+		<English>[TAB]A drill in military terms is the action of memorising a certain action through repetition until the action is instinctive to the soldiers being drilled. Such is necessary for a fighting force to perform to maximum efficiency and to be flexible to all manner of situations. As a whole, drilling as a vital component of a war machine started when Phillip II of Macedon disciplined his army so they could swiftly form the phalanxes that were so critical to his successes as a general. Military drilling later was used by the Roman Army to maximise efficiency and deadliness throughout their long history. After the fall of the empire, and the Dark Ages set in in Europe, most feudal lords more heaviliy relied on peasant levies and their wealthy knights to fight their wars, and military drilling was used mostly by only the foremost armies and nations, such as the Normans.</English>
+		<French>[TAB]A drill in military terms is the action of memorising a certain action through repetition until the action is instinctive to the soldiers being drilled. Such is necessary for a fighting force to perform to maximum efficiency and to be flexible to all manner of situations. As a whole, drilling as a vital component of a war machine started when Phillip II of Macedon disciplined his army so they could swiftly form the phalanxes that were so critical to his successes as a general. Military drilling later was used by the Roman Army to maximise efficiency and deadliness throughout their long history. After the fall of the empire, and the Dark Ages set in in Europe, most feudal lords more heaviliy relied on peasant levies and their wealthy knights to fight their wars, and military drilling was used mostly by only the foremost armies and nations, such as the Normans.</French>
+		<German>[TAB]A drill in military terms is the action of memorising a certain action through repetition until the action is instinctive to the soldiers being drilled. Such is necessary for a fighting force to perform to maximum efficiency and to be flexible to all manner of situations. As a whole, drilling as a vital component of a war machine started when Phillip II of Macedon disciplined his army so they could swiftly form the phalanxes that were so critical to his successes as a general. Military drilling later was used by the Roman Army to maximise efficiency and deadliness throughout their long history. After the fall of the empire, and the Dark Ages set in in Europe, most feudal lords more heaviliy relied on peasant levies and their wealthy knights to fight their wars, and military drilling was used mostly by only the foremost armies and nations, such as the Normans.</German>
+		<Italian>[TAB]A drill in military terms is the action of memorising a certain action through repetition until the action is instinctive to the soldiers being drilled. Such is necessary for a fighting force to perform to maximum efficiency and to be flexible to all manner of situations. As a whole, drilling as a vital component of a war machine started when Phillip II of Macedon disciplined his army so they could swiftly form the phalanxes that were so critical to his successes as a general. Military drilling later was used by the Roman Army to maximise efficiency and deadliness throughout their long history. After the fall of the empire, and the Dark Ages set in in Europe, most feudal lords more heaviliy relied on peasant levies and their wealthy knights to fight their wars, and military drilling was used mostly by only the foremost armies and nations, such as the Normans.</Italian>
+		<Spanish>[TAB]A drill in military terms is the action of memorising a certain action through repetition until the action is instinctive to the soldiers being drilled. Such is necessary for a fighting force to perform to maximum efficiency and to be flexible to all manner of situations. As a whole, drilling as a vital component of a war machine started when Phillip II of Macedon disciplined his army so they could swiftly form the phalanxes that were so critical to his successes as a general. Military drilling later was used by the Roman Army to maximise efficiency and deadliness throughout their long history. After the fall of the empire, and the Dark Ages set in in Europe, most feudal lords more heaviliy relied on peasant levies and their wealthy knights to fight their wars, and military drilling was used mostly by only the foremost armies and nations, such as the Normans.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MONASTICISM</Tag>
+		<English>Monasticism</English>
+		<French>Metallurgy</French>
+		<German>Metallurgy</German>
+		<Italian>Metallurgy</Italian>
+		<Spanish>Metallurgy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METALLURGY_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METALLURGY_PEDIA</Tag>
+		<English>[TAB]Metallurgy is the study of the properties of metals and the methods used to separate metal deposits from metal-bearing ores. Through the course of history, artisans have switched the materials from which they constructed weapons and tools to harder, more durable metals as they were discovered. However, metallurgy as a science wasn't studied in earnest until the powers of Europe began to compete against one another in an attempt to design better and more effective weapons starting around the 14th century. Constant improvements in metallurgy led to the discovery of new metals and alloys that were stronger, lighter, and cheaper. As a result of this race for military dominance, Europeans produced some of the most advanced weaponry in the world during this time period.	</English>
+		<French>[TAB]Metallurgy is the study of the properties of metals and the methods used to separate metal deposits from metal-bearing ores. Through the course of history, artisans have switched the materials from which they constructed weapons and tools to harder, more durable metals as they were discovered. However, metallurgy as a science wasn't studied in earnest until the powers of Europe began to compete against one another in an attempt to design better and more effective weapons starting around the 14th century. Constant improvements in metallurgy led to the discovery of new metals and alloys that were stronger, lighter, and cheaper. As a result of this race for military dominance, Europeans produced some of the most advanced weaponry in the world during this time period.</French>
+		<German>[TAB]Metallurgy is the study of the properties of metals and the methods used to separate metal deposits from metal-bearing ores. Through the course of history, artisans have switched the materials from which they constructed weapons and tools to harder, more durable metals as they were discovered. However, metallurgy as a science wasn't studied in earnest until the powers of Europe began to compete against one another in an attempt to design better and more effective weapons starting around the 14th century. Constant improvements in metallurgy led to the discovery of new metals and alloys that were stronger, lighter, and cheaper. As a result of this race for military dominance, Europeans produced some of the most advanced weaponry in the world during this time period.</German>
+		<Italian>[TAB]Metallurgy is the study of the properties of metals and the methods used to separate metal deposits from metal-bearing ores. Through the course of history, artisans have switched the materials from which they constructed weapons and tools to harder, more durable metals as they were discovered. However, metallurgy as a science wasn't studied in earnest until the powers of Europe began to compete against one another in an attempt to design better and more effective weapons starting around the 14th century. Constant improvements in metallurgy led to the discovery of new metals and alloys that were stronger, lighter, and cheaper. As a result of this race for military dominance, Europeans produced some of the most advanced weaponry in the world during this time period.</Italian>
+		<Spanish>[TAB]Metallurgy is the study of the properties of metals and the methods used to separate metal deposits from metal-bearing ores. Through the course of history, artisans have switched the materials from which they constructed weapons and tools to harder, more durable metals as they were discovered. However, metallurgy as a science wasn't studied in earnest until the powers of Europe began to compete against one another in an attempt to design better and more effective weapons starting around the 14th century. Constant improvements in metallurgy led to the discovery of new metals and alloys that were stronger, lighter, and cheaper. As a result of this race for military dominance, Europeans produced some of the most advanced weaponry in the world during this time period.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY</Tag>
+		<English>Theology</English>
+		<French>Heavy Armor</French>
+		<German>Heavy Armor</German>
+		<Italian>Heavy Armor</Italian>
+		<Spanish>Heavy Armor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HEAVY_ARMOR_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HEAVY_ARMOR_PEDIA</Tag>
+		<English>[TAB]Plate armour protecting the chest and the lower limbs was used by the ancient Greeks and Romans, but it fell into disuse after the collapse of the Roman Empire. Single plates of metal armour were again used from the late 13th century on, to protect joints and shins, and these were worn over full mail haubergeons. By the end of the 14th century, larger and complete full plates of armour had been developed.</English>
+		<French>[TAB]Plate armour protecting the chest and the lower limbs was used by the ancient Greeks and Romans, but it fell into disuse after the collapse of the Roman Empire. Single plates of metal armour were again used from the late 13th century on, to protect joints and shins, and these were worn over full mail haubergeons. By the end of the 14th century, larger and complete full plates of armour had been developed.</French>
+		<German>[TAB]Plate armour protecting the chest and the lower limbs was used by the ancient Greeks and Romans, but it fell into disuse after the collapse of the Roman Empire. Single plates of metal armour were again used from the late 13th century on, to protect joints and shins, and these were worn over full mail haubergeons. By the end of the 14th century, larger and complete full plates of armour had been developed.</German>
+		<Italian>[TAB]Plate armour protecting the chest and the lower limbs was used by the ancient Greeks and Romans, but it fell into disuse after the collapse of the Roman Empire. Single plates of metal armour were again used from the late 13th century on, to protect joints and shins, and these were worn over full mail haubergeons. By the end of the 14th century, larger and complete full plates of armour had been developed.</Italian>
+		<Spanish>[TAB]Plate armour protecting the chest and the lower limbs was used by the ancient Greeks and Romans, but it fell into disuse after the collapse of the Roman Empire. Single plates of metal armour were again used from the late 13th century on, to protect joints and shins, and these were worn over full mail haubergeons. By the end of the 14th century, larger and complete full plates of armour had been developed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MYSTICISM</Tag>
+		<English>Mysticism</English>
+		<French>Canals</French>
+		<German>Canals</German>
+		<Italian>Canals</Italian>
+		<Spanish>Canals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CANALS_PEDIA</Tag>
+		<English>[TAB]Canals are man-made waterways, usually connected to (and sometimes connecting) existing lakes, rivers, or oceans. There are two main types of canals: irrigation canals for the delivery of water and transportation canals for passage of goods and people. Some canals are part of a waterway which is not entirely artificial (usually where a river has been canalised to make it navigable). Smaller transportation canals can carry barges or narrowboats, while ship canals allow sea-going ships to travel from one sea or ocean to another, or to an inland port.</English>
+		<French>[TAB]Canals are man-made waterways, usually connected to (and sometimes connecting) existing lakes, rivers, or oceans. There are two main types of canals: irrigation canals for the delivery of water and transportation canals for passage of goods and people. Some canals are part of a waterway which is not entirely artificial (usually where a river has been canalised to make it navigable). Smaller transportation canals can carry barges or narrowboats, while ship canals allow sea-going ships to travel from one sea or ocean to another, or to an inland port.</French>
+		<German>[TAB]Canals are man-made waterways, usually connected to (and sometimes connecting) existing lakes, rivers, or oceans. There are two main types of canals: irrigation canals for the delivery of water and transportation canals for passage of goods and people. Some canals are part of a waterway which is not entirely artificial (usually where a river has been canalised to make it navigable). Smaller transportation canals can carry barges or narrowboats, while ship canals allow sea-going ships to travel from one sea or ocean to another, or to an inland port.</German>
+		<Italian>[TAB]Canals are man-made waterways, usually connected to (and sometimes connecting) existing lakes, rivers, or oceans. There are two main types of canals: irrigation canals for the delivery of water and transportation canals for passage of goods and people. Some canals are part of a waterway which is not entirely artificial (usually where a river has been canalised to make it navigable). Smaller transportation canals can carry barges or narrowboats, while ship canals allow sea-going ships to travel from one sea or ocean to another, or to an inland port.</Italian>
+		<Spanish>[TAB]Canals are man-made waterways, usually connected to (and sometimes connecting) existing lakes, rivers, or oceans. There are two main types of canals: irrigation canals for the delivery of water and transportation canals for passage of goods and people. Some canals are part of a waterway which is not entirely artificial (usually where a river has been canalised to make it navigable). Smaller transportation canals can carry barges or narrowboats, while ship canals allow sea-going ships to travel from one sea or ocean to another, or to an inland port.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SYNCRETISM</Tag>
+		<English>Syncretism</English>
+		<French>Spinning Wheel</French>
+		<German>Spinning Wheel</German>
+		<Italian>Spinning Wheel</Italian>
+		<Spanish>Spinning Wheel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINE_RIGHT</Tag>
+		<English>Divine Right</English>
+		<French>Naval Cannon</French>
+		<German>Naval Cannon</German>
+		<Italian>Naval Cannon</Italian>
+		<Spanish>Naval Cannon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_TACTICS_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_TACTICS_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOCRACY</Tag>
+		<English>Theocracy</English>
+		<French>Professional Armies</French>
+		<German>Professional Armies</German>
+		<Italian>Professional Armies</Italian>
+		<Spanish>Professional Armies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PROFESSIONAL_ARMIES_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PROFESSIONAL_ARMIES_PEDIA</Tag>
+		<English>[TAB]By the early 14th century, the most effective armies were those consisting of professional, paid troops. At this point, these warriors were largely mercenaries, kings and magnates not yet being wealthy enough to maintain armies permanently. The ancient system of raising troops through feudal obligation had, in the meantime, fallen apart. This system, in its most common form, obligated each land holder to render 40 days of armed service a year to his overlord. In practice, the obligation also depended on how much land was held and the fine print in the original arrangement, Since the king was the "overlord of all overlords," he could, in theory, raise an enormous number of troops. In practice, the feudal armies were often quite ineffective. For one thing, the feudal obligation had an escape clause whereby the knights could pay money ("scutage") instead of showing up when called. Moreover, many knights promised to pay and somehow never got around to it. Even the troops that did show up were usually quite eager to go home as soon as the 40 day obligation was up, or even earlier if they could get away with it. Since a campaign generally lasted longer than 40 days, this time limit could prove very inconvenient for the leader of the feudal host. The English had, by this time, done away with the traditional feudal system and replaced it by one where the feudal lords were still obliged to supply troops, but they would be paid and would stay in service for as long as the king could meet the payroll. The French were moving towards a similar system, although they were not as well organized as the English, and would not be until the end of the war. [PARAGRAPH:2]Going into the 14th century, the idea of mercenary military service had caught on in a big way in Europe. Knights and commoners under arms were all eager to take the gold of anyone looking to raise an army. The table below shows the rates of pay that had become common during the period.</English>
+		<French>[TAB]By the early 14th century, the most effective armies were those consisting of professional, paid troops. At this point, these warriors were largely mercenaries, kings and magnates not yet being wealthy enough to maintain armies permanently. The ancient system of raising troops through feudal obligation had, in the meantime, fallen apart. This system, in its most common form, obligated each land holder to render 40 days of armed service a year to his overlord. In practice, the obligation also depended on how much land was held and the fine print in the original arrangement, Since the king was the "overlord of all overlords," he could, in theory, raise an enormous number of troops. In practice, the feudal armies were often quite ineffective. For one thing, the feudal obligation had an escape clause whereby the knights could pay money ("scutage") instead of showing up when called. Moreover, many knights promised to pay and somehow never got around to it. Even the troops that did show up were usually quite eager to go home as soon as the 40 day obligation was up, or even earlier if they could get away with it. Since a campaign generally lasted longer than 40 days, this time limit could prove very inconvenient for the leader of the feudal host. The English had, by this time, done away with the traditional feudal system and replaced it by one where the feudal lords were still obliged to supply troops, but they would be paid and would stay in service for as long as the king could meet the payroll. The French were moving towards a similar system, although they were not as well organized as the English, and would not be until the end of the war. [PARAGRAPH:2]Going into the 14th century, the idea of mercenary military service had caught on in a big way in Europe. Knights and commoners under arms were all eager to take the gold of anyone looking to raise an army. The table below shows the rates of pay that had become common during the period.</French>
+		<German>[TAB]By the early 14th century, the most effective armies were those consisting of professional, paid troops. At this point, these warriors were largely mercenaries, kings and magnates not yet being wealthy enough to maintain armies permanently. The ancient system of raising troops through feudal obligation had, in the meantime, fallen apart. This system, in its most common form, obligated each land holder to render 40 days of armed service a year to his overlord. In practice, the obligation also depended on how much land was held and the fine print in the original arrangement, Since the king was the "overlord of all overlords," he could, in theory, raise an enormous number of troops. In practice, the feudal armies were often quite ineffective. For one thing, the feudal obligation had an escape clause whereby the knights could pay money ("scutage") instead of showing up when called. Moreover, many knights promised to pay and somehow never got around to it. Even the troops that did show up were usually quite eager to go home as soon as the 40 day obligation was up, or even earlier if they could get away with it. Since a campaign generally lasted longer than 40 days, this time limit could prove very inconvenient for the leader of the feudal host. The English had, by this time, done away with the traditional feudal system and replaced it by one where the feudal lords were still obliged to supply troops, but they would be paid and would stay in service for as long as the king could meet the payroll. The French were moving towards a similar system, although they were not as well organized as the English, and would not be until the end of the war. [PARAGRAPH:2]Going into the 14th century, the idea of mercenary military service had caught on in a big way in Europe. Knights and commoners under arms were all eager to take the gold of anyone looking to raise an army. The table below shows the rates of pay that had become common during the period.</German>
+		<Italian>[TAB]By the early 14th century, the most effective armies were those consisting of professional, paid troops. At this point, these warriors were largely mercenaries, kings and magnates not yet being wealthy enough to maintain armies permanently. The ancient system of raising troops through feudal obligation had, in the meantime, fallen apart. This system, in its most common form, obligated each land holder to render 40 days of armed service a year to his overlord. In practice, the obligation also depended on how much land was held and the fine print in the original arrangement, Since the king was the "overlord of all overlords," he could, in theory, raise an enormous number of troops. In practice, the feudal armies were often quite ineffective. For one thing, the feudal obligation had an escape clause whereby the knights could pay money ("scutage") instead of showing up when called. Moreover, many knights promised to pay and somehow never got around to it. Even the troops that did show up were usually quite eager to go home as soon as the 40 day obligation was up, or even earlier if they could get away with it. Since a campaign generally lasted longer than 40 days, this time limit could prove very inconvenient for the leader of the feudal host. The English had, by this time, done away with the traditional feudal system and replaced it by one where the feudal lords were still obliged to supply troops, but they would be paid and would stay in service for as long as the king could meet the payroll. The French were moving towards a similar system, although they were not as well organized as the English, and would not be until the end of the war. [PARAGRAPH:2]Going into the 14th century, the idea of mercenary military service had caught on in a big way in Europe. Knights and commoners under arms were all eager to take the gold of anyone looking to raise an army. The table below shows the rates of pay that had become common during the period.</Italian>
+		<Spanish>[TAB]By the early 14th century, the most effective armies were those consisting of professional, paid troops. At this point, these warriors were largely mercenaries, kings and magnates not yet being wealthy enough to maintain armies permanently. The ancient system of raising troops through feudal obligation had, in the meantime, fallen apart. This system, in its most common form, obligated each land holder to render 40 days of armed service a year to his overlord. In practice, the obligation also depended on how much land was held and the fine print in the original arrangement, Since the king was the "overlord of all overlords," he could, in theory, raise an enormous number of troops. In practice, the feudal armies were often quite ineffective. For one thing, the feudal obligation had an escape clause whereby the knights could pay money ("scutage") instead of showing up when called. Moreover, many knights promised to pay and somehow never got around to it. Even the troops that did show up were usually quite eager to go home as soon as the 40 day obligation was up, or even earlier if they could get away with it. Since a campaign generally lasted longer than 40 days, this time limit could prove very inconvenient for the leader of the feudal host. The English had, by this time, done away with the traditional feudal system and replaced it by one where the feudal lords were still obliged to supply troops, but they would be paid and would stay in service for as long as the king could meet the payroll. The French were moving towards a similar system, although they were not as well organized as the English, and would not be until the end of the war. [PARAGRAPH:2]Going into the 14th century, the idea of mercenary military service had caught on in a big way in Europe. Knights and commoners under arms were all eager to take the gold of anyone looking to raise an army. The table below shows the rates of pay that had become common during the period.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SANITATION</Tag>
+		<English>Sanitation</English>
+		<French>Sanitation</French>
+		<German>Sanitation</German>
+		<Italian>Sanitation</Italian>
+		<Spanish>Sanitation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SANITATION_PEDIA</Tag>
+		<English>[TAB]The increased waste produced by growing populations over time eventually led to potential health hazards. It then became necessary to come up with systems to dispose of garbage and human waste in a sanitary manner. Plumbing systems designed to remove wastewater from dwellings and public buildings became commonplace, as did sewage plants which treated the wastewater before it was dumped into local waterways. Landfills were established, and garbage was collected for sanitary disposal in dumps and landfills a safe distance from the general population. These measures led to a healthier environment, and allowed for further population growth.</English>
+		<French>[TAB]The increased waste produced by growing populations over time eventually led to potential health hazards. It then became necessary to come up with systems to dispose of garbage and human waste in a sanitary manner. Plumbing systems designed to remove wastewater from dwellings and public buildings became commonplace, as did sewage plants which treated the wastewater before it was dumped into local waterways. Landfills were established, and garbage was collected for sanitary disposal in dumps and landfills a safe distance from the general population. These measures led to a healthier environment, and allowed for further population growth.</French>
+		<German>[TAB]The increased waste produced by growing populations over time eventually led to potential health hazards. It then became necessary to come up with systems to dispose of garbage and human waste in a sanitary manner. Plumbing systems designed to remove wastewater from dwellings and public buildings became commonplace, as did sewage plants which treated the wastewater before it was dumped into local waterways. Landfills were established, and garbage was collected for sanitary disposal in dumps and landfills a safe distance from the general population. These measures led to a healthier environment, and allowed for further population growth.</German>
+		<Italian>[TAB]The increased waste produced by growing populations over time eventually led to potential health hazards. It then became necessary to come up with systems to dispose of garbage and human waste in a sanitary manner. Plumbing systems designed to remove wastewater from dwellings and public buildings became commonplace, as did sewage plants which treated the wastewater before it was dumped into local waterways. Landfills were established, and garbage was collected for sanitary disposal in dumps and landfills a safe distance from the general population. These measures led to a healthier environment, and allowed for further population growth.</Italian>
+		<Spanish>[TAB]The increased waste produced by growing populations over time eventually led to potential health hazards. It then became necessary to come up with systems to dispose of garbage and human waste in a sanitary manner. Plumbing systems designed to remove wastewater from dwellings and public buildings became commonplace, as did sewage plants which treated the wastewater before it was dumped into local waterways. Landfills were established, and garbage was collected for sanitary disposal in dumps and landfills a safe distance from the general population. These measures led to a healthier environment, and allowed for further population growth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CIVIC_ARCHITECTURE</Tag>
+		<English>Civic Architecture</English>
+		<French>Civic Architecture</French>
+		<German>Civic Architecture</German>
+		<Italian>Civic Architecture</Italian>
+		<Spanish>Civic Architecture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHITECTURE_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHITECTURE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WRITING</Tag>
+		<English>Writing</English>
+		<French>Flintlock</French>
+		<German>Flintlock</German>
+		<Italian>Flintlock</Italian>
+		<Spanish>Flintlock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FLINTLOCK_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FLINTLOCK_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALPHABET</Tag>
+		<English>Alphabet</English>
+		<French>Matchlock</French>
+		<German>Matchlock</German>
+		<Italian>Matchlock</Italian>
+		<Spanish>Matchlock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MATCHLOCK_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MATCHLOCK_PEDIA</Tag>
+		<English>[TAB]The Matchlock was the first mechanism or "lock" invented to facilitate the firing of a hand-held firearm. It was invented in Europe some time in the mid 1400s, although the idea of the serpentine appears some 40 years previously in an Austrian manuscript. The first dated illustration of a matchlock mechanism dates to 1475, and by the 1500s they were universally used. [PARAGRAPH:2]A further development of flash pan technology, the classic European matchlock gun held a burning slow match in a clamp at the end of a small curved lever known as the serpentine. Upon pulling a second lever (or in later models a trigger) protruding from the bottom of the gun and connected to the serpentine, the clamp dropped down, lowering the burning match into the flash pan and igniting the priming powder. The flash from the primer travelled through the touch hole igniting the main charge of propellant in the gun barrel. This design removed the need to lower a lighted match into the flashpan by hand and made it possible to have both hands free to keep a firm grip on the weapon at the moment of firing, and to keep both eyes on the target. [PARAGRAPH:2]An inherent weakness of the matchlock was the necessity of keeping the match constantly lit. Being the sole source of ignition for the powder, if the match was not lit when the gun needed to be fired, the mechanism was useless, and the weapon became little more than an expensive club. This was chiefly a problem in wet weather, when damp match cord was difficult to light and to keep burning. Another drawback was the burning match itself. At night, the match would glow in the darkness, potentially giving away the carrier's position. The distinctive smell of burning match-cord was also a give away of a musketeer's position. It was also quite dangerous when a group of men were speedily handling large quantities of gunpowder along with lighted matches. This was one reason why soldiers in charge of transporting and guarding gunpowder were amongst the first to be issued self-igniting guns like the wheellock and snaphance.</English>
+		<French>[TAB]The Matchlock was the first mechanism or "lock" invented to facilitate the firing of a hand-held firearm. It was invented in Europe some time in the mid 1400s, although the idea of the serpentine appears some 40 years previously in an Austrian manuscript. The first dated illustration of a matchlock mechanism dates to 1475, and by the 1500s they were universally used. [PARAGRAPH:2]A further development of flash pan technology, the classic European matchlock gun held a burning slow match in a clamp at the end of a small curved lever known as the serpentine. Upon pulling a second lever (or in later models a trigger) protruding from the bottom of the gun and connected to the serpentine, the clamp dropped down, lowering the burning match into the flash pan and igniting the priming powder. The flash from the primer travelled through the touch hole igniting the main charge of propellant in the gun barrel. This design removed the need to lower a lighted match into the flashpan by hand and made it possible to have both hands free to keep a firm grip on the weapon at the moment of firing, and to keep both eyes on the target. [PARAGRAPH:2]An inherent weakness of the matchlock was the necessity of keeping the match constantly lit. Being the sole source of ignition for the powder, if the match was not lit when the gun needed to be fired, the mechanism was useless, and the weapon became little more than an expensive club. This was chiefly a problem in wet weather, when damp match cord was difficult to light and to keep burning. Another drawback was the burning match itself. At night, the match would glow in the darkness, potentially giving away the carrier's position. The distinctive smell of burning match-cord was also a give away of a musketeer's position. It was also quite dangerous when a group of men were speedily handling large quantities of gunpowder along with lighted matches. This was one reason why soldiers in charge of transporting and guarding gunpowder were amongst the first to be issued self-igniting guns like the wheellock and snaphance.</French>
+		<German>[TAB]The Matchlock was the first mechanism or "lock" invented to facilitate the firing of a hand-held firearm. It was invented in Europe some time in the mid 1400s, although the idea of the serpentine appears some 40 years previously in an Austrian manuscript. The first dated illustration of a matchlock mechanism dates to 1475, and by the 1500s they were universally used. [PARAGRAPH:2]A further development of flash pan technology, the classic European matchlock gun held a burning slow match in a clamp at the end of a small curved lever known as the serpentine. Upon pulling a second lever (or in later models a trigger) protruding from the bottom of the gun and connected to the serpentine, the clamp dropped down, lowering the burning match into the flash pan and igniting the priming powder. The flash from the primer travelled through the touch hole igniting the main charge of propellant in the gun barrel. This design removed the need to lower a lighted match into the flashpan by hand and made it possible to have both hands free to keep a firm grip on the weapon at the moment of firing, and to keep both eyes on the target. [PARAGRAPH:2]An inherent weakness of the matchlock was the necessity of keeping the match constantly lit. Being the sole source of ignition for the powder, if the match was not lit when the gun needed to be fired, the mechanism was useless, and the weapon became little more than an expensive club. This was chiefly a problem in wet weather, when damp match cord was difficult to light and to keep burning. Another drawback was the burning match itself. At night, the match would glow in the darkness, potentially giving away the carrier's position. The distinctive smell of burning match-cord was also a give away of a musketeer's position. It was also quite dangerous when a group of men were speedily handling large quantities of gunpowder along with lighted matches. This was one reason why soldiers in charge of transporting and guarding gunpowder were amongst the first to be issued self-igniting guns like the wheellock and snaphance.</German>
+		<Italian>[TAB]The Matchlock was the first mechanism or "lock" invented to facilitate the firing of a hand-held firearm. It was invented in Europe some time in the mid 1400s, although the idea of the serpentine appears some 40 years previously in an Austrian manuscript. The first dated illustration of a matchlock mechanism dates to 1475, and by the 1500s they were universally used. [PARAGRAPH:2]A further development of flash pan technology, the classic European matchlock gun held a burning slow match in a clamp at the end of a small curved lever known as the serpentine. Upon pulling a second lever (or in later models a trigger) protruding from the bottom of the gun and connected to the serpentine, the clamp dropped down, lowering the burning match into the flash pan and igniting the priming powder. The flash from the primer travelled through the touch hole igniting the main charge of propellant in the gun barrel. This design removed the need to lower a lighted match into the flashpan by hand and made it possible to have both hands free to keep a firm grip on the weapon at the moment of firing, and to keep both eyes on the target. [PARAGRAPH:2]An inherent weakness of the matchlock was the necessity of keeping the match constantly lit. Being the sole source of ignition for the powder, if the match was not lit when the gun needed to be fired, the mechanism was useless, and the weapon became little more than an expensive club. This was chiefly a problem in wet weather, when damp match cord was difficult to light and to keep burning. Another drawback was the burning match itself. At night, the match would glow in the darkness, potentially giving away the carrier's position. The distinctive smell of burning match-cord was also a give away of a musketeer's position. It was also quite dangerous when a group of men were speedily handling large quantities of gunpowder along with lighted matches. This was one reason why soldiers in charge of transporting and guarding gunpowder were amongst the first to be issued self-igniting guns like the wheellock and snaphance.</Italian>
+		<Spanish>[TAB]The Matchlock was the first mechanism or "lock" invented to facilitate the firing of a hand-held firearm. It was invented in Europe some time in the mid 1400s, although the idea of the serpentine appears some 40 years previously in an Austrian manuscript. The first dated illustration of a matchlock mechanism dates to 1475, and by the 1500s they were universally used. [PARAGRAPH:2]A further development of flash pan technology, the classic European matchlock gun held a burning slow match in a clamp at the end of a small curved lever known as the serpentine. Upon pulling a second lever (or in later models a trigger) protruding from the bottom of the gun and connected to the serpentine, the clamp dropped down, lowering the burning match into the flash pan and igniting the priming powder. The flash from the primer travelled through the touch hole igniting the main charge of propellant in the gun barrel. This design removed the need to lower a lighted match into the flashpan by hand and made it possible to have both hands free to keep a firm grip on the weapon at the moment of firing, and to keep both eyes on the target. [PARAGRAPH:2]An inherent weakness of the matchlock was the necessity of keeping the match constantly lit. Being the sole source of ignition for the powder, if the match was not lit when the gun needed to be fired, the mechanism was useless, and the weapon became little more than an expensive club. This was chiefly a problem in wet weather, when damp match cord was difficult to light and to keep burning. Another drawback was the burning match itself. At night, the match would glow in the darkness, potentially giving away the carrier's position. The distinctive smell of burning match-cord was also a give away of a musketeer's position. It was also quite dangerous when a group of men were speedily handling large quantities of gunpowder along with lighted matches. This was one reason why soldiers in charge of transporting and guarding gunpowder were amongst the first to be issued self-igniting guns like the wheellock and snaphance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MATHEMATICS</Tag>
+		<English>Mathematics</English>
+		<French>Wheellock</French>
+		<German>Wheellock</German>
+		<Italian>Wheellock</Italian>
+		<Spanish>Wheellock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WHEELLOCK_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WHEELLOCK_PEDIA</Tag>
+		<English>[TAB]Wheellock, Wheel-Lock or Wheel lock, is a mechanism for firing a firearm. It was the next major development in firearms technology after the matchlock and the first self-igniting firearm. The mechanism is so-called because it uses a rotating steel wheel to provide ignition. Developed around 1500 AD, it was used alongside the matchlock and was later superseded by the snaphance (1560s) and the flintlock (c. 1600).</English>
+		<French>[TAB]Wheellock, Wheel-Lock or Wheel lock, is a mechanism for firing a firearm. It was the next major development in firearms technology after the matchlock and the first self-igniting firearm. The mechanism is so-called because it uses a rotating steel wheel to provide ignition. Developed around 1500 AD, it was used alongside the matchlock and was later superseded by the snaphance (1560s) and the flintlock (c. 1600).</French>
+		<German>[TAB]Wheellock, Wheel-Lock or Wheel lock, is a mechanism for firing a firearm. It was the next major development in firearms technology after the matchlock and the first self-igniting firearm. The mechanism is so-called because it uses a rotating steel wheel to provide ignition. Developed around 1500 AD, it was used alongside the matchlock and was later superseded by the snaphance (1560s) and the flintlock (c. 1600).</German>
+		<Italian>[TAB]Wheellock, Wheel-Lock or Wheel lock, is a mechanism for firing a firearm. It was the next major development in firearms technology after the matchlock and the first self-igniting firearm. The mechanism is so-called because it uses a rotating steel wheel to provide ignition. Developed around 1500 AD, it was used alongside the matchlock and was later superseded by the snaphance (1560s) and the flintlock (c. 1600).</Italian>
+		<Spanish>[TAB]Wheellock, Wheel-Lock or Wheel lock, is a mechanism for firing a firearm. It was the next major development in firearms technology after the matchlock and the first self-igniting firearm. The mechanism is so-called because it uses a rotating steel wheel to provide ignition. Developed around 1500 AD, it was used alongside the matchlock and was later superseded by the snaphance (1560s) and the flintlock (c. 1600).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CARTOGRAPHY</Tag>
+		<English>Cartography</English>
+		<French>Navigation</French>
+		<German>Navigation</German>
+		<Italian>Navigation</Italian>
+		<Spanish>Navigation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVIGATION_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVIGATION_PEDIA</Tag>
+		<English>[TAB]In the early days of seafaring, sailors operated solely through a process known as "piloting", in which the position and course of the ship was determined by referring to geographical landmarks. The need to stay in view of the shore severely limited the extent of sea voyages. Through experience, sailors learned to apply the science of astronomy to their profession, noting the positions and movement of particular stars. They realized that even when the shore was out of sight, they could steer by certain reliable stars. This crude, yet practical application of astronomy allowed the adventurous to sail into the unknown with a reasonable chance of finding their way. As a result, ship building technology quickly improved, producing larger, more stable ships designed for longer voyages.</English>
+		<French>[TAB]In the early days of seafaring, sailors operated solely through a process known as "piloting", in which the position and course of the ship was determined by referring to geographical landmarks. The need to stay in view of the shore severely limited the extent of sea voyages. Through experience, sailors learned to apply the science of astronomy to their profession, noting the positions and movement of particular stars. They realized that even when the shore was out of sight, they could steer by certain reliable stars. This crude, yet practical application of astronomy allowed the adventurous to sail into the unknown with a reasonable chance of finding their way. As a result, ship building technology quickly improved, producing larger, more stable ships designed for longer voyages.</French>
+		<German>[TAB]In the early days of seafaring, sailors operated solely through a process known as "piloting", in which the position and course of the ship was determined by referring to geographical landmarks. The need to stay in view of the shore severely limited the extent of sea voyages. Through experience, sailors learned to apply the science of astronomy to their profession, noting the positions and movement of particular stars. They realized that even when the shore was out of sight, they could steer by certain reliable stars. This crude, yet practical application of astronomy allowed the adventurous to sail into the unknown with a reasonable chance of finding their way. As a result, ship building technology quickly improved, producing larger, more stable ships designed for longer voyages.</German>
+		<Italian>[TAB]In the early days of seafaring, sailors operated solely through a process known as "piloting", in which the position and course of the ship was determined by referring to geographical landmarks. The need to stay in view of the shore severely limited the extent of sea voyages. Through experience, sailors learned to apply the science of astronomy to their profession, noting the positions and movement of particular stars. They realized that even when the shore was out of sight, they could steer by certain reliable stars. This crude, yet practical application of astronomy allowed the adventurous to sail into the unknown with a reasonable chance of finding their way. As a result, ship building technology quickly improved, producing larger, more stable ships designed for longer voyages.</Italian>
+		<Spanish>[TAB]In the early days of seafaring, sailors operated solely through a process known as "piloting", in which the position and course of the ship was determined by referring to geographical landmarks. The need to stay in view of the shore severely limited the extent of sea voyages. Through experience, sailors learned to apply the science of astronomy to their profession, noting the positions and movement of particular stars. They realized that even when the shore was out of sight, they could steer by certain reliable stars. This crude, yet practical application of astronomy allowed the adventurous to sail into the unknown with a reasonable chance of finding their way. As a result, ship building technology quickly improved, producing larger, more stable ships designed for longer voyages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LITERATURE</Tag>
+		<English>Literature</English>
+		<French>Exploration</French>
+		<German>Exploration</German>
+		<Italian>Exploration</Italian>
+		<Spanish>Exploration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXPLORATION_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXPLORATION_QUOTE</Tag>
+		<English>"They are ill discoverers that think there is no land, when they can see nothing but sea."  - Francis Bacon</English>
+		<French>"They are ill discoverers that think there is no land, when they can see nothing but sea."  - Francis Bacon</French>
+		<German>"They are ill discoverers that think there is no land, when they can see nothing but sea."  - Francis Bacon</German>
+		<Italian>"They are ill discoverers that think there is no land, when they can see nothing but sea."  - Francis Bacon</Italian>
+		<Spanish>"They are ill discoverers that think there is no land, when they can see nothing but sea."  - Francis Bacon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXPLORATION_PEDIA</Tag>
+		<English>[TAB]The Age of Discovery or Age of Exploration was a period from the early 15th century and continuing into the early 17th century, during which European ships traveled around the world to search for new trading routes and partners to feed burgeoning capitalism in Europe. They also were in search of trading goods such as gold, silver and spices. In the process, Europeans encountered peoples and mapped lands previously unknown to them. Among the most famous explorers of the period were Christopher Columbus, Vasco da Gama, Pedro Alvares Cabral, John Cabot, Yermak, Juan Ponce de Leon, Juan Sebastian Elcano, Bartholomew Dias, Ferdinand Magellan, Willem Barentsz, Abel Tasman, Jacques Cartier, Samuel de Champlain, Willem Jansz and Captain James Cook. [PARAGRAPH:2]The Age of Exploration was rooted in new technologies and ideas growing out of the Renaissance. These included advances in cartography, navigation, firepower and shipbuilding. Many people wanted to find a route to Asia through the west of Europe. The most important development was the invention of first the carrack and then caravel in Iberia. These vessels evolved from medieval European designs with a fruitful combination of Mediterranean and North Sea innovations and the addition of some Arabic elements. They were the first ships that could leave the relatively placid and calm Mediterranean and sail safely on the open Atlantic.</English>
+		<French>[TAB]The Age of Discovery or Age of Exploration was a period from the early 15th century and continuing into the early 17th century, during which European ships traveled around the world to search for new trading routes and partners to feed burgeoning capitalism in Europe. They also were in search of trading goods such as gold, silver and spices. In the process, Europeans encountered peoples and mapped lands previously unknown to them. Among the most famous explorers of the period were Christopher Columbus, Vasco da Gama, Pedro Alvares Cabral, John Cabot, Yermak, Juan Ponce de Leon, Juan Sebastian Elcano, Bartholomew Dias, Ferdinand Magellan, Willem Barentsz, Abel Tasman, Jacques Cartier, Samuel de Champlain, Willem Jansz and Captain James Cook. [PARAGRAPH:2]The Age of Exploration was rooted in new technologies and ideas growing out of the Renaissance. These included advances in cartography, navigation, firepower and shipbuilding. Many people wanted to find a route to Asia through the west of Europe. The most important development was the invention of first the carrack and then caravel in Iberia. These vessels evolved from medieval European designs with a fruitful combination of Mediterranean and North Sea innovations and the addition of some Arabic elements. They were the first ships that could leave the relatively placid and calm Mediterranean and sail safely on the open Atlantic.</French>
+		<German>[TAB]The Age of Discovery or Age of Exploration was a period from the early 15th century and continuing into the early 17th century, during which European ships traveled around the world to search for new trading routes and partners to feed burgeoning capitalism in Europe. They also were in search of trading goods such as gold, silver and spices. In the process, Europeans encountered peoples and mapped lands previously unknown to them. Among the most famous explorers of the period were Christopher Columbus, Vasco da Gama, Pedro Alvares Cabral, John Cabot, Yermak, Juan Ponce de Leon, Juan Sebastian Elcano, Bartholomew Dias, Ferdinand Magellan, Willem Barentsz, Abel Tasman, Jacques Cartier, Samuel de Champlain, Willem Jansz and Captain James Cook. [PARAGRAPH:2]The Age of Exploration was rooted in new technologies and ideas growing out of the Renaissance. These included advances in cartography, navigation, firepower and shipbuilding. Many people wanted to find a route to Asia through the west of Europe. The most important development was the invention of first the carrack and then caravel in Iberia. These vessels evolved from medieval European designs with a fruitful combination of Mediterranean and North Sea innovations and the addition of some Arabic elements. They were the first ships that could leave the relatively placid and calm Mediterranean and sail safely on the open Atlantic.</German>
+		<Italian>[TAB]The Age of Discovery or Age of Exploration was a period from the early 15th century and continuing into the early 17th century, during which European ships traveled around the world to search for new trading routes and partners to feed burgeoning capitalism in Europe. They also were in search of trading goods such as gold, silver and spices. In the process, Europeans encountered peoples and mapped lands previously unknown to them. Among the most famous explorers of the period were Christopher Columbus, Vasco da Gama, Pedro Alvares Cabral, John Cabot, Yermak, Juan Ponce de Leon, Juan Sebastian Elcano, Bartholomew Dias, Ferdinand Magellan, Willem Barentsz, Abel Tasman, Jacques Cartier, Samuel de Champlain, Willem Jansz and Captain James Cook. [PARAGRAPH:2]The Age of Exploration was rooted in new technologies and ideas growing out of the Renaissance. These included advances in cartography, navigation, firepower and shipbuilding. Many people wanted to find a route to Asia through the west of Europe. The most important development was the invention of first the carrack and then caravel in Iberia. These vessels evolved from medieval European designs with a fruitful combination of Mediterranean and North Sea innovations and the addition of some Arabic elements. They were the first ships that could leave the relatively placid and calm Mediterranean and sail safely on the open Atlantic.</Italian>
+		<Spanish>[TAB]The Age of Discovery or Age of Exploration was a period from the early 15th century and continuing into the early 17th century, during which European ships traveled around the world to search for new trading routes and partners to feed burgeoning capitalism in Europe. They also were in search of trading goods such as gold, silver and spices. In the process, Europeans encountered peoples and mapped lands previously unknown to them. Among the most famous explorers of the period were Christopher Columbus, Vasco da Gama, Pedro Alvares Cabral, John Cabot, Yermak, Juan Ponce de Leon, Juan Sebastian Elcano, Bartholomew Dias, Ferdinand Magellan, Willem Barentsz, Abel Tasman, Jacques Cartier, Samuel de Champlain, Willem Jansz and Captain James Cook. [PARAGRAPH:2]The Age of Exploration was rooted in new technologies and ideas growing out of the Renaissance. These included advances in cartography, navigation, firepower and shipbuilding. Many people wanted to find a route to Asia through the west of Europe. The most important development was the invention of first the carrack and then caravel in Iberia. These vessels evolved from medieval European designs with a fruitful combination of Mediterranean and North Sea innovations and the addition of some Arabic elements. They were the first ships that could leave the relatively placid and calm Mediterranean and sail safely on the open Atlantic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DRAMA</Tag>
+		<English>Drama</English>
+		<French>Mercantilism</French>
+		<German>Mercantilism</German>
+		<Italian>Mercantilism</Italian>
+		<Spanish>Mercantilism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MERCANTILISM_PEDIA</Tag>
+		<English>[TAB]Mercantilism came into being shortly after the medieval states of Europe became true nation-states. It is an economic worldview holding that all economic exchange is zero-sum (meaning that in any trade, there is a winner and a loser). According to mercantilism national governments needed to tightly control foreign trade and employment, and aggressively pursue colonies and foreign markets to profitably sell manufactured goods. Finally, mercantilism was associated with the idea that wealth was identical with stocks of gold and silver, or whatever was used as currency in a given economy. Mercantilism endured until the 18th century, when Adam Smith and the classical liberals of England and France set forth a series of devastating criticisms.</English>
+		<French>[TAB]Mercantilism came into being shortly after the medieval states of Europe became true nation-states. It is an economic worldview holding that all economic exchange is zero-sum (meaning that in any trade, there is a winner and a loser). According to mercantilism national governments needed to tightly control foreign trade and employment, and aggressively pursue colonies and foreign markets to profitably sell manufactured goods. Finally, mercantilism was associated with the idea that wealth was identical with stocks of gold and silver, or whatever was used as currency in a given economy. Mercantilism endured until the 18th century, when Adam Smith and the classical liberals of England and France set forth a series of devastating criticisms.</French>
+		<German>[TAB]Mercantilism came into being shortly after the medieval states of Europe became true nation-states. It is an economic worldview holding that all economic exchange is zero-sum (meaning that in any trade, there is a winner and a loser). According to mercantilism national governments needed to tightly control foreign trade and employment, and aggressively pursue colonies and foreign markets to profitably sell manufactured goods. Finally, mercantilism was associated with the idea that wealth was identical with stocks of gold and silver, or whatever was used as currency in a given economy. Mercantilism endured until the 18th century, when Adam Smith and the classical liberals of England and France set forth a series of devastating criticisms.</German>
+		<Italian>[TAB]Mercantilism came into being shortly after the medieval states of Europe became true nation-states. It is an economic worldview holding that all economic exchange is zero-sum (meaning that in any trade, there is a winner and a loser). According to mercantilism national governments needed to tightly control foreign trade and employment, and aggressively pursue colonies and foreign markets to profitably sell manufactured goods. Finally, mercantilism was associated with the idea that wealth was identical with stocks of gold and silver, or whatever was used as currency in a given economy. Mercantilism endured until the 18th century, when Adam Smith and the classical liberals of England and France set forth a series of devastating criticisms.</Italian>
+		<Spanish>[TAB]Mercantilism came into being shortly after the medieval states of Europe became true nation-states. It is an economic worldview holding that all economic exchange is zero-sum (meaning that in any trade, there is a winner and a loser). According to mercantilism national governments needed to tightly control foreign trade and employment, and aggressively pursue colonies and foreign markets to profitably sell manufactured goods. Finally, mercantilism was associated with the idea that wealth was identical with stocks of gold and silver, or whatever was used as currency in a given economy. Mercantilism endured until the 18th century, when Adam Smith and the classical liberals of England and France set forth a series of devastating criticisms.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PHILOSOPHY</Tag>
+		<English>Philosophy</English>
+		<French>Black Powder</French>
+		<German>Black Powder</German>
+		<Italian>Black Powder</Italian>
+		<Spanish>Black Powder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUNPOWDER_QUOTE</Tag>
+		<English>"We owe to the Middle Ages the two worst inventions of humanity - romantic love and gunpowder."  - Andre Maurois</English>
+		<French>"We owe to the Middle Ages the two worst inventions of humanity - romantic love and gunpowder."  - Andre Maurois</French>
+		<German>"We owe to the Middle Ages the two worst inventions of humanity - romantic love and gunpowder."  - Andre Maurois</German>
+		<Italian>"We owe to the Middle Ages the two worst inventions of humanity - romantic love and gunpowder."  - Andre Maurois</Italian>
+		<Spanish>"We owe to the Middle Ages the two worst inventions of humanity - romantic love and gunpowder."  - Andre Maurois</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AESTHETICS</Tag>
+		<English>Aesthetics</English>
+		<French>Alchemy</French>
+		<German>Alchemy</German>
+		<Italian>Alchemy</Italian>
+		<Spanish>Alchemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PATRONAGE</Tag>
+		<English>Patronage</English>
+		<French>Alchemy</French>
+		<German>Alchemy</German>
+		<Italian>Alchemy</Italian>
+		<Spanish>Alchemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY_QUOTE</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY_PEDIA</Tag>
+		<English>[TAB]Alchemy is both a philosophy and a practice with an aim of achieving ultimate wisdom as well as immortality, involving the improvement of the alchemist as well as the making of several substances described as possessing unusual properties.</English>
+		<French>[TAB]Alchemy is both a philosophy and a practice with an aim of achieving ultimate wisdom as well as immortality, involving the improvement of the alchemist as well as the making of several substances described as possessing unusual properties.</French>
+		<German>[TAB]Alchemy is both a philosophy and a practice with an aim of achieving ultimate wisdom as well as immortality, involving the improvement of the alchemist as well as the making of several substances described as possessing unusual properties.</German>
+		<Italian>[TAB]Alchemy is both a philosophy and a practice with an aim of achieving ultimate wisdom as well as immortality, involving the improvement of the alchemist as well as the making of several substances described as possessing unusual properties.</Italian>
+		<Spanish>[TAB]Alchemy is both a philosophy and a practice with an aim of achieving ultimate wisdom as well as immortality, involving the improvement of the alchemist as well as the making of several substances described as possessing unusual properties.</Spanish>
+	</TEXT>
+
+</Civ4GameText>

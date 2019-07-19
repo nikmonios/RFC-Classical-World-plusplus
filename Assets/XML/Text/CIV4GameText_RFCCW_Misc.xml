@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_CITIZEN</Tag>
+		<English>Laborer</English>
+		<French>Laborer</French>
+		<German>Laborer</German>
+		<Italian>Laborer</Italian>
+		<Spanish>Laborer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_TRADESMAN</Tag>
+		<English>Tradesman</English>
+		<French>Tradesman</French>
+		<German>Tradesman</German>
+		<Italian>Tradesman</Italian>
+		<Spanish>Tradesman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_ARTISAN</Tag>
+		<English>Artisan</English>
+		<French>Artisan</French>
+		<German>Artisan</German>
+		<Italian>Artisan</Italian>
+		<Spanish>Artisan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_TAXMAN</Tag>
+		<English>Tax Collector</English>
+		<French>Tax Collector</French>
+		<German>Tax Collector</German>
+		<Italian>Tax Collector</Italian>
+		<Spanish>Tax Collector</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIRATE_TITLE</Tag>
+		<English>Pirates!</English>
+		<French>Pirates!</French>
+		<German>Pirates!</German>
+		<Italian>Pirates!</Italian>
+		<Spanish>Pirates!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_CITIZEN</Tag>
+		<English>Laborer</English>
+		<French>Laborer</French>
+		<German>Laborer</German>
+		<Italian>Laborer</Italian>
+		<Spanish>Laborer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SECRET_DIPLOMACY</Tag>
+		<English>Enter into secret negotiations with the enemy</English>
+		<French>Enter into secret negotiations with the enemy</French>
+		<German>Enter into secret negotiations with the enemy</German>
+		<Italian>Enter into secret negotiations with the enemy</Italian>
+		<Spanish>Enter into secret negotiations with the enemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_TITLE</Tag>
+		<English>Secret Negotiations</English>
+		<French>Secret Negotiations</French>
+		<German>Secret Negotiations</German>
+		<Italian>Secret Negotiations</Italian>
+		<Spanish>Secret Negotiations</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_VASSALIZE</Tag>
+		<English>Demand their complete capitaulation! Surely they can see their cause is hopeless.</English>
+		<French>Demand their complete capitaulation! Surely they can see their cause is hopeless.</French>
+		<German>Demand their complete capitaulation! Surely they can see their cause is hopeless.</German>
+		<Italian>Demand their complete capitaulation! Surely they can see their cause is hopeless.</Italian>
+		<Spanish>Demand their complete capitaulation! Surely they can see their cause is hopeless.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_VASSAL_DECLINE</Tag>
+		<English>Never mind, we will fight on.</English>
+		<French>Never mind, we will fight on.</French>
+		<German>Never mind, we will fight on.</German>
+		<Italian>Never mind, we will fight on.</Italian>
+		<Spanish>Never mind, we will fight on.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_SURRENDER</Tag>
+		<English>Offer our unconditional surrender. This bloodshed must stop!</English>
+		<French>Offer our unconditional surrender. This bloodshed must stop!</French>
+		<German>Offer our unconditional surrender. This bloodshed must stop!</German>
+		<Italian>Offer our unconditional surrender. This bloodshed must stop!</Italian>
+		<Spanish>Offer our unconditional surrender. This bloodshed must stop!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_MESSAGE</Tag>
+		<English>The negotiations have begun...</English>
+		<French>The negotiations have begun...</French>
+		<German>The negotiations have begun...</German>
+		<Italian>The negotiations have begun...</Italian>
+		<Spanish>The negotiations have begun...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_SURRENDER_DECLINE</Tag>
+		<English>Never mind, we will fight on.</English>
+		<French>Never mind, we will fight on.</French>
+		<German>Never mind, we will fight on.</German>
+		<Italian>Never mind, we will fight on.</Italian>
+		<Spanish>Never mind, we will fight on.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECRET_DIPLOMACY_FAILURE_MESSAGE</Tag>
+		<English>We have nothing to discuss...</English>
+		<French>We have nothing to discuss...</French>
+		<German>We have nothing to discuss...</German>
+		<Italian>We have nothing to discuss...</Italian>
+		<Spanish>We have nothing to discuss...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIRATE_MESSAGE</Tag>
+		<English>Pirates have entered our waters.</English>
+		<French>Pirates have entered our waters.</French>
+		<German>Pirates have entered our waters.</German>
+		<Italian>Pirates have entered our waters.</Italian>
+		<Spanish>Pirates have entered our waters.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BRIBE_PIRATE</Tag>
+		<English>Bribe them to leave.</English>
+		<French>Bribe them to leave.</French>
+		<German>Bribe them to leave.</German>
+		<Italian>Bribe them to leave.</Italian>
+		<Spanish>Bribe them to leave.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_HIRE_PIRATE</Tag>
+		<English>Hire them as mercenaries.</English>
+		<French>Hire them as mercenaries.</French>
+		<German>Hire them as mercenaries.</German>
+		<Italian>Hire them as mercenaries.</Italian>
+		<Spanish>Hire them as mercenaries.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_IGNORE_PIRATE</Tag>
+		<English>Do nothing, we will meet them in battle.</English>
+		<French>Do nothing, we will meet them in battle.</French>
+		<German>+Do nothing, we will meet them in battle.</German>
+		<Italian>Do nothing, we will meet them in battle.</Italian>
+		<Spanish>Do nothing, we will meet them in battle.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EDICT_BONUS_HELP</Tag>
+		<English>+1 Piety if is [ICON_BUDDHISM] State [ICON_RELIGION]</English>
+		<French>+1 Piety if is [ICON_BUDDHISM] State [ICON_RELIGION]</French>
+		<German>+1 Piety if is [ICON_BUDDHISM] State [ICON_RELIGION]</German>
+		<Italian>+1 Piety if is [ICON_BUDDHISM] State [ICON_RELIGION]</Italian>
+		<Spanish>+1 Piety if is [ICON_BUDDHISM] State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_HIRE_FAILURE</Tag>
+		<English>The barbarians have stolen our gold and killed our emissary.</English>
+		<French>The barbarians have stolen our gold and killed our emissary.</French>
+		<German>The barbarians have stolen our gold and killed our emissary.</German>
+		<Italian>The barbarians have stolen our gold and killed our emissary.</Italian>
+		<Spanish>The barbarians have stolen our gold and killed our emissary.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_HIRE_SUCCESS</Tag>
+		<English>The barbarians have accepted our offer.</English>
+		<French>The barbarians have accepted our offer.</French>
+		<German>The barbarians have accepted our offer.</German>
+		<Italian>The barbarians have accepted our offer.</Italian>
+		<Spanish>The barbarians have accepted our offer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_BRIBE_FAILURE</Tag>
+		<English>The barbarians have stolen our gold and killed our emissary.</English>
+		<French>The barbarians have stolen our gold and killed our emissary.</French>
+		<German>The barbarians have stolen our gold and killed our emissary.</German>
+		<Italian>The barbarians have stolen our gold and killed our emissary.</Italian>
+		<Spanish>The barbarians have stolen our gold and killed our emissary.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_BRIBE_SUCCESS</Tag>
+		<English>The barbarians have accepted our bribe.</English>
+		<French>The barbarians have accepted our bribe.</French>
+		<German>The barbarians have accepted our bribe.</German>
+		<Italian>The barbarians have accepted our bribe.</Italian>
+		<Spanish>The barbarians have accepted our bribe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_BRIBE</Tag>
+		<English>Attempt to bribe these barbarians to leave our lands</English>
+		<French>Attempt to bribe these barbarians to leave our lands</French>
+		<German>Attempt to bribe these barbarians to leave our lands</German>
+		<Italian>Attempt to bribe these barbarians to leave our lands</Italian>
+		<Spanish>Attempt to bribe these barbarians to leave our lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_HIRE</Tag>
+		<English>Attempt to retain these barbarians as mercenaries</English>
+		<French>Attempt to retain these barbarians as mercenaries</French>
+		<German>Attempt to retain these barbarians as mercenaries</German>
+		<Italian>Attempt to retain these barbarians as mercenaries</Italian>
+		<Spanish>Attempt to retain these barbarians as mercenaries</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_NUMIDIA</Tag>
+		<English>The Berber tribes of Numidia are asserting their independence!</English>
+		<French>The Berber tribes of Numidia are asserting their independence!</French>
+		<German>The Berber tribes of Numidia are asserting their independence!</German>
+		<Italian>The Berber tribes of Numidia are asserting their independence!</Italian>
+		<Spanish>The Berber tribes of Numidia are asserting their independence!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_PALLAVAS</Tag>
+		<English>The Pallava dynasty has taken power in Andhra!</English>
+		<French>The Pallava dynasty has taken power in Andhra!</French>
+		<German>The Pallava dynasty has taken power in Andhra!</German>
+		<Italian>The Pallava dynasty has taken power in Andhra!</Italian>
+		<Spanish>The Pallava dynasty has taken power in Andhra!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_KALABHRAS</Tag>
+		<English>Tamil Nadu has been seized by mysterious outsiders known as the Kalabhras!</English>
+		<French>Tamil Nadu has been seized by mysterious outsiders known as the Kalabhras!</French>
+		<German>Tamil Nadu has been seized by mysterious outsiders known as the Kalabhras!</German>
+		<Italian>Tamil Nadu has been seized by mysterious outsiders known as the Kalabhras!</Italian>
+		<Spanish>Tamil Nadu has been seized by mysterious outsiders known as the Kalabhras!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_VAKATAKAS</Tag>
+		<English>The Vakataka clan, formerly vassals of the Satavahanas, have declared their independence!</English>
+		<French>The Vakataka clan, formerly vassals of the Satavahanas, have declared their independence!</French>
+		<German>The Vakataka clan, formerly vassals of the Satavahanas, have declared their independence!</German>
+		<Italian>The Vakataka clan, formerly vassals of the Satavahanas, have declared their independence!</Italian>
+		<Spanish>The Vakataka clan, formerly vassals of the Satavahanas, have declared their independence!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_SONG</Tag>
+		<English>The Liu Song Empire has been established in China!</English>
+		<French>The Liu Song Empire has been established in China!</French>
+		<German>The Liu Song Empire has been established in China!</German>
+		<Italian>The Liu Song Empire has been established in China!</Italian>
+		<Spanish>The Liu Song Empire has been established in China!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_HARSHA</Tag>
+		<English>A young prince from Thanesar has conquered the city of Kannauj!</English>
+		<French>A young prince from Thanesar has conquered the city of Kannauj!</French>
+		<German>A young prince from Thanesar has conquered the city of Kannauj!</German>
+		<Italian>A young prince from Thanesar has conquered the city of Kannauj!</Italian>
+		<Spanish>A young prince from Thanesar has conquered the city of Kannauj!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_HEPHTHALITES</Tag>
+		<English>A nomad confederation known as the Hephthalites is invading Central Asia and northern India!</English>
+		<French>A nomad confederation known as the Hephthalites is invading Central Asia and northern India!</French>
+		<German>A nomad confederation known as the Hephthalites is invading Central Asia and northern India!</German>
+		<Italian>A nomad confederation known as the Hephthalites is invading Central Asia and northern India!</Italian>
+		<Spanish>A nomad confederation known as the Hephthalites is invading Central Asia and northern India!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_ROURAN</Tag>
+		<English>The Rouran Qaghanate has united the nomad tribes of the eastern steppes!</English>
+		<French>The Rouran Qaghanate has united the nomad tribes of the eastern steppes!</French>
+		<German>The Rouran Qaghanate has united the nomad tribes of the eastern steppes!</German>
+		<Italian>The Rouran Qaghanate has united the nomad tribes of the eastern steppes!</Italian>
+		<Spanish>The Rouran Qaghanate has united the nomad tribes of the eastern steppes!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_AVARS</Tag>
+		<English>The Avar Qaghanate has defeated its rivals and created an empire!</English>
+		<French>The Avar Qaghanate has defeated its rivals and created an empire!</French>
+		<German>The Avar Qaghanate has defeated its rivals and created an empire!</German>
+		<Italian>The Avar Qaghanate has defeated its rivals and created an empire!</Italian>
+		<Spanish>The Avar Qaghanate has defeated its rivals and created an empire!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_MOORS</Tag>
+		<English>Muslim Moors, vassals of the Arab Caliphate, are invading Iberia!</English>
+		<French>Muslim Moors, vassals of the Arab Caliphate, are invading Iberia!</French>
+		<German>Muslim Moors, vassals of the Arab Caliphate, are invading Iberia!</German>
+		<Italian>Muslim Moors, vassals of the Arab Caliphate, are invading Iberia!</Italian>
+		<Spanish>Muslim Moors, vassals of the Arab Caliphate, are invading Iberia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_VANDALS</Tag>
+		<English>Vandal tribes from Spain are attacking Africa!</English>
+		<French>Vandal tribes from Spain are attacking Africa!</French>
+		<German>Vandal tribes from Spain are attacking Africa!</German>
+		<Italian>Vandal tribes from Spain are attacking Africa!</Italian>
+		<Spanish>Vandal tribes from Spain are attacking Africa!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_VISIGOTHS</Tag>
+		<English>Alaric the Visigoth has proclaimed himself King of Gaul and Spain!</English>
+		<French>Alaric the Visigoth has proclaimed himself King of Gaul and Spain!</French>
+		<German>Alaric the Visigoth has proclaimed himself King of Gaul and Spain!</German>
+		<Italian>Alaric the Visigoth has proclaimed himself King of Gaul and Spain!</Italian>
+		<Spanish>Alaric the Visigoth has proclaimed himself King of Gaul and Spain!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_OSTROGOTHS</Tag>
+		<English>Ostrogoths under Thedoric have taken control of Illyricum and northern Italy!</English>
+		<French>Ostrogoths under Thedoric have taken control of Illyricum and northern Italy!</French>
+		<German>Ostrogoths under Thedoric have taken control of Illyricum and northern Italy!</German>
+		<Italian>Ostrogoths under Thedoric have taken control of Illyricum and northern Italy!</Italian>
+		<Spanish>Ostrogoths under Thedoric have taken control of Illyricum and northern Italy!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_XIONGNU</Tag>
+		<English>The Xiongnu tribal confederation has established itself on the Mongolian Steppe!</English>
+		<French>The Xiongnu tribal confederation has established itself on the Mongolian Steppe!</French>
+		<German>The Xiongnu tribal confederation has established itself on the Mongolian Steppe!</German>
+		<Italian>The Xiongnu tribal confederation has established itself on the Mongolian Steppe!</Italian>
+		<Spanish>The Xiongnu tribal confederation has established itself on the Mongolian Steppe!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_XIANBEI</Tag>
+		<English>The Xianbei tribal confederation has established itself on the Mongolian Steppe!</English>
+		<French>The Xianbei tribal confederation has established itself on the Mongolian Steppe!</French>
+		<German>The Xianbei tribal confederation has established itself on the Mongolian Steppe!</German>
+		<Italian>The Xianbei tribal confederation has established itself on the Mongolian Steppe!</Italian>
+		<Spanish>The Xianbei tribal confederation has established itself on the Mongolian Steppe!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_SCYTHIANS</Tag>
+		<English>Hordes of Saka raiders have descended upon northwest India, intent on its conquest!</English>
+		<French>Hordes of Saka raiders have descended upon northwest India, intent on its conquest!</French>
+		<German>Hordes of Saka raiders have descended upon northwest India, intent on its conquest!</German>
+		<Italian>Hordes of Saka raiders have descended upon northwest India, intent on its conquest!</Italian>
+		<Spanish>Hordes of Saka raiders have descended upon northwest India, intent on its conquest!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_SUNGAS</Tag>
+		<English>Pusyamitra Sunga has declared a new empire in the Ganges plain!</English>
+		<French>Pusyamitra Sunga has declared a new empire in the Ganges plain!</French>
+		<German>Pusyamitra Sunga has declared a new empire in the Ganges plain!</German>
+		<Italian>Pusyamitra Sunga has declared a new empire in the Ganges plain!</Italian>
+		<Spanish>Pusyamitra Sunga has declared a new empire in the Ganges plain!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_NANYUE</Tag>
+		<English>Zhao Tuo, a former Qin General, has renouncd the seniority of the Han Emperor and declared himself lord of South China!</English>
+		<French>Zhao Tuo, a former Qin General, has renouncd the seniority of the Han Emperor and declared himself lord of South China!</French>
+		<German>Zhao Tuo, a former Qin General, has renouncd the seniority of the Han Emperor and declared himself lord of South China!</German>
+		<Italian>Zhao Tuo, a former Qin General, has renouncd the seniority of the Han Emperor and declared himself lord of South China!</Italian>
+		<Spanish>Zhao Tuo, a former Qin General, has renouncd the seniority of the Han Emperor and declared himself lord of South China!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_MACEDON</Tag>
+		<English>The heir of Antigonus is attempting to seize the throne of Macedon!</English>
+		<French>The heir of Antigonus is attempting to seize the throne of Macedon!</French>
+		<German>The heir of Antigonus is attempting to seize the throne of Macedon!</German>
+		<Italian>The heir of Antigonus is attempting to seize the throne of Macedon!</Italian>
+		<Spanish>The heir of Antigonus is attempting to seize the throne of Macedon!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious</English>
+		<French>Religious</French>
+		<German>Religious</German>
+		<Italian>Religious</Italian>
+		<Spanish>Religious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS_PEDIA</Tag>
+		<English>Religious Victory</English>
+		<French>Religious Victory</French>
+		<German>Religious Victory</German>
+		<Italian>Religious Victory</Italian>
+		<Spanish>Religious Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_1</Tag>
+		<English>Alexander the Great</English>
+		<French>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_2</Tag>
+		<English>Augustus Caesar</English>
+		<French>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_3</Tag>
+		<English>Khosrau II</English>
+		<French>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_4</Tag>
+		<English>Wu of Han</English>
+		<French>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_5</Tag>
+		<English>Chandragupta Maurya</English>
+		<French>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_6</Tag>
+		<English>Pompey</English>
+		<French>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_7</Tag>
+		<English>Xuan Di</English>
+		<French>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_8</Tag>
+		<English>Harsha Vardhana</English>
+		<French>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_9</Tag>
+		<English>Arsaces I</English>
+		<French>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_10</Tag>
+		<English>Charles Martel</English>
+		<French>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_11</Tag>
+		<English>Stilicho the Vandal</English>
+		<French>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_12</Tag>
+		<English>Heraclius</English>
+		<French>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_13</Tag>
+		<English>Artaxias I</English>
+		<French>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_14</Tag>
+		<English>Simuka</English>
+		<French>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_15</Tag>
+		<English>Qin San Shi</English>
+		<French>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_16</Tag>
+		<English>Menander</English>
+		<French>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_17</Tag>
+		<English>Hamilcar</English>
+		<French>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_18</Tag>
+		<English>Nero</English>
+		<French>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_19</Tag>
+		<English>Crassus</English>
+		<French>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_20</Tag>
+		<English>Romulus Augustulus</English>
+		<French>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER</Tag>
+		<English>[ICON_BULLET]Gain knowledge of [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Acqu&#233;rir la connaissance de : [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Wissen &#252;ber [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] erwerben</German>
+		<Italian>[ICON_BULLET]Ottieni la conoscenza di [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Adquirir el conocimiento [NUM1:del:de la:de los:de las] [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER_PERCENT</Tag>
+		<English>[ICON_BULLET]%D1_num[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Plus que %D1_num[ICON_RESEARCH] avant la d&#233;couverte de : [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]%D1_num[ICON_RESEARCH] f&#252;r die Technologie [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]%D1_num[ICON_RESEARCH] verso [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]%D1_num [ICON_RESEARCH] hacia [NUM2:el:la:los:las] [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_OVERLAY_WIDGET</Tag>
+		<English>Toggle Stability Display</English>
+		<French>Toggle Stability Display</French>
+		<German>Toggle Stability Display</German>
+		<Italian>Toggle Stability Display</Italian>
+		<Spanish>Toggle Stability Display</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_OVERLAY_HELP</Tag>
+		<English>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</English>
+		<French>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</French>
+		<German>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</German>
+		<Italian>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</Italian>
+		<Spanish>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_CORE</Tag>
+		<English>(core province)</English>
+		<French>(core province)</French>
+		<German>(core province)</German>
+		<Italian>(core province)</Italian>
+		<Spanish>(core province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_BORDER</Tag>
+		<English>(border province)</English>
+		<French>(border province)</French>
+		<German>(border province)</German>
+		<Italian>(border province)</Italian>
+		<Spanish>(border province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_CONTESTED</Tag>
+		<English>(contested province)</English>
+		<French>(contested province)</French>
+		<German>(contested province)</German>
+		<Italian>(contested province)</Italian>
+		<Spanish>(contested province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_FOREIGN</Tag>
+		<English>(foreign core)</English>
+		<French>(foreign core)</French>
+		<German>(foreign core)</German>
+		<Italian>(foreign core)</Italian>
+		<Spanish>(foreign core)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FREE_COLONY</Tag>
+		<English>Select the cities to which you wish to grant independence</English>
+		<French>S&#233;lectionnez les colonies auxquelles vous souhaitez accorder l'ind&#233;pendance</French>
+		<German>W&#228;hlt die Kolonien aus, denen Ihr Unabh&#228;ngigkeit verleihen m&#246;chtet</German>
+		<Italian>Seleziona le colonie che vuoi rendere indipendenti</Italian>
+		<Spanish>Seleccionad las colonias que quer&#225;is declarar independientes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVILOPEDIA_CORE_PROVINCES</Tag>
+		<English>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</English>
+		<French>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</French>
+		<German>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</German>
+		<Italian>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVILOPEDIA_BORDER_PROVINCES</Tag>
+		<English>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TERROR1</Tag>
+		<English>Citizens of</English>
+		<French>Les citoyens de</French>
+		<German>Die Bürger von</German>
+		<Italian>I cittadini di</Italian>
+		<Spanish>Los ciudadanos de</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TERROR2</Tag>
+		<English>fear the same fate of their neighbour inhabitants and surrender!</English>
+		<French>craignent de subir le même sort que leurs voisins et se rendent !</French>
+		<German>fürchten, dass sie dasselbe Schicksal ereilt wie ihre Nachbarn, und kapitulieren!</German>
+		<Italian>temono di subire lo stesso fato dei vicini e si arrendono!</Italian>
+		<Spanish>temen sufrir el mismo destino que sus vecinos y se rinden.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_CRUSADE</Tag>
+		<English>Franks have established an independent crusader kingdom in Cyprus!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+		<English>RHYE'S AND FALL OF THE CLASSICAL WORLD</English>
+		<French>RHYE'S AND FALL OF THE CLASSICAL WORLD</French>
+		<German>RHYE'S AND FALL OF THE CLASSICAL WORLD</German>
+		<Italian>RHYE'S AND FALL OF THE CLASSICAL WORLD</Italian>
+		<Spanish>RHYE'S AND FALL OF THE CLASSICAL WORLD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0</Tag>
+		<English>Just before his death, Alexander the Great called out for the strongest of his generals to lead the Hellenic empire. There was no unity in this matter. You however, Antigonos, claim to be the successor.[PARAGRAPH][TAB]We have brought Asia, Cilicia and the ancient city of Tyros under our control. Now is the time to get rid of our 'friends', Ptolemaios and Seleucos, to reunite what was once one.</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_1</Tag>
+		<English>Although you shone in the struggles for India, Perdikkas, heir of Alexander, didn't entrust you, Seleukos, with your own satrapy. So you disposed of him and took what you rightfully deserved.[PARAGRAPH][TAB]Mesopotamia is ours. So are the eastern satrapies. There are still enemies out there, however, who seek to defeat us! Don't they know that you are called 'Nikator', the winner?</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2</Tag>
+		<English>Great Ptolemaios, Perdikkas, the son of our deceased leader, gave us the rich satrapy of Egypt. The times, however, are changing and war is breaking out between the generals, former comrades who once marched side by side! We should secede from them and establish our own rule over Egypt, a rich and fertile land. It is important to consider, what the next steps will be!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_3</Tag>
+		<English>After years full of trade and expansion, Carthago isn't the dependent colony it once was. Free from the yoke of Tyros, Carthago controls many ports in the western Mediterranean on its own, and has become one of the richest and most powerful cities in the known world. Even wars could not hamper our success. Was this just a passing golden age or will it last for another 200 years?</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_4</Tag>
+		<English>The Nanda dynasty was the epitome of greed and and a thorn in the eye of the gods. Chandragupta has overthrown this dynasty after years of fighting and has taken control of Magadha.[PARAGRAPH][TAB]Your spies tell you that Alexander has died and that the satrapies in the west are crumbling! Now they will make an easy target for the battle-scarred armies of Maurya!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5</Tag>
+		<English>Warrior Emperor Kharavela! Kalinka is a prosperous land and has been thriving for centuries. It is your duty to ensure that it stays this way.[PARAGRAPH][TAB]In the north the Maurya are expanding aggressively. Although they are focusing on lands in the west, it would be wise to keep an eye on them, for though they profess the ideals of the Buddha, they deliver them on the point of a spear!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+		<English>The fiefdom of Qin was awarded to us to breed horses for the Zhou kings and protect their lands. But that was centuries ago. The Zhou have faded and now seven states are warring for supremacy.[PARAGRAPH][SPACE]The other states call us barbarians, but we are superior to all of them in administration, economy and military. It is time to end those childish quarrels!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
+		<English>Gija, a member of the Shang aristocracy, introduced Chinese culture to our lands of Gojoseon in the distant past, sharing his knowledge with us. In recent years the Chinese have been divided and torn by civil wars, at times attacking our people as well. We have been forced to drive them out time and again. Perhaps it is time to do something about it? </English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_8</Tag>
+		<English>Napata had been the home of the people of Kush since the old, old times of the great builders, yet the capital needed to be moved southwards. The priests in Napata had grown too powerful.[PARAGRAPH][SPACE]Our new home, Meroe, offers many more opportunities for trade and production. Now that the first burial of a king has taken place here, Meroe has become the new heart of the Kush!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_9</Tag>
+		<English>In these arid, sunbaked lands, nothing grows properly and sand is your constant companion. But it holds one of the fabulous of plants: Incense trees. They will always ensure the wealth of the Sabean people, as long as you have someone to trade with! Can you, king Tuba Abu, expand your power and strengthen the trade, or will you fail with nothing but sand in your hands?</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_10</Tag>
+		<English>The Pandyan Kingdom is one of the three Tamil kingdoms, the others being Chera and Chola. From the city of Korkai we expanded our borders to all directions. We even took the great city of Madurai, which became our new capital.[PARAGRAPH][SPACE]Now we must consolidate our rule over Tamil Nadu and bring wealth to our people, so that they can live securely in this paradise of the world.</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_11</Tag>
+		<English>Mithridates, founder of the Pontic kingdom, you have seen much terror. In your youth, your father and grandfather, who governed the regions of Cappadocia, were killed by Antigonos. You survived because you were warned in time and fortified in the fortress of Cimiata. From there you conquered Pontus and Paphlagonia and established your own kingdom. Basileus, we await you orders!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
+		<English>Cead mile failte! Vercingetorix, the bravest and strongest of our warriors and leader of the Celtic tribes, for a long time we have been living in these vast forests. Trade and war nurtured our people, living all across the continent. But the Druids fear something... They warn you... From the south will come a wolf and nothing can satiate his lust for blood...</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_13</Tag>
+		<English>We write the year 478 ab urbe condita. Italia is now the home for the Romans, after centuries of war against Greeks, Etrurians, Samnites and others, the whole peninsula is under our control. The Res Publica's might is unmatched! We have heard of turmoils in Sicilia, where public order is in danger. Roma should intervene soon, for Carthago will surely extend its arm to this island...</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_14</Tag>
+		<English>Our people, the Au Viet, have lived in the dense jungles of Annam for many ages, but the coastal regions offered more riches. So began the migration into the region, where our neighbors, the Lac Viet, were living. Our cultures and peoples merged peacefully and you, Thuc Phan, strengthened the bonds between the Viet tribes further by proclaiming the kingdom of Au Lac. May our people benefit from your wise rule!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_15</Tag>
+		<English>Our cities are wealthy enough: although the Tarim basin doesn't offer much on its own, we control the trade between the West and the East. The finest silk from China passes through the gates of our cities, as well as olives and wine from the sea in the west.[PARAGRAPH][SPACE] But this wealth also causes envy among the nomads and others. We must be careful, otherwise there may be trouble with our neighbours...</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_16</Tag>
+		<English>The Bactrian Kingdom</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_17</Tag>
+		<English>After the death of Qin Shi Huangdi the Qin dynasty was no longer able to hold his empire together, yet only a part of it swore allegiance to Liu Bang of Han, the founder of our glorious empire. It is our task to reunite our motherland once again under the rule of the Han, so you can rightfully claim the title Huangdi, Son of Heaven!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18</Tag>
+		<English>The Satavahana Empire</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_19</Tag>
+		<English>We have been a satrapy for long enough, the Seleucid tried to control Armenia, but their power is fading rapidly. Losing one war after another, they were recently defeated by the Romans in the battle of Magnesia. We will take advantage of their decline and finally break free to reestablish an independent Armenian kingdom once again!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_20</Tag>
+		<English>The infidel Hellenes cannot not be tolerated in these holy lands anymore. They don't respect Jhwh, they want to replace our divinely appointed high priest with a governor of theirs, they forbid our rites, they burned the Thora and desecrated our temples. Enough of this heresy!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_21</Tag>
+		<English>The Parthian Empire</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_22</Tag>
+		<English>The Carpathian Basin has been the centre of many kingdoms through the ages. The Getae, the Thracians and now we, the Dacians, have made it our home. Together with the Getae, we established a kingdom more extensive than any of the tribes before us. The Greeks fear us, the Celts have been expelled and now the Romans try to conquer our lands. We do not fear the wolf, for our soul is immortal!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_23</Tag>
+		<English>The Kingdom of Goguryeo</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_24</Tag>
+		<English>The Kingdom of Axum</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_25</Tag>
+		<English>Your people, the Yuezhi, were expelled from the Tarim basin by the fierce nomadic people known as the Xiongnu, and the search for a new homeland began. Your tribe, the Kushans, have wandered southwards, through the Greek realms of Bactria. There you have begun to subdue your neighbours and to form the core of the future Kushan empire. In the south, even more riches await your people...</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_26</Tag>
+		<English>The Funan dynasty, founded by the Queen Soma and the Brahman Kaundinya, is the head of several cities in these tropical and maritime regions. The growth of these cities was stimulated greatly by Chinese and Indian merchants, travelling across the seas in the south and heading for your ports to avoid the Monsoon winds. It might be wise to extend our influence to profit even more from those foreigners!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_27</Tag>
+		<English>China is divided into three kingdoms vying for power: Wei in the north, Shu in the southwest and Wu in the southeast. It is your kingdom, however, that is destined to unite them all and restore the glory of the Celestial Empire.</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_28</Tag>
+		<English>Weakened by internal struggles and constant wars against the Roman empire, the Parthian empire was not able to defend itself against the true ruler of Eranshahr. We took over Persis province and you claimed the title of Shahanshah. Reconquer the Persian empire and lead it to its old might!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_29</Tag>
+		<English>The Kingdom of Yamato</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_30</Tag>
+		<English>Many empires have been built here on the great plain of the Ganges. Nanda, Maurya and Sunga have all ruled here and from here conquered all India each in their turn. Now it is your turn, Chandragupta, to build an empire worthy of India's golden age!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_31</Tag>
+		<English>The Emperor Constantine has brought two great changes to the empire of the Romans: he has divided it politically and united it spiritually. Two capitals, Rome and Constantinople, and two emperors now rule a people united by faith in the one true God!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_32</Tag>
+		<English>The Western Roman Empire is descending into chaos after multiple invasions from beyond the Rhine and Danube. The invading tribes now vy with each other to restore the power and glory of Roman rule under their own leadership. This is your task also. Your tribe are the Visigoths and Rome has blessed your rule in Gaul and Iberia. May your kingdom rise above all others!</English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_33</Tag>
+		<English>Many tribes and warbands have crossed the frontiers since the collapse of Roman power in the west, but only your people, the Vandals, have reached the final prize: Africa, breadbasket of the empire! Make yourself master of the seas and all the west will be at your mercy!</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_34</Tag>
+		<English>The Western Roman Empire is descending into chaos after multiple invasions from beyond the Rhine and Danube. The invading tribes now vy with each other to restore the power and glory of Roman rule under their own leadership. This is your task also. Your tribe are the Ostrogoths and Rome has blessed your rule in Italy and Illyricum. May your kingdom rise above all others!</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_35</Tag>
+		<English>Roman power is fading... Years of fighting against us and the other tribes exhausted the resources of the once strong empire. Rome is no longer a threat to us, we can take from them what we want. But there are others, trying to profit from this situation, too. The other tribes are our new enemies, but with the conversion to Christianity, God and the people are on our side!</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_36</Tag>
+		<English>The Chalukyan Empire</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_37</Tag>
+		<English>The Lombards</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_38</Tag>
+		<English>The Gokturk Qaghanate</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_39</Tag>
+		<English>The Srivijayan Empire</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_40</Tag>
+		<English>The Khazar Qaghanate</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_41</Tag>
+		<English>Tibet</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_42</Tag>
+		<English>The Tang</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_43</Tag>
+		<English>The Arabs</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_ESPIONAGE</Tag>
+		<English>Espionage</English>
+		<French>Espionage</French>
+		<German>Espionage</German>
+		<Italian>Espionage</Italian>
+		<Spanish>Espionage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_EMPEROR</Tag>
+		<English>Emperor</English>
+		<French>Caliph</French>
+		<German>Caliph</German>
+		<Italian>Caliph</Italian>
+		<Spanish>Caliph</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_MONARCH</Tag>
+		<English>Monarch</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_VICEROY</Tag>
+		<English>Viceroy</English>
+		<French>Emir</French>
+		<German>Emir</German>
+		<Italian>Emir</Italian>
+		<Spanish>Emir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_1</Tag>
+		<English>The Early Classical Era</English>
+		<French>The Muslim Conquests Era</French>
+		<German>The Muslim Conquests Era</German>
+		<Italian>The Muslim Conquests Era</Italian>
+		<Spanish>The Muslim Conquests Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_2</Tag>
+		<English>The Late Classical Era</English>
+		<French>The Islamic Golden Age</French>
+		<German>The Islamic Golden Age</German>
+		<Italian>The Islamic Golden Age</Italian>
+		<Spanish>The Islamic Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_3</Tag>
+		<English>The Early Migration Era</English>
+		<French>The Mongol Invasions Era</French>
+		<German>The Mongol Invasions Era</German>
+		<Italian>The Mongol Invasions Era</Italian>
+		<Spanish>The Mongol Invasions Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_4</Tag>
+		<English>The Late Migration Era</English>
+		<French>The Gunpowder Empires Era</French>
+		<German>The Gunpowder Empires Era</German>
+		<Italian>The Gunpowder Empires Era</Italian>
+		<Spanish>The Gunpowder Empires Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_HELP</Tag>
+		<English>Piety Help: %d1 %d2</English>
+		<French>Piety Help: %d1 %d2</French>
+		<German>Piety Help: %d1 %d2</German>
+		<Italian>Piety Help: %d1 %d2</Italian>
+		<Spanish>Piety Help: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_TITLE</Tag>
+		<English>Piety Level: %d1 %d2</English>
+		<French>Piety Level: %d1 %d2</French>
+		<German>Piety Level: %d1 %d2</German>
+		<Italian>Piety Level: %d1 %d2</Italian>
+		<Spanish>Piety Level: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RESEARCH_ESPIONAGE</Tag>
+		<English>RESEARCH:</English>
+		<French>RECHERCHE:</French>
+		<German>FORSCHUNG:</German>
+		<Italian>RICERCA:</Italian>
+		<Spanish>INVESTIGACI&#211;N:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HEALTH_FROM_ESPIONAGE</Tag>
+		<English>%D1_Change[ICON_UNHEALTHY] from Disease</English>
+		<French>%D1_Change[ICON_UNHEALTHY] en raison de Maladie</French>
+		<German>%D1_Change[ICON_UNHEALTHY] durch Krankheit</German>
+		<Italian>%D1_Change[ICON_UNHEALTHY] per Malattia</Italian>
+		<Spanish>%D1_Change [ICON_UNHEALTHY] por Enfermedad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_GOOD</Tag>
+		<English>%D1: "Past events have brought our people together."</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on peut vous faire confiance."</French>
+		<German>%D1: "Die vergangenen Ereignisse haben Eure guten Absichten bewiesen."</German>
+		<Italian>%D1: "Gli eventi passati hanno unito i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra bondad."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_BAD</Tag>
+		<English>%D1: "We cannot forget the persecution of our brothers in faith!"</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on ne peut vous faire confiance."</French>
+		<German>%D1: "Die vergangenen Ereignisse haben Eure schlechten Absichten bewiesen. "</German>
+		<Italian>%D1: "Gli eventi passati hanno diviso i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra maldad. "</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_PERSECUTION</Tag>
+		<English>%D1: "We cannot forget the persecution of our brothers in faith!"</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on ne peut vous faire confiance."</French>
+		<German>%D1: "Die vergangenen Ereignisse haben Eure schlechten Absichten bewiesen. "</German>
+		<Italian>%D1: "Gli eventi passati hanno diviso i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra maldad. "</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CITY_WAS_TRADED_TO</Tag>
+		<English>%s1_CityName was ceded to the %s2_CivName!</English>
+		<French>%s1_CityName a &#233;t&#233; &#233;chang&#233; &#224; %s2_CivName!</French>
+		<German>Die Stadt %s1_CityName wurde an das %s2:2_CivName &#252;bereignet!</German>
+		<Italian>%s1_CityName &#232; stata ceduta a %s2_CivName!</Italian>
+		<Spanish>&#161;%s1_CityName ha sido cedida al %s2_CivName!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CORPORATIONS</Tag>
+		<English>Companies</English>
+		<French>Companies</French>
+		<German>Companies</German>
+		<Italian>Companies</Italian>
+		<Spanish>Companies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT_NEW</Tag>
+		<English>BTS Concepts</English>
+		<French>BTS Concepts</French>
+		<German>BTS Concepts</German>
+		<Italian>BTS Concepts</Italian>
+		<Spanish>BTS Concepts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_WORLD_WONDER</Tag>
+		<English>World Wonders</English>
+		<French>World Wonders</French>
+		<German>World Wonders</German>
+		<Italian>World Wonders</Italian>
+		<Spanish>World Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_NATIONAL_WONDER</Tag>
+		<English>National Wonders</English>
+		<French>National Wonders</French>
+		<German>National Wonders</German>
+		<Italian>National Wonders</Italian>
+		<Spanish>National Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COASTAL_TRADE_ROUTES</Tag>
+		<English>[ICON_BULLET]%D1 Trade Routes ([ICON_TRADE]) in Coastal Cities</English>
+		<French>[ICON_BULLET]%D1 routes commerciales ([ICON_TRADE]) dans les villes côtières</French>
+		<German>[ICON_BULLET]%D1 Handelsrouten ([ICON_TRADE]) in Küstenstädten</German>
+		<Italian>[ICON_BULLET]%D1 rotte commerciali ([ICON_TRADE]) per citt&#224; marìttimo</Italian>
+		<Spanish>[ICON_BULLET]%D1 rutas comerciales ([ICON_TRADE]) a las ciudades costeras</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_BONUS_COMMERCE</Tag>
+		<English>[ICON_BULLET]%D1% %F2 resources</English>
+		<French>[ICON_BULLET]%D1% %F2 en resources &#233;change</French>
+		<German>[ICON_BULLET]%D1% %F2 durch Ressourcen</German>
+		<Italian>[ICON_BULLET]%D1% %F2 resources</Italian>
+		<Spanish>[ICON_BULLET]%D1% %F2 resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED</Tag>
+		<English>%s1_CorpName has been founded in %s2_CityName!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e &#224; %s2_CityName !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in %s2_CityName gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata a %s2_CityName!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a %s2_CityName!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED_UNKNOWN</Tag>
+		<English>%s1_CorpName has been founded in a distant land!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e dans un pays lointain !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in einem entfernten Land gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata in terre lontane!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a una tierra lejana!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FOUNDED_FIRST</Tag>
+		<English>[ICON_BULLET]Founded by First to Discover [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Fond&#233;e par le premier &#224; d&#233;couvrir la technologie [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Gegr&#252;ndet durch ersten Entdecker der Technologie [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Fondata dal primo a scoprire [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Se incorporar&#225; al primero en descubrir [NUM1:el:la:los:las] [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_FIRST_DISCOVER_INCORPORATES</Tag>
+		<English>[ICON_BULLET]First to Discover Founds[SPACE]</English>
+		<French>[ICON_BULLET]Le premier &#224; d&#233;couvrir fonde[SPACE]</French>
+		<German>[ICON_BULLET]Erster Entdecker gr&#252;ndet[SPACE]</German>
+		<Italian>[ICON_BULLET]Il primo a scoprire fonda[SPACE]</Italian>
+		<Spanish>[ICON_BULLET]El primero en descubrir se incorpora[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_CORPORATION_COMMERCE</Tag>
+		<English>[ICON_BULLET]%D1%F2 from Companies</English>
+		<French>[ICON_BULLET]%D1%F2 gr&#226;ce aux soci&#233;t&#233;s commerciales</French>
+		<German>[ICON_BULLET]%D1%F2 durch Kapitalgesellschaften</German>
+		<Italian>[ICON_BULLET]%D1%F2 dalle corporazioni</Italian>
+		<Spanish>[ICON_BULLET]%D1 %F2 por corporaciones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_CORPORATIONS</Tag>
+		<English>[ICON_BULLET]Trade Companies are Prohibited</English>
+		<French>[ICON_BULLET]Les soci&#233;t&#233;s commerciales n'ont aucun effet</French>
+		<German>[ICON_BULLET]Kapitalgesellschaften haben keine Auswirkung</German>
+		<Italian>[ICON_BULLET]Le corporazioni non hanno effetto</Italian>
+		<Spanish>[ICON_BULLET]Las corporaciones no tienen efecto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_FOREIGN_CORPORATIONS</Tag>
+		<English>[ICON_BULLET]Trade Companies are Prohibited</English>
+		<French>[ICON_BULLET]Les soci&#233;t&#233;s commerciales &#233;trang&#232;res n'ont aucun effet</French>
+		<German>[ICON_BULLET]Fremde Kapitalgesellschaften haben keine Auswirkung</German>
+		<Italian>[ICON_BULLET]Le corporazioni straniere non hanno effetto</Italian>
+		<Spanish>[ICON_BULLET]Las corporaciones extranjeras no tienen efecto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION</Tag>
+		<English>Expand Company</English>
+		<French>D&#233;velopper une soci&#233;t&#233; commerciale</French>
+		<German>Kapitalgesellschaft expandieren</German>
+		<Italian>Espandi corporazione</Italian>
+		<Spanish>Expandir corporaci&#243;n</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION_HELP</Tag>
+		<English>This order will consume the [COLOR_UNIT_TEXT]Executive[COLOR_REVERT] unit but expand their company into the city.</English>
+		<French>Cet ordre d&#233;truira le [COLOR_UNIT_TEXT]Directeur[COLOR_REVERT] mais d&#233;veloppera sa soci&#233;t&#233; commerciale dans la ville.</French>
+		<German>Der [COLOR_UNIT_TEXT]Vorstand[COLOR_REVERT] wird geopfert, damit die Kapitalgesellschaft in die Stadt expandieren kann.</German>
+		<Italian>Con questo ordine, si sacrifica un [COLOR_UNIT_TEXT]Funzionario[COLOR_REVERT], ma la corporazione si espande nella citt&#224;.</Italian>
+		<Spanish>Esta orden consumir&#225; a la unidad de [COLOR_UNIT_TEXT]Ejecutivo[COLOR_REVERT] pero expandir&#225; su corporaci&#243;n en la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FOUNDS_CORPORATION</Tag>
+		<English>[ICON_BULLET]Founds [LINK=literal]%s1_corporation[\LINK]</English>
+		<French>[ICON_BULLET]Fonde [LINK=literal]%s1_corporation[\LINK]</French>
+		<German>[ICON_BULLET]Gr&#252;ndet die Kapitalgesellschaft [LINK=literal]%s1_corporation[\LINK]</German>
+		<Italian>[ICON_BULLET]Fonda la [LINK=literal]%s1_corporation[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Incorpora [LINK=literal]%s1_corporation[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GUNPOWDER_UNITS_HELP</Tag>
+		<English>[ICON_BULLET]Ignores Man-made Fortifications</English>
+		<French>[ICON_BULLET]Ignores Man-made Fortifications</French>
+		<German>[ICON_BULLET]Ignores Man-made Fortifications</German>
+		<Italian>[ICON_BULLET]Ignores Man-made Fortifications</Italian>
+		<Spanish>[ICON_BULLET]Ignores Man-made Fortifications</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAPPINESS</Tag>
+		<English>[ICON_BULLET]%D1_Change%F2_HappyOrUn in All Cities</English>
+		<French>[ICON_BULLET]%D1_Change%F2_HappyOrUn dans les ... plus grandes villes</French>
+		<German>[ICON_BULLET]%D1_Change%F2_HappyOrUn in den ... gr&#246;&#223;ten St&#228;dten</German>
+		<Italian>[ICON_BULLET]%D1_Change%F2_HappyOrUn nelle ... citt&#224; pi&#249; grandi</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change %F2_HappyOrUn en las ... mayores ciudades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_CIVIC</Tag>
+		<English>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</English>
+		<French>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</French>
+		<German>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</German>
+		<Italian>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</Italian>
+		<Spanish>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_CIVIC</Tag>
+		<English>+%d1_Change[ICON_HAPPY]: "We like pie!"</English>
+		<French>+%d1_Change[ICON_HAPPY]: "We like pie!"</French>
+		<German>+%d1_Change[ICON_HAPPY]: "We like pie!"</German>
+		<Italian>+%d1_Change[ICON_HAPPY]: "We like pie!"</Italian>
+		<Spanish>+%d1_Change[ICON_HAPPY]: "We like pie!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_BUILD_INQUISITORS</Tag>
+		<English>[ICON_BULLET]Can Build Religious Prosecutors</English>
+		<French>[ICON_BULLET]Peut cr&#233;er des inquisiteurs</French>
+		<German>[ICON_BULLET]Kann Inquisitor errichten</German>
+		<Italian>[ICON_BULLET]Permette di realizzare inquisitori</Italian>
+		<Spanish>[ICON_BULLET]No se pueden construir inquisitores</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT</Tag>
+		<English>The sun rises on the year %s1_year. %s3_leader, the %s2_civ people have vested absolute power in you, trusting that you can build a kingdom to stand the test of time!</English>
+		<French>Le soleil se l&#232;ve sur l'an %s1_year. Depuis des temps imm&#233;moriaux, les %s2_civ vivent en nomades. Apr&#232;s des ann&#233;es d'errance, ils sont pr&#234;ts &#224; s'installer et &#224; fonder votre premi&#232;re ville. [NEWLINE][NEWLINE]%s3_leader, votre peuple vous a confi&#233; le pouvoir absolu et s'en remet &#224; vous pour b&#226;tir une civilisation qui r&#233;sistera &#224; l'&#233;preuve du temps !</French>
+		<German>Die Sonne erhellt das Jahr %s1_year Das %s2:3_civ Volk f&#252;hrt seit uralter Zeit ein Nomadenleben. Doch nun, nach so vielen Jahren des Umherziehens, sind die Menschen bereit, sich niederzulassen und Eure erste Stadt zu gr&#252;nden. [NEWLINE][NEWLINE]%s3_leader, Euer Volk hat Euch absolute Macht verliehen und vertraut darauf, dass Ihr eine Zivilisation errichtet, welche die Zeit &#252;berdauern wird!</German>
+		<Italian>Il sole sorge nell'anno %s1_year. Da tempi immemori, la popolazione %s2:2_civ ha condotto una vita nomade. Dopo anni di vagabondaggi, sono infine pronti a stabilirsi e a fondare la tua prima citt&#224;. [NEWLINE][NEWLINE]%s3_leader, il tuo popolo ti ha conferito potere assoluto, credendo che tu possa sviluppare una civilt&#224; in grado di resistere alle prove del tempo!</Italian>
+		<Spanish>El sol se alza en el a&#241;o %s1_year. Desde tiempos inmemoriales, los %s2:3_civ han llevado una vida n&#243;mada. Tras a&#241;os de deambular, est&#225;n listos para asentarse y fundar vuestra primera ciudad. [NEWLINE][NEWLINE]%s3_leader, vuestro pueblo os ha conferido poder absoluto, confiando en que pod&#225;is desarrollar una civilizaci&#243;n que supere los retos del tiempo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DESC</Tag>
+		<English>Old World Map</English>
+		<French>Large Map of the Middle East</French>
+		<German>Large Map of the Middle East</German>
+		<Italian>Large Map of the Middle East</Italian>
+		<Spanish>Large Map of the Middle East</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_MISSILE_CAVALRY</Tag>
+		<English>Missile Cavalry</English>
+		<French>Missile Cavalry</French>
+		<German>Missile Cavalry</German>
+		<Italian>Missile Cavalry</Italian>
+		<Spanish>Missile Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_CAVALRY</Tag>
+		<English>Cavalry</English>
+		<French>Cavalry</French>
+		<German>Cavalry</German>
+		<Italian>Cavalry</Italian>
+		<Spanish>Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_ANCIENT</Tag>
+		<English>The Opening</English>
+		<French>The Opening</French>
+		<German>The Opening</German>
+		<Italian>The Opening</Italian>
+		<Spanish>The Opening</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_CLASSICAL</Tag>
+		<English>The Golden Age</English>
+		<French>The Golden Age</French>
+		<German>The Golden Age</German>
+		<Italian>The Golden Age</Italian>
+		<Spanish>The Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_MEDIEVAL</Tag>
+		<English>The Mongol Invasions</English>
+		<French>The Mongol Invasions</French>
+		<German>The Mongol Invasions</German>
+		<Italian>The Mongol Invasions</Italian>
+		<Spanish>The Mongol Invasions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_RENAISSANCE</Tag>
+		<English>The Three Empires</English>
+		<French>The Three Empires</French>
+		<German>The Three Empires</German>
+		<Italian>The Three Empires</Italian>
+		<Spanish>The Three Empires</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_SCIENTIST</Tag>
+		<English>Great Scholar</English>
+		<French>Great Scholar</French>
+		<German>Great Scholar</German>
+		<Italian>Great Scholar</Italian>
+		<Spanish>Great Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PRIEST</Tag>
+		<English>Great Saint</English>
+		<French>Great Saint</French>
+		<German>Great Saint</German>
+		<Italian>Great Saint</Italian>
+		<Spanish>Great Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST</Tag>
+		<English>Great Scholar</English>
+		<French>Great Scholar</French>
+		<German>Great Scholar</German>
+		<Italian>Great Scholar</Italian>
+		<Spanish>Great Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_PROPHET</Tag>
+		<English>Great Saint</English>
+		<French>Great Sain</French>
+		<German>Great Sain</German>
+		<Italian>Great Sain</Italian>
+		<Spanish>Great Sain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_SCIENTIST</Tag>
+		<English>Scholar</English>
+		<French>Scholar</French>
+		<German>Scholar</German>
+		<Italian>Scholar</Italian>
+		<Spanish>Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_THREE_KINGDOMS_START</Tag>
+		<English>China is descending into a period of chaos and civil war!</English>
+		<French>China is descending into a period of chaos and civil war!</French>
+		<German>China is descending into a period of chaos and civil war!</German>
+		<Italian>China is descending into a period of chaos and civil war!</Italian>
+		<Spanish>China is descending into a period of chaos and civil war!</Spanish>
+	</TEXT>
+</Civ4GameText>

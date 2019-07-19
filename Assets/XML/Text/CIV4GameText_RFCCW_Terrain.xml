@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_STRAIT</Tag>
+		<English>Strait</English>
+		<French>Détroit</French>
+		<German>Meerenge</German>
+		<Italian>Stretto</Italian>
+		<Spanish>Estrecho</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SALTLAKE</Tag>
+		<English>Salt Lake</English>
+		<French>Lac salé</French>
+		<German>Salzsee</German>
+		<Italian>Lago salato</Italian>
+		<Spanish>Lago salado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_LIGHT_FOREST</Tag>
+		<English>Woodland</English>
+		<French>Lac salé</French>
+		<German>Salzsee</German>
+		<Italian>Lago salato</Italian>
+		<Spanish>Lago salado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_SAVANNA</Tag>
+		<English>Tropical Forest</English>
+		<French>Lac salé</French>
+		<German>Salzsee</German>
+		<Italian>Lago salato</Italian>
+		<Spanish>Lago salado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_DENSE_FOREST</Tag>
+		<English>Dense Forest</English>
+		<French>Lac salé</French>
+		<German>Salzsee</German>
+		<Italian>Lago salato</Italian>
+		<Spanish>Lago salado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SALTFLAT</Tag>
+		<English>Salt Flat</English>
+		<French>Salar</French>
+		<German>Salztonebene</German>
+		<Italian>Piana di sale</Italian>
+		<Spanish>Salar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_MARSH</Tag>
+		<English>Marsh</English>
+		<French>
+			<Text>Marais:Marais</Text>
+			<Gender>Male:Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Marsch</German>
+		<Italian>
+			<Text>Acquitrino</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pantano:Pantanos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MARSH</Tag>
+		<English>Marsh</English>
+		<French>
+			<Text>Marais:Marais</Text>
+			<Gender>Male:Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Marsch</German>
+		<Italian>
+			<Text>Acquitrino</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pantano:Pantanos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MARSH_PEDIA</Tag>
+		<English>River deltas and other low-lying areas are often surrounded by poorly drained mineral beds. This leads to the formation of marshes, large, water-logged areas vibrant with grasses and other plant life. Marshes are often extremely complex ecosystems home to hundreds of different plant and animal species. Rice and other food plants requiring large quantities of water can be grown in marshes, although the soil underneath may not be sufficiently hospitable. Due to the soft nature of the ground, marsh is generally unsuitable for building purposes.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_LAGOON</Tag>
+		<English>Lagoon</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_WETLAND</Tag>
+		<English>Wetland</English>
+		<French>Wetland</French>
+		<German>Feuchtgebiet</German>
+		<Italian>Wetland</Italian>
+		<Spanish>Humedal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_WETLAND_PEDIA</Tag>
+		<English>A wetland is a land whose soil is saturated with moisture either permanently or seasonally. Such areas may also be covered partially or completely by shallow pools of water. Wetlands include swamps, marshes, and bogs, among others. The water found in wetlands can be saltwater, freshwater, or brackish.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_JUNGLE</Tag>
+		<English>Jungle</English>
+		<French>Steppe</French>
+		<German>Steppe</German>
+		<Italian>Steppa</Italian>
+		<Spanish>Estepa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_STEPPE</Tag>
+		<English>Semidesert</English>
+		<French>Semidesert</French>
+		<German>Semidesert</German>
+		<Italian>Semidesert</Italian>
+		<Spanish>Semidesert</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SEA</Tag>
+		<English>Sea</English>
+		<French>Sea</French>
+		<German>Sea</German>
+		<Italian>Sea</Italian>
+		<Spanish>Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_TAIGA</Tag>
+		<English>Taiga</English>
+		<French>Taiga</French>
+		<German>Taiga</German>
+		<Italian>Taiga</Italian>
+		<Spanish>Taiga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_WOODLAND</Tag>
+		<English>Woodland</English>
+		<French>Woodland</French>
+		<German>Woodland</German>
+		<Italian>Woodland</Italian>
+		<Spanish>Woodland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_WOODLAND_PEDIA</Tag>
+		<English>Areas of grassland covered with sparse groups of trees and shrubs are classified as woodlands.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REMOVE_WOODLAND</Tag>
+		<English>Remove Woodland</English>
+		<French>Remove Woodland</French>
+		<German>Remove Woodland</German>
+		<Italian>Remove Woodland</Italian>
+		<Spanish>Remove Woodland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_APIARY</Tag>
+		<English>Apiary</English>
+		<French>Apiary</French>
+		<German>Apiary</German>
+		<Italian>Apiary</Italian>
+		<Spanish>Apiary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_APIARY</Tag>
+		<English>Build an [LINK=IMPROVEMENT_APIARY]Apiary[\LINK]</English>
+		<French>Build an [LINK=IMPROVEMENT_APIARY]Apiary[\LINK]</French>
+		<German>Build an [LINK=IMPROVEMENT_APIARY]Apiary[\LINK]</German>
+		<Italian>Build an [LINK=IMPROVEMENT_APIARY]Apiary[\LINK]</Italian>
+		<Spanish>Build an [LINK=IMPROVEMENT_APIARY]Apiary[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ORCHARD</Tag>
+		<English>Orchard</English>
+		<French>Orchard</French>
+		<German>Orchard</German>
+		<Italian>Orchard</Italian>
+		<Spanish>Orchard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_ORCHARD</Tag>
+		<English>Build an [LINK=IMPROVEMENT_ORCHARD]Orchard[\LINK]</English>
+		<French>Build an [LINK=IMPROVEMENT_ORCHARD]Orchard[\LINK]</French>
+		<German>Build an [LINK=IMPROVEMENT_ORCHARD]Orchard[\LINK]</German>
+		<Italian>Build an [LINK=IMPROVEMENT_ORCHARD]Orchard[\LINK]</Italian>
+		<Spanish>Build an [LINK=IMPROVEMENT_ORCHARD]Orchard[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_PAVED_ROAD</Tag>
+		<English>Build a [LINK=CONCEPT_MOVEMENT]Paved Road[\LINK]</English>
+		<French>Build a [LINK=CONCEPT_MOVEMENT]Paved Road[\LINK]</French>
+		<German>Build a [LINK=CONCEPT_MOVEMENT]Paved Road[\LINK]</German>
+		<Italian>Build a [LINK=CONCEPT_MOVEMENT]Paved Road[\LINK]</Italian>
+		<Spanish>Build a [LINK=CONCEPT_MOVEMENT]Paved Road[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_PAVED_ROAD</Tag>
+		<English>Paved Road</English>
+		<French>Paved Road</French>
+		<German>Paved Road</German>
+		<Italian>Paved Road</Italian>
+		<Spanish>Paved Road</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_ROMAN_ROAD</Tag>
+		<English>Build a [LINK=CONCEPT_MOVEMENT]Roman Road[\LINK]</English>
+		<French>Build a [LINK=CONCEPT_MOVEMENT]Roman Road[\LINK]</French>
+		<German>Build a [LINK=CONCEPT_MOVEMENT]Roman Road[\LINK]</German>
+		<Italian>Build a [LINK=CONCEPT_MOVEMENT]Roman Road[\LINK]</Italian>
+		<Spanish>Build a [LINK=CONCEPT_MOVEMENT]Roman Road[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_ROMAN_ROAD</Tag>
+		<English>Roman Road</English>
+		<French>Roman Road</French>
+		<German>Roman Road</German>
+		<Italian>Roman Road</Italian>
+		<Spanish>Roman Road</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WATER_ROUTE</Tag>
+		<English>Water Route</English>
+		<French>Water Route</French>
+		<German>Water Route</German>
+		<Italian>Water Route</Italian>
+		<Spanish>Water Route</Spanish>
+	</TEXT>
+</Civ4GameText>

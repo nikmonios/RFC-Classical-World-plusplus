@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISC_STABILITY_BONUS_HELP</Tag>
+		<English>[ICON_BULLET]Stability bonus</English>
+		<French>[ICON_BULLET]Stability bonus</French>
+		<German>[ICON_BULLET]Stability bonus</German>
+		<Italian>[ICON_BULLET]Stability bonus</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE_HELP</Tag>
+		<English>[ICON_BULLET]+5 Stability</English>
+		<French>[ICON_BULLET]+5 Stabilite</French>
+		<German>[ICON_BULLET]+5 StabilitÄt</German>
+		<Italian>[ICON_BULLET]+5 Stabilit&#192;</Italian>
+		<Spanish>[ICON_BULLET]+5 Estabilidad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALCHEMISTS_LAB</Tag>
+		<English>Alchemist's Lab</English>
+		<French>Alchemist's Lab</French>
+		<German>Alchemist's Lab</German>
+		<Italian>Alchemist's Lab</Italian>
+		<Spanish>Alchemist's Lab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VISIGOTH_SYNOD</Tag>
+		<English>Synod</English>
+		<French>Synod</French>
+		<German>Synod</German>
+		<Italian>Synod</Italian>
+		<Spanish>Synod</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONASTERY_OF_THE_GOD_TRODDEN</Tag>
+		<English>Monastery of the God-Trodden</English>
+		<French>Monastery of the God-Trodden</French>
+		<German>Monastery of the God-Trodden</German>
+		<Italian>Monastery of the God-Trodden</Italian>
+		<Spanish>Monastery of the God-Trodden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UMAYYAD_MOSQUE</Tag>
+		<English>Umayyad Mosque</English>
+		<French>Umayyad Mosque</French>
+		<German>Umayyad Mosque</German>
+		<Italian>Umayyad Mosque</Italian>
+		<Spanish>Umayyad Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OSTROGOTH_CAMP</Tag>
+		<English>Military Settlement</English>
+		<French>Military Settlement</French>
+		<German>Military Settlement</German>
+		<Italian>Military Settlement</Italian>
+		<Spanish>Military Settlement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DOLMEN</Tag>
+		<English>Dolmen</English>
+		<French>Dolmen</French>
+		<German>Dolmen</German>
+		<Italian>Dolmen</Italian>
+		<Spanish>Dolmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VANDAL_SHIPYARD</Tag>
+		<English>Naval Factory</English>
+		<French>Naval Factory</French>
+		<German>Naval Factory</German>
+		<Italian>Naval Factory</Italian>
+		<Spanish>Naval Factory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INVASION_PROJECT</Tag>
+		<English>Invasion Project</English>
+		<French>Invasion Project</French>
+		<German>Invasion Project</German>
+		<Italian>Invasion Project</Italian>
+		<Spanish>Invasion Project</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_LIBRARY</Tag>
+		<English>Agama Library</English>
+		<French>Agama Library</French>
+		<German>Agama Library</German>
+		<Italian>Agama Library</Italian>
+		<Spanish>Agama Library</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONUMENT</Tag>
+		<English>Monument</English>
+		<French>Monument</French>
+		<German>Monument</German>
+		<Italian>Monument</Italian>
+		<Spanish>Monument</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MITHRATIC_ALTAR</Tag>
+		<English>Mithratic Altar</English>
+		<French>Mithratic Altar</French>
+		<German>Mithratic Altar</German>
+		<Italian>Mithratic Altar</Italian>
+		<Spanish>Mithratic Altar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CASTLE</Tag>
+		<English>Fortress</English>
+		<French>Fortress</French>
+		<German>Fortress</German>
+		<Italian>Fortress</Italian>
+		<Spanish>Fortress</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COMMUNAL_HOUSE</Tag>
+		<English>Communal House</English>
+		<French>Communal House</French>
+		<German>Communal House</German>
+		<Italian>Communal House</Italian>
+		<Spanish>Communal House</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRONZEWORKS</Tag>
+		<English>Bronzeworks</English>
+		<French>Bronzeworks</French>
+		<German>Bronzeworks</German>
+		<Italian>Bronzeworks</Italian>
+		<Spanish>Bronzeworks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRONZEWORKS_PEDIA</Tag>
+		<English>[TAB]Bronze is a metal alloy consisting primarily of copper, usually with tin as the main additive. It is hard and brittle, and it was particularly significant in antiquity, so much so that the Bronze Age was named after the metal. However, since "bronze" is a somewhat imprecise term, and historical pieces have variable compositions, in particular with an unclear boundary with brass, modern museum and scholarly descriptions of older objects increasingly use the more cautious and inclusive term "copper alloy" instead.[PARAGRAPH:1]The word bronze is borrowed from French: bronze, itself borrowed from Italian: bronzo (compare Medieval Latin: bronzium), whose origin is unclear. It might be connected with Venetian: bronza "glowing coals", or German: Brunst "fire", but it could equally go back to, or be influenced by, the Latin name Brundisium of the city of Brindisi (aes Brundusinum, meaning "copper of Brindisi", is attested in Pliny). However, perhaps it is ultimately taken from the Persian word for brass, birinj.</English>
+		<French>[TAB]Bronze is a metal alloy consisting primarily of copper, usually with tin as the main additive. It is hard and brittle, and it was particularly significant in antiquity, so much so that the Bronze Age was named after the metal. However, since "bronze" is a somewhat imprecise term, and historical pieces have variable compositions, in particular with an unclear boundary with brass, modern museum and scholarly descriptions of older objects increasingly use the more cautious and inclusive term "copper alloy" instead.[PARAGRAPH:1]The word bronze is borrowed from French: bronze, itself borrowed from Italian: bronzo (compare Medieval Latin: bronzium), whose origin is unclear. It might be connected with Venetian: bronza "glowing coals", or German: Brunst "fire", but it could equally go back to, or be influenced by, the Latin name Brundisium of the city of Brindisi (aes Brundusinum, meaning "copper of Brindisi", is attested in Pliny). However, perhaps it is ultimately taken from the Persian word for brass, birinj.</French>
+		<German>[TAB]Bronze is a metal alloy consisting primarily of copper, usually with tin as the main additive. It is hard and brittle, and it was particularly significant in antiquity, so much so that the Bronze Age was named after the metal. However, since "bronze" is a somewhat imprecise term, and historical pieces have variable compositions, in particular with an unclear boundary with brass, modern museum and scholarly descriptions of older objects increasingly use the more cautious and inclusive term "copper alloy" instead.[PARAGRAPH:1]The word bronze is borrowed from French: bronze, itself borrowed from Italian: bronzo (compare Medieval Latin: bronzium), whose origin is unclear. It might be connected with Venetian: bronza "glowing coals", or German: Brunst "fire", but it could equally go back to, or be influenced by, the Latin name Brundisium of the city of Brindisi (aes Brundusinum, meaning "copper of Brindisi", is attested in Pliny). However, perhaps it is ultimately taken from the Persian word for brass, birinj.</German>
+		<Italian>[TAB]Bronze is a metal alloy consisting primarily of copper, usually with tin as the main additive. It is hard and brittle, and it was particularly significant in antiquity, so much so that the Bronze Age was named after the metal. However, since "bronze" is a somewhat imprecise term, and historical pieces have variable compositions, in particular with an unclear boundary with brass, modern museum and scholarly descriptions of older objects increasingly use the more cautious and inclusive term "copper alloy" instead.[PARAGRAPH:1]The word bronze is borrowed from French: bronze, itself borrowed from Italian: bronzo (compare Medieval Latin: bronzium), whose origin is unclear. It might be connected with Venetian: bronza "glowing coals", or German: Brunst "fire", but it could equally go back to, or be influenced by, the Latin name Brundisium of the city of Brindisi (aes Brundusinum, meaning "copper of Brindisi", is attested in Pliny). However, perhaps it is ultimately taken from the Persian word for brass, birinj.</Italian>
+		<Spanish>[TAB]Bronze is a metal alloy consisting primarily of copper, usually with tin as the main additive. It is hard and brittle, and it was particularly significant in antiquity, so much so that the Bronze Age was named after the metal. However, since "bronze" is a somewhat imprecise term, and historical pieces have variable compositions, in particular with an unclear boundary with brass, modern museum and scholarly descriptions of older objects increasingly use the more cautious and inclusive term "copper alloy" instead.[PARAGRAPH:1]The word bronze is borrowed from French: bronze, itself borrowed from Italian: bronzo (compare Medieval Latin: bronzium), whose origin is unclear. It might be connected with Venetian: bronza "glowing coals", or German: Brunst "fire", but it could equally go back to, or be influenced by, the Latin name Brundisium of the city of Brindisi (aes Brundusinum, meaning "copper of Brindisi", is attested in Pliny). However, perhaps it is ultimately taken from the Persian word for brass, birinj.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_ACADEMY</Tag>
+		<English>Hellenic Academy</English>
+		<French>Hellenic Academy</French>
+		<German>Hellenic Academy</German>
+		<Italian>Hellenic Academy</Italian>
+		<Spanish>Hellenic Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_ACADEMY</Tag>
+		<English>Jain Academy</English>
+		<French>Jain Academy</French>
+		<German>Jain Academy</German>
+		<Italian>Jain Academy</Italian>
+		<Spanish>Jain Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_ACADEMY</Tag>
+		<English>Hindu Academy</English>
+		<French>Hindu Academy</French>
+		<German>Hindu Academy</German>
+		<Italian>Hindu Academy</Italian>
+		<Spanish>Hindu Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_ACADEMY</Tag>
+		<English>Buddhist Academy</English>
+		<French>Buddhist Academy</French>
+		<German>Buddhist Academy</German>
+		<Italian>Buddhist Academy</Italian>
+		<Spanish>Buddhist Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_CATHEDRAL</Tag>
+		<English>Buddhist Stupa</English>
+		<French>Buddhist Stupa</French>
+		<German>Buddhist Stupa</German>
+		<Italian>Buddhist Stupa</Italian>
+		<Spanish>Buddhist Stupa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_ACADEMY</Tag>
+		<English>Taoist Academy</English>
+		<French>Taoist Academy</French>
+		<German>Taoist Academy</German>
+		<Italian>Taoist Academy</Italian>
+		<Spanish>Taoist Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_ACADEMY</Tag>
+		<English>Confucian Academy</English>
+		<French>Confucian Academy</French>
+		<German>Confucian Academy</German>
+		<Italian>Confucian Academy</Italian>
+		<Spanish>Confucian Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZOROASTRIAN_ACADEMY</Tag>
+		<English>Zoroastrian Academy</English>
+		<French>Zoroastrian Academy</French>
+		<German>Zoroastrian Academy</German>
+		<Italian>Zoroastrian Academy</Italian>
+		<Spanish>Zoroastrian Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_ACADEMY</Tag>
+		<English>Jewish Academy</English>
+		<French>Jewish Academy</French>
+		<German>Jewish Academy</German>
+		<Italian>Jewish Academy</Italian>
+		<Spanish>Jewish Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_ACADEMY</Tag>
+		<English>Christian Academy</English>
+		<French>Christian Academy</French>
+		<German>Christian Academy</German>
+		<Italian>Christian Academy</Italian>
+		<Spanish>Christian Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_TEMPLE</Tag>
+		<English>Christian Church</English>
+		<French>Christian Church</French>
+		<German>Christian Church</German>
+		<Italian>Christian Church</Italian>
+		<Spanish>Christian Church</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MANICHEAN_ACADEMY</Tag>
+		<English>Manichean Academy</English>
+		<French>Manichean Academy</French>
+		<German>Manichean Academy</German>
+		<Italian>Manichean Academy</Italian>
+		<Spanish>Manichean Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_ACADEMY</Tag>
+		<English>Islamic Academy</English>
+		<French>Islamic Academy</French>
+		<German>Islamic Academy</German>
+		<Italian>Islamic Academy</Italian>
+		<Spanish>v</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_MONASTERY</Tag>
+		<English>Hellenic Monastery</English>
+		<French>Hellenic Monastery</French>
+		<German>Hellenic Monastery</German>
+		<Italian>Hellenic Monastery</Italian>
+		<Spanish>Hellenic Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZOROASTRIAN_MONASTERY</Tag>
+		<English>Zoroastrian Monastery</English>
+		<French>Zoroastrian Monastery</French>
+		<German>Zoroastrian Monastery</German>
+		<Italian>Zoroastrian Monastery</Italian>
+		<Spanish>Zoroastrian Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_TEMPLE</Tag>
+		<English>Hellenic Temple</English>
+		<French>Hellenic Temple</French>
+		<German>Hellenic Temple</German>
+		<Italian>Hellenic Temple</Italian>
+		<Spanish>Hellenic Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZOROASTRIAN_TEMPLE</Tag>
+		<English>Zoroastrian Temple</English>
+		<French>Zoroastrian Temple</French>
+		<German>Zoroastrian Temple</German>
+		<Italian>Zoroastrian Temple</Italian>
+		<Spanish>Zoroastrian Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_MONASTERY</Tag>
+		<English>Jain Monastery</English>
+		<French>Jain Monastery</French>
+		<German>Jain Monastery</German>
+		<Italian>Jain Monastery</Italian>
+		<Spanish>Jain Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MANICHEAN_MONASTERY</Tag>
+		<English>Manichean Monastery</English>
+		<French>Manichean Monastery</French>
+		<German>Manichean Monastery</German>
+		<Italian>Manichean Monastery</Italian>
+		<Spanish>Manichean Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_CATHEDRAL</Tag>
+		<English>Hellenic Great Temple</English>
+		<French>Hellenic Great Temple</French>
+		<German>Hellenic Great Temple</German>
+		<Italian>Hellenic Great Temple</Italian>
+		<Spanish>Hellenic Great Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MANICHEAN_CATHEDRAL</Tag>
+		<English>Manichean Great Temple</English>
+		<French>Manichean Great Temple</French>
+		<German>Manichean Great Temple</German>
+		<Italian>Manichean Great Temple</Italian>
+		<Spanish>Manichean Great Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZOROASTRIAN_CATHEDRAL</Tag>
+		<English>Zoroastrian Great Temple</English>
+		<French>Zoroastrian Great Temple</French>
+		<German>Zoroastrian Great Temple</German>
+		<Italian>Zoroastrian Great Temple</Italian>
+		<Spanish>Zoroastrian Great Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_MONASTERY_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</English>
+		<French>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</French>
+		<German>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</German>
+		<Italian>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFECTIONER</Tag>
+		<English>Confectioner</English>
+		<French>Confectioner</French>
+		<German>Confectioner</German>
+		<Italian>Confectioner</Italian>
+		<Spanish>Confectioner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFECTIONER_PEDIA</Tag>
+		<English>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</English>
+		<French>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</French>
+		<German>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</German>
+		<Italian>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</Italian>
+		<Spanish>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER</Tag>
+		<English>Weaver</English>
+		<French>Weaver</French>
+		<German>Weaver</German>
+		<Italian>Weaver</Italian>
+		<Spanish>Weaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER_PEDIA</Tag>
+		<English>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</English>
+		<French>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</French>
+		<German>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</German>
+		<Italian>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</Italian>
+		<Spanish>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RACING_TRACK</Tag>
+		<English>Racing Track</English>
+		<French>Racing Track</French>
+		<German>Racing Track</German>
+		<Italian>Racing Track</Italian>
+		<Spanish>Racing Track</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RACING_TRACK_PEDIA</Tag>
+		<English>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</English>
+		<French>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</French>
+		<German>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</German>
+		<Italian>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</Italian>
+		<Spanish>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS</Tag>
+		<English>Public Baths</English>
+		<French>Public Baths</French>
+		<German>Public Baths</German>
+		<Italian>Public Baths</Italian>
+		<Spanish>Public Baths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Tag>
+		<English>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</English>
+		<French>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</French>
+		<German>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</German>
+		<Italian>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</Italian>
+		<Spanish>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DWARAKADHEESH</Tag>
+		<English>Dwarakadheesh</English>
+		<French>Dwarakadheesh</French>
+		<German>Dwarakadheesh</German>
+		<Italian>Dwarakadheesh</Italian>
+		<Spanish>Dwarakadheesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DWARAKADHEESH_PEDIA</Tag>
+		<English>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</English>
+		<French>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</French>
+		<German>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</German>
+		<Italian>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</Italian>
+		<Spanish>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_TEMPLE</Tag>
+		<English>Hindu Mandir</English>
+		<French>Hindu Mandir</French>
+		<German>Hindu Mandir</German>
+		<Italian>Hindu Mandir</Italian>
+		<Spanish>Hindu Mandir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_MONASTERY</Tag>
+		<English>Hindu Ashram</English>
+		<French>Hindu Ashram</French>
+		<German>Hindu Ashram</German>
+		<Italian>Hindu Ashram</Italian>
+		<Spanish>Hindu Ashram</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_CATHEDRAL</Tag>
+		<English>Hindu Bannab</English>
+		<French>Hindu Bannab</French>
+		<German>Hindu Bannab</German>
+		<Italian>Hindu Bannab</Italian>
+		<Spanish>Hindu Bannab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_CATHEDRAL</Tag>
+		<English>Jain Great Temple</English>
+		<French>Jain Great Temple</French>
+		<German>Jain Great Temple</German>
+		<Italian>Jain Great Temple</Italian>
+		<Spanish>Jain Great Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_RELIQUARY</Tag>
+		<English>Hindu Reliquary</English>
+		<French>Hindu Reliquary</French>
+		<German>Hindu Reliquary</German>
+		<Italian>Hindu Reliquary</Italian>
+		<Spanish>Hindu Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_RELIQUARY</Tag>
+		<English>Hellenic Reliquary</English>
+		<French>Hellenic Reliquary</French>
+		<German>Hellenic Reliquary</German>
+		<Italian>Hellenic Reliquary</Italian>
+		<Spanish>Hellenic Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_RELIQUARY</Tag>
+		<English>Christian Reliquary</English>
+		<French>Christian Reliquary</French>
+		<German>Christian Reliquary</German>
+		<Italian>Christian Reliquary</Italian>
+		<Spanish>Christian Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_RELIQUARY</Tag>
+		<English>Confucian Reliquary</English>
+		<French>Confucian Reliquary</French>
+		<German>Confucian Reliquary</German>
+		<Italian>Confucian Reliquary</Italian>
+		<Spanish>Confucian Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_RELIQUARY</Tag>
+		<English>Jewish Reliquary</English>
+		<French>Jewish Reliquary</French>
+		<German>Jewish Reliquary</German>
+		<Italian>Jewish Reliquary</Italian>
+		<Spanish>Jewish Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MANICHEAN_RELIQUARY</Tag>
+		<English>Manichean Reliquary</English>
+		<French>Manichean Reliquary</French>
+		<German>Manichean Reliquary</German>
+		<Italian>Manichean Reliquary</Italian>
+		<Spanish>Manichean Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_RELIQUARY</Tag>
+		<English>Taoist Reliquary</English>
+		<French>Taoist Reliquary</French>
+		<German>Taoist Reliquary</German>
+		<Italian>Taoist Reliquary</Italian>
+		<Spanish>Taoist Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZOROASTRIAN_RELIQUARY</Tag>
+		<English>Zoroastrian Reliquary</English>
+		<French>Zoroastrian Reliquary</French>
+		<German>Zoroastrian Reliquary</German>
+		<Italian>Zoroastrian Reliquary</Italian>
+		<Spanish>Zoroastrian Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_RELIQUARY</Tag>
+		<English>Jain Reliquary</English>
+		<French>Jain Reliquary</French>
+		<German>Jain Reliquary</German>
+		<Italian>Jain Reliquary</Italian>
+		<Spanish>Jain Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAKURIAN_BOWYER</Tag>
+		<English>Bowyer</English>
+		<French>Bowyer</French>
+		<German>Bowyer</German>
+		<Italian>Bowyer</Italian>
+		<Spanish>Bowyer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAKURIAN_BOWYER_PEDIA</Tag>
+		<English>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</English>
+		<French>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</French>
+		<German>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</German>
+		<Italian>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Italian>
+		<Spanish>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Tag>
+		<English>Royal Archives</English>
+		<French>Royal Archives</French>
+		<German>Royal Archives</German>
+		<Italian>Royal Archives</Italian>
+		<Spanish>Royal Archives</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_PEDIA</Tag>
+		<English>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</English>
+		<French>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</French>
+		<German>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</German>
+		<Italian>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</Italian>
+		<Spanish>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_RELIQUARY</Tag>
+		<English>Reliquary</English>
+		<French>Reliquary</French>
+		<German>Reliquary</German>
+		<Italian>Reliquary</Italian>
+		<Spanish>Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_RELIQUARY</Tag>
+		<English>Islamic Reliquary</English>
+		<French>Islamic Reliquary</French>
+		<German>Islamic Reliquary</German>
+		<Italian>Islamic Reliquary</Italian>
+		<Spanish>Islamic Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RELIQUARY_PEDIA</Tag>
+		<English>[TAB]A reliquary is a container for relics. These may be the physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The use of reliquaries became an important part of Christian ritual from at least the 4th century. Relics are venerated in the Oriental Orthodox, Eastern Orthodox, Roman Catholic and some Anglican Churches. Reliquaries provide a means of protecting and displaying relics, which many believe are endowed by God with the grace of miraculous powers. Relics were also important for Muslims, especially the Ottomans. The most important relics of Islam, known as "the Sacred Trusts", are displayed in the Topkapi Palace.</English>
+		<French>Islamic Reliquary</French>
+		<German>Islamic Reliquary</German>
+		<Italian>Islamic Reliquary</Italian>
+		<Spanish>Islamic Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE</Tag>
+		<English>Summer Palace</English>
+		<French>Summer Palace</French>
+		<German>Summer Palace</German>
+		<Italian>Summer Palace</Italian>
+		<Spanish>Summer Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE_PEDIA</Tag>
+		<English>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</English>
+		<French>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</French>
+		<German>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</German>
+		<Italian>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Italian>
+		<Spanish>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DRYDOCK</Tag>
+		<English>Shipyard</English>
+		<French>Shipyard</French>
+		<German>Shipyard</German>
+		<Italian>Shipyard</Italian>
+		<Spanish>Shipyard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LIGHTHOUSE</Tag>
+		<English>Harbor</English>
+		<French>Harbor</French>
+		<German>Harbor</German>
+		<Italian>Harbor</Italian>
+		<Spanish>Harbor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARBOR</Tag>
+		<English>Fishery</English>
+		<French>Fishery</French>
+		<German>Fishery</German>
+		<Italian>Fishery</Italian>
+		<Spanish>Fishery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TANNER</Tag>
+		<English>Tannery</English>
+		<French>Tannery</French>
+		<German>Tannery</German>
+		<Italian>Tannery</Italian>
+		<Spanish>Tannery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TANNER_PEDIA</Tag>
+		<English>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </English>
+		<French>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </French>
+		<German>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </German>
+		<Italian>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </Italian>
+		<Spanish>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
+		<English>Textile Factory</English>
+		<French>Textile Factory</French>
+		<German>Textile Factory</German>
+		<Italian>Textile Factory</Italian>
+		<Spanish>Textile Factory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_PEDIA</Tag>
+		<English>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</English>
+		<French>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</French>
+		<German>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</German>
+		<Italian>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</Italian>
+		<Spanish>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FOUNDRY</Tag>
+		<English>Foundry</English>
+		<French>Foundry</French>
+		<German>Foundry</German>
+		<Italian>Foundry</Italian>
+		<Spanish>Foundry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FOUNDRY_PEDIA</Tag>
+		<English>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </English>
+		<French>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </French>
+		<German>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </German>
+		<Italian>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </Italian>
+		<Spanish>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INFIRMARY_PEDIA</Tag>
+		<English>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</English>
+		<French>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</French>
+		<German>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</German>
+		<Italian>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</Italian>
+		<Spanish>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HORSE_BREEDER</Tag>
+		<English>Horse Breeder</English>
+		<French>Horse Breeder</French>
+		<German>Horse Breeder</German>
+		<Italian>Horse Breeder</Italian>
+		<Spanish>Horse Breeder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HORSE_BREEDER_PEDIA</Tag>
+		<English>Horse Breeder</English>
+		<French>Horse Breeder</French>
+		<German>Horse Breeder</German>
+		<Italian>Horse Breeder</Italian>
+		<Spanish>Horse Breeder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_TEMPLE</Tag>
+		<English>Islamic Mosque</English>
+		<French>Islamic Mosque</French>
+		<German>Islamic Mosque</German>
+		<Italian>Islamic Mosque</Italian>
+		<Spanish>Islamic Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_CATHEDRAL</Tag>
+		<English>Islamic Great Mosque</English>
+		<French>Islamic Great Mosque</French>
+		<German>Islamic Great Mosque</German>
+		<Italian>Islamic Great Mosque</Italian>
+		<Spanish>Islamic Great Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MINARET</Tag>
+		<English>Islamic Minaret</English>
+		<French>Islamic Minaret</French>
+		<German>Islamic Minaret</German>
+		<Italian>Islamic Minaret</Italian>
+		<Spanish>Islamic Minaret</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MONASTERY</Tag>
+		<English>Islamic Madrasah</English>
+		<French>Islamic Madrasah</French>
+		<German>Islamic Madrasah</German>
+		<Italian>Islamic Madrasah</Italian>
+		<Spanish>Islamic Madrasah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEN_OF_SPIES</Tag>
+		<English>Den of Spies</English>
+		<French>Den of Spies</French>
+		<German>Den of Spies</German>
+		<Italian>Den of Spies</Italian>
+		<Spanish>Den of Spies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEN_OF_SPIES_PEDIA</Tag>
+		<English>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</English>
+		<French>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</French>
+		<German>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</German>
+		<Italian>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</Italian>
+		<Spanish>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCHERY_RANGE</Tag>
+		<English>Archery Range</English>
+		<French>Archery Range</French>
+		<German>Archery Range</German>
+		<Italian>Archery Range</Italian>
+		<Spanish>Archery Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCHERY_RANGE_PEDIA</Tag>
+		<English>[TAB]Archery Range is a facility required to effectively train archery units.</English>
+		<French>[TAB]Archery Range is a facility required to effectively train archery units.</French>
+		<German>[TAB]Archery Range is a facility required to effectively train archery units.</German>
+		<Italian>[TAB]Archery Range is a facility required to effectively train archery units.</Italian>
+		<Spanish>[TAB]Archery Range is a facility required to effectively train archery units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOLDSMITH</Tag>
+		<English>Goldsmith</English>
+		<French>Goldsmith</French>
+		<German>Goldsmith</German>
+		<Italian>Goldsmith</Italian>
+		<Spanish>Goldsmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE</Tag>
+		<English>Blacksmith</English>
+		<French>Blacksmith</French>
+		<German>Blacksmith</German>
+		<Italian>Blacksmith</Italian>
+		<Spanish>Blacksmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_TEMPLE</Tag>
+		<English>Jewish Temple</English>
+		<French>Jewish Quarter</French>
+		<German>Jewish Quarter</German>
+		<Italian>Jewish Quarter</Italian>
+		<Spanish>Jewish Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIN_TEMPLE</Tag>
+		<English>Jain Temple</English>
+		<French>Jain Temple</French>
+		<German>Jain Temple</German>
+		<Italian>Jain Temple</Italian>
+		<Spanish>Jain Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MANICHEAN_TEMPLE</Tag>
+		<English>Manichean Temple</English>
+		<French>Manichean Temple</French>
+		<German>Manichean Temple</German>
+		<Italian>Manichean Temple</Italian>
+		<Spanish>Manichean Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INN</Tag>
+		<English>Inn</English>
+		<French>Inn</French>
+		<German>Inn</German>
+		<Italian>Inn</Italian>
+		<Spanish>Inn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INN_PEDIA</Tag>
+		<English>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </English>
+		<French>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </French>
+		<German>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </German>
+		<Italian>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </Italian>
+		<Spanish>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROTHEL</Tag>
+		<English>Brothel</English>
+		<French>Brothel</French>
+		<German>Brothel</German>
+		<Italian>Brothel</Italian>
+		<Spanish>Brothel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROTHEL_PEDIA</Tag>
+		<English>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</English>
+		<French>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</French>
+		<German>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</German>
+		<Italian>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</Italian>
+		<Spanish>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTCHER</Tag>
+		<English>Butchery</English>
+		<French>Butchery</French>
+		<German>Butchery</German>
+		<Italian>Butchery</Italian>
+		<Spanish>Butchery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTCHER_PEDIA</Tag>
+		<English>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</English>
+		<French>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</French>
+		<German>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</German>
+		<Italian>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</Italian>
+		<Spanish>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WAREHOUSE</Tag>
+		<English>Warehouse</English>
+		<French>Warehouse</French>
+		<German>Warehouse</German>
+		<Italian>Warehouse</Italian>
+		<Spanish>Warehouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WAREHOUSE_PEDIA</Tag>
+		<English>[TAB]A warehouse is a commercial building for storage of goods. Warehouses are used by manufacturers, importers, exporters, wholesalers, transport businesses, customs, etc. They are usually large plain buildings in industrial areas of cities and towns. They usually have loading docks to load and unload goods from trucks. Sometimes warehouses load and unload goods directly from railways, airports, or seaports. They often have cranes and forklifts for moving goods, which are usually placed on ISO standard pallets loaded into pallet racks.[PARAGRAPH:2]Stored goods can include any raw materials, components, or finished goods associated with agriculture, manufacturing, or commerce.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FAIRGROUND</Tag>
+		<English>Fairground</English>
+		<French>Fairground</French>
+		<German>Fairground</German>
+		<Italian>Fairground</Italian>
+		<Spanish>Fairground</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FAIRGROUND_PEDIA</Tag>
+		<English>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</English>
+		<French>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</French>
+		<German>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</German>
+		<Italian>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</Italian>
+		<Spanish>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIL</Tag>
+		<English>Debtor's Prison</English>
+		<French>Debtor's Prison</French>
+		<German>Debtor's Prison</German>
+		<Italian>Debtor's Prison</Italian>
+		<Spanish>Debtor's Prison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIL_PEDIA</Tag>
+		<English>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</English>
+		<French>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</French>
+		<German>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</German>
+		<Italian>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</Italian>
+		<Spanish>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRAIN_MARKET</Tag>
+		<English>Grain Market</English>
+		<French>Grain Market</French>
+		<German>Grain Market</German>
+		<Italian>Grain Market</Italian>
+		<Spanish>Grain Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FISH_MARKET</Tag>
+		<English>Fish Market</English>
+		<French>Fish Market</French>
+		<German>Fish Market</German>
+		<Italian>Fish Market</Italian>
+		<Spanish>Fish Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLOTH_MARKET</Tag>
+		<English>Cloth Market</English>
+		<French>Cloth Market</French>
+		<German>Cloth Market</German>
+		<Italian>Cloth Market</Italian>
+		<Spanish>Cloth Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPICE_MARKET</Tag>
+		<English>Spice Market</English>
+		<French>Spice Market</French>
+		<German>Spice Market</German>
+		<Italian>Spice Market</Italian>
+		<Spanish>Spice Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARTISANS_QUARTER</Tag>
+		<English>Artisan's Quarter</English>
+		<French>Artisan's Quarter</French>
+		<German>Artisan's Quarter</German>
+		<Italian>Artisan's Quarter</Italian>
+		<Spanish>Artisan's Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRADESMENS_QUARTER</Tag>
+		<English>Tradesmen's Quarter</English>
+		<French>Tradesmen's Quarter</French>
+		<German>Tradesmen's Quarter</German>
+		<Italian>Tradesmen's Quarter</Italian>
+		<Spanish>Tradesmen's Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EDICT</Tag>
+		<English>Edict</English>
+		<French>Edict</French>
+		<German>Edict</German>
+		<Italian>Edict</Italian>
+		<Spanish>Edict</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIAN_BAZAAR</Tag>
+		<English>Bazaar</English>
+		<French>Bazar</French>
+		<German>Bazar</German>
+		<Italian>Bazar</Italian>
+		<Spanish>Bazar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIAN_BAZAAR_PEDIA</Tag>
+		<English>[TAB]Arabian bazaars are lively and crowded places with hundreds of stalls, and the air is filled with the cries of merchants trying to entice wary customers to purchase their goods. Virtually anything imaginable can be found in markets, from food to clothing, DVDs, rugs, perfume, furniture, and so forth. Such places can be perilous for the uninitiated, for the merchants will seek to wring out the largest sum possible for their wares, and a customer who is not versed in the fine art of haggling is very likely to get taken for every penny he or she has. Bazaars have existed virtually unchanged in Arabian cities for centuries. The Grand Bazaar in Istanbul, Turkey, covers some 60 streets and contains around 400 shops. The Grand Bazaar in Tehran, Iran, has been around in one form or another for over a thousand years: with over 10 km of corridors, it is the largest covered neighborhood in the world.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DACIAN_DAVA</Tag>
+		<English>Dava</English>
+		<French>Dava</French>
+		<German>Dava</German>
+		<Italian>Dava</Italian>
+		<Spanish>Dava</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DACIAN_DAVA_PEDIA</Tag>
+		<English>[TAB]Dava (plural davae) is a Geto-Dacian name for a city, town or fortress. Generally, the name indicated a tribal center or an important settlement, usually fortified. Some of the Dacian settlements and the fortresses employed the Murus Dacicus traditional construction technique.[PARAGRAPH:1]Many city names of the Dacians were composed of an initial lexical element (often the tribe name) affixed to -dava, -daua, -deva, -deba, -daba or -dova.[PARAGRAPH:1]Most of these towns are attested by Ptolemy, therefore date from the 1st century CE.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUSHAN_GANDHARA_SCHOOL</Tag>
+		<English>Gandhara School</English>
+		<French>Gandhara School</French>
+		<German>Gandhara School</German>
+		<Italian>Gandhara School</Italian>
+		<Spanish>Gandhara School</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUSHAN_GANDHARA_SCHOOL_PEDIA</Tag>
+		<English>[TAB]Buddhist monks from the region of Gandhara, where Greco-Buddhism was most influential, played a key role in the development and the transmission of Buddhist ideas in the direction of northern Asia. The art and culture of Gandhara, at the crossroads of the Kushan hegemony, are the best known expressions of Kushan influences to Westerners. Several direct depictions of Kushans are known from Gandhara, where they are represented with a tunic, belt and trousers and play the role of devotees to the Buddha, as well as the Bodhisattva and future Buddha Maitreya.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EDICT_PEDIA</Tag>
+		<English>[TAB]The Edicts of Ashoka are a collection of 33 inscriptions on the Pillars of Ashoka, as well as boulders and cave walls, made by the Emperor Ashoka of the Mauryan dynasty during his reign from 269 BCE to 231 BCE. These inscriptions are dispersed throughout the areas of modern-day Bangladesh, India, Nepal and Pakistan and represent the first tangible evidence of Buddhism. The edicts describe in detail the first wide expansion of Buddhism through the sponsorship of one of the most powerful kings of Indian history. According to the edicts, the extent of Buddhist proselytism during this period reached as far as the Mediterranean, and many Buddhist monuments were created.[PARAGRAPH:1]These inscriptions proclaim Ashoka's beliefs in the Buddhist concept of dharma and his efforts to develop the dharma throughout his kingdom. Although Buddhism and the Buddha are mentioned, the edicts focus on social and moral precepts, rather than specific religious practices or the philosophical dimension of Buddhism.[PARAGRAPH:1]In these inscriptions, Ashoka refers to himself as "Beloved of the Gods" and "King Priya-darshi". The identification of King Priya-darshi with Ashoka was confirmed by an inscription discovered in 1837. The inscriptions found in the eastern part of India were written in the Magadhi language, using the Brahmi script. In the western part of India, the language used is closer to Sanskrit, using the Kharoshthi script, one extract of Edict 13 in the Greek language, and one bilingual edict written in Greek and Aramaic.These edicts were decodified by British archeologist and historian James Prinsep.[PARAGRAPH:1]The inscriptions revolve around a few recurring themes: Ashoka's conversion to Buddhism, the description of his efforts to spread Buddhism, his moral and religious precepts, and his social and animal welfare program.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANBOK_MAKER</Tag>
+		<English>Hanbok Maker</English>
+		<French>Hanbok Maker</French>
+		<German>Hanbok Maker</German>
+		<Italian>Hanbok Maker</Italian>
+		<Spanish>Hanbok Maker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANBOK_MAKER_PEDIA</Tag>
+		<English>[TAB]Hanbok (South Korea) or Choson-ot (North Korea) is the traditional Korean dress. It is often characterized by vibrant colors and simple lines without pockets. Although the term literally means "Korean clothing", hanbok today often refers specifically to hanbok of Joseon Dynasty and is worn as semi-formal or formal wear during traditional festivals and celebrations. The modern hanbok does not exactly follow the actual style as worn in Joseon dynasty since it went through some major changes during the 20th century for practical reasons.[PARAGRAPH:1]Throughout history, Korea had a dual clothing tradition, in which rulers and aristocrats adopted different kinds of mixed foreign-influenced indigenous styles, while the commoners continued to use a distinct style of indigenous clothing that today is known as Hanbok.</English>
+		<French>Hanbok Maker</French>
+		<German>Hanbok Maker</German>
+		<Italian>Hanbok Maker</Italian>
+		<Spanish>Hanbok Maker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRIOT</Tag>
+		<English>Griot</English>
+		<French>Griot</French>
+		<German>Griot</German>
+		<Italian>Griot</Italian>
+		<Spanish>Griot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRIOT_PEDIA</Tag>
+		<English>[TAB]The earliest forms of storytelling were thought to have been primarily oral combined with gestures and expressions. In addition to being part of religious ritual, rock art may have been a form of storytelling for many of the ancient cultures. The Australian Aboriginal people painted symbols from stories on cave walls as a means of helping the storyteller remember the story. The story was then told using a combination of oral narrative, music, rock art and dance. Ephemeral media such as sand, leaves and the carved trunks of living trees have also been used to record stories in pictures or with writing. Complex forms of tattooing may also represent stories, with information about genealogy, affiliation and social status.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIA_VANK</Tag>
+		<English>Tachar</English>
+		<French>Tachar</French>
+		<German>Tachar</German>
+		<Italian>Tachar</Italian>
+		<Spanish>Tachar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIA_VANK_PEDIA</Tag>
+		<English>Tachar</English>
+		<French>Tachar</French>
+		<German>Tachar</German>
+		<Italian>Tachar</Italian>
+		<Spanish>Tachar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PHARMACIST</Tag>
+		<English>Pharmacist</English>
+		<French>Pharmacist</French>
+		<German>Pharmacist</German>
+		<Italian>Pharmacist</Italian>
+		<Spanish>Pharmacist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PHARMACIST_PEDIA</Tag>
+		<English>[TAB]The famous Sushruta Samhita, which is a Sanskrit redaction text on all of the major concepts of ayurvedic medicine with innovative chapters on surgery, dates to the Gupta period.[PARAGRAPH:1]Susruta was an ancient Indian surgeon and is the author of the book Susruta Samhita, in which he describes over 300 surgical procedures, 120 surgical instruments and classifies human surgery in eight categories. He lived, taught and practiced his art on the banks of the Ganges in the area that corresponds to the present day city of Varanasi in North India.[PARAGRAPH:1]Because of his seminal and numerous contributions to the science and art of surgery he is also known by the title "Father of Surgery." Much of what is known about this inventive surgeon is contained in a series of volumes he authored, which are collectively known as the Sushruta Samhita.[PARAGRAPH:1]Doctors also invented several medical instruments, and even performed operations. The Indian numerals which were the first positional base 10 numeral systems in the world originated from Gupta India.</English>
+		<French>Pharmacist</French>
+		<German>Pharmacist</German>
+		<Italian>Pharmacist</Italian>
+		<Spanish>Pharmacist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOCHARIAN_SILK_ROUTE</Tag>
+		<English>Silk Route Trading Post</English>
+		<French>Silk Route Trading Post</French>
+		<German>Silk Route Trading Post</German>
+		<Italian>Silk Route Trading Post</Italian>
+		<Spanish>Silk Route Trading Post</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOCHARIAN_SILK_ROUTE_PEDIA</Tag>
+		<English>[TAB]The Northern Silk Road is a prehistoric trackway in northern China originating in the early capital of Xi'an and extending north of the Taklamakan Desert to reach the ancient kingdoms of Parthia, Bactria and eventually Persia and Rome. It is the northern-most branch of several Silk Roads providing trade, military movements and cultural exchange between China and the west. The use of this route was expanded pursuant to actions by the Han Dynasty in the latter part of the first millennium BC to push back northern tribes and control the safe passage of Chinese troops and merchants.</English>
+		<French>Silk Route Trading Post</French>
+		<German>Silk Route Trading Post</German>
+		<Italian>Silk Route Trading Post</Italian>
+		<Spanish>Silk Route Trading Post</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORT</Tag>
+		<English>Port</English>
+		<French>French</French>
+		<German>Handelshafen</German>
+		<Italian>Italian</Italian>
+		<Spanish>Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORT_PEDIA</Tag>
+		<English>[TAB]A port is a location on a coast or shore containing one or more harbors where ships can dock and transfer people or cargo to or from land.[PARAGRAPH:1]Port locations are selected to optimize access to land and navigable water, for commercial demand, and for shelter from wind and waves. Ports with deeper water are rarer, but can handle larger, more economical ships. Since ports throughout history handled every kind of traffic, support and storage facilities vary widely, may extend for miles, and dominate the local economy. Some ports have an important military role.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CAVE_TEMPLE</Tag>
+		<English>Cave Temple</English>
+		<French>Cave Temple</French>
+		<German>Cave Temple</German>
+		<Italian>Cave Temple</Italian>
+		<Spanish>Cave Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CAVE_TEMPLE_PEDIA</Tag>
+		<English>[TAB]The Badami cave temples are a complex of temples located at Badami, a town in the Bagalkot District in the north part of Karnataka, India. They are considered an example of Indian rock-cut architecture, especially Badami Chalukya Architecture. Badami, the capital of the Early Chalukyas, who ruled much of Karnataka in the 6th to 8th centuries, lies at the mouth of a ravine with rocky hills on either side and a town tank in which water from the ravine flows. The town is known for its ancient cave temples carved out of the sandstone hills above.[PARAGRAPH:1]The Badami cave temples are composed of four caves, all carved out of the soft Badami sandstone on a hill cliff in the late 6th to 7th centuries. The planning of four caves is simple. The entrance is a verandah (mukha mandapa) with stone columns and brackets, a distinctive feature of these caves, leading to a columned mandapa - main hall (also maha mandapa) and then to the small square shrine (sanctum sanctorum, garbhaghrha) cut deep into the cave. The temple caves represent different religious sects. Among them, two (cave 2 and 3) are dedicated to god Vishnu, one to god Shiva (cave 1) and the fourth (cave 4) is a Jain temple. The first three are devoted to the Vedic faith and the fourth cave is the only Jain temple at Badami. The cave temples date back to 600 and 700 CE. Their architecture is a blend of North Indian Nagara Style and South Indian Dravidian style. As described above each cave has a sanctum sanctorum, a mandapa, a verandah and pillars. The cave temples also bear exquisite carvings, sculptures and beautiful murals. Important part of historical heritage at Badami cave temples are inscriptions in old Kannada script. There is also the fifth cave temple in Badami - Buddhist temple in natural cave which can be entered only on all fours.</English>
+		<French>Cave Temple</French>
+		<German>Cave Temple</German>
+		<Italian>Cave Temple</Italian>
+		<Spanish>Cave Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PAGODA</Tag>
+		<English>Pagoda</English>
+		<French>Pagoda</French>
+		<German>Pagode</German>
+		<Italian>Pagoda</Italian>
+		<Spanish>Pagoda</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PAGODA_PEDIA</Tag>
+		<English>[TAB]A pagoda is the general term in the English language for a tiered tower with multiple eaves common in India, China, Japan, Korea, Burma, Vietnam, Nepal and other parts of Asia. Some pagodas are used as Taoist houses of worship. Most pagodas were built to have a religious function, most commonly Buddhist, and were often located in or near temples. This term may refer to other religious structures in some countries. In Vietnam, pagoda is a more generic term referring to a place of worship, although pagoda is not an accurate word to describe a Buddhist temple. The modern pagoda is an evolution of the Ancient Indian stupa, a tomb-like structure where sacred relics could be kept safe and venerated. The architectural structure of the stupa has spread across Asia, taking on many diverse forms as details specific to different regions are incorporated into the overall design.[PARAGRAPH:2]Pagodas attract lightning strikes because of their height. This tendency may have played a role in their perception as spiritually charged places. Many pagodas have a decorated finial at the top of the structure. The finial is designed in such a way as to have symbolic meaning within Buddhism; for example, it may include designs representing a lotus. The finial also functions as a lightning rod, and thus helps to both attract lightning and protect the pagoda from lightning damage. Early pagodas were constructed out of wood, but steadily progressed to sturdier materials, which helped protect against fires and rot.[PARAGRAPH:1]Pagodas traditionally have an odd number of levels, a notable exception being the eighteenth century pagoda "folly" designed by Sir William Chambers at Kew Gardens in London.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHUFA_STUDIO</Tag>
+		<English>Shufa Studio</English>
+		<French>Shufa Studio</French>
+		<German>Shufa-Studio</German>
+		<Italian>Shufa Studio</Italian>
+		<Spanish>Shufa Studio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHUFA_STUDIO_PEDIA</Tag>
+		<English>[TAB]East Asian calligraphy is a form of calligraphy widely practised and revered in the Sinosphere. This most often includes China, Japan, Korea, and Vietnam. The East Asian calligraphic tradition originated and developed from China. There is a general standardization of the various styles of calligraphy in this tradition. East Asian calligraphy and ink and wash painting are closely related, since accomplished using similar tools and techniques. Chinese painting and calligraphy distinguishes themselves from onther culture's arts by their emphasis on motion, and their charge with dynamic life. According to Stanley-Baker: "Calligraphy is sheer life experienced through energy in motion that is registered as traces on silk or paper, with time and rhythm in shifting space its main ingredients". Calligraphy has also led to the development of many forms of art in East Asia, including seal carving, ornate paperweights, and inkstones.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WORKSHOP</Tag>
+		<English>Brickworks</English>
+		<French>Brickworks</French>
+		<German>Brickworks</German>
+		<Italian>Brickworks</Italian>
+		<Spanish>Brickworks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORCELAIN_WORKSHOP</Tag>
+		<English>Porcelain Workshop</English>
+		<French>Porcelain Workshop</French>
+		<German>Porcelain Workshop</German>
+		<Italian>Porcelain Workshop</Italian>
+		<Spanish>Porcelain Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORCELAIN_WORKSHOP_PEDIA</Tag>
+		<English>[TAB]Porcelain originated in China. Although proto-porcelain wares exist dating from the Shang Dynasty (1600-1046 BCE), by the Eastern Han Dynasty period (196-220) glazed ceramic wares had developed into porcelain. Porcelain manufactured during the Tang Dynasty (618-906) was exported to the Islamic world, where it was highly prized. Early porcelain of this type includes the tri-colour glazed porcelain, or sancai wares. The exact dividing line between proto-porcelain and porcelain wares is not a clear one to date. Porcelain items in the sense that we know them today could be found in the Tang Dynasty, and archaeological finds has pushed the dates back to as early as the Han Dynasty (206 BCE - 220 CE). By the Sui Dynasty (581-618) and Tang Dynasty (618-907), porcelain had become widely produced.[PARAGRAPH:1]Eventually, porcelain and the expertise required to create it began to spread into other areas of East Asia. During the Song Dynasty (960-1279), artistry and production had reached new heights. The manufacture of porcelain became higly organised and the kiln sites, those excavated from this period, could fire as many as 25,000 wares. By the Ming Dynasty (1368-1644), porcelain art was being exported to Europe. Some of the most well-known Chinese porcelain art styles arrived in Europe during this era, such as the coveted blue-and-white wares. The Ming Dynasty controlled much of the porcelain trade, which were further expanded to all over Asia, Africa and Europe through the Silk Road. Later, Portuguese merchants began direct trade over the sea route with the Ming Dynasty in 1517 and were followed by Dutch merchants in 1598.</English>
+		<French>Porcelain Workshop</French>
+		<German>Porcelain Workshop</German>
+		<Italian>Porcelain Workshop</Italian>
+		<Spanish>Porcelain Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUNAN_CANAL</Tag>
+		<English>Fresh Water Canal</English>
+		<French>Fresh Water Canal</French>
+		<German>Fresh Water Canal</German>
+		<Italian>Fresh Water Canal</Italian>
+		<Spanish>Fresh Water Canal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUNAN_CANAL_PEDIA</Tag>
+		<English>Fresh Water Canal</English>
+		<French>Fresh Water Canal</French>
+		<German>Fresh Water Canal</German>
+		<Italian>Fresh Water Canal</Italian>
+		<Spanish>Fresh Water Canal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SASSANID_MINERAL_WORKSHOP</Tag>
+		<English>Mineral Workshop</English>
+		<French>Mineral Workshop</French>
+		<German>Mineral Workshop</German>
+		<Italian>Mineral Workshop</Italian>
+		<Spanish>Mineral Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SASSANID_MINERAL_WORKSHOP_PEDIA</Tag>
+		<English>[TAB]It was also a time of increased metallurgical production, so Iran earned a reputation as the "armory of Asia". Most of the Sassanid mining centers were at the fringes of the Empire: in Armenia, the Caucasus and above all, Transoxania. The extraordinary mineral wealth of the Pamir Mountains on the eastern horizon of the Sassanid empire led to a legend among the Tajiks, an Iranian people living there, which is still told today. It said that when God was creating the world, he tripped over Pamirs, dropping his jar of minerals which spread across the region.</English>
+		<French>Mineral Workshop</French>
+		<German>Mineral Workshop</German>
+		<Italian>Mineral Workshop</Italian>
+		<Spanish>Mineral Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATUE</Tag>
+		<English>Statue</English>
+		<French>Statue</French>
+		<German>Statue</German>
+		<Italian>Statue</Italian>
+		<Spanish>Statue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATUE_PEDIA</Tag>
+		<English>Statue</English>
+		<French>Statue</French>
+		<German>Statue</German>
+		<Italian>Statue</Italian>
+		<Spanish>Statue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KALYANI</Tag>
+		<English>Kalyani</English>
+		<French>Kalyani</French>
+		<German>Kalyani</German>
+		<Italian>Kalyani</Italian>
+		<Spanish>Kalyani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KALYANI_PEDIA</Tag>
+		<English>[TAB]Temple tanks are wells or reservoirs built as part of the temple complex in Indian temples. Bathing in the sacred waters of these tanks is thought to cure disease and maladies. It is possible that these are cultural remnants of structures such as the Great Bath of Mohenjo-daro, which was part of the Indus Valley Civilization.[PARAGRAPH:1]Since ancient times, the design of water storage has been important in India's temple architecture, especially in western India where dry and monsoon seasons alternate. Temple tank design became an art form in itself. An example of the art of tank design is the large, geometically spectacular Stepped Tank at the Royal Center at the ruins of Vijayanagara, the capital of the Vijayanagara Empire, surrounding the modern town of Hampi. It is lined with green diorite and has no drain. It was filled by aqueduct.[PARAGRAPH:1]The tank known as a "Pushkarni" or a "Kalyani", also known as a kund in Hindi is used for ritual cleansing and during rites of consecration. The water in the tank is deemed to be sacred water from the Ganges River.[PARAGRAPH:1]Kalyani, also called pushkarni, are ancient Hindu stepped bathing wells. These wells were typically built near Hindu temples to accommodate bathing and cleansing activities before prayer. They are also used for immersion of Ganesha idols during Ganesha Chaturthi.</English>
+		<French>Kalyani</French>
+		<German>Kalyani</German>
+		<Italian>Kalyani</Italian>
+		<Spanish>Kalyani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUKE_RESIDENCE</Tag>
+		<English>Duke Residence</English>
+		<French>Duke Residence</French>
+		<German>Duke Residence</German>
+		<Italian>Duke Residence</Italian>
+		<Spanish>Duke Residence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUKE_RESIDENCE_PEDIA</Tag>
+		<English>[TAB]A duke (male) or duchess (female) can be either a monarch ruling over a duchy or a member of the nobility, historically of highest rank below the monarch. The title comes from French duc, itself from the Latin dux, 'leader', a term used in republican Rome to refer to a military commander without an official rank (particularly one of Germanic or Celtic origin), and later coming to mean the leading military commander of a province.[PARAGRAPH:1]In the Middle Ages the title signified first among the Germanic monarchies. Dukes were the rulers of the provinces and the superiors of the counts in the cities and later, in the feudal monarchies, the highest-ranking peers of the king.[PARAGRAPH:1]During the 19th century many of the smaller German and Italian states were ruled by Dukes or Grand Dukes. But presently, with the exception of the Grand Duchy of Luxembourg, there are no ruling dukes. Duke remains the highest titular peerage in France, Italy, Portugal, Spain, and the United Kingdom. The Pope, as a temporal sovereign, has also but rarely granted the title of Duke and Duchess to persons for services to the Holy See.[PARAGRAPH:1]A woman who holds in her own right the title to such duchy or dukedom, or is the wife of a duke, is normally styled duchess. Queen Elizabeth II, however, is known as Duke of Normandy in the Channel Islands and Duke of Lancaster in Lancashire.[PARAGRAPH:1]The Franks employed dukes as the governors of Roman provinces, though they also led military expeditions far from their duchies. The dukes were the highest ranking officials in the realm, typically Frankish (whereas the counts were often Gallo-Roman), and formed the class from which the kings' generals were chosen in times of war. The dukes met with the king every May to discuss policy for the upcoming year, the so-called Mayfield.[PARAGRAPH:1]In Burgundy and Provence, the titles of patrician and prefect were commonly employed instead of duke, probably for historical reasons relating to the greater Romanization of those provinces. But the titles were basically equivalent.[PARAGRAPH:1]In late Merovingian Gaul, the mayors of the palace of the Arnulfing clan began to use the title dux et princeps Francorum: "duke and prince of the Franks". In this title, "duke" implied supreme military control of the entire nation (Francorum, the Franks) and it was thus used until the end of the Carolingian dynasty in France in 987.</English>
+		<French>Duke Residence</French>
+		<German>Duke Residence</German>
+		<Italian>Duke Residence</Italian>
+		<Spanish>Duke Residence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STRATOPEDON</Tag>
+		<English>Stratopedon</English>
+		<French>Stratopedon</French>
+		<German>Stratopedon</German>
+		<Italian>Stratopedon</Italian>
+		<Spanish>Stratopedon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STRATOPEDON_PEDIA</Tag>
+		<English>[TAB]Stratopedon were "army camps" and are the equivalent to the Roman Castra. These differed from phrourion in that they would not normally have been permanent.</English>
+		<French>Stratopedon</French>
+		<German>Stratopedon</German>
+		<Italian>Stratopedon</Italian>
+		<Spanish>Stratopedon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUNDUQ</Tag>
+		<English>Funduq</English>
+		<French>Funduq</French>
+		<German>Funduq</German>
+		<Italian>Funduq</Italian>
+		<Spanish>Funduq</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUNDUQ_PEDIA</Tag>
+		<English>Funduq</English>
+		<French>Funduq</French>
+		<German>Funduq</German>
+		<Italian>Funduq</Italian>
+		<Spanish>Funduq</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORKHON_INSCRIPTION</Tag>
+		<English>Orkhon Inscription</English>
+		<French>in French</French>
+		<German>Orchon-Stele</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORKHON_INSCRIPTION_PEDIA</Tag>
+		<English>[TAB]The "Orkhon inscriptions" are the oldest known extant examples of Turkic writings. They were written in what is now called Orkhon script, or "Turkic runes", carved on two monuments which were erected near the Orkhon River between 732 and 735 in honour of two Gokturk leaders, two brothers named Kul and Bilge. The inscriptions were deciphered by the Danish philologist Vilhelm Thomsen in 1893. The script is very similar to that on monuments left by Tu-jue in China during the Tang Dynasty. </English>
+		<French>.</French>
+		<German>[TAB]Die "Orchon-Stelen" sind die ersten bekannten Beispiele von türkischen Texten. In sie wurden Orchon-Runen, auch alttürkische Schrift genannt, eingraviert. Zwei dieser Stelen wurden in der Nähe des Flusses Orchon zwischen 732 und 735 errichtet, um zwei göktürkische Herrscher, die Brüder Kul und Bilge, zu ehren. Die Inschriften wurden von dem dänischen Philologen Wilhem Thomsen 1893 entschlüsselt. Die Schrift ähnelt stark jener, in die auf Monumenten, die von den sogenannten Tu-jue während der Tang-Dynastie in China errichtet wurden, gefunden wurden.</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEGALIST_SCHOOL</Tag>
+		<English>Legalist School</English>
+		<French>French</French>
+		<German>Legalistische Schule</German>
+		<Italian>Italian</Italian>
+		<Spanish>Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEGALIST_SCHOOL_PEDIA</Tag>
+		<English>[TAB]In Chinese history, Legalism (literally "School of law") was one of the main philosophic currents during the Warring States Period (and before), although the term itself was invented in the Han dynasty and thus does not refer to an organized 'school' of thought. Legalism was a utilitarian political philosophy that did not address higher questions like the nature and purpose of life. The school's most famous proponent and contributor Han Fei Zi believed that a ruler should use the following three tools to govern his subjects:[PARAGRAPH:1]Fa (literally "law or principle"): The law code must be clearly written and made public. All people under the ruler were equal before the law. Laws should reward those who obey them and punish accordingly those who dare to break them. Thus it is guaranteed that actions taken are systematically predictable. In addition, the system of law ran the state, not the ruler, a statement of rule of law. If the law is successfully enforced, even a weak ruler will be strong.[PARAGRAPH:1]Shu (literally "method, tactic or art"): Special tactics and "secrets" are to be employed by the ruler to make sure others don't take over control of the state. Especially important is that no one can fathom the ruler's motivations, and thus no one can know which behaviour might help them get ahead, other than following the laws.[PARAGRAPH:1]Shi (literally "legitimacy, power or charisma"): It is the position of the ruler, not the ruler himself or herself, that holds the power. Therefore, analysis of the trends, the context, and the facts are essential for a real ruler.[PARAGRAPH:2]The early thought behind Legalism was first formed by Shang Yang in the book of Lord Shang and was further developed by Li Si as a realist reform oriented philosophy meant to strengthen government and reinforce adherence to the law. Legalism fully emerged during the Warring States Period, a critical point in ancient Chinese history. The Warring States Period and the preceding were marked by frequent violence and war, and many new philosophies were founded to cope with the environment of the time including, Daoism, Confucianism, and Mohism.[PARAGRAPH:1]Some of the first adopters of Legalism were the statesman Shang Yang of the State of Qin. The legal elements of Shang Yang's theories were based on the Book of Law written by Li Kui of the State of Wei. Overall, these theories advocated the belief that all people are fundamentally flawed and that stringent laws and harsh punishments are required to keep them in order. In addition, his theories thought all humanity was selfish and evil, which added towards the cause for Shang Yang becoming prime minister of the Qin under the rule of Duke Xiao of Qin and gradually transforming the state into a vigorously regulated machine, the sole purpose of which was the elimination of all rivals. The Qin Dynasty would eventually conquer six other feudal states and create what is regarded as the first true Chinese Empire. Shang Yang swept away the aristocracy and implemented a meritocracy those who achieved could reach high places and birth privilege was reserved exclusively for the ruler of the state. Previously the army had been controlled by nobles and constituted of feudal levies. Now generals could come from any part of society, provided they had sufficient skill. In addition, troops were highly trained and disciplined. From then on, Qin was taking its shape to become the most powerful state in China before it eventually brought all of the six other states together (Qi, Chu, Han, Yan, Zhao, and Wei) under Qin Shi Huang.[PARAGRAPH:1]Roles of the Rulers[PARAGRAPH:1]Primarily members of the ruling class, the Legalists emphasized that the head of state was endowed with the "mystery of authority, and as such his decisions must always command the respect and obedience of the people. The state (country) comes first, not the individual. The emperor's very figure brought legitimacy. In emphasizing the power of rulership, Legalists such as Shen Dao (ca. 350 - 275 BCE) and Shen Buhai sought to devalue the importance of the charismatic ruler. Skillful rulers hid their true intentions and feigned nonchalance. To ensure that all of his words were revered, the wise ruler kept a low profile. Thus, theoretically, by cloaking both his desires and his will, the Emperors checked sycophancy and forced his subject to heed his dictates. While Shang Yang (the Prime Minister of Duke Xiao of Qin) would allow rulers to listen to musical instruments rather than focus on foreign policy, Han Fei (the Legalist scholar most admired by the First Qin Emperor, Qin Shi Huangdi) demanded more of the wise ruler. A good leader, by Han Fei 's standards, must not only accept the advice of loyal ministers when shown to be in error, but must also extend courtesy to those beneath him or her and not be too avaricious. The adept ruler also understood the importance of strictness over benevolence. Although the ruler was expected to be paternalistic, the Legalists emphasized that being too kind would spoil the populace and threaten the state's internal order. Interestingly, according to Han's Grand Historian Sima Qian (ca. 145-86 BCE), while the First Qin Emperor hid himself from the rest of the world (perhaps due to a desire to attain immortality) and thus maintained a low profile, he did not necessarily follow all of the Legalists' advice on the role of the ruler.[PARAGRAPH:2]To aid the ruler and help prevent misgovernance, for fifteen years formalized the concept of shu, or the bureaucratic model of administration that served to advance the ideal Legalist ruler's program. To the Legalists, the intelligent minister was the ruler's most important aide. Where as the minister's duty was to understand specific affairs, the ruler was responsible for correctly judging ministers' performances. Stressing that ministers and other officials too often sought favours from foreign powers by abusing their positions, Han Fei urged rulers to control these individuals by the two handles of punishment and favour. Officials were required, through fear, to ensure that ministers' accomplishments were neither greater than nor inferior to the assigned undertaking. According to the eminent sinologist Robin Yates, newly discovered Qin Dynasty legal codes show that officials were required to correctly calculate the exact amount of labor expected of all artisans; if the artisan was ordered to perform either too much work or too little work, the official would be held accountable. Thus, in Legalist theory, ministers and other officials were prevented from performing some other official's duties and were punished if they attempted to blind the ruler with words or failed to warn the ruler of danger. One consequence of this situation was that the ministers could always be held accountable for royal misadventures while the rulerâ€™s name was never to be tarnished. By emphasizing performance, however, over sophistry, the Legalists hoped to eliminate bureaucratic corruption and intrigues amongst the officialdom through fear of being severely punished, exiled or executed.[PARAGRAPH:2]The entire system was set up to make model citizens behave and act how the dynasty wanted them to act against their will. The laws supported by the Legalists were meant to support the state, the emperor, and his military. They were also reform -oriented and innovative. In theory, the Legalists believed that if the punishments were heavy and the law equally applied, neither the powerful nor the weak would be able to escape state control. The Legalists especially emphasized pragmatism over precedence and custom as the basis of law. Guided by Legalist thought, the First Qin Emperor, Qin Shi Huang, would weaken the power of the feudal lords, divide the unified empire into thirty-six administrative provinces, and standardize the writing system. Reflecting Legalist passion for order and structure, Qin soldiers were only mobilized when both halves of tiger-shaped tallies (one held by the ruler and the other by the commanding general) were brought together. Likewise, all documents in the empire had to have recorded the year they were written, the scribe who copied them, and up to the exact hour of delivery. Accepting Shang Yang's earlier emphasis on the standardization of weights and measures, the Qin Shi Huang would also accept Shang Yang's philosophy that no individual in the state should be above the law (by ensuring harsh punishments for all cases of dissent) and that families should be divided into smaller households. While there is reason to doubt Sima Qian's claim that Qin Shi Huang did in fact divide households into groups of ten, certainly the other examples of standardization and administrative organization undertaken by the First Emperor reflect the importance of Legalist thought in Qin law. Based on promoting the interests of the state Qin, the law (literally "law, method, way") served as a vehicle to both control the populace and eliminate dissent.[PARAGRAPH:2]The Legalist philosophers emphasized the primacy of the state over individual autonomy. The lone individual had no legitimate civil rights and any personal freedom had to strengthen the ruler. Han Fei, in particular, would be very caustic towards the concept of individual rights. Fundamentally, the Legalists viewed the plebeian (common people of lower class) and their actions as evil and foolish.[PARAGRAPH:1]However, Legalism allowed the common people to gain in rank if they performed well. For example, soldiers would gain in rank according to the number of heads the soldiers collected. A soldier may even gain noble rank. In contrast, some other states allowed only the well-connected to gain higher ranks. An example of this would be Lü Buwei, who originally a merchant, was able to become Chancellor of China, an occurrence that would never happen in the other six states. He played a major role in King Zhuangxiang of Qin 's rise to power.[PARAGRAPH:1]According to Shang Yang 's The Book of Lord Shang, the people themselves wanted a ruler to generate order. Social cohesion in the Legalist state mandated that the populace never escape punishment. The Qin dynasty used the people, for example, to maintain vigilant mutual surveillance over one another under threat of death.[PARAGRAPH:1]This intrastate realpolitik would end up devouring the Legalist philosophers themselves. Shang Yang, in advocating the state's right to punish even the heir-apparent's tutor, would run afoul of the future King Huiwen of Qin (circa. 338 -311 B.C.). Whereas at one point, he had the power to exile his opponents (and, thus, eviscerate individual criticism) to border regions of the state, he died when torn into pieces by chariots. Similarly, Han Fei would end up being poisoned by his envious former classmate Li Si, who in turn would be killed (under the law he had introduced) by the aggressive and violent Second Qin Emperor that he had helped to take the thrones.[PARAGRAPH:2]In later dynasties, Legalism was discredited and ceased to be an independent school of thought. However, both ancient and modern Confucian observers of Chinese politics have argued that some Legalist ideas have merged with mainstream Confucianism and still play a major role in government. The philosophy of imperial China has been described as a Confucian exterior covering a core of Legalism ("Confucian, the external surface; Legalism, the interior"). In other words, Confucian values are used to sugarcoat the harsh Legalist ideas that underlie the Imperial system. During the Sui and Tang dynasty, Buddhist ideas were also part of the external face of the imperial system.[PARAGRAPH:2]There was a brief revival of Legalism during the Sui dynasty's efforts to reunify China. After the Sui dynasty was replaced by the Tang dynasty, the Tang government still used the government structure left behind by the Sui dynasty, albeit with much reduced punishments.[PARAGRAPH:1]More recently, Mao Zedong, who had some knowledge of ancient Chinese philosophy, compared himself with Qin Shi Huang and publicly approved of some Legalist methods. One such method approved in the 1980s under Deng Xiaoping administration is the reward and punishment, which has increased the size of the Beijing government in the process. However, since the 1990s the related concept of the rule of law has gained currency.[PARAGRAPH:2]The Confucian thinker Xun Zi is sometimes considered as being influenced by or having nourished Legalist ideas, mostly because of two of his disciples (Li Si and Han Fei).</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOMPA</Tag>
+		<English>Gompa</English>
+		<French>Gompa</French>
+		<German>Gompa</German>
+		<Italian>Gompa</Italian>
+		<Spanish>Gompa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOMPA_PEDIA</Tag>
+		<English>[TAB]Gompas are Buddhist temples (typically forming monasteries or nunneries, Sanskrit name vihara), located in Tibet, Ladakh (India), Nepal, and Bhutan. Their design and interior details vary from region to region, however, all follow a general layout of a central prayer hall containing a Buddha statue, benches for the monks or nuns to engage in prayer or meditation and attached living accomodation. The gompa may also be accompanied by any number of stupas.</English>
+		<French>Gompa</French>
+		<German>Gompa</German>
+		<Italian>Gompa</Italian>
+		<Spanish>Gompa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOTEL</Tag>
+		<English>Kotel</English>
+		<French>Kotel</French>
+		<German>Kotel</German>
+		<Italian>Kotel</Italian>
+		<Spanish>Kotel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOTEL_PEDIA</Tag>
+		<English>The Kotel, or Western Wall, in Jerusalem is the holiest of Jewish sites. It is so sacred, because it is the remnant of the Herodian wall that enclosed and supported the Second Temple. It is also called the Wailing Wall because for centuries, Jews have gathered at the wall to mourn the loss of their temple.[PARAGRAPH:1]The Western Wall was built by King Herod in 20 BC during his expansion of the Temple. The construction took 11 years. In 70 AD, the Romans destroyed Jerusalem and the Temple. All that remained of the Temple, was the wall. During the Ottoman Period, the wall became the Jews' chief place of travel, where they came to grieve the destruction of the temple.[PARAGRAPH:1]For centuries, the Western Wall was located in a narrow ally, and could hold only a few hundred worshipers. But, in 1967, after the Six Day War, Israelis created the Western Wall Plaza, which can accommodate tens of thousands of worshippers. Another improvement made to the wall, was that the wall was made six and a half feet higher by digging down and exposing two more of the stones from the retaining wall. This area was covered by debris for centuries.</English>
+		<French>Le Kotel, ou le mur occidental, à Jérusalem est le plus saint des emplacements juifs. Il est si sacré, parce que c'est le reste du mur de Herodian qui inclus et soutenu le deuxième temple. Ce s'appelle également le mur pleurant parce que pendant des siècles, les juifs se sont réunis au mur pour pleurer la perte de leur temple.[PARAGRAPH:1]PLe mur occidental a été construit par le Roi Herod dans 20 AVANT JÉSUS CHRIST pendant son expansion du temple. La construction a pris 11 ans. Dans l'ANNONCE 70, le Romans a détruit Jérusalem et le temple. Tout ce qui est resté du temple, était le mur. Pendant la période de tabouret, le mur place en chef est allé bien à juifs' de voyage, où ils sont venus pour s'affliger la destruction du temple.[PARAGRAPH:1]Pendant des siècles, le mur occidental a été situé dans un allié étroit, et a pu tenir seulement quelques cent worshipers. Mais, en 1967, après la guerre de six jours, les Israéliens ont créé la plaza occidentale de mur, qui peut adapter à des dizaines de milliers d'adorateurs. Une autre amélioration apportée au mur, était que le mur a été fait six des pieds et demi plus de haut en creusant vers le bas et en exposant deux davantage des pierres à partir du mur de soutènement. Ce domaine a été couvert par des débris pendant des siècles.</French>
+		<German>Das Kotel oder die westliche Wand, in Jerusalem ist der jüdischen Aufstellungsorte das heiligste. Es ist so heilig, weil es der Rest der Herodian Wand ist, die beiliegend und gestützt dem zweiten Bügel. Es wird auch die Klagemauer genannt, weil für Jahrhunderte, Juden an der Wand erfaßt haben, um den Verlust ihres Bügels zu beklagen.[PARAGRAPH:1]PDie westliche Wand wurde vom König Herod in 20 BC während seiner Expansion des Bügels errichtet. Der Aufbau dauerte 11 Jahre. In ANZEIGE 70 zerstörte das Romans Jerusalem und den Bügel. Alle, die vom Bügel blieb, war die Wand. Während der Ottoman-Periode stand die Wand Hauptort der Juden' des Spielraums, wohin sie kamen, sich die Zerstörung des Bügels Sorgen zu machen.[PARAGRAPH:1]PFür Jahrhunderte war die westliche Wand in einem schmalen Verbündeten und konnte nur einige hundert Anbetern halten. Aber, 1967, nach dem sechstägigen Krieg, stellten Israelis die westliche Wand-Piazza her, die 10 Tausenden worshippers unterbringen kann. Eine andere Verbesserung, die zur Wand gebildet wurde, war, daß die Wand sechs und eine Hälfte die Füße höher gebildet wurde, indem man unten grub und mehr zwei der Steine von der Stützmauer herausstellte. Dieser Bereich wurde durch Rückstand für Jahrhunderte umfaßt.</German>
+		<Italian>Il Kotel, o la parete occidentale, a Gerusalemme è il più santo dei luoghi ebrei. È così sacred, perché è il resto della parete di Herodian che incluso e sostenuto il secondo tempiale. Inoltre è denominato la parete lamentantesi perché per i secoli, gli ebrei hanno riunito alla parete per addolorarsi la perdita del loro tempiale.[PARAGRAPH:1]PLa parete occidentale è stata costruita BC dal re Herod in 20 durante la sua espansione del tempiale. La costruzione ha occorr 11 anno. In ANNUNCIO 70, il Romans ha distrutto Gerusalemme ed il tempiale. Tutta che rimanesse del tempiale, era la parete. Durante il periodo del Ottoman, la parete ha stato bene posto principale agli ebrei' della corsa, in cui sono venuto addolorarsi la distruzione del tempiale.[PARAGRAPH:1]PPer i secoli, la parete occidentale è stata situata in un alleato stretto ed ha potuto tenere soltanto alcuni cento worshipers. Ma, in 1967, dopo la guerra di sei giorni, gli israeliani hanno generato il Plaza occidentale della parete, che può accomodare i dieci delle migliaia dei worshippers. Un altro miglioramento apportato alla parete, era che la parete è stata fatta sei e piedi di metà più d'altezza scavando giù ed esponendo due più delle pietre dal muro di sostegno. Questo settore è stato trattato tramite residui per i secoli.</Italian>
+		<Spanish>El Kotel, o la pared occidental, en Jerusalén es los más santos de sitios judíos. Es tan sagrada, porque es el remanente de la pared de Herodian que incluido y apoyado el segundo templo. También se llama la pared que se lamenta porque por siglos, los judíos han recolectado en la pared para estar de luto la pérdida de su templo.[PARAGRAPH:1]PLa pared occidental fue construida por rey Herod en 20 A.C. durante su extensión del templo. La construcción tomó 11 años. En el ANUNCIO 70, el Romans destruyó Jerusalén y el templo. Toda que permanecía del templo, era la pared. Durante el período del otomano, la pared sintió bien principal lugar de los judíos el' del recorrido, adonde vinieron afligirse la destrucción del templo.vPor siglos, la pared occidental fue situada en un aliado estrecho, y podía sostener solamente a algunos cientos worshipers. Pero, en 1967, después de la guerra de seis días, los israelíes crearon la plaza occidental de la pared, que puede acomodar diez de millares de devotos. Otra mejora llevada a cabo a la pared, era que la pared fue hecha seises y los pies de una mitad más altos cavando abajo y exponiendo dos más de las piedras del muro de contención. Esta área fue cubierta por la ruina por siglos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JINJA</Tag>
+		<English>Jinja</English>
+		<French>Jinja</French>
+		<German>Jinja</German>
+		<Italian>Jinja</Italian>
+		<Spanish>Jinja</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JINJA_PEDIA</Tag>
+		<English>[TAB]A Jinja, often translated as simply "Shinto shrine" is a structure whose main purpose is to house ("enshrine") one or more Shinto kami. (Its most important building is used for the safekeeping of sacred objects, and not for worship). Although only one word ("shrine") is used in English, in Japanese Shinto shrines may carry any one of many different, non-equivalent names.[PARAGRAPH:2]Structurally, a shrine is usually characterized by the presence of a honden or sanctuary, where the kami is enshrined. The honden may however be completely absent, as for example when the shrine stands on a sacred mountain to which it is dedicated, and which is worshiped directly. The honden may be missing also when there are nearby altar-like structures called himorogi or objects believed capable of attracting spirits called yorishiro that can serve as a more direct bond to a kami. There may be a haiden (hall of worship) and other structures as well.[PARAGRAPH:1]Miniature shrines called hokora can occasionally be found at the side of streets. Large shrines sometimes have on their precincts miniature shrines called sessha or massha.The portable shrines carried by faithful on poles during festivals (matsuri) and called mikoshi actually enshrine a kami and are therefore true shrines.[PARAGRAPH:1]The number of Shinto shrines in Japan is estimated to be around 100,000.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YARMAQ</Tag>
+		<English>Yarmaq Mint</English>
+		<French>Yarmaq Mint</French>
+		<German>Yarmaq Mint</German>
+		<Italian>Yarmaq Mint</Italian>
+		<Spanish>Yarmaq Mint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YARMAQ_PEDIA</Tag>
+		<English>[TAB]The Khazars are known to have minted silver coins, called Yarmaqs. Many of these were imitations of Arab dirhems with corrupted Arabic letters. Coins of the Caliphate were in widespread use due to their reliable silver content. Merchants from as far away as China, England, and Scandinavia accepted them regardless of their inability to read the Arab writing. Thus issuing imitation dirhems was a way to ensure acceptance of Khazar coinage in foreign lands.[PARAGRAPH:1]Some surviving examples bear the legend "Ard al-Khazar" (Arabic for "land of the Khazars"). In 1999 a hoard of silver coins was discovered on the property of the Spillings farm in the Swedish island of Gotland. Among the coins were several dated 837/8 CE and bearing the legend, in Arabic script, "Moses is the Prophet of God" (a modification of the Muslim coin inscription "Muhammad is the Prophet of God"). In "Creating Khazar Identity through Coins", Roman Kovalev postulated that these dirhems were a special commemorative issue celebrating the adoption of Judaism by the Khazar ruler Bulan.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANTIGONID_AGORA</Tag>
+		<English>Agora</English>
+		<French>Agora</French>
+		<German>Agora</German>
+		<Italian>Agora</Italian>
+		<Spanish>Agora</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_ACADEMY</Tag>
+		<English>Academy</English>
+		<French>Academy</French>
+		<German>Academy</German>
+		<Italian>Academy</Italian>
+		<Spanish>Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PYRAMID_HELP</Tag>
+		<English>+1[ICON_HAPPY] in cities in Egypt</English>
+		<French>+1[ICON_HAPPY] in cities in Egypt</French>
+		<German>+1[ICON_HAPPY] in cities in Egypt</German>
+		<Italian>+1[ICON_HAPPY] in cities in Egypt</Italian>
+		<Spanish>+1[ICON_HAPPY] in cities in Egypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOSSUS_HELP</Tag>
+		<English>+1 trade routes in all Mediterranean island cities</English>
+		<French>+1 trade routes in all Mediterranean island cities</French>
+		<German>+1 trade routes in all Mediterranean island cities</German>
+		<Italian>+1 trade routes in all Mediterranean island cities</Italian>
+		<Spanish>+1 trade routes in all Mediterranean island cities</Spanish>
+	</TEXT>
+</Civ4GameText>

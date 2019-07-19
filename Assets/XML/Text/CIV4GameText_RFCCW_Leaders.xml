@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUSUF</Tag>
+		<English>Yusuf As'ar Yath'ar</English>
+		<French>Yusuf As'ar Yath'ar</French>
+		<German>Yusuf As'ar Yath'ar</German>
+		<Italian>Yusuf As'ar Yath'ar</Italian>
+		<Spanish>Yusuf As'ar Yath'ar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ROURAN</Tag>
+		<English>Yujiulu</English>
+		<French>Yujiulu</French>
+		<German>Yujiulu</German>
+		<Italian>Yujiulu</Italian>
+		<Spanish>Yujiulu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAXON</Tag>
+		<English>Widukind</English>
+		<French>Widukind</French>
+		<German>Widukind</German>
+		<Italian>Widukind</Italian>
+		<Spanish>Widukind</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TIRAIYAN</Tag>
+		<English>Tiraiyan</English>
+		<French>Tiraiyan</French>
+		<German>Tiraiyan</German>
+		<Italian>Tiraiyan</Italian>
+		<Spanish>Tiraiyan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIMHAVISHNU</Tag>
+		<English>Simhavishnu</English>
+		<French>Simhavishnu</French>
+		<German>Simhavishnu</German>
+		<Italian>Simhavishnu</Italian>
+		<Spanish>Simhavishnu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LIUTPRAND</Tag>
+		<English>Liutprand</English>
+		<French>Liutprand</French>
+		<German>Liutprand</German>
+		<Italian>Liutprand</Italian>
+		<Spanish>Liutprand</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HEPHTHALITE</Tag>
+		<English>Mihirakula</English>
+		<French>Mihirakula</French>
+		<German>Mihirakula</German>
+		<Italian>Mihirakula</Italian>
+		<Spanish>Mihirakula</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AVAR</Tag>
+		<English>Avar Qaghan</English>
+		<French>Avar Qaghan</French>
+		<German>Avar Qaghan</German>
+		<Italian>Avar Qaghan</Italian>
+		<Spanish>Avar Qaghan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SYPHAX</Tag>
+		<English>Syphax</English>
+		<French>Syphax</French>
+		<German>Syphax</German>
+		<Italian>Syphax</Italian>
+		<Spanish>Syphax</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ARSACES</Tag>
+		<English>Arsaces</English>
+		<French>Arsaces</French>
+		<German>Arsaces</German>
+		<Italian>Arsaces</Italian>
+		<Spanish>Arsaces</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VINDHYASAKTI</Tag>
+		<English>Vindhyasakti</English>
+		<French>Vindhyasakti</French>
+		<German>Vindhyasakti</German>
+		<Italian>Vindhyasakti</Italian>
+		<Spanish>Vindhyasakti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KHARAVELA</Tag>
+		<English>Kharavela</English>
+		<French>Kharavela</French>
+		<German>Kharavela</German>
+		<Italian>Kharavela</Italian>
+		<Spanish>Kharavela</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DANGUN</Tag>
+		<English>Dangun</English>
+		<French>Dangun</French>
+		<German>Dangun</German>
+		<Italian>Dangun</Italian>
+		<Spanish>Dangun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_POMPEY</Tag>
+		<English>Pompey</English>
+		<French>Pompey</French>
+		<German>Pompey</German>
+		<Italian>Pompey</Italian>
+		<Spanish>Pompey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_POMPEY_PEDIA</Tag>
+		<English>[H1]Pompey the Great[\H1][NEWLINE][BOLD]Founder of the Antigonid Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]323 BC - 301 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Gnaeus Pompeius Magnus, usually known in English as Pompey or Pompey the Great (official nomenclature CN·POMPEIVS·CN·F·SEX·N·MAGNVS; 29 September 106 BC - 28 September 48 BC), was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. Pompey's immense success as a general while still very young enabled him to advance directly to his first consulship without meeting the normal requirements for office. Sulla gave him the nickname Magnus, "the Great". He was consul three times, and celebrated three triumphs.[PARAGRAPH:2]In the mid-50s BC, Pompey joined Marcus Licinius Crassus and Gaius Julius Caesar in the unofficial military-political alliance known as the First Triumvirate, which Pompey's marriage to Caesar's daughter Julia helped secure. After the deaths of Julia and Crassus, Pompey sided with the optimates, the conservative faction of the Roman Senate. Pompey and Caesar then contended for the leadership of the Roman state, leading to a civil war. When Pompey was defeated at the Battle of Pharsalus, he sought refuge in Egypt, where he was assassinated. His career and defeat are significant in Rome's subsequent transformation from Republic to Principate and Empire.</English>
+		<French>in French</French>
+		<German>in German</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VASUDEVA</Tag>
+		<English>Vasudeva</English>
+		<French>Vasudeva</French>
+		<German>Vasudeva</German>
+		<Italian>Vasudeva</Italian>
+		<Spanish>Vasudeva</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VASUDEVA_PEDIA</Tag>
+		<English>[H1]Vasudeva Kanva[\H1][NEWLINE][BOLD]King of Magadha[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]75 BC - 66 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Vasudeva Kanva (75-66 BCE) was the founder of the Kanva dynasty. He was originally an Amatya (minister) of last Sunga ruler Devabhuti. Bana's Harshacharita informs us that he came to power after the death of Devabhuti by a daughter of his slave woman disguised as his queen. He was succeeded by his son Bhumimitra.</English>
+		<French>in French</French>
+		<German>in German</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VINDHYASATKI</Tag>
+		<English>Vindhyasatki</English>
+		<French>Vindhyasatki</French>
+		<German>Vindhyasatki</German>
+		<Italian>Vindhyasatki</Italian>
+		<Spanish>Vindhyasatki</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VINDHYASATKI_PEDIA</Tag>
+		<English>The founder of the Vakataka Dynasty was Vindhyasakti (250-270), whose name is derived from the name of the goddess Vindhya after whom the mountains were named. The dynasty may be originated there. Almost nothing is known about Vindhyashakti, the founder of the Vakatakas. In the Cave XVI inscription of Ajanta he was described as the banner of the Vakataka family and a Dvija (Brahmin). It is stated in this inscription that he added to his power by fighting great battles and he had a large cavalry. But no regal title is prefixed to his name in this inscription. The Puranas say that he ruled for 96 years. He was placed variously at south Deccan, Madhya Pradesh and Malwa. K.P. Jayaswal attributes Bagat, a village in the Jhansi district as the home of Vakatakas. But after refuting the theory regarding the northern home of the Vakatakas, V.V. Mirashi points out that the earliest mention of the name Vakataka occurs in an inscription found on a fragment of a pillar at Amravati which records the gift of a Grihapati (householder) Vakataka and his two wives. This Grihapati in all probability was the progenitor of Vidhyashakti. It appears from the Puranas that Vindhyasakti was a ruler of Vidisha (in the present day Madhya Pradesh state) but that is not considered to be correct.</English>
+		<French>Vindhyasatki</French>
+		<German>Vindhyasatki</German>
+		<Italian>Vindhyasatki</Italian>
+		<Spanish>Vindhyasatki</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WARAZ</Tag>
+		<English>Waraz</English>
+		<French>Waraz</French>
+		<German>Waraz</German>
+		<Italian>Waraz</Italian>
+		<Spanish>Waraz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ATHEAS</Tag>
+		<English>Maues</English>
+		<French>Maues</French>
+		<German>Maues</German>
+		<Italian>Maues</Italian>
+		<Spanish>Maues</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LIU_BEI</Tag>
+		<English>Liu Bei</English>
+		<French>Liu Bei</French>
+		<German>Liu Bei</German>
+		<Italian>Liu Bei</Italian>
+		<Spanish>Liu Bei</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUN_QUAN</Tag>
+		<English>Sun Quan</English>
+		<French>Sun Quan</French>
+		<German>Sun Quan</German>
+		<Italian>Sun Quan</Italian>
+		<Spanish>Sun Quan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WU</Tag>
+		<English>Wu</English>
+		<French>Wu</French>
+		<German>Wu</German>
+		<Italian>Wu</Italian>
+		<Spanish>Wu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WU_PEDIA</Tag>
+		<English>[H1]Wu of Han[\H1][NEWLINE][BOLD]Emperor of Western Han Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]March 9, 141 BC - March 29, 87 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Emperor Wu of Han (156 BC - 29 March, 87 BC), personal name Liu Che, was the seventh emperor of the Han Dynasty of China, ruling from 141 BC to 87 BC. Emperor Wu is best remembered for the vast territorial expansion that occurred under his reign, as well as the strong and centralized Confucian state he organized. He is cited in Chinese history as the greatest emperor of the Han dynasty and one of the greatest emperors in Chinese history. Emperor Wu's effective governance made the Han Dynasty one of the most powerful nations in the world.[PARAGRAPH:1]As a military campaigner, Emperor Wu led Han China through its greatest expansion-at its height, the Empire's borders spanned from modern Kyrgyzstan in the west, to Korea in the east, and to northern Vietnam in the south. Emperor Wu successfully repelled the nomadic Xiongnu from systematically raiding northern China and dispatched his envoy Zhang Qian in 139 BC to seek an alliance with the Yuezhi of modern Uzbekistan. This resulted in further missions to Central Asia. Although historical records do not describe him as a follower of Buddhism, exchanges probably occurred as a consequence of these embassies, and there are suggestions that he received Buddhist statues from central Asia, as depicted in Mogao Caves murals.[PARAGRAPH:1]While establishing an autocratic and centralized state, Emperor Wu adopted the principles of Confucianism as the state philosophy and code of ethics for his empire and started a school to teach future administrators the Confucian classics. These reforms would have an enduring effect throughout the existence of imperial China and an enormous influence on neighboring civilizations. Emperor Wu's reign lasted 54 years - a record that would not be broken until the reign of the Kangxi Emperor more than 1800 years later.</English>
+		<French>Wu</French>
+		<German>Wu</German>
+		<Italian>Wu</Italian>
+		<Spanish>Wu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BULAN</Tag>
+		<English>Bulan</English>
+		<French>Bulan</French>
+		<German>Bulan</German>
+		<Italian>Bulan</Italian>
+		<Spanish>Bulan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BULAN_PEDIA</Tag>
+		<English>[H1]Bulan[\H1][NEWLINE][BOLD]First Khazar king to convert to Judaism[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]ca. 750 AD - ca. 850 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Bulan was a Khazar king who led the conversion of the Khazars to Judaism. His name means "elk" in Old Turkic. The date of his reign is unknown, as the date of the conversion is hotly disputed, though it is certain that Bulan reigned some time between the mid-700s and the mid-800s. Nor is it settled whether Bulan was the Bek or the Khagan of the Khazars.[PARAGRAPH:1]D. M. Dunlop was certain that Bulan was a Khagan; however, more recent works, such as The Jews of Khazaria by Kevin Brook, assume that he was the Bek due to references to him leading military campaigns. Khazar tradition held that before his own conversion, Bulan was religiously unaffiliated. In his quest to discover which of the three Abrahamic religions would shape his own religious beliefs, he invited representatives from each to explain their fundamental tenets. In the end, he chose Judaism.[PARAGRAPH:1]In the Khazar Correspondence, King Joseph traces his lineage back to Bulan. He refers to the reforming Khazar ruler Obadiah as being one of "the sons of the sons of Bulan". While Brook assumes this makes Obadiah Bulan's grandson, the Hebrew phrase is less definitive and may allude to a more remote descent. The royal descendants of Bulan are referred to by Khazar researchers as Bulanids, though their self-designation is unknown.[PARAGRAPH:1]The name Sabriel is given in the Schechter Letter (roughly contemporaneous with King Joseph's letter) for the Khazar king who led the conversion to Judaism. The Schechter Letter also gives Sabriel at least a partial Jewish/Israelite ancestry. Sabriel is described as having waged successful campaigns in the Caucasus and Iranian Azerbaijan, possibly as part of the Khazar-Arab wars.[PARAGRAPH:1]His wife, Serakh, is described as a Jew and as encouraging him to study and adopt Judaism. The Schechter Letter is silent on the issue of whether Sabriel was in fact Bulan; in fact, the name Bulan does not appear in that document.[PARAGRAPH:1]Khazar scholars sometimes refer to the king who led the Khazar conversion to Judaism as "Bulan Sabriel", though it is conceivable that they may have been different people. In The History of the Jewish Khazars, for instance, D. M. Dunlop examined (and ultimately rejected) the theory of other scholars that Sabriel in fact referred to Obadiah.</English>
+		<French>Simon Maccabee</French>
+		<German>Simon Maccabee</German>
+		<Italian>Simon Maccabee</Italian>
+		<Spanish>Simon Maccabee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIMA_YAN</Tag>
+		<English>Sima Yan</English>
+		<French>Sima Yan</French>
+		<German>Sima Yan</German>
+		<Italian>Sima Yan</Italian>
+		<Spanish>Sima Yan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIMA_YAN_PEDIA</Tag>
+		<English>[H1]Sima Yan[\H1][NEWLINE][BOLD]First Emperor of the Jin Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]February 8, 266 AD - May 17, 290 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Emperor Wu of Jin, (236 - May 17, 290), personal name Sima Yan, style name Anshi, was the grandson of Sima Yi and son of Sima Zhao. He became the first emperor of the Jin Dynasty (265-420) after forcing Cao Huan, last ruler of the state of Cao Wei, to abdicate to him. He reigned from 265 to 290, and after conquering the state of Eastern Wu in 280, was the emperor of a unified China. Emperor Wu was known for his extravagance and sensuality, especially after the unification of China; legends boasted of his incredible potency among ten thousand concubines.[PARAGRAPH:1]Emperor Wu was commonly viewed as a generous and kind, but also wasteful, ruler. His generosity and kindness undermined his rule, as he became overly tolerant of the noble families' corruption and wastefulness, which drained the people's resources. Further, when Emperor Wu established the Jin Dynasty, he was concerned about his regime's stability, and, believing that the predecessor state, Cao Wei, had been doomed by its failures to empower the princes of the imperial clan, he greatly empowered his uncles, his cousins, and his sons with authority including high military ranking. This ironically led to the destabilization of the Jin Dynasty, as the princes engaged in an internecine struggle known as the War of the Eight Princes soon after his death, and then the Wu Hu uprisings that nearly destroyed the Jin Dynasty and forced its relocation to the region south of the Huai River.</English>
+		<French>Sima Yan</French>
+		<German>Sima Yan</German>
+		<Italian>Sima Yan</Italian>
+		<Spanish>Sima Yan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THUC_PHAN</Tag>
+		<English>Thuc Phan</English>
+		<French>Thuc Phan</French>
+		<German>Thuc Phan</German>
+		<Italian>Thuc Phan</Italian>
+		<Spanish>Thuc Phan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THUC_PHAN_PEDIA</Tag>
+		<English>[H1]Thuc Phan[\H1][NEWLINE][BOLD]Ruler of Au Lac[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]257 BC - 207 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]An Duong Vuong is the title of Thuc Phan, who ruled over the ancient kingdom of Au Lac from 257 to 207 BCE, after defeating the state of Van Lang and uniting the two tribes Au Viet and Lac Viet. He is traditionally said to have lived approximately 100 years.[PARAGRAPH:2]According to old Vietnamese historical records Dai Viet su ky toan thu and Kham Dinh Viet Su Thong Giam Cuong Muc, Thuc Phan was a prince of the Chinese state of Shu (which shares the same Chinese character as his surname Thuc), sent by his father first to explore what are now the southern Chinese provinces of Guangxi and Yunnan and second to move their people to modern day northern Vietnam during the invasion of the Qin Dynasty.[PARAGRAPH:1]However, some modern Vietnamese scholars claim that "Thuc Phan" was a native Austro-Asiatic name which meant "God of crossbow", and that he was an indigenous Vietnamese.[PARAGRAPH:1]Some modern Vietnamese believe that Thuc Phan came upon the Au Viet territory (modern-day northernmost Vietnam, western Guangdong, and southern Guangxi province, with its capital in what is today Cao Bang Province). After assembling an army, he defeated King Hung Vuong XVIII, the last ruler of the Hong Bang Dynasty, around 257 BCE. He proclaimed himself An Duong Vuong ("King An Duong"). He then renamed his newly acquired state from Van Lang to Au Lac and established the new capital at Phong Khe in the present-day Phu Tho town in northern Vietnam, where he tried to build Co Loa Thanh (Co Loa Citadel), the spiral fortress approximately ten miles north of that new capital.</English>
+		<French>Thuc Phan</French>
+		<German>Thuc Phan</German>
+		<Italian>Thuc Phan</Italian>
+		<Spanish>Thuc Phan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIMON_MACCABEE</Tag>
+		<English>Simon Maccabee</English>
+		<French>Simon Maccabee</French>
+		<German>Simon Maccabee</German>
+		<Italian>Simon Maccabee</Italian>
+		<Spanish>Simon Maccabee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIMON_MACCABEE_PEDIA</Tag>
+		<English>[H1]Simon Thassi[\H1][NEWLINE][BOLD]Leader of the Maccabees, Prince of Judaea[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]??? - 135 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Simon Thassi (died 135 BCE) was the second son of Mattathias and thus a member of the Hasmonean family. The name "Thassi" has an uncertain meaning ("the Director", "the Guide", "the Man of Counsel", and "the Zealous" are all possible meanings of the term)[PARAGRAPH:1]He took part in the Jewish revolt against the Seleucid Empire led by his brothers, Judas Maccabaeus and Jonathan Maccabaeus. He became the first prince of the Hebrew Hasmonean Dynasty. He reigned from 142 to 135 BC.[PARAGRAPH:1]The Hasmonean Dynasty was founded by a resolution, adopted in 141 BCE, at a large assembly "of the priests and the people and of the elders of the land, to the effect that Simon should be their leader and high priest forever, until there should arise a faithful prophet" (1 Maccabees 14:41).[PARAGRAPH:1]Recognition of the new dynasty by the Roman Republic was accorded by the Senate about 139 BCE, when the delegation of Simon was in Rome. Simon made the Jewish people semi-independent of the Seleucid Empire.[PARAGRAPH:1]In February 135 BCE, he was assassinated at the instigation of his son-in-law Ptolemy, son of Abubus. Simon was followed by his third son, John Hyrcanus, whose two elder brothers, Mattathias and Judah, had been murdered, together with their father.</English>
+		<French>Simon Maccabee</French>
+		<German>Simon Maccabee</German>
+		<Italian>Simon Maccabee</Italian>
+		<Spanish>Simon Maccabee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ZHAO_TUO</Tag>
+		<English>Zhao Tuo</English>
+		<French>Zhao Tuo</French>
+		<German>Zhao Tuo</German>
+		<Italian>Zhao Tuo</Italian>
+		<Spanish>Zhao Tuo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ZHAO_TUO_PEDIA</Tag>
+		<English>[H1]Zhao Tuo[\H1][NEWLINE][BOLD]Founder of Nanyue[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]203 BC - 137 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Zhao Tuo was the founder of the kingdom of Nanyue. He was a Chinese military commander who gained independence upon the collapse of the Qin Dynasty. Nanyue included northern Vietnam and parts of southern China. His capital was in Panyu, modern Guangzhou, China. His ruling circle included both ethnic Chinese and native Baiyue, and he encouraged intermarriage and assimilation. In Vietnamese, he is referred to as Trieu Da. The dynasty he founded is called the Trieu Dynasty. In traditional Vietnamese history, he was considered the emperor of Vietnam. However, modern Vietnamese historians regarded him as a foreign invader who invaded Vietnam in 207 BC.[PARAGRAPH:1]At the end of the Qin Dynasty, Zhao took control of the region of modern-day Guangdong and Guangxi. Zhao Tuo built up his power and territory, partially through alliances with native Yue nobility and chieftains. He then declared himself the King of Nanyue ("Southern Yue") and set up his capital at Panyu, the site of modern-day Guangzhou.[PARAGRAPH:1]The state was not peaceful. There was the state of Changsha to the north, with which it had long been in conflict; to the east there was the warlike Minyue state; and to the west there were the Southwestern Yi which did not adopt Han ways. Also, within the Nanyue territory there were Western Ou and Lac Viet, which were not very submissive. But the largest threat came from the Han Dynasty which coveted the Nanyue state.</English>
+		<French>Zhao Tuo</French>
+		<German>Zhao Tuo</German>
+		<Italian>Zhao Tuo</Italian>
+		<Spanish>Zhao Tuo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ALARIC</Tag>
+		<English>Alaric</English>
+		<French>Alaric</French>
+		<German>Alaric</German>
+		<Italian>Alaric</Italian>
+		<Spanish>Alaric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ALARIC_PEDIA</Tag>
+		<English>[H1]Alaric I[\H1][NEWLINE][BOLD]King of the Visigoths[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]395 AD - 410 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Alaric I (Gothic: Alareiks; 370 - 410) was the King of the Visigoths from 395-410. Alaric is most famous for his sack of Rome in 410, which marked a decisive event in the decline of the Roman Empire.[PARAGRAPH:1]Born c. 370 on Peuce Island at the mouth of the Danube in present day Romania, Alaric belonged to the noble Balti dynasty of the Tervingian Goths. After their setbacks against the Huns, Alaric was probably a child during the Goths mass-migration across the Danube and their subsequent war with Rome. Later joining the Roman army, he began his career under the Gothic soldier Gainas. In 394 Alaric led a Gothic force of 20,000 that helped the Eastern Roman Emperor Theodosius defeat the Frankish usurper Arbogast at the Battle of Frigidus. Despite sacrificing around 10,000 of his men, Alaric received little recognition from the Emperor. Disappointed, he left the army and was elected chief of the Visigoths in 395, and marched toward Constantinople until he was diverted by Roman forces. He then moved southward into Greece, where he sacked Piraeus (the port of Athens) and destroyed Corinth, Megara, Argos, and Sparta. As a response, the Eastern emperor Flavius Arcadius appointed Alaric magister militum ("master of the soldiers") in Illyricum.[PARAGRAPH:1]In 401 Alaric invaded Italy, but he was defeated by the Roman half-Vandal general Flavius Stilicho at Pollentia (modern Pollenza) on April 6, 402. A second invasion also ended in defeat at the Battle of Verona, though Alaric forced the Roman Senate to pay a large subsidy to the Visigoths. During the invasion by the Pagan Goth Radagaisus, Alaric remained idle in Illyria. In 408, Western Emperor Flavius Honorius ordered the execution Stilicho and his family, and incited the Roman population to massacre of tens of thousands of wives and children of Goths serving in the Roman military. Subsequently, around 30,000 Gothic soldiers defected to Alaric, and joined his march on Rome to revenge their murdered families.[PARAGRAPH:1]Moving swiftly along Roman roads, Alaric sacked the cities of Aquileia and Cremona and ravaged the lands along the Adriatic Sea. The Visigothic leader thereupon laid siege upon Rome in 408. Eventually, the Senate granted him a substantial subsidy. In addition, Alaric forced the Senate to liberate all the 40,000 Gothic slaves in Rome. Honorius, however, refused to appoint Alaric as the commander of the Western Roman Army, and in 409 the Visigoths again surrounded Rome. Alaric lifted his blockade after proclaiming Attalus as Western Emperor. Attalus appointed him magister utriusque militiae ("master of both services") but refused to allow him to send an army into Africa. Negotiations with Honorius broke down, and Alaric deposed Attalus in the summer of 410, and besieged Rome for the third time. Allies within the capital opened the gates for him on August 24, and for three days his troops sacked the city. Although the Visigoths plundered Rome, they treated its inhabitants humanely and burned only a few buildings. Having abandoned a plan to occupy Sicily and North Africa after the destruction of his fleet in a storm, Alaric died as the Visigoths were marching northward.</English>
+		<French>Alaric</French>
+		<German>Alaric</German>
+		<Italian>Alaric</Italian>
+		<Spanish>Alaric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THEODORIC</Tag>
+		<English>Theodoric</English>
+		<French>Theodoric</French>
+		<German>Theodoric</German>
+		<Italian>Theodoric</Italian>
+		<Spanish>Theodoric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THEODORIC_PEDIA</Tag>
+		<English>[H1]Theodoric[\H1][NEWLINE][BOLD]King of the Ostrogoths[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]454 AD - August 30, 526 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Theodoric the Great (454 - August 30, 526) was king of the Ostrogoths (471-526), ruler of Italy (493-526), regent of the Visigoths (511-526), and a viceroy of the Eastern Roman Empire. His Gothic name Þiudareiks translates into "people-king" or "ruler of the people".[PARAGRAPH:1]A son of King Theodemir, an Amali nobleman, Theodoric was born in Pannonia, after his people had defeated the Huns at the Battle of Nedao. Growing up as a hostage in Constantinople, Theodoric received a privileged education, and succeeded his father as leader of the Pannonian Ostrogoths in 471 AD. Settling his people in lower Moesia, Theodoric came in conflict with Thracian Ostrogoths led by Theodoric Strabo, whom he eventually supplanted, uniting the peoples in 484.[PARAGRAPH:1]Subsequently, Eastern Roman Emperor Zeno gave him the title of Patrician and the office of Magister militum (master of the soldiers), and even appointed him as Roman Consul. Trying to achieve further aims, Theodoric frequently ravaged the provinces of the Eastern Roman Empire, eventually threatening Constantinople itself. In 488, Emperor Zeno ordered Theodoric to overthrow the German usurper Odoacer, who had established himself as King of Italy. After a victorious three-year long war, Theodoric killed Odoacer with his own hands, settled his 100,000 to 200,000 people in Italy, and founded a Kingdom based in Ravenna. Although promoting separation between the Arian Ostrogoths and the Roman population, Theodoric stressed the importance of racial harmony. Seeking to restore the glory of Ancient Rome, he ruled Italy in its most peaceful and prosperous period since Valentinian, until his death in 526. Memories of his reign made him a hero of Germanic legend as Dietrich von Bern.</English>
+		<French>Theodoric</French>
+		<German>Theodoric</German>
+		<Italian>Theodoric</Italian>
+		<Spanish>Theodoric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GAISERIC</Tag>
+		<English>Gaiseric</English>
+		<French>Gaiseric</French>
+		<German>Gaiseric</German>
+		<Italian>Gaiseric</Italian>
+		<Spanish>Gaiseric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GAISERIC_PEDIA</Tag>
+		<English>[H1]Gaeseric[\H1][NEWLINE][BOLD]King of the Vandals and Alans[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]389 AD - 477 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Genseric (c. 389 - January 25, 477), also spelled as Geiseric or Gaiseric, was King of the Vandals and Alans (428-477) and was one of the key players in the troubles of the Western Roman Empire in the 5th century. During his nearly 50 years of rule, he raised a relatively insignificant Germanic tribe to the status of a major Mediterranean power - which, after he died, entered a swift decline and eventual collapse.[PARAGRAPH:1]Succeeding his brother Gunderic at a time when the Vandals were settled in Baetica (modern Andalusia, Spain), Gaiseric transported all his people, around 80,000, to to Northern Africa in 428. He might have been invited by the Roman governor Bonifacius, who wished to use the military strength of the Vandals in his struggle against the imperial government.[PARAGRAPH:1]Gaiseric caused great devastation as he moved eastward from the Strait of Gibraltar across Africa. He turned on Bonifacius, defeated his army in 430, and then crushed the joint forces of the Eastern and Western empires that had been sent against him. In 435 Gaiseric concluded a treaty with the Romans under which the Vandals retained Mauretania and part of Numidia as federates (allies under special treaty) of Rome. In a surprise move on October 19, 439, Gaiseric captured Carthage, striking a devastating blow at imperial power. In a 442 treaty with Rome the Vandals were recognized as the independent rulers of Byzacena, and part of Numidia. Gaiseric's fleet soon came to control much of the western Mediterranean, and he annexed the Balearic Islands, Sardinia, Corsica, Malta and Sicily.[PARAGRAPH:1]His most famous exploit, however, was the capture and plundering of Rome in June 455. Subsequently the King defeated two major efforts of the Romans to overthrow him, that of the emperor Majorian in 460, and that led by Basiliscus at the Battle of Cape Bon in 468. After dying in Carthage at the great age of 88, Gaiseric was succeeded by his son Huneric.</English>
+		<French>Gaiseric</French>
+		<German>Gaiseric</German>
+		<Italian>Gaiseric</Italian>
+		<Spanish>Gaiseric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TUBA_ABU</Tag>
+		<English>Tuba Abu</English>
+		<French>Tuba Abu</French>
+		<German>Tuba Abu</German>
+		<Italian>Tuba Abu</Italian>
+		<Spanish>Tuba Abu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TUBA_ABU_PEDIA</Tag>
+		<English>[H1]Tub'a Abu Kariba As'ad[\H1][NEWLINE][BOLD]Hiyarite King of Yemen[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]390 AD - 420 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Tub'a Abu Kariba As'ad (Abu Kariba) was the Himyarite king of Yemen. He ruled Yemen from 390-420 CE. Abu Kariba is commonly cited as the first of several kings of Arabia to convert to Judaism.[PARAGRAPH:1]Fifth century Arabia was located between the two competing empires of Christian Byzantium and Zoroastrian Persia. Prized Indian spices were delivered over Arabia's trade routes. Some historians believe that conversion to Judaism was a means by which the inhabitants of Arabia at the time could remain neutral vis-a-vis the neighboring powers, in order to grow their prosperity. Some others others say that the simplicity and philosophy of Judaism was attractive to the pagans of Arabia.[PARAGRAPH:1]While most sources agree that Abu Kariba was the first of the Himyarite kings to convert to Judaism, the circumstances of his conversion are immersed in myth and legend. According to the traditional account, Abu Kariba undertook a military expedition to eliminate the growing influence of Byzantium in his northern provinces. His forces reached Medina, which was then was known as "Yathrib". Not meeting any resistance, they passed through the town, leaving one of the king's sons behind as governor of the town. A few days later, however, the people of Yathrib killed their new governor, the king's son. Upon receiving the news, the king turned his troops back to avenge his son's death, and destroy the town. He ordered that all palm trees around the town be cut down, because the trees were the main source of the town's inhabitants' income, and then laid siege to the town.[PARAGRAPH:1]The Jews of Yathrib fought alongside their pagan Arab neighbors, trying to protect their town. During the siege, Abu Kariba fell ill. Two local Jewish scholars, named Kaab and Assad, took the opportunity to travel to his camp, and persuaded him to lift the siege. The scholars also inspired in the King an interest in Judaism, and he converted in 390, persuading his army to do likewise. Kaab and Assad later returned with Abu Kariba to his kingdom, where they were tasked with converting the population. However, while some scholars say the population converted on a wholesale basis, others opine that only about half became converts, the rest maintaining their pagan beliefs and temples. Among those who converted to Judaism was Harith Ibn-Amru, a nephew of Abu Kariba, whom Abu-Kariba appointed Viceroy of the Maadites on the Red Sea, and headed the government of Mecca and Yathrib. Tub'a Abu Kariba As'ad is said to have been killed by his own soldiers, who tired of his constant military campaigns. He left three sons: Hasan, Amru, and Zorah (Yusuf). His youngest son Zorah (who as a strong follower of Judaism gave himself the Jewish name Yusuf) took over as king in 515.[PARAGRAPH:1]One dissenter from the view that Abu Kariba was a convert to Judaism is author J. R. Porter. Writing in the 1980s, Porter argued that the accounts of Kariba's conversion first appear much later in the historical record and are therefore unreliable. Porter nonetheless acknowledged that a move toward Judaism on Kariba's part would be "entirely credible", given the presence of powerful Jewish tribes in Yathrib. Porter states that a later Himyarite King, Dhu Nowas (517-525 CE) was "certainly" a convert to Judaism.</English>
+		<French>Tuba Abu</French>
+		<German>Tuba Abu</German>
+		<Italian>Tuba Abu</Italian>
+		<Spanish>Tuba Abu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TRAJAN_PEDIA</Tag>
+		<English>[H1]Trajan[\H1][NEWLINE][BOLD]13th Emperor of the Roman Empire[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]September 18 53 AD - August 9 117 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Trajan (Latin: Marcus Ulpius Nerva Traianus Augustus; 18 September 53 - 9 August 117), was Roman Emperor from 98 to 117 AD. Born into a non-patrician family in the province of Hispania Baetica, Trajan rose to prominence during the reign of emperor Domitian. Serving as a legatus legionis in Hispania Tarraconensis, in 89 Trajan supported the emperor against a revolt on the Rhine led by Antonius Saturninus. In September 96, Domitian was succeeded by Marcus Cocceius Nerva, an old and childless senator who proved to be unpopular with the army. After a brief and tumultuous year in power, a revolt by members of the Praetorian Guard compelled him to adopt the more popular Trajan as his heir and successor. Nerva died on 27 January 98, and was succeeded by his adopted son without incident.[PARAGRAPH:1]As a civilian administrator, Trajan is best known for his extensive public building program which reshaped the city of Rome and left multiple enduring landmarks such as Trajan's Forum, Trajan's Market and Trajan's Column. Early in his reign, he annexed the Nabataean kingdom, creating the province of Arabia Petraea. His conquest of Dacia enriched the empire greatly - the new province possessed many valuable gold mines. His war against the Parthian Empire ended with the sack of the capital Ctesiphon and the annexation of Armenia and Mesopotamia. His campaigns expanded the Roman Empire to its greatest territorial extent. In late 117, while sailing back to Rome, Trajan fell ill and died of a stroke in the city of Selinus. He was deified by the Senate and his ashes were laid to rest under Trajan's Column. He was succeeded by his adopted son Hadrian.[PARAGRAPH:1]As an emperor, Trajan's reputation has endured - he is one of the few rulers whose reputation has survived nineteen centuries. Every new emperor after him was honored by the Senate with the wish felicior Augusto, melior Traiano ("luckier than Augustus and better than Trajan"). Among medieval Christian theologians, Trajan was considered a virtuous pagan, while the 18th century historian Edward Gibbon popularized the notion of the Five Good Emperors, of which Trajan was the second.</English>
+		<French>Trajan</French>
+		<German>Trajan</German>
+		<Italian>Trajan</Italian>
+		<Spanish>Trajan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NEDUNJ</Tag>
+		<English>Karikala OR Nedunj OR Kuttuvan</English>
+		<French>Nedunj Cheliyan</French>
+		<German>Nedunj Cheliyan</German>
+		<Italian>Nedunj Cheliyan</Italian>
+		<Spanish>Nedunj Cheliyan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NEDUNJ_PEDIA</Tag>
+		<English>[H1]Nedunj Cheliyan I[\H1][NEWLINE][BOLD]Pandian King[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. ??? - ???[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Nedunj Cheliyan I was a Pandian king depicted in the Indian epic Silapathikaram. He is the king who ordered to behead Kovalan and died of shame after realizing he did injustice to Kannagi.He is one of the early pandyan kings.</English>
+		<French>Nedunj Cheliyan</French>
+		<German>Nedunj Cheliyan</German>
+		<Italian>Nedunj Cheliyan</Italian>
+		<Spanish>Nedunj Cheliyan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GWANGGAETO</Tag>
+		<English>Gwanggaeto</English>
+		<French>Gwanggaeto</French>
+		<German>Gwanggaeto</German>
+		<Italian>Gwanggaeto</Italian>
+		<Spanish>Gwanggaeto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GWANGGAETO_PEDIA</Tag>
+		<English>[H1]Gwanggaeto[\H1][NEWLINE][BOLD]Monarch of Goguryeo[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. 374 AD - 413 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Gwanggaeto the Great of Goguryeo (374-413) (r. 391-413) was the nineteenth monarch of Goguryeo, the northernmost of the Three Kingdoms of Korea. His full posthumous name roughly means "Very Greatest King, Broad Expander of Territory, buried in Gukgangsang.", sometimes abbreviated to Hotaewang or Taewang. He selected Yeongnak as his era name, and was called Emperor Yeongnak the Great during his reign.[PARAGRAPH:1]Under Gwanggaeto, Goguryeo once again became a major power of East Asia, having enjoyed such a status in the 2nd century CE. Upon Emperor Gwanggaeto's death at thirty-nine years of age in 413, Goguryeo controlled all territory between the Amur and Han Rivers (two thirds of modern Korea, Manchuria, and parts of the Russian Maritime province and Inner Mongolia).[PARAGRAPH:1]In addition, in 399, Silla submitted to Goguryeo for protection from raids from Baekje. Gwanggaeto captured the Baekje capital in present-day Seoul and made Baekje its vassal. Many consider this loose unification under Goguryeo to have been the only true unification of the Three Kingdoms.[PARAGRAPH:1]Gwanggaeto's accomplishments are recorded on the Gwanggaeto Stele, erected in 414 at the site of his tomb in Ji'an along the present-day Chinese-North Korean border. It is the largest engraved stele in the world.</English>
+		<French>Gwanggaeto</French>
+		<German>Gwanggaeto</German>
+		<Italian>Gwanggaeto</Italian>
+		<Spanish>Gwanggaeto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SATAKARNI</Tag>
+		<English>Satakarni</English>
+		<French>Satakarni</French>
+		<German>Satakarni</German>
+		<Italian>Satakarni</Italian>
+		<Spanish>Satakarni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SATAKARNI_PEDIA</Tag>
+		<English>[H1]Satakarni[\H1][NEWLINE][BOLD]Third Satavahana King[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. ??? AD - ??? AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Satakarni was the third of the Satavahana kings. He ruled around 180 BCE in Central India.[PARAGRAPH:1]It is thought that Satakarni was a son of Kunala. He only ruled for two years, but he achieved the conquest of the Western Malwa region from the Sungas.[PARAGRAPH:1]Satakarni is mentioned in the Hathigumpha inscription of Kalinga (India), as a rival to king Kharavela: "And in the second year (he), disregarding Satakamini, dispatches to the western regions an army strong in cavalry, elephants, infantry (nara) and chariots (ratha) and by that army having reached the Kanha-bemna, he throws the city of the Musikas into consternation." Epigraphia Indica, Vol. XX[PARAGRAPH:1]Satakarni organized two horse sacrifices (Aswamedhas), to proclaim his sovereignty.[PARAGRAPH:1]His queen was Naganika, a member of the Maharathi family. She wrote the Naneghat inscription, in which she describes Satakarni as "Lord of Dakshinapatha, wielder of the unchecked wheel of Sovereignty". Satakarni may have been killed in battle. He was succeeded by his two young sons Vedistri and Satisisri, under the regency of their mother Nayanika.</English>
+		<French>Satakarni</French>
+		<German>Satakarni</German>
+		<Italian>Satakarni</Italian>
+		<Spanish>Satakarni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHAPUR</Tag>
+		<English>Shapur</English>
+		<French>Shapur</French>
+		<German>Shapur</German>
+		<Italian>Shapur</Italian>
+		<Spanish>Shapur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHAPUR_PEDIA</Tag>
+		<English>[H1]Shapur I[\H1][NEWLINE][BOLD]Second Sassanid King[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. 215 AD - c. 272 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Shapur I or also known as Shapur I the Great was the second Sassanid King of the Second Persian Empire. The dates of his reign are commonly given as 240/42 - 270/72, but it is likely that he also reigned as co-regent (together with his father) prior to his father's death in 242 (more probably than 240).[PARAGRAPH:1]Shapur I left other reliefs and rock inscriptions. A relief at Naqsh-e Rajab near Istakhr, is accompanied by a Greek translation. Here Shapur I calls himself "the Mazdayasnian (worshipper of Ahuramazda), the divine Sapores, King of Kings of the Aryans, Iranians, and non-Aryans, of divine descent, son of the Mazdayasnian, the divine Artaxerxes, King of Kings of the Aryans, grandson of the divine king Papak." Another long inscription at Istakhr mentions the King's exploits in archery in the presence of his nobles. From his titles we learn that Shapur I claimed the sovereignty over the whole earth, although in reality his domain extended little farther than that of Ardashir I. Shapur I built the great town Gundishapur near the old Achaemenid capital Susa, and increased the fertility of the district by a dam and irrigation system - built by the Roman prisoners - that redirected part of the Karun River. The barrier is still called Band-e Kaisar, "the mole of the Caesar." He is also responsible for building the city of Bishapur, with the labours of Roman soldiers captured after the defeat of Valerian in 260.</English>
+		<French>Shapur</French>
+		<German>Shapur</German>
+		<Italian>Shapur</Italian>
+		<Spanish>Shapur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DEMETRIUS</Tag>
+		<English>Demetrius</English>
+		<French>Demetrius</French>
+		<German>Demetrius</German>
+		<Italian>Demetrius</Italian>
+		<Spanish>Demetrius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DEMETRIUS_PEDIA</Tag>
+		<English>[H1]Demetrius I[\H1][NEWLINE][BOLD]Bactrian King[\BOLD][NEWLINE][BOLD]Reignd: [\BOLD]c. 200BC - c. 180 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Demetrius I was a Buddhist Greco-Bactrian king (reigned circa 200-180 BC). He was the son of Euthydemus and succeeded him around 200 BC, after which he conquered extensive areas in what now is eastern Iran, Afghanistan and Pakistan thus creating an Indo-Greek kingdom far from Hellenistic Greece. He was never defeated in battle and was posthumously qualified as the Invincible (Aniketos) on the pedigree coins of his successor Agathocles.[PARAGRAPH:1]"Demetrius" was the name of at least two, probably three Greek kings of Bactria and India. The much debated Demetrius II was a possible relative, whereas Demetrios III (c. 100 BC), is known only from numismatic evidence.</English>
+		<French>Demetrius</French>
+		<German>Demetrius</German>
+		<Italian>Demetrius</Italian>
+		<Spanish>Demetrius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TIGRANES</Tag>
+		<English>Tigranes</English>
+		<French>Tigranes</French>
+		<German>Tigranes</German>
+		<Italian>Tigranes</Italian>
+		<Spanish>Tigranes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TIGRANES_PEDIA</Tag>
+		<English>[H1]Tigranes II[\H1][NEWLINE][BOLD]King of Armenia[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]140 BC - 55 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Tigranes the Great (140-55 BC; also called Tigranes II and sometimes Tigranes I) was emperor of Armenia under whom the country became, for a short time, the strongest state east of the Roman Republic. He was a member of the Artaxiad Royal House. Under his reign, the Armenian kingdom expanded beyond its traditional boundaries, allowing Tigranes to claim the title Great King, and involving Armenia in many battles against opponents such as the Parthian and Seleucid empires, and the Roman Republic.</English>
+		<French>Tigranes</French>
+		<German>Tigranes</German>
+		<Italian>Tigranes</Italian>
+		<Spanish>Tigranes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SELEUCUS</Tag>
+		<English>Seleucus</English>
+		<French>Seleucus</French>
+		<German>Seleucus</German>
+		<Italian>Seleucus</Italian>
+		<Spanish>Seleucus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SELEUCUS_PEDIA</Tag>
+		<English>[H1]Seleucus I Nicator[\H1][NEWLINE][BOLD]Founder of the Seleucid Empire[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. 358 BC - 281 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Seleucus I (given the surname by later generations of Nicator, i.e. Seleucus the Victor) (ca. 358 BC - 281 BC) was a Macedonian officer of Alexander the Great and one of the Diadochi. In the Wars of the Diadochi that took place after Alexander's death, Seleucus established the Seleucid dynasty and the Seleucid Empire. His kingdom would be one of the last holdouts of Alexander's former empire to Roman rule. They were only outlived by the Ptolemaic Kingdom in Egypt by roughly 34 years.[PARAGRAPH:1]After the death of Alexander, Seleucus was nominated as the satrap of Babylon in 320 BC. Antigonus forced Seleucus to flee from Babylon, but, supported by Ptolemy, he was able to return in 312 BC. Seleucus' later conquests include Persia and Media. It is assumed that he was defeated by the emperor of India, Chandragupta Maurya and accepted a matrimony alliance for 500 elephants after ceding the territories considered as part of India. Seleucus defeated Antigonus in the battle of Ipsus in 301 BC and Lysimachus in the battle of Corupedium in 281 BC. He was assassinated by Ptolemy Ceraunus during the same year. His successor was his son Antiochus I.[PARAGRAPH:1]Seleucus founded a number of new cities, including Antioch and Seleucia.</English>
+		<French>Seleucus Nicator</French>
+		<German>Seleucus Nicator</German>
+		<Italian>Seleucus Nicator</Italian>
+		<Spanish>Seleucus Nicator</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MITHRIDATES</Tag>
+		<English>Mithridates</English>
+		<French>Mithridates</French>
+		<German>Mithridates</German>
+		<Italian>Mithridates</Italian>
+		<Spanish>Mithridates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MITHRIDATES_PEDIA</Tag>
+		<English>[H1]Mithridates I[\H1][NEWLINE][BOLD]King of Parthia[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]c. 171 BC - 138 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Mithridates or Mithradates I (ca. 195 BC - 138 BC) was the "Great King" of Parthia from ca. 171 BC - 138 BC, succeeding his brother Phraates I. His father was King Phriapatius of Parthia, who died ca. 176 BC). Mithridates I made Parthia into a major political power by expanding the empire to the east, south, and west. During his reign the Parthians took Herat (in 167 BC), Babylonia (in 144 BC), Media (in 141 BC) and Persia (in 139 BC).[PARAGRAPH:1]Mithridates first expanded Parthia's control eastward by defeating King Eucratides of the Greco-Bactrian Kingdom. This gave Parthia control over Bactria's territory west of the Arius river, the regions of Margiana and Aria (including the city of Herat in 167 BC).[PARAGRAPH:1]"The satrapy Turiva and that of Aspionus were taken away from Eucratides by the Parthians." (Strabo XI.11.2)[PARAGRAPH:1]These victories gave Parthia control of the overland trade routes between east and west (the Silk Road and the Persian Royal Road). This control of trade became the foundation of Parthia's wealth and power and was jealously guarded by the Arsacids, who attempted to maintain direct control over the lands through which the major trade routes passed.[PARAGRAPH:1]In Persia in 139 BC, Mithridates I captured the Seleucid King Demetrius II, and held him captive for 10 years while consolidating his conquests. Demetrius II later married Mithridates I's daughter Rhodogune and had several children with her.[PARAGRAPH:1]Parthian victories broke the tenuous link with Greeks in the West that had sustained the Hellenistic kingdom of Greco-Bactria, yet Mithridates I actively promoted Hellenism in the areas he controlled and titled himself Philhellene ("friend of the Greeks") on his coins. The coins minted during his reign show the first appearance on Parthian coinage of a Greek-style portrait showing the royal diadem, the standard Greek symbol for kingship. Mithradates I resumed the striking of coins, which had been suspended ever since Arsaces II of Parthia (211-191 BC) had been forced to submit to the Seleucid Antiochus III (223-187 BC) in 206 BC.[PARAGRAPH:1]His name assigned him to the protection of Mithra and carried the god's authority in some measure.[PARAGRAPH:1]Mithridates was killed in battle near Seleucia-on-Tigris, fighting the resurgent Seleucid forces under Antiochus VII Sidetes; brother of Demetrius II.[PARAGRAPH:1]Mithridates I's son, Phraates (138-128 BC), succeeded him on his death as Great King.</English>
+		<French>Mithridates</French>
+		<German>Mithridates</German>
+		<Italian>Mithridates</Italian>
+		<Spanish>Mithridates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PUSYAMITRA_SUNGA</Tag>
+		<English>Pusyamitra Sunga</English>
+		<French>Pusyamitra Sunga</French>
+		<German>Pusyamitra Sunga</German>
+		<Italian>Pusyamitra Sunga</Italian>
+		<Spanish>Pusyamitra Sunga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PUSYAMITRA_SUNGA_PEDIA</Tag>
+		<English>[H1]Pusyamitra Sunga[\H1][NEWLINE][BOLD]Founder and first king of the Sunga Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]c. 185 BC - 151 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Pusyamitra Sunga (died 151 BCE, r. 185-151 BCE) was the founder and first King of the Sunga Dynasty in Northern India.[PARAGRAPH:1]Pusyamitra Sunga was originally a Senapati (General) of the Mauryan empire. In 185 BCE he assassinated the last Mauryan Emperor (Brhadrata) during an army review, and proclaimed himself King. He then performed the Ashwamedha Yajna and brought much of Northern India under his rule. Inscriptions of the Shungas have been found as far as the Jalandhar in the Punjab, and the Divyavadana mentions that his rule extended as far as Sagala (Sialkot).[PARAGRAPH:1]Pushyamitra's reign was marked by warfare, wherein he and his successors fought the Indo Greeks, Kalingas, Satavahanas (Andhras), and possibly the kingdoms of Panchala and Mathura (which may not have been under his rule).[PARAGRAPH:1]Following the assassination of Brhadrata, in 180 BCE the Greco-Bactrian Kingdom invaded Sunga lands with an army led by Demetrius I of Bactria. The Greco-Bactrians overran Arachosia, Gedrosia, the Punjab, and perhaps Mathura. Pushyamitra may have regained some of the lost territory,[citation needed] with the Ashvamedha terminating at the Indus late in his reign.[PARAGRAPH:1]Pusyamitra may have been attacked by King Kharavela of Kalinga (modern Orissa). Kharavela's inscriptions claim that he forced a King of Magadha named "Bahasatimita", (thought to be the Sunga King Brhaspatimitra, or Pusyamitra himself) to bow at his feet. However, this has not been confirmed as dates for Kharavela range several centuries.</English>
+		<French>Pusyamitra Sunga</French>
+		<German>Pusyamitra Sunga</German>
+		<Italian>Pusyamitra Sunga</Italian>
+		<Spanish>Pusyamitra Sunga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ARRAKKAMANI</Tag>
+		<English>Arrakkamani</English>
+		<French>Arrakkamani</French>
+		<German>Arrakkamani</German>
+		<Italian>Arrakkamani</Italian>
+		<Spanish>Arrakkamani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ARRAKKAMANI_PEDIA</Tag>
+		<English>[H1]Arqamani[\H1][NEWLINE][BOLD]King of Meroë[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] Late 3rd century BC - Early 2nd century BC[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Arqamani was a Kushite King of Meroë dating to the late 3rd to early 2nd century BCE who is known from inscriptions from Philae and Dakka. Identified as Meroitic for Ergamenes king of Meroë or Upper Ethiopia at the time of Ptolemy II Philadelphus mentioned by Diodorus Siculus, though it is possible that several kings were fused into a single figure.</English>
+		<French>Arqamani</French>
+		<German>Arqamani</German>
+		<Italian>Arqamani</Italian>
+		<Spanish>Arqamani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EZANA</Tag>
+		<English>Ezana</English>
+		<French>Ezana</French>
+		<German>Ezana</German>
+		<Italian>Ezana</Italian>
+		<Spanish>Ezana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EZANA_PEDIA</Tag>
+		<English>[H1]Ezana[\H1][NEWLINE][BOLD]King of Aksum[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] c. 320 AD - 360 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Ezana was the first monarch of Axum to embrace Christianity, and the first after Zoskales to be mentioned by contemporary historians, a situation that led S. C. Munro-Hay to comment that he was "the most famous of the Aksumite kings before Kaleb." He appointed his childhood tutor, the Syrian Christian Frumentius, head of the Ethiopian Church. A surviving letter from the Arian Roman Emperor Constantius II is addressed to Ezana and his brother Se'azana, and requests tat Frumentius be sent to Alexandria to be examined for doctrinal errors; Munro-Hay assumes that Ezana either refused or ignored this request.[PARAGRAPH:1]Ezana also launched several military campaigns, which he recorded in his inscriptions. A pair of inscriptions in Ge'ez have been found at Meroe, which is understood as evidence of a campaign in the fourth century, either during Ezana's reign, or by a predecessor like Ousanas. While some authorities interpret these inscriptions as proof that the Axumites destroyed the Kingdom of Kush, others note that archeological evidence points to an economic and political decline in Meroe around 300.[PARAGRAPH:1]On some of the coins minted in his reign appear the motto in Greek TOYTOAPECHTHXWPA - "May this please the people". Munro-Hay comments that this motto is "a rather attractive peculiarity of Aksumite coinage, giving a feeling of royal concern and responsibility towards the people's wishes and contentment". A number of coins minted bearing his name were found in the late 1990s at archeological sites in India, indicating trade contacts in that country. A remarkable feature of the coins is a shift from a pagan motif with disc and crescent to a design with a cross. Ezana is also credited for erecting several structures and obelisks.[PARAGRAPH:1]Ezana is unknown in the King Lists even though the coins bear this name. According to tradition, Emperors Abreha and Asbeha ruled Ethiopia when Christianity was introduced. It may be that these names were later applied to Ezana and his brother or that these were their baptismal names.[PARAGRAPH:1]He is, with his brother, Se'azana, regarded as a saint by the Ethiopian Orthodox Tewahedo Church, with a feast day of October 1.</English>
+		<French>Ezana</French>
+		<German>Ezana</German>
+		<Italian>Ezana</Italian>
+		<Spanish>Ezana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANISHKA</Tag>
+		<English>Kanishka</English>
+		<French>Kanishka</French>
+		<German>Kanischka</German>
+		<Italian>Kanishka</Italian>
+		<Spanish>Kanishka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANISHKA_PEDIA</Tag>
+		<English>[H1]Kanishka I[\H1][NEWLINE][BOLD]Emperor of the Kushan Empire[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]100s AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Most of what is known about Kaniska derives from Chinese sources, particularly Buddhist writings. When Kaniska came to the throne is uncertain. His accession has been estimated as occurring between 78 and 144 CE; his reign is believed to have lasted 23 years. The year 78 marks the beginning of the Shaka era, a system of dating that Kaniska might have initiated.[PARAGRAPH:2]Through inheritance and conquest, Kaniska's kingdom covered an area extending from Bukhara (now in Uzbekistan) in the west to Patna in the Ganges (Ganga) River valley in the east and from the Pamirs (now in Tajikistan) in the north to central India in the south. His capital probably was Purusapura (Peshawar, now in Pakistan). He may have crossed the Pamirs and subjugated the kings of the city-states of Khotan (Hotan), Kashgar, and Yarkand (now in the Xinjiang region of China), who had previously been tributaries of the Han emperors of China. Contact between Kaniska and the Chinese in Central Asia may have inspired the transmission of Indian ideas, particularly Buddhism, to China. Buddhism first appeared in China in the 2nd century CE.[PARAGRAPH:2]As a patron of Buddhism, Kaniska is chiefly noted for having convened the fourth great Buddhist council in Kashmir, which marked the beginnings of Mahayana Buddhism. At the council, according to Chinese sources, authorized commentaries on the Buddhist canon were prepared and engraved on copper plates. These texts have survived only in Chinese translations and adaptations.[PARAGRAPH:2]Kaniska was a tolerant king, and his coins show that he honoured the Zoroastrian, Greek, and Brahmanic deities as well as the Buddha. During his reign, contacts with the Roman Empire via the Silk Road led to a significant increase in trade and the exchange of ideas; perhaps the most remarkable example of the fusion of Eastern and Western influences in his reign was the Gandhara school of art, in which Classical Greco-Roman lines are seen in images of the Buddha.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAMARATUNGGA</Tag>
+		<English>Samaratungga</English>
+		<French>Samaratungga</French>
+		<German>Samaratungga</German>
+		<Italian>Samaratungga</Italian>
+		<Spanish>Samaratungga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAMARATUNGGA_PEDIA</Tag>
+		<English>[H1]Samaratungga[\H1][NEWLINE][BOLD]Head of the Sailendra Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]8th - 9th century AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]COMES TO LATE, REPLACE!</English>
+		<French>Samaratungga</French>
+		<German>Samaratungga</German>
+		<Italian>Samaratungga</Italian>
+		<Spanish>Samaratungga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VERCINGETORIX</Tag>
+		<English>Vercingetorix</English>
+		<French>Vercingetorix</French>
+		<German>Vercingetorix</German>
+		<Italian>Vercingetorix</Italian>
+		<Spanish>Vercingetorix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VERCINGETORIX_PEDIA</Tag>
+		<English>[H1]Vercingetorix[\H1][NEWLINE][BOLD]Chieftain of the Averni Tribe[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. 82 BC - 46 BC[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Having been appointed governor of the Roman province of Gallia Narbonensis (modern Provence) in 58 BC, Julius Caesar proceeded to conquer the Gallic tribes beyond over the next few years, maintaining control through a careful divide and rule strategy. He made use of the factionalism among the Gallic elites, favoring certain noblemen over others with political support and Roman luxuries such as wine. Attempts at revolt, such as that of Ambiorix in 54 BC, had secured only local support, but Vercingetorix, whose father, Celtillus, had been put to death by his own countrymen for seeking to rule all of Gaul, managed to unify the Gallic tribes against the Romans and adopted more modern styles of warfare.[PARAGRAPH:1]The revolt that Vercingetorix came to lead began in early 52 BC while Caesar was raising troops in Cisalpine Gaul. Believing that Caesar would be distracted by the turmoil in Rome following the death of Publius Clodius Pulcher, the Carnutes, under Cotuatus and Conetodunus, made the first move, slaughtering the Romans who had settled in their territory.[PARAGRAPH:1]Vercingetorix, a young nobleman of the Arvernian city of Gergovia, roused his dependents to join the revolt, but he and his followers were expelled by the nobles of the city, including Vercingetorix's uncle Gobanitio, because they thought opposing Caesar was too great a risk. Undeterred, Vercingetorix raised an army of the poor, took Gergovia and was hailed as king. He made alliances with other tribes, and having been unanimously given supreme command of their armies, imposed his authority through harsh discipline and the taking of hostages. He adopted the policy of retreating to natural fortifications, and undertook an early example of a scorched earth strategy by burning towns to prevent the Roman legions from living off the land.[PARAGRAPH:1]Vercingetorix and his army won some initial minor engagements with the Roman units led by Caesar and his chief lieutenant Titus Labienus. However, the Romans captured the capital of the Bituriges, Avaricum (Bourges), killing the entire population of 120,000. The next major battle was at Gergovia, where Vercingetorix defeated Caesar, inflicting heavy losses. However, the victory cost Vercingetorix many men, including many noblemen. Because of these losses he retreated and moved to another stronghold, Alesia.[PARAGRAPH:1]In the Battle of Alesia (September, 52 BC), Caesar built a fortification around the city to besiege it. However, Caesar's army was surrounded by the rest of Gaul, and Vercingetorix had summoned his Gallic allies to attack the besieging Romans, so Caesar built another outer fortification against the expected relief armies (resulting in a doughnut-shaped fortification). The relief came in insufficient numbers: estimates range from 80,000 to 250,000 soldiers. Vercingetorix, the tactical leader, was cut off from them on the inside, and without his guidance the attacks were initially unsuccessful. However, the attacks did reveal a weak point in the fortifications and the combined forces on the inside and the outside almost made a breakthrough. Only when Caesar personally led the last reserves into battle did he finally manage to prevail. This was a decisive battle in the creation of the Roman Empire.[PARAGRAPH:1]According to Plutarch, Vercingetorix surrendered in dramatic fashion, riding his beautifully adorned horse out of Alesia and around Caesar's camp before dismounting in front of Caesar, stripping himself of his armor and sitting down at his opponent's feet, where he remained motionless until he was taken away. Caesar provides a first-hand contradiction of this account, describing Vercingetorix's surrender much more modestly. He was imprisoned in the Tullianum in Rome for five years, before being publicly displayed in Caesar's triumph in 46 BC. He was executed after the triumph, probably by strangulation in his prison, as ancient custom would have it.</English>
+		<French>Vercingetorix</French>
+		<German>Vercingetorix</German>
+		<Italian>Vercingetorix</Italian>
+		<Spanish>Vercingetorix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TAIZONG</Tag>
+		<English>Taizong</English>
+		<French>Taizong</French>
+		<German>Taizong</German>
+		<Italian>Taizong</Italian>
+		<Spanish>Taizong</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TAIZONG_PEDIA</Tag>
+		<English>[H1]Taizong[\H1][NEWLINE][BOLD]Emperor of the Tang Dynasty[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]January 23, 599 - July 10, 649[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Emperor Taizong of Tang, was the second emperor of the Tang Dynasty of China, ruling from 626 to 649. As he encouraged his father, Li Yuan (later Emperor Gaozu) to rise against Sui Dynasty rule at Taiyuan in 617 and subsequently defeated several of his most important rivals, he was ceremonially regarded as a co-founder of the dynasty along with Emperor Gaozu.[PARAGRAPH:2]He is typically considered one of the greatest, if not the greatest, emperors in Chinese history. Throughout the rest of Chinese history, Emperor Taizong's reign was regarded as the exemplary model against which all other emperors were measured, and his "Reign of Zhenguan" was considered a golden age of Chinese history and required study for future crown princes. During his reign, Tang China flourished economically and militarily. For more than a century after his death, Tang China enjoyed peace and prosperity. During Taizong's reign, Tang was the largest and the strongest nation in the world. It covered most of the territory of present-day China, Vietnam, Mongolia and much of Central Asia until eastern Kazakhstan. It laid the foundation for Xuanzong's reign, which is considered Tang China's greatest era.[PARAGRAPH:2]In 630, Emperor Taizong sent his general Li Jing against Eastern Tujue (proto Turks)- to which Tang had once submitted-defeating and capturing its Jiali Khan Ashina Duobi and destroying Eastern Tujue power. This made Tang the dominant power in East and Central Asia, and Emperor Taizong subsequently took the title of Tian Kehan ("Heavenly Khan").[PARAGRAPH:2]Unlike many of the nobility of the time, Emperor Taizong was a frank rationalist, openly scorning superstitions and claims of signs from the heavens. He also modified important rites in order to ease the burden of agricultural labour. The modern Chinese historian Bo Yang opined that Emperor Taizong achieved greatness by enduring criticism which others would find difficult to accept whilst trying hard not to abuse his absolute power (using Emperor Yang of Sui as a negative example), as well as through his employment of capable chancellors such as Fang Xuanling, Du Ruhui and Wei Zheng. Emperor Taizong's wife Empress Zhangsun also proved to be a capable assistant.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LIEUYE</Tag>
+		<English>Lieu-Ye</English>
+		<French>Lieu-Ye</French>
+		<German>Lieu-Ye</German>
+		<Italian>Lieu-Ye</Italian>
+		<Spanish>Lieu-Ye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LIEUYE_PEDIA</Tag>
+		<English>[H1]Lieu-Ye[\H1][NEWLINE][BOLD]Queen of Funan[NEWLINE]Lived: [\BOLD] 1st-2nd century[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Lieu-Ye (or Liuyè, Yèliu, Neang Neak, later Soma) formed out of the different Khmer tribes the first historical Cambodian kingdom, the kingdom of Funan, also referred to as Kok Thlork or Nokor Phnom (mountain country). The ancient kingdom was located around the Mekong Delta of southern Vietnam and in southern Cambodia. From archeological evidence, which includes Roman, Chinese, and Indian goods excavated at the ancient mercantile center of Oc Eo in southern Vietnam, it is known that Funan must have been a powerful trading state. Lieu-Ye later married the Indian brahmin Hùntián (also Preah Thong, later Kaundinya), consolidating the young kingdom by integrating the Indian cultur. After their marriage, they were known as King Kaundinya and Queen Soma of Funan.
+	Most of what is known about the early Funan and its first ruler is taken from ancient chinese texts, which are contradictory. For example, in one text Hùntián is the founder of Funan. He came to this area after he had dreamt that his personal genie had delivered a divine bow to him and had directed him to embark on a large merchant junk. In the morning, he proceeded to the temple, where he found a bow at the foot of the genie's tree. He then boarded a ship, which the genie caused to land in Funan. The queen of the country, Liuyè, wanted to pillage the ship and seize it, so Hùntián shot an arrow from his divine bow which pierced through Liuyè's ship. Frightened, she gave herself up, and Hùntián took her for his wife. Then he governed the country and passed power on to his son, who was the founder of seven cities.
+	Another text mentions Lieu-Ye as a naga (snake) princess named Soma, who Hùntián takes as wife. This is paralleled in modern Khmer folklore, where the foreign prince is known as Preah Thaong and the queen as Neang Neak. In this version of the story, Preah Thaong arrives by sea to an island marked by a giant thlok tree, native to Cambodia. On the Island, he finds the home of the nagas and meets Neang Neak, daughter of the naga king. He marries her with blessings from her father and returns to the human world. The naga king drinks the sea around the island and confers the name Kampuchea Thipdei (the lord of Cambodia). In another version, it is stated that Preah Thaong fights Neang Neak.
+	As can be seen, historical facts are rather slim about Lieu-Ye and her husband Hùntián. Still, both are important persons in the history of the Funan kingdom, and even if Lieu-Ye did not found the kingdom herself, she still most certainly ruled this area as Queen piror the arrival of Hùntián.
+	In memory of Queen Lieu-Ye's matriarchy as well as in honor of every mother and all Cambodian women, the word me, or mother, has been used in the Khmer language to prefix or precede certain words to express the state of greatness, leadership, or of being the most important article.</English>
+		<French>Lieu-Ye</French>
+		<German>Lieu-Ye</German>
+		<Italian>Lieu-Ye</Italian>
+		<Spanish>Lieu-Ye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BILGE</Tag>
+		<English>Bilge Khan</English>
+		<French>Bilge Khan</French>
+		<German>Bilge Khan</German>
+		<Italian>Bilge Khan</Italian>
+		<Spanish>Bilge Khan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BILGE_PEDIA</Tag>
+		<English>[H1]Bilge Khan[\H1][NEWLINE][BOLD]Khagan of the Gokturks[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]683/684 CE - 734 CE[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Bilge Khan or Piqie Khan, personal name Ashina Mojilian, was one of the most powerful emperors of the Gokturk Empire. His accomplishments are immortalized in the Orkhon inscriptions.[NEWLINE][TAB]His name literally means "wise chieftain". In 716, he assumed the leadership together with his brother Kul Tigin after a coup against the previous ruler, his cousin Inal Khan who was a weak leader. Bilge Khan and Kul Tigin took their place in history as the wisest and most heroic figures among Gokturk statesmen. They asserted that the state could not be ruled only by fighting and bravery and the Khanate should also require wisdom.[NEWLINE][TAB]Bilge's empire spanned vast steppes from the Caspian Sea to Manchuria; he also invaded the western sections of the Chinese territories. After his death from poisoning, several stelae were erected in the capital area by the Orkhon River. These Orkhon inscriptions are the first known texts in the Old Turkic language.</English>
+		<French></French>
+		<German>[H1]Bilge Khan[\H1][NEWLINE][BOLD]Khagan der Göktürken[\BOLD][NEWLINE][BOLD]Lebte: [\BOLD]683/684 - 734 n.Chr.[NEWLINE][PARAGRAPH:2]Bilge Khan oder Piqie Khan, eigentlich Ashina Mojilian, war einer der mächstigsten Herrscher der Göktürken. Seine Errungenschaften wurden in den Orchon-Stelen eingraviert.[NEWLINE][TAB]Sein Name bedeutet wörtlich übersetzt "Weiser Herrscher". 716 entmachtete er zusammen mit seinem Bruder Kul Tigrin den vorigen Herrscher, seinen Cousin, den als schwach geltenden Inal Khan. Bilge Khan und Kul Tigin gingen als die weisesten und heldenhaftesten göktürkischen Staatsmänner in die Geschichten ein. Unter ihnen galt die Doktrin, dass der Staat nicht nur durch Kämpfe, sondern vor Allem durch weise Staatsführung beherrscht werden sollte.[NEWLINE][TAB]Sein Reich reichte vom Kaspischen Meer bis zur Mandschurei, er eroberte auch die westlichen Teile Chinas. Nachdem er vergiftet wurde, errichte man in seiner Hauptstadt zahlreiche Stelen mit Inschriften, die nach ihrem Fundort am Orchon benannt wurden. Die Schriftzeichen, die Orchon-Runen, sind die ersten schriftlichen Zeugen der Alttürkischen Sprache.</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SONGTSEN_GAMPO</Tag>
+		<English>Songtsen Gampo</English>
+		<French>Songtsen Gampo</French>
+		<German>Songtsen Gampo</German>
+		<Italian>Songtsen Gampo</Italian>
+		<Spanish>Songtsen Gampo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SONGTSEN_GAMPO_PEDIA</Tag>
+		<English>[H1]Songtsen Gampo[\H1][NEWLINE][BOLD]King of Tibet[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]605 - 650[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Songtsen Gampo was the thirty-third king of the Yarlung Dynasty of Tibet. Born at Gyama at Maldro to Namri Löntsen (Wylie: Gnam-ri-slon-mtshan), he is traditionally credited with bringing Buddhism to the Tibetan people. Songtsen Gampo was adept at diplomacy as well as on the field of battle. The king's minister Myang Mang-po-rje Zhang-shang defeated Sum pa circa 627. Six years later (c. 632/633) Myang Mang-po-rje Zhang-shang was accused of treason and executed. Minister Mgar-srong-rtsan succeeded him.[PARAGRAPH:2]The Chinese records record receiving an envoy in 634. On that occasion the king requested marriage to a Chinese princess and was refused. In 635/636 the emperor attacked and defeated the 'A zha people (Chinese: Tüyühün), who lived around Lake Koko Nor in the northeast corner of Tibet, and who controlled important trade routes into China. After a successful campaign against China in 635/6 the Chinese emperor agreed to marry Songtsen Gampo to a Chinese princess.[PARAGRAPH:2]In about 639, after Songtsen Gampo had had a dispute with his younger brother Brtsan srong, the younger brother was burnt to death by his own minister Mkha's sregs, presumably at the behest of the king.[PARAGRAPH:2]The Chinese princess Wencheng (Tibetan: Mung-chang Kungco), daughter of the powerful Emperor Taizong of Tang China, left China in 640 to marry Songtsen Gampo, arriving a year latter. Peace between China and Tibet prevailed for the remainder of Songtsen Gampo's reign. Songtsen Gampo's sister Sad-mar-kar was sent to marry Lig-myi-rhya, the king of Zhang-zhung. However, when the king refused to consummate the marriage, she then helped her brother to defeat Lig myi-rhya and to incorporate the Zhang-zhung into the Tibetan Empire. In 645, Songtsen Gampo overran the kingdom of Zhang-zhung in what is now Western Tibet.[PARAGRAPH:2]Songtsen Gampo died in 650, and was succeeded by his infant grandson Khri-mang-slon. Real power was left in the hands of the minister Mgar-srong-rtsan. Songtsen Gampo has become a cultural hero for Tibetans, based largely on myths that grew up around him during the Middle Ages. For example it is said that his Nepalese princess Bhrikuti and his Chinese princess Wencheng brought Buddhism to Tibet. No historical evidence supports the existence of this Nepalese princess or the faith of Wencheng, although Buddhism would have been known in China at the time. These stories are included in such medieval romances as the Mani-bka'-'bum, and historiographies such as the Rgyal-rabs Gsel-ba'i Me-long. The stories of Thonmi Sambhota, who is supposed to have invented the Tibetan script, and of the original Jowo statue at Lhasa have similar late medieval origins.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PTOLEMY</Tag>
+		<English>Ptolemy</English>
+		<French>Ptolemy</French>
+		<German>Ptolemy</German>
+		<Italian>Ptolemy</Italian>
+		<Spanish>Ptolemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PTOLEMY_PEDIA</Tag>
+		<English>[H1]Ptolemy I Soter[\H1][NEWLINE][BOLD]Founder of the Ptolemic Kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]367 BC - 283 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Ptolemy I Soter I , also known as Ptolemy Lagides, was a Macedonian general under Alexander the Great, who became ruler of Egypt (323 BC - 283 BC) and founder of both the Ptolemaic Kingdom and the Ptolemaic Dynasty. In 305/4 BC he took the title of pharaoh.[PARAGRAPH:1]His mother was Arsinoe of Macedon, and, while his father is unknown, ancient sources variously describe him either as the son of Lagus, a Macedonian nobleman, or as an illegitimate son of Philip II of Macedon (which, if true would have made Ptolemy the half-brother of Alexander). Ptolemy was one of Alexander's most trusted generals, and was among the seven somatophylakes (bodyguards) attached to his person. He was a few years older than Alexander, and had been his intimate friend since childhood. Ptolemy served with Alexander from his first campaigns, and played a principal part in the later campaigns in Afghanistan and India. At the Susa marriage festival in 324, Alexander had Ptolemy marry the Persian princess Artakama. Ptolemy also had a consort in Thaïs, the Athenian hetaera and one of Alexander's companions in his conquest of the ancient world.[PARAGRAPH:2]When Alexander died in 323 BC Ptolemy is said to have instigated the resettlement of the empire made at Babylon. Through the Partition of Babylon, he was appointed satrap of Egypt, under the nominal kings Philip Arrhidaeus and the infant Alexander IV; the former satrap, the Greek Cleomenes, stayed on as his deputy. Ptolemy quickly moved, without authorization, to subjugate Cyrenaica.[PARAGRAPH:1]By custom, kings in Macedonia asserted their right to the throne by burying their predecessor. Probably because he wanted to pre-empt Perdiccas, the imperial regent, from staking his claim in this way, Ptolemy took great pains in acquiring the body of Alexander the Great, placing it temporarily in Memphis, Egypt. Ptolemy then openly joined the coalition against Perdiccas. Perdiccas appears to have suspected Ptolemy of aiming for the throne himself, and may have decided that Ptolemy was his most dangerous rival. Ptolemy executed Cleomenes for spying on behalf of Perdiccas - this removed the chief check on his authority, and allowed Ptolemy to obtain the huge sum that Cleomenes had accumulated.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ABUBAKR</Tag>
+		<English>Abu Bakr</English>
+		<French>Abou Bakr</French>
+		<German>Abu Bakr</German>
+		<Italian>Ab&#252; Bakr</Italian>
+		<Spanish>Ab&#252; Bakr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ABUBAKR_PEDIA</Tag>
+		<English>[H1]Abu Bakr as-Siddiq[\H1][NEWLINE][BOLD]The First of the Righteous Caliphs[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] c. 573 - August 23, 634 CE[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]After Muhammad's death, previously dormant tensions between the Meccan immigrants, the Muhajirun, and the Medinan converts, the Ansar, threatened to break out and split the Ummah. The Ansar, the leaders of the tribes of Medina, met in a hall or house called saqifah, to discuss whom they would support as their new leader.[PARAGRAPH:2]When Abu Bakr was informed of the meeting, he, Umar, Abu Ubaidah ibn al-Jarrah and a few others rushed to prevent the Ansar from making a premature decision. Accounts of this meeting vary greatly. All agree that during the meeting Umar declared that Abu Bakr should be the new leader, and declared his allegiance to Abu Bakr, followed by Abu Ubaidah ibn al-Jarrah and Abu Bakr became the first Muslim caliph, who was given the title, Khalifa-tul-Rasool (Successor of messenger of Allah), a title only accepted by Sunni muslims.[PARAGRAPH:2]After the meeting at saqifah, the Muslims who were not present were asked to submit to Abu Bakr, to give their pledge of allegiance. Most accounts agree that Ali (Muhammad's beloved companion, cousin and son-in-law) and his supporters initially refused to submit. After a period of time, the duration of which is disputed, the dissidents gave their bay'ah. Whether or not the process involved violence and intimidation, and whether or not Ali willingly swore allegiance to Abu Bakr have remained enduring controversies.</English>
+		<French>[H1]Abu Bakr as-Siddiq[\H1]</French>
+		<German>[H1]Abu Bakr as-Siddiqr[\H1][NEWLINE][BOLD]Erster rechtgeleiteter Kalif[\BOLD][NEWLINE][BOLD]Lebte:[\BOLD] 573-634</German>
+		<Italian>[H1]Abu Bakr as-Siddiq[\H1].</Italian>
+		<Spanish>[H1]Abu Bakr as-Siddiq[\H1]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PULAKESI</Tag>
+		<English>Pulakesi</English>
+		<French>Pulakesi</French>
+		<German>Pulakesi</German>
+		<Italian>Pulakesi</Italian>
+		<Spanish>Pulakesi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PULAKESI_PEDIA</Tag>
+		<English>[H1]Pulakeshi[\H1][NEWLINE][BOLD]King of the Badami Chalukya[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] 610 - 642 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Pulakesin II is the most famous ruler of the Chalukya dynasty. In his reign the Chalukyas of Badami saw their kingdom extend over most of the Deccan.[PARAGRAPH:2]Ereya, who assumed the name Pulakesin on his coronation, was born to the Chalukya king Kirtivarman I. When Kirtivarman died in 597, Ereya was still a young boy and Kirtivarman's brother Mangalesa governed the young kingdom as regent until Ereya came of age. Mangalesa was a capable ruler and continued expanding the kingdom. However, when Ereya came of age, desire for power perhaps made Mangalesa deny prince Ereya his rightful place on the Chalukya throne, and he sought to perpetuate his own line by making his son heir apparent.[PARAGRAPH:2]Ereya took shelter in the Bana territory (Kolar), organised an army with the help of his associates and declared war on his uncle. According to the Peddavadagur inscription Mangalesa was defeated and killed in the ensuing battle at Elapattu Simbige. Ereya ascended the Chalukya throne as Pulakesin II and assumed the title Chalukya Parameshwara. Pulakeshin built many temples such as Badami, Papanatha, durga, ladhkhan and virupakshirithvik and mathurakrishna[PARAGRAPH:2]Pulakesin had to face several obstacles soon after his coronation. The civil war had given fresh hope to feudatories and adventurers; some of them were emboldened to throw off their allegiance to the Chalukyas. The Aihole inscription of 634 found in an Aihole Jainlaya says, "the whole world was enveloped in the darkness that was enemies". Pulakesin had to face the challenge of Appayika and Govinda, perhaps loyal adherents of the defeated Mangalesa. It is even possible that at least one of them, if not both, was Mangalesa's son. Pulakesin confronted their army on the banks of the river Bhima. Appayika ran away from the battlefield, while Govinda surrendered. He built a temple that shows his supremacy called yugeshayshareddy[PARAGRAPH:2]After consolidating his position, Pulakesin II organized and enlarged his fighting forces. He then embarked upon a series of conquests to expand his dominions. The accounts of Pulakesin's campaigns are provided in the Aihole inscription dated 634. It was composed by his court poet Ravikirti. The inscription is one of the finest pieces of poetry. Written in Sanskrit language and Hale Kannada script, it is the most important source of information regarding the rule of Pulakesin II.[PARAGRAPH:2]He subjugated the Kadambas of Banavasi, the Gangas of Talakad and the Alupas of South Kanara. He defeated the Mauryas of the Konkan, and the port of Puri (modern Elephanta Island) was captured after a naval battle. It was followed by victory over the Latas, the Gurjaras and the Malawas, resulting in the annexation of the Gujarat area.[PARAGRAPH:2]The Ganga ruler Durvinita gave one of his daughters in marriage to Pulakesin, and she became the mother of Vikramaditya I.[PARAGRAPH:2]Pulakesi then overran Kosala, ruled by the Panduvamsis. It was followed by victory over the Eastern Gangas of Kalinga and the capture of the fort of Pishtapura (Pithapuram). He subjugated the Vishnukundins and captured the Kunala area in the Vengi region. He appointed his brother Kubja Vishnuvardhana (also called Bittarasa) as viceroy of his Eastern territories (631). Vishnuvardhana eventually founded the dynasty of Eastern Chalukyas.[PARAGRAPH:2]Moving further south, Pulakesin II routed the Pallava king Mahendravarman I in the battle of Pullalur, only 25 KM north of the Pallava capital. There a pitched battle was fought, and although Mahendravarman saved his capital, he lost the northern provinces to Pulakesi. The Chalukya king was aided by Durvinita of the Gangas dynasty from the West and the Pandyan king Jayantavarman from the South. The Chalukya army laid siege to the Pallava capital at Kanchipuram, but could not capture the kingdom, so had to return home.[PARAGRAPH:2]When Pulakesin II pushed forth up to the Narmada, he came face to face with Harshavardhana of Kanauj who already had the title Uttarapatheshvara (Lord of the North). In a decisive battle fought on the banks of the river Narmada, Harsha lost a major part of his elephant force and had to retreat. The Aihole inscription describes how the mighty Harsha lost his harsha (joy) when he suffered the ignominy of defeat. Pulakesin entered into a treaty with Harsha, with the Narmada River designated as the border between the Chalukya Empire and that of Harshavardhana.[PARAGRAPH:2]The Chinese traveller Hieun-tsang describes the event thus: "Siladityaraja (i.e., Harsha), filled with confidence, himself marched at the head of his troops to contend with this prince (i.e., Pulakesin); but he was unable to prevail upon or subjugate him".[NEWLINE]It was indeed a great victory for the Chalukya monarch, who assumed the proud titles of Parameswara (Paramount Overlord), Satyashraya, Prithvivallabha. With this conquest, Pulakesin's control extended completely over Southern India, including Maharashtra and parts of Madhya Pradesh and Gujarat. He received the title Dakshinapatheshvara (Lord of the South) at around the same time. These victories happened between 630 and 634. Since the Lohner plates of Pulakesin II (630) do not speak of his northern victory. Pulakesin II married a princess of the Alupas of South Canara.[PARAGRAPH:2]ReversalsThe last days of Pulakesin II witnessed several reversals to his earlier successes. Pulakesin's ambition prompted him to undertake another expedition against the Pallavas in the hope of achieving more decisive results. However, war had depleted the treasury sufficiently enough to prevent Pulakesin to mount an effective campaign.[PARAGRAPH:2]The Pallavas had overcome their defeat and Narasimhavarman I had succeeded Mahendravarman I. Pulakesin began his campaign by an attack on the Banas, vassals of the Pallavas. After overrunning them, Pulakesin invaded the Pallava kingdom proper and once more threatened the Pallava Capital. However the Pallava forces under Narasimhavarman defeated the Chalukyas in several battles including one at Manimangalam, east of Kanchipuram. In these battles the Pallava army was assisted by his important commander paranjothi(friend and commander of Narasimhavarman I and one of 63 nayanmars known as siruthondar)and also the Sinhalese prince Manavarma who was there to request help from the palava king to support him to regain his country which he lost to King Attathathan (Sri Lanka). Pulakesin's expedition ended in failure. The Pallavas, encouraged by their success, invaded deep into Chalukya territory. The Pallava ruler captured and sacked Vatapi (Badami). Narasimhavarman assumed the title of Vatapikonda (the conqueror of Vatapi). Vatapi remained in Pallava control for twelve years.[PARAGRAPH:2]It is possible that Pulakesin II lost his life in one of these encounters against the Pallavas and was possibly killed directly by Narasimhavarman I. The thirteen years that followed saw the eclipse of Chalukya power, while Badami remained in the hands of the Pallavas.[PARAGRAPH:2]Pulakesin exchanged ambassadors with the Shah of Persia Khosrau II. His reception of the Persian ambassador is depicted in one of the paintings in the Ajanta caves. The Chinese traveller Hsuan Tsang, who visited India in the 7th century, wrote admiringly of Pulakesin and his Empire.[PARAGRAPH:2]Pulakesin was the first ruler in South India to issue gold coinage. Broad and circular in shape, the punch-marked coins had various punches at the edge, and a central punch depicting a Varaha or Boar. The Boar was the royal emblem of the Chalukyas. Contemporary literature cites the gold coins of south India as Varahas.[PARAGRAPH:2]Pulakesin had five sons, Chandraditya, Adityavarma, Vikramaditya, Jayasimha and Ambera. They fought among themselves after his demise, trying to divide the kingdom into territories for each of themselves. Pulakesin's third son Vikramaditya I became the Chalukya king 642 and attempted to re-unite the kingdom after defeating his brothers.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DECEBAL</Tag>
+		<English>Decebal</English>
+		<French>Decebal</French>
+		<German>Decebal</German>
+		<Italian>Decebalo</Italian>
+		<Spanish>Decebal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DECEBAL_PEDIA</Tag>
+		<English>[H1]Decebal[\H1][NEWLINE][BOLD]King Dacia[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] 87 AD - 106 AD AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]By 85 AD Rome had tired of the warlike Getae and their intermittent raids into the eastern empire. Domitian, along with his Praetorian Prefect Cornelius Fuscus, gathered their forces and traveled to the region to take command in person. The Getae, were pushed back across the Danube without much difficulty. Domitian, likely viewing himself as the hero of the moment left the situation in the hand of Fuscus, while he returned to Rome to celebrate a terribly premature triumph in AD 86. [PARAGRAPH:1] Later that same year Fuscus took matters into his own hands carrying out a campaign across the Danube. This expedition, which included six legions, set the stage for the ascendance of Decebalus. He met Fuscus at Tapae, in the narrow mountain pass called "Transylvania's Iron Gates." There he ambushed and repulsed the advance sending the Romans retreating back across the Danube. Fuscus himself died in battle and an entire legion was likely obliterated as at least one standard was captured. Decebalus, by virtue of his great victory, went on to be named King of all the Dacians. [PARAGRAPH:1] Domitian, understanding the severity of the situation returned to take direct command. The area was reorganized into two separate provinces allowing more legions were brought into the region, (indirectly leading to the loss of ground in Scotland), but the matter of the Getae was yet to be settled. [PARAGRAPH:1] Under Tettius Julianus the Romans again met the Dacians at Tapae in 88 AD. This time the Romans were successful and drove the Dacians to retreat. However, the advance was limited by rumors of revolt from the legions of the Rhine together with new attacks from Germanic tribes in Pannonia. Domitian was forced to accept an embarrassing treaty, paying off Decebalus and sending him skilled artisans to help with various infrastructure projects. Though the Romans did annex some land as a condition of the treaty, it was clear that Decebalus pulled a diplomatic victory from military defeat. [PARAGRAPH:1] It took the great Roman general Trajan to finally bring the Getae to heel. This final war was a combination of difficult fighting mixed with marvels of engineering. The defenses of Decebalus were impressive and Trajan was required to use the vaunted discipline and perseverance of the Roman army to succeed. With the service of the engineer Apollodorus of Damascus, the Romans completed immense road works along the Danube. In a great feat of engineering and architecture, Apollodorus designed a road straight up to and through the Iron Gates of the Danubian gorges by cantilevering it from the sheer rock face. This marvel of technology essentially allowed the legions to walk on top of the river as they made their way into the Carpathian Mountains.[PARAGRAPH:1]He met the Getae again at Tapae in AD 101 AD. According to Dio Cassius, "(Trajan) engaged the foe, and saw many wounded on his own side and killed many of the enemy. And when the bandages gave out, he is said not to have spared even his own clothing, but to have cut it up into strips. In honor of the soldiers who had died in the battle he ordered an altar to be erected and funeral rites to be performed annually." Soon after the Romans advanced upon the Dacian capital and Decebalus was forced to capitulate. Surprisingly, the powerful leader was left in power as a client king to Rome, but he agreed to raze his fortresses, surrender weapons and prisoners and paid a sizeable tribute.[PARAGRAPH:1]Temporarily victorious and having been rewarded the title Dacicus, Trajan returned to Rome to celebrate a triumph. He entertained the people with gladiatorial games and rewarded his officers for their service in the campaign. The celebration was short-lived though as Decebalus may have mistakenly compared the conviction of Trajan to that of Domitian. After his "defeat" to Domitian he was allowed to rebuild his army and defense systems virtually unopposed. This time however, his efforts to rearm were met with a swift and decisive imperial response. [PARAGRAPH:1] In preparation for another Danube crossing, Trajan again turned to his engineer Apollodarus. A massive stone bridge spanning over 3,500 feet (1,100 meters) in length and 60 feet (19 meters) in width was built using enormous wooden arches set upon 20 stone and cement pillars. Built over the course of 2 years, this bridge became the primary source of traffic to and from Dacia. Despite finally being purposely destroyed a century and a half later by Aurelian as the Romans pulled out of Dacia, it was to remain for more than a thousand years the longest bridge that had ever been built. In AD 105 the new campaign was launched. A hard fought war lasting for just over a year ended with the Romans once again descending upon the Dacian capital of Sarmizegethusa. This time however, there was to be no respite for Decebalus. Rather than end up as a trophy in Trajan's second Dacian triumph, Decebalus took his own life.</English>
+		<French>Decebal</French>
+		<German>Decebal</German>
+		<Italian>Decebalo</Italian>
+		<Spanish>Decebal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHANDRAGUPTA</Tag>
+		<English>Chandragupta</English>
+		<French>Chandragupta</French>
+		<German>Chandragupta</German>
+		<Italian>Chandragupta</Italian>
+		<Spanish>Chandragupta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHANDRAGUPTA_PEDIA</Tag>
+		<English>[H1]Chandragupta II[\H1][NEWLINE][BOLD]Emperor of the Gupta Empire[\BOLD][NEWLINE][BOLD]reigned:[\BOLD] 375 - 415 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Chandragupta was one of the most powerful emperors of the Gupta empire. His rule spanned during the Gupta Empire&apos;s zenith. The period of prominence of the Gupta dynasty is very often referred to as the Golden Age of India. Chandragupta II the Great was the son of the previous ruler, Samudragupta the Great. He attained success by pursuing both a favorable marital alliance and an aggressive expansionist policy. In this his father and grandfather set the precedent.[PARAGRAPH:2]Not much is known about the personal details of the great king. His mother, Datta Devi, was the chief queen of Samudragupta the Great. After Samudragupta&apos;s death, Ramgupta his brother took over the throne and also married Chandragupta&apos;s fiance &apos;Dhruvaswamini by force. The most widely accepted details have been built upon the plot of the play &apos;Devi-Chandraguptam&apos; of Vishakadatta. The play is now lost but fragments have been preserved in other works (Abhinava-bharati, Sringara-prakasha, Natya-darpana, Nataka-lakshana Ratna-kosha). There even exists an Arabic work Mujmalu-t-Tawarikh which tells a similar tale of a king whose name appears to be a corruption of &apos;Vikramaditya&apos;. He holds a semi-mythical status in India. It is widely believed that the great poet in Sanskrit, Mahakavi Kalidasa was one of the jewels of his royal court.[PARAGRAPH:2]The fragment from Natya-darpana mentions the king Ramagupta, the elder brother of Chandragupta, surrendering his queen Dhruvaswamini to the Saka king of the Western Kshatrapas Rudrasimha III, after a defeat at the Saka king&apos;s hands. To avoid the ignominy the Guptas decide to send Madhavasena, a courtesan and a beloved of Chandragupta, disguised as the queen. Chandragupta changes the plan and himself goes to the Saka King disguised as the queen. He then kills Rudrasimha and later his brother Ramagupta. Dhruvaswamini is then married to Chandragupta.[PARAGRAPH:2]We do not know what liberties Vishakadatta took with the incidents, but Dhruvadevi was indeed the king&apos;s chief queen as seen in the Vaisali terracotta seal that calls her &apos;Mahadevi&apos; Dhruvasvamini. The Bilsad pillar inscription of their son Kumara Gupta I also refers to her as Mahadevi Dhruvadevi. A Ramagupta too is mentioned in inscriptions on Jain figures in the District Archaeological Museum, Vidisha and some copper coins found at Vidisha. The fact that the king and Dhruvadevi are the protagonists of Vishakadatta&apos;s play indicates that marrying his widowed sister-in-law was not given any significance by the playwright. Later Hindus did not view such a marriage with favour and some censure of the act is found in the Sanjan copperplate inscription of Amoghavarsha I and in the Sangali and Cambay plates of the Rashtrakuta king Govinda IV.[PARAGRAPH:2]The Allahabad pillar inscription mentions the marriage of Chandragupta II the Great with a Naga princess Kuberanaga. A pillar from Mathura referring to Chandragupta has recently been dated to 388 AD.[PARAGRAPH:2]Chandragupta&apos;s daughter Prabhavati, by his other queen Kuberanaga, a Naga princess, was married to the powerful Vakataka king Rudrasena II.[PARAGRAPH:2]His greatest victory was his victory over the Shaka-Kshatrapa dynasty and annexation of their kingdom in Gujarat, by defeating their last ruler Rudrasimha III.[PARAGRAPH:2]His son-in-law, the Vakataka king Rudrasena II, died fortuitously after a very short reign in 390 AD, following which Prabhavatigupta ruled the Vakataka kingdom as a regent on behalf of his two sons. During this twenty-year period the Vakataka realm was practically a part of the Gupta empire. The geographical location of the Vakataka kingdom allowed Chandragupta to take the opportunity to defeat the Western Kshatrapas once for all. Many historians refer to this period as the Vakataka-Gupta age.[PARAGRAPH:2]Chandragupta II the Great controlled a vast empire, from the mouth of the Ganges to the mouth of the Indus River and from what is now North Pakistan down to the mouth of the Narmada. Pataliputra continued to be the capital of his huge empire but Ujjain too became a sort of second capital. The large number of beautiful gold coins issued by the Gupta dynasty are a testament to the imperial grandeur of that age. Chandragupta II also started producing silver coins in the Shaka tradition.[PARAGRAPH:2]Faxian (Wade-Giles Fa-hsien) was the first of three great Chinese pilgrims who visited India from the fifth to the seventh centuries AD, in search of knowledge, manuscripts and relics. He arrived during the reign of Chandragupta II and gave a general description of North India at that time. Among the other things, he reported about the absence of capital punishment, the lack of a poll-tax and land tax. Most citizens did not consume onions, garlic, meat, and wine.[PARAGRAPH:2]Culturally, the reign of Chandragupta II marked a Golden Age. This is evidenced by later reports of the presence of a circle of poets known as the Nine Gems in his court. The greatest among them was Kalidasa, who authored numerous immortal pieces of literature including The Recognition of Shakuntala. The others were the Sanskrit grammarian Amara Sinha and the astronomer-mathematician Varahamihira.[PARAGRAPH:2]The next day after the Hindu festival Diwali is called Padwa or Varshapratipada, which marks the coronation of King Vikramaditya. The Hindu Vikram-Samvat calendar was apparently started on this day and this day is celebrated as New Year&apos;s Day in Nepal where Vikram Sambat is the official calendar there, and some places in India. But, Vikram-Samvat calender is from 57 BC. So, there was someother king by name Vikram, who started this calender.[PARAGRAPH:2]Shak-Samvat is synchronised with the Shak-Samvat calendar, which starts around April. This calendar was initiated by Gautamiputra Satakarni who defeated the Saka king Vikramaditya, thus starting the Shalivahana era or Shaka Calendar.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JINGU</Tag>
+		<English>Jingu</English>
+		<French>Jingu</French>
+		<German>Jingu</German>
+		<Italian>Jingu</Italian>
+		<Spanish>Jingu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JINGU_PEDIA</Tag>
+		<English>[H1]Jingu[\H1][NEWLINE][BOLD]Empress of Japan[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]c. 169 AD - 269 AD[NEWLINE][PARAGRAPH:1][BOLD]Background:[\BOLD][TAB][PARAGRAPH:1]No firm dates can be assigned to this historical figure's life or reign. Jingu is regarded by historians as a "legendary" figure because of the paucity of information about her, which does not necessarily imply that no such person ever existed. There is insufficient material available for further verification and study. Jingu's name before her accession to the Chrysanthemum throne - if indeed she did ascend the throne - would have been Okinagatarashi-hime.[PARAGRAPH:1]Although the final resting place of this legendary regent/sovereign remains unknown, Jingu's officially designated misasagi or tomb can be visited today at Misasagi-cho om Nara. This kofun-type Imperial tomb is characterized by a keyhole-shaped island located within a wide, water-filled moat.[PARAGRAPH:1]In 1881, Empress Jingu became the first woman to be featured on the Japanese banknote.</English>
+		<French>Jingu</French>
+		<German>Jingu</German>
+		<Italian>Jingu</Italian>
+		<Spanish>Jingu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAPADBIZES</Tag>
+		<English>Sapadbizes</English>
+		<French>Sapadbizes</French>
+		<German>Sapadbizes</German>
+		<Italian>Sapadbizes</Italian>
+		<Spanish>Sapadbizes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAPADBIZES_PEDIA</Tag>
+		<English>[H1]Sapadzides[\H1][NEWLINE][BOLD]Sovereign in Bactria[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]about 20 BC - 1 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]We know very little about the the sovereign Sapadbizes. There is no literature by the persians, the greek, the romans or hardly by the chinese. The only testemonies left by the Yuezhi are simple coins, showing his face and name, found in Uzbekistan and northern Afghanistan.[PARAGRAPH:2]Coins have been found, with 2 other kings, "Agezilles" and a nameless one, who are thought to be his inheritors and part of the dynasty founded by himself, the Sapadbians. There is a map on the back of another coin, show the eastern part of the Oxus river (also known as Amu Darja) and several cities, which perhaps was the realm ruled by the Sapadbians. It would have been bordered to the west by the Parthians, to the south by the Indo-Parthians and to the north by other tribes of the Yuezhi. [PARAGRAPH:2]The realm of Sapadbizes was probably under Persian influence. One coin shows Sapadbizes on the front and a winged lion on the back. Such creatures are well-known in persian literature and culture, and its name "Nana" is very likely to "Nanaja", the Sumerian fertility goddess and lunar deity.[PARAGRAPH:2]The only possible documented source of Sapadbizes' existence comes from the Chinese. They wrote of the "Yabgu of Kao-fu" who could be identical to Sapadbizes. He was told to conquer the other 4 Yabgus of the Yuezhi to build an empire, called Kuei-shung by the chinese. This very empire was conquered by the Parthians in the first century BC.</English>
+		<French>in French</French>
+		<German>[H1]Sapadzides[\H1][NEWLINE][BOLD]Herrscher in Baktrien[\BOLD][NEWLINE][BOLD]Herrschte [\BOLD]ca. 20 v.Chr. - 1 n.Chr[NEWLINE][PARAGRAPH:2]Über den Herrscher Sapadzides ist so gut wie nichts bekannt. Es gibt keine namentlichen Nachweise in persischen, griechischen, römischen oder chinesischen Quellen. Die einzigen Zeugnisse, die der Nachwelt hinterlassen wurden, sind Münzen, die vereinzelt in Usbekistan und Nordafghanistan ausgegraben wurden.[PARAGRAPH:2]Es wurden Münzen von zwei anderen Herrschern gefunden, Agezilles und ein Unbenannter, die den Gefunden in solchem Maße ähneln, dass man ihnen eine Beziehung zu Sapadbizes nicht absprechen kann. So wird davon ausgegangen, dass er eine Dynastie begründete, die Sapadbizen, denen mindestens jene zwei Herrscher ebenfalls entstammen. Auf einer anderen Münze wurde eine Landkarte entdeckt, die haputsächlich das Gebiet um den Oxus (auch Amudarja genannt) zeigen, das als Herrschaftsgebiet der Sapadbizen identifiziert wurde. Im Osten begrenzt durch das Land der Parther, im Süden durch die Indo-Parther, ist die Grenze im Norden unklar. Dort gab es einzelne Stämme der Yuezhi, denen auch Sapadbizes entstammt; in wieweit sie zusammenlebten, lässt sich nicht sagen.[PARAGRAPH:2]Manche Forscher behaupten, dass das Reich Sapadbizes' stark unter perischem Einfluss stand. Auf einer Münze ist, neben Sapadbizes selbst, ein geflügelter Löwe zu sehen. Nicht nur, dass so eine Kreatur in der perischen Kultur häufig vorkommt, wird sie auch "Nana" genannt, dass auffällige Ähnlichkeiten mit "Nanja" hat, der alten sumerischen Fruchtbarkeits- und Mondgöttin. Weitere Münzen, die in der gleichen Gegend gefunden wurden, zeigen den Partherkönig Phraates IV.; eine Kultur würde einen fremden König nur dann abbilden, wenn sie entweder sehr enge Verbündete gewesen wären, oder dessen Vasall, so Forscher.[PARAGRAPH:2]Die einzige mögliche schriftliche Quelle, die von ihm bekannt ist, stammt aus China. Dort wird von einem "Yabgu von Kao-fu" berichtet, der möglicherweise mit Sapadbizes identisch ist. Dieser soll die anderen vier Yabgus der Yuezhi besiegt haben und so ein Reich geformt haben (in den chinesischen Quellen Kuei-shuang genannt), das irgendwann im 1. Jahrhundert vor Christus perischer Vasall wurde.</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ANTIGONUS</Tag>
+		<English>Antigonus</English>
+		<French>Antigonus</French>
+		<German>Antigonus</German>
+		<Italian>Antigonus</Italian>
+		<Spanish>Antigonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ANTIGONUS_PEDIA</Tag>
+		<English>[H1]Antigonus I Monophthalmus[\H1][NEWLINE][BOLD]Founder of the Antigonid Dynasty[\BOLD][NEWLINE][BOLD]Reigned: [\BOLD]323 BC - 301 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Antigonus I Monophthalmus ("Antigonus the One-eyed", 382 BC - 301 BC), son of Philip from Elimeia, was a Macedonian nobleman, general, and satrap under Alexander the Great. During his early life he served under Philip II, and he was a major figure in the Wars of the Diadochi after Alexander's death, declaring himself king in 306 BC and establishing the Antigonid dynasty.</English>
+		<French>in French</French>
+		<German>in German</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_PEDIA</Tag>
+		<English>[TAB]The term "barbarian" was created by the Greeks; it was originally used to denote any foreigner. Since then it has gained a more negative connotation, and it is commonly applied to civilizations deemed "inferior" to one's own. The Chinese, for instance, thought of all foreign cultures - everybody from the Manchus to the Turks to the Europeans - as barbarians. Rome applied it to the Huns and the Germanic tribes, as well as to the more advanced Gauls.[PARAGRAPH:1]In Civilization IV, the term denotes people that are not part of any organized civilization appearing in the game, but are instead old-style hunter-gatherers who prey on the "weak" civilized world. Though some barbarians may have acquired fairly advanced weaponry - swords and axes, for example - and though they may occasionally capture or even build their own cities, they remain at heart brigandic nomads, destroying everything that comes in their path. Barbarians cannot be bargained with or appeased: they must be destroyed - before they destroy you!</English>
+		<French>[TAB]Le terme "Barbare" est &#224; l'origine un crit&#232;re linguistique utilis&#233; par les Grecs pour d&#233;signer toute personne &#233;trang&#232;re &#224; la civilisation grecque. Depuis, ce terme a pris une connotation p&#233;jorative et s'applique aux civilisations jug&#233;es "inf&#233;rieures". Les Chinois, par exemple, consid&#233;raient toutes les cultures &#233;trang&#232;res, des Mandchous aux Turcs en passant par les Europ&#233;ens, comme des barbares. Rome utilisait ce terme pour d&#233;signer les Huns, les Gaulois et les tribus germaniques.[PARAGRAPH:2]Dans Civilization IV, le terme "Barbares" d&#233;signe des gens qui ne font partie d'aucune civilisation organis&#233;e du jeu. Il s'agit de chasseurs-cueilleurs qui n'ont pas peur de s'attaquer au monde civilis&#233;. Bien que certains barbares aient pu acqu&#233;rir un armement assez avanc&#233;, avec notamment des &#233;p&#233;es et des haches, et bien qu'ils puissent &#224; l'occasion capturer ou m&#234;me fonder leurs propres villes, ils restent avant tout des "bandits-nomades", d&#233;truisant tout sur leur passage. Il est impossible de n&#233;gocier avec des barbares ni m&#234;me de les apaiser : il faut les &#233;liminer avant qu'ils ne vous &#233;liminent !</French>
+		<German>[TAB]Der Begriff "Barbar" kommt aus dem Griechischen und bezeichnete in seiner urspr&#252;nglichen Bedeutung alle Nichtgriechen. Seither haftete dem Wort allerdings eine immer negativere Assoziation an und heute wird es im Allgemeinen als Bezeichnung f&#252;r primitivere, "unterlegenere" Zivilisationen verwendet. Die Chinesen betrachteten beispielsweise alle fremden Kulturen - wirklich alle, von den Manchus &#252;ber die T&#252;rken bis hin zu den Europ&#228;ern - als Barbaren. Rom benutzte den Begriff f&#252;r die Hunnen und die germanischen St&#228;mme sowie f&#252;r die immerhin etwas fortschrittlicheren Gallier.[PARAGRAPH:2]In Civilization IV sind mit den "Barbaren" V&#246;lker gemeint, die keiner der organisierten Zivilisationen im Spiel angeh&#246;ren, sondern eher in die Kategorie "J&#228;ger und Sammler" eingeordnet werden k&#246;nnen und die "schwache" zivilisierte Welt mit &#220;berf&#228;llen heimsuchen. Zwar gibt es vereinzelt Barbaren, die &#252;ber relativ fortschrittliche Waffen verf&#252;gen - zum Beispiel Schwerter und &#196;xte - und sie k&#246;nnen auch gelegentlich St&#228;dte erobern oder sogar eigene St&#228;dte gr&#252;nden, dennoch bleiben sie im Herzen stets r&#228;uberische Nomaden, die alles zerst&#246;ren, was sich ihnen in den Weg stellt. Barbaren lassen sich nicht beschwichtigen und auch nicht mit sich handeln - deshalb sollten sie m&#246;glichst schnell vernichtet werden, bevor sie eine ernsthafte Bedrohung darstellen.</German>
+		<Italian>[TAB]Il termine "barbaro" venne coniato dai Greci e inizialmente veniva utilizzato per indicare qualsiasi straniero. Da allora, la parola ha assunto una connotazione negativa e viene associato a quelle civilt&#224; definite "inferiori". I Cinesi, per esempio, identificavano tutte le culture straniere come "barbare" dai Manci&#249; ai Turchi agli Europei. Roma boll&#242; con questo termine gli Unni e le popolazioni germaniche, cos&#236; come i Galli che erano culturalmente evoluti.[PARAGRAPH:2]In Civilization IV, questo termine indica le popolazioni che non fanno parte di una civilt&#224; organizzata, vecchi cacciatori che predano i "deboli" nel mondo. Malgrado alcuni barbari abbiano conquistato armamenti pi&#249; evoluti come spade e asce, e talvolta possano conquistare o fondare delle citt&#224;, i Barbari rimangono prevalentemente nomadi che distruggono e saccheggiano tutto ci&#242; che capita a tiro. Non si pu&#242; trattare con i Barbari: devono essere distrutti prima che loro distruggano te!</Italian>
+		<Spanish>[TAB]El t&#233;rmino "b&#225;rbaro" fue acu&#241;ado por los griegos, y originalmente se utilizaba para referirse a cualquier extranjero. Pero desde entonces ha adquirido unas connotaciones negativas, pues suele emplearse al hablar de las civilizaciones a las que se considera "inferiores" a la propia. Los chinos, por ejemplo, pensaban que todas las culturas extranjeras (desde los manch&#250;es a los turcos, pasando por los europeos) eran b&#225;rbaras. En Roma se empleaba el t&#233;rmino para referirse a los hunos y las tribus germanas, as&#237; como a los galos, que eran m&#225;s avanzados.[PARAGRAPH:2]En Civilization IV, este t&#233;rmino engloba a todos los pueblos que no forman parte de ninguna civilizaci&#243;n organizada del juego, y en lugar de eso se componen de cazadores-recolectores que atacan al "d&#233;bil" mundo civilizado. Aunque algunos b&#225;rbaros pueden llegar a adquirir armas bastante avanzadas (espadas y hachas, por ejemplo), y aunque de vez en cuando pueden capturar ciudades o construir las suyas propias, en el fondo siguen siendo unos n&#243;madas bandidos que lo destruyen todo a su paso. No se puede negociar con ellos, ni es posible aplacarlos: &#161;hay que destruirlos antes de que ellos te destruyan a ti!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BARBARIAN_PEDIA</Tag>
+		<English>BOO!</English>
+		<French>BOO!</French>
+		<German>BOO!</German>
+		<Italian>BOO!</Italian>
+		<Spanish>BOO!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINOR</Tag>
+		<English>Rebel Leader</English>
+		<French>Rebel Leader</French>
+		<German>Rebel Leader</German>
+		<Italian>Rebel Leader</Italian>
+		<Spanish>Rebel Leader</Spanish>
+	</TEXT>
+</Civ4GameText>

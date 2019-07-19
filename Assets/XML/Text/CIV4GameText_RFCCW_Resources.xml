@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HELLENISM</Tag>
+		<English>Hellenic Wisdom</English>
+		<French>Hellenic Wisdom</French>
+		<German>Hellenic Wisdom</German>
+		<Italian>Hellenic Wisdom</Italian>
+		<Spanish>Hellenic Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JAINISM</Tag>
+		<English>Jain Wisdom</English>
+		<French>Jain Wisdom</French>
+		<German>Jain Wisdom</German>
+		<Italian>Jain Wisdom</Italian>
+		<Spanish>Jain Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HINDUISM</Tag>
+		<English>Hindu Wisdom</English>
+		<French>Hindu Wisdom</French>
+		<German>Hindu Wisdom</German>
+		<Italian>Hindu Wisdom</Italian>
+		<Spanish>Hindu Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BUDDHISM</Tag>
+		<English>Buddhist Wisdom</English>
+		<French>Buddhist Wisdom</French>
+		<German>Buddhist Wisdom</German>
+		<Italian>Buddhist Wisdom</Italian>
+		<Spanish>Buddhist Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TAOISM</Tag>
+		<English>Taoist Wisdom</English>
+		<French>Taoist Wisdom</French>
+		<German>Taoist Wisdom</German>
+		<Italian>Taoist Wisdom</Italian>
+		<Spanish>Taoist Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CONFUCIANISM</Tag>
+		<English>Confucian Wisdom</English>
+		<French>Confucian Wisdom</French>
+		<German>Confucian Wisdom</German>
+		<Italian>Confucian Wisdom</Italian>
+		<Spanish>Confucian Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ZOROASTRIANISM</Tag>
+		<English>Zoroastrian Wisdom</English>
+		<French>Zoroastrian Wisdom</French>
+		<German>Zoroastrian Wisdom</German>
+		<Italian>Zoroastrian Wisdom</Italian>
+		<Spanish>Zoroastrian Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JUDAISM</Tag>
+		<English>Jewish Wisdom</English>
+		<French>Jewish Wisdom</French>
+		<German>Jewish Wisdom</German>
+		<Italian>Jewish Wisdom</Italian>
+		<Spanish>Jewish Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CHRISTIANITY</Tag>
+		<English>Christian Wisdom</English>
+		<French>Christian Wisdom</French>
+		<German>Christian Wisdom</German>
+		<Italian>Christian Wisdom</Italian>
+		<Spanish>Christian Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANICHAEISM</Tag>
+		<English>Manichean Wisdom</English>
+		<French>Manichean Wisdom</French>
+		<German>Manichean Wisdom</German>
+		<Italian>Manichean Wisdom</Italian>
+		<Spanish>Manichean Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ISLAM</Tag>
+		<English>Islamic Wisdom</English>
+		<French>Islamic Wisdom</French>
+		<German>Islamic Wisdom</German>
+		<Italian>Islamic Wisdom</Italian>
+		<Spanish>Islamic Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TEA</Tag>
+		<English>Tea</English>
+		<French>Tea</French>
+		<German>Tea</German>
+		<Italian>Tea</Italian>
+		<Spanish>Tea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CAMEL</Tag>
+		<English>Camel</English>
+		<French>Chameau</French>
+		<German>Kamel</German>
+		<Italian>Cammello</Italian>
+		<Spanish>Camello</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CAMEL_PEDIA</Tag>
+		<English>[TAB]A camel is an even-toed ungulate within the genus Camelus, bearing distinctive fatty deposits known as humps on its back. There are two species of camels: the dromedary or Arabian camel has a single hump, and the bactrian has two humps. Dromedaries are native to the dry desert areas of West Asia, and Bactrian camels are native to Central and East Asia. Both species are domesticated. [PARAGRAPH:1]Camels provide milk and meat, and are working animals. Their hair is also used as a source material for woven goods, ranging from Bedouin tents to garments. They are well-suited to long desert journeys and can carry a great deal of cargo, allowing substantial trade over desert regions since ancient times. Camels have been used in wars throughout Africa, the Middle East and India, both as mounts and freight animals, instead of horses and mules.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CHARCOAL</Tag>
+		<English>Charcoal</English>
+		<French>Charcoal</French>
+		<German>Charcoal</German>
+		<Italian>Charcoal</Italian>
+		<Spanish>Charcoal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SORGHUM</Tag>
+		<English>Sorghum</English>
+		<French>Sorghum</French>
+		<German>Sorghum</German>
+		<Italian>Sorghum</Italian>
+		<Spanish>Sorghum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SORGHUM_PEDIA</Tag>
+		<English>[TAB]Sorghum is a genus of numerous species of grasses, some of which are raised for grain and many of which are used as fodder plants either cultivated or as part of pasture. Most cultivated varieties of sorghum can be traced back to Africa, where they grow on savanna lands. During the Muslim Agricultural Revolution, sorghum was planted extensively in parts of the Middle East, North Africa and Europe. The name "sorghum" comes from Italian "sorgo", in turn from Latin "Syricum (granum)" meaning "grain of Syria".[PARAGRAPH:1]Despite the antiquity of sorghum, it arrived late to the Near East. It was unknown in the Mediterranean area into Roman times. Tenth century records indicate that it was widely grown in Iraq, and became the principal food of Kirman in Persia. In addition to the eastern parts of the Muslim world, the crop was also grown in Egypt and later in Islamic Spain. From Islamic Spain it was introduced to Christian Spain and then France (by the twelfth century). In the Muslim world, sorghum was grown usually in areas where the soil was poor or the weather too hot and dry to grow other crops.[PARAGRAPH:1]Sorghum is well adapted to growth in hot, arid or semi-arid areas. The many subspecies are divided into four groups - grain sorghums (such as milo), grass sorghums (for pasture and hay), sweet sorghums (formerly called "Guinea corn", used to produce sorghum syrups), and broom corn (for brooms and brushes). The name "sweet sorghum" is used to identify varieties of S. bicolor that are sweet and juicy.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CHARCOAL</Tag>
+		<English>Charcoal</English>
+		<French>Charcoal</French>
+		<German>Charcoal</German>
+		<Italian>Charcoal</Italian>
+		<Spanish>Charcoal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CINNAMON</Tag>
+		<English>Cinnamon</English>
+		<French>
+			<Text>Caf&#233;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kaffee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Caffe</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cafe</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SPICES</Tag>
+		<English>Pepper</English>
+		<French>
+			<Text>Caf&#233;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kaffee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Caffe</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cafe</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COFFEE_PEDIA</Tag>
+		<English>[TAB]The history of coffee begins in the 9th century. It is thought to have originated in the highlands of Ethiopia and spread to the rest of the world via Egypt and Europe. The word coffee is derived from the Arabic word Qah'wa, over Ottoman Turkish Kahve, which originally meant wine or other intoxicating liquors. Partly due to the Islamic prohibition on drinking alcohol, preparing and drinking coffee became an important social ritual. In the 15th century, Muslims introduced coffee in Persia, Egypt, northern Africa and Turkey, where the first cafeteria, Kiva Han, opened in 1475 in Constantinople. The stimulant effect of drinking coffee caused it to be forbidden among orthodox and conservative imams in Mecca in 1511 and in Cairo in 1532 by a theological court. In Egypt, coffeehouses and warehouses containing coffee cherries were sacked. But the product's popularity, particularly among intellectuals, led to the reversal of this decision in 1524 by an order of the Ottoman Turkish Sultan Selim I. From the Muslim world, coffee spread to Europe, where it became popular in the 17th century. Dutch traders were the first to start large scale import of coffee into Europe.</English>
+		<French>[TAB]L'histoire de caf&#233; commence dans le neuvi&#232;me si&#232;cle. Il est pens&#233; avoir provenu dans les pays de montagne d'Ethiopie et de diffusion au reste du monde via l'Egypte et d'Europe. Le caf&#233; de mot est d&#233;riv&#233; du Qah'wa de mot arabe, par-dessus Kahve turc ottoman, qui a signifi&#233; au d&#233;but le vin ou l'autres enivrer alcools. Partiellement en raison de la prohibition islamique sur boire d'alcool, pr&#233;parant et boire le caf&#233; est devenu un rite social important. Dans le 15e si&#232;cle, Musulmans ont introduit le caf&#233; dans Perse, l'Egypte, Afrique et Turquie septentrionaux, o&#249; le premier caf&#233;t&#233;ria, Kiva Han, ouvert dans 1475 dans Constantinople. L'effet de stimulant de boire de caf&#233; a caus&#233; l'&#234;tre d&#233;fendu parmi imams orthodoxe et conservateur dans Mecque dans 1511 et dans Caire dans 1532 par un tribunal th&#233;ologique. Dans l'Egypte, les caf&#233;s et les entrep&#244;ts contenant les cerises de caf&#233; ont &#233;t&#233; sacked. Mais la popularit&#233; du produit, particuli&#232;rement parmi les intellectuels, men&#233; au renversement de cette d&#233;cision dans 1524 par un ordre du Sultan Selim I. turc ottoman. Du monde Musulman, la diffusion de caf&#233; &#224; Europe, o&#249; il est devenu populaire dans le 17e si&#232;cle. Les commer&#231;ants hollandais &#233;taient le premier commencer la grande importation &#224; l'&#233;chelle de caf&#233; dans Europe.</French>
+		<German>[TAB]Die Geschichte des Kaffees beginnt im 9. Jahrhundert. Es ist gedacht, in den Hochl&#228;ndern von &#196;thiopien und Ausbreitung zur restlichen Welt &#252;ber &#196;gypten und Europa hervorgebracht zu haben. Der Wortkaffee ist vom arabischen Wort Qah'wa, &#252;ber Ottoman t&#252;rkischem Kahve abgeleitet, der urspr&#252;nglich Wein oder andere Berauschenalkohole bedeutet hat. Teilweise auf Grund des islamischen Verbots auf Trinkenalkohol, der und Trinkenkaffee vorbereitet, ist geworden ein wichtiges soziales Ritual. Im 15. Jahrhundert haben Muslime Kaffee in Persien, &#196;gypten, n&#246;rdlichen Afrika und die T&#252;rkei, eingef&#252;hrt wo die erste Cafeteria, Kiva Han, ge&#246;ffnet in 1475 in Constantinople. Die Anregungswirkung, Kaffee zu trinken, hat verursacht, dass es unter orthodoxem und konservativem imams in Mekka in 1511 und in Kairo in 1532 durch einen theologischen Gerichtshof verboten wird. In &#196;gypten wurden coffeehouses und Lagerh&#228;user, die Kaffeekirschen enthalten, rausgeschmissen. Aber die Popularit&#228;t hat des Produkts, besonders unter Intellektuelle, zur Umkehrung von dieser Entscheidung in 1524 durch einen Reihenfolge den Ottoman t&#252;rkischen Sultan Selim I. gef&#252;hrt. Von der Muslimisch Welt Kaffeeausbreitung nach Europa, wo es popul&#228;r im 17. Jahrhundert geworden ist. Holl&#228;ndische H&#228;ndler waren das erste, Gro&#223;ma&#223;stabimport des Kaffees in Europa anzufangen.</German>
+		<Italian>[TAB]La storia di caff&#232; inizia nel secolo 9. &#200; pensato avere provenuto nella regione montuosa di Etiopia e nella coperta al riposo del mondo via Egitto ed in Europa. Il caff&#232; di parola &#232; derivato dal Qah'wa di parola Arabo, sopra Kahve Ottomano turco, che ha significato originalmente il vino o l'altro inebria i liquori. In parte dovuto alla proibizione Islamica su bere di alcool, preparando ed il caff&#232; di bere &#232; diventato un rituale importante sociale. Nel secolo 15, Musulmani hanno introdotto il caff&#232; in Persia, Egitto, Africa del nord ed il Tacchino, dove la prima mensa, Kiva Han, aperto in 1475 in Costantinopoli. L'effetto di stimolante di bere di caff&#232; l'ha causato essere vietato fra fra l'imams ortodosso e conservatore in Mecca in 1511 ed in Cairo in 1532 da un tribunale teologico. In Egitto, i caff&#232; ed i magazzini contenendo le ciliegie di caff&#232; sono stato sacked. Ma la popolarit&#224; del prodotto, particolarmente fra gli intellettuali, condotti all'inversione di questa decisione in 1524 da un ordine del Selim di Sultano Ottomano turco I. Dal mondo Musulmano, la coperta di caff&#232; a Europa, dove &#232; diventato popolare nel secolo 17. I commercianti olandesi erano il primo cominciare l'importazione di larga scala di caff&#232; in Europa.</Italian>
+		<Spanish>[TAB]La historia de caf&#233; empieza en el siglo IX. Es pensado haber originado en las tierras altas de Etiop&#237;a y la extensi&#243;n al resto del mundo v&#237;a Egipto y Europa. El caf&#233; de la palabra es derivado de la palabra &#225;rabe Qah'wa, sobre Kahve turco otomano, que signific&#243; originalmente vino u otro intoxicando los licores. En parte debido a la prohibici&#243;n Isl&#225;mica en el alcohol potable, preparando y caf&#233; potable lleg&#243; a ser un ritual social importante. En el siglo XV, los musulmanes introdujeron caf&#233; en Persia, Egipto, Africa septentrionales y Turqu&#237;a, donde el primer restaurante, Kiva Han, abri&#243; en 1475 en Constantinopla. El efecto de estimulante de caf&#233; potable caus&#243; que estuviera prohibido entre imanes ortodoxos y conservadores en Meca en 1511 y en El Cairo en 1532 por un tribunal teol&#243;gico. En Egipto, los caf&#233;s y los almacenes que contienen cerezas de caf&#233; fueron ensacados. Pero la popularidad del producto, especialmente entre intelectuales, llev&#243; a la reversi&#243;n de esta decisi&#243;n en 1524 por una orden del Sult&#225;n turco otomano Selim I. Del mundo musulm&#225;n, la extensi&#243;n de caf&#233; a Europa, donde lo lleg&#243; a ser popular en el siglo XVII. Los comerciantes holandeses fueron el primer de empezar la importaci&#243;n grande de la escala de caf&#233; en Europa.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OPIUM</Tag>
+		<English>Opium</English>
+		<French>
+			<Text>Opium</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Opium</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</German>
+		<Italian>
+			<Text>Oppio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Opio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OPIUM_PEDIA</Tag>
+		<English>[TAB]Cultivation of opium poppies for food, anesthesia, and ritual purposes dates back to at least the Neolithic Age. The Sumerian, Assyrian, Egyptian, Minoan, Greek, Roman, Persian and Arab Empires each made widespread use of opium, which was the most potent form of pain relief then available, allowing ancient surgeons to perform prolonged surgical procedures. Opium is mentioned in the most important medical texts of the ancient world, including the Ebers Papyrus and the writings of Dioscorides, Galen, and Avicenna. [PARAGRAPH:1]Many Muslims believe that the hadith of al-Bukhari prohibits every intoxicating substance as haraam, but the use of intoxicants in medicine has been widely permitted by Scholars, even though it is prohibited under Islamic Law. Dioscorides' five-volume De Materia Medica, the precursor of pharmacopoeias, remained in use (with some improvements in Arabic versions) from the 1st to 16th centuries and described opium and the wide range of uses prevalent in the ancient world. Somewhere between 400 and 1200 CE, Arab traders introduced opium to China. The Persian physician Abu Bakr Muhammad ibn Zakariya al-Razi Rhazes (845-930 CE) maintained a laboratory and school in Baghdad, and was a student and critic of Galen, made use of opium in anesthesia and recommended its use for the treatment of melancholy in Fi ma-yahdara al-tabib (In the Absence of a Physician), a home medical manual directed toward ordinary citizens for self-treatment if a doctor was not available. The renowned Andalusian ophthalmologic surgeon Abu al-Qasim Ammar (936-1013 CE) relied on opium and mandrake as surgical anaesthetics and wrote a treatise, al-Tasrif, that influenced medical thought well into the sixteenth century. The Persian physician Abu ‘Ali al-Husayn ibn Sina (Avicenna) described opium as the most powerful of the stupefacients, by comparison with mandrake and other highly effective herbs, in The Canon of Medicine. This classic text was translated into Latin in 1175 and later into many other languages and remained authoritative into the seventeenth century. Serafeddin Sabuncuoglu used opium in the fourteenth century Ottoman Empire to treat migraine headaches, sciatica, and other painful ailments.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PEARL</Tag>
+		<English>Pearls</English>
+		<French>
+			<Text>Perles</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Perlen</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</German>
+		<Italian>
+			<Text>Perle</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Perlas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PEARL_PEDIA</Tag>
+		<English>[TAB]A pearl is a hard, rounded object produced by certain mollusks, primarily oysters. Pearl is valued as a gemstone and is cultivated or harvested for jewellery. Pearls are formed inside the shell of certain bivalve mollusks. As a response to an irritating object inside its shell, the mollusk will deposit layers of calcium carbonate (CaCO3) in the form of the minerals aragonite or calcite (both crystalline forms of calcium carbonate) held together by an organic horn-like compound called conchiolin. Before the beginning of the 20th Century, pearl hunting was the most common way of harvesting pearls. Divers manually pulled oysters from ocean floors and river bottoms and checked them individually for pearls. Not all natural oysters produce pearls, however. In fact, in a haul of three tonnes, only three or four oysters will produce perfect pearls. Now, however, almost all pearls used for jewelry are cultured by planting a core or nucleus into pearl oysters. The pearls are usually harvested three years after the planting, but it can take up to as long as six years before a pearl is produced. This mariculture process was first developed by Kokichi Mikimoto in Japan, who was granted a patent for the process in 1896. In the past couple of decades, cultured pearls have been produced with larger oysters in the south Pacific and Indian Ocean. One of the largest pearl-bearing oysters is the Pinctada maxima, which is roughly the size of a dinner plate. South Sea pearls are characterized by their large size and silvery color. Sizes up to 14 mm in diameter are not uncommon. Australia is one of the most important sources of South Sea pearls. Tahitian pearls (also referred to as Titian pearls) are also another South Sea pearl. - Wikipedia </English>
+		<French>[TAB]Les perles sont de petites billes blanches cr&#233;&#233;es par certains mollusques, principalement les hu&#238;tres. Quand un objet irritant passe à l'int&#233;rieur de la coquille, l'animal r&#233;agit en entourant l'objet d'une couche de carbonate de calcium CaCO3 sous la forme d'aragonite ou de calcite. Ce mélange est appel&#233; nacre. Autrefois uniquement obtenues par le hasard, les perles font aujourd'hui l'objet d'une culture. Elle a &#233;t&#233; mise au point par les Japonais du d&#233;but du XXe siècle aux années 70. Depuis, le secret de leur technique s'est répandu dans tout les archipels de l'oc&#233;an Pacifique, et la Polyné&#233;sie française est le principal producteur. - Wikipedi </French>
+		<German>[TAB]Eine Perle ist ein fester, oft runder Fremdkörper aus Perlmutt, der in bestimmten perlbildenden Mollusken heranwächst. Erste Überlieferungen, in denen Perlen erwähnt werden, stammen aus dem Chinesischen Geschichtsbuch von Shu King aus dem Jahr 2206 vor unserer Zeitrechnung. Im gesamten Altertum ob in der arabischen Welt, Persien oder Indien waren Perlen hoch geschätzt. In der islamischen Perlensymbolik wird die Perle in der Regel mit Jungfräulichkeit verbunden. Für die kurdischen Mystiker ist die Perle wie ein Embryo, das am Grund seines Muscheluterus schlummert. Auch bei Griechen und Römern waren Perlen sehr begehrt. Die Römer übernahmen den griechischen Namen "margarita" für Perlen. Auch als Bezeichnung für die Geliebte. In vielen Kulturen hatte und hat die Perle einen tiefen Symbolcharakter. So sind Perlen in China z.B. das Symbol für Reichtum, Weisheit und Würde; in Japan bedeutet sie Glück, in Indien Kinderreichtum. In den arabischen Kulturen werden Frauen oder bestimmte Körperpartien wie z.B. Zähne oft mit Perlen verglichen. Die Perle galt darüber hinaus sowohl als Aphrodisiakum wie als Heilmittel für Melancholie und Wahnsinn. Sie ist auch Symbol für Tränen. Im Mittelalter erhält sie zudem einen sakralen Charakter. Perlen galten als Zeichen der Liebe zu Gott. So finden sie auch im Neuen Testament Erwähnung. - Wikipedia </German>
+		<Italian>[TAB]A pearl is a hard, rounded object produced by certain mollusks, primarily oysters. Pearl is valued as a gemstone and is cultivated or harvested for jewellery. Pearls are formed inside the shell of certain bivalve mollusks. As a response to an irritating object inside its shell, the mollusk will deposit layers of calcium carbonate (CaCO3) in the form of the minerals aragonite or calcite (both crystalline forms of calcium carbonate) held together by an organic horn-like compound called conchiolin. Before the beginning of the 20th Century, pearl hunting was the most common way of harvesting pearls. Divers manually pulled oysters from ocean floors and river bottoms and checked them individually for pearls. Not all natural oysters produce pearls, however. In fact, in a haul of three tonnes, only three or four oysters will produce perfect pearls. Now, however, almost all pearls used for jewelry are cultured by planting a core or nucleus into pearl oysters. The pearls are usually harvested three years after the planting, but it can take up to as long as six years before a pearl is produced. This mariculture process was first developed by Kokichi Mikimoto in Japan, who was granted a patent for the process in 1896. In the past couple of decades, cultured pearls have been produced with larger oysters in the south Pacific and Indian Ocean. One of the largest pearl-bearing oysters is the Pinctada maxima, which is roughly the size of a dinner plate. South Sea pearls are characterized by their large size and silvery color. Sizes up to 14 mm in diameter are not uncommon. Australia is one of the most important sources of South Sea pearls. Tahitian pearls (also referred to as Titian pearls) are also another South Sea pearl. - Wikipedia </Italian>
+		<Spanish>[TAB]A pearl is a hard, rounded object produced by certain mollusks, primarily oysters. Pearl is valued as a gemstone and is cultivated or harvested for jewellery. Pearls are formed inside the shell of certain bivalve mollusks. As a response to an irritating object inside its shell, the mollusk will deposit layers of calcium carbonate (CaCO3) in the form of the minerals aragonite or calcite (both crystalline forms of calcium carbonate) held together by an organic horn-like compound called conchiolin. Before the beginning of the 20th Century, pearl hunting was the most common way of harvesting pearls. Divers manually pulled oysters from ocean floors and river bottoms and checked them individually for pearls. Not all natural oysters produce pearls, however. In fact, in a haul of three tonnes, only three or four oysters will produce perfect pearls. Now, however, almost all pearls used for jewelry are cultured by planting a core or nucleus into pearl oysters. The pearls are usually harvested three years after the planting, but it can take up to as long as six years before a pearl is produced. This mariculture process was first developed by Kokichi Mikimoto in Japan, who was granted a patent for the process in 1896. In the past couple of decades, cultured pearls have been produced with larger oysters in the south Pacific and Indian Ocean. One of the largest pearl-bearing oysters is the Pinctada maxima, which is roughly the size of a dinner plate. South Sea pearls are characterized by their large size and silvery color. Sizes up to 14 mm in diameter are not uncommon. Australia is one of the most important sources of South Sea pearls. Tahitian pearls (also referred to as Titian pearls) are also another South Sea pearl. - Wikipedi </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_APPLE</Tag>
+		<English>Apples</English>
+		<French>
+			<Text>Pommes</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>&#196;pfel</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</German>
+		<Italian>
+			<Text>Mele</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Manzanas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_APPLE_PEDIA</Tag>
+		<English>[TAB]The apple is one of the most widely cultivated tree fruits. The tree originated in Central Asia, where its wild ancestor is still found today.[PARAGRAPH:1]The apple tree was perhaps the earliest tree to be cultivated, and its fruits have been improved through selection over thousands of years. Alexander the Great is credited with finding dwarfed apples in Asia Minor in 300 BCE; those he brought back to Macedonia might have been the progenitors of dwarfing root stocks.</English>
+		<French>[TAB]La pomme est le fruit pomaceous du pommier, domestica de Malus d'esp&#232;ces dans la famille rose Rosaceae. Elle est l'un des fruits le plus largement cultiv&#233;s d'arbre. L'arbre est petit et &#224; feuilles caduques, atteignant 5-12 m grand, avec une large, souvent en masse twiggy couronne.</French>
+		<German>[TAB]Der Apfel ist die pomaceous Frucht des Apfelbaums, Sorte Malus domestica in der rose Familie Rosaceae. Er ist eine der weit bebauten Baumfr&#252;chte. Der Baum ist klein und laubwechselnd und erreicht 5-12 m hoch, mit einer ausgedehnten, h&#228;ufig dicht twiggy Krone.</German>
+		<Italian>[TAB]La mela &#232; la frutta pomaceous di di melo, domestica di Malus di specie nella famiglia di rosa Rosaceae. &#200; una delle frutte il pi&#249; ampiamente coltivate dell'albero. L'albero &#232; piccolo e deciduo, raggiungendo 5-12 m. alto, con una vasta, parte superiore spesso densamente twiggy.</Italian>
+		<Spanish>[TAB]La manzana es la fruta pomaceous del manzano, domestica de Malus de la especie en la familia color de rosa Rosaceae. Es una de las frutas lo m&#225;s extensamente posible cultivadas del &#225;rbol. El &#225;rbol es peque&#241;o y de hojas caducas, alcanzando 5-12 m alto, con una corona amplia, a menudo denso twiggy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SULFUR</Tag>
+		<English>Sulfur</English>
+		<French>Soufre</French>
+		<German>Schwefel</German>
+		<Italian>Zolfo</Italian>
+		<Spanish>Sulfuro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SULFUR_PEDIA</Tag>
+		<English>[TAB]Sulfur is the chemical element in the periodic table that has the symbol S and atomic number 16. It is an abundant, tasteless, odorless, multivalent non-metal. Sulfur, in its native form, is a yellow crystalline solid. In nature, it can be found as the pure element or as sulfide and sulfate minerals. It is an essential element for life and is found in two amino acids. Its commercial uses are primarily in fertilizers but it is also widely used in gunpowder, matches, insecticides and fungicides. Sulfur (Sanskrit, sulvari; Latin, sulpur) was known in ancient times, and is referred to in the Biblical Pentateuch (Genesis). The word itself probably is from the Arabic sufra meaning yellow, from the bright color of the naturally occurring form, although the Sanskrit name for sulfur, sulvari could also be interpreted as meaning "enemy of copper". English translations of the Bible commonly refer to sulfur as "brimstone", giving rise to the name of 'Fire and brimstone' sermons, in which listeners are reminded of the fate of eternal damnation that awaits the nonbelieving and unrepented. It is from this part of the Bible that Hell is implied to "smell of sulfur", although as mentioned above sulfur is in fact odorless. The "smell of sulfur" usually refers to the odor of hydrogen sulfide, e.g. from rotten eggs. Burning sulfur produces sulfur dioxide, the smell associated with burnt matches. Homer mentioned "pest-averting sulfur" in the 8th century BC and in 424 BC, the tribe of Boeotia destroyed the walls of a city by burning a mixture of coal, sulfur, and tar under them. Sometime in the 12th century, the Chinese invented gun powder which is a mixture of potassium nitrate (KNO3), carbon, and sulfur. Early alchemists gave sulfur its own alchemical symbol which was a triangle at the top of a cross. In the late 1770s, Antoine Lavoisier helped convince the scientific community that sulfur was an element and not a compound.</English>
+		<French>[TAB]Le soufre est l'&#233;l&#233;ment chimique dans la table p&#233;riodique qui a le S de symbole et atomique num&#233;ro 16. C'est un abondant, sans saveur, sans odeur, multivalent non-en m&#233;tal. Le soufre, dans sa forme natale, est un solide cristallin jaune. Dans la nature, il peut &#234;tre trouv&#233; comme l'&#233;l&#233;ment pur ou comme les min&#233;raux de sulphure et sulfate. C'est un &#233;l&#233;ment essentiel pour la vie et est trouv&#233; dans deux acides amin&#233;s. Ses usages commerciaux sont principalement dans les engrais mais il largement est aussi utilis&#233; dans la poudre, les allumettes, les insecticides et les fongicides. Le soufre (sanscrit, sulvari ; latin, sulpur) a &#233;t&#233; su dans les temps anciens, et est r&#233;f&#233;r&#233; &#224; dans le Pentateuque Biblique (la Gen&#232;se). Le mot que lui-m&#234;me est probablement du jaune de sens de sufra arabe, de la couleur brillante de la forme naturellement arrivant, bien que le nom de sanscrit pour le soufre, sulvari pourrait &#234;tre aussi interpr&#233;t&#233; comme signifiant &#171; l'ennemi de cuivre &#187;. Les traductions anglaises de la Bible se r&#233;f&#232;rent ordinairement au soufre comme le &#171; soufre &#187;, engendrant le nom de &#139; le Feu et le soufre &#155; les sermons, dans lequel auditeurs sont rappel&#233; du sort de damnation &#233;ternelle qui attend le nonbelieving et unrepented. C'est de cette partie de la Bible que cet Enfer est impliqu&#233; &#171; sentir de soufre &#187;, bien que comme mentionn&#233; au-dessus du soufre est en fait sans odeur. Le &#171; l'odeur de soufre &#187; se r&#233;f&#232;re d'habitude &#224; l'odeur de sulphure d'hydrog&#232;ne, par ex. des oeufs pourris. Le soufre ardent produit le dioxyde de soufre, l'odeur a associ&#233; avec les allumettes br&#251;l&#233;es. A la maison mentionn&#233; &#171; le soufre de peste-d&#233;tournant &#187; dans l'huiti&#232;me si&#232;cle AV. J-C et dans 424 AV. J-C, la tribu de Boeotia a d&#233;truit les murs d'une ville en br&#251;lant un m&#233;lange de charbon, le soufre, et le goudron sous eux. Un jour dans le 12e si&#232;cle, le Chinois a invent&#233; la poudre de fusil qui est un m&#233;lange de nitrate de potassium (KNO3), le carbone, et le soufre. Les alchimistes premiers ont donn&#233; son propre symbole de alchemical qui &#233;tait un triangle en haut d'une croix au soufre. Dans les 1770 derniers, Antoine Lavoisier a aid&#233; convainc la communaut&#233; scientifique ce soufre &#233;tait un &#233;l&#233;ment et pas un compos&#233;.</French>
+		<German>[TAB]Schwefel ist das chemische Element im periodischen Tisch, der das Symbol S und Ordnungszahl 16 hat. Es ist ein reichliches, geschmackloses, geruchloses, multivalent Nichtmetall. Schwefel, in seine eingeborene Form, ist ein gelber kristalliner Festk&#246;rper. In Natur kann es als das reine Element oder der als sulfide und schwefelige Mineralien gefunden werden. Es ist ein wesentliches Element f&#252;r Leben und ist in zwei Aminos&#228;uren gefunden. Seine gewerblichen Gebr&#228;uche sind haupts&#228;chlich in D&#252;ngemitteln aber es ist auch allgemein in Schie&#223;pulver, Gegenst&#252;cken, Insektengiften und Fungiziden benutzt. Schwefel (Sanskrit, sulvari; Latein, sulpur) wurde in alten Zeiten gewusst, und ist in den Biblischen Pentateuch (Entstehung) gesehen. Das Wort, das sich wahrscheinlich vom arabischen sufra Bedeutung Gelb ist, von der hellen Farbe von der nat&#252;rlich stattfindenden Form, obwohl der Sanskrit Name f&#252;r Schwefel, sulvari k&#246;nnten auch interpretiert werden, als &#132;Feind des Kupfers&#147; bedeutend. Englische &#220;bersetzungen von der Bibel sehen normalerweise Schwefel als &#132;Schwefelstein&#147;, den den Namen von &#130;Feuer und Schwefelstein&#145; Predigten verursacht, sind in welchen Zuh&#246;rern vom Schicksal von ewigem damnation erinnert, der den nonbelieving und unrepented erwartet. Es ist von diesem Teil von der Bibel jener H&#246;lle ist besagt &#132;um von Schwefel zu riechen&#147;, obwohl wie oben erw&#228;hnten Schwefel eigentlich geruchlos ist. &#132;Der Geruch des Schwefel&#147; sieht gew&#246;hnlich den Geruch von Wasserstoff sulfide, z.B. von verdorbenen Eiern. Verbrennenschwefel stellt Schwefeldioxid, der Geruch her, der mit verbrannten Gegenst&#252;cken verbunden wird. Homer hat &#132;Plage abwendenden Schwefel&#147; im 8. Jahrhundert BC erw&#228;hnt und in 424 BC, hat der Stamm von Boeotia die W&#228;nde von einer Stadt durch Verbrennen einer Mischung der Kohle, Schwefel, und Teer unter ihnen zerst&#246;rt. Irgendwann im 12. Jahrhundert hat der Chinese Gewehrpulver erfunden, das eine Mischung von Kaliumnitrat ist (KNO3), Kohlenstoff, und Schwefel. Fr&#252;he Alchimisten haben Schwefel seinen eigenen alchemical Symbol gegeben, das ein Dreieck oben auf einem Kreuz war. In den sp&#228;ten 1770er Jahren Antoine Lavoisier, der geholfen ist, um die wissenschaftliche Gemeinschaft zu &#252;berzeugen, dass jener Schwefel ein Element und keine Zusammensetzung war.</German>
+		<Italian>[TAB]Lo zolfo &#232; l'elemento chimico nella tavola periodica che ha il simbolo S ed il numero atomico 16. &#200; un non metallo di multivalent abbondantemente,, insipido, inodore,. Lo zolfo, nella sua forma nativa, &#232; un solido giallo cristallino. Nella natura, pu&#242; essere trovato come l'elemento puro o i come minerali di sulfide e solfato. &#200; un elemento essenziale per la vita ed &#232; trovato in due amminoacidi. I suoi usi commerciali sono principalmente nei fertilizzanti ma in esso molto &#232; anche usato nella polvere da sparo, i fiammiferi, gli insetticidi ed i fungicidi. Lo zolfo (Sanskrit, il sulvari; latino, il sulpur) &#232; stato saputo nei tempi antichi, ed &#232; fatto riferimento a nel Pentateuch Biblico (la Genesi). La parola che s&#233; &#232; probabilmente dal significato di sufra Arabo giallo, dal colore luminoso della forma naturalmente accadendo, sebbene il nome di Sanskrit per lo zolfo, il sulvari potrebbe essere anche interpretato come il significato "il nemico di rame". Le traduzioni inglesi della Bibbia fanno riferimento a comunemente lo zolfo come "zolfo", provocando il nome di 'il Fuoco e lo zolfo' i sermoni, in cui ascoltatori sono ricordato del destino di dannazione eterna che attende il nonbelieving ed unrepented. &#200; da questa parte della Bibbia che quell'Inferno &#232; implicato "di odorare di zolfo", sebbene come menzionato &#232; al di sopra di zolfo infatti inodore. Il "l'odore di zolfo" fa riferimento a di solito l'odore di sulfide di idrogeno, per esempio dalle uova marcie. Lo zolfo bruciante produce il diossido di zolfo, l'odore &#232; frequentato i fiammiferi bruciati. Il Homer ha menzionato lo "zolfo di peste-distogliendo nel BC di secolo 8 ed in 424 BC, la trib&#249; di Beozia ha distrutto i muri di una citt&#224; bruciando un miscuglio di carbone, lo zolfo, ed il catrame sotto loro. Un giorno nel secolo 12, il cinese ha inventato la polvere di pistola che &#232; un miscuglio di nitrato di potassio (KNO3), il carbonio, e lo zolfo. Prima alchimisti hanno dato il suo proprio simbolo alchimistico che era un triangolo in cima a una croce allo zolfo. Non nei tardi 1770, Antoine Lavoisier ha aiutato convince la comunit&#224; scientifica quello zolfo era un elemento ed un composto.</Italian>
+		<Spanish>[TAB]El azufre es el elemento qu&#237;mico en la tabla peri&#243;dica que tiene el S del s&#237;mbolo y el n&#250;mero at&#243;mico 16. Es un abundante, ins&#237;pido, inodoro, polivalente no met&#225;lico. El azufre, en su forma nativa, es un s&#243;lido de cristal amarillo. En la naturaleza, puede ser encontrado como el puro elemento o como minerales de sulfuro y sulfato. Es un elemento esencial para la vida y es encontrado en dos amino&#225;cidos. Sus usos comerciales son principalmente en abonos pero en tambi&#233;n es utilizado extensamente en la p&#243;lvora, los iguales, insecticidas y fungicidas. El azufre (s&#225;nscrito, sulvari; lat&#237;n, sulpur) fue sabido en tiempos antiguos, y es referido a en el Pentateuco B&#237;blico (la G&#233;nesis). La palabra que &#233;l mismo es probablemente del sufra &#225;rabe que significa amarillo, del color brillante de la forma naturalmente ocurriendo, aunque el nombre s&#225;nscrito para el azufre, sulvari pueda ser interpretado tambi&#233;n significando como "enemigo de cobre". Las traducciones inglesas de la Biblia se refieren com&#250;nmente al azufre como "azufre", ocasionando el nombre de sermones de "fuego eterno", en cu&#225;l oyentes es recordado del destino de la condenaci&#243;n eterna que aguarda el nonbelieving y unrepented. Es de esta parte de la Biblia que ese Infierno es implicado "oler a azufre", aunque como mencionado encima de azufre sea de hecho inodoro. El "el olor de azufre" se refiere generalmente al olor de &#225;cido sulfh&#237;drico, por ejemplo de huevos podridos. El azufre del ardor produce el bi&#243;xido de azufre, el olor asociado con quem&#243; los iguales. El chollo mencion&#243; peste-apartando azufre en el siglo VIII AC y en 424 AC, el tribu de Boeotia destruy&#243; las paredes de una ciudad quemando una mezcla de carb&#243;n, del azufre, y del alquitr&#225;n bajo ellos. Alguna vez en el siglo XII, el chino invent&#243; polvo de fusil que es una mezcla del nitrato de potasio (KNO3), el carb&#243;n, y el azufre. Los alquimistas tempranos dieron azufre su propio s&#237;mbolo alqu&#237;mico que fue un tri&#225;ngulo a la cabeza de una cruz. En los tarde 1770, Antoine Lavoisier ayud&#243; a convencer la comunidad cient&#237;fica que ese azufre no fue un elemento y un recinto.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BARLEY</Tag>
+		<English>Barley</English>
+		<French>Orge</French>
+		<German>Gerste</German>
+		<Italian>Orzo</Italian>
+		<Spanish>Cebada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BARLEY_PEDIA</Tag>
+		<English>[TAB]Cultivated barley is descended from wild barley, which grows wild in the Middle East. The earliest finds of wild barley come from Epi-Paleolithic sites in the Levant, beginning in the Natufian. The earliest domesticated barley occurs at Aceramic Neolithic sites such as the layers of Tell Abu Hureyra in Syria. Barley was one of the first crops domesticated in the Near East, at the same time as einkorn and emmer wheat. Barley was, alongside emmer wheat, a staple cereal of ancient Egypt, where it was used to make bread and beer; together, these were a complete diet. The general name for barley is jt (hypothetically pronounced "eat"); &#154;ma (hypothetically pronounced "SHE-ma") refers to Upper Egyptian barley and is a symbol of Upper Egypt. The ritual significance of barley in ancient Greece possibly dates back to the earliest stages of the Eleusinian Mysteries. The preparatory kykeon or mixed drink of the initiates, prepared from barley and herbs, was referred to in the Homeric hymn to Demeter, who was also called "Barley-mother". Greek practice was to dry the barley groats and roast them before preparing the porridge, according to Pliny the Elder's Natural History (xviii.72). This produces malt that soon ferments and becomes slightly alcoholic. Tibetan barley has been the only major staple food in Tibet for centuries. Palaeoethnobotanists have found that barley has been grown in the Korean Peninsula since the Early Mumun Pottery Period (c. 1500-850 B.C.) along with other crops such as millet, wheat, and legumes.</English>
+		<French>[TAB]L'orge cultiv&#233; (H. vulgare) est descendu de l'orge sauvage (Hordeum spontaneum), qui grandit sauvage dans le Moyen-orient. Les deux formes sont diplo&#239;des (2n=14 chromosomes). Comme l'orge sauvage est interfertile avec l'orge domestiqu&#233;e, les deux formes sont souvent trait&#233;es comme une esp&#232;ce, divis&#233; en Hordeum vulgare subsp. spontaneum (sauvage) et subsp. vulgare (domestiqu&#233;). La diff&#233;rence principale entre les deux formes est le rachis fragile de l'ancien, qui rend capable la dispersion de semence dans le sauvage. Les d&#233;couvertes les plus premi&#232;res d'orge sauvage viennent des sites Epi-pal&#233;olithiques dans le Levant, commen&#231;ant dans le Natufian. L'orge domestiqu&#233;e la plus premi&#232;re arrive &#224; Aceramic les sites n&#233;olithiques tels que le (le B DE PPN) les couches de Dit Abu Hureyra dans Syrie. L'orge &#233;tait une des premi&#232;res r&#233;coltes domestiqu&#233;es dans l'Est Proche, en m&#234;me temps comme le bl&#233; de einkorn et emmer. L'orge &#233;tait, &#224; c&#244;t&#233; du bl&#233; de emmer, une c&#233;r&#233;ale d'agrafe d'Egypte ancienne, o&#249; il a &#233;t&#233; utilis&#233; pour faire du pain et la bi&#232;re ; ensemble, ceux-ci &#233;taient un r&#233;gime complet. Le nom g&#233;n&#233;ral pour l'orge est jt (hypoth&#233;tiquement prononc&#233; &#171; mange &#187;) ; &#154;ma (SHE-ma hypoth&#233;tiquement prononc&#233;) r&#233;f&#232;re &#224; l'orge &#233;gyptienne Sup&#233;rieure et est un symbole d'Egypte Sup&#233;rieure. La signification rituelle d'orge dans la Gr&#233;ce antique remonte &#224; probablement les &#233;tapes les plus premi&#232;res des Myst&#232;res de Eleusinian. Le kykeon pr&#233;paratoire ou la boisson m&#233;lang&#233;e de l'inaugure, pr&#233;par&#233; de l'orge et des herbes, a &#233;t&#233; r&#233;f&#233;r&#233; &#224; dans l'hymne Hom&#233;rique &#224; Demeter, qui a &#233;t&#233; aussi appel&#233; l'Orge-M&#232;re. La pratique grecque &#233;tait de s&#233;cher le gruau d'avoine d'orge et les r&#244;tit avant de pr&#233;parer le porridge, selon Pliny l'Histoire Naturel A&#238;n&#233; (xviii.72). Ceci produit le malt qui fermente bient&#244;t et devient l&#233;g&#232;rement alcoolique. L'orge tib&#233;taine a &#233;t&#233; la seule nourriture d'agrafe majeure dans Tibet pour les si&#232;cles. Palaeoethnobotanists a trouv&#233; cette orge a &#233;t&#233; grandie dans la P&#233;ninsule cor&#233;enne depuis la P&#233;riode de Poterie de Mumun Premi&#232;re (c. 1500-850 av. J.-C.) avec les autres r&#233;coltes telles que millet, le bl&#233;, et les l&#233;gumineuses.</French>
+		<German>[TAB]Gepflegte Gerste (H. vulgare) ist von wilder Gerste (Hordeum spontaneum) abgestiegen, die wild im Nahen Osten w&#228;chst. Beide Formen sind diploid (2n= 14 Chromosomen). Als wilde Gerste interfertile mit domestizierter Gerste ist, sind die zwei Formen oft als eine Spezies behandelt, die in Hordeum vulgare subsp geteilt wird,. spontaneum (wild) und subsp. vulgare (domestiziert). Der Hauptunterschied zwischen den zwei Formen ist der spr&#246;d rachis vom ehemaligen, das Samenauflockerung im wilden erm&#246;glicht. Die fr&#252;hesten Funde wilder Gerste kommen von Epi-Pal&#228;olithischen Stellen im Durchbrennt, beginnend im Natufian. Die am fr&#252;hesten domestizierte Gerste findet an Aceramic Jungsteinzeitlichen Stellen statt wie zum Beispiel das (PPN B) Schichten von Erz&#228;hlt Abu Hureyra in Syrien. Gerste war eine der ersten Ernten, die im Nahen Osten domestiziert worden sind, der gleichzeitig als einkorn und der emmer Weizen. Gerste war, l&#228;ngsseits emmer Weizens, eines Heftklammergetreides alten &#196;gyptens, wo es benutzt wurde, Brot und Bier zu machen; zusammen, waren diese eine vollst&#228;ndige Di&#228;t. Der allgemeine Name f&#252;r Gerste ist jt (hypothetisch ausgesprochen &#132;isst&#147;); &#154;ma (hypothetisch ausgesprochen &#132;SHE-ma&#147;) sieht Obere &#228;gyptische Gerste und ist ein Symbol Oberen &#196;gyptens. Die Ritualwichtigkeit der Gerste in altem Griechenland datiert vielleicht zur&#252;ck zu den fr&#252;hesten Phasen dem Eleusinian Geheimnissen. Der vorbereitend kykeon oder hat Getr&#228;nk vom einleitet, vorbereitet von Gerste und Kr&#228;utern, wurde gesehen ins Homerische Kirchenlied zu Demeter gemischt, der auch &#132;Gerstemutter&#147; gerufen wurde. Griechische Praxis sollte die Gerste groats trocknen und sollte sie vor Vorbereiten des Breis, gem&#228;&#223; Pliny die Naturkunde des &#196;lteren (xviii.72) braten. Dies stellt Malz her, das bald g&#228;rt und wird, etwas alkoholisch. Tibetische Gerste ist die einzige Hauptheftklammerspeise in Tibet f&#252;r Jahrhunderte gewesen. Palaeoethnobotanists hat jene Gerste ist gewachsen worden in der koreanischen Halbinsel seit der Fr&#252;hen Mumun T&#246;pferei Periode gefunden (c. 1500-850 B.C.) zusammen mit anderen Ernten wie zum Beispiel Hirse, Weizen, und H&#252;lsenfrucht.</German>
+		<Italian>[TAB]L'orzo coltivato (H. il vulgare) &#232; disceso dall'orzo selvaggio (lo spontaneum di Hordeum), che cresce selvaggio nel Medio Oriente. Entrambe le forme sono delle diploid (2n=14 i cromosomi). L'orzo come selvaggio &#232; l'interfertile con l'orzo reso casaliuto, le due forme sono spesso trattate come una specie, ha diviso nel subsp di vulgare di Hordeum. lo spontaneum (selvaggio) ed il subsp. il vulgare (reso casaliuto). La differenza principale tra le due forme &#232; il rachis fragile del precedente, che permette la dispersione di semenza nel selvaggio. Le prima scoperte di orzo selvaggio vengono dai luoghi Epi-Paleolitici nel Levante, iniziando nel Natufian. Il presto ha reso casalingo l'orzo accade al Neolitico di Aceramic situa come il (PPN B) gli strati di Dice Hureyra a Abu in Siria. L'orzo era uno dei primi raccolti resi casaliuto nel Vicino Oriente, allo stesso tempo come il frumento di einkorn ed emmer. L'orzo era, accanto il frumento di emmer, un unisce con cucitrice il cereale di Egitto antico, dove &#232; stato usato per fare il pane e la birra; insieme, questi erano una dieta completa. Il nome generale per l'orzo &#232; il jt (ipoteticamente pronunciato "mangia"); &#154;il ma (il SHE-ma ipoteticamente pronunciato) fa riferimento all'orzo Superiore egiziano ed &#232; un simbolo di Egitto Superiore. Il significato rituale di orzo in Grecia antica forse date sostengono ai prima palcoscenici dei Misteri di Eleusinian. Il kykeon preparatorio o la bevanda mescolata dell'inizia, preparato dall'orzo e dalle erbe, &#232; stato fatto riferimento a nell'inno Omerico a Demeter, che &#232; stato anche chiamato l'Orzo-Madre. La pratica greca era asciugare le monete d'argento di orzo e loro arrostisce prima di preparare la crema d'avena, secondo Pliny la storia naturale dell'Anziano (xviii.72). Questo produce il malto che fermenta presto e diventa un po'alcoolico. L'orzo tibetano &#232; stato il solo maggiore unisce con cucitrice il cibo in Tibet per i secoli. Il Palaeoethnobotanists ha trovato quell'orzo &#232; stato cresciuto nella Penisola coreana dal Prima Periodo di Terraglie di Mumun (c. 1500-850 A.C.) con gli altri raccolti come il miglio, col frumento, e con i legumi.</Italian>
+		<Spanish>[TAB]La cebada cultivada (H. vulgare) es descendido de la cebada silvestre (spontaneum de Hordeum), que crece salvajemente en el Oriente Medio. Ambas formas son los cromosomas (2n=14 diploides). Cuando cebada silvestre es interfertile con domestic&#243; cebada, las dos formas a menudo se tratan como una especie, dividido en el subsp de vulgare de Hordeum. spontaneum (tierra virgen) y subsp. vulgare (domestic&#243;). La diferencia principal entre las dos formas es el rachis quebradizo del anterior, que permite la dispersi&#243;n de la semilla en la tierra virgen. Los hallazgos m&#225;s tempranos de cebada silvestre vienen de sitios Epi-paleol&#237;ticos en el Oriente Medio, empezando en el Natufian. El domestic&#243; temprano cebada ocurre en Aceramic los sitios Neol&#237;ticos tales como el (PPN B) capas de Dice Abu Hureyra en Siria. La cebada era uno de las primeras cosechas domestic&#243; en el Cercano Oriente, a la vez que trigo de einkorn y emmer. La cebada era, al costado trigo de emmer, un cereal b&#225;sico de Egipto antiguo, donde lo se utiliz&#243; para hacer pan y cerveza; junto, &#233;stos eran una dieta completa. El nombre general para la cebada es jt (hipot&#233;ticamente pronunciado "come"); &#154;ma (SHE-ma hipot&#233;ticamente pronunciado) se refiere a la cebada egipcia Superior y es un s&#237;mbolo de Alto Egipto. El significado ritual de cebada en Grecia antigua antedata posiblemente a las etapas m&#225;s tempranas de los Misterios de Eleusinian. El kykeon preparatorio o la bebida mezclada del inicia, preparado de la cebada e hierbas, se refiri&#243; a en el himno Hom&#233;rico a Demeter, que se llam&#243; tambi&#233;n a Cebada-Madre. La pr&#225;ctica griega deb&#237;a secar la avena de cebada y los asa antes de preparar el caldo, seg&#250;n Pliny la Historia (xviii.72 Natural del Anciano). Esto produce malta que pronto fermenta y llega a ser levemente alcoholica. La cebada tibetana ha sido el &#250;nico alimento b&#225;sico mayor en Tibet por siglos. Palaeoethnobotanists ha encontrado que esa cebada se ha crecido en la Pen&#237;nsula coreano desde que el Per&#237;odo Temprano de Alfarer&#237;a de Mumun (C. 1500-850 aC) junto con otras cosechas tales como mijo, el trigo, y las legumbres.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HONEY</Tag>
+		<English>Honey</English>
+		<French>
+			<Text>Miel</Text>
+			<Gender>Neuter</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Honig</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</German>
+		<Italian>
+			<Text>Miele</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Miel</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HONEY_PEDIA</Tag>
+		<English>[TAB]Honey is a sweet aliment produced by honey bees and derived from the nectar of flowers. Humans began hunting for honey at least 10,000 years ago, which is evidenced by a cave painting in Valencia, Spain. The painting is a Mesolithic rock painting, showing two female honey-hunters collecting honey and honeycomb from a wild bee hive. [PARAGRAPH:1]In the Middle Ages, honey was used as a sweetener, a medicine, a preservative and a basic ingredient of mead (a popular alcoholic beverage). The flavor of poor-quality wine could be also concealed by the addition of honey and spices. Another honey bee product, beeswax, was used in medicine, waterproofing and candlemaking. In the Middle Ages both honey and beeswax were considered valuable enough to become a form of currency.</English>
+		<French>[TAB]Honey is a sweet aliment produced by honey bees and derived from the nectar of flowers. Humans began hunting for honey at least 10,000 years ago, which is evidenced by a cave painting in Valencia, Spain. The painting is a Mesolithic rock painting, showing two female honey-hunters collecting honey and honeycomb from a wild bee hive. [PARAGRAPH:1]In the Middle Ages, honey was used as a sweetener, a medicine, a preservative and a basic ingredient of mead (a popular alcoholic beverage). The flavor of poor-quality wine could be also concealed by the addition of honey and spices. Another honey bee product, beeswax, was used in medicine, waterproofing and candlemaking. In the Middle Ages both honey and beeswax were considered valuable enough to become a form of currency.</French>
+		<German>[TAB]Honey is a sweet aliment produced by honey bees and derived from the nectar of flowers. Humans began hunting for honey at least 10,000 years ago, which is evidenced by a cave painting in Valencia, Spain. The painting is a Mesolithic rock painting, showing two female honey-hunters collecting honey and honeycomb from a wild bee hive. [PARAGRAPH:1]In the Middle Ages, honey was used as a sweetener, a medicine, a preservative and a basic ingredient of mead (a popular alcoholic beverage). The flavor of poor-quality wine could be also concealed by the addition of honey and spices. Another honey bee product, beeswax, was used in medicine, waterproofing and candlemaking. In the Middle Ages both honey and beeswax were considered valuable enough to become a form of currency.</German>
+		<Italian>[TAB]Honey is a sweet aliment produced by honey bees and derived from the nectar of flowers. Humans began hunting for honey at least 10,000 years ago, which is evidenced by a cave painting in Valencia, Spain. The painting is a Mesolithic rock painting, showing two female honey-hunters collecting honey and honeycomb from a wild bee hive. [PARAGRAPH:1]In the Middle Ages, honey was used as a sweetener, a medicine, a preservative and a basic ingredient of mead (a popular alcoholic beverage). The flavor of poor-quality wine could be also concealed by the addition of honey and spices. Another honey bee product, beeswax, was used in medicine, waterproofing and candlemaking. In the Middle Ages both honey and beeswax were considered valuable enough to become a form of currency.</Italian>
+		<Spanish>[TAB]Honey is a sweet aliment produced by honey bees and derived from the nectar of flowers. Humans began hunting for honey at least 10,000 years ago, which is evidenced by a cave painting in Valencia, Spain. The painting is a Mesolithic rock painting, showing two female honey-hunters collecting honey and honeycomb from a wild bee hive. [PARAGRAPH:1]In the Middle Ages, honey was used as a sweetener, a medicine, a preservative and a basic ingredient of mead (a popular alcoholic beverage). The flavor of poor-quality wine could be also concealed by the addition of honey and spices. Another honey bee product, beeswax, was used in medicine, waterproofing and candlemaking. In the Middle Ages both honey and beeswax were considered valuable enough to become a form of currency.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TIMBER</Tag>
+		<English>Timber</English>
+		<French>Timber</French>
+		<German>Timber</German>
+		<Italian>Timber</Italian>
+		<Spanish>Timber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TIMBER_PEDIA</Tag>
+		<English>[TAB]Lumber or timber is wood that is used in any of its stages from felling through readiness for use as structural material for construction, or wood pulp for paper production. Lumber is supplied either rough or finished. Besides pulpwood, rough lumber is the raw material for furniture-making and other items requiring additional cutting and shaping. It is available in many species, usually hardwoods. Finished lumber is supplied in standard sizes, mostly for the construction industry, primarily softwood from coniferous species including pine, fir and spruce (collectively known as Spruce-pine-fir), cedar, hemlock, but also some hardwood, for high-grade flooring.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TAR</Tag>
+		<English>Tar</English>
+		<French>Tar</French>
+		<German>Tar</German>
+		<Italian>Tar</Italian>
+		<Spanish>Tar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TAR_PEDIA</Tag>
+		<English>[TAB]When coal or other high-carbon deposits are heated in a vacuum, such as in underground pockets, tar is the result. Tar has many construction and military applications, from use as a tough glue to a primitive liquid fuel to one of the alleged ingredients of Greek fire.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DATES</Tag>
+		<English>Dates</English>
+		<French>Dattes</French>
+		<German>Datteln</German>
+		<Italian>Datteros</Italian>
+		<Spanish>Dátiles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DATES_PEDIA</Tag>
+		<English>[TAB]Dates have been a staple food of the Middle East for thousands of years. It is believed to have originated around the Persian Gulf, and has been cultivated in ancient times from Mesopotamia to prehistoric Egypt, possibly as early as 6,000 BC. There is archeological evidence of cultivation in eastern Arabia in 4,000 BC. In later times, Arabs spread dates around northern Africa and into Spain.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CITRUS</Tag>
+		<English>Citrus</English>
+		<French>
+			<Text>Agrume</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Zitrus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cedro</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>C&#237;tricos</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CITRUS_PEDIA</Tag>
+		<English>[TAB]Citrus is a common term for a genus of flowering plant in the family "Rutaceae." The fruit of the citrus plant is readily edible. The genus contains many familiar plants: oranges, lemons, limes, grapefruits, etc. Citrus fruits are notable for their fragrance and contain a great deal of juice inside. Citrus plants do not grow well in colder temperatures and can be easily killed by even short periods of frost. [PARAGRAPH:1]Citrus plants originated in Southeast Asia, where they have been cultivated for food for thousands of years. From there, cultivation of citrus plants slowly spread to the west, first to northern Africa. By around 500 AD, citrus plants appeared in southern Europe, and by the Middle Ages, citrus fruit cultivation was thriving around the entire Mediterranean.</English>
+		<French>[TAB]"Agrume" est le terme commun pour d&#233;signer une esp&#232;ce de plantes &#224; fleurs de la famille des Rutaceae dont le fruit est comestible. L'esp&#232;ce regroupe de nombreuses plantes famili&#232;res : les oranges, les citrons et citrons verts, les pamplemousses, etc. Il n'existe en fait que trois esp&#232;ces d'agrumes (Citrus maxima, Citrus medica et Citrus reticulata); les nombreux types de fruits possibles proviennent de croisements hybrides entre les trois esp&#232;ces originales. Ces fruits sont r&#233;put&#233;s pour leur parfum et leur jus, ils sont tr&#232;s acides et contiennent beaucoup de vitamine C. Les agrumes poussent mal dans les climats trop froids et sont tr&#232;s sensibles au gel. [PARAGRAPH:2]Les agrumes sont originaires d'Asie du Sud-est, o&#249; ils sont cultiv&#233;s depuis des milliers d'ann&#233;es. La culture se r&#233;pand ensuite vers l'ouest, se d&#233;veloppant d'abord en Afrique du nord. Aux alentours de l'an 500 de notre &#232;re, des agrumes apparaissent en Europe du sud, et vers le Moyen-&#226;ge, la culture des agrumes est florissante dans toute la M&#233;diterran&#233;e. Les Espagnols et les Portugais introduisent la plante en Am&#233;rique au cours de leurs explorations, et ces plantes se sont depuis r&#233;pandues sous les climats chauds du Nouveau Monde. [PARAGRAPH:2]Le commerce international d'agrumes s'est d&#233;velopp&#233; depuis d&#233;j&#224; deux si&#232;cles, l'Espagne y occupant une position dominante depuis relativement peu de temps. Aujourd'hui, on cultive des agrumes dans le monde entier, les principales r&#233;gions de production incluant notamment la Chine, la r&#233;gion m&#233;diterran&#233;enne, l'Afrique du Sud, l'Australie, une partie de l'Am&#233;rique du Sud et le sud des Etats-Unis.</French>
+		<German>[TAB]Die Pflanzengattung der Zitrusgewächse gehört zu der Familie der "Rutaceae". Die Früchte der Zitruspflanzen, wie zum Beispiel Orangen, Zitronen, Limonen, Pampelmusen etc., sind unbehandelt sofort nach der Ernte zum Verzehr geeignet. Es gibt lediglich drei Grundgattungen von Zitrusgewächsen: Citrus maxima, Citrus medica und Citrus reticulata. Alle Arten von Zitrusfrüchten, die es heute gibt, entstammen Hybridkreuzungen dieser ursprünglichen drei Gattungen. Zitrusfrüchte zeichnen sich vor allem durch ihren Wohlgeruch aus und enthalten sehr viel Saft, der relativ säurehaltig ist und viel Vitamin C enthält. Die kälteempfindlichen Zitruspflanzen gedeihen bei niedrigeren Temperaturen nicht besonders gut und sterben selbst in kurzen Frostperioden ab. [PARAGRAPH:2]Ursprünglich stammen die Zitrusgewächse aus Südostasien, wo sie seit Tausenden von Jahren als Nahrungsmittelpflanzen kultiviert werden. Von hier aus gelangten sie langsam nach Westen, zunächst nach Nordafrika. Um 500 nach Christus kamen die Zitruspflanzen erstmals auch in Südeuropa auf und im Mittelalter setzte sich der Anbau von Zitrusfrüchten im gesamten Mittelmeerraum durch. Nachdem die Spanier und Portugiesen diese Pflanzen im Rahmen ihrer Forschungsreisen bis nach Amerika gebracht hatten, fanden sie in den äquatorialen Klimata der Neuen Welt immer größere Verbreitung. [PARAGRAPH:2]Mittlerweile wird seit mehr als zwei Jahrhunderten internationaler Handel mit Zitrusfrüchten betrieben, wobei der Markt bis vor kurzem noch von Spanien angeführt wurde. Heute werden Zitrusfrüchte auf der ganzen Welt angebaut. Die größten kommerziellen Anbaugebiete sind in China, dem Mittelmeerraum, Südafrika, Australien, Teilen von Südamerika und im Süden der Vereinigten Staaten von Amerika zu finden.</German>
+		<Italian>[TAB]&quot;Agrume&quot; è un termine comune che indica un genere di piante da fiore della famiglia delle &quot;rutaceae&quot;. Il frutto della pianta d'agrume è direttamente commestibile. Gli agrumi comprendono molte piante familiari: arance, limoni, limette, pompelmi, ecc. in realtà vi sono solo tre tipi di piante d'agrumi (citrus maxima, citrus medica e citrus reticulata): i vari tipi di frutta derivano da incroci ibridi tra le tre piante originali. Gli agrumi sono noti per la loro fragranza e sono molto succosi. Sono anche molto acidi e contengono grandi quantità di vitamina C. Gli agrumi non crescono bene nei climi freddi ed è sufficiente un breve periodo di freddo intenso perché la pianta muoia. [PARAGRAPH:2]Gli agrumi sono originari del sudest asiatico, dove sono stati coltivati per millenni a fini alimentari. Da lì, la coltivazione degli agrumi si è lentamente diffusa verso ovest, soprattutto nell'Africa del nord. Intorno al 500 d.C., gli agrumi fecero la loro comparsa nell'Europa meridionale e nel Medioevo erano ormai diffusi in tutto il Mediterraneo. Nei loro viaggi di esplorazione, gli Spagnoli e i Portoghesi portarono gli agrumi nelle Americhe, nei cui climi equatoriali le piante hanno trovato un habitat favorevole. [PARAGRAPH:2]Il commercio internazionale degli agrumi va ormai avanti da oltre due secoli. Fino a tempi relativamente recenti era la Spagna a dominare il mercato. Oggi gli agrumi crescono in tutto il mondo e tra i maggiori produttori vi sono la Cina, il bacino del Mediterraneo, il Sudafrica, l'Australia, alcune regioni del Sud America e gli stati meridionali degli USA.</Italian>
+		<Spanish>[TAB]&quot;Cítricos&quot; es el término común que se reserva para un género de plantas de la familia &quot;Rutaceae&quot;. La fruta de estas plantas puede consumirse sin necesidad de transformación. El género contiene muchas plantas bien conocidas: naranjas, limones, limas, pomelos, etc. En realidad, solo existen tres especies de plantas cítricas (Citrus maxima, Citrus medica, y Citrus reticulata). Las diferentes especies que nosotros conocemos son híbridos entre estas tres. Las frutas cítricas se caracterizan por su fragancia y por la gran cantidad de zumo que contienen. Además de muy ácidas, son una magnífica fuente de vitamina C. Los cítricos no se cultivan bien en los climas fríos, y pueden sucumbir fácilmente a períodos muy cortos de frío. [PARAGRAPH:2]Las plantas cítricas se originaron en el sudeste asiático, donde se han cultivado como alimento durante miles de años. Desde allí, su cultivo se difundió lentamente en dirección oeste, primero al norte de África. Alrededor del 500 d. C., los cítricos aparecieron en el sur de Europa y en la Edad Media se habían consolidado por todo el Mediterráneo. Los españoles y portugueses introdujeron los cítricos en las Américas durante sus viajes de exploración, y desde entonces han florecido en los climas ecuatoriales del Nuevo Mundo. [PARAGRAPH:2]El comercio internacional de cítricos lleva existiendo más de dos siglos, y España ha ocupado la posición dominante hasta hace relativamente poco tiempo. En la actualidad, las frutas cítricas se cultivan en todo el planeta y las principales áreas de producción comercial son China, el Mediterráneo, Sudáfrica, Australia, algunas regiones de Sudamérica y el sur de los Estados Unidos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HEMP</Tag>
+		<English>Hemp</English>
+		<French>
+			<Text>Chanvre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hanf</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Canapa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>C&#225;&#241;amo</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HEMP_PEDIA</Tag>
+		<English>[TAB]Hemp is a common name for the cannabis plant, and it is the term usually used when the plant is grown for non-drug-related purposes. Hemp is an incredibly versatile plant that can be used in a variety of different ways. Seventy percent of the cannabis plant's total weight is made up of the "hurd", or woody inner core, which can be used in housing construction. Hemp can also be grown for food: typically, the hemp seeds are processed to create oil, which can then be used in a number of different stages in the preparation of food. [PARAGRAPH:1]The fibers of the hemp plant are strong, durable, and water-proof, and in the past they have often been used to create ropes, sacking, carpets, nets, webbing, and so forth. The plant is also believed to have a number of medicinal uses, although this is a subject of some controversy. [PARAGRAPH:1]It is believed that humans have been using hemp for various purposes for at least 10,000 years. Chinese records indicate that hemp was in use by 3000 BC for medical purposes, and Indian legends first mention the plant at a similar date. By 500 BC, hemp cultivation was widespread throughout China and Persia, when the plant was primarily used for making linens. Hemp spread to Europe sometime around 1000 AD, where it was widely used to make many items of everyday use. The European voyages of exploration brought the plant to the New World, where it spread rapidly. Hemp was a major legitimate cash crop in the United States until the twentieth century. At one time hemp may have been the most widely cultivated crop in the world. [PARAGRAPH:1]Hemp can also be used to create a variety of mind-altering drugs. While some societies have believed that these drugs are basically harmless or even of medical benefit, many today see the drugs as very dangerous, and currently it is illegal to grow hemp in a number of countries - including the United States. In recent years, however, several countries that had previously banned the plant have changed their laws to allow commercial production to resume.</English>
+		<French>[TAB]Le chanvre est le nom commun du cannabis, et c'est le terme que l'on utilise pour &#233;voquer une plante cultiv&#233;e dans un but autre qu'hallucinog&#232;ne. C'est une plante aux qualit&#233;s multiples, qui peut &#234;tre employ&#233;e de nombreuses mani&#232;res. 70% du poids total de la plante est compos&#233; de fibres qui peuvent &#234;tre utilis&#233;es dans les chantiers de construction. Le chanvre peut aussi &#234;tre cultiv&#233; comme aliment, ses graines &#233;tant trait&#233;es pour produire de l'huile susceptible d'&#234;tre employ&#233;e &#224; diff&#233;rents stades de la pr&#233;paration d'un repas. [PARAGRAPH:2]Les fibres du chanvre sont tr&#232;s solides, r&#233;sistantes au temps et imperm&#233;ables, ce qui explique qu'on s'en soit souvent servi pour tisser des cordes, des toiles de sac, des tapis, des filets, et bien d'autres choses encore. La plante aurait aussi un certain nombre de qualit&#233;s m&#233;dicinales, m&#234;me si cela fait l'objet de controverses. [PARAGRAPH:2]On pense que les humains font diff&#233;rentes usages du chanvre depuis au moins 10 000 ans. On trouve trace dans des manuscrits chinois de l'utilisation de la plante d&#232;s 3000 av. J.-C. dans un but m&#233;dical, et les l&#233;gendes indiennes la mentionnent pour la premi&#232;re fois &#224; peu pr&#232;s au m&#234;me moment. En 500 av. J.-C., la culture du chanvre s'est d&#233;velopp&#233;e &#224; travers la Chine et la Perse, la plante &#233;tant surtout utilis&#233;e pour fabriquer du lin. Le chanvre arrive en Europe en l'an 1000 environ, o&#249; il est g&#233;n&#233;ralement utilis&#233; pour fabriquer des objets de tous les jours. Les voyages d'exploration europ&#233;ens am&#232;nent la plante dans le Nouveau Monde o&#249; elle se r&#233;pand rapidement. Le chanvre est cultiv&#233; de mani&#232;re intensive et tout &#224; fait l&#233;galement aux Etats-Unis jusqu'au vingti&#232;me si&#232;cle. Il est tr&#232;s possible qu'&#224; un moment donn&#233;, le chanvre ait &#233;t&#233; la plante la plus cultiv&#233;e au monde. [PARAGRAPH:2]Le chanvre est naturellement utilis&#233; pour produire une vari&#233;t&#233; de substances hallucinog&#232;nes. M&#234;me si certaines soci&#233;t&#233;s consid&#232;rent que ces drogues sont pratiquement inoffensives pour la sant&#233;, voire b&#233;n&#233;fiques, d'autres pensent qu'elles sont tr&#232;s dangereuses, et il est actuellement ill&#233;gal de cultiver du chanvre dans de nombreux pays, dont les Etats-Unis. Ces derni&#232;res ann&#233;es, plusieurs pays qui interdisaient pr&#233;c&#233;demment cette plante ont modifi&#233; leur l&#233;gislation pour autoriser une production commerciale.</French>
+		<German>[TAB]Hanf ist die gebräuchlichere Bezeichnung für die Cannabispflanze, wenn die Nutzpflanze und nicht die Rauschpflanze gemeint ist. Hanfgewächse lassen sich für viele Zwecke einsetzen. Die inneren Holzstängel, die auch für Baumaterialien verwertet werden, machen etwa 70% des Gesamtgewichts der Pflanze aus. Aus den Samen der Hanfpflanze wird Öl gewonnen, das keine berauschende Wirkung hat und daher häufig für die Nahrungszubereitung verwendet wird. [PARAGRAPH:2]Die Fasern der Hanfpflanze sind sehr widerstandsfähig und wasserfest und wurden in der Vergangenheit zur Herstellung von Seilen, Textilien, Teppichen, Netzen, Zellstoffen etc. verwendet. Darüber hinaus werden der Pflanze auch diverse Heilwirkungen nachgesagt, wenngleich dieses Thema bis heute umstritten ist. [PARAGRAPH:2]Man nimmt an, dass die Menschen die Hanfpflanze schon seit mindestens 10.000 Jahren für diverse Anwendungen nutzen. Chinesischen Aufzeichnungen zufolge wurde Hanf dort bereits um 3000 vor Christus für medizinische Zwecke eingesetzt und auch in indischen Quellen findet die Pflanze bereits in diesem Zeitraum Erwähnung. Bis 500 vor Christus war der Hanfanbau in ganz China und Persien weit verbreitet, vorwiegend in der Textilherstellung. In Europa wurden die Hanfgewächse um 1000 nach Christus vermehrt eingesetzt und vielfach für die Fertigung alltäglicher Gegenstände genutzt. Die Forschungsreisenden aus Europa brachten die Pflanze schließlich auch in die Neue Welt, wo sie ebenfalls schnelle Verbreitung fand. Bis zum 20. Jahrhundert hatte Hanf den Status eines bedeutenden, legalen Agrarprodukts, mit dem sich schnelle Umsätze erzielen ließen. Es liegt durchaus im Bereich des Möglichen, dass die Hanfpflanze zeitweise sogar das am meisten angebaute Agrarprodukt war. [PARAGRAPH:2]Neben all den anderen, ungefährlichen Anwendungsmöglichkeiten lässt sich Hanf auch zu einer Reihe von halluzigenen Drogen verarbeiten. Anders als in früheren Gesellschaftsformen, in denen derartige Drogen im Grunde als harmlos oder sogar heilsam galten, werden sie heute vielfach als sehr gefährlich eingestuft. Dementsprechend ist der Anbau der Hanfpflanze in vielen Ländern, einschließlich der Vereinigten Staaten von Amerika, gesetzlich verboten. Allerdings haben in den letzten Jahren zahlreiche Länder, in denen die Pflanze zuvor grundsätzlich verboten war, ihre Gesetzgebung jedoch dahingehend abgeändert, dass der kommerzielle Anbau nun wieder möglich ist.</German>
+		<Italian>[TAB]&quot;Canapa&quot; è il nome con cui comunemente si chiama la canapa indiana (o cannabis) quando la pianta è coltivata per scopi non legati alla droga. La canapa è una pianta incredibilmente versatile, sfruttabile in parecchi modi differenti. Il settanta percento del peso complessivo della pianta viene dal suo cuore legnoso, utilizzabile in lavori di carpenteria; la pianta ha anche usi alimentari, visto che dai suoi semi si ricava dell'olio, a sua volta utilizzabile in varie fasi della preparazione dei cibi. [PARAGRAPH:2]Le fibre della canapa sono forti, resistenti e impermeabili, tanto che in passato le si usavano per fabbricare corde, sacchi, tappeti, reti, tessuti e così via. Si ritiene inoltre che questa pianta abbia anche un'utilità medica, anche se la tesi è oggetto di controversie. [PARAGRAPH:2]Si ritiene che l'uomo utilizzi la canapa da almeno 10.000 anni e per gli scopi più vari. I documenti cinesi ne registrano l'uso a fini medici già nel 3000 a.C. e le leggende indiane fanno menzione della pianta in tempi coincidenti. Nel 500 a.C. la coltivazione della canapa era diffusa in tutta la Cina e in tutta la Persia, dove la pianta veniva usata soprattutto per tessere la biancheria. La canapa si diffuse anche in Europa intorno all'anno 1000 ed era utilizzata per creare molti oggetti di uso quotidiano. I viaggi di esplorazione europei portarono la pianta nel Nuovo Mondo, dove si diffuse rapidamente. Negli Stati Uniti la canapa è stata una coltivazione molto redditizia fino al ventesimo secolo. Si ritiene che a un certo punto la canapa dovette essere la pianta più coltivata al mondo. [PARAGRAPH:2]La canapa pu&#242; anche essere usata per creare droghe che alterano la mente. Alcune società hanno creduto che queste droghe fossero sostanzialmente innocue o persino benefiche da un punto di vista medico, ma oggi le droghe sono reputate in generale pericolose e attualmente la coltivazione della canapa è illegale in diversi paesi, tra cui gli Stati Uniti. Ultimamente per&#242;, diversi stati che prima l'avevano bandita sono tornate a permetterne la produzione commerciale.</Italian>
+		<Spanish>[TAB]Cáñamo es el nombre común con el que se conoce a la planta del cannabis y el que normalmente se emplea cuando la planta se cultiva sin fines narcóticos. El cáñamo es una planta increíblemente versátil que puede utilizarse de muchas formas diferentes. El setenta por ciento del peso total de la planta del cannabis corresponde al &quot;corazón&quot;, el centro nudoso que puede utilizarse en la construcción de edificios. Además, el cáñamo es comestible: de sus semillas puede extraerse un aceite que puede utilizarse en diferentes técnicas de cocina. [PARAGRAPH:2]Además de ser muy duras y resistentes, las fibras de la planta son impermeables y en el pasado se utilizaban para fabricar cuerdas, sacos, alfombras, redes, lazos y cosas así. También se cree que la planta tiene propiedades medicinales, aunque esto es objeto de controversia. [PARAGRAPH:2]Se cree que los humanos llevan utilizando el cáñamo con diferentes fines desde hace al menos diez mil años. Las fuentes chinas indican que ya se usaba con fines medicinales en el año 3000 a. C. y las leyendas hindúes hacen su primera mención de la planta en fecha similar. Alrededor del 500 a. C., el cultivo del cáñamo estaba generalizado por toda China y Persia, donde se utilizaba principalmente para la fabricación de sábanas, servilletas, manteles, etc. La planta pasó a Europa alrededor del 1000 d. C., donde se utilizó para fabricar numerosos objetos de uso cotidiano. Los exploradores europeos la llevaron al Nuevo Mundo, donde se extendió con rapidez. El cáñamo fue uno de los cultivos más importantes (y fructíferos) de los Estados Unidos hasta el siglo XX. Es muy posible que en algún momento llegara a ser la planta más cultivada del mundo. [PARAGRAPH:2]Además, el cáñamo puede usarse también para la producción de varias drogas psicotrópicas. Aunque algunas sociedades han creído que estos narcóticos eran inofensivos o incluso beneficiosos, en la actualidad, y desde el punto de vista médico, mucha gente los considera peligrosos. En muchos países (incluidos los Estados Unidos) su cultivo es ilegal. Sin embargo, en los últimos años, varios países que habían prohibido la planta han modificado las leyes para permitir que se reanudara su producción comercial.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SALT</Tag>
+		<English>Salt</English>
+		<French>
+			<Text>Sel</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Salz</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sale</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sal</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SALT_PEDIA</Tag>
+		<English>[TAB]Salt has been one of the most valued commodities in the history of mankind - among other reasons, humans need a certain amount of salt in their diet to survive. Humans have been harvesting salt for thousands of years; the practice started in the dim recesses of history, long before any written records were made. [PARAGRAPH:1]One of salt's greatest properties is its ability to preserve food. Before the development of reliable refrigeration, one of the few known ways to keep food from becoming inedible was to apply salt, which delays or prevents microbial invasion. (Some kinds of foods can also by preserved by "smoking" them.) In addition to its preservative qualities, salt also simply makes food taste better. [PARAGRAPH:1]One of the earliest-discovered methods of harvesting salt was by evaporating seawater under the sun, a very tedious and expensive process, leading to high prices for this important good. It wouldn't be until the mid-nineteenth century - when salt mining was widely practiced across the world - that this commodity would become much less expensive, no longer "worth its weight in gold," as it was commonly described.</English>
+		<French>[TAB]Le sel est l'un des produits de base les plus convoit&#233;s de l'histoire de l'humanit&#233;, entre autres raisons parce que les humains ont besoin d'en absorber une certaine quantit&#233; pour vivre. L'homme r&#233;colte le sel depuis des milliers d'ann&#233;es, une pratique initi&#233;e au fin fond des recoins obscurs de son histoire, bien avant que l'&#233;criture n'ait &#233;t&#233; invent&#233;e. [PARAGRAPH:2]L'une des grandes propri&#233;t&#233;s du sel est sa capacit&#233; de conservation des aliments. Avant l'invention et le d&#233;veloppement de la r&#233;frig&#233;ration, l'un des rares moyens de conserver la nourriture est de la saler abondamment, ce qui retarde ou emp&#234;che les bact&#233;ries de s'y d&#233;velopper (il &#233;tait aussi possible de conserver certains aliments en les fumant). Par ailleurs, le sel donne plus de go&#251;t &#224; la nourriture. [PARAGRAPH:2]L'un des premiers moyens d&#233;couverts pour la r&#233;colte du sel est la m&#233;thode d'&#233;vaporation au soleil, un processus co&#251;teux et fastidieux, qui produit un sel cher. Il faut attendre la moiti&#233; du XIXe si&#232;cle et l'exploitation du sel r&#233;pandue dans le monde entier pour que ce produit de base devienne bien meilleur march&#233; et cesse de parfois co&#251;ter son poids en or, comme on avait l'habitude de l'affirmer.</French>
+		<German>[TAB]Salz gehörte in der Geschichte der Menschheit stets zu den wertvollsten Gütern überhaupt, nicht zuletzt auch deshalb, weil der menschliche Körper einen bestimmten Salzgehalt über die Nahrung aufnehmen muss, um überleben zu können. Dementsprechend setzten sich die Menschen schon vor Tausenden von Jahren, weit vor der Geschichtsschreibung, mit der Salzgewinnung auseinander. [PARAGRAPH:2]Eine der wichtigsten Eigenschaften des Salzes ist, dass es bakteriellen Befall verzögert oder gar verhindert und daher verwendet werden kann, um Lebensmittel haltbarer zu machen. Dementsprechend wurden Nahrungsmittel in der Zeit vor der Verfügbarkeit zuverlässiger Kühlsysteme durch Zufügen von Salz vor dem Verrotten bewahrt. (Für manche Lebensmittel ist jedoch die "Räuchermethode" besser geeignet.) Darüber hinaus diente Salz aber natürlich auch als Würzmittel. [PARAGRAPH:2]Eine der frühesten Salzgewinnungsmethoden war es, Salzwasser in der Sonne verdunsten zu lassen - ein sehr langwieriger und aufwändiger Prozess, der den Preis für dieses wichtige Gut rasant in schwindelnde Höhen schnellen ließ. Erst Mitte des 19. Jahrhunderts, als der Salzabbau schließlich in der ganzen Welt praktiziert wurde, rückten auch die Preise wieder in erschwingliche Bereiche und Salz musste nicht mehr sprichwörtlich "in Gold aufgewogen" werden. </German>
+		<Italian>[TAB]Il sale è sempre stato uno dei beni più preziosi della storia dell'umanità: tra le altre cose, l'uomo ha bisogno di una certa quantità di sale nella dieta per sopravvivere. L'uomo ha prodotto il sale per migliaia di anni, sin dall'inizio della storia e anzi molto prima che esistessero documenti scritti. [PARAGRAPH:2]Una della più notevoli proprietà del sale è quella di preservare i cibi. Prima dello sviluppo di un sistema di refrigerazione affidabile, oltre all'affumicazione uno dei pochi modi conosciuti per evitare che il cibo andasse a male era metterlo sotto sale (il sale ostacola o impedisce l'accumulo di batteri); senza contare che oltre a conservare il cibo, esso ne esalta il sapore. [PARAGRAPH:2]Uno dei primi metodi scoperti per produrre il sale fu far evaporare l'acqua marina al sole, un procedimento lungo e costoso che manteneva alto il prezzo del sale. Solo alla metà del diciannovesimo secolo (quando le miniere di sali erano ormai comuni in tutto il mondo) il prezzo del sale scese sensibilmente e il sale smise di costare &quot;tanto oro quanto pesava&quot;, come si diceva allora. </Italian>
+		<Spanish>[TAB]La sal ha sido una de las mercancías más valiosas de la historia de la humanidad: entre otras razones, los hombres necesitan cierta cantidad de sal en su dieta para sobrevivir. Se lleva extrayendo miles de años. La práctica se inició al principio de los tiempos, mucho antes de que existieran registros escritos. [PARAGRAPH:2]Una de las más importantes propiedades de la sal es su capacidad para conservar la comida. Antes de que se inventaran sistemas de refrigeración fiables, una de las pocas formas conocidas para impedir que la comida se estropeara era aplicar una capa de sal, capaz de demorar o prevenir las invasiones microbianas (algunos tipos de comida pueden ser preservados ahumándolos). Además de estas propiedades, la sal hace que las cosas sepan mejor. [PARAGRAPH:2]Uno de los métodos más antiguos para extraer sal era la evaporación del agua del mar, un proceso tedioso y caro que encarecía los precios de esta importante mercancía. No sería hasta mediados del siglo XIX, con la extensión de la minería de la sal por todo el mundo, cuando esta mercancía bajara su precio y dejara de valer &quot;su peso en oro&quot;, como solía decirse. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COTTON</Tag>
+		<English>Cotton</English>
+		<French>
+			<Text>Coton</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Baumwolle</German>
+		<Italian>
+			<Text>Cotone</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Algod&#243;n</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COTTON_PEDIA</Tag>
+		<English>[TAB]Important for production of cloth, cotton is a soft fiber which can be extracted from cotton plants. After removal from the plant, the fibers are processed to remove seeds and wax, and then they are spun into threads. Cotton grows well in both tropical and warm temperate climates, and it can be cultivated across much of the inhabited portions of the world.[PARAGRAPH:1]Many civilizations recognized the value cotton very early in their development - examples include the Egyptians, (Asian) Indians and even some pre-Colombian American cultures. The Industrial Revolution saw the invention of the "Spinning Jenny" and cotton gin, which enabled mass production of cotton-based cloth. After these developments the demand for the plant fiber became almost insatiable, driving up labor demands for its cultivation across the world - leading to, among other things, the continuation of slavery in the United States into the mid-nineteenth century. Today, however, most cotton in western nations is harvested mechanically. It remains an important good worldwide.</English>
+		<French>[TAB]Important pour la production de tissus, le coton est une fibre souple extraite de la plante du m&#234;me nom. Apr&#232;s avoir &#233;t&#233; s&#233;par&#233;es de la plante, les fibres sont trait&#233;es afin d'en supprimer graines et cire, avant d'&#234;tre fil&#233;es. Le coton s'adapte particuli&#232;rement aux climats chauds ou tropicaux et peut &#234;tre cultiv&#233; dans de nombreuses r&#233;gions d&#233;sertiques du monde.[PARAGRAPH:2]De nombreuses civilisations ont vite compris l'importance que pouvait avoir le coton pour leur d&#233;veloppement, par exemple, les Egyptiens, les Indiens (d'Asie) et certaines cultures pr&#233;colombiennes. L'invention, &#224; la R&#233;volution industrielle, de la "Spinning Jenny" et de l'&#233;greneuse de coton, va permettre une production de masse de v&#234;tements. Apr&#232;s ce d&#233;veloppement, la demande pour cette fibre devient presque insatiable, incitant au d&#233;veloppement de sa culture &#224; travers le monde, et entra&#238;nant, entre autres choses, la poursuite de l'esclavage aux Etats-Unis au XIXe si&#232;cle. De nos jours, la plus grande partie des r&#233;coltes du monde occidental est effectu&#233;e m&#233;caniquement et le coton demeure un produit important dans le monde entier. </French>
+		<German>[TAB]Baumwolle ist eine weiche Faser, die aus der Baumwollpflanze gewonnen und vorwiegend in der Textilfertigung genutzt wird. Nach der Ernte werden die Samenhaare in einem ersten Verarbeitungsprozess zunächst von den Samen sowie von Wachsrückständen befreit und dann zu Fäden gesponnen. Besonders gut gedeiht die Baumwollpflanze in tropischem und warmem Klima, grundsätzlich kann sie aber in den meisten bewohnten Gebieten der Erde angebaut werden.[PARAGRAPH:2]Viele Zivilisationen erkannten bereits sehr früh den Wert der Baumwolle, so zum Beispiel die Ägypter, die Inder sowie einige präkolumbianische Kulturen auf dem amerikanischen Kontinent. Doch erst die Erfindung der "Spinning Jenny" (Spinnmaschine) und der "Cotton Gin" (Egreniermaschine zur Entkörnung von Baumwolle) im Zeitalter der Industriellen Revolution ermöglichte die Massenfertigung von Baumwolltextilien. In der darauf folgenden Zeit stieg die Nachfrage nach der Pflanzenfaser schier ins Unermessliche, so dass weltweit Unmengen von Arbeitskräften für den Anbau der Baumwollpflanze benötigt wurden - dies war unter anderem auch ein Grund dafür, dass die Sklaverei in den Vereinigten Staaten bis Mitte des 19. Jahrhunderts aufrechterhalten blieb. Heute wird Baumwolle, die nach wie vor zu den wichtigsten Handelsgütern der Welt gehört, in den westlichen Ländern überwiegend mechanisch geerntet.</German>
+		<Italian>[TAB]Importante per la produzione dell'abbigliamento, il cotone è una fibra soffice che si estrae dalla pianta di cotone. Dopo essere state estratte dalla pianta, le fibre vengono trattate per privarle di semi e cera, quindi sono filate (tessute in fili). Il cotone cresce bene nei climi tropicali e in quelli temperati e perci&#242; è coltivabile in buona parte del mondo abitato.[PARAGRAPH:2]Molte civiltà, tra cui Egizi, Indiani (d'Asia) e certe culture pre-colombiane, hanno apprezzato sin da subito il valore del cotone. La Rivoluzione Industriale vide l'introduzione del &quot;filatoio multiplo&quot; e della sgranatrice, che permisero la produzione di massa dei capi in cotone. In seguito a questi sviluppi, la domanda di cotone divenne quasi insaziabile, facendo impennare la domanda di lavoro nelle piantagioni di cotone in tutto il mondo. Questo port&#242;, tra le altre cose, alla continuazione della pratica della schiavitù negli Stati Uniti fino alla metà del diciannovesimo secolo. Oggi, invece, nelle nazioni occidentali il cotone è raccolto meccanicamente e rimane sempre un bene importante.</Italian>
+		<Spanish>[TAB]Importante para la producción de tela, el algodón es una fibra suave que se extrae de la planta de algodón. Tras su extracción, las fibras se procesan para quitarles las semillas y la cera y, a continuación, se utilizan para formar hebras. El algodón se cultiva en climas tanto tropicales como cálidos y puede producirse en buena parte de las regiones habitadas del mundo.[PARAGRAPH:2]Muchas civilizaciones reconocieron el valor del algodón en un momento muy temprano de su desarrollo. Entre los ejemplos más característicos tenemos a los egipcios, los hindúes e incluso algunas culturas precolombinas. La Revolución Industrial asistió a la invención de &quot;Jenny la hilandera&quot; y de la desmotadora, que permitían la producción en serie de tela de algodón. Tras estos inventos, la demanda de fibra de algodón se hizo casi insaciable y el cultivo de la planta se extendió por todo el mundo lo que, entre otras cosas, fomentó la supervivencia de la esclavitud en los Estados Unidos hasta el siglo XIX. En nuestros días, no obstante, en las naciones occidentales el algodón se recoge por medios mecánicos. Sigue siendo una mercancía importantísima en todo el mundo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OLIVES</Tag>
+		<English>Olives</English>
+		<French>
+			<Text>Olives</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Oliven</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Olives</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aceitunas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OLIVES_PEDIA</Tag>
+		<English>[TAB]The olive (Olea europaea) is a species of small tree native to the eastern Mediterranean which bears a fruit bearing the same name. The olive is a bitter fruit but can be eaten (usually after some kind of fermentation or curing) or used to make olive oil. It is not known exactly when olive trees first began being cultivated by humans, but they have been in use since at least 3000 BC. The olive is native to Greece and Palestine, but was later spread to the western Mediterranean and (eventually) all over the world, as it is grown today in California and Australia.[PARAGRAPH:1]Olives and olive oil both possessed special religious significance for the ancient Greeks. According to legend, the olive tree was created by the goddess Athena and used to win a contest with the god Poseidon over who would name a newly founded city; as a result of her gift of the olive, the city of Athens bears her name to this day. The ancient Greeks considered the olive to be sacred; it was a symbol of peace, wisdom, and triumph. Olive wreaths were used to crown Olympic champions. Olive oil was used in Hellenic religious ceremonies, and to this day it continues to possess a special importance in the Greek Orthodox Church. The olive continues to be of economic importance to Greece, which exports more than 400,000 tons of olive oil worldwide each year.</English>
+		<French>[TAB]L'olivier (Olea europaea) est une esp&#232;ce d'arbre de petite taille originaire de l'est de la M&#233;diterran&#233;e, et qui produit l'olive. L'olive est un fruit amer comestible (g&#233;n&#233;ralement seulement apr&#232;s fermentation ou salaison), &#233;galement utilis&#233; pour son huile. On ne sait pas exactement quand les premiers oliviers ont &#233;t&#233; cultiv&#233;s par les hommes, mais cela date au minimum de l'an 3000 av. J.-C. L'arbre, originaire de Gr&#232;ce et de Palestine, s'est r&#233;pandu dans l'ouest de la M&#233;diterran&#233;e et finalement un peu partout dans le monde, puisqu'on en trouve aujourd'hui en Californie et en Australie.[PARAGRAPH:1]Les olives et l'huile d'olive avaient une signification religieuse particuli&#232;re pour les Grecs de l'Antiquit&#233;. Selon les l&#233;gendes, l'olivier a &#233;t&#233; cr&#233;&#233; et utilis&#233; par la d&#233;esse Ath&#233;na pour gagner une &#233;preuve contre le dieu Pos&#233;idon, le vainqueur obtenant le droit de nommer une nouvelle cit&#233;. C'est ainsi que la ville d'Ath&#232;nes aurait &#233;t&#233; baptis&#233;e. Les anciens Grecs consid&#233;raient l'olive comme sacr&#233;e. Elle &#233;tait un symbole de paix, de sagesse et de victoire. Des couronnes d'oliviers r&#233;compensaient les champions olympiques d'alors. L'huile d'olive &#233;tait utilis&#233;e dans les c&#233;r&#233;monies religieuses hell&#233;niques et a encore de nos jours une grande importance dans le culte de l'&#233;glise orthodoxe grecque. C'est toujours une des principales productions de la Gr&#232;ce qui en exporte annuellement plus de 400 000 tonnes dans le monde entier.</French>
+		<German>[TAB]Der Olivenbaum (Olea Europaea) ist ein kleiner, im &#246;stlichen Mittelmeerraum beheimateter Baum, der die so genannten Olivenfr&#252;chte tr&#228;gt. Die Olive ist eine bittere, aber essbare Frucht (normalerweise nach einem G&#228;rungsvorgang oder dem Marinieren/Einlegen z. B. in Wasser) und dient als Grundlage f&#252;r die Herstellung von Oliven&#246;l. Wann genau die Olivenb&#228;ume erstmals von den Menschen kultiviert wurden, ist nicht bekannt, aber sie werden seit mindestens 3000 vor Christus landwirtschaftlich genutzt. Urspr&#252;nglich in Griechenland und Pal&#228;stina heimisch, fand die Olive sp&#228;ter auch im westlichen Mittelmeerraum und schlie&#223;lich in der ganzen Welt Verbreitung. Heute wird sie sogar in Kalifornien und Australien angebaut. [PARAGRAPH:1]Oliven und Oliven&#246;l hatten f&#252;r die Griechen der Antike eine besondere religi&#246;se Bedeutung. &#220;berlieferungen zufolge soll der Olivenbaum von der G&#246;ttin Athene erschaffen worden sein, die damit einen Wettstreit gegen Poseidon gewinnen wollte, bei dem entschieden wurde, wer von den beiden eine neue Stadt nach sich benennen darf. Am Ende konnte sich Athene mit ihrer Olive durchsetzen und so wurde die Stadt Athen nach ihr benannt. F&#252;r die Griechen der Antike war die Olive eine heilige Frucht: Sie symbolisierte Frieden, Weisheit und den Triumph. Aus diesem Grund wurden siegreiche Olympioniken schon damals mit einem Olivenzweig geehrt. Das Oliven&#246;l wurde in religi&#246;sen hellenistischen Zeremonien verwendet und hat in der griechisch-orthodoxen Kirche nach wie vor besondere Bedeutung. Au&#223;erdem stellt die Olive bis heute auch einen wichtigen Wirtschaftsfaktor f&#252;r Griechenland dar, das jedes Jahr mehr als 400.000 Tonnen Oliven&#246;l in die ganze Welt exportiert.</German>
+		<Italian>[TAB]L'ulivo (olea europaea) &#232; un piccolo albero nativo del Mediterraneo orientale e produce le olive, frutti amari che possono essere mangiati (di solito dopo essere stati fatti fermentare o comunque dopo una qualche preparazione) o utilizzati per ricavarne olio d'oliva. Non si sa esattamente quando gli alberi d'ulivo cominciarono a essere coltivati, ma di certo gi&#224; lo erano nel 3000 a.C. L'ulivo &#232; originario della Grecia e della Palestina, ma pi&#249; tardi si diffuse nel Mediterraneo occidentale e poi in tutto il mondo: oggi lo si coltiva anche in Australia e California.[PARAGRAPH:1]Le olive o l'olio d'oliva avevano entrambi uno speciale significato religioso per gli antichi Greci. Secondo la leggenda, l'ulivo fu creato dalla dea Atena per vincere una disputa con il dio Poseidone su chi avrebbe dovuto dare il nome a una citt&#224; appena fondata: per aver ricevuto in dono l'ulivo, la citt&#224; scelse di chiamarsi Atene (nome che porta ancora oggi). I Greci consideravano l'ulivo sacro: era simbolo di pace, saggezza e trionfo. Corone d'ulivo venivano utilizzate per incoronare i campioni olimpici e l'olio d'oliva era usato in molte cerimonie religiose elleniche e ancora oggi ha una speciale importanza nella Chiesa Greco-Ortodossa. L'ulivo per la Grecia continua ad avere anche un rilevante ruolo economico, dato che il paese esporta pi&#249; di 400.000 tonnellate all'anno d'olio d'oliva in tutto il mondo.</Italian>
+		<Spanish>[TAB]El olivo (olea europaea) es un peque&#241;o &#225;rbol de la familia de las ole&#225;ceas originario del Mediterr&#225;neo oriental que, como su nombre indica, da de fruto las olivas. La oliva, o aceituna, es de gusto algo amargo, aunque se puede comer (normalmente despu&#233;s de fermentarse o curarse) o usarse para hacer aceite. No se sabe exactamente cu&#225;ndo se empez&#243; a cultivar el olivo, pero al menos se lleva haciendo desde el 3000 a. C. Es originario de Grecia y Palestina, pero primero se extendi&#243; por el Mediterr&#225;neo occidental y despu&#233;s por todo el mundo, ya que hoy en d&#237;a se cultiva hasta en California y Australia.[PARAGRAPH:1]Las olivas, los olivos y el aceite ten&#237;an un significado religioso para los antiguos griegos. Seg&#250;n la leyenda, la diosa Atenea cre&#243; el olivo y lo us&#243; para ganar una apuesta con el dios Poseid&#243;n para ver qui&#233;n dar&#237;a nombre a una ciudad reci&#233;n fundada. Gracias a su regalo del olivo, la ciudad de Atenas lleva su nombre hasta hoy en d&#237;a. Los antiguos griegos lo consideraban sagrado, pues era un s&#237;mbolo de paz, sabidur&#237;a y triunfo. Se usaban tocados de ramas y hojas olivo para coronar a los campeones ol&#237;mpicos. El aceite de oliva se usaba en las ceremonias religiosas hel&#233;nicas y, en la actualidad, tiene una gran importancia para la Iglesia Ortodoxa griega. El olivo sigue siendo de una gran importancia econ&#243;mica para Grecia, que exporta al a&#241;o m&#225;s de 400.000 toneladas a todo el mundo.</Spanish>
+	</TEXT>
+</Civ4GameText>

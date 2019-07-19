@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCOURGE</Tag>
+		<English>Scourge</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCOURGE_SHORT</Tag>
+		<English>Sco</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCOURGE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Any razed or massacred city makes nearby smaller enemy cities surrender if approached</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]Chaque ville rasée entraîne la reddition des villes ennemies voisines si elles sont approchées</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]Kapitulation umliegender feindlicher Städte durch jede zerstörte Stadt bei Annäherung</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Ogni citt&#224; distrutta fa s&#236; che le citt&#224; nemiche vicine si arrendano, se avvicinate</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Una ciudad arrasada provoca que las ciudades enemigas cercanas se rindan al aproximarse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDER</Tag>
+		<English>Raider</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDER_SHORT</Tag>
+		<English>Rai</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDER_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Loot from City Conquest[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Pillage Yield</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Loot from City Conquest[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Pillage Yield</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Loot from City Conquest[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Pillage Yield</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Loot from City Conquest[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Pillage Yield</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Loot from City Conquest[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% Pillage Yield</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FANATIC</Tag>
+		<English>Fanatic</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FANATIC_SHORT</Tag>
+		<English>Fan</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FANATIC_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Spreads [ICON_RELIGION] to Conquered Cities</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]Spreads [ICON_RELIGION] to Conquered Cities</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]Spreads [ICON_RELIGION] to Conquered Cities</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Spreads [ICON_RELIGION] to Conquered Cities</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Spreads [ICON_RELIGION] to Conquered Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRUSADER</Tag>
+		<English>Crusader</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRUSADER_SHORT</Tag>
+		<English>Cru</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRUSADER_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Military Unit Production Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Mercenary Hire and Maintenance Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]Receives Free Units from Crusade Events</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Military Unit Production Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Mercenary Hire and Maintenance Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]Receives Free Units from Crusade Events</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Military Unit Production Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Mercenary Hire and Maintenance Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]Receives Free Units from Crusade Events</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Military Unit Production Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Mercenary Hire and Maintenance Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]Receives Free Units from Crusade Events</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Military Unit Production Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Mercenary Hire and Maintenance Cost[NEWLINE][SPACE][SPACE][ICON_BULLET]Receives Free Units from Crusade Events</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCIENTIFIC_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Unit Upgrade Cost</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Unit Upgrade Cost</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Unit Upgrade Cost</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Unit Upgrade Cost</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Unit Upgrade Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Stability from State [ICON_RELIGION] Temples[NEWLINE][SPACE][SPACE][ICON_BULLET]+25% Piety</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Stability from State [ICON_RELIGION] Temples</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Stability from State [ICON_RELIGION] Temples</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Stability from State [ICON_RELIGION] Temples</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Stability from State [ICON_RELIGION] Temples</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Reduced Instability from Expansion</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]Reduced Instability from Expansion</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]Reduced Instability from Expansion</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Reduced Instability from Expansion</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Reduced Instability from Expansion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Diplomacy</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Diplomacy</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Diplomacy</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Diplomacy</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Diplomacy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMACY</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to Diplomacy</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to Diplomacy</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to Diplomacy</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to Diplomacy</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to Diplomacy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_TRAIT_GOOD</Tag>
+		<English>%D1: "You are convincing."</English>
+		<French>%D1: "You are convincing."</French>
+		<German>%D1: "You are convincing."</German>
+		<Italian>%D1: "You are convincing."</Italian>
+		<Spanish>%D1: "You are convincing."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_TRAIT_BAD</Tag>
+		<English>%D1: "You are unconvincing."</English>
+		<French>%D1: "You are unconvincing."</French>
+		<German>%D1: "You are unconvincing."</German>
+		<Italian>%D1: "You are unconvincing."</Italian>
+		<Spanish>%D1: "You are unconvincing."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOLERANT</Tag>
+		<English>Tolerant</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOLERANT_SHORT</Tag>
+		<English>Tol</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOLERANT_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]No Instability from Foreign Culture[NEWLINE][SPACE][SPACE][ICON_BULLET]No Instability from Non-State [ICON_RELIGION]</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCIENTIFIC</Tag>
+		<English>Wise</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCIENTIFIC_SHORT</Tag>
+		<English>Wis</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL</Tag>
+		<English>Philosopher</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</Tag>
+		<English>Phi</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE</Tag>
+		<English>Warlike</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE_SHORT</Tag>
+		<English>War</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL</Tag>
+		<English>Pious</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL_SHORT</Tag>
+		<English>Pio</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE</Tag>
+		<English>Kind</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE_SHORT</Tag>
+		<English>Kin</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS</Tag>
+		<English>Founder</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS_SHORT</Tag>
+		<English>Fou</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE</Tag>
+		<English>Learned</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE_SHORT</Tag>
+		<English>Lea</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL</Tag>
+		<English>Trader</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL_SHORT</Tag>
+		<English>Tra</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED</Tag>
+		<English>Just</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED_SHORT</Tag>
+		<English>Jus</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC</Tag>
+		<English>Fair</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC_SHORT</Tag>
+		<English>Fai</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE</Tag>
+		<English>Brave</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE_SHORT</Tag>
+		<English>Bra</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST</Tag>
+		<English>Conqueror</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_SHORT</Tag>
+		<English>Con</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEAFARER</Tag>
+		<English>Seafarer</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEAFARER_SHORT</Tag>
+		<English>Sea</English>
+		<French>Sea</French>
+		<German>Sea</German>
+		<Italian>Sea</Italian>
+		<Spanish>Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC</Tag>
+		<English>Cunning</English>
+		<French>Cunning</French>
+		<German>Cunning</German>
+		<Italian>Cunning</Italian>
+		<Spanish>Cunning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC_SHORT</Tag>
+		<English>Cun</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NOMADIC</Tag>
+		<English>Nomadic</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NOMADIC_SHORT</Tag>
+		<English>Nom</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+</Civ4GameText>

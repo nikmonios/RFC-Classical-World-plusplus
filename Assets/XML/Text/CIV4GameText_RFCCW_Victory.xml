@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VAN1</Tag>
+		<English>Capture Rome by 455AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VAN1_EPIC</Tag>
+		<English>Have 7500 gold by 500AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VAN2</Tag>
+		<English>Control 9 ports in 550AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VAN3</Tag>
+		<English>Have 15,000 gold in 600AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VAN3_EPIC</Tag>
+		<English>Have 21,500 gold in 600AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LOM1</Tag>
+		<English>Settle a Great Saint in Rome by 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LOM2</Tag>
+		<English>Celebrate "We Love the King Day" in at least 1 city by 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LOM3</Tag>
+		<English>Build the National Epic by 790AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OST1</Tag>
+		<English>Build a Palace and a Royal Mausoleum in Rome by 520AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OST2</Tag>
+		<English>Control Dacia, Illyricum, Italy and Sicily in 600AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OST3</Tag>
+		<English>Have friendly realtions with three Christian civilizations without changing your state religion by 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIS1</Tag>
+		<English>Discover Jurisprudence by 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIS2</Tag>
+		<English>Control Spain, North Africa and Italy in 600AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIS3</Tag>
+		<English>Have at least 5,000 culture and be stable in 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIS3_EPIC</Tag>
+		<English>Have at least 7500 culture and be stable in 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KAL1</Tag>
+		<English>Secure a supply of horses by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KAL2</Tag>
+		<English>Produce 2 great generals and 2 great prophets by 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KAL3</Tag>
+		<English>Build 7 Jain buildings by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PON1</Tag>
+		<English>Control Pontus, Cappadocia, Thrace, Asia and Crimea by 90BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PON2</Tag>
+		<English>Capture 4 Roman cities or control 7 provinces including Greece by 30BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PON3</Tag>
+		<English>Have friendly relations with 3 other civs by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE1</Tag>
+		<English>Control Annam, Champa and Nan Yue by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE2</Tag>
+		<English>Have a higher population and culture than the Han in 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE3</Tag>
+		<English>Build 12 Buddhist buildings by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAC1</Tag>
+		<English>Capture 4 cities with Jewish populations before 50AD, and hold them in 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAC2</Tag>
+		<English>Build the Temple of Solomon by 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAC3</Tag>
+		<English>Spread Judaism to half the world's civilizations and one third of its cities by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL1</Tag>
+		<English>Control or vassalize Alexander's empire by 180BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL2</Tag>
+		<English>Control at least 6 provinces and 12 cities in 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL3</Tag>
+		<English>Produce three Great Generals by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1</Tag>
+		<English>Control or vassalize Justinian's empire by 540AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ2</Tag>
+		<English>Ensure that there are no non-Catholic Christian civs in 600AD, and that there are at least 5 Catholic civs</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ3</Tag>
+		<English>Make Constantinople the largest and most cultured city in the world in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1</Tag>
+		<English>Build the Great Library and the Great Lighthouse by 180BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY2</Tag>
+		<English>Make Alexandria the largest and most cultured city in the world in 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY3</Tag>
+		<English>Control 7 eastern Mediterranean ports by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1</Tag>
+		<English>Control 6 luxuries by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2</Tag>
+		<English>Destroy the Romans by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR3</Tag>
+		<English>Control 9 luxuries by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAU1</Tag>
+		<English>Control Asoka's empire by 200BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAU2</Tag>
+		<English>Build 10 Edicts by 200BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAU3</Tag>
+		<English>Spread Buddhism to every city in India by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR1</Tag>
+		<English>Control northern India by 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR2</Tag>
+		<English>Produce a Great Artist by 660AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR3</Tag>
+		<English>Build a Buddhist Cathedral by 670AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB1</Tag>
+		<English>Discover Iron Working and Alphabet by 200BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB2</Tag>
+		<English>Be the most productive civilization in the world in 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB3</Tag>
+		<English>Aquire 5 gold resources by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM1</Tag>
+		<English>Control the east coast of India by 150BC OR Acquire 2 of the following in trade by 50BC: Gold, Silk, Silver, Incense OR Build 9 Temples in Tamil Nadu by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM2</Tag>
+		<English>Build the National Epic and the Grand Anicut by 150BC OR Build 2 Cloth Markets and 2 Spice Markets by 50BC OR Ensure that Tamil Nadu's culture is greater than the rest of India in 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM3</Tag>
+		<English>Have at least 2 vassals in 50BC OR Be the first civilization to discover Steel Working OR Settle 2 Great Artists and 2 Great Saints in your cities by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHO1</Tag>
+		<English>Control the east coast of India by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHO2</Tag>
+		<English>Build the National Epic and the Grand Anicut by 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHO3</Tag>
+		<English>Have at least 2 vassals in 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAN1</Tag>
+		<English>Acquire 2 of the following in trade by 50BC: Gold, Silk, Silver, Incense.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAN2</Tag>
+		<English>Build 2 Cloth Markets and 2 Spice Markets by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAN3</Tag>
+		<English>Be the first civilization to discover Steel Working</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHE1</Tag>
+		<English>Build 9 Temples in Tamil Nadu by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHE2</Tag>
+		<English>Settle 2 Great Artists and 2 Great Saints in your cities by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHE3</Tag>
+		<English>Ensure that Tamil Nadu's culture is greater than the rest of India in 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL1</Tag>
+		<English>Capture Rome before 150BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL2</Tag>
+		<English>Colonize the Celtic world by 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL3</Tag>
+		<English>Be the most culturally advanced civ by 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM1</Tag>
+		<English>Control Armenia, Caucusus, Cappadocia and Syria in 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM2</Tag>
+		<English>Be the first civilization to convert to Christianity</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM3</Tag>
+		<English>Do not lose a city before 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAB1</Tag>
+		<English>Control 4 cities by 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAB2</Tag>
+		<English>Have 3000 culture by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAB2_EPIC</Tag>
+		<English>Spread Incense Merchants to 5 cities in each of 4 regions by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAB3</Tag>
+		<English>Spread Incense Merchants to 5 cities in each of 5 regions by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAB3_EPIC</Tag>
+		<English>Have at least 15,000 gold by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TOC1</Tag>
+		<English>Have open borders with 5 civilizations by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TOC2</Tag>
+		<English>Have access to at least 1 incense and 1 silk by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TOC3</Tag>
+		<English>Spread Buddhism to 5 Chinese or Korean cities by 200AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1</Tag>
+		<English>Control the Mediterranean by 75BC OR control 10 Mediterranean provinces including Sicily and Africa by 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2</Tag>
+		<English>Make Rome the largest city in the world in 50AD OR be the first to discover Engineering and Jurisprudence</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM3</Tag>
+		<English>Control the greatest extent of the Roman Empire by 125AD OR settle five great people in your capital by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM4</Tag>
+		<English>Control 10 Mediterranean provinces including Sicily and Africa by 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM5</Tag>
+		<English>Be the first to discover Engineering and Jurisprudence</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM6</Tag>
+		<English>Settle five great people (of any type) in your capital by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM7</Tag>
+		<English>Control the Mediterranean by 75BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM8</Tag>
+		<English>Make Rome the largest city in the world in 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM9</Tag>
+		<English>Control the greatest extent of the Roman Empire by 125AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAN1</Tag>
+		<English>Control the greatest extent of the Han Empire by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAN2</Tag>
+		<English>Discover Paper by 100AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAN3</Tag>
+		<English>Have double the population of your nearest rival in 150AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAT1</Tag>
+		<English>Control 2 Shrines by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAT2</Tag>
+		<English>Have 15000 culture by 1AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAT2_EPIC</Tag>
+		<English>Have 18000 culture by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAT3</Tag>
+		<English>Spread Hinduism and Buddhism to 3 Southeast Asian cities by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAC1</Tag>
+		<English>Build a Palace and a Royal Mint in Taxila by 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAC2</Tag>
+		<English>Control 3 Indian provinces by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAC3</Tag>
+		<English>Control 3 cities with both Hellensim and Buddhism and settle a Great Prophet or Great Scholar in each of them by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAC3_EPIC</Tag>
+		<English>Have 18,000 gold by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAR1</Tag>
+		<English>Build a Palace and the National Epic in Ctesiphon by 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAR2</Tag>
+		<English>Control 5% of world territory by 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PAR3</Tag>
+		<English>Kill 20 Roman units</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_DAC1</Tag>
+		<English>Control Dacia, Thrace and Illyricum in 50AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_DAC2</Tag>
+		<English>Have at least 5000 gold by 150AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_DAC2_EPIC</Tag>
+		<English>Have at least 7500 gold by 150AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_DAC3</Tag>
+		<English>Control at least 6 provinces in 250AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOG1</Tag>
+		<English>Be the first East Asian civ to convert to Buddhism</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOG2</Tag>
+		<English>Control at least 6 provinces by 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOG3</Tag>
+		<English>Be the most culturally advanced civ in 400AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<!--<TEXT>
+		<Tag>TXT_KEY_UHV_KUS1</Tag>
+		<English>Build 5 Cloth Markets, Spice Markets or Artisan's Quarters, in any combination, by 200AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>-->
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KUS1</Tag>
+		<English>Have the highest trade route income in 200AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KUS2</Tag>
+		<English>Be the most culturally advanced civ in 250AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KUS3</Tag>
+		<English>Control the world's largest empire in 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AXU1</Tag>
+		<English>Convert to a state religion by 200AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AXU2</Tag>
+		<English>Be among the top 4 civilizations by score in 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AXU3</Tag>
+		<English>Get 3000 gold from trade by 400AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AXU3_EPIC</Tag>
+		<English>Get 4500 gold from trade by 400AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FUN1</Tag>
+		<English>Discover Crop Rotation and Monasticism by 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FUN2</Tag>
+		<English>Build six Hindu or Buddhist buildings by 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FUN3</Tag>
+		<English>Completely cover the province of Funan with your culture by 400AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAS1</Tag>
+		<English>Control the empire of Darius the Great by 450AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAS2</Tag>
+		<English>Build 3 Zoroastrian Cathedrals by 600AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAS3</Tag>
+		<English>Have a city with legendary culture</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YAM1</Tag>
+		<English>Control Yamato and Emishi in 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YAM2</Tag>
+		<English>Control 5 provinces by 500AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YAM3</Tag>
+		<English>Discover Paper and Steel Working by 450AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JIN1</Tag>
+		<English>Control China in 300AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JIN2</Tag>
+		<English>Have 6 luxuries in 350AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JIN3</Tag>
+		<English>Be the first to discover the Stirrup</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUP1</Tag>
+		<English>Control India in 500AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUP2</Tag>
+		<English>Start 3 golden ages before 510AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUP3</Tag>
+		<English>Build the Nalanda University, the Dhamek Stupa and the Iron Pillar</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA1</Tag>
+		<English>Control Charlemagne's empire in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA2</Tag>
+		<English>Build 7 Catholic Monasteries and 1 Catholic Cathedral by 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA3</Tag>
+		<English>Do not allow Islam in Europe in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA1</Tag>
+		<English>Be the most culturally advanced civ in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA2</Tag>
+		<English>Build 3 cathedrals of Indian religions by 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA3</Tag>
+		<English>Make Vatapi the most cultural city in the world in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SRI1</Tag>
+		<English>Control at least 7 cities in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SRI2</Tag>
+		<English>Acquire 11 luxuries by 840AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SRI3</Tag>
+		<English>Have the world's highest population in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAN1</Tag>
+		<English>Control the greatest extent of the Tang empire, from Korea to Vietnam to Tarim, in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAN2</Tag>
+		<English>Have at least two vassals in 840AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAN3</Tag>
+		<English>Be the first to discover Printing Press and Alchemy</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA1</Tag>
+		<English>Control the territories of the Umayyad Caliphate by 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA2</Tag>
+		<English>Be first in tech in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA3</Tag>
+		<English>Spread Islam to 30% by 850AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA1</Tag>
+		<English>Have 3,000 gold in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA1_EPIC</Tag>
+		<English>Have 4500 gold in 700AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA2</Tag>
+		<English>Acquire salt, dye and cotton by 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA3</Tag>
+		<English>Have 10,000 gold in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA3_EPIC</Tag>
+		<English>Have 15,000 gold in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT1</Tag>
+		<English>Be the first civilization to discover Monarchy</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT2</Tag>
+		<English>Build a palace in Pella by 250BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT3</Tag>
+		<English>Control 7 wonders by 70BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOK1</Tag>
+		<English>Have the world's largest empire in 650AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOK2</Tag>
+		<English>Control 6% of world territory in 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOK3</Tag>
+		<English>Do not lose a city before 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA1</Tag>
+		<English>Control 7 provinces before 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA2</Tag>
+		<English>Ensure Judaism is present in all your cities in 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA3</Tag>
+		<English>Have open borders with 6 civilizations by 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_QIN1</Tag>
+		<English>Build the Great Wall and the Terracotta Army by 215BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_QIN2</Tag>
+		<English>Control the empire of Qin Shi Huang by 210BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_QIN3</Tag>
+		<English>Control at least 9 provinces in 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB1</Tag>
+		<English>Control Tibet, Birma, Qinghai, Nanzhao and Tarim in 750AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB2</Tag>
+		<English>Build at least 1 Buddhist wonder by 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB3</Tag>
+		<English>Ensure that all east Asian civs are Buddhist in 800AD</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOJ1</Tag>
+		<English>Kill 20 Chinese units and capture 3 Chinese cities by 100BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOJ2</Tag>
+		<English>Be the first civilization to discover Marksmanship</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOJ3</Tag>
+		<English>Never lose a city before 50BC</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ROMAN_UHV_CHOICE_TITLE</Tag>
+		<English>Empire or Republic?</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ROMAN_UHV_CHOICE_MESSAGE</Tag>
+		<English>The Roman Civilization has two sets of UHVs to choose from, one representing the ideals of the Republic and one the Empire. The Republic's goals are to be the dominant civilization in the Mediterranean in 50BC, to be the first to discover Engineering and Jurisprudence and to settle five great people of any type in your capital, while the Empire must control all of the Mediterranean in 75BC, make Rome the world's largest city in 100AD and to control the greatest extent of the historic Roman empire in 125AD. Which will you choose?</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ROMAN_UHV_CHOICE_EMPIRE</Tag>
+		<English>Empire!</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ROMAN_UHV_CHOICE_REPUBLIC</Tag>
+		<English>Republic!</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_3KINGDOMS_CHOICE_TITLE</Tag>
+		<English>The Three Kingdoms</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_3KINGDOMS_CHOICE_MESSAGE</Tag>
+		<English>China is divided into three kingdoms vying for power: Wei in the north, Shu in the southwest and Wu in the southeast. You can choose to start with any of these and work towards the same UHVs.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_3KINGDOMS_CHOICE_WEI</Tag>
+		<English>Wei</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_3KINGDOMS_CHOICE_SHU</Tag>
+		<English>Shu</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_3KINGDOMS_CHOICE_WU</Tag>
+		<English>Wu</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TAMIL_CHOICE_TITLE</Tag>
+		<English>The Three Crowned Kings of Tamilakam</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TAMIL_CHOICE_MESSAGE</Tag>
+		<English>You may choose to play any of the three Tamil dynasties. They each have their own UHVs. The Cholas are focused on conquest and naval power, the Pandyans on trade and technology and the Cheras on culture and religion.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TAMIL_CHOICE_PANDYANS</Tag>
+		<English>Pandyans</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TAMIL_CHOICE_CHOLAS</Tag>
+		<English>Cholas</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TAMIL_CHOICE_CHERAS</Tag>
+		<English>Cheras</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+</Civ4GameText>

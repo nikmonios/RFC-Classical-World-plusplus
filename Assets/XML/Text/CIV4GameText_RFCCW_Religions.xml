@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_STEAL_SILKWORMS</Tag>
+		<English>Attempt to steal live Silkworms from this Plantation</English>
+		<French>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</French>
+		<German>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</German>
+		<Italian>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Italian>
+		<Spanish>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CULTIVATE_SILKWORMS</Tag>
+		<English>Cultivate your Silkworms here</English>
+		<French>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</French>
+		<German>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</German>
+		<Italian>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Italian>
+		<Spanish>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_PILGRIM</Tag>
+		<English>Consumes the Pilgrim and creates a Missionary</English>
+		<French>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</French>
+		<German>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</German>
+		<Italian>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Italian>
+		<Spanish>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_GREAT_SAINT</Tag>
+		<English>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</English>
+		<French>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</French>
+		<German>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</German>
+		<Italian>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Italian>
+		<Spanish>Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_WIDGET</Tag>
+		<English>Select a target for a holy war!</English>
+		<French>Select a target for a holy war!</French>
+		<German>Select a target for a holy war!</German>
+		<Italian>Select a target for a holy war!</Italian>
+		<Spanish>Select a target for a holy war!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_YES</Tag>
+		<English>YES! Muster against them all the men and cavalry!</English>
+		<French>YES! Muster against them all the men and cavalry!</French>
+		<German>YES! Muster against them all the men and cavalry!</German>
+		<Italian>YES! Muster against them all the men and cavalry!</Italian>
+		<Spanish>YES! Muster against them all the men and cavalry!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_NO</Tag>
+		<English>NO! We shall take no part in this evil scheme!</English>
+		<French>NO! We shall take no part in this evil scheme!</French>
+		<German>NO! We shall take no part in this evil scheme!</German>
+		<Italian>NO! We shall take no part in this evil scheme!</Italian>
+		<Spanish>NO! We shall take no part in this evil scheme!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_PIETY_TOO_LOW</Tag>
+		<English>You need at least 50 Piety to call for a holy war.</English>
+		<French>You need at least 50 Piety to call for a holy war.</French>
+		<German>You need at least 50 Piety to call for a holy war.</German>
+		<Italian>You need at least 50 Piety to call for a holy war.</Italian>
+		<Spanish>You need at least 50 Piety to call for a holy war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CALL</Tag>
+		<English>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</English>
+		<French>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</French>
+		<German>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</German>
+		<Italian>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</Italian>
+		<Spanish>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CALLED</Tag>
+		<English>%s1_name has called for a holy war against the %s2_civ!</English>
+		<French>%s1_name has called for a holy war against the %s2_civ!</French>
+		<German>%s1_name has called for a holy war against the %s2_civ!</German>
+		<Italian>%s1_name has called for a holy war against the %s2_civ!</Italian>
+		<Spanish>%s1_name has called for a holy war against the %s2_civ!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_SELECT_TARGET</Tag>
+		<English>Select a target for the holy war:</English>
+		<French>Select a target for the holy war:</French>
+		<German>Select a target for the holy war:</German>
+		<Italian>Select a target for the holy war:</Italian>
+		<Spanish>Select a target for the holy war:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_POPUP_TITLE</Tag>
+		<English>Jihad!</English>
+		<French>Jihad!</French>
+		<German>Jihad!</German>
+		<Italian>Jihad!</Italian>
+		<Spanish>Jihad!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_DELAY</Tag>
+		<English>You cannot call for another holy war for %d1 turns.</English>
+		<French>You cannot call for another holy war for %d1 turns.</French>
+		<German>You cannot call for another holy war for %d1 turns.</German>
+		<Italian>You cannot call for another holy war for %d1 turns.</Italian>
+		<Spanish>You cannot call for another holy war for %d1 turns.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_NO_TARGETS</Tag>
+		<English>No valid targets for a holy war.</English>
+		<French>No valid targets for a holy war.</French>
+		<German>No valid targets for a holy war.</German>
+		<Italian>No valid targets for a holy war.</Italian>
+		<Spanish>No valid targets for a holy war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_TARGETS</Tag>
+		<English>You can call for a holy war against:</English>
+		<French>You can call for a holy war against:</French>
+		<German>You can call for a holy war against:</German>
+		<Italian>You can call for a holy war against:</Italian>
+		<Spanish>You can call for a holy war against:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CANCEL</Tag>
+		<English>Maybe later...</English>
+		<French>Maybe later...</French>
+		<German>Maybe later...</German>
+		<Italian>Maybe later...</Italian>
+		<Spanish>Maybe later...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CHRISTIAN</Tag>
+		<English>Christian</English>
+		<French>Christian</French>
+		<German>Christian</German>
+		<Italian>Christian</Italian>
+		<Spanish>Christian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_PAGAN</Tag>
+		<English>Pagan</English>
+		<French>Pagan</French>
+		<German>Pagan</German>
+		<Italian>Pagan</Italian>
+		<Spanish>Pagan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_HOLY_CITY</Tag>
+		<English>Defiled our holy city!</English>
+		<French>Defiled our holy city!</French>
+		<German>Defiled our holy city!</German>
+		<Italian>Defiled our holy city!</Italian>
+		<Spanish>Defiled our holy city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_INFIDEL</Tag>
+		<English>%s1_adj infidels!</English>
+		<French>%s1_adj infidels!</French>
+		<German>%s1_adj infidels!</German>
+		<Italian>%s1_adj infidels!</Italian>
+		<Spanish>%s1_adj infidels!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_HERETIC</Tag>
+		<English>%s1_adj heretics!</English>
+		<French>%s1_adj heretics!</French>
+		<German>%s1_adj heretics!</German>
+		<Italian>%s1_adj heretics!</Italian>
+		<Spanish>%s1_adj heretics!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_PILGRIM_FOUND_RELIC</Tag>
+		<English>Your pilgrims have obtained a Holy Relic!</English>
+		<French>Your pilgrims have obtained a Holy Relic!</French>
+		<German>Your pilgrims have obtained a Holy Relic!</German>
+		<Italian>Your pilgrims have obtained a Holy Relic!</Italian>
+		<Spanish>Your pilgrims have obtained a Holy Relic!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_PILGRIM_ARRIVED</Tag>
+		<English>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</English>
+		<French>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</French>
+		<German>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</German>
+		<Italian>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</Italian>
+		<Spanish>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PIETY_TITLE</Tag>
+		<English>Piety Level:</English>
+		<French>Piety Level:</French>
+		<German>Piety Level:</German>
+		<Italian>Piety Level:</Italian>
+		<Spanish>Piety Level:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HERETIC</Tag>
+		<English>Heretic</English>
+		<French>Heretic</French>
+		<German>Heretic</German>
+		<Italian>Heretic</Italian>
+		<Spanish>Heretic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HERETIC_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</German>
+		<Italian>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_APOSTATE</Tag>
+		<English>Apostate</English>
+		<French>Apostat</French>
+		<German>Ketzer</German>
+		<Italian>Apostata</Italian>
+		<Spanish>Ap&#243;stata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_APOSTATE_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</German>
+		<Italian>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HEATHEN</Tag>
+		<English>Heathen</English>
+		<French>Pa&#239;en</French>
+		<German>Heide</German>
+		<Italian>Pagano</Italian>
+		<Spanish>Infiel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HEATHEN_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]No Effects</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_UNRELIABLE</Tag>
+		<English>Unreliable</English>
+		<French>Unreliable</French>
+		<German>Unreliable</German>
+		<Italian>Unreliable</Italian>
+		<Spanish>Unreliable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_UNRELIABLE_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]No Effects</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BELIEVER</Tag>
+		<English>Believer</English>
+		<French>Croyant</French>
+		<German>Gl&#228;ubig</German>
+		<Italian>Credente</Italian>
+		<Spanish>Creyente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BELIEVER_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]No Effects</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_FAITHFUL</Tag>
+		<English>Faithful</English>
+		<French>Faithful</French>
+		<German>Faithful</German>
+		<Italian>Faithful</Italian>
+		<Spanish>Faithful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_FAITHFUL_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus</English>
+		<French>[ICON_BULLET]Stability bonus</French>
+		<German>[ICON_BULLET]Stability bonus</German>
+		<Italian>[ICON_BULLET]Stability bonus</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_RIGHTEOUS</Tag>
+		<English>Righteous</English>
+		<French>Righteous</French>
+		<German>Righteous</German>
+		<Italian>Righteous</Italian>
+		<Spanish>Righteous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_RIGHTEOUS_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus</English>
+		<French>[ICON_BULLET]Stability bonus</French>
+		<German>[ICON_BULLET]Stability bonus</German>
+		<Italian>[ICON_BULLET]Stability bonus</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_DEVOTED</Tag>
+		<English>Devoted</English>
+		<French>Devoted</French>
+		<German>Devoted</German>
+		<Italian>Devoted</Italian>
+		<Spanish>Devoted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_DEVOTED_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BLESSED</Tag>
+		<English>Blessed</English>
+		<French>B&#233;ni</French>
+		<German>Gesegnet</German>
+		<Italian>Benedetto</Italian>
+		<Spanish>Bendecido</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BLESSED_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</French>
+		<German>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_SAINT</Tag>
+		<English>Saint</English>
+		<French>Saint</French>
+		<German>Saint</German>
+		<Italian>Saint</Italian>
+		<Spanish>Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_SAINT_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</French>
+		<German>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_INFIDEL</Tag>
+		<English>Infidel</English>
+		<French>Infidel</French>
+		<German>Infidel</German>
+		<Italian>Infidel</Italian>
+		<Spanish>Infidel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_HAPPINESS</Tag>
+		<English>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</English>
+		<French>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</French>
+		<German>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</German>
+		<Italian>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</Italian>
+		<Spanish>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_UNHAPPINESS</Tag>
+		<English>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</English>
+		<French>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</French>
+		<German>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</German>
+		<Italian>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HERESY</Tag>
+		<English>Heresy</English>
+		<French>Hérésie</French>
+		<German>Häresie</German>
+		<Italian>Eresia</Italian>
+		<Spanish>Herejía</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HERESY_ADJECTIVE</Tag>
+		<English>Heretic</English>
+		<French>Heretic</French>
+		<German>Heretic</German>
+		<Italian>Heretic</Italian>
+		<Spanish>Heretic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MANICHAEISM</Tag>
+		<English>Manichaeism</English>
+		<French>Manichaeism</French>
+		<German>Manichaeism</German>
+		<Italian>Manichaeism</Italian>
+		<Spanish>Manichaeism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MANICHAEISM_ADJECTIVE</Tag>
+		<English>Manichean</English>
+		<French>Manichean</French>
+		<German>Manichean</German>
+		<Italian>Manichean</Italian>
+		<Spanish>Manichean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MANICHAEISM_PEDIA</Tag>
+		<English>[TAB]Manichaeism was one of the major Iranian Gnostic religions, originating in Sassanid Persia.[NEWLINE][TAB]Although most of the original writings of the founding prophet Mani (c. 216-276 AD) have been lost, numerous translations and fragmentary texts have survived. Manichaeism taught an elaborate cosmology describing the struggle between a good, spiritual world of light, and an evil, material world of darkness. The 4th Century Acta Archelai of Christian writer Hegemonius depicts a strong anti-semitism in Mani's teaching.[NEWLINE][TAB]Through an ongoing process which takes place in human history, light is gradually removed from the world of matter and returned to the world of light from which it came. Its beliefs can be seen as a synthesis of Christianity, Zoroastrianism and Buddhism.[NEWLINE][TAB]Manichaeism thrived between the third and seventh centuries, and at its height was one of the most widespread religions in the world. Manichaean churches and scriptures existed as far east as China and as far west as the Roman Empire. Manichaeism survived longer in the east, and appears to have finally faded away after the 14th century in southern China, contemporary to the decline in China of the Church of the East - see Ming Dynasty.[NEWLINE][TAB]The original, but now lost, six sacred books of Manichaeism were composed in Syriac Aramaic, and translated into other languages to help spread the religion. As they spread to the east, the Manichaean writings passed through Middle Persian, Parthian, Sogdian, Tocharian and ultimately Uyghur and Chinese translations. As they spread to the west, they were translated into Greek, Coptic, and Latin. The spread and success of Manichaeism were seen as a threat to other religions, and it was widely persecuted in Christian, Zoroastrian, Islamic, and Buddhist cultures.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HELLENISM</Tag>
+		<English>Hellenism</English>
+		<French>Hellenism</French>
+		<German>Hellenism</German>
+		<Italian>Hellenism</Italian>
+		<Spanish>Hellenism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HELLENISM_ADJECTIVE</Tag>
+		<English>Hellenic</English>
+		<French>Hellenic</French>
+		<German>Hellenic</German>
+		<Italian>Hellenic</Italian>
+		<Spanish>Hellenic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HELLENISM_PEDIA</Tag>
+		<English>[TAB]The Hellenic religion, also referred to as Greek mythology, comprises an enormous body of stories about gods, goddesses, and heroes. These stories date back many centuries, preserved in pre-literate Greece through oral tradition. The Hellenic religion was polytheistic in nature, with innumerable local nature deities in addition to the major Olympian gods and goddesses. The Greek gods were human in form but possessed supernatural powers; they were born from other gods but never aged, they were immortal, could travel enormous distances instantly, speak through humans with or without their knowledge, etc. Some gods were the personified aspects of natural forces (for example, Helios was literally the god of the sun) while others had complex personalities and multiple functions associated with them (Apollo is probably the best example). [PARAGRAPH:1]The gods and goddesses were all related to one another as part of one large family, but there were clear generations of gods, and their interactions with each other were sometimes violent. For example, the Olympian gods had reached their place of dominance by casting out an earlier generation of gods and goddesses known as the Titans. This may be a mythical reflection of the struggle between the Greeks and the earlier culture that they displaced when arriving in the Peloponnesus around roughly 1000 BC. [PARAGRAPH:1]In addition to stories about gods, the Hellenic religion was also full of great sagas about the deeds of heroes, many of whom possessed a divine parent. Stories abound about figures such as Heracles, Perseus, Jason, and the characters of the Iliad. These humans frequently interacted with gods and even bested them at times. Many of the heroes were held in great esteem by the Greeks, especially "noble" characters such as Achilles. [PARAGRAPH:1]Although some of the well-educated Greeks had their doubts about the existence of the gods, the vast majority of Greeks did not question the validity of the stories. The Greeks used their religion to explain the doings of the natural world and their own origins; it was a source of pride to trace one's lineage or the founding of one's city to the actions of a god. [PARAGRAPH:1]Archaeology and linguistic analysis suggests that the Hellenic religion was heavily influenced by other religions. For example, the Greek Zeus, Roman Jupiter, Germanic Tyr, and Sanskrit Dyaus are all sky gods that share a common Indo-European origin sometime in the distant past. Other gods were borrowed or influenced from Near Eastern religions; Aphrodite possessed a very similar function to the Semitic goddesses Ishtar and Astarte. During the Hellenic period and afterwards, the Greek religion spread across much of the Mediterranean and Near East, influencing many of the previously existing religions and giving rise to new syncretistic mystery cults. Although the Hellenic religion is no longer followed, it continues to provide inspiration for artists throughout the world.</English>
+		<French>[TAB]La religion hell&#233;nique, &#224; laquelle on fait le plus souvent r&#233;f&#233;rence sous l'appellation de mythologie grecque, comprend un grand nombre de l&#233;gendes sur les dieux, d&#233;esses et h&#233;ros. Certaines de ces l&#233;gendes remontent &#224; plusieurs si&#232;cles, ayant &#233;t&#233; transmises par la tradition orale. La religion hell&#233;nique est polyth&#233;iste, avec d'innombrables divinit&#233;s locales de la nature en plus des principaux dieux du panth&#233;on olympien. Les dieux grecs ont forme humaine mais poss&#232;dent des pouvoirs surnaturels, ont &#233;t&#233; engendr&#233;s par d'autres dieux mais ne vieillissent pas, ils sont immortels, peuvent voyager sur de tr&#232;s grandes distances instantan&#233;ment, parler &#224; travers les humains (parfois sans m&#234;me que ceux-ci s'en aper&#231;oivent), etc. Certains dieux sont les personnifications des forces de la nature (H&#233;lios &#233;tant litt&#233;ralement le dieu du soleil) alors que d'autres ont des personnalit&#233;s complexes et sont associ&#233;s &#224; de multiples fonctions (Apollon en &#233;tant le meilleur exemple). [PARAGRAPH:1]Dieux et d&#233;esses sont tous parents d'une m&#234;me grande famille, mais il existe des g&#233;n&#233;rations distinctes de dieux, et leurs interactions sont parfois tr&#232;s violentes. Le fait est que les dieux olympiens n'occupent leur position dominante qu'apr&#232;s avoir chass&#233; une premi&#232;re g&#233;n&#233;ration de dieux appel&#233;s les Titans. Cela refl&#232;te sans doute le chevauchement culturel mythologique existant entre les Grecs et la civilisation pr&#233;c&#233;dente, chass&#233;e &#224; leur arriv&#233;e dans le P&#233;loponn&#232;se aux alentours de 1000 av. J.-C.. [PARAGRAPH:1]Outre de nombreuses l&#233;gendes sur les dieux, la tradition orale hell&#233;nique est riche de grandes sagas relatant les hauts faits de h&#233;ros humains, dont un certain nombre ont une ascendance divine. On pense notamment aux l&#233;gendes d'H&#233;racl&#232;s, de Pers&#233;e, de Jason et des personnages de l'Iliade. Ces mortels entrent souvent en conflit avec des dieux et en triomphent parfois. Nombre d'entre eux, surtout s'ils sont nobles et puissants comme Achille, sont tenus en haute estime par les Grecs. [PARAGRAPH:1] M&#234;me si certains des Grecs &#233;duqu&#233;s entretiennent quelques doutes &#224; propos de la r&#233;alit&#233; dessin&#233;e par la religion hell&#233;nique, la grande majorit&#233; de la population accepte sans r&#233;serve la mythologie comme seule v&#233;rit&#233;. Les Grecs s'appuient sur leur religion pour expliquer les ph&#233;nom&#232;nes naturels et leurs propres origines, et c'est une source de grande fiert&#233; que de pouvoir associer une lign&#233;e ou la fondation d'une cit&#233; aux actions d'un dieu.[PARAGRAPH:1] Les r&#233;sultats des recherches arch&#233;ologiques et linguistiques laissent penser que la religion hell&#233;nique a &#233;t&#233; tr&#232;s influenc&#233;e par d'autres religions. C'est ainsi que le dieu grec Zeus, le dieu romain Jupiter, le dieu germain Tyr et le dieu sanskrit Dyaus sont tous des dieux du ciel, et il est probable qu'ils partagent tous une m&#234;me lointaine origine indo-europ&#233;enne. Les Grecs empruntent librement des dieux &#224; d'autres cultes du Proche-Orient, c'est ainsi qu'Aphrodite a des fonctions tr&#232;s proches de celles des d&#233;esses s&#233;mites Ishtar et Astart&#233;. Au cours de l'&#233;poque hell&#233;nique et par la suite, la religion grecque se r&#233;pand &#224; travers la plus grande partie de la M&#233;diterran&#233;e et du Proche-Orient, influen&#231;ant nombre des cultes d&#233;j&#224; existants et donnant naissance &#224; de nouveaux cultes syncr&#233;tistes. Bien que la religion grecque ne soit plus pratiqu&#233;e de nos jours, ses mythologies continuent d'enflammer les imaginations et d'illuminer les esprits.</French>
+		<German>[TAB]Die hellenistische Religion der Antike, auch als griechische Mythologie bezeichnet, umfasste einen enormen Fundus an G&#246;tter- und Heldensagen. Diese Geschichten datieren viele Jahrhunderte zur&#252;ck und blieben in der pr&#228;literarischen Zeit durch m&#252;ndliche &#220;berlieferung erhalten. Der hellenistische Glaube war angesichts der vielen G&#246;tter und G&#246;ttinnen des Olymps sowie zahlloser regionaler Naturgottheiten extrem polytheistisch gepr&#228;gt. Die griechischen G&#246;tter wurden in der Regel in menschlicher Form dargestellt, besa&#223;en allerdings &#252;bernat&#252;rliche Kr&#228;fte. Sie wurden von anderen Gottheiten geboren, alterten nicht, waren unsterblich, konnten im Nu enorme Entfernungen &#252;berwinden, sprachen durch die Menschen (mit oder ohne deren Wissen) etc. Einige G&#246;tter verk&#246;rperten Naturgewalten (zum Beispiel war Helios im w&#246;rtlichen Sinne der Gott der Sonne), w&#228;hrend andere komplexe Pers&#246;nlichkeitsstrukturen aufwiesen und zahlreiche Funktionen wahrnahmen (zum Beispiel Apollon). [PARAGRAPH:1]Als Teil einer gro&#223;en Familie waren die G&#246;tter und G&#246;ttinnen alle irgendwie miteinander verwandt, aber es gab eine klare Generationeneinteilung und manchmal bek&#228;mpften sie sich auch gegenseitig. Zum Beispiel sollen die G&#246;tter des Olymps ihre Vorherrschaft durch den Sturz der vorangehenden G&#246;ttergeneration, der so genannten Titanen, gesichert haben. Hierbei k&#246;nnte es sich um eine mythische Darstellung der kulturellen &#220;berschneidung zwischen den Griechen und der fr&#252;heren Population in dieser Region handeln, die sie bei der Ankunft auf dem Peleponnes um 1000 vor Christus vertrieben hatten. [PARAGRAPH:1]Neben den vielen G&#246;ttergeschichten wurde die griechische Religion auch von zahlreichen grandiosen Sagen &#252;ber die Abenteuer verschiedener Helden beeinflusst, von denen viele zumindest ein g&#246;ttliches Elternteil besa&#223;en. Die Erz&#228;hlungen handelten von heldenhaften Pers&#246;nlichkeiten wie Herakles, Perseus, Jason sowie den Charakteren der Ilias und inspirierten viele griechische K&#252;nstler sp&#228;terer Generationen. Diese Helden in Menschengestalt kamen h&#228;ufig mit den G&#246;ttern in Kontakt, &#252;bertrumpften sie bisweilen sogar und wurden von den Griechen meist hoch gesch&#228;tzt, insbesondere so ehrenhafte Pers&#246;nlichkeiten wie zum Beispiel Achilles. [PARAGRAPH:1]Einige der griechischen Gelehrten hatten durchaus Zweifel an dem Wahrheitsgehalt der griechischen Mythologie, dennoch stellte der &#252;berwiegende Teil der Bev&#246;lkerung die Stichhaltigkeit der &#252;berlieferten Legenden nicht in Frage. Die Griechen nutzten ihre Religion, um nat&#252;rliche Vorg&#228;nge und auch ihren eigenen Ursprung zu erkl&#228;ren. Man war stolz darauf, wenn man seine eigene Herkunft oder die Gr&#252;ndung seiner Heimatstadt auf das Einwirken eines Gottes zur&#252;ckf&#252;hren konnte. [PARAGRAPH:1]Arch&#228;ologische und sprachliche Untersuchungen haben ergeben, dass die griechische Religion stark von anderen Religionen beeinflusst war. Zum Beispiel stellen der griechische Gott Zeus, der r&#246;mische Gott Jupiter, der germanische Gott Tyr und der Sanskrit-Gott Dyaus allesamt Himmelsg&#246;tter dar, die irgendwann in der fernen Vergangenheit einen gemeinsamen indo-europ&#228;ischen Ursprung hatten. Andere G&#246;tter wurden von den Religionen im Nahen Osten "ausgeborgt" oder zumindest beeinflusst: Aphrodite besa&#223; frappierend &#228;hnliche Eigenschaften und Funktionen wie die semitischen G&#246;ttinnen Ishtar und Astarte. W&#228;hrend der hellenischen Periode und auch danach kam es zu einer starken Verbreitung der griechischen Mythologie &#252;ber gro&#223;e Teile des Mittelmeerraums und des Nahen Ostens. Sie beeinflusste viele der bereits existierenden Religionen und ebnete den Weg f&#252;r die Entstehung neuer synkretistischer Mysterienkulte. Obwohl die griechische Religion des hellenistischen Zeitalters heute nicht mehr in dieser Form praktiziert wird, lassen sich auch heute noch K&#252;nstler in aller Welt von ihr inspirieren.</German>
+		<Italian>[TAB]La religione ellenica, nota anche come "mitologia greca", &#232; composta da un'enorme serie di storie di dei, dee ed eroi, tramandate a lungo tempo oralmente nell'era pre-letteraria. La religione ellenica era politeistica e oltre agli dei e alle dee dell'Olimpo comprendeva innumerevoli divinit&#224; naturali locali. Le divinit&#224; greche avevano aspetto umano ma erano dotate di poteri soprannaturali; pur nascendo (da altre divinit&#224;) non invecchiavano ed erano immortali, potevano coprire enormi distanze istantaneamente, parlare attraverso gli uomini con o senza la loro consapevolezza, ecc. Alcune divinit&#224; erano la personificazione di forze naturali (per esempio, Elio era letteralmente il dio del sole), mentre altre avevano personalit&#224; complesse e numerose funzioni (Apollo ne &#232; forse il miglior esempio).[PARAGRAPH:1]Le divinit&#224; avevano fra loro vincoli di parentela e formavano una grande famiglia, ma potevano distinguersi diverse generazioni, le cui interazioni con le altre avevano spesso esiti violenti. Per fare un esempio, gli dei olimpici avevano raggiunto la loro posizione di dominio estromettendo la precedente generazione dei Titani. Questo fenomeno potrebbe essere un riflesso culturale di ci&#242; che avvenne quando i Greci si sostituirono alla popolazione locale quando giunsero nel Peloponneso intorno al 1000 a.C. [PARAGRAPH:1]Oltre alle storie sugli dei, la mitologia greca &#232; piena di grandi saghe che narrano le gesta di eroi, molti dei quali avevano genitori divini. I miti di Ercole, Perseo, Giasone e le storie dei protagonisti dell'Iliade furono spesso oggetto di rielaborazione da parte degli artisti greci successivi. Si trattava di uomini che interagivano spesso con gli dei, a volte superandoli. Molti di loro erano enormemente stimati dai Greci, soprattutto se "nobili" come Achille.[PARAGRAPH:1]Anche se i Greci meglio istruiti avevano i loro dubbi sul fondamento della religione ellenica, il popolo non metteva in dubbio la veridicit&#224; delle storie. I Greci usarono la loro religione per spiegare i fenomeni naturali e le proprie origini; era fonte di orgoglio il fatto che la propria ascendenza o la fondazione della propria citt&#224; potessero essere fatte risalire a un atto divino. [PARAGRAPH:1]Le analisi archeologiche e linguistiche suggeriscono che la religione ellenica abbia subito una pesante influenza da parte di altre religioni. Per esempio, il dio greco Zeus, il dio romano Giove, il dio germanico Tyr e il dio sanscrito Dyaus sono tutte divinit&#224; del cielo che condividono un'origine indo-europea risalente a chiss&#224; quando nel passato. Altre divinit&#224; furono prese in prestito o influenzate dalle religioni del Vicinio Oriente: Afrodite aveva una funzione simile a quella delle semitiche Ishtar e Astarte. Nel corso del periodo ellenico e anche dopo, la religione greca si diffuse nel Mediterraneo e nel Vicino Oriente, influenzando a sua volta molte religioni pre-esistenti e facendo nascere nuovi culti mistici sincretici. Anche se oggi si tratta di una religione morta, la mitologia greca ha ispirato gli artisti per migliaia di anni.</Italian>
+		<Spanish>[TAB]La religi&#243;n hel&#233;nica, tambi&#233;n conocida como mitolog&#237;a griega, comprende un cuerpo enorme de narraciones sobre los dioses y h&#233;roes. Estas historias ten&#237;an muchos siglos de antig&#252;edad y, hasta la aparici&#243;n de la escritura en Grecia, se conservaron mediante la tradici&#243;n oral. De naturaleza polite&#237;sta, contaba con un sinf&#237;n de deidades naturales locales, adem&#225;s de los principales dioses y diosas del Olimpo. Los dioses griegos ten&#237;an forma humana, pero pose&#237;an poderes sobrenaturales; eran engendrados por otros dioses, pero nunca envejec&#237;an, no pod&#237;an morir, pod&#237;an cruzar enormes distancias al instante, hablaban a trav&#233;s de los humanos con o sin su consentimiento, etc. Algunos de ellos eran los aspectos personificados de las fuerzas de la naturaleza (Helios, por ejemplo, era literalmente el dios del sol) mientras que otros pose&#237;an personalidades complejas y funciones m&#250;ltiples (seguramente Apolo sea el mejor ejemplo). [PARAGRAPH:1]Todos los dioses pertenec&#237;an a una gran familia, pero hab&#237;a varias generaciones diferenciadas y su interacci&#243;n era en muchas ocasiones violenta. Los dioses del Olimpo, por ejemplo, hab&#237;an alcanzado su posici&#243;n de predominio tras expulsar a una generaci&#243;n anterior de dioses y diosas (los titanes). Esto bien pudiera ser una transposici&#243;n mitol&#243;gica de la lucha entre los griegos y la cultura anterior, a la que desplazaron cuando llegaron al Peloponeso, alrededor del 1000 a. C. [PARAGRAPH:1]Adem&#225;s de las historias de los dioses, la religi&#243;n hel&#233;nica estaba repleta de grandes historias sobre las haza&#241;as de los h&#233;roes, muchos de los cuales estaban emparentados con los dioses. Abundan las narraciones acerca de figuras como H&#233;rcules, Perseo, Jas&#243;n y los personajes de la Il&#237;ada. Estos humanos sol&#237;an relacionarse con los dioses y, a veces, hasta los superaban. Los griegos sent&#237;an gran estima por estos h&#233;roes, especialmente por los personajes "nobles", como por ejemplo Aquiles. [PARAGRAPH:1]Aunque algunos griegos cultivados ten&#237;an sus dudas sobre la existencia de los dioses, la mayor&#237;a no cuestionaba la validez de las historias. Los griegos utilizaban su religi&#243;n para explicar el mundo natural y sus propios or&#237;genes. Desde trazar los or&#237;genes del propio linaje o la fundaci&#243;n de una ciudad hasta los actos de un dios era motivo de gran orgullo. [PARAGRAPH:1]La arqueolog&#237;a y el an&#225;lisis ling&#252;&#237;stico sugieren que la religi&#243;n hel&#233;nica estuvo muy influida por otras religiones. Por poner un ejemplo, el Zeus griego, el J&#250;piter romano, el Tyr germano y el Dyaus s&#225;nscrito son todos dioses del cielo que comparten un origen indoeuropeo com&#250;n en un pasado lejano. Otros dioses proced&#237;an de religiones de Oriente Pr&#243;ximo (o hab&#237;an recibido importantes influencias de ellas): Afrodita pose&#237;a una funci&#243;n muy similar a la de las diosas sem&#237;ticas Ishtar y Astart&#233;. Durante el per&#237;odo helen&#237;stico y despu&#233;s de &#233;l, la religi&#243;n griega se extendi&#243; por gran parte del Mediterr&#225;neo y Oriente Pr&#243;ximo, lo que influy&#243; en muchas de las religiones existentes y origin&#243; nuevos cultos mist&#233;ricos y sincr&#233;ticos. Aunque la religi&#243;n hel&#233;nica ya no cuenta con seguidores, sigue siendo una gran fuente de inspiraci&#243;n para artistas del mundo entero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JAINISM</Tag>
+		<English>Jainism</English>
+		<French>Jainism</French>
+		<German>Jainism</German>
+		<Italian>Jainism</Italian>
+		<Spanish>Jainism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JAINISM_ADJECTIVE</Tag>
+		<English>Jain</English>
+		<French>Jain</French>
+		<German>Jain</German>
+		<Italian>Jain</Italian>
+		<Spanish>Jain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JAINISM_PEDIA</Tag>
+		<English>[TAB]Jainism is an Indian religion that prescribes a path of non-violence towards all living beings. Its philosophy and practice emphasize the necessity of self-effort to move the soul towards divine consciousness and liberation. Any soul that has conquered its own inner enemies and achieved the state of supreme being is called a jina ("conqueror" or "victor"). The ultimate status of these perfect souls is called siddha. Jainism is also referred to as shramana dharma (self-reliant) or the "path of the niganthas" (those without attachments or aversions) by ancient texts.
+Jain doctrine teaches that Jainism has always existed and will always exist, although historians date the foundation of the organized or present form of Jainism to sometime between the 9th and the 6th century BC. Like most ancient Indian religions, Jainism has its roots from the Indus Valley Civilization, reflecting native spirituality prior to the Indo-Aryan migration into India. Other scholars suggested the shramana traditions were separate and contemporaneous with Indo-Aryan religious practices of the historical Vedic religion.[PARAGRAPH:1]Contemporary Jainism is a small but influential religious minority with as many as 4.2 million followers in India, and successful growing immigrant communities in North America, Western Europe, the Far East, Australia and elsewhere. Jains have significantly influenced and contributed to ethical, political and economic spheres in India. Jains have an ancient tradition of scholarship and have the highest degree of literacy for a religious community in India. Jain libraries are the oldest in the country.</English>
+		<French>Jainism</French>
+		<German>Jainism</German>
+		<Italian>Jainism</Italian>
+		<Spanish>Jainism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM</Tag>
+		<English>Zoroastrianism</English>
+		<French>Zoroastrianism</French>
+		<German>Zoroastrianism</German>
+		<Italian>Zoroastrianism</Italian>
+		<Spanish>Zoroastrianism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM_ADJECTIVE</Tag>
+		<English>Zoroastrian</English>
+		<French>Zoroastrian</French>
+		<German>Zoroastrian</German>
+		<Italian>Zoroastrian</Italian>
+		<Spanish>Zoroastrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA</Tag>
+		<English>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </English>
+		<French>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </French>
+		<German>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </German>
+		<Italian>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </Italian>
+		<Spanish>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </Spanish>
+	</TEXT>
+</Civ4GameText>

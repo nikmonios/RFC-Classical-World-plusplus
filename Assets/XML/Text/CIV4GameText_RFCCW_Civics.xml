@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PAGANISM</Tag>
+		<English>Paganism</English>
+		<French>Paganism</French>
+		<German>Paganism</German>
+		<Italian>Paganism</Italian>
+		<Spanish>Paganism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_ECONOMY</Tag>
+		<English>Military Economy</English>
+		<French>Military Economy</French>
+		<German>Military Economy</German>
+		<Italian>Military Economy</Italian>
+		<Spanish>Military Economy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HEREDITARY_RULE_STRATEGY</Tag>
+		<English>Extra happiness in largest cities</English>
+		<French>Extra happiness in largest cities</French>
+		<German>Extra happiness in largest cities</German>
+		<Italian>Extra happiness in largest cities</Italian>
+		<Spanish>Extra happiness in largest cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBALISM</Tag>
+		<English>Tribal Levy</English>
+		<French>Tribal Levy</French>
+		<German>Tribal Levy</German>
+		<Italian>Tribal Levy</Italian>
+		<Spanish>Tribal Levy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DESPOTISM</Tag>
+		<English>Despotism</English>
+		<French>Despotism</French>
+		<German>Despotism</German>
+		<Italian>Despotism</Italian>
+		<Spanish>Despotism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TYRANNY</Tag>
+		<English>Tyranny</English>
+		<French>Tyranny</French>
+		<German>Tyranny</German>
+		<Italian>Tyranny</Italian>
+		<Spanish>Tyranny</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DYNASTIC_CULT</Tag>
+		<English>Dynastic Cult</English>
+		<French>Dynastic Cult</French>
+		<German>Dynastic Cult</German>
+		<Italian>Dynastic Cult</Italian>
+		<Spanish>Dynastic Cult</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PAGANISM_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBAL_CUSTOM</Tag>
+		<English>Tribal Custom</English>
+		<French>Tribal Custom</French>
+		<German>Tribal Custom</German>
+		<Italian>Tribal Custom</Italian>
+		<Spanish>Tribal Custom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBAL_CUSTOM_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMPIRE</Tag>
+		<English>Empire</English>
+		<French>Empire</French>
+		<German>Empire</German>
+		<Italian>Empire</Italian>
+		<Spanish>Empire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_HELP</Tag>
+		<English>[ICON_BULLET]Reduced Stability penalty for empire size with State Religion</English>
+		<French>[ICON_BULLET]Reduced Stability penalty for empire size with State Religion</French>
+		<German>[ICON_BULLET]Reduced Stability penalty for empire size with State Religion</German>
+		<Italian>[ICON_BULLET]Reduced Stability penalty for empire size with State Religion</Italian>
+		<Spanish>[ICON_BULLET]Reduced Stability penalty for empire size with State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
+		<English>Reduced Stability penalty for empire size with State Religion</English>
+		<French>Reduced Stability penalty for empire size with State Religion</French>
+		<German>Reduced Stability penalty for empire size with State Religion</German>
+		<Italian>Reduced Stability penalty for empire size with State Religion</Italian>
+		<Spanish>Reduced Stability penalty for empire size with State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_BUREAUCRACY_HELP</Tag>
+		<English>[ICON_BULLET]Reduced Stability penalty for empire size</English>
+		<French>[ICON_BULLET]Reduced Stability penalty for empire size</French>
+		<German>[ICON_BULLET]Reduced Stability penalty for empire size</German>
+		<Italian>[ICON_BULLET]Reduced Stability penalty for empire size</Italian>
+		<Spanish>[ICON_BULLET]Reduced Stability penalty for empire size</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMPIRE_STRATEGY</Tag>
+		<English>Reduced Stability penalty for empire size</English>
+		<French>Reduced Stability penalty for empire size</French>
+		<German>Reduced Stability penalty for empire size</German>
+		<Italian>Reduced Stability penalty for empire size</Italian>
+		<Spanish>Reduced Stability penalty for empire size</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMPIRE_HELP</Tag>
+		<English>[ICON_BULLET]Reduced Stability penalty for empire size</English>
+		<French>[ICON_BULLET]Reduced Stability penalty for empire size</French>
+		<German>[ICON_BULLET]Reduced Stability penalty for empire size</German>
+		<Italian>[ICON_BULLET]Reduced Stability penalty for empire size</Italian>
+		<Spanish>[ICON_BULLET]Reduced Stability penalty for empire size</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMPIRE_PEDIA</Tag>
+		<English>[TAB]Scholars debate what exactly constitutes an Empire (from the Latin "imperium", denoting military command within the ancient Roman government). Generally, they may define an empire as a state that extends dominion over areas and populations distinct culturally and ethnically from the culture/ethnicity at the center of power. There are, however, many types of definitions, including definitions based on economic factors and those based on political factors. The term is most commonly understood to mean that of the military hegemonic power.</English>
+		<French>[TAB]Scholars debate what exactly constitutes an Empire (from the Latin "imperium", denoting military command within the ancient Roman government). Generally, they may define an empire as a state that extends dominion over areas and populations distinct culturally and ethnically from the culture/ethnicity at the center of power. There are, however, many types of definitions, including definitions based on economic factors and those based on political factors. The term is most commonly understood to mean that of the military hegemonic power.</French>
+		<German>[TAB]Scholars debate what exactly constitutes an Empire (from the Latin "imperium", denoting military command within the ancient Roman government). Generally, they may define an empire as a state that extends dominion over areas and populations distinct culturally and ethnically from the culture/ethnicity at the center of power. There are, however, many types of definitions, including definitions based on economic factors and those based on political factors. The term is most commonly understood to mean that of the military hegemonic power.</German>
+		<Italian>[TAB]Scholars debate what exactly constitutes an Empire (from the Latin "imperium", denoting military command within the ancient Roman government). Generally, they may define an empire as a state that extends dominion over areas and populations distinct culturally and ethnically from the culture/ethnicity at the center of power. There are, however, many types of definitions, including definitions based on economic factors and those based on political factors. The term is most commonly understood to mean that of the military hegemonic power.</Italian>
+		<Spanish>[TAB]Scholars debate what exactly constitutes an Empire (from the Latin "imperium", denoting military command within the ancient Roman government). Generally, they may define an empire as a state that extends dominion over areas and populations distinct culturally and ethnically from the culture/ethnicity at the center of power. There are, however, many types of definitions, including definitions based on economic factors and those based on political factors. The term is most commonly understood to mean that of the military hegemonic power.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMPIRE_STRATEGY</Tag>
+		<English>Less instability from non-core cities</English>
+		<French>Less instability from non-core cities</French>
+		<German>Less instability from non-core cities</German>
+		<Italian>Less instability from non-core cities</Italian>
+		<Spanish>Less instability from non-core cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_HAPPINESS</Tag>
+		<English>+1[ICON_HAPPY]per military unit</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSALAGE_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DECENTRALIZATION_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY_STRATEGY</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OLIGARCHY_STRATEGY</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SLAVERY_STRATEGY</Tag>
+		<English>Can capture slaves and sell them, use them to rush buildings or settle them in a city</English>
+		<French>Can capture slaves and sell them, use them to rush buildings or settle them in a city</French>
+		<German>Can capture slaves and sell them, use them to rush buildings or settle them in a city</German>
+		<Italian>Can capture slaves and sell them, use them to rush buildings or settle them in a city</Italian>
+		<Spanish>Can capture slaves and sell them, use them to rush buildings or settle them in a city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_AGRARIANISM_STRATEGY</Tag>
+		<English>Extra income from farms and orchards; cottages grow more slowly</English>
+		<French>Extra income from farms and orchards; cottages grow more slowly</French>
+		<German>Extra income from farms and orchards; cottages grow more slowly</German>
+		<Italian>Extra income from farms and orchards; cottages grow more slowly</Italian>
+		<Spanish>Extra income from farms and orchards; cottages grow more slowly</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_AGRARIANISM_PEDIA</Tag>
+		<English>Agrarianism represents socirties in which large landowners involved in mass-scale agriculture are the dominating force.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
+		<English>Theocratic societies are led by rulers who claim to be divinely appointed and whose mission is to remake the world in the image of their chosen faith.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PERSECUTION_STRATEGY</Tag>
+		<English>No spread of non-state religion; +25% military unit production in cities with state religion</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PERSECUTION_PEDIA</Tag>
+		<English>Militancy represents soceities in which fighting for one's beliefs, including martyrdom, is a common factor.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_PEDIA</Tag>
+		<English>Religious law represents societies in which the specific strictures of a particular religion are the law of the land.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_ECONOMY</Tag>
+		<English>Military Economy</English>
+		<French>Military Economy</French>
+		<German>Military Economy</German>
+		<Italian>Military Economy</Italian>
+		<Spanish>Military Economy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_STATE_RELIGION</Tag>
+		<English>State Religion</English>
+		<French>State Monopoly</French>
+		<German>State Monopoly</German>
+		<Italian>State Monopoly</Italian>
+		<Spanish>State Monopoly</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_AGRARIANISM</Tag>
+		<English>Agrarianism</English>
+		<French>Agrarianism</French>
+		<German>Agrarianism</German>
+		<Italian>Agrarianism</Italian>
+		<Spanish>Agrarianism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRADE_ECONOMY</Tag>
+		<English>Trade Economy</English>
+		<French>Market Economy</French>
+		<German>Market Economy</German>
+		<Italian>Market Economy</Italian>
+		<Spanish>Market Economy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_RELIGION</Tag>
+		<English>Religious Freedom</English>
+		<French>Religious Freedom</French>
+		<German>Religious Freedom</German>
+		<Italian>Religious Freedom</Italian>
+		<Spanish>Religious Freedom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_RELIGIOUS_UNREST_HELP</Tag>
+		<English>[ICON_BULLET]No Religious Unrest</English>
+		<French>[ICON_BULLET]No Religious Unrest</French>
+		<German>[ICON_BULLET]No Religious Unrest</German>
+		<Italian>[ICON_BULLET]No Religious Unrest</Italian>
+		<Spanish>[ICON_BULLET]No Religious Unrest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PATRONAGE</Tag>
+		<English>Patronage</English>
+		<French>Patronage</French>
+		<German>Patronage</German>
+		<Italian>Patronage</Italian>
+		<Spanish>Patronage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HEREDITARY_RULE</Tag>
+		<English>Monarchy</English>
+		<French>Monarchy</French>
+		<German>Monarchy</German>
+		<Italian>Monarchy</Italian>
+		<Spanish>Monarchy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY</Tag>
+		<English>Oligarchy</English>
+		<French>Oligarchy</French>
+		<German>Oligarchy</German>
+		<Italian>Oligarchy</Italian>
+		<Spanish>Oligarchy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OLIGARCHY_PEDIA</Tag>
+		<English>[TAB]An Oligarchy is a form of government where political power effectively rests with a small elite segment of society distinguished by royalty, wealth, family, military powers or occult spiritual hegemony. The word oligarchy is from the Greek words for "few" and "rule." Such states are often controlled by politically powerful families whose children were heavily conditioned and mentored to be heirs of the power of the oligarchy. This type of power by its very nature may not be exercised openly; the oligarchs preferring to remain "the power behind the throne", exerting control through economic means. Oligarchies have been tyrannical throughout history, being completely reliant on public servitude to exist. Although Aristotle pioneered the use of the term as a synonym for rule by the rich, for which the exact term is plutocracy, oligarchy is not always a rule by wealth, as oligarchs can simply be a privileged group.</English>
+		<French>[TAB]Une oligarchie - du grec oligos (peu nombreux) et arkhê (commandement) - est une forme de gouvernement par une classe dominante peu nombreuse qui s'est cooptée elle-même selon des critères mal définis. Sa légitimité n'est pas fondée sur celle des autres types de régime: ni d'être les meilleurs (aristocratie), ni les plus riches (ploutocratie), ni les plus populaires (démocratie), ni la plus compétente (technocratie), ni non plus le tirage au sort, la force ou l'hérédité, mais d'exercer un pouvoir de fait, en s'appuyant parfois sur un ou plusieurs des critères de légitimité qui caractérisent les autres régimes. Le terme oligarque, qui n'était plus utilisé que pour l'histoire des sociétés anciennes ou les récits de science fiction, a trouvé un regain de faveur pour désigner les hommes d'affaire riches ayant des liens avec le pouvoir politique qui ont émergé en Russie après la désintégration de la bureaucratie du régime soviétique.</French>
+		<German>[TAB]Die Oligarchie (vom griech.: oligarchia "Herrschaft Weniger", zusammengesetzt aus oligoi "Wenige" und arche "Herrschaft") ist in der klassischen (antiken) Verfassungslehre die Entartung der Aristokratie. Zur Abgrenzung von dieser Bedeutung und in Besinnung auf den eigentlichen Wortsinn wird heute auch der an sich gleichbedeutende Begriff Oligokratie (kratía = Macht, Herrschaft, Kraft, Stärke) verwendet. Die Oligarchie bei Platon (427-347 v. Chr.) ist die gesetzlose Herrschaft der Reichen, die nur an ihrem Eigennutz interessiert sind. Sie fällt wie die Aristokratie unter die Herrschaft der Wenigen, wobei die Aristokratie als gesetzmäßige, am Gemeinwohl ausgerichtete Herrschaft gilt. Diese Idee wurde zunächst von seinem Schüler Aristoteles (384-324 v. Chr.), und später vom griechischen Historiker Polybios (um 200 v. Chr. - etwa 118 v. Chr.) weiterentwickelt. Grundsätzlich bestand in der antiken Staatstheorie seit Platon die Idee, dass jede am Gemeinwohl orientierte Herrschaftsform (Monarchie (auch: Basileia), Aristokratie, Demokratie) ein entartetes, nur an den Interessen der Herrschenden orientiertes Gegenstück hat (Tyrannis, Oligarchie, Ochlokratie). Aus der Erkenntnis heraus, dass diese sechs Grundformen der Verfassungen notwendigerweise instabil sind, hat vor allem Polybios die Idee des Verfassungskreislaufs entwickelt, die diese Herrschaftsformen zueinander in Beziehung setzt.</German>
+		<Italian>[TAB]L'oligarchia (dal greco "oligoi" (pochi e "archè" (potere, comando) è il sistema di governo di una minoranza, di un gruppo ristretto di persone ed è anche detto Governo di Pochi. Nell'antica Grecia il termine oligarchia indicava principalmente il governo di una classe scelta in base al censo, invece che alla nascita, requisito essenziale del governo di matrice aristocratica. Nell'Atene del V secolo a.C. vi furono il governo oligarchico dei "Quattrocento" nel 411 a.C. ed il regime dei Trenta tiranni del 404 a.C. Nella tradizione del pensiero filosofico greco, sistematizzata da Aristotele (vedi principio aristotelico) l'oligarchia è una forma di governo "cattiva", non perché antidemocratica, ma perché quei pochi esercitano il potere indebitamente, o in quanto non ne hanno il diritto o in quanto lo fanno violando le leggi o, infine, in quanto lo esercitano favorendo gli interessi particolaristici a scapito di quelli della comunità. Se, invece, i pochi che esercitano un potere lo fanno in maniera legittima e in vista dell'interesse generale, allora il loro governo è quello dei migliori, e cioè un'aristocrazia. Secondo Aristotele l'oligarchia è dunque la degenerazione dell'aristocrazia. Nella tradizione del pensiero occidentale si è conservata a lungo, dall'antichità al Medioevo, il concetto che un governo di pochi non è cattivo in sé ma solo in quanto i pochi governino male. Nell'età moderna invece si è progressivamente affermata la concezione democratica e, con essa, la tesi che un governo di pochi è, in quanto tale, un cattivo governo: un governo buono è quello in cui è la maggioranza (i più) che governa.</Italian>
+		<Spanish>[TAB]La oligarquía, en ciencia política, es una forma de gobierno en la que el poder supremo está en manos de unas pocas personas. Los escritores políticos de la antigua Grecia emplearon el término para designar la forma degenerada y negativa de aristocracia (literalmente, gobierno de los mejores). Estrictamente, la oligarquía surgirá cuando la sucesión de un sistema aristocrático se perpetúe por transferencia sanguínea o mítica, sin que las cualidades éticas y de dirección de los mejores surjan como mérito reconocido por la comunidad, siendo esta definición muy cercana a la de monarquía y más todavía a la de nobleza. Los oligarcas dueños de propiedades, de tierras o de grandes acumulaciones de dinero, son poseedores de fuerza en la dirección política gracias a sus fuertes influencias económicas. Poseen estándares éticos posiblemente dudosos, con diversos medios de legitimación, que tienen como piso el poder acumulado y el símbolo histórico que haya significado la sucesión que les dio fuerza. La oligarquía es un grupo minoritario de personas, pertenecientes a una misma clase social, generalmente con gran poder e influencia (aristocrática) que dirige y controla una colectividad o institución.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY</Tag>
+		<English>Theocracy</English>
+		<French>Theocracy</French>
+		<German>Theocracy</German>
+		<Italian>Theocracy</Italian>
+		<Spanish>Theocracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW</Tag>
+		<English>Religious Law</English>
+		<French>Religious Law</French>
+		<German>Religious Law</German>
+		<Italian>Religious Law</Italian>
+		<Spanish>Religious Law</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITANCY</Tag>
+		<English>Militancy</English>
+		<French>Persecution</French>
+		<German>Persecution</German>
+		<Italian>Persecuzione</Italian>
+		<Spanish>Persecución</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_WAGE_LABOR</Tag>
+		<English>Wage Labor</English>
+		<French>Wage Labor</French>
+		<German>Wage Labor</German>
+		<Italian>Wage Labor</Italian>
+		<Spanish>Wage Labor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_WAGE_LABOR_STRATEGY</Tag>
+		<English>Extra commerce from towns; cottages develop faster</English>
+		<French>Extra commerce from towns; cottages develop faster</French>
+		<German>Extra commerce from towns; cottages develop faster</German>
+		<Italian>Extra commerce from towns; cottages develop faster</Italian>
+		<Spanish>Extra commerce from towns; cottages develop faster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_WAGE_LABOR_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SLAVERY_HELP</Tag>
+		<English>[ICON_BULLET]20% chance to enslave enemy units (40% for barbarians)</English>
+		<French>[ICON_BULLET]20% Chance to enslave enemy units (40% for barbarians)</French>
+		<German>[ICON_BULLET]20% Chance to enslave enemy units (40% for barbarians)</German>
+		<Italian>[ICON_BULLET]20% Chance to enslave enemy units (40% for barbarians)</Italian>
+		<Spanish>[ICON_BULLET]20% Chance to enslave enemy units (40% for barbarians)</Spanish>
+	</TEXT>
+</Civ4GameText>

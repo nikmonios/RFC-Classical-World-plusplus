@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Tim McCracken (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ATTITUDE_VASSAL_OF</Tag>
+		<English>Vassal of %s1_CivDesc</English>
+		<French>Vassal de : %s1_CivDesc</French>
+		<German>Vasall von: %s1_CivDesc</German>
+		<Italian>Vassallo di %s1_CivDesc</Italian>
+		<Spanish>Vasallo del %s1_CivDesc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_VASSAL_AGREEMENT</Tag>
+		<English>%s1_vassal_name is now a vassal state of %s2_master_name</English>
+		<French>%s1_vassal_name souhaite devenir un &#233;tat vassal de : %s2_master_name</French>
+		<German>Die Zivilisation von %s1_vassal_name willigt ein, %s2_master_name als Vasallenstaat zu dienen</German>
+		<Italian>%s1_vassal_name ha accettato di diventare uno stato vassallo di %s2_master_name</Italian>
+		<Spanish>%s1_vassal_name ha accedido a convertirse en estado vasallo de %s2_master_name.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_VASSAL_YOU_ARE_FREE</Tag>
+		<English>%s1_team_name is no longer able to protect you. You are once again an independent state.</English>
+		<French>%s1_team_name ne peut plus vous prot&#233;ger. Vous &#234;tes &#224; nouveau un &#233;tat ind&#233;pendant.</French>
+		<German>%s1_team_name kann Euch keinen Schutz mehr gew&#228;hren und entl&#228;sst Euer Reich daher in die Unabh&#228;ngigkeit.</German>
+		<Italian>%s1_team_name non &#232; pi&#249; in grado di proteggerti. Sei tornato a essere uno stato indipendente.</Italian>
+		<Spanish>%s1_team_name ya no puede protegerte. Vuelves a ser un estado independiente.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_VASSAL_THEY_ARE_FREE</Tag>
+		<English>%s1_team_name claims insufficient protection. They are no longer your vassal state.</English>
+		<French>%s1_team_name d&#233;plore une protection insuffisante. Ce n'est plus l'un des vos &#233;tats vassaux.</French>
+		<German>%s1_team_name beklagt sich &#252;ber mangelnden Schutz und dient Euch daher nicht mehr als Vasallenstaat.</German>
+		<Italian>%s1_team_name ritiene di non essere adeguatamente protetto e non &#232; pi&#249; un tuo stato vassallo.</Italian>
+		<Spanish>%s1_team_name dice que no se le protege lo suficiente. Ya no es tu estado vasallo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_VASSAL_REVOLT</Tag>
+		<English>%s1_team_vassal has renounced the protection of %s2_team_master and is once again a free state.</English>
+		<French>%s1_team_vassal a renonc&#233; &#224; la protection de son suzerain %s2_team_master. Il s'agit &#224; nouveau d'un &#233;tat libre.</French>
+		<German>%s1_team_vassal verzichtet auf den Schutz der Zivilisation von %s2_team_master und ist damit wieder ein freies Reich.</German>
+		<Italian>%s1_team_vassal ha rinunciato alla protezione di %s2_team_master ed &#232; tornato a essere uno stato libero.</Italian>
+		<Spanish>%s1_team_vassal ha renunciado a la protecci&#243;n de %s2_team_master y vuelve a ser un estado libre.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_VASSAL_TRIBUTE</Tag>
+		<English>%s1_player receives %d3_gold [ICON_GOLD]/Turn from %s2_player to cover expenses</English>
+		<French>%s2_player donne %d3_gold [ICON_GOLD]/tour &#224; %s1_player pour couvrir ses d&#233;penses.</French>
+		<German>%s1_player erh&#228;lt zur Deckung der Ausgaben %d3_gold [ICON_GOLD]/Runde von %s2_player</German>
+		<Italian>%s1_player riceve %d3_gold [ICON_GOLD]/turno da %s2_player per coprire le spese</Italian>
+		<Spanish>%s1_player recibe %d3_gold [ICON_GOLD]/turno de %s2_player para cubrir gastos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ATTITUDE_MASTER_OF</Tag>
+		<English>Master of %s1_player</English>
+		<French>Ma&#238;tre de %s1_player</French>
+		<German>Hegemon von %s1_player</German>
+		<Italian>Signore di %s1_player</Italian>
+		<Spanish>Se&#241;or de %s1_player.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_VASSAL</Tag>
+		<English>Oh [CT_NAME], leader of mighty [CT_CIV_SHORT], please protect [OUR_CIV_SHORT] from harm and you shall have our loyalty.</English>
+		<French>&#212; [CT_NAME], chef des puissants [CT_CIV_SHORT], prot&#233;gez les [OUR_CIV_SHORT] de tout malheur et vous pourrez compter sur notre loyaut&#233;.</French>
+		<German>Oh [CT_NAME], Staatsoberhaupt des m&#228;chtigen Volkes von [CT_CIV_SHORT], bitte gew&#228;hrt dem Volk von [OUR_CIV_SHORT] Euren Schutz. Wir werden Euch treue Diener sein.</German>
+		<Italian>O [CT_NAME], potente leader [CT_CIV_ADJ], ti prego, proteggici dai pericoli esterni e noi ti saremo fedeli.</Italian>
+		<Spanish>Oh, [CT_NAME], l&#237;der de la poderosa tierra de [CT_CIV_SHORT], protege a [OUR_CIV_SHORT] de todo da&#241;o y tendr&#225;s nuestra lealtad para siempre.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_TAB</Tag>
+		<English>[TAB]</English>
+		<French>[TAB]</French>
+		<German>[TAB]</German>
+		<Italian>[TAB]</Italian>
+		<Spanish>[TAB]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_YES</Tag>
+		<English>[ICON_HAPPY]</English>
+		<French>[ICON_HAPPY]</French>
+		<German>[ICON_HAPPY]</German>
+		<Italian>[ICON_HAPPY]</Italian>
+		<Spanish>[ICON_HAPPY]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NO</Tag>
+		<English>[ICON_UNHAPPY]</English>
+		<French>[ICON_UNHAPPY]</French>
+		<German>[ICON_UNHAPPY]</German>
+		<Italian>[ICON_UNHAPPY]</Italian>
+		<Spanish>[ICON_UNHAPPY]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HISTORICAL</Tag>
+		<English>Historical</English>
+		<French>
+			<Text>Historique</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Historisch</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Storica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hist&#243;rica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOALS</Tag>
+		<English>Historical Victory goals</English>
+		<French>Objectifs de victoire historique</French>
+		<German>Historische Siegbedingungen</German>
+		<Italian>Obiettivi per le vittorie storiche</Italian>
+		<Spanish>Objetivos de la victoria hist&#243;rica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ICON_BULLET</Tag>
+		<English>[ICON_BULLET]</English>
+		<French>[ICON_BULLET]</French>
+		<German>[ICON_BULLET]</German>
+		<Italian>[ICON_BULLET]</Italian>
+		<Spanish>[ICON_BULLET]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_ACCOMPLISHED</Tag>
+		<English>Accomplished:</English>
+		<French>Accompli :</French>
+		<German>Erfüllt:</German>
+		<Italian>Raggiunti:</Italian>
+		<Spanish>Cumplidos:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_YES</Tag>
+		<English>YES</English>
+		<French>OUI</French>
+		<German>JA</German>
+		<Italian>SÌ</Italian>
+		<Spanish>SÍ</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_NO</Tag>
+		<English>NO</English>
+		<French>NON</French>
+		<German>NEIN</German>
+		<Italian>NO</Italian>
+		<Spanish>NO</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_NOTYET</Tag>
+		<English>Not yet</English>
+		<French>Pas encore</French>
+		<German>Noch nicht</German>
+		<Italian>Non ancora</Italian>
+		<Spanish>Aún no</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_INTERMEDIATE</Tag>
+		<English>We have accomplished 2 Historical Goals out of 3. A Triumphal Arch has been built in our capital</English>
+		<French>Nous avons accompli 2 objectifs historiques sur 3. Un Arc de Triomphe a été construit dans notre capitale</French>
+		<German>Wir haben 2 von 3 Historischen Siegbedingungen erfüllt. In unserer Hauptstadt wurde ein Triumphbogen erbaut.</German>
+		<Italian>Abbiamo raggiunto 2 obiettivi storici su 3. &#200; stato costruito un arco di trionfo nella nostra capitale</Italian>
+		<Spanish>Hemos conseguido 2 de los 3 objetivos hist&#243;ricos. Se ha erigido un Arco de Triunfo en nuestra capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MIN_LATITUDE</Tag>
+		<English>[COLOR_WARNING_TEXT]Is automatically built on achievement of 2 Historical Goals out of 3[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Est automatiquement construit lorsque 2 objectifs historiques sur 3 sont atteints[COLOR_REVERT]</French>
+		<German>[COLOR_WARNING_TEXT]Wird bei Erfüllung von 2 von 3 Historischen Siegbedingungen automatisch erbaut[COLOR_REVERT]</German>
+		<Italian>[COLOR_WARNING_TEXT]Viene automaticamente costruito al raggiungimento di 2 obiettivi storici su 3[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_WARNING_TEXT]Se construye autom&#225;ticamente tras la consecuci&#243;n de 2 de los 3 objetivos hist&#243;ricos[COLOR_REVERT]</Spanish>
+	</TEXT>
+</Civ4GameText>

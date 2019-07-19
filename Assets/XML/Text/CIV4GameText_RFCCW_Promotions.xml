@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SILKWORM</Tag>
+		<English>Carrying silkworm eggs</English>
+		<French>Carrying silkworm eggs</French>
+		<German>Carrying silkworm eggs</German>
+		<Italian>Carrying silkworm eggs</Italian>
+		<Spanish>Carrying silkworm eggs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISCIPLINE</Tag>
+		<English>Discipline</English>
+		<French>Discipline</French>
+		<German>Discipline</German>
+		<Italian>Discipline</Italian>
+		<Spanish>Discipline</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISCIPLINE_HELP</Tag>
+		<English>+20% vs. Barbarians</English>
+		<French>+20% vs. Barbarians</French>
+		<German>+20% vs. Barbarians</German>
+		<Italian>+20% vs. Barbarians</Italian>
+		<Spanish>+20% vs. Barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAIDER</Tag>
+		<English>Raider</English>
+		<French>Raider</French>
+		<German>Raider</German>
+		<Italian>Raider</Italian>
+		<Spanish>Raider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OCEAN_FARING</Tag>
+		<English>Ocean-faring</English>
+		<French>Ocean-faring</French>
+		<German>Ocean-faring</German>
+		<Italian>Ocean-faring</Italian>
+		<Spanish>Ocean-faring</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLESSED</Tag>
+		<English>Blessed</English>
+		<French>Blessed</French>
+		<German>Blessed</German>
+		<Italian>Blessed</Italian>
+		<Spanish>Blessed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKIRMISH</Tag>
+		<English>Skirmish</English>
+		<French>Skirmish</French>
+		<German>Skirmish</German>
+		<Italian>Skirmish</Italian>
+		<Spanish>Skirmish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING3</Tag>
+		<English>Flanking III</English>
+		<French>
+			<Text>Contournement III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flanke III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Attacco laterale III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flanqueo III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY</Tag>
+		<English>Mobility I</English>
+		<French>
+			<Text>Mobilit&#233; I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mobilit&#228;t I</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mobilit&#224; I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Movilidad I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY2</Tag>
+		<English>Mobility II</English>
+		<French>
+			<Text>Mobilit&#233; II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mobilit&#228;t II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mobilit&#224; II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Movilidad II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCIRCLEMENT_TECHNIQUE</Tag>
+		<English>Encirclement</English>
+		<French>
+			<Text>Technique d'encerclement</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Einkesselung</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tecnica dell'accerchiamento</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Táctica de embolsamiento</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREEK_FIRE</Tag>
+		<English>Greek Fire</English>
+		<French>
+			<Text>Feu grec</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Griechisches Feuer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fuoco greco</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Fuego griego</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SIEGE_TACTICS</Tag>
+		<English>Siege Tactics</English>
+		<French>
+			<Text>Tactiques de si&#232;ge</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Belagerungstaktiken</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tattica d'assedio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tácticas de asedio</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FEINT_ATTACK</Tag>
+		<English>Feint Attack</English>
+		<French>
+			<Text>Fausse attaque</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Scheinangriff</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Attacco simulato</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ataque fingido</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DESERT_ADAPTATION</Tag>
+		<English>Desert Adaptation</English>
+		<French>
+			<Text>Adaptation au d&#233;sert</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Wüstenanpassung</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Adattamento al deserto</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Adaptación al desierto</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORTIFICATION</Tag>
+		<English>Fortification</English>
+		<French>Fortification</French>
+		<German>Fortification</German>
+		<Italian>Fortification</Italian>
+		<Spanish>Fortification</Spanish>
+	</TEXT>
+</Civ4GameText>

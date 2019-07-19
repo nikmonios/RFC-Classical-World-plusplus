@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- UNITINFO - STRATEGY -->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SAINT_HELP</Tag>
+		<English>[ICON_BULLET]Can Spread [ICON_RELIGION] to Distant Cities</English>
+		<French>[ICON_BULLET]Can Spread [ICON_RELIGION] to Distant Cities</French>
+		<German>[ICON_BULLET]Can Spread [ICON_RELIGION] to Distant Cities</German>
+		<Italian>[ICON_BULLET]Can Spread [ICON_RELIGION] to Distant Cities</Italian>
+		<Spanish>[ICON_BULLET]Can Spread [ICON_RELIGION] to Distant Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OSTROGOTH_SWORDSMAN</Tag>
+		<English>Gadrauhts</English>
+		<French>Gadrauhts</French>
+		<German>Gadrauhts</German>
+		<Italian>Gadrauhts</Italian>
+		<Spanish>Gadrauhts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_WARRIOR</Tag>
+		<English>Alan Horseman</English>
+		<French>Alan Horseman</French>
+		<German>Alan Horseman</German>
+		<Italian>Alan Horseman</Italian>
+		<Spanish>Alan Horseman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LOMBARD_MILITIA</Tag>
+		<English>Militia</English>
+		<French>Militia</French>
+		<German>Militia</German>
+		<Italian>Militia</Italian>
+		<Spanish>Militia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTINE_FOEDERATI</Tag>
+		<English>Foederati</English>
+		<French>Foederati</French>
+		<German>Foederati</German>
+		<Italian>Foederati</Italian>
+		<Spanish>Foederati</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHOSON_HORSEMAN</Tag>
+		<English>Choson Horseman</English>
+		<French>Choson Horseman</French>
+		<German>Choson Horseman</German>
+		<Italian>Choson Horseman</Italian>
+		<Spanish>Choson Horseman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VISIGOTH_COMITATUS</Tag>
+		<English>Comitatus</English>
+		<French>Comitatus</French>
+		<German>Comitatus</German>
+		<Italian>Comitatus</Italian>
+		<Spanish>Comitatus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UNIT_OSTROGOTH_SWORDSMAN</Tag>
+		<English>Gradhauts</English>
+		<French>Gradhauts</French>
+		<German>Gradhauts</German>
+		<Italian>Gradhauts</Italian>
+		<Spanish>Gradhauts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KALINKA_WAR_CHARIOT</Tag>
+		<English>War Chariot</English>
+		<French>War Chariot</French>
+		<German>War Chariot</German>
+		<Italian>War Chariot</Italian>
+		<Spanish>War Chariot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UAZALI</Tag>
+		<English>Uazali</English>
+		<French>Uazali</French>
+		<German>Uazali</German>
+		<Italian>Uazali</Italian>
+		<Spanish>Uazali</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KHAMPA</Tag>
+		<English>Khampa</English>
+		<French>Khampa</French>
+		<German>Khampa</German>
+		<Italian>Khampa</Italian>
+		<Spanish>Khampa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHRISTIAN_APOSTLE</Tag>
+		<English>Apostle</English>
+		<French>Apostle</French>
+		<German>Apostle</German>
+		<Italian>Apostle</Italian>
+		<Spanish>Apostle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AU_LAC_CROSSBOWMAN</Tag>
+		<English>Au Lac Crossbowman</English>
+		<French>Au Lac Crossbowman</French>
+		<German>Au Lac Crossbowman</German>
+		<Italian>Au Lac Crossbowman</Italian>
+		<Spanish>Au Lac Crossbowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIRATE_GALLEY</Tag>
+		<English>Galley</English>
+		<French>Galley</French>
+		<German>Galley</German>
+		<Italian>Galley</Italian>
+		<Spanish>Galley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLAVE</Tag>
+		<English>Slave</English>
+		<French>Slave</French>
+		<German>Slave</German>
+		<Italian>Slave</Italian>
+		<Spanish>Slave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_SLAVE</Tag>
+		<English>Slave</English>
+		<French>Slave</French>
+		<German>Slave</German>
+		<Italian>Slave</Italian>
+		<Spanish>Slave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLAVE_PEDIA</Tag>
+		<English>Slaves were depended workers, which used in the whole ancient world. Slaves were treat like things and were mostly prisoners of war or childrens of slaves. Slaves were used mostly in civil engineering and in the mines, which was one of the most dangeroust work in the ancient world.</English>
+		<French>Slave</French>
+		<German>Slave</German>
+		<Italian>Slave</Italian>
+		<Spanish>Slave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACCABEE</Tag>
+		<English>Maccabee</English>
+		<French>Maccabee</French>
+		<German>Maccabee</German>
+		<Italian>Maccabee</Italian>
+		<Spanish>Maccabee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACCABEE_PEDIA</Tag>
+		<English>[TAB]The Maccabees were a Jewish national liberation movement that fought for independence from Antiochus IV Epiphanes. The Maccabees founded the Hasmonean Dynasty of Israel. In 167 BC, after Antiochus forbade Jewish practice, a priest from Modiin, Mattathias the Hasmonean, sparked a revolt by refusing to worship Greek gods. After Mattathias?s death, his son Judah Maccabee led an army of Jews against the Seleucid Dynasty. The term Maccabees is used to describe the army of Judah Maccabee.[PARAGRAPH:1]The revolt included many individual battles. In many, the Maccabeean forces won victory for their use of guerrilla tactics. After the revolt, the Maccabees cleansed the temple, and declared Judah Maccabee a priest. A Syrian army was sent to destroy the revolt, but returned after the death of Antiochus.[PARAGRAPH:1]After the revolt, the Maccabees were unsure whether to continue fighting, seeing their military success in the revolt. Those who continued to fight were led by Judah Maccabee. Judah Maccabee died in 160 BC in battle. Judah was succeeded by his younger brother Jonathan, who was already a high priest. Jonathan made treaties with foreign nations, causing more disputes between those who wanted religious freedom over political power. In 142 BC, Jonathan died. He was succeeded by the last son of Mattathias, Simon. That same year, Demetrius, king of Syria, granted the Jews independence from Syria and Simon went on to found the Hasmonean dynasty.[PARAGRAPH:1]Every year, Jews celebrate Hannukah to celebrate and recognize Judah Maccabee?s victory over the Seleucids and related miracles.</English>
+		<French>Maccabee</French>
+		<German>Maccabee</German>
+		<Italian>Maccabee</Italian>
+		<Spanish>Maccabee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACEMAN</Tag>
+		<English>Maceman</English>
+		<French>Maceman</French>
+		<German>Maceman</German>
+		<Italian>Maceman</Italian>
+		<Spanish>Maceman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TREBUCHET</Tag>
+		<English>Heavy Catapult</English>
+		<French>Heavy Catapult</French>
+		<German>Heavy Catapult</German>
+		<Italian>Heavy Catapult</Italian>
+		<Spanish>Heavy Catapult</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZATAVREAR</Tag>
+		<English>Azatavrear</English>
+		<French>Azatavrear</French>
+		<German>Azatavrear</German>
+		<Italian>Azatavrear</Italian>
+		<Spanish>Azatavrear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZATAVREAR_PEDIA</Tag>
+		<English>[TAB]From ancient times in Armenia there existed "Azatavrear" cavalry which consisted of the Armenian elite. "Azatavrear" cavalry was the main part of the Armenian king's court. Later, in medieval times "Azatavrear" cavalry or Armenian heavy cavalry was collected from nobles (youngest sons of Armenian lords) and was known as AYRUDZI (man and horse, horseman). During times of peace, Armenian cavalry was divided into a number of small groups which took the role of guarding the King and his family as well as Armenian lords. Some part of the Armenian cavalry was always patrolling the Armenian borders under the command of an Armenian general (sparapet). The Group of Armenian cavalry whose main mission was the protection of the Armenian king and his family in ancient period consisted of 6000 heavily armored horsemen, and in medieval period of 3000 horsemen. During times of war, the number of Armenian cavalry could be anywhere from 10,000 to 20,000 horsemen or more. Beside Armenian Heavy cavalry there was Armenian light cavalry, which mainly consisted of horsemen archers.</English>
+		<French>Azatavrear</French>
+		<German>Azatavrear</German>
+		<Italian>Azatavrear</Italian>
+		<Spanish>Azatavrear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HETAIROI</Tag>
+		<English>Hetairoi</English>
+		<French>Hetairoi</French>
+		<German>Hetairoi</German>
+		<Italian>Hetairoi</Italian>
+		<Spanish>Hetairoi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HETAIROI_PEDIA</Tag>
+		<English>[TAB]The "Hetairoi" (Companions) were Alexander's elite cavalry and the primary offensive arm of his army. A master of cavalry tactics, Alexander would hold them back during the opening part of the battle, committing them at the decisive point to charge the shaken foe, often leading the attack himself. [PARAGRAPH:2:1]Alexander's father, Philip of Macedon, created the Companions, who were originally his closest retainers, picked from the Macedonian nobility. As their numbers rose, additional young noblemen were recruited from Thessaly and other parts of the Greek world. [PARAGRAPH:2:1]The Companions were organized into "ilai" (wings) of about 200 men, under the command of close personal friends of the king. They generally wore the usual Boeotian helmet with plumes out the top, a dyed cloak and cuirass. Underneath, they wore linen or leather corslets reinforced with metal scales. They carried long thrusting spears and a short sword; few carried shields unless afoot. Occasionally, Alexander armed them with javelins for specific battles. Their mounts were the best that Greece had to offer - short, sturdy animals trained for war. The horses were partially armored, likely with leather skirts over their flanks and rumps. [PARAGRAPH:2:1]The legends of Alexander's Companions have grown with the telling over the centuries. Though their prowess has undoubtedly been exaggerated, it cannot be denied that they played a significant role in victorious battles such as Issus and Chaeronea. And their loyalty was never questioned. For the next several centuries, elite cavalry of many ancient kingdoms would take the Companions as their ideal model.</English>
+		<French>[TAB]Les "Hetairoi" (compagnons) constituent la cavalerie d'&#233;lite d'Alexandre et la premi&#232;re force offensive de son arm&#233;e. Pass&#233; ma&#238;tre en tactiques de cavaleries, Alexandre les retient durant le prologue de la bataille, ne les lan&#231;ant &#224; l'attaque qu'&#224; l'instant d&#233;cisif pour charger sur l'ennemi en d&#233;route, le plus souvent menant lui-m&#234;me l'assaut. [PARAGRAPH:2:1]C'est le p&#232;re d'Alexandre, Philippe II de Mac&#233;doine, cr&#233;e les compagnons qui regroupent ses connaissances les plus proches, issues de la noblesse de Mac&#233;doine. A mesure que leur nombre augmente, de jeunes nobles sont recrut&#233;s en Thessalie ou dans d'autres r&#233;gions de Gr&#232;ce. [PARAGRAPH:2:1]Les compagnons sont organis&#233;s en "ilai" (ailes) d'environ 200 hommes plac&#233;s sous le commandement d'un ami personnel du roi. Ils portent en g&#233;n&#233;ral le casque B&#233;otien surmont&#233; d'un plumet, une cape teinte et d'un plastron. Dessous, ils sont v&#234;tus d'une cuirasse en lin ou en cuir renforc&#233;e de plaques de m&#233;tal. Ils portent de longues lances et une &#233;p&#233;e courte. Peu d'entre eux portent un bouclier &#224; moins d'&#234;tre &#224; pieds. Occasionnellement, Alexandre les &#233;quipe de javelots pour des batailles sp&#233;cifiques. Leurs montures sont ce que la Gr&#232;ce a de mieux &#224; offrir en la mati&#232;re : des animaux petits mais puissants, taill&#233;s pour le combat. Leurs chevaux sont partiellement prot&#233;g&#233;s, le plus souvent avec des pans de cuir pos&#233;s sur leurs flancs et leur croupe. [PARAGRAPH:2:1]Les l&#233;gendes concernant les compagnons d'Alexandre ont enfl&#233; au fil des si&#232;cles. M&#234;me si leurs prouesses sont sans aucun doute exag&#233;r&#233;es, il est ind&#233;niable qu'ils ont jou&#233; un r&#244;le d&#233;cisif dans l'obtention de la victoire lors de batailles telles que Ch&#233;ron&#233;e ou Issos. De plus, leur loyaut&#233; est sans faille. Durant les nombreux si&#232;cles qui suivent, les troupes de cavalerie d'&#233;lite consid&#232;rent les Compagnons comme leur mod&#232;le id&#233;al.</French>
+		<German>[TAB]Die "Hetairoi" (Begleitreiter) dienten in Alexanders Heer als Elitekavallerie und Hauptoffensivregiment. Als Meister der Kavallerietaktiken hielt Alexander sie in der Anfangsphase einer Schlacht normalerweise zur&#252;ck und setzte sie erst am entscheidenden Punkt des Gefechts gegen den bereits angeschlagenen Feind ein, wobei er h&#228;ufig selbst die F&#252;hrung &#252;bernahm. [PARAGRAPH:2:1]Die von Alexanders Vater, Philipp II. von Makedonien begr&#252;ndete Begleitkavallerie, deren Mitglieder makedonischen Adelsh&#228;usern entstammten, diente urspr&#252;nglich als direkte Vorhut des K&#246;nigs und wurde durch die Rekrutierung weiterer junger Adliger aus Thessalien und anderen Teilen der griechischen Welt stetig erweitert. [PARAGRAPH:2:1]Alexanders Begleitkavallerie war in "Ilai" (Fl&#252;gel) von je etwa 200 Mann organisiert, die unter dem Kommando enger pers&#246;nlicher Freunde des K&#246;nigs standen. Sie waren normalerweise mit b&#246;otischen, federbesetzten Helmen, einem gef&#228;rbten Umhang und einem Brustharnisch bekleidet. Darunter trugen sie mit Metallschuppen verst&#228;rkte Brust- und R&#252;ckenpanzer aus Leinen oder Leder. Bewaffnet waren sie mit Wurfspeeren und einem Kurzschwert, einige waren au&#223;erdem mit Schilden ausger&#252;stet, es sei denn, sie waren zu Fu&#223; unterwegs. Gelegentlich stattete Alexander seine Begleitkavalleristen f&#252;r bestimmte Gefechte auch mit Wurfspie&#223;en aus. Ihre Pferde geh&#246;rten zu den besten Reittieren, die in Griechenland zu finden waren - kleine, robuste Tiere, die speziell f&#252;r den Einsatz auf dem Schlachtfeld ausgebildet waren. Sie waren zum Teil mit Leder&#252;berw&#252;rfen ausgestattet, welche die Flanken und das Hinterteil sch&#252;tzten. [PARAGRAPH:2:1]Im Laufe der Jahrhunderte rankten sich immer mehr Legenden um Alexanders Begleitkavallerie. Hierbei wurde im Hinblick auf ihre &#220;berlegenheit sicherlich enorm &#252;bertrieben, unzweifelhaft ist allerdings, dass sie bedeutende Beitr&#228;ge f&#252;r den siegreichen Ausgang diverser Schlachten leisteten, wie zum Beispiel bei Issos und Chaironeia. Und auch ihre Loyalit&#228;t steht au&#223;er Zweifel. In den folgenden Jahrhunderten wurden in vielen K&#246;nigreichen der Antike Elitekavallerien errichte, die sich am Vorbild der Begleitkavallerie orientierten.</German>
+		<Italian>[TAB]Gli "Hetairoi" (cavalleria di supporto) costituivano la cavalleria d'&#233;lite di Alessandro e il primo braccio offensivo del suo esercito. Maestro nelle tattiche di cavalleria, Alessandro li manteneva lontani dal conflitto nella prima parte della battaglia, attendendo il momento buono per caricare il nemico ormai scosso, spesso conducendo l'attacco personalmente. [PARAGRAPH:2:1]Fu il padre di Alessandro, Filippo il Macedone, a creare la cavalleria di supporto, che inizialmente era composta dai suoi pi&#249; fedeli seguaci scelti tra i nobili macedoni. Quando fu necessario aumentarne il numero, vennero reclutati anche giovani nobili dalla Tessaglia e da altre parti del mondo greco. [PARAGRAPH:2:1]La cavalleria di supporto era organizzata in "ilai" (ali), composte da circa 200 uomini sotto il comando di amici stretti del re. In genere, essi indossavano il classico elmo piumato, un mantello colorato e la corazza; sotto, indossavano corsetti di lino o cuoio rinforzati con piastre di metallo; erano armati con lunghe lance e spade corte e alcuni utilizzavano gli scudi quando si trovavano a piedi. Occasionalmente Alessandro li dotava di giavellotti da impiegare in battaglie specifiche. Le loro cavalcature erano le migliori di tutta la Grecia, animali vigorosi addestrati per la guerra. Anche i cavalli erano parzialmente corazzati con protezioni di cuoio sulla groppa e sui fianchi. [PARAGRAPH:2:1]La leggenda intorno alla cavalleria di Alessandro &#232; cresciuta con il passare dei secoli. Malgrado il suo valore sia stato esaltato a volte eccessivamente, &#232; innegabile che questa unit&#224; militare gioc&#242; un ruolo fondamentale nelle battaglie vittoriose di Isso e di Cheronea e inoltre, la sua lealt&#224; era fuori discussione. Nei secoli successivi, le cavallerie d'&#233;lite presero come esempio quella di Alessandro.[PARAGRAPH:2:1]Fu il padre di Alessandro, Filippo il Macedone, a creare la cavalleria di supporto, che inizialmente era composta dai suoi pi&#249; fedeli seguaci scelti tra i nobili macedoni. Quando fu necessario aumentarne il numero, vennero reclutati anche giovani nobili dalla Tessaglia e da altre parti del mondo greco.[PARAGRAPH:2:1]La cavalleria di supporto era organizzata in "ilai" (ali), composte da circa 200 uomini sotto il comando di amici stretti del re. In genere, essi indossavano il classico elmo piumato, un mantello colorato e la corazza; sotto, indossavano corsetti di lino o cuoio rinforzati con piastre di metallo; erano armati con lunghe lance e spade corte e alcuni utilizzavano gli scudi quando si trovavano a piedi. Occasionalmente Alessandro li dotava di giavellotti da impiegare in battaglie specifiche. Le loro cavalcature erano le migliori di tutta la Grecia, animali vigorosi addestrati per la guerra. Anche i cavalli erano parzialmente corazzati con protezioni di cuoio sulla groppa e sui fianchi.[PARAGRAPH:2:1]La leggenda intorno alla cavalleria di Alessandro &#232; cresciuta con il passare dei secoli. Malgrado il suo valore sia stato esaltato a volte eccessivamente, &#232; innegabile che questa unit&#224; militare gioc&#242; un ruolo fondamentale nelle battaglie vittoriose di Isso e di Cheronea e inoltre, la sua lealt&#224; era fuori discussione. Nei secoli successivi , le cavallerie d'&#232;lite presero come esempio quella di Alessandro.</Italian>
+		<Spanish>[TAB]Los "hetairoi" (Compa&#241;eros) formaban la caballer&#237;a de &#233;lite de Alejandro y la principal arma ofensiva de su ej&#233;rcito. Alejandro, un maestro de las t&#225;cticas de caballer&#237;a, los manten&#237;a en reserva durante las primeras fases de la batalla y solo los lanzaba a la carga en el momento decisivo, a menudo con &#233;l mismo a la cabeza del ataque. [PARAGRAPH:2:1]El padre de Alejandro, Filipo de Macedonia, fue el creador de los Compa&#241;eros, que originalmente eran sus partidarios m&#225;s pr&#243;ximos, escogidos entre las filas de la nobleza macedonia. A medida que aumentaba su n&#250;mero, se fueron reclutando m&#225;s j&#243;venes nobles, procedentes de Tesalia o de otras regiones del mundo griego. [PARAGRAPH:2:1]Los Compa&#241;eros estaban organizados en "ilai" (alas) de unos doscientos hombres, dirigidos por amigos personales del rey. Generalmente llevaban el t&#237;pico yelmo beocio con cresta de plumas, una capa te&#241;ida y una coraza. Por debajo vest&#237;an corseletes de lino o cuero reforzados con escamas de metal. Llevaban largas lanzas y espada corta; pocos empleaban escudo, salvo cuando luchaban a pie. A veces, Alejandro los armaba con jabalinas para batallas concretas. Sus monturas eran las mejores que Grecia pod&#237;a ofrecer: bestias menudas y compactas entrenadas para la guerra. Estos caballos llevaban una armadura incompleta, normalmente con faldillas de cuero sobre los flancos y los cuatros traseros. [PARAGRAPH:2:1]Las leyendas de los Compa&#241;eros de Alejandro han crecido con el paso de los siglos. Aunque es indudable que su habilidad marcial ha sido exagerada, no puede negarse que desempe&#241;aron un papel crucial en victorias como Issos y Queronea. Y su lealtad nunca estuvo en cuesti&#243;n. Durante los siglos siguientes, la caballer&#237;a de &#233;lite de muchos reinos de la Antig&#252;edad extraer&#237;a su modelo de los Compa&#241;eros.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TARIM_BOWMAN</Tag>
+		<English>Yuezhi Bowman</English>
+		<French>Yuezhi Bowman</French>
+		<German>Yuezhi Bowman</German>
+		<Italian>Yuezhi Bowman</Italian>
+		<Spanish>Yuezhi Bowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALATIAN_INFANTRY</Tag>
+		<English>Galatian Infantry</English>
+		<French>Galatian Infantry</French>
+		<German>Galatian Infantry</German>
+		<Italian>Galatian Infantry</Italian>
+		<Spanish>Galatian Infantry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANNAMESE_AMBUSHER</Tag>
+		<English>Ambusher</English>
+		<French>Ambusher</French>
+		<German>Ambusher</German>
+		<Italian>Ambusher</Italian>
+		<Spanish>Ambusher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHER_KUSHAN</Tag>
+		<English>Asvaka</English>
+		<French>Asvaka</French>
+		<German>Asvaka</German>
+		<Italian>Asvaka</Italian>
+		<Spanish>Asvaka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHIVATIR</Tag>
+		<English>Shivatir</English>
+		<French>Shivatir</French>
+		<German>Shivatir</German>
+		<Italian>Shivatir</Italian>
+		<Spanish>Shivatir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GRIVPANVAR_PEDIA</Tag>
+		<English>[TAB]The Mounted Bowman (literally: neck-guard wearer), were an elite late Parthian and Sassanian division who fought as heavy knights or Cataphract cavalry. According to Roman sources, the Mounted Bowman had the ability to impale two men on the long, heavy spears that they carried. Historical evidence suggests that the heavily armoured Parthian grivpanvar were at least partially influenced by the military of the Central Asian steppes, who in turn had inherited their armoured cavalry traditions from the Massagetae and the late Achaemenid Persians.[PARAGRAPH:1]Heavy grivpanvar knights appeared in many of the later Parthian and Sassanian battles, with one of the best-known encounters of the Parthian grivpanvar occurring at the Battle of Nisibis in 217 against the Roman army of Emperor Macrinus. According to the Roman historian Herodian, the imperial Parthian army led by Emperor Artabanus IV of Parthia, reformed many of their armies and units resulting in the emergence of a new force of camel mounted cataphracts. The grivpanvar appear to have been used against the heavy Roman legionaries. At dawn, the Parthians charged their heavily armored camels and grivpanvar cavalry into the Roman lines, but as they approached the Roman forces withdrew, leaving large numbers of caltrops behind, with fatal results. The Parthians' horses and camels stepped on to these lethal weapons and fell, taking their riders with them thereby breaking the momentum of the charge. This vicious battle was the last Roman encounter with the Parthian grivpanvar.</English>
+		<French>Mounted Bowman</French>
+		<German>Mounted Bowman</German>
+		<Italian>Mounted Bowman</Italian>
+		<Spanish>Mounted Bowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DECCAN_ELEPHANT_RIDER</Tag>
+		<English>Magadhan Elephant</English>
+		<French>>Magadhan Elephant</French>
+		<German>>Magadhan Elephant</German>
+		<Italian>>Magadhan Elephant</Italian>
+		<Spanish>>Magadhan Elephant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARMORED_ELEPHANT</Tag>
+		<English>Armored Elephant</English>
+		<French>Armored Elephant</French>
+		<German>Armored Elephant</German>
+		<Italian>Armored Elephant</Italian>
+		<Spanish>Armored Elephant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LIBYAN_SKIRMISHER</Tag>
+		<English>Libyan Skirmisher</English>
+		<French>Libyan Skirmisher</French>
+		<German>Libyan Skirmisher</German>
+		<Italian>Libyan Skirmisher</Italian>
+		<Spanish>Libyan Skirmisher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MANICHEAN_MISSIONARY</Tag>
+		<English>Manichean Missionary</English>
+		<French>Manichean Missionary</French>
+		<German>Manichean Missionary</German>
+		<Italian>Manichean Missionary</Italian>
+		<Spanish>Manichean Missionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ZOROASTRIAN_MISSIONARY</Tag>
+		<English>Zoroastrian Missionary</English>
+		<French>Zoroastrian Missionary</French>
+		<German>Zoroastrian Missionary</German>
+		<Italian>Zoroastrian Missionary</Italian>
+		<Spanish>Zoroastrian Missionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HELLENIC_MISSIONARY</Tag>
+		<English>Hellenic Missionary</English>
+		<French>Hellenic Missionary</French>
+		<German>Hellenic Missionary</German>
+		<Italian>Hellenic Missionary</Italian>
+		<Spanish>Hellenic Missionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAIN_MISSIONARY</Tag>
+		<English>Jain Missionary</English>
+		<French>Jain Missionary</French>
+		<German>Jain Missionary</German>
+		<Italian>Jain Missionary</Italian>
+		<Spanish>Jain Missionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOPLITE</Tag>
+		<English>Phalangite</English>
+		<French>Phalangite</French>
+		<German>Phalangite</German>
+		<Italian>Phalangite</Italian>
+		<Spanish>Phalangite</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MANICHEAN_TEACHER</Tag>
+		<English>Manichean Teacher</English>
+		<French>Manichean Teacher</French>
+		<German>Manichean Teacher</German>
+		<Italian>Manichean Teacher</Italian>
+		<Spanish>Manichean Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ZOROASTRIAN_TEACHER</Tag>
+		<English>Zoroastrian Teacher</English>
+		<French>Zoroastrian Teacher</French>
+		<German>Zoroastrian Teacher</German>
+		<Italian>Zoroastrian Teacher</Italian>
+		<Spanish>Zoroastrian Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HELLENIC_TEACHER</Tag>
+		<English>Hellenic Teacher</English>
+		<French>Hellenic Teacher</French>
+		<German>Hellenic Teacher</German>
+		<Italian>Hellenic Teacher</Italian>
+		<Spanish>Hellenic Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAIN_TEACHER</Tag>
+		<English>Jain Teacher</English>
+		<French>Jain Teacher</French>
+		<German>Jain Teacher</German>
+		<Italian>Jain Teacher</Italian>
+		<Spanish>Jain Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HINDU_TEACHER</Tag>
+		<English>Hindu Teacher</English>
+		<French>Hindu Teacher</French>
+		<German>Hindu Teacher</German>
+		<Italian>Hindu Teacher</Italian>
+		<Spanish>Hindu Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUDDHIST_TEACHER</Tag>
+		<English>Buddhist Teacher</English>
+		<French>Buddhist Teacher</French>
+		<German>Buddhist Teacher</German>
+		<Italian>Buddhist Teacher</Italian>
+		<Spanish>Buddhist Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHRISTIAN_TEACHER</Tag>
+		<English>Christian Teacher</English>
+		<French>Christian Teacher</French>
+		<German>Christian Teacher</German>
+		<Italian>Christian Teacher</Italian>
+		<Spanish>Christian Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JEWISH_TEACHER</Tag>
+		<English>Jewish Teacher</English>
+		<French>Jewish Teacher</French>
+		<German>Jewish Teacher</German>
+		<Italian>Jewish Teacher</Italian>
+		<Spanish>Jewish Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONFUCIAN_TEACHER</Tag>
+		<English>Confucian Teacher</English>
+		<French>Confucian Teacher</French>
+		<German>Confucian Teacher</German>
+		<Italian>Confucian Teacher</Italian>
+		<Spanish>Confucian Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAOIST_TEACHER</Tag>
+		<English>Taoist Teacher</English>
+		<French>Taoist Teacher</French>
+		<German>Taoist Teacher</German>
+		<Italian>Taoist Teacher</Italian>
+		<Spanish>Taoist Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ISLAMIC_TEACHER</Tag>
+		<English>Islamic Teacher</English>
+		<French>Islamic Teacher</French>
+		<German>Islamic Teacher</German>
+		<Italian>Islamic Teacher</Italian>
+		<Spanish>Islamic Teacher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOPLITE_PEDIA</Tag>
+		<English>[TAB]A hoplite was a citizen-soldier of the Ancient Greek city-states. Hoplites were primarily armed as spearmen and fought in a phalanx formation. The word "hoplite" derives from "hoplon", the type of the shield used by the soldiers, although, as a word, "hopla" could also denote weapons held or even full armament. In later texts, the term hoplite is used to denote any armoured infantry, regardless of armament or ethnicity.[PARAGRAPH:1]A hoplite was primarily a free citizen who was usually individually responsible for procuring his armour and weapon. In most Greek city-states, citizens received at least basic military training, serving in the standing army for a certain amount of time. They were expected to take part in any military campaign when they would be called for duty. The Lacedaemonian citizens (Sparta) were renowned for their lifelong combat training and almost mythical military prowess, while their greatest adversaries, the Athenians, were exempted from service only after the 60th year of their lives.[PARAGRAPH:1]The exact time when hoplitic warfare was developed is uncertain, the prevalent theory being that it was established sometime during the 8th or 7th century BC, when the "heroic age was abandoned and a far more disciplined system introduced" and the Argive shield became popular. Peter Krentz argues that "the ideology of hoplitic warfare as a ritualized contest developed not in the 7th century, but only after 480, when non-hoplite arms began to be excluded from the phalanx". Anagnostis Agelarakis based on recent archaeo-anthropological discoveries of the earliest monumental polyandrion (communal burial of male warriors) at Paros Island in Greece, unveils a last quarter of the 8th century BC date for a hoplitic phalangeal military organization.[PARAGRAPH:1]After the Macedonian conquests of the 4th century BC, the hoplite was slowly abandoned in favour of the phalangite, armed in the Macedonian fashion, in the armies of the southern Greek states.</English>
+		<French>Hoplite</French>
+		<German>Hoplite</German>
+		<Italian>Hoplite</Italian>
+		<Spanish>Hoplite</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PELTAST</Tag>
+		<English>Peltast</English>
+		<French>Peltast</French>
+		<German>Peltast</German>
+		<Italian>Peltast</Italian>
+		<Spanish>Peltast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LEGIONARY</Tag>
+		<English>Legionary</English>
+		<French>Legionary</French>
+		<German>Legionary</German>
+		<Italian>Legionary</Italian>
+		<Spanish>Legionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LEGIONARY_PEDIA</Tag>
+		<English>[TAB]The Roman legionary was a professional soldier of the Roman army after the Marian reforms of 107 BC. Legionaries had to be Roman citizens under the age of 45. They enlisted in a legion for twenty-five years of service, a change from the early practice of enlisting only for a campaign. The last five years were on veteran lighter duties.[PARAGRAPH:1]On the march in unfriendly terrain, the legionary would be loaded down with armour commonly (lorica hamata), (lorica squamata), and 1st-3rd century (lorica segmentata), shield (scutum), helmet (galea), two javelins (one heavy pilum and one light verutum), a short sword (gladius), a dagger (pugio), a pair of heavy sandals (caligae), a sarcina (marching pack), about fourteen days worth of food, a waterskin (bladder for water), cooking equipment, two stakes (sudes murale) for the construction of palisades, and a shovel or wicker basket.[PARAGRAPH:1]The Roman soldier underwent especially rigorous training; discipline was the base of the army's success, and the soldiers were relentlessly and constantly trained with weapons and especially with drill - forced marches with full load and in tight formation were frequent. Discipline was important and infractions were heavily punished by the centurions. However, honours, rewards and promotions were frequently awarded to legionaries who distinguished themselves in battle or through exemplary service.</English>
+		<French>Legionary</French>
+		<German>Legionary</German>
+		<Italian>Legionary</Italian>
+		<Spanish>Legionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAMEL_GUNNER</Tag>
+		<English>Camel Gunner</English>
+		<French>Camel Gunner</French>
+		<German>Camel Gunner</German>
+		<Italian>Camel Gunner</Italian>
+		<Spanish>Camel Gunner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAMEL_RIDER</Tag>
+		<English>Camel Rider</English>
+		<French>Camel Rider</French>
+		<German>Camel Rider</German>
+		<Italian>Camel Rider</Italian>
+		<Spanish>Camel Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAMEL_RIDER_PEDIA</Tag>
+		<English>[TAB]In ancient times the camels were domesticated by various nomad tribes in Asia. When nomads began to invade the Middle East, the camel rider came to play an important military role. With the rise of Islam, Bedouins mounted on camels were important cavalry against the Persian and Byzantine armies. Camels continued to play a role in warfare throughout all of the Middle Ages.</English>
+		<French>[TAB]In ancient times the camels were domesticated by various nomad tribes in Asia. When nomads began to invade the Middle East, the camel rider came to play an important military role. With the rise of Islam, Bedouins mounted on camels were important cavalry against the Persian and Byzantine armies. Camels continued to play a role in warfare throughout all of the Middle Ages.</French>
+		<German>[TAB]In ancient times the camels were domesticated by various nomad tribes in Asia. When nomads began to invade the Middle East, the camel rider came to play an important military role. With the rise of Islam, Bedouins mounted on camels were important cavalry against the Persian and Byzantine armies. Camels continued to play a role in warfare throughout all of the Middle Ages.</German>
+		<Italian>[TAB]In ancient times the camels were domesticated by various nomad tribes in Asia. When nomads began to invade the Middle East, the camel rider came to play an important military role. With the rise of Islam, Bedouins mounted on camels were important cavalry against the Persian and Byzantine armies. Camels continued to play a role in warfare throughout all of the Middle Ages.</Italian>
+		<Spanish>[TAB]In ancient times the camels were domesticated by various nomad tribes in Asia. When nomads began to invade the Middle East, the camel rider came to play an important military role. With the rise of Islam, Bedouins mounted on camels were important cavalry against the Persian and Byzantine armies. Camels continued to play a role in warfare throughout all of the Middle Ages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEDOUIN_CAMEL_RIDER</Tag>
+		<English>Camel Rider</English>
+		<French>Camel Rider</French>
+		<German>Camel Rider</German>
+		<Italian>Camel Rider</Italian>
+		<Spanish>Camel Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PEASANT</Tag>
+		<English>Peasant</English>
+		<French>Peasant</French>
+		<German>Peasant</German>
+		<Italian>Peasant</Italian>
+		<Spanish>Peasant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PEASANT_PEDIA</Tag>
+		<English>[TAB]The situation of peasants in the Byzantine Empire and Caucasian kingdoms was certainly better than in feudal Europe, but that does not mean the peasants would always agree with their rulers decisions, especially those pertaining high taxes and wars.</English>
+		<French>[TAB]The situation of peasants in the Byzantine Empire and Caucasian kingdoms was certainly better than in feudal Europe, but that does not mean the peasants would always agree with their rulers decisions, especially those pertaining high taxes and wars.</French>
+		<German>[TAB]The situation of peasants in the Byzantine Empire and Caucasian kingdoms was certainly better than in feudal Europe, but that does not mean the peasants would always agree with their rulers decisions, especially those pertaining high taxes and wars.</German>
+		<Italian>[TAB]The situation of peasants in the Byzantine Empire and Caucasian kingdoms was certainly better than in feudal Europe, but that does not mean the peasants would always agree with their rulers decisions, especially those pertaining high taxes and wars.</Italian>
+		<Spanish>[TAB]The situation of peasants in the Byzantine Empire and Caucasian kingdoms was certainly better than in feudal Europe, but that does not mean the peasants would always agree with their rulers decisions, especially those pertaining high taxes and wars.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PILGRIM</Tag>
+		<English>Pilgrim</English>
+		<French>Pilgrim</French>
+		<German>Pilgrim</German>
+		<Italian>Pilgrim</Italian>
+		<Spanish>Pilgrim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DHOW</Tag>
+		<English>Dhow</English>
+		<French>Dhow</French>
+		<German>Dhow</German>
+		<Italian>Dhow</Italian>
+		<Spanish>Dhow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DHOW_PEDIA</Tag>
+		<English>[TAB]A dhow is a traditional Arab sailing vessel with one or more lateen sails. It is primarily used to carry heavy cargo along the coasts of the Arabian Peninsula, Pakistan, India and East Africa. Larger dhows have crews of approximately thirty people, while smaller dhows typically have crews of around twelve. </English>
+		<French>[TAB]A dhow is a traditional Arab sailing vessel with one or more lateen sails. It is primarily used to carry heavy cargo along the coasts of the Arabian Peninsula, Pakistan, India and East Africa. Larger dhows have crews of approximately thirty people, while smaller dhows typically have crews of around twelve. </French>
+		<German>[TAB]A dhow is a traditional Arab sailing vessel with one or more lateen sails. It is primarily used to carry heavy cargo along the coasts of the Arabian Peninsula, Pakistan, India and East Africa. Larger dhows have crews of approximately thirty people, while smaller dhows typically have crews of around twelve. </German>
+		<Italian>[TAB]A dhow is a traditional Arab sailing vessel with one or more lateen sails. It is primarily used to carry heavy cargo along the coasts of the Arabian Peninsula, Pakistan, India and East Africa. Larger dhows have crews of approximately thirty people, while smaller dhows typically have crews of around twelve. </Italian>
+		<Spanish>[TAB]A dhow is a traditional Arab sailing vessel with one or more lateen sails. It is primarily used to carry heavy cargo along the coasts of the Arabian Peninsula, Pakistan, India and East Africa. Larger dhows have crews of approximately thirty people, while smaller dhows typically have crews of around twelve. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BAGHLAH</Tag>
+		<English>Baghlah</English>
+		<French>Baghlah</French>
+		<German>Baghlah</German>
+		<Italian>Baghlah</Italian>
+		<Spanish>Baghlah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BAGHLAH_PEDIA</Tag>
+		<English>[TAB]A baghlah is a large deep-sea dhow, a traditional Arabic sailing vessel with one or more lateen sails. It is primarily used along the coasts of the Arabian Peninsula, Sindh, India, and East Africa. A larger dhow may have a crew of approximately thirty while smaller dhows have crews typically ranging around twelve.[PARAGRAPH:1]Baghlahs were used as merchant ships in the Indian Ocean and the minor seas around the Arabian Peninsula. They reached eastwards up to the Bay of Bengal and the Spice Islands and southwestwards down to the East African coast.</English>
+		<French>[TAB]A baghlah is a large deep-sea dhow, a traditional Arabic sailing vessel with one or more lateen sails. It is primarily used along the coasts of the Arabian Peninsula, Sindh, India, and East Africa. A larger dhow may have a crew of approximately thirty while smaller dhows have crews typically ranging around twelve.[PARAGRAPH:1]Baghlahs were used as merchant ships in the Indian Ocean and the minor seas around the Arabian Peninsula. They reached eastwards up to the Bay of Bengal and the Spice Islands and southwestwards down to the East African coast.</French>
+		<German>[TAB]A baghlah is a large deep-sea dhow, a traditional Arabic sailing vessel with one or more lateen sails. It is primarily used along the coasts of the Arabian Peninsula, Sindh, India, and East Africa. A larger dhow may have a crew of approximately thirty while smaller dhows have crews typically ranging around twelve.[PARAGRAPH:1]Baghlahs were used as merchant ships in the Indian Ocean and the minor seas around the Arabian Peninsula. They reached eastwards up to the Bay of Bengal and the Spice Islands and southwestwards down to the East African coast.</German>
+		<Italian>[TAB]A baghlah is a large deep-sea dhow, a traditional Arabic sailing vessel with one or more lateen sails. It is primarily used along the coasts of the Arabian Peninsula, Sindh, India, and East Africa. A larger dhow may have a crew of approximately thirty while smaller dhows have crews typically ranging around twelve.[PARAGRAPH:1]Baghlahs were used as merchant ships in the Indian Ocean and the minor seas around the Arabian Peninsula. They reached eastwards up to the Bay of Bengal and the Spice Islands and southwestwards down to the East African coast.</Italian>
+		<Spanish>[TAB]A baghlah is a large deep-sea dhow, a traditional Arabic sailing vessel with one or more lateen sails. It is primarily used along the coasts of the Arabian Peninsula, Sindh, India, and East Africa. A larger dhow may have a crew of approximately thirty while smaller dhows have crews typically ranging around twelve.[PARAGRAPH:1]Baghlahs were used as merchant ships in the Indian Ocean and the minor seas around the Arabian Peninsula. They reached eastwards up to the Bay of Bengal and the Spice Islands and southwestwards down to the East African coast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_CAVALRY</Tag>
+		<English>Heavy Cavalry</English>
+		<French>Heavy Cavalry</French>
+		<German>Heavy Cavalry</German>
+		<Italian>Heavy Cavalry</Italian>
+		<Spanish>Heavy Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_CAVALRY_PEDIA</Tag>
+		<English>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</English>
+		<French>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</French>
+		<German>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</German>
+		<Italian>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Italian>
+		<Spanish>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NUBIAN_LONGBOWMAN</Tag>
+		<English>Longbowman</English>
+		<French>Longbowman</French>
+		<German>Longbowman</German>
+		<Italian>Longbowman</Italian>
+		<Spanish>Longbowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NUBIAN_LONGBOWMAN_PEDIA</Tag>
+		<English>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</English>
+		<French>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</French>
+		<German>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</German>
+		<Italian>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Italian>
+		<Spanish>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARAVAN</Tag>
+		<English>Caravan</English>
+		<French>Caravan</French>
+		<German>Caravan</German>
+		<Italian>Caravan</Italian>
+		<Spanish>Caravan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARAVAN_PEDIA</Tag>
+		<English>[TAB]A caravan is a group of people traveling together, often on a trade expedition. Caravans were used mainly in desert areas and throughout the Silk Road, where traveling in groups aided in defense against bandits as well as helped to improve economies of scale in trade.</English>
+		<French>[TAB]A caravan is a group of people traveling together, often on a trade expedition. Caravans were used mainly in desert areas and throughout the Silk Road, where traveling in groups aided in defense against bandits as well as helped to improve economies of scale in trade.</French>
+		<German>[TAB]A caravan is a group of people traveling together, often on a trade expedition. Caravans were used mainly in desert areas and throughout the Silk Road, where traveling in groups aided in defense against bandits as well as helped to improve economies of scale in trade.</German>
+		<Italian>[TAB]A caravan is a group of people traveling together, often on a trade expedition. Caravans were used mainly in desert areas and throughout the Silk Road, where traveling in groups aided in defense against bandits as well as helped to improve economies of scale in trade.</Italian>
+		<Spanish>[TAB]A caravan is a group of people traveling together, often on a trade expedition. Caravans were used mainly in desert areas and throughout the Silk Road, where traveling in groups aided in defense against bandits as well as helped to improve economies of scale in trade.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LIGHT_CAVALRY</Tag>
+		<English>Light Cavalry</English>
+		<French>Light Cavalry</French>
+		<German>Light Cavalry</German>
+		<Italian>Light Cavalry</Italian>
+		<Spanish>Light Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LIGHT_CAVALRY_PEDIA</Tag>
+		<English>[TAB]With the advent of gunpowder, heavy armor became less and less viable. Armies were slowly re-organized into musket infantry and light cavalry troops armed with melee weapons and/or small firearms.</English>
+		<French>[TAB]With the advent of gunpowder, heavy armor became less and less viable. Armies were slowly re-organized into musket infantry and light cavalry troops armed with melee weapons and/or small firearms.</French>
+		<German>[TAB]With the advent of gunpowder, heavy armor became less and less viable. Armies were slowly re-organized into musket infantry and light cavalry troops armed with melee weapons and/or small firearms.</German>
+		<Italian>[TAB]With the advent of gunpowder, heavy armor became less and less viable. Armies were slowly re-organized into musket infantry and light cavalry troops armed with melee weapons and/or small firearms.</Italian>
+		<Spanish>[TAB]With the advent of gunpowder, heavy armor became less and less viable. Armies were slowly re-organized into musket infantry and light cavalry troops armed with melee weapons and/or small firearms.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAVELINMAN</Tag>
+		<English>Javelinman</English>
+		<French>Javelinman</French>
+		<German>Javelinman</German>
+		<Italian>Javelinman</Italian>
+		<Spanish>Javelinman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAVELINMAN_PEDIA</Tag>
+		<English>[TAB]While not as common as archers, javelin-hurling skirmishers were used by Arabs, Berbers, Turks, Afghans, Hindus as well as Byzantines (Peltastoi) and Armenians.</English>
+		<French>[TAB]While not as common as archers, javelin-hurling skirmishers were used by Arabs, Berbers, Turks, Afghans, Hindus as well as Byzantines (Peltastoi) and Armenians.</French>
+		<German>[TAB]While not as common as archers, javelin-hurling skirmishers were used by Arabs, Berbers, Turks, Afghans, Hindus as well as Byzantines (Peltastoi) and Armenians.</German>
+		<Italian>[TAB]While not as common as archers, javelin-hurling skirmishers were used by Arabs, Berbers, Turks, Afghans, Hindus as well as Byzantines (Peltastoi) and Armenians.</Italian>
+		<Spanish>[TAB]While not as common as archers, javelin-hurling skirmishers were used by Arabs, Berbers, Turks, Afghans, Hindus as well as Byzantines (Peltastoi) and Armenians.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ASSASSIN</Tag>
+		<English>Assassin</English>
+		<French>Assassin</French>
+		<German>Assassin</German>
+		<Italian>Assassin</Italian>
+		<Spanish>Assassin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ASSASSIN_PEDIA</Tag>
+		<English>[TAB]The Hashishiyya from which the word assassin is thought to originate, was the Arabic designation of the Nizari branch of the Isma'ili Shia Muslims during the Middle Ages. The Nizariyya, or Hashishiyya, as they were designated by their enemies, split from the Fatimid Isma'ili Empire following a dispute regarding the succession of their spiritual and political leader the Fatimid Caliph Ma'ad al-Mustansir Billah. [PARAGRAPH:2]The Nizariyya formulated a strategy of gaining control of strategically important fortresses by covertly converting local inhabitants living within and around strategically vital fortresses in Isma'ili territory. They established a new type of state within a state which consisted of a number of "island" fortified settlements within a sea of hostility in present day Iran, Iraq, Syria and Lebanon. The formal origin of the Federation of the Assassins is marked as 1090 when Hassan-i Sabbah established his first stronghold in Daylam at the fortress of Alamut south of the Caspian Sea. Alamut remained the capital of the Federation of the Assassins, and the home of its rulers, styled "The Lords of Alamut," until its destruction. [PARAGRAPH:2]Unable to mount a conventional military army, the Nizariyya developed a form of asymmetric warfare transforming the act of political assassination into a system of survival and defense against their foes. They trained highly capable sleeper commandos (trained in languages, science, trade, and so on) known as Fedayeen, who would covertly infiltrate enemy positions and remain undercover. If Nizari civilians were facing pogroms or their forts faced imminent attack, the Fedayeen were activated to prevent an attack.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_SWORDSMAN</Tag>
+		<English>Heavy Infantry</English>
+		<French>Heavy Infantry</French>
+		<German>Heavy Infantry</German>
+		<Italian>Heavy Infantry</Italian>
+		<Spanish>Heavy Infantry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_SWORDSMAN_PEDIA</Tag>
+		<English>[TAB]Troops who fight on foot, even though transported to the battlefield by horses or ships, are classified as Infantry. This term applies equally to troops armed with weapons such as the spear, sword, and mace in ancient and medieval times. As with most foot-soldiers, the objective of the medieval Infantry was to seize and hold territory, often in an attempt to occupy enemy territory.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_HORSE_ARCHER</Tag>
+		<English>Heavy Horse Archer</English>
+		<French>Heavy Horse Archer</French>
+		<German>Heavy Horse Archer</German>
+		<Italian>Heavy Horse Archer</Italian>
+		<Spanish>Heavy Horse Archer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LANCER</Tag>
+		<English>Lancer</English>
+		<French>Lancer</French>
+		<German>Lancer</German>
+		<Italian>Lancer</Italian>
+		<Spanish>Lancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LANCER_PEDIA</Tag>
+		<English>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</English>
+		<French>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</French>
+		<German>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</German>
+		<Italian>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Italian>
+		<Spanish>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_LANCER</Tag>
+		<English>Heavy Cavalry</English>
+		<French>Heavy Cavalry</French>
+		<German>Heavy Cavalry</German>
+		<Italian>Heavy Cavalry</Italian>
+		<Spanish>Heavy Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_LANCER_PEDIA</Tag>
+		<English>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</English>
+		<French>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</French>
+		<German>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</German>
+		<Italian>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Italian>
+		<Spanish>[TAB]Lancer is a general term for an armored, mounted cavalryman whose primary weapon is a lance. Middle Eastern heavy cavalrymen could be seen as equivalents of European knights, but weren't limited to those of noble birth. In fact, the best heavy cavalry soldiers were slaves (e.g. Ghulams, Mamluks) or freeborn professionals (e.g. Saladin's Tawashis).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SKIRMISHER</Tag>
+		<English>Skirmisher</English>
+		<French>Skirmisher</French>
+		<German>Skirmisher</German>
+		<Italian>Skirmisher</Italian>
+		<Spanish>Skirmisher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SKIRMISHER_PEDIA</Tag>
+		<English>[TAB]The Skirmisher is a weak, fast-moving cavalry unit, ideal for scouting but not much else.</English>
+		<French>[TAB]The Skirmisher is a weak, fast-moving cavalry unit, ideal for scouting but not much else.</French>
+		<German>[TAB]The Skirmisher is a weak, fast-moving cavalry unit, ideal for scouting but not much else.</German>
+		<Italian>[TAB]The Skirmisher is a weak, fast-moving cavalry unit, ideal for scouting but not much else.</Italian>
+		<Spanish>[TAB]The Skirmisher is a weak, fast-moving cavalry unit, ideal for scouting but not much else.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSEMAN</Tag>
+		<English>Horseman</English>
+		<French>Horseman</French>
+		<German>Horseman</German>
+		<Italian>Horseman</Italian>
+		<Spanish>Horseman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSEMAN_PEDIA</Tag>
+		<English>[TAB]The Horseman represents various light cavalry regiments. Inferior to other mounted units, it may be the only option for non-nomadic states that cannot afford to field armored lancers or slave cavalry.</English>
+		<French>[TAB]The Horseman represents various light cavalry regiments. Inferior to other mounted units, it may be the only option for non-nomadic states that cannot afford to field armored lancers or slave cavalry.</French>
+		<German>[TAB]The Horseman represents various light cavalry regiments. Inferior to other mounted units, it may be the only option for non-nomadic states that cannot afford to field armored lancers or slave cavalry.</German>
+		<Italian>[TAB]The Horseman represents various light cavalry regiments. Inferior to other mounted units, it may be the only option for non-nomadic states that cannot afford to field armored lancers or slave cavalry.</Italian>
+		<Spanish>[TAB]The Horseman represents various light cavalry regiments. Inferior to other mounted units, it may be the only option for non-nomadic states that cannot afford to field armored lancers or slave cavalry.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_SPEARMAN</Tag>
+		<English>Heavy Spearman</English>
+		<French>Heavy Spearman</French>
+		<German>Heavy Spearman</German>
+		<Italian>Heavy Spearman</Italian>
+		<Spanish>Heavy Spearman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_SPEARMAN_PEDIA</Tag>
+		<English>[TAB]</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARKSMAN</Tag>
+		<English>Marksman</English>
+		<French>Marksman</French>
+		<German>Marksman</German>
+		<Italian>Marksman</Italian>
+		<Spanish>Marksman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARKSMAN_PEDIA</Tag>
+		<English>[TAB]In the Middle Ages, the first use of the term "marksman" was given to the royal archers, or bowmen, of a palace guard, which was an elite group of troops chosen to guard a royal palace. </English>
+		<French>[TAB]In the Middle Ages, the first use of the term "marksman" was given to the royal archers, or bowmen, of a palace guard, which was an elite group of troops chosen to guard a royal palace. </French>
+		<German>[TAB]In the Middle Ages, the first use of the term "marksman" was given to the royal archers, or bowmen, of a palace guard, which was an elite group of troops chosen to guard a royal palace. </German>
+		<Italian>[TAB]In the Middle Ages, the first use of the term "marksman" was given to the royal archers, or bowmen, of a palace guard, which was an elite group of troops chosen to guard a royal palace. </Italian>
+		<Spanish>[TAB]In the Middle Ages, the first use of the term "marksman" was given to the royal archers, or bowmen, of a palace guard, which was an elite group of troops chosen to guard a royal palace. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_GALLEY</Tag>
+		<English>Great Galley</English>
+		<French>Great Galley</French>
+		<German>Great Galley</German>
+		<Italian>Great Galley</Italian>
+		<Spanish>Great Galley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEY</Tag>
+		<English>Galley</English>
+		<French>Galley</French>
+		<German>Galley</German>
+		<Italian>Galley</Italian>
+		<Spanish>Galley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_GALLEY_PEDIA</Tag>
+		<English>[TAB]Various types of galleys dominated Naval warfare in the Mediterranean from the time of Homer to the development of effective naval gunnery around the 15th and 16th centuries. Galleys fought in the wars of ancient Persia, Greece, Carthage and Rome until the 4th century. After the fall of the Roman Empire, galleys saw continued, if somewhat reduced, use by the Byzantine Navy and other successors, as well as by the new Muslim states. Medieval Mediterranean states (notably the Italian maritime republics like Venice, Pisa, Genoa) made use of galleys until the ocean-going man of war rendered them obsolete. The Battle of Lepanto, in 1571, proved one of the largest naval battles in which the galley played the principal part. Galleys continued in mainstream use until the introduction of the broadside sailing ship into the Mediterranean in the 17th century and then continued to function in minor and auxiliary roles until the advent of steam propulsion.</English>
+		<French>[TAB]Various types of galleys dominated Naval warfare in the Mediterranean from the time of Homer to the development of effective naval gunnery around the 15th and 16th centuries. Galleys fought in the wars of ancient Persia, Greece, Carthage and Rome until the 4th century. After the fall of the Roman Empire, galleys saw continued, if somewhat reduced, use by the Byzantine Navy and other successors, as well as by the new Muslim states. Medieval Mediterranean states (notably the Italian maritime republics like Venice, Pisa, Genoa) made use of galleys until the ocean-going man of war rendered them obsolete. The Battle of Lepanto, in 1571, proved one of the largest naval battles in which the galley played the principal part. Galleys continued in mainstream use until the introduction of the broadside sailing ship into the Mediterranean in the 17th century and then continued to function in minor and auxiliary roles until the advent of steam propulsion.</French>
+		<German>[TAB]Various types of galleys dominated Naval warfare in the Mediterranean from the time of Homer to the development of effective naval gunnery around the 15th and 16th centuries. Galleys fought in the wars of ancient Persia, Greece, Carthage and Rome until the 4th century. After the fall of the Roman Empire, galleys saw continued, if somewhat reduced, use by the Byzantine Navy and other successors, as well as by the new Muslim states. Medieval Mediterranean states (notably the Italian maritime republics like Venice, Pisa, Genoa) made use of galleys until the ocean-going man of war rendered them obsolete. The Battle of Lepanto, in 1571, proved one of the largest naval battles in which the galley played the principal part. Galleys continued in mainstream use until the introduction of the broadside sailing ship into the Mediterranean in the 17th century and then continued to function in minor and auxiliary roles until the advent of steam propulsion.</German>
+		<Italian>[TAB]Various types of galleys dominated Naval warfare in the Mediterranean from the time of Homer to the development of effective naval gunnery around the 15th and 16th centuries. Galleys fought in the wars of ancient Persia, Greece, Carthage and Rome until the 4th century. After the fall of the Roman Empire, galleys saw continued, if somewhat reduced, use by the Byzantine Navy and other successors, as well as by the new Muslim states. Medieval Mediterranean states (notably the Italian maritime republics like Venice, Pisa, Genoa) made use of galleys until the ocean-going man of war rendered them obsolete. The Battle of Lepanto, in 1571, proved one of the largest naval battles in which the galley played the principal part. Galleys continued in mainstream use until the introduction of the broadside sailing ship into the Mediterranean in the 17th century and then continued to function in minor and auxiliary roles until the advent of steam propulsion.</Italian>
+		<Spanish>[TAB]Various types of galleys dominated Naval warfare in the Mediterranean from the time of Homer to the development of effective naval gunnery around the 15th and 16th centuries. Galleys fought in the wars of ancient Persia, Greece, Carthage and Rome until the 4th century. After the fall of the Roman Empire, galleys saw continued, if somewhat reduced, use by the Byzantine Navy and other successors, as well as by the new Muslim states. Medieval Mediterranean states (notably the Italian maritime republics like Venice, Pisa, Genoa) made use of galleys until the ocean-going man of war rendered them obsolete. The Battle of Lepanto, in 1571, proved one of the largest naval battles in which the galley played the principal part. Galleys continued in mainstream use until the introduction of the broadside sailing ship into the Mediterranean in the 17th century and then continued to function in minor and auxiliary roles until the advent of steam propulsion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_GALLEY</Tag>
+		<English>War Galley</English>
+		<French>War Galley</French>
+		<German>War Galley</German>
+		<Italian>War Galley</Italian>
+		<Spanish>War Galley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROUNDSHIP</Tag>
+		<English>Merchant Ship</English>
+		<French>Merchant Ship</French>
+		<German>Merchant Ship</German>
+		<Italian>Merchant Ship</Italian>
+		<Spanish>Merchant Ship</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROUNDSHIP_PEDIA</Tag>
+		<English>[TAB]The Roundship, also called a Nef, was a merchant sailing ship used in Europe during the Middle Ages until the 14th century. It had a rounded stern and bow, as opposed to a sharp double-ended longship. Roundships were either single-masted, or used a two-masted rig with a small foresail.</English>
+		<French>[TAB]The Roundship, also called a Nef, was a merchant sailing ship used in Europe during the Middle Ages until the 14th century. It had a rounded stern and bow, as opposed to a sharp double-ended longship. Roundships were either single-masted, or used a two-masted rig with a small foresail.</French>
+		<German>[TAB]The Roundship, also called a Nef, was a merchant sailing ship used in Europe during the Middle Ages until the 14th century. It had a rounded stern and bow, as opposed to a sharp double-ended longship. Roundships were either single-masted, or used a two-masted rig with a small foresail.</German>
+		<Italian>[TAB]The Roundship, also called a Nef, was a merchant sailing ship used in Europe during the Middle Ages until the 14th century. It had a rounded stern and bow, as opposed to a sharp double-ended longship. Roundships were either single-masted, or used a two-masted rig with a small foresail.</Italian>
+		<Spanish>[TAB]The Roundship, also called a Nef, was a merchant sailing ship used in Europe during the Middle Ages until the 14th century. It had a rounded stern and bow, as opposed to a sharp double-ended longship. Roundships were either single-masted, or used a two-masted rig with a small foresail.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INQUISITOR</Tag>
+		<English>Religious Persecutor</English>
+		<French>Religious Persecutor</French>
+		<German>Religious Persecutor</German>
+		<Italian>Religious Persecutor</Italian>
+		<Spanish>Religious Persecutor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INQUISITOR_PEDIA</Tag>
+		<English>[TAB]A Religious Persecutor is an official who roots out heresy and apostasy from within the population, often employing the most brutal methods to do so. The Roman Catholic church has conducted a number of Inquisitions in past centuries - perhaps the most famous being the Spanish Inquisition of the fifteenth century, which targeted Muslims and Jews in Spain - but numerous other religions have engaged in similar practices throughout history.</English>
+		<French>[TAB]Un Inquisiteur est un responsable religieux qui traque l'h&#233;r&#233;sie et l'apostasie parmi la population, souvent au moyen de m&#233;thodes brutales. L'Eglise catholique a men&#233; nombre d'inquisitions lors des si&#232;cles pass&#233;s. La plus c&#233;l&#232;bre fut sans doute l'Inquisition espagnole du quinzi&#232;me si&#232;cle, qui prenait pour cible les Musulmans et les Juifs d'Espagne. De nombreuses autres religions se sont engag&#233;es dans des pratiques similaires durant l'Histoire.</French>
+		<German>[TAB]Ein Inquisitor ist ein offizieller religi&#246;ser Beauftragter, der in der Bev&#246;lkerung H&#228;resien und Ketzereien ausmerzt und dabei oft &#228;u&#223;erst brutal vorgeht. Die R&#246;misch-Katholische Kirche f&#252;hrte in den vergangenen Jahrhunderten mehrere Inquisitionen durch - die vielleicht ber&#252;hmteste war die Spanische Inquisition im 15. Jahrhundert, die sich gegen Muslime und Juden richtete - doch viele andere Religionen haben im Lauf der Geschichte &#228;hnliche Praktiken verwendet.</German>
+		<Italian>[TAB]Un Inquisitore &#232; un religioso che ha il compito di debellare eresia e apostasia tra la popolazione, spesso impiegando i mezzi pi&#249; brutali. La chiesa cattolica romana ha condotto una serie di inquisizioni, nei secoli scorsi, la pi&#249; famosa delle quali &#232; sicuramente quella del quindicesimo secolo, che perseguit&#242; musulmani ed ebrei in Spagna. Ma anche molte altre religioni hanno svolto attivit&#224; di questo tipo, nel corso della storia.</Italian>
+		<Spanish>[TAB]Un inquisidor es un dignatario religioso que erradica la herej&#237;a y la apostas&#237;a de la poblaci&#243;n, para lo que emplea con frecuencia los m&#233;todos m&#225;s brutales. La iglesia cat&#243;lica romana ha realizado varias inquisiciones en los siglos pasados ?siendo quiz&#225; la m&#225;s famosa la inquisici&#243;n espa&#241;ola del s. XV, que se dirigi&#243; contra los musulmanes y jud&#237;os que se encontraban en Espa&#241;a?, pero varias religiones m&#225;s han llevado a cabo pr&#225;cticas similares durante la historia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INQUISITOR_STRATEGY</Tag>
+		<English>Employ a Religious Persecutor to remove non-State religions from a city. The Persecutor is consumed in the operation.</English>
+		<French>Utilisez un Inquisiteur pour supprimer toutes les religions d'une ville qui ne sont pas des religions d'&#233;tat. L'Inquisiteur est d&#233;truit au cours de l'op&#233;ration.</French>
+		<German>Setzen Sie einen Inquisitor ein, um alle Nicht-Staatsreligionen aus einer Stadt zu entfernen. Der Inquisitor wird dabei verbraucht.</German>
+		<Italian>Usa un Inquisitore per eliminare da una citt&#224; tutte le religioni non di stato. Cos&#236; facendo l'Inquisitore verr&#224; distrutto.</Italian>
+		<Spanish>Emplea a un inquisidor para quitar de una ciudad todas las religiones que no sean la oficial. El inquisidor se consumir&#225; en el proceso.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INQUISITOR_HELP</Tag>
+		<English>[ICON_BULLET]Can remove non-state religions and associated buildings</English>
+		<French>[ICON_BULLET]Can remove non-state religions and associated buildings</French>
+		<German>[ICON_BULLET]Can remove non-state religions and associated buildings</German>
+		<Italian>[ICON_BULLET]Can remove non-state religions and associated buildings</Italian>
+		<Spanish>[ICON_BULLET]Can remove non-state religions and associated buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_PERSECUTION</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Persecution[COLOR_REVERT][NEWLINE]Attempts to remove one non-State religion from the city. This will consume the Prosecutor.</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Persecution[COLOR_REVERT][NEWLINE]Attempts to remove one non-State religion from the city. This will consume the Prosecutor.</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]Persecution[COLOR_REVERT][NEWLINE]Attempts to remove one non-State religion from the city. This will consume the Prosecutor.</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Persecution[COLOR_REVERT][NEWLINE]Attempts to remove one non-State religion from the city. This will consume the Prosecutor.</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]Persecution[COLOR_REVERT][NEWLINE]Attempts to remove one non-State religion from the city. This will consume the Prosecutor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RELIC</Tag>
+		<English>Relic</English>
+		<French>Relique</French>
+		<German>Reliquie</German>
+		<Italian>Reliquia</Italian>
+		<Spanish>Reliquia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RELIC_PEDIA</Tag>
+		<English>[TAB]During the Middle Ages, Christians believed that various religious relics - a piece of the True Cross, for example, or the finger-bone of a beloved saint - held important spiritual properties. Though many of these relics were undoubtedly fakes, they were highly prized by the faithful. Donating such a relic to the Church was a sure way to gain Rome's favor.</English>
+		<French>[TAB]Durant le Moyen-Age, les Chr&#233;tiens croyaient que diff&#233;rentes reliques religieuses telles qu'un morceau de la Vraie Croix ou les phalanges d'un homme saint, poss&#233;daient d'importantes propri&#233;t&#233;s spirituelles. La plupart de ces reliques &#233;taient indubitablement fausses, mais elles n'en &#233;taient pas moins pris&#233;es par les croyants. Faire don d'un telle relique &#224; l'Eglise &#233;tait un moyen s&#251;r de s'attirer les faveurs de Rome.</French>
+		<German>[TAB]Im Mittelalter glaubten die Christen, verschiedenen religi&#246;sen Reliquien - einem Teil des Wahren Kreuzes etwa oder den Fingerknochen eines geliebten Heiligen - w&#252;rden wichtige spirituelle Kr&#228;fte innewohnen. Obwohl viele dieser Reliquien zweifellos F&#228;lschungen waren, waren sie bei Gl&#228;ubigen sehr begehrt. Eine solche Reliquie der Kirche zu stiften war ein sicherer Weg, die Gunst Roms zu erlangen.</German>
+		<Italian>[TAB]Durante il Medioevo i cristiani credevano che le reliquie religiose, come un pezzo della vera croce o la falange di un santo, avessero importanti propriet&#224; spirituali. Anche se molte di queste reliquie erano senza dubbio dei falsi, erano molto importanti per i fedeli. Donare una reliquia alla chiesa era un modo sicuro per assicurarsi il favore di Roma.</Italian>
+		<Spanish>[TAB]Durante la Edad Media los cristianos cre&#237;an que varias reliquias ?por ejemplo, una astilla de la Vera Cruz o la falange del dedo de un santo muy venerado? ten&#237;an importantes propiedades espirituales. Aunque indudablemente muchas de esas reliquias eran falsas, los fieles les ten&#237;an gran aprecio. Donar una de esas reliquias a la iglesia era una manera segura de ganarse el favor de Roma.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPEARMAN_PEDIA</Tag>
+		<English>[TAB]Spears were arguably one of the most common personal weapons from the late Bronze Age until the advent of firearms. They may be seen as the ancestor of such weapons as the lance, the halberd and the pike.</English>
+		<French>[TAB]Spears were arguably one of the most common personal weapons from the late Bronze Age until the advent of firearms. They may be seen as the ancestor of such weapons as the lance, the halberd and the pike.</French>
+		<German>[TAB]Spears were arguably one of the most common personal weapons from the late Bronze Age until the advent of firearms. They may be seen as the ancestor of such weapons as the lance, the halberd and the pike.</German>
+		<Italian>[TAB]Spears were arguably one of the most common personal weapons from the late Bronze Age until the advent of firearms. They may be seen as the ancestor of such weapons as the lance, the halberd and the pike.</Italian>
+		<Spanish>[TAB]Spears were arguably one of the most common personal weapons from the late Bronze Age until the advent of firearms. They may be seen as the ancestor of such weapons as the lance, the halberd and the pike.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AXEMAN_PEDIA</Tag>
+		<English>[TAB]In its most common form, a battle-axe is an arm-length weapon borne in one or both hands. Compared to a sword swing, it delivers more cleaving power against a smaller target area, making it more effective against armor, due to concentrating more of its weight in the axehead. However, it allows much less precision than a sword does.</English>
+		<French>[TAB]In its most common form, a battle-axe is an arm-length weapon borne in one or both hands. Compared to a sword swing, it delivers more cleaving power against a smaller target area, making it more effective against armor, due to concentrating more of its weight in the axehead. However, it allows much less precision than a sword does.</French>
+		<German>[TAB]In its most common form, a battle-axe is an arm-length weapon borne in one or both hands. Compared to a sword swing, it delivers more cleaving power against a smaller target area, making it more effective against armor, due to concentrating more of its weight in the axehead. However, it allows much less precision than a sword does.</German>
+		<Italian>[TAB]In its most common form, a battle-axe is an arm-length weapon borne in one or both hands. Compared to a sword swing, it delivers more cleaving power against a smaller target area, making it more effective against armor, due to concentrating more of its weight in the axehead. However, it allows much less precision than a sword does.</Italian>
+		<Spanish>[TAB]In its most common form, a battle-axe is an arm-length weapon borne in one or both hands. Compared to a sword swing, it delivers more cleaving power against a smaller target area, making it more effective against armor, due to concentrating more of its weight in the axehead. However, it allows much less precision than a sword does.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TREBUCHET_PEDIA</Tag>
+		<English>[TAB]The trebuchet was a medieval siege weapon designed to throw a projectile a great distance through the air. The trebuchet originated in China sometime between the fifth and third centuries BC. From there it spread to the west, reaching Europe around 500 AD. [PARAGRAPH:1]Although it is usually thought of as a type of catapult, the trebuchet is in fact a gigantic sling attached to a lever. The shorter arm of the lever carries a counterweight, while the longer arm carries the sling that throws the projectile. In operation the sling end is pulled towards the ground (lifting the counterweight in the process) and held in place by a trigger while a projectile is loaded into the sling. When the trigger is released, the counterweight falls and the sling flies up and above the machine, releasing the projectile at the top of its arc. [PARAGRAPH:1]Constructed properly, trebuchets could fire very heavy loads. In modern reconstructions using trebuchets built with the original tools and materials, trebuchets have been able to throw projectiles weighing as much as 300 kilograms. Aiming the trebuchet was difficult and required some practice and knowledge of engineering - both of which were usually in short supply for medieval operators. Trebuchets were also extremely heavy and almost immobile; this, combined with their slow rate of their fire, made them impractical for anything except siege operations. [PARAGRAPH:1]Although the Chinese were the first to develop the trebuchet, by the time of the Mongol invasions the Chinese had fallen behind other parts of the world in siege technology. This was due to the fact that China had been politically united for long periods of time, preventing the formation of strong fortresses across the country, and the traditional enemies of the Chinese were nomadic warriors - not fortified city-dwellers. Nevertheless, the Chinese were still far more advanced in siege warfare than the Mongols, and it was not until the Mongols adopted Chinese practices that they began to have success capturing enemy fortifications. [PARAGRAPH:1]Late in the conquest of Song China, Mongol leader Kublai Khan brought in Arab engineers from the Mongol holdings in Persia to build hinged counterweight trebuchets, which were more advanced than anything yet seen in China. With the aid of these powerful weapons, Kublai was able to take the previously-impenetrable fortress of Xiangyang in 1273, and from there rapidly take the rest of Song China's cities, completing his conquest of the Song Empire in 1279. [PARAGRAPH:1]</English>
+		<French>Le tr&#233;buchet est une arme de si&#232;ge m&#233;di&#233;vale, servant &#224; lancer un projectile &#224; une longue distance. Il est cr&#233;&#233; en Chine entre le Ve et le IIIe si&#232;cle av. J.-C., et se r&#233;pand ensuite vers l'ouest, atteignant l'Europe vers 500 ap. J.-C. [PARAGRAPH:2:1]Bien qu'il soit g&#233;n&#233;ralement consid&#233;r&#233; comme une sorte de catapulte, le tr&#233;buchet est en fait une gigantesque fronde attach&#233;e &#224; un levier. Le bras le plus court du levier comporte un contrepoids tandis que le bras le plus long contient la fronde qui lance le projectile. Lors de son utilisation, l'extr&#233;mit&#233; de la fronde est tendue vers le sol, ce qui soul&#232;ve le contrepoids, et maintenue par une cheville pendant que le projectile est install&#233; dans la fronde. Lorsque la cheville est rel&#226;ch&#233;e, le contrepoids tombe, la fronde s'&#233;l&#232;ve au-dessus de l'appareil et &#233;jecte le projectile lorsqu'elle se trouve &#224; son apog&#233;e. [PARAGRAPH:2:1]Construits correctement, les tr&#233;buchets peuvent projeter de tr&#232;s lourdes charges. Dans des reconstitutions modernes utilisant des tr&#233;buchets fabriqu&#233;s avec les outils et mat&#233;riaux d'origine, les tr&#233;buchets sont capables de lancer des projectiles pesant 300 kg. Il est difficile de manoeuvrer le tr&#233;buchet, cela requiert pratique et connaissance de l'ing&#233;nierie qui &#233;taient toutes deux peu courantes pour les op&#233;rateurs m&#233;di&#233;vaux. Les tr&#233;buchets sont aussi extr&#234;mement lourds et presque immobiles. Combin&#233;s &#224; leur lente fr&#233;quence de tir, tous ces inconv&#233;nients le rendent inutilisable except&#233; pour les op&#233;rations de si&#232;ge. [PARAGRAPH:2:1]Si les Chinois sont les premiers &#224; avoir d&#233;velopp&#233; le tr&#233;buchet, &#224; l'&#233;poque des invasions mongoles, ils sont vite d&#233;pass&#233;s par d'autres r&#233;gions du monde en mati&#232;re de technologie de si&#232;ge. Cela s'explique par le fait que les Chinois ont &#233;t&#233; politiquement unifi&#233;s pendant tr&#232;s longtemps et n'ont donc pas eu besoin de construire de solides forteresses dans le pays. Par ailleurs, les ennemis traditionnels des Chinois sont des guerriers nomades qui ne vivent pas dans des cit&#233;s fortifi&#233;es. Toutefois, les Chinois sont bien plus avanc&#233;s que les Mongols pour la guerre de si&#232;ge et ce n'est que lorsque ces derniers adoptent les pratiques chinoises qu'ils commencent &#224; r&#233;ussir &#224; attaquer les fortifications ennemies. [PARAGRAPH:2:1]Tardivement, lors de la conqu&#234;te de la Chine des Song, le leader mongol Kubilai Khan fait appel &#224; des ing&#233;nieurs arabes, originaires de territoires perses d&#233;tenus par les Mongols, pour construire des tr&#233;buchets &#224; contrepoids articul&#233;, qui sont bien plus avanc&#233;s que tout ce qui existe alors en Chine. A l'aide de ces puissantes armes, Kubilai parvient &#224; s'emparer de la forteresse autrefois imprenable de Xiangyang en 1273 et, de l&#224;, &#224; s'approprier rapidement les autres villes de la Chine des Song, achevant sa conqu&#234;te de l'Empire Song en 1279. [PARAGRAPH:2:1]</French>
+		<German>Der Tribok war eine mittelalterliche Belagerungswaffe, mit der Geschosse &#252;ber gro&#223;e Entfernungen hinweg durch die Luft geschleudert wurden. Er wurde urspr&#252;nglich irgendwann zwischen dem 5. und 3. Jahrhundert vor Christus in China entwickelt. Von dort aus gelangte er immer weiter nach Westen und wurde um 500 nach Christus erstmals auch in Europa eingesetzt. [PARAGRAPH:2:1]Obwohl er in der Regel wie eine Art Katapult beschrieben wird, handelt es sich bei dem Tribok tats&#228;chlich um eine gigantische Schleuder mit einem Hebelmechanismus. An dem k&#252;rzeren Hebel ist ein Gegengewicht befestigt, w&#228;hrend der l&#228;ngere Hebel die Schlinge steuert, die das Geschoss abfeuert. Im Betrieb wird das Schlingenende zu Boden gezogen (wobei das Gegengewicht angehoben wird) und mit einem Abzugshebel fixiert, w&#228;hrend das Geschoss in die Schlinge geladen wird. Wird der Abzugshebel gel&#246;st, f&#228;llt das Gegengewicht herunter, die Schlinge fliegt nach oben - &#252;ber die Maschine hinweg - und das Geschoss wird dabei am h&#246;chsten Punkt der Schwungbogenbewegung herausgeschleudert. [PARAGRAPH:2:1]Wenn sie richtig konstruiert waren, konnten die Triboken mit sehr schweren Geschossen beladen werden. Moderne Nachbauten, f&#252;r die originale Werkzeuge und Materialien verwendet wurden, haben gezeigt, dass Triboken Geschosse von bis zu 300 Kilogramm Gewicht aufnehmen k&#246;nnen. Das Zielen war mit einem Tribok allerdings recht schwierig und erforderte einige &#220;bung sowie technische Kenntnisse - und beides war bei den mittelalterlichern Bedienern dieser Waffen eher selten vorhanden. Au&#223;erdem waren Triboken extrem schwer und nahezu unbeweglich. Bedenkt man dann noch ihre geringe Schussfrequenz, waren sie wirklich ausschlie&#223;lich f&#252;r Belagerungsangriffe geeignet. [PARAGRAPH:2:1]Obwohl die Chinesen den Tribok als Erste entwickelt hatten, hinkten sie zur Zeit des Einmarschs der Mongolen den Belagerungstechnologien anderer L&#228;nder der Welt bereits weit hinterher. Der Grund hierf&#252;r war, dass China &#252;ber lange Perioden hinweg politisch geeint war, wodurch die Errichtung starker Festungen im Land unn&#246;tig gewesen war. Zudem waren die traditionellen Feinde der Chinesen stets Nomadenkrieger gewesen und keine Bewohner befestigter St&#228;dte. Trotzdem waren die Chinesen den Mongolen in punkto Belagerungskriegsf&#252;hrung immer noch &#252;berlegen und erst nachdem die Mongolen Chinas Technologien &#252;bernommen hatten, waren sie auch in der Lage, feindliche Festungen einzunehmen. [PARAGRAPH:2:1]Gegen Ende der Belagerung des von der Song-Dynastie regierten China setzte der mongolische Herrscher Kublai Khan arabische Baumeister aus den mongolischen L&#228;ndereien in Persien ein, um klappbare Gegengewicht-Triboken zu bauen, die erheblich fortschrittlicher waren als die Triboken der Chinesen. Mithilfe dieser Waffen war Kublai Khan in der Lage, im Jahr 1273 die zuvor uneinnehmbare Festung Xiang-yang zu erobern und von dort aus innerhalb kurzer Zeit auch die &#252;brigen St&#228;dte der Song-Dynastie einzunehmen, so dass er seinen Eroberungsfeldzug des Song-Reiches im Jahr 1279 vollenden konnte. [PARAGRAPH:2:1]</German>
+		<Italian>Il trabocco era un'arma d'assedio medievale progettata per scagliare in aria proiettili a grandi distanze. Il trabocco nacque in Cina tra il quinto e il terzo secolo a.C.. Da l&#236; il suo uso si diffuse verso ovest, raggiungendo l'Europa intorno al 500 d.C.. [PARAGRAPH:2:1]Anche se di solito lo si pensa come una specie di catapulta, il trabocco &#232; in realt&#224; un'enorme fionda agganciata a una leva. Il braccio pi&#249; corto della leva porta un contrappeso, mentre quello pi&#249; lungo &#232; collegato alla fionda con il proiettile. Quando &#232; attivato, la fionda viene tirata verso il terreno (il contrappeso, per contro, si solleva) e tenuta in posizione da un grilletto mentre il proiettile viene caricato nella fionda. Quando il grilletto viene rilasciato, il contrappeso cade e la fionda vola sopra il trabocco, scagliando il proiettile nel punto pi&#249; alto del suo arco. [PARAGRAPH:2:1]Se costruito correttamente, il trabocco poteva scagliare oggetti molto pesanti. Nelle moderne ricostruzioni con i materiali e le tecniche dell'epoca, si sono potuti scagliare pesi anche di 300 chili. Prendere la mira col trabocco era difficile e occorreva pratica e qualche nozione di ingegneria, cose che spesso mancavano a chi li manovrava nel Medioevo. I trabocchi erano anche estremamente pesanti e praticamente immobili; questo e la bassa frequenza dei colpi li rendevano utili solo negli assedi. [PARAGRAPH:2:1]Anche se furono i Cinesi i primi a svilupparlo, al tempo delle invasioni dei Mongoli la tecnologia per assedi cinese era ormai arretrata rispetto al resto del mondo e questo per via dell'unione politica di lunga durata, che aveva reso inutile la costruzione di grandi fortezze in tutto il Paese, e per via della natura dei loro nemici, che erano trib&#249; nomadi e non cittadini residenti in centri fortificati. Ci&#242; nonostante la tecnologia d'assedio cinese era pi&#249; avanzata di quella dei Mongoli e fu solo quando questi ultimi adottarono le tecniche cinesi che riuscirono a dar loro del filo da torcere. [PARAGRAPH:2:1]In seguito, al momento di conquistare la Cina dei Song, il capo mongolo Kublai Khan port&#242; con s&#233; degli ingegneri arabi (provenienti dai possedimenti mongoli in Persia) affinch&#233; costruissero trabocchi muniti di cardini e contrappesi, molto pi&#249; avanzati di qualsiasi arma vista prima in Cina. Fu grazie all'aiuto di queste potenti armi che Kublai riusc&#236; a prendere l'altrimenti impenetrabile fortezza di Xiangyang nel 1273 e da l&#236; partire alla conquista del resto della Cina, completata nel 1279. [PARAGRAPH:2:1]</Italian>
+		<Spanish>El trabuquete era una m&#225;quina de asedio medieval dise&#241;ada para arrojar un proyectil a gran distancia. Se invent&#243; en China, en alg&#250;n momento entre los siglos V y III a. C. Desde all&#237; se extendi&#243; hacia el oeste y lleg&#243; a Europa alrededor del a&#241;o 500 d. C. [PARAGRAPH:2:1]Aunque suele pensarse que es un tipo de catapulta, el trabuquete es en realidad una gigantesca honda unida a una palanca. El brazo corto de la palanca lleva un contrapeso, mientras que el brazo largo propulsa la honda que lanza el proyectil. Para armarse, el brazo de la honda se baja hasta el suelo (levantando el contrapeso en el proceso) y se sujeta mediante un sistema de disparador mientras se carga el proyectil. Cuando se acciona el disparador, el contrapeso cae, la honda se eleva por encima de la maquinaria y, al llegar al cenit de su ascenso, suelta el proyectil. [PARAGRAPH:2:1]Si est&#225;n bien construidos, los trabuquetes pueden lanzar proyectiles muy pesados. En reconstrucciones modernas de trabuquetes realizadas con las herramientas y los materiales de la &#233;poca, se han llegado a lanzar proyectiles de hasta trescientos kilos. Apuntar con el trabuquete era dif&#237;cil y requer&#237;a pr&#225;ctica y conocimientos de ingenier&#237;a, habilidades que no abundaban demasiado en los artilleros medievales. Adem&#225;s, eran extremadamente pesados y casi inm&#243;viles. Esto, combinado con su lenta cadencia de fuego, hac&#237;a que fuesen muy poco pr&#225;cticos, salvo como m&#225;quinas de asedio. [PARAGRAPH:2:1]Aunque los chinos hab&#237;an inventado esta m&#225;quina, en tiempos de las invasiones mongolas su tecnolog&#237;a de asedios hab&#237;a quedado rezagada con respecto a la de otras partes del mundo. En parte, esto se deb&#237;a al hecho de que China llevaba mucho tiempo unificada pol&#237;ticamente, lo que hab&#237;a impedido la aparici&#243;n de importantes fortalezas en su territorio, ya que los enemigos tradicionales de los chinos eran guerreros n&#243;madas, no pueblos con ciudades fortificadas. No obstante, los chinos segu&#237;an estando muy por encima de los mongoles en cuanto a maquinaria de asedio y, hasta que los n&#243;madas no empezaron a adoptar sus t&#233;cnicas de poliorc&#233;tica, no tuvieron ning&#250;n &#233;xito en la captura de fortificaciones.[PARAGRAPH:2:1]En las fases finales de la conquista de la China Song, el l&#237;der mongol Kublai kan trajo ingenieros &#225;rabes de las posesiones mongolas en Arabia para que le construyeran grandes trabuquetes, m&#225;s avanzados que cualquiera que se hubiese visto en China hasta la fecha. Con la ayuda de estas poderosas armas, Kublai fue capaz de tomar la hasta entonces inexpugnable fortaleza de Xiangyang en 1273 y, a partir de all&#237;, el resto de la China Song, cuya conquista se culmin&#243; en 1279.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CORDOBAN_BERBER_CAVALRY</Tag>
+		<English>Berber Cavalry</English>
+		<French>Cavalerie Berber</French>
+		<German>Berber Kavallerie</German>
+		<Italian>Cavalleria di Berbero</Italian>
+		<Spanish>Caballería Beréber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CORDOBAN_BERBER_CAVALRY_PEDIA</Tag>
+		<English>[TAB]Following the Muslim conquest of North Africa in the 7th century, the Berber peoples of the Maghreb and Morocco largely adopted Islam and became the mainstay of Arab armies in the West. Skilled with bow and javelin and mounted on camels, they soon mastered the horse and became adept as scouting and raiding light cavalry. The Arab conquest of Iberia initiated by the Berber general, Tarik ibn-Zihad consisted of about 300 elite Arabian cavalry and a mixed Berber army of about 1800-2000 bowmen, spearmen and light cavalry. Later Andalusian armies were largely comprised of a core of Arabian noble horsemen and a majority of Berber voluteers and mercenaries who fought both on foot and on horseback.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FALXMAN</Tag>
+		<English>Falxman</English>
+		<French>Falxman</French>
+		<German>Falxman</German>
+		<Italian>Falciatore</Italian>
+		<Spanish>Falxman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FALXMAN_PEDIA</Tag>
+		<English>[TAB]Falx is a latin word originally meaning sickle, but was later used to mean any of a number of tools that had a curved blade that was sharp on the inside edge such as a scythe. The Dacian falx came in two sizes: single and double handed. The double-handed falx was a pole-arm. It consisted of a three-feet long wooden shaft with a long curved iron blade of nearly-equal length attached to the end. The blade was sharpened only on the inside, and was reputed to be devastatingly effective - it was said to be capable of splitting a shield in two at a single blow. Alternatively, it might used as a hook, pulling away shields and cutting at vulnerable limbs.</English>
+		<French>[TAB]Text Needed</French>
+		<German>[TAB]Text Needed</German>
+		<Italian>[TAB]I Falciatori sono dei guerrieri daci armati di "falx", un'arma terribile nelle mani di un esperto, composta da una lunga lama ricurva posta alla fine di un bastone usato come manico. La lama del "falx" è affilata lungo la curva interna, in modo che il danno viene inferto col movimento di ritorno. Se usato correttamente un "falx" può tagliare facilmente un arto o decapitare un nemico. I falciatori hanno il compito di aprire un varco nella formazione del nemico. Combattono sciolti e distanti tra loro poichè hanno bisogno di spazio per maneggiare l'arma con efficacia, e siccome impiegano entrambe le braccia per usarla e necesitano di agilità, lottano di solito a petto nudo, indossando pantaloni rigonfi a protezione delle gambe ed un elmo leggero sul capo. Il loro impiego migliore è contro unità nemiche schierate e compatte, ma garantiscono anche buoni risultati contro la cavalleria leggera grazie alla portata del loro "falx".</Italian>
+		<Spanish>[TAB]Text Needed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GAEMAMUSA</Tag>
+		<English>Gaemamusa</English>
+		<French>Gaemamusa</French>
+		<German>Gaemamusa</German>
+		<Italian>Gaemamusa</Italian>
+		<Spanish>Gaemamusa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GAEMAMUSA_PEDIA</Tag>
+		<English>[TAB]The Korean horse is the smallest of the East Asian breeds, but the breed is very strong with noteworthy stamina in terms of its size.[PARAGRAPH:1]This Silla horse rider pottery is among the National Treasures of Korea.[PARAGRAPH:1]The earliest horse warfare of Korea was recorded during the ancient Korean kingdom Gojoseon. The influence of northern nomadic peoples and Yemaek peoples on Korean Warfare dates from the 3rd century BC. By roughly the 1st century BC, the ancient kingdom of Buyeo also had mounted warriors. The cavalry of Goguryeo, one of the Three Kingdoms of Korea, were called Gaemamusa. King Gwanggaeto the Great often led expeditions into Baekje, Gaya confederacy, Buyeo and against Japanese pirates with his cavalry.</English>
+		<French>Gaemamusa</French>
+		<German>Gaemamusa</German>
+		<Italian>Gaemamusa</Italian>
+		<Spanish>Gaemamusa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCENSE_MERCHANT</Tag>
+		<English>Inscense Merchant</English>
+		<French>Incense Merchant</French>
+		<German>Incense Merchant</German>
+		<Italian>Incense Merchant</Italian>
+		<Spanish>Incense Merchant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCENSE_MERCHANT_PEDIA</Tag>
+		<English>Incence Merchant</English>
+		<French>Incence Merchant</French>
+		<German>Incence Merchant</German>
+		<Italian>Incence Merchant</Italian>
+		<Spanish>Incence Merchant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCENSE_MERCHANT_HELP</Tag>
+		<English>[ICON_BULLET]More income from trading missions</English>
+		<French>[ICON_BULLET]More income from trading missions</French>
+		<German>[ICON_BULLET]More income from trading missions</German>
+		<Italian>[ICON_BULLET]More income from trading missions</Italian>
+		<Spanish>[ICON_BULLET]More income from trading missions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHENWU_GUARD</Tag>
+		<English>Shenwu Guard</English>
+		<French>Shenwu Guard</French>
+		<German>Shenwu Wache</German>
+		<Italian>Shenwu Guard</Italian>
+		<Spanish>Shenwu Guard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHENWU_GUARD_PEDIA</Tag>
+		<English>[TAB]By the time An Lushan revolted in AD 755, enrollment in the Imperial Guard units had declined to such an extent that there were only a thousand guardsmen escorting Emperor Xuanzong during his flight from the capital.[PARAGRAPH:2]Emperor Xuanzong officially abdicated in favour of the Crown Prince Li Heng, who had to raise his own army in AD 757, which became known as the ShenWu (literally Divine Martial) Guards. Entry requirements had to be lowered when they could not recruit enough men from families of Court officials.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRANK_THROWING_AXEMAN</Tag>
+		<English>Throwing Axeman</English>
+		<French>Throwing Axeman</French>
+		<German>Throwing Axeman</German>
+		<Italian>Throwing Axeman</Italian>
+		<Spanish>Throwing Axeman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRANK_THROWING_AXEMAN_PEDIA</Tag>
+		<English>[TAB]The francisca (or francesca) is a throwing axe used as a weapon during the Early Middle Ages by the Franks, among whom it was a characteristic national weapon at the time of the Merovingians from about 500 to 750 AD and is known to have been used during the reign of Charlemagne (768-814). Although generally associated with the Franks, it was also used by other Germanic peoples of the period including the Anglo-Saxons, and several examples have been found in England.</English>
+		<French>Throwing Axeman</French>
+		<German>Throwing Axeman</German>
+		<Italian>Throwing Axeman</Italian>
+		<Spanish>Throwing Axeman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SONINKE</Tag>
+		<English>Soninke Warrior</English>
+		<French>Soninke Warrior</French>
+		<German>Soninke Warrior</German>
+		<Italian>Soninke Warrior</Italian>
+		<Spanish>Soninke Warrior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SONINKE_PEDIA</Tag>
+		<English>[TAB]After contact with Muslim Almoravid traders from the north around 1066, Soninke nobles of neighboring Takrur were among the first ethnic groups from Africa to embrace Islam. When the Ghana empire dispersed, the resulting diaspora brought Soninkes to Mali, Senegal, Mauritania, Gambia, and Guinea-Bissau. This diaspora included Wangara, famous traders who spread far from traditionally Mande areas. Hence the term Wangara is used today in Ghana and Burkina Faso to describe the Soninke populations in cities and towns. Today, Soninke number around 1 million.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GUPTA_LONGBOWMAN</Tag>
+		<English>Patiyodha</English>
+		<French>Patiyodha</French>
+		<German>Patiyodha</German>
+		<Italian>Patiyodha</Italian>
+		<Spanish>Patiyodha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BAMBOO_LONGBOWMAN_PEDIA</Tag>
+		<English>[TAB]The Guptas seem to have relied heavily on infantry archers, and the bow was one of the dominant weapons of their army. The Hindu version of the longbow was composed of metal, or more typically bamboo, and fired a long bamboo cane arrow with a metal head. Unlike the composite bows of Western and Central Asian foes, bows of this design would be less prone to warping in the damp and moist conditions often prevalent to the region. The Indian longbow was reputedly a powerful weapon capable of great range and penetration and provided an effective counter to invading horse archers. Iron shafts were used against armored elephants and fire arrows were also part of the bowmen's arsenal. India historically has had a prominent reputation for its steel weapons. One of these was the steel bow. Due to its high tensility, the steel bow was capable of long range and penetration of exceptionally thick armor. These were less common weapons than the bamboo design and found in the hands of noblemen rather than in the ranks. Archers were frequently protected by infantry equipped with shields, javelins, and longswords.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BALANGAY</Tag>
+		<English>Balangay</English>
+		<French>Balangay</French>
+		<German>Balangay</German>
+		<Italian>Balangay</Italian>
+		<Spanish>Balangay</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BALANGAY_PEDIA</Tag>
+		<English>[TAB]The Balangay is the first wooden watercraft ever excavated in Southeast Asia. Also known as the Butuan boat, this artifact is evidence of early Filipino craftsmanship and their seamanship skills during pre-colonial times. The Balangay Festival is also a celebration in Butuan, Agusan del Norte to commemorate the coming of the early migrants from Borneo and Celebes, on board the Balangay boats. When the first Spaniards arrived in the 16th century, they found the Filipinos having a civilization of their own and living in well-organized independent villages called barangays. The name barangay originated from balangay, the Austronesian word for "sailboat".[PARAGRAPH:2]The Balangay is thought to have travelled much of Maritime South East Asia.[PARAGRAPH:1]With the balangay's size, it was used for cargo and raiding purposes, giving proof that Butuan played a central role in trade throughout the region of the Philippine islands and with neighboring areas.[PARAGRAPH:1]It is also held that the balangay also helped spread the settlement of the Austronesian people around the Philippines and neighboring regions in the Malay Archipelago. The Tao people of Taiwan have traditionally been adept at crafting balangays, which are held as a symbol of their people.[PARAGRAPH:2]Since the 10th century, Butuan appeared to have been in good relations with the Srivijayan Empire. Being located on the coast of Mindanao, balanghai's were often docking at Butuan bay keeping good business between the local people of Butuan and traders from the neighboring empire and neighboring islands. Various goods, extending to the statue of Avalokitesvara and the Golden Tara of Butuan, were traded across the Malay Archipelago.[PARAGRAPH:2]The balangay boats were discovered in the late 1970s in Butuan City, Agusan del Norte by archaeologists from the National Museum of the Philippines. There were actually nine balangays recovered in the province. The first balangay, now preserved and displayed in a site museum in Libertad, Butuan City, was radiocarbon tested and was dated to year 320. The second boat was dated to 1250, and is now located at the Maritime Hall of the National Museum in Manila. The third balangay was transferred to the Butuan Regional Museum and is still undergoing preservation. The six other boats, which are yet to be excavated, remain in their original waterlogged condition which is proven to be the best way to preserve the said artifacts.[PARAGRAPH:2]The first wooden watercraft excavated in Southeast Asia, the Balangay is only found in the Philippines where a flotilla of such prehistoric wooden boats exists. Nine specimens were discovered in 1976 in Butuan City, Agusan Del Norte, Mindanao and 3 of which have been excavated. Examination and extensive investigation reveals that the extant boats found in the excavation site date back to 320, 990 and 1250 AD.[PARAGRAPH:2]Building a Balangay requires teamwork and unity among workers which is why it is now used by the Philippine Government as a term to refer to the smallest political unit, now popularly pronounced as barangay.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DRUNK_ELEPHANT</Tag>
+		<English>Intoxicated Elephant</English>
+		<French>Intoxicated Elephant</French>
+		<German>Beschwipster Elefant</German>
+		<Italian>Intoxicated Elephant</Italian>
+		<Spanish>Intoxicated Elephant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DRUNK_ELEPHANT_PEDIA</Tag>
+		<English>Usually, elephants are very pacifistic animals. Only male elephants can fight in battle; female ones would flee the battlefield. To make those elephants more aggresive, f.e. Hannibal gave them lots and lots of alcohol to overcome their inhibition to attack; still, sometimes they have been prodded with red-hot irons too, in combination with the alcohol making them both more aggresive and also incalculable.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HANIWA</Tag>
+		<English>Haniwa</English>
+		<French>Haniwa</French>
+		<German>Haniwa</German>
+		<Italian>Haniwa</Italian>
+		<Spanish>Haniwa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HANIWA_PEDIA</Tag>
+		<English>[TAB]The Haniwa are terracotta clay figures which were made for ritual use and buried with the dead as funerary objects during the Kofun period (3rd to 6th century AD) of the history of Japan.[PARAGRAPH:1]During the Kofun period, a highly aristocratic society with militaristic rulers developed. The cavalry wore iron armor, carried swords and other weapons, and used advanced military methods like those of Northeast Asia. Many of them are represented in haniwa figurines for funerary purposes.[PARAGRAPH:1]The most important of the haniwa were found in southern Honshu - especially the Kinai region around Nara - and northern Kyushu. Haniwa grave offerings were made in numerous forms, such as horses, chickens, birds, fans, fish, houses, weapons, shields, sunshades, pillows, and male and female humans. Besides decorative and spiritual reasons of protecting the deceased in his afterlife, these figures also served as a sort of retaining wall for the burial mound.[PARAGRAPH:1]Because these haniwa display the contemporary clothing, hairstyle, farming tools, and architecture, these sculptures are important as a historical archive of the Kofun Period.</English>
+		<French>Haniwa</French>
+		<German>Haniwa</German>
+		<Italian>Haniwa</Italian>
+		<Spanish>Haniwa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DAO_INFANTRY</Tag>
+		<English>Dao Infantry</English>
+		<French>Dao Infantry</French>
+		<German>Dao Infantry</German>
+		<Italian>Dao Infantry</Italian>
+		<Spanish>Dao Infantry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DAO_INFANTRY_PEDIA</Tag>
+		<English>[TAB]Dao is a category of single-edge Chinese swords primarily used for slashing and chopping (sabers), often called a broadsword in English translation because some varieties have wide blades. In China, the dao is known as one of the four major weapons, along with the gun (staff), qiang (spear), and the jian (sword), and referred to as "The General of All Weapons". Dao is actually a generic word used to denote any member of a family of single-edged, broad-bladed cutting or slicing tools, but in common, everyday usage means knife. The weapon, also known as dan dao (single knife) when just one is used, is thereby thought to be an adaptation of the kitchen knives common to Chinese cuisine. Dao also appears in the names of such polearms as the pudao and guan dao, due to the knife-like shape of their blades.</English>
+		<French>Dao Infantry</French>
+		<German>Dao Infantry</German>
+		<Italian>Dao Infantry</Italian>
+		<Spanish>Dao Infantry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT</Tag>
+		<English>Heavy Cataphract</English>
+		<French>
+			<Text>Cataphractaire:Cataphractaires</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Kataphrakt</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Catafratta:Catafratte</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Catafracto:Catafractos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SASSANID_CATAPHRACT</Tag>
+		<English>Cataphract</English>
+		<French>
+			<Text>Cataphractaire:Cataphractaires</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Kataphrakt</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Catafratta:Catafratte</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Catafracto:Catafractos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SASSANID_CATAPHRACT_PEDIA</Tag>
+		<English>[TAB]With the growing aggressiveness of the role of cavalry, protection of the rider and horse became important. This was especially true of peoples who treated cavalry as the basic arm of the military. One condition had to be fulfilled for equipping a heavy cavalryman: a horse strong enough to carry the weight of its own and the rider's armour. In the third and second centuries BC, the Sarmatians, Armenians and Parthians had such horses and were the first to have fully armoured riders. The Greeks called these warriors the cataphractii (covered over). Their equipment was very expensive, and only the aristocracy could afford it: the cataphracts were therefore the elite cavalry of the Parthians and, from the third century AD, the Sassanids. Their principal weapons were a long straight sword and a lance nearly 4 m/13 ft long. The lance was similar to the Greek sarissa or the Byzantine kontos, and in combat riders held it with both hands. The cataphracts used a dense formation in battle, horse to horse, and attacked at the speed their heavy equipment allowed - a slow trot.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VILLAVAR</Tag>
+		<English>Villavar</English>
+		<French>Villavar</French>
+		<German>Villavar</German>
+		<Italian>Villavar</Italian>
+		<Spanish>Villavar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VILLAVAR_PEDIA</Tag>
+		<English>[TAB]Villavar (lit. "archers") are an ancient people of India. They are mentioned as being archers.</English>
+		<French>Villavar</French>
+		<German>Villavar</German>
+		<Italian>Villavar</Italian>
+		<Spanish>Villavar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KSHATRIYA</Tag>
+		<English>Kshatriya</English>
+		<French>Kshatriya</French>
+		<German>Kshatriya</German>
+		<Italian>Kshatriya</Italian>
+		<Spanish>Kshatriya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DAKSHINAPATHA_CAVALRY_PEDIA</Tag>
+		<English>Dakshnapatha Cavalry</English>
+		<French>Dakshnapatha Cavalry</French>
+		<German>Dakshnapatha Cavalry</German>
+		<Italian>Dakshnapatha Cavalry</Italian>
+		<Spanish>Dakshnapatha Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SARAWIT</Tag>
+		<English>Sarawit</English>
+		<French>Sarawit</French>
+		<German>Sarawit</German>
+		<Italian>Sarawit</Italian>
+		<Spanish>Sarawit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_HORSEMAN</Tag>
+		<English>Heavy Horseman</English>
+		<French>Heavy Horseman</French>
+		<German>Heavy Horseman</German>
+		<Italian>Heavy Horseman</Italian>
+		<Spanish>Heavy Horseman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SARAWIT_PEDIA</Tag>
+		<English>[TAB]The Axumite army was organised into regiments (sarawit) of unknown size, each with its own regional, tribal or possible functional name. It is probable that most of these were levy troops, although there was probablty a small professional guard or core as in later medieval Ethiopia.[PARAGRAPH:1]Most soldiers fought on foot with javelins and spears, which could be short or long bladed. Ethiopians were famed for their use of these and also fought as mercenaries from North Africa to Persia. Broadswords were also used and depicted as worn slung on the back. Other weapons included bows and knives. Round shields were probably in common use but other personal armour was likely to be rare. Horses were valued possessions and probably not as common in warfare in later periods. The extent to which elephants were used in war is not known. A failed Axumite military attack on Mecca in 570 is known in Arabic sources as the Year of the Elephant after their use in the battle by the Axumites. Kaleb's ceremonial chariot was drawn by four elephants. Camels were used in desertwarfare by Beja and Noba allies but probably more commonly used as transport.</English>
+		<French>Sarawit</French>
+		<German>Sarawit</German>
+		<Italian>Sarawit</Italian>
+		<Spanish>Sarawit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SURIN_SOLDIER</Tag>
+		<English>Surin Soldier</English>
+		<French>Surin Soldier</French>
+		<German>Surin Soldier</German>
+		<Italian>Surin Soldier</Italian>
+		<Spanish>Surin Soldier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SURIN_SOLDIER_PEDIA</Tag>
+		<English>Surin Soldier</English>
+		<French>Surin Soldier</French>
+		<German>Surin Soldier</German>
+		<Italian>Surin Soldier</Italian>
+		<Spanish>Surin Soldier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI</Tag>
+		<English>Ghazi</English>
+		<French>Ghazi</French>
+		<German>Ghazi</German>
+		<Italian>Ghazi</Italian>
+		<Spanish>Ghazi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI_PEDIA</Tag>
+		<English>[TAB]Ghazi warriors were fierce Arabic light/medium cavalry armed with sword and lance, who raided deep into enemy territory to make war on unbelievers. Depending largely on plunder for their livelihood they were organized in bands similiar to mercenary companies which attracted religious zealots and adventurers of every kind. Within the context of Islamic jihad warfare, they struck fast and hard inside enemy borders to destroy war materials and morale, then withdrawing with all the loot they could carry. As flexible and highly mobile border defenders and raiders they often preceeded the deployment of much larger armies during the early Arab invasions of Persia, Egypt and North Africa.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURKISH_WARRIOR</Tag>
+		<English>Turkish Warrior</English>
+		<French>in French</French>
+		<German>Türkischer Krieger</German>
+		<Italian>in Italian</Italian>
+		<Spanish>in Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURKISH_WARRIOR_PEDIA</Tag>
+		<English>[TAB]The Gokturks were the first nomadic Empire to call themselves the Turks. Like many of their successors, such as the Seljuks, Uighurs, or Ottomans, the Gokturks - as nomads - relied heavily on cavalry in their military. The Gokturk horsemen were swift, efficient, and powerful. They conquered wide swaths of Eurasia, including Mongolia, Transoxania, Uighurstan, Kazakhstan, and the Crimea, and were a constant threat to civilized Empires including the Arabic and Chinese Empires.</English>
+		<French></French>
+		<German>[TAB]Die G&#246;kt&#252;rken waren das erste nomadisch lebende Volk, das sich selbst "T&#252;rken" nannte. Genau wie ihre zahlreichen Nachfolger, seien es die Seldschuken, die Uiguren oder die Osmanen, verließen sich die G&#246;kt&#252;rken - als Nomaden - sehr stark auf Kavallerie als Streitmacht. Die Reiter der G&#246;kt&#252;rken waren extrem wendig und kr&#228;ftig und somit sehr effizient. Sie haben es geschafft, weite Teile Eurasiens, inklusive der Mongolei, Transoxaniens, Uiguristans, Kasachstans und der Krim zu erobern, und waren eine st&#228;ndige Bedrohung f&#252;r China und das arabische Kalifat.</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_QIN_INFANTRY</Tag>
+		<English>Heija Infantry</English>
+		<French>Heija Infantry</French>
+		<German>Heija Infanterie</German>
+		<Italian>Heija Infantry</Italian>
+		<Spanish>Heija Infantry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_QIN_INFANTRY_PEDIA</Tag>
+		<English>[TAB]Qin Shihuang also improved the military, despite the fact that it had already undergone extensive reforms. The military used the most advanced weaponry of the time. The invention of the sword during the Warring States Period was a great advance. It was first used mostly in bronze form, but by the third century BC, the Qin were using stronger iron swords. The demand for metal this produced resulted in improved bellows. The crossbow had been introduced in the fifth century BC and was more powerful and accurate than the composite bows used earlier. It could also be rendered ineffective by removing two pins, which prevented enemies from capturing a working crossbow.[PARAGRAPH:2]The Qin used improved methods of transportation and tactics. The state of Zhao had first replaced chariots with cavalry in 307 BC, but the change was swiftly adopted by the other states because cavalry had greater mobility over the terrain of China.[PARAGRAPH:1]The First Emperor developed plans to fortify his northern border, to protect against the nomadic Mongols. The result was the construction of the Great Wall of China,which was built by joining and strengthening the walls made by the feudal lords, which would be expanded and rebuilt multiple times by later dynasties, also in response to threats from the north. Another monument built during Qin Shihuang's rule was the Terracotta army, intended to protect the emperor after his death. As opposed to the Great Wall, which is visible from space, the Terracotta army was inconspicuous due to its underground location, and was not discovered until 1974.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARRIOR_MONK</Tag>
+		<English>Dob Dob</English>
+		<French>Dob Dob</French>
+		<German>Dob Dob</German>
+		<Spanish>Dob Dob</Spanish>
+		<Italian>Dob Dob</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLINGER</Tag>
+		<English>Slinger</English>
+		<French>Slinger</French>
+		<German>Slinger</German>
+		<Spanish>Slinger</Spanish>
+		<Italian>Slinger</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARRIOR_MONK_PEDIA</Tag>
+		<English>[TAB]The dob dobs (refered to as both "warrior monks" and "police monks") were primarily tasked with mantaining law and order in the various monastries that dotted the country.[PARAGRAPH:2]Dob dobs were more often than not, men from the north and north eastern region of Tibet (Kham). Kham is also called Cham-do.[PARAGRAPH:2]The men of Kham had distinct physical characterstics - essentially, tall and sturdy well-built men. Mostly on account of their diet owing to the geography of the area they came from. They were also noted for their ferocity.[PARAGRAPH:2]Tibet was full of monasteries - the larger ones often housed thousands of monks. Larger monasteries were refered to as colleges, and it was not uncommon that a college would specialize in a specific "discipline". As such there were colleges for medicine, metaphysics etc etc etc... and even fighting.[PARAGRAPH:2]Every college/monastery would have a few dob dobs on the rolls to mantain law and order amongst it's inmates. However, not every college taught the fighting disciplines. The Sera monastery was one such monastery where the fighting arts were taught. Sera was famous for it's fighting monks.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARSIYAH</Tag>
+		<English>Arsiyah</English>
+		<French>Arsiyah</French>
+		<German>Arsiyah</German>
+		<Italian>Arsiyah</Italian>
+		<Spanish>Arsiyah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARSIYAH_PEDIA</Tag>
+		<English>[TAB]According to Muslim sources, the Arsiyah formed the core of the Khazar army and were extremely influential in Khazar politics, but these assertions may be designed to exaggerate the importance of the Muslim community in Khazaria. The Arsiyah did often act independently of their government. Part of the treaty binding them to Khazar service guaranteed that they would not be used to fight other Muslims. In 913, the Arsiyah ambushed a Viking fleet that had been granted passage to the Caspian Sea by the Khazar government, wiping out thousands of Rus warriors.</English>
+		<French>[TAB]Selon des sources musulmanes, l'Arsiyah a formé le noyau de l'armée de Khazar et était extrêmement influent dans la politique de Khazar, mais ces affirmations peuvent être conçues exagèrent l'importance de la communauté musulmane dans Khazaria. L'Arsiyah souvent a agi indépendamment de leur gouvernement. Une partie du traité les liant au service de Khazar a garanti qu'ils ne seraient pas employés pour combattre d'autres musulmans. Dans 913, l'Arsiyah a attiré dans un guet-apens une flotte de Viking qui avait été accordée le passage vers la mer caspienne par le gouvernement de Khazar, éliminant des milliers de guerriers de Rus</French>
+		<German>[TAB]Entsprechend moslemischen Quellen bildete das Arsiyah den Kern der Khazar Armee und war in der Khazar Politik extrem einflußreich, aber diese Behauptungen können entworfen werden übertreiben den Wert der moslemischen Gemeinschaft in Khazaria. Das Arsiyah fungierte häufig unabhängig von ihrer Regierung. Der Teil des Vertrags, der sie an Khazar Service bindet, garantierte, daß sie nicht benutzt würden, um andere Moslems zu kämpfen. In 913 ambushed das Arsiyah eine Viking Flotte, die Durchgang zum kaspischen Meer durch die Khazar Regierung bewilligt worden war und heraus wischte Tausenden Rus Krieger ab.</German>
+		<Italian>[TAB]Secondo le fonti musulmane, il Arsiyah ha formato il nucleo dell'esercito di Khazar ed era estremamente influente nella politica di Khazar, ma queste asserzioni possono essere progettate esagerano l'importanza della Comunità musulmana in Khazaria. Il Arsiyah si è comportato spesso indipendentemente dal loro governo. La parte del trattato che li lega al servizio di Khazar ha garantito che non sarebbero usati per combattere altri musulmani. In 913, il Arsiyah ambushed una flotta di Viking che era stata assegnata il passaggio al mare caspico dal governo di Khazar, eliminante i migliaia dei guerrieri di Rus.</Italian>
+		<Spanish>[TAB]Según fuentes musulmanas, el Arsiyah formó la base del ejército de Khazar y era extremadamente influyente en la política de Khazar, pero estas aserciones se pueden diseñar exageran la importancia de la comunidad musulmana en Khazaria. El Arsiyah actuaba a menudo independientemente de su gobierno. La parte del tratado que los ataba al servicio de Khazar garantizó que no serían utilizados para luchar a otros musulmanes. En 913, el Arsiyah ambushed una flota de Viking que había sido concedida el paso al mar caspio por el gobierno de Khazar, limpiando hacia fuera a millares de guerreros de Rus.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHAZARS_WIN</Tag>
+		<English>An enemy unit has been recruited!</English>
+		<French>Une unité ennemie a été asservie !</French>
+		<German>Eine feindliche Einheit wurde versklavt!</German>
+		<Italian>Un'unit&#224; nemica &#232; stata schiavizzata!</Italian>
+		<Spanish>¡Una unidad enemiga ha sido esclavizada!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ENSLAVE_WIN</Tag>
+		<English>An enemy unit has been enslaved!</English>
+		<French>Une unité ennemie a été asservie !</French>
+		<German>Eine feindliche Einheit wurde versklavt!</German>
+		<Italian>Un'unit&#224; nemica &#232; stata schiavizzata!</Italian>
+		<Spanish>¡Una unidad enemiga ha sido esclavizada!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ENSLAVE_LOSE</Tag>
+		<English>Your unit has been enslaved!</English>
+		<French>Votre unité a été asservie !</French>
+		<German>Eure Einheit wurde versklavt!</German>
+		<Italian>La tua unit&#224; &#232; stata schiavizzata!</Italian>
+		<Spanish>¡Tu unidad ha sido esclavizada!</Spanish>
+	</TEXT>
+</Civ4GameText>

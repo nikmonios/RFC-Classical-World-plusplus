@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Regions for Regional Maps by edead -->
+<!-- All keys must be in the format TXT_KEY_REGION_x -->
+<!-- Where x is the Region ID and 0 means undefined / no region -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_REGION_0</Tag>
+		<English>No Region</English>
+		<French>No Region</French>
+		<German>No Region</German>
+		<Italian>No Region</Italian>
+		<Spanish>No Region</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_1</Tag>
+		<English>Caledonia</English>
+		<French>Caledonia</French>
+		<German>Caledonia</German>
+		<Italian>Caledonia</Italian>
+		<Spanish>Caledonia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_2</Tag>
+		<English>Hibernia</English>
+		<French>Hibernia</French>
+		<German>Hibernia</German>
+		<Italian>Hibernia</Italian>
+		<Spanish>Hibernia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_3</Tag>
+		<English>Britannia</English>
+		<French>Britannia</French>
+		<German>Britannia</German>
+		<Italian>Britannia</Italian>
+		<Spanish>Britannia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_4</Tag>
+		<English>Scania</English>
+		<French>Scania</French>
+		<German>Scania</German>
+		<Italian>Scania</Italian>
+		<Spanish>Scania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_5</Tag>
+		<English>Aquitania</English>
+		<French>Aquitania</French>
+		<German>Aquitania</German>
+		<Italian>Aquitania</Italian>
+		<Spanish>Aquitania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_6</Tag>
+		<English>Gaul</English>
+		<French>Gaul</French>
+		<German>Gaul</German>
+		<Italian>Gaul</Italian>
+		<Spanish>Gaul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_7</Tag>
+		<English>Narbonensis</English>
+		<French>Narbonensis</French>
+		<German>Narbonensis</German>
+		<Italian>Narbonensis</Italian>
+		<Spanish>Narbonensis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_8</Tag>
+		<English>Iberia</English>
+		<French>Iberia</French>
+		<German>Iberia</German>
+		<Italian>Iberia</Italian>
+		<Spanish>Iberia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_9</Tag>
+		<English>Germania</English>
+		<French>Germania</French>
+		<German>Germania</German>
+		<Italian>Germania</Italian>
+		<Spanish>Germania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_10</Tag>
+		<English>Northern Italy</English>
+		<French>Northern Italy</French>
+		<German>Northern Italy</German>
+		<Italian>Northern Italy</Italian>
+		<Spanish>Northern Italy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_11</Tag>
+		<English>Sicily</English>
+		<French>Sicily</French>
+		<German>Sicily</German>
+		<Italian>Sicily</Italian>
+		<Spanish>Sicily</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_12</Tag>
+		<English>Greece</English>
+		<French>Greece</French>
+		<German>Greece</German>
+		<Italian>Greece</Italian>
+		<Spanish>Greece</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_13</Tag>
+		<English>Illyricum</English>
+		<French>Illyricum</French>
+		<German>Illyricum</German>
+		<Italian>Illyricum</Italian>
+		<Spanish>Illyricum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_14</Tag>
+		<English>Thrace</English>
+		<French>Thrace</French>
+		<German>Thrace</German>
+		<Italian>Thrace</Italian>
+		<Spanish>Thrace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_15</Tag>
+		<English>Dacia</English>
+		<French>Dacia</French>
+		<German>Dacia</German>
+		<Italian>Dacia</Italian>
+		<Spanish>Dacia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_16</Tag>
+		<English>Slavia</English>
+		<French>Slavia</French>
+		<German>Slavia</German>
+		<Italian>Slavia</Italian>
+		<Spanish>Slavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_17</Tag>
+		<English>Asia</English>
+		<French>Asia</French>
+		<German>Asia</German>
+		<Italian>Asia</Italian>
+		<Spanish>Asia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_18</Tag>
+		<English>Armenia</English>
+		<French>Armenia</French>
+		<German>Armenia</German>
+		<Italian>Armenia</Italian>
+		<Spanish>Armenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_19</Tag>
+		<English>Syria</English>
+		<French>Syria</French>
+		<German>Syria</German>
+		<Italian>Syria</Italian>
+		<Spanish>Syria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_20</Tag>
+		<English>Mesopotamia</English>
+		<French>Mesopotamia</French>
+		<German>Mesopotamia</German>
+		<Italian>Mesopotamia</Italian>
+		<Spanish>Mesopotamia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_21</Tag>
+		<English>Arabia</English>
+		<French>Arabia</French>
+		<German>Arabia</German>
+		<Italian>Arabia</Italian>
+		<Spanish>Arabia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_22</Tag>
+		<English>Arabia Felix</English>
+		<French>Arabia Felix</French>
+		<German>Arabia Felix</German>
+		<Italian>Arabia Felix</Italian>
+		<Spanish>Arabia Felix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_23</Tag>
+		<English>Judea</English>
+		<French>Judea</French>
+		<German>Judea</German>
+		<Italian>Judea</Italian>
+		<Spanish>Judea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_24</Tag>
+		<English>Egypt</English>
+		<French>Egypt</French>
+		<German>Egypt</German>
+		<Italian>Egypt</Italian>
+		<Spanish>Egypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_25</Tag>
+		<English>Libya</English>
+		<French>Libya</French>
+		<German>Libya</German>
+		<Italian>Libya</Italian>
+		<Spanish>Libya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_26</Tag>
+		<English>Africa</English>
+		<French>Africa</French>
+		<German>Africa</German>
+		<Italian>Africa</Italian>
+		<Spanish>Africa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_27</Tag>
+		<English>Mauretania</English>
+		<French>Mauretania</French>
+		<German>Mauretania</German>
+		<Italian>Mauretania</Italian>
+		<Spanish>Mauretania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_28</Tag>
+		<English>Nubia</English>
+		<French>Nubia</French>
+		<German>Nubia</German>
+		<Italian>Nubia</Italian>
+		<Spanish>Nubia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_29</Tag>
+		<English>Axum</English>
+		<French>Axum</French>
+		<German>Axum</German>
+		<Italian>Axum</Italian>
+		<Spanish>Axum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_30</Tag>
+		<English>Punt</English>
+		<French>Punt</French>
+		<German>Punt</German>
+		<Italian>Punt</Italian>
+		<Spanish>Punt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_31</Tag>
+		<English>Sahara</English>
+		<French>Sahara</French>
+		<German>Sahara</German>
+		<Italian>Sahara</Italian>
+		<Spanish>Sahara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_32</Tag>
+		<English>Aethiopia</English>
+		<French>Aethiopia</French>
+		<German>Aethiopia</German>
+		<Italian>Aethiopia</Italian>
+		<Spanish>Aethiopia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_33</Tag>
+		<English>Guinea</English>
+		<French>Guinea</French>
+		<German>Guinea</German>
+		<Italian>Guinea</Italian>
+		<Spanish>Guinea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_34</Tag>
+		<English>Media</English>
+		<French>Media</French>
+		<German>Media</German>
+		<Italian>Media</Italian>
+		<Spanish>Media</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_35</Tag>
+		<English>Persia</English>
+		<French>Persia</French>
+		<German>Persia</German>
+		<Italian>Persia</Italian>
+		<Spanish>Persia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_36</Tag>
+		<English>Parthia</English>
+		<French>Parthia</French>
+		<German>Parthia</German>
+		<Italian>Parthia</Italian>
+		<Spanish>Parthia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_37</Tag>
+		<English>Arachosia</English>
+		<French>Arachosia</French>
+		<German>Arachosia</German>
+		<Italian>Arachosia</Italian>
+		<Spanish>Arachosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_38</Tag>
+		<English>Sogdiana</English>
+		<French>Sogdiana</French>
+		<German>Sogdiana</German>
+		<Italian>Sogdiana</Italian>
+		<Spanish>Sogdiana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_39</Tag>
+		<English>Sindh</English>
+		<French>Sindh</French>
+		<German>Sindh</German>
+		<Italian>Sindh</Italian>
+		<Spanish>Sindh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_40</Tag>
+		<English>Gandhara</English>
+		<French>Gandhara</French>
+		<German>Gandhara</German>
+		<Italian>Gandhara</Italian>
+		<Spanish>Gandhara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_41</Tag>
+		<English>Punjab</English>
+		<French>Punjab</French>
+		<German>Punjab</German>
+		<Italian>Punjab</Italian>
+		<Spanish>Punjab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_42</Tag>
+		<English>Thar</English>
+		<French>Thar</French>
+		<German>Thar</German>
+		<Italian>Thar</Italian>
+		<Spanish>Thar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_43</Tag>
+		<English>Magadha</English>
+		<French>Magadha</French>
+		<German>Magadha</German>
+		<Italian>Magadha</Italian>
+		<Spanish>Magadha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_44</Tag>
+		<English>Anga</English>
+		<French>Anga</French>
+		<German>Anga</German>
+		<Italian>Anga</Italian>
+		<Spanish>Anga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_45</Tag>
+		<English>Kalinga</English>
+		<French>Kalinga</French>
+		<German>Kalinga</German>
+		<Italian>Kalinga</Italian>
+		<Spanish>Kalinga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_46</Tag>
+		<English>Kerala</English>
+		<French>Kerala</French>
+		<German>Kerala</German>
+		<Italian>Kerala</Italian>
+		<Spanish>Kerala</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_47</Tag>
+		<English>Tamil Nadu</English>
+		<French>Palestine</French>
+		<German>Palestine</German>
+		<Italian>Palestine</Italian>
+		<Spanish>Palestine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_48</Tag>
+		<English>Avanti</English>
+		<French>Transjordan</French>
+		<German>Transjordan</German>
+		<Italian>Transjordan</Italian>
+		<Spanish>Transjordan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_49</Tag>
+		<English>Deccan</English>
+		<French>Syria</French>
+		<German>Syria</German>
+		<Italian>Syria</Italian>
+		<Spanish>Syria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_50</Tag>
+		<English>Lanka</English>
+		<French>Northern Syria</French>
+		<German>Northern Syria</German>
+		<Italian>Northern Syria</Italian>
+		<Spanish>Northern Syria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_51</Tag>
+		<English>Tibet</English>
+		<French>Trebizond</French>
+		<German>Trebizond</German>
+		<Italian>Trebizond</Italian>
+		<Spanish>Trebizond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_52</Tag>
+		<English>Tarim</English>
+		<French>Fars</French>
+		<German>Fars</German>
+		<Italian>Fars</Italian>
+		<Spanish>Fars</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_53</Tag>
+		<English>Birma</English>
+		<French>Kerman</French>
+		<German>Kerman</German>
+		<Italian>Kerman</Italian>
+		<Spanish>Kerman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_54</Tag>
+		<English>Funan</English>
+		<French>Hormuz</French>
+		<German>Hormuz</German>
+		<Italian>Hormuz</Italian>
+		<Spanish>Hormuz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_55</Tag>
+		<English>Annam</English>
+		<French>Luristan</French>
+		<German>Luristan</German>
+		<Italian>Luristan</Italian>
+		<Spanish>Luristan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_56</Tag>
+		<English>Malaya</English>
+		<French>Kurdistan</French>
+		<German>Kurdistan</German>
+		<Italian>Kurdistan</Italian>
+		<Spanish>Kurdistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_57</Tag>
+		<English>Sumatra</English>
+		<French>Dasht-e Kavir</French>
+		<German>Dasht-e Kavir</German>
+		<Italian>Dasht-e Kavir</Italian>
+		<Spanish>Dasht-e Kavir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_58</Tag>
+		<English>Java</English>
+		<French>Dasht-e Lut</French>
+		<German>Dasht-e Lut</German>
+		<Italian>Dasht-e Lut</Italian>
+		<Spanish>Dasht-e Lut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_59</Tag>
+		<English>Kalimantan</English>
+		<French>Yazd</French>
+		<German>Yazd</German>
+		<Italian>Yazd</Italian>
+		<Spanish>Yazd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_60</Tag>
+		<English>Seludong</English>
+		<French>Hindu Kush</French>
+		<German>Hindu Kush</German>
+		<Italian>Hindu Kush</Italian>
+		<Spanish>Hindu Kush</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_61</Tag>
+		<English>Chu</English>
+		<French>Western Khorasan</French>
+		<German>Western Khorasan</German>
+		<Italian>Western Khorasan</Italian>
+		<Spanish>Western Khorasan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_62</Tag>
+		<English>Qi</English>
+		<French>Khwarezm</French>
+		<German>Khwarezm</German>
+		<Italian>Khwarezm</Italian>
+		<Spanish>Khwarezm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_63</Tag>
+		<English>Yan</English>
+		<French>Sogdiana</French>
+		<German>Sogdiana</German>
+		<Italian>Sogdiana</Italian>
+		<Spanish>Sogdiana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_64</Tag>
+		<English>Zhao</English>
+		<French>Kyzyl Kum</French>
+		<German>Kyzyl Kum</German>
+		<Italian>Kyzyl Kum</Italian>
+		<Spanish>Kyzyl Kum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_65</Tag>
+		<English>Wei</English>
+		<French>Tocharistan</French>
+		<German>Tocharistan</German>
+		<Italian>Tocharistan</Italian>
+		<Spanish>Tocharistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_66</Tag>
+		<English>Qin</English>
+		<French>Sistan</French>
+		<German>Sistan</German>
+		<Italian>Sistan</Italian>
+		<Spanish>Sistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_67</Tag>
+		<English>Han</English>
+		<French>Balochistan</French>
+		<German>Balochistan</German>
+		<Italian>Balochistan</Italian>
+		<Spanish>Balochistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_68</Tag>
+		<English>Nan Yue</English>
+		<French>Sindh</French>
+		<German>Sindh</German>
+		<Italian>Sindh</Italian>
+		<Spanish>Sindh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_69</Tag>
+		<English>Nepal</English>
+		<French>Jazira</French>
+		<German>Jazira</German>
+		<Italian>Jazira</Italian>
+		<Spanish>Jazira</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_70</Tag>
+		<English>Pamir</English>
+		<French>Makran</French>
+		<German>Makran</German>
+		<Italian>Makran</Italian>
+		<Spanish>Makran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_71</Tag>
+		<English>Ferghana</English>
+		<French>Gujarat</French>
+		<German>Gujarat</German>
+		<Italian>Gujarat</Italian>
+		<Spanish>Gujarat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_72</Tag>
+		<English>Jin</English>
+		<French>Farghana</French>
+		<German>Farghana</German>
+		<Italian>Farghana</Italian>
+		<Spanish>Farghana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_73</Tag>
+		<English>Goguryeo</English>
+		<French>Punjab</French>
+		<German>Punjab</German>
+		<Italian>Punjab</Italian>
+		<Spanish>Punjab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_74</Tag>
+		<English>Yamato</English>
+		<French>Ghazna</French>
+		<German>Ghazna</German>
+		<Italian>Ghazna</Italian>
+		<Spanish>Ghazna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_75</Tag>
+		<English>Emishi</English>
+		<French>Gandhar</French>
+		<German>Gandhar</German>
+		<Italian>Gandhar</Italian>
+		<Spanish>Gandhar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_76</Tag>
+		<English>Hokkaido</English>
+		<French>Qandahar</French>
+		<German>Qandahar</German>
+		<Italian>Qandahar</Italian>
+		<Spanish>Qandahar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_77</Tag>
+		<English>Scythian Steppe</English>
+		<French>Edessa</French>
+		<German>Edessa</German>
+		<Italian>Edessa</Italian>
+		<Spanish>Edessa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_78</Tag>
+		<English>Sarmatian Steppe</English>
+		<French>Maharashtra</French>
+		<German>Maharashtra</German>
+		<Italian>Maharashtra</Italian>
+		<Spanish>Maharashtra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_79</Tag>
+		<English>Mongolian Steppe</English>
+		<French>Karnataka</French>
+		<German>Karnataka</German>
+		<Italian>Karnataka</Italian>
+		<Spanish>Karnataka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_80</Tag>
+		<English>Siberia</English>
+		<French>Malwa</French>
+		<German>Malwa</German>
+		<Italian>Malwa</Italian>
+		<Spanish>Malwa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_81</Tag>
+		<English>Caucasus</English>
+		<French>Rajputana</French>
+		<German>Rajputana</German>
+		<Italian>Rajputana</Italian>
+		<Spanish>Rajputana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_82</Tag>
+		<English>Islands</English>
+		<French>Uttar Bharat</French>
+		<German>Uttar Bharat</German>
+		<Italian>Uttar Bharat</Italian>
+		<Spanish>Uttar Bharat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_83</Tag>
+		<English>Australia</English>
+		<French>Gird</French>
+		<German>Gird</German>
+		<Italian>Gird</Italian>
+		<Spanish>Gird</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_84</Tag>
+		<English>Taiwan</English>
+		<French>Duggar</French>
+		<German>Duggar</German>
+		<Italian>Duggar</Italian>
+		<Spanish>Duggar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_85</Tag>
+		<English>Atlantic Ocean</English>
+		<French>Himalaya</French>
+		<German>Himalaya</German>
+		<Italian>Himalaya</Italian>
+		<Spanish>Himalaya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_86</Tag>
+		<English>North Sea</English>
+		<French>Kara Kum</French>
+		<German>Kara Kum</German>
+		<Italian>Kara Kum</Italian>
+		<Spanish>Kara Kum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_87</Tag>
+		<English>Baltic Sea</English>
+		<French>Jibal</French>
+		<German>Jibal</German>
+		<Italian>Jibal</Italian>
+		<Spanish>Jibal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_88</Tag>
+		<English>Mediterranean Sea</English>
+		<French>Tabaristan</French>
+		<German>Tabaristan</German>
+		<Italian>Tabaristan</Italian>
+		<Spanish>Tabaristan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_89</Tag>
+		<English>Black Sea</English>
+		<French>Pamir</French>
+		<German>Pamir</German>
+		<Italian>Pamir</Italian>
+		<Spanish>Pamir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_90</Tag>
+		<English>Caspian Sea</English>
+		<French>Tien Shan</French>
+		<German>Tien Shan</German>
+		<Italian>Tien Shan</Italian>
+		<Spanish>Tien Shan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_91</Tag>
+		<English>Aral Sea</English>
+		<French>Taklamakan</French>
+		<German>Taklamakan</German>
+		<Italian>Taklamakan</Italian>
+		<Spanish>Taklamakan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_92</Tag>
+		<English>Red Sea</English>
+		<French>Asuristan</French>
+		<German>Asuristan</German>
+		<Italian>Asuristan</Italian>
+		<Spanish>Asuristan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_93</Tag>
+		<English>Persian Gulf</English>
+		<French>Goa</French>
+		<German>Goa</German>
+		<Italian>Goa</Italian>
+		<Spanish>Goa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_94</Tag>
+		<English>Indian Ocean</English>
+		<French>Eastern Khorasan</French>
+		<German>Eastern Khorasan</German>
+		<Italian>Eastern Khorasan</Italian>
+		<Spanish>Eastern Khorasan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_95</Tag>
+		<English>South China Sea</English>
+		<French>Lake Van</French>
+		<German>Lake Van</German>
+		<Italian>Lake Van</Italian>
+		<Spanish>Lake Van</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_96</Tag>
+		<English>Yellow Sea</English>
+		<French>Lake Urmia</French>
+		<German>Lake Urmia</German>
+		<Italian>Lake Urmia</Italian>
+		<Spanish>Lake Urmia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_97</Tag>
+		<English>Sea of Japan</English>
+		<French>Dead Sea</French>
+		<German>Dead Sea</German>
+		<Italian>Dead Sea</Italian>
+		<Spanish>Dead Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_98</Tag>
+		<English>Pacific Ocean</English>
+		<French>Lake Sevan</French>
+		<German>Lake Sevan</German>
+		<Italian>Lake Sevan</Italian>
+		<Spanish>Lake Sevan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_99</Tag>
+		<English>Bactria</English>
+		<French>Sea of Galilee</French>
+		<German>Sea of Galilee</German>
+		<Italian>Sea of Galilee</Italian>
+		<Spanish>Sea of Galilee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_100</Tag>
+		<English>Margiana</English>
+		<French>Namak Lake</French>
+		<German>Namak Lake</German>
+		<Italian>Namak Lake</Italian>
+		<Spanish>Namak Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_101</Tag>
+		<English>Crimea</English>
+		<French>Lake Tuz</French>
+		<German>Lake Tuz</German>
+		<Italian>Lake Tuz</Italian>
+		<Spanish>Lake Tuz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_102</Tag>
+		<English>Saurashtra</English>
+		<French>Lake Egirdir</French>
+		<German>Lake Egirdir</German>
+		<Italian>Lake Egirdir</Italian>
+		<Spanish>Lake Egirdir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_103</Tag>
+		<English>Shu</English>
+		<French>Pushkar Lake</French>
+		<German>Pushkar Lake</German>
+		<Italian>Pushkar Lake</Italian>
+		<Spanish>Pushkar Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_104</Tag>
+		<English>Ba</English>
+		<French>Bada Talaab</French>
+		<German>Bada Talaab</German>
+		<Italian>Bada Talaab</Italian>
+		<Spanish>Bada Talaab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_105</Tag>
+		<English>Min Yue</English>
+		<French>Lake Tharthar</French>
+		<German>Lake Tharthar</German>
+		<Italian>Lake Tharthar</Italian>
+		<Spanish>Lake Tharthar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_106</Tag>
+		<English>Gansu</English>
+		<French>Gansu</French>
+		<German>Gansu</German>
+		<Italian>Gansu</Italian>
+		<Spanish>Gansu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_107</Tag>
+		<English>Makan</English>
+		<French>Makan</French>
+		<German>Makan</German>
+		<Italian>Makan</Italian>
+		<Spanish>Makan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_108</Tag>
+		<English>Buyeo</English>
+		<French>Lake Moeris</French>
+		<German>Lake Moeris</German>
+		<Italian>Lake Moeris</Italian>
+		<Spanish>Lake Moeris</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_109</Tag>
+		<English>Baetica</English>
+		<French>Lake Moeris</French>
+		<German>Lake Moeris</German>
+		<Italian>Lake Moeris</Italian>
+		<Spanish>Lake Moeris</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_110</Tag>
+		<English>Lusitania</English>
+		<French>Lusitania</French>
+		<German>Lusitania</German>
+		<Italian>Lusitania</Italian>
+		<Spanish>Lusitania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_111</Tag>
+		<English>Southern Italy</English>
+		<French>Southern Italy</French>
+		<German>Southern Italy</German>
+		<Italian>Southern Italy</Italian>
+		<Spanish>Southern Italy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_112</Tag>
+		<English>Sulawesi</English>
+		<French>Sulawesi</French>
+		<German>Sulawesi</German>
+		<Italian>Sulawesi</Italian>
+		<Spanish>Sulawesi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_113</Tag>
+		<English>Papua</English>
+		<French>Papua</French>
+		<German>Papua</German>
+		<Italian>Papua</Italian>
+		<Spanish>Papua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_114</Tag>
+		<English>Wu</English>
+		<French>Wu</French>
+		<German>Wu</German>
+		<Italian>Wu</Italian>
+		<Spanish>Wu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_115</Tag>
+		<English>Maldives</English>
+		<French>Maldives</French>
+		<German>Maldives</German>
+		<Italian>Maldives</Italian>
+		<Spanish>Maldives</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_116</Tag>
+		<English>Cyprus</English>
+		<French>Cyprus</French>
+		<German>Cyprus</German>
+		<Italian>Cyprus</Italian>
+		<Spanish>Cyprus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_117</Tag>
+		<English>Crete</English>
+		<French>Crete</French>
+		<German>Crete</German>
+		<Italian>Crete</Italian>
+		<Spanish>Crete</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_118</Tag>
+		<English>Rhodes</English>
+		<French>Rhodes</French>
+		<German>Rhodes</German>
+		<Italian>Rhodes</Italian>
+		<Spanish>Rhodes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_119</Tag>
+		<English>Sardinia</English>
+		<French>Sardinia</French>
+		<German>Sardinia</German>
+		<Italian>Sardinia</Italian>
+		<Spanish>Sardinia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_120</Tag>
+		<English>Corsica</English>
+		<French>Corsica</French>
+		<German>Corsica</German>
+		<Italian>Corsica</Italian>
+		<Spanish>Corsica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_121</Tag>
+		<English>Mallorca</English>
+		<French>Mallorca</French>
+		<German>Mallorca</German>
+		<Italian>Mallorca</Italian>
+		<Spanish>Mallorca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_122</Tag>
+		<English>Pontus</English>
+		<French>Pontus</French>
+		<German>Pontus</German>
+		<Italian>Pontus</Italian>
+		<Spanish>Pontus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_123</Tag>
+		<English>Cappadocia</English>
+		<French>Cappadocia</French>
+		<German>Cappadocia</German>
+		<Italian>Cappadocia</Italian>
+		<Spanish>Cappadocia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_124</Tag>
+		<English>Andhra</English>
+		<French>Andhra</French>
+		<German>Andhra</German>
+		<Italian>Andhra</Italian>
+		<Spanish>Andhra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_125</Tag>
+		<English>Numidia</English>
+		<French>Numidia</French>
+		<German>Numidia</German>
+		<Italian>Numidia</Italian>
+		<Spanish>Numidia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_126</Tag>
+		<English>Malta</English>
+		<French>Malta</French>
+		<German>Malta</German>
+		<Italian>Malta</Italian>
+		<Spanish>Malta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_127</Tag>
+		<English>Champa</English>
+		<French>Champa</French>
+		<German>Champa</German>
+		<Italian>Champa</Italian>
+		<Spanish>Champa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_128</Tag>
+		<English>Nanzhao</English>
+		<French>Nanzhao</French>
+		<German>Nanzhao</German>
+		<Italian>Nanzhao</Italian>
+		<Spanish>Nanzhao</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_129</Tag>
+		<English>Assam</English>
+		<French>Assam</French>
+		<German>Assam</German>
+		<Italian>Assam</Italian>
+		<Spanish>Assam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_130</Tag>
+		<English>Qinghai</English>
+		<French>Qinghai</French>
+		<German>Qinghai</German>
+		<Italian>Qinghai</Italian>
+		<Spanish>Qinghai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_131</Tag>
+		<English>Macedonia</English>
+		<French>Macedonia</French>
+		<German>Macedonia</German>
+		<Italian>Macedonia</Italian>
+		<Spanish>Macedonia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_132</Tag>
+		<English>Moesia</English>
+		<French>Moesia</French>
+		<German>Moesia</German>
+		<Italian>Moesia</Italian>
+		<Spanish>Moesia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_133</Tag>
+		<English>Gedrosia</English>
+		<French>Gedrosia</French>
+		<German>Gedrosia</German>
+		<Italian>Gedrosia</Italian>
+		<Spanish>Gedrosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_134</Tag>
+		<English>Bharat</English>
+		<French>Bharat</French>
+		<German>Bharat</German>
+		<Italian>Bharat</Italian>
+		<Spanish>Bharat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_135</Tag>
+		<English>Noricum</English>
+		<French>Noricum</French>
+		<German>Noricum</German>
+		<Italian>Noricum</Italian>
+		<Spanish>Noricum</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_0</Tag>
+		<English>No Region</English>
+		<French>No Region</French>
+		<German>No Region</German>
+		<Italian>No Region</Italian>
+		<Spanish>No Region</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_1</Tag>
+		<English>Caledonia</English>
+		<French>Black Sea</French>
+		<German>Black Sea</German>
+		<Italian>Black Sea</Italian>
+		<Spanish>Black Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_2</Tag>
+		<English>Hibernia</English>
+		<French>Mediterranean Sea</French>
+		<German>Mediterranean Sea</German>
+		<Italian>Mediterranean Sea</Italian>
+		<Spanish>Mediterranean Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_3</Tag>
+		<English>Britannia</English>
+		<French>Red Sea</French>
+		<German>Red Sea</German>
+		<Italian>Red Sea</Italian>
+		<Spanish>Red Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_4</Tag>
+		<English>Scania</English>
+		<French>Persian Gulf</French>
+		<German>Persian Gulf</German>
+		<Italian>Persian Gulf</Italian>
+		<Spanish>Persian Gulf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_5</Tag>
+		<English>Aquitania</English>
+		<French>Aquitania</French>
+		<German>Aquitania</German>
+		<Italian>Aquitania</Italian>
+		<Spanish>Aquitania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_6</Tag>
+		<English>Gaul</English>
+		<French>Gaul</French>
+		<German>Gaul</German>
+		<Italian>Gaul</Italian>
+		<Spanish>Gaul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_7</Tag>
+		<English>Narbonensis</English>
+		<French>Narbonensis</French>
+		<German>Narbonensis</German>
+		<Italian>Narbonensis</Italian>
+		<Spanish>Narbonensis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_8</Tag>
+		<English>Iberia</English>
+		<French>Iberia</French>
+		<German>Iberia</German>
+		<Italian>Iberia</Italian>
+		<Spanish>Iberia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_9</Tag>
+		<English>Germania</English>
+		<French>Germania</French>
+		<German>Germania</German>
+		<Italian>Germania</Italian>
+		<Spanish>Germania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_10</Tag>
+		<English>Northern Italy</English>
+		<French>Asia</French>
+		<German>Asia</German>
+		<Italian>Asia</Italian>
+		<Spanish>Asia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_11</Tag>
+		<English>Sicily</English>
+		<French>Bithynia</French>
+		<German>Bithynia</German>
+		<Italian>Bithynia</Italian>
+		<Spanish>Bithynia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_12</Tag>
+		<English>Greece</English>
+		<French>Lycia</French>
+		<German>Lycia</German>
+		<Italian>Lycia</Italian>
+		<Spanish>Lycia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_13</Tag>
+		<English>Illyricum</English>
+		<French>Pontus</French>
+		<German>Pontus</German>
+		<Italian>Pontus</Italian>
+		<Spanish>Pontus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_14</Tag>
+		<English>Thrace</English>
+		<French>Galatia</French>
+		<German>Galatia</German>
+		<Italian>Galatia</Italian>
+		<Spanish>Galatia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_15</Tag>
+		<English>Dacia</English>
+		<French>Paphlagonia</French>
+		<German>Paphlagonia</German>
+		<Italian>Paphlagonia</Italian>
+		<Spanish>Paphlagonia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_16</Tag>
+		<English>Slavia</English>
+		<French>Slavia</French>
+		<German>Slavia</German>
+		<Italian>Slavia</Italian>
+		<Spanish>Slavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_17</Tag>
+		<English>Asia</English>
+		<French>Asia</French>
+		<German>Asia</German>
+		<Italian>Asia</Italian>
+		<Spanish>Asia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_18</Tag>
+		<English>Armenia</English>
+		<French>Armenia</French>
+		<German>Armenia</German>
+		<Italian>Armenia</Italian>
+		<Spanish>Armenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_19</Tag>
+		<English>Syria</English>
+		<French>Rhodes</French>
+		<German>Rhodes</German>
+		<Italian>Rhodes</Italian>
+		<Spanish>Rhodes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_20</Tag>
+		<English>Mesopotamia</English>
+		<French>Cyprus</French>
+		<German>Cyprus</German>
+		<Italian>Cyprus</Italian>
+		<Spanish>Cyprus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_21</Tag>
+		<English>Arabia</English>
+		<French>Lower Egypt</French>
+		<German>Lower Egypt</German>
+		<Italian>Lower Egypt</Italian>
+		<Spanish>Lower Egypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_22</Tag>
+		<English>Arabia Felix</English>
+		<French>Arabia Felix</French>
+		<German>Arabia Felix</German>
+		<Italian>Arabia Felix</Italian>
+		<Spanish>Arabia Felix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_23</Tag>
+		<English>Judea</English>
+		<French>Judea</French>
+		<German>Judea</German>
+		<Italian>Judea</Italian>
+		<Spanish>Judea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_24</Tag>
+		<English>Egypt</English>
+		<French>Egypt</French>
+		<German>Egypt</German>
+		<Italian>Egypt</Italian>
+		<Spanish>Egypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_25</Tag>
+		<English>Libya</English>
+		<French>Libya</French>
+		<German>Libya</German>
+		<Italian>Libya</Italian>
+		<Spanish>Libya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_26</Tag>
+		<English>Africa</English>
+		<French>Alodia</French>
+		<German>Alodia</German>
+		<Italian>Alodia</Italian>
+		<Spanish>Alodia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_27</Tag>
+		<English>Mauretania</English>
+		<French>Aksum</French>
+		<German>Aksum</German>
+		<Italian>Aksum</Italian>
+		<Spanish>Aksum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_28</Tag>
+		<English>Nubia</English>
+		<French>Mereb Mellash</French>
+		<German>Mereb Mellash</German>
+		<Italian>Mereb Mellash</Italian>
+		<Spanish>Mereb Mellash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_29</Tag>
+		<English>Axum</English>
+		<French>Yemen</French>
+		<German>Yemen</German>
+		<Italian>Yemen</Italian>
+		<Spanish>Yemen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_30</Tag>
+		<English>Punt</English>
+		<French>Oman</French>
+		<German>Oman</German>
+		<Italian>Oman</Italian>
+		<Spanish>Oman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_31</Tag>
+		<English>Sahara</English>
+		<French>Bahrain</French>
+		<German>Bahrain</German>
+		<Italian>Bahrain</Italian>
+		<Spanish>Bahrain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_32</Tag>
+		<English>Aethiopia</English>
+		<French>Mahra</French>
+		<German>Mahra</German>
+		<Italian>Mahra</Italian>
+		<Spanish>Mahra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_33</Tag>
+		<English>Guinea</English>
+		<French>Suqutra</French>
+		<German>Suqutra</German>
+		<Italian>Suqutra</Italian>
+		<Spanish>Suqutra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_34</Tag>
+		<English>Media</English>
+		<French>Hadhramaut</French>
+		<German>Hadhramaut</German>
+		<Italian>Hadhramaut</Italian>
+		<Spanish>Hadhramaut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_35</Tag>
+		<English>Persia</English>
+		<French>Hejaz</French>
+		<German>Hejaz</German>
+		<Italian>Hejaz</Italian>
+		<Spanish>Hejaz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_36</Tag>
+		<English>Parthia</English>
+		<French>Arabia</French>
+		<German>Arabia</German>
+		<Italian>Arabia</Italian>
+		<Spanish>Arabia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_37</Tag>
+		<English>Arachosia</English>
+		<French>Sahara</French>
+		<German>Sahara</German>
+		<Italian>Sahara</Italian>
+		<Spanish>Sahara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_38</Tag>
+		<English>Sogdiana</English>
+		<French>Khuzestan</French>
+		<German>Khuzestan</German>
+		<Italian>Khuzestan</Italian>
+		<Spanish>Khuzestan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_39</Tag>
+		<English>Sindh</English>
+		<French>Iraq</French>
+		<German>Iraq</German>
+		<Italian>Iraq</Italian>
+		<Spanish>Iraq</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_40</Tag>
+		<English>Gandhara</English>
+		<French>Vaspurakan</French>
+		<German>Vaspurakan</German>
+		<Italian>Vaspurakan</Italian>
+		<Spanish>Vaspurakan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_41</Tag>
+		<English>Punjab</English>
+		<French>Greater Armenia</French>
+		<German>Greater Armenia</German>
+		<Italian>Greater Armenia</Italian>
+		<Spanish>Greater Armenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_42</Tag>
+		<English>Thar</English>
+		<French>Kars</French>
+		<German>Kars</German>
+		<Italian>Kars</Italian>
+		<Spanish>Kars</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_43</Tag>
+		<English>Magadha</English>
+		<French>Georgia</French>
+		<German>Georgia</German>
+		<Italian>Georgia</Italian>
+		<Spanish>Georgia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_44</Tag>
+		<English>Anga</English>
+		<French>Shirvan</French>
+		<German>Shirvan</German>
+		<Italian>Shirvan</Italian>
+		<Spanish>Shirvan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_45</Tag>
+		<English>Kalinga</English>
+		<French>Kalinga</French>
+		<German>Kalinga</German>
+		<Italian>Kalinga</Italian>
+		<Spanish>Kalinga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_46</Tag>
+		<English>Kerala</English>
+		<French>Kerala</French>
+		<German>Kerala</German>
+		<Italian>Kerala</Italian>
+		<Spanish>Kerala</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_47</Tag>
+		<English>Tamil Nadu</English>
+		<French>Tamil Nadu</French>
+		<German>Tamil Nadu</German>
+		<Italian>Tamil Nadu</Italian>
+		<Spanish>Tamil Nadu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_48</Tag>
+		<English>Avanti</English>
+		<French>Avanti</French>
+		<German>Avanti</German>
+		<Italian>Avanti</Italian>
+		<Spanish>Avanti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_49</Tag>
+		<English>Deccan</English>
+		<French>Deccan</French>
+		<German>Deccan</German>
+		<Italian>Deccan</Italian>
+		<Spanish>Deccan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_50</Tag>
+		<English>Lanka</English>
+		<French>Lanka</French>
+		<German>Lanka</German>
+		<Italian>Lanka</Italian>
+		<Spanish>Lanka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_51</Tag>
+		<English>Tibet</English>
+		<French>Tibet</French>
+		<German>Tibet</German>
+		<Italian>Tibet</Italian>
+		<Spanish>Tibet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_52</Tag>
+		<English>Tarim</English>
+		<French>Tarim</French>
+		<German>Tarim</German>
+		<Italian>Tarim</Italian>
+		<Spanish>Tarim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_53</Tag>
+		<English>Birma</English>
+		<French>Birma</French>
+		<German>Birma</German>
+		<Italian>Birma</Italian>
+		<Spanish>Birma</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_54</Tag>
+		<English>Funan</English>
+		<French>Funan</French>
+		<German>Funan</German>
+		<Italian>Funan</Italian>
+		<Spanish>Funan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_55</Tag>
+		<English>Annam</English>
+		<French>Annam</French>
+		<German>Annam</German>
+		<Italian>Annam</Italian>
+		<Spanish>Annam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_56</Tag>
+		<English>Malaya</English>
+		<French>Malaya</French>
+		<German>Malaya</German>
+		<Italian>Malaya</Italian>
+		<Spanish>Malaya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_57</Tag>
+		<English>Sumatra</English>
+		<French>Sumatra</French>
+		<German>Sumatra</German>
+		<Italian>Sumatra</Italian>
+		<Spanish>Sumatra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_58</Tag>
+		<English>Java</English>
+		<French>Java</French>
+		<German>Java</German>
+		<Italian>Java</Italian>
+		<Spanish>Java</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_59</Tag>
+		<English>Kalimantan</English>
+		<French>Kalimantan</French>
+		<German>Kalimantan</German>
+		<Italian>Kalimantan</Italian>
+		<Spanish>Kalimantan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_60</Tag>
+		<English>Seludong</English>
+		<French>Seludong</French>
+		<German>Seludong</German>
+		<Italian>Seludong</Italian>
+		<Spanish>Seludong</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_61</Tag>
+		<English>Chu</English>
+		<French>Chu</French>
+		<German>Chu</German>
+		<Italian>Chu</Italian>
+		<Spanish>Chu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_62</Tag>
+		<English>Qi</English>
+		<French>Qi</French>
+		<German>Qi</German>
+		<Italian>Qi</Italian>
+		<Spanish>Qi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_63</Tag>
+		<English>Yan</English>
+		<French>Yan</French>
+		<German>Yan</German>
+		<Italian>Yan</Italian>
+		<Spanish>Yan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_64</Tag>
+		<English>Zhao</English>
+		<French>Zhao</French>
+		<German>Zhao</German>
+		<Italian>Zhao</Italian>
+		<Spanish>Zhao</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_65</Tag>
+		<English>Wei</English>
+		<French>Wei</French>
+		<German>Wei</German>
+		<Italian>Wei</Italian>
+		<Spanish>Wei</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_66</Tag>
+		<English>Qin</English>
+		<French>Qin</French>
+		<German>Qin</German>
+		<Italian>Qin</Italian>
+		<Spanish>Qin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_67</Tag>
+		<English>Han</English>
+		<French>Han</French>
+		<German>Han</German>
+		<Italian>Han</Italian>
+		<Spanish>Han</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_68</Tag>
+		<English>Nan Yue</English>
+		<French>Sindh</French>
+		<German>Sindh</German>
+		<Italian>Sindh</Italian>
+		<Spanish>Sindh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_69</Tag>
+		<English>Nepal</English>
+		<French>Nepal</French>
+		<German>Nepal</German>
+		<Italian>Nepal</Italian>
+		<Spanish>Nepal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_70</Tag>
+		<English>Pamir</English>
+		<French>Pamir</French>
+		<German>Pamir</German>
+		<Italian>Pamir</Italian>
+		<Spanish>Pamir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_71</Tag>
+		<English>Ferghana</English>
+		<French>Ferghana</French>
+		<German>Ferghana</German>
+		<Italian>Ferghana</Italian>
+		<Spanish>Ferghana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_72</Tag>
+		<English>Jin</English>
+		<French>Jin</French>
+		<German>Jin</German>
+		<Italian>Jin</Italian>
+		<Spanish>Jin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_73</Tag>
+		<English>Goguryeo</English>
+		<French>Goguryeo</French>
+		<German>Goguryeo</German>
+		<Italian>Goguryeo</Italian>
+		<Spanish>Goguryeo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_74</Tag>
+		<English>Yamato</English>
+		<French>Yamato</French>
+		<German>Yamato</German>
+		<Italian>Yamato</Italian>
+		<Spanish>Yamato</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_75</Tag>
+		<English>Emishi</English>
+		<French>Emishi</French>
+		<German>Emishi</German>
+		<Italian>Emishi</Italian>
+		<Spanish>Emishi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_76</Tag>
+		<English>Hokkaido</English>
+		<French>Hokkaido</French>
+		<German>Hokkaido</German>
+		<Italian>Hokkaido</Italian>
+		<Spanish>Hokkaido</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_77</Tag>
+		<English>Scythian Steppe</English>
+		<French>Scythian Steppe</French>
+		<German>Scythian Steppe</German>
+		<Italian>Scythian Steppe</Italian>
+		<Spanish>Scythian Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_78</Tag>
+		<English>Sarmatian Steppe</English>
+		<French>Sarmatian Steppe</French>
+		<German>Sarmatian Steppe</German>
+		<Italian>Sarmatian Steppe</Italian>
+		<Spanish>Sarmatian Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_79</Tag>
+		<English>Mongolian Steppe</English>
+		<French>Mongolian Steppe</French>
+		<German>Mongolian Steppe</German>
+		<Italian>Mongolian Steppe</Italian>
+		<Spanish>Mongolian Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_80</Tag>
+		<English>Siberia</English>
+		<French>Siberia</French>
+		<German>Siberia</German>
+		<Italian>Siberia</Italian>
+		<Spanish>Siberia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_81</Tag>
+		<English>Caucasus</English>
+		<French>Caucasus</French>
+		<German>Caucasus</German>
+		<Italian>Caucasus</Italian>
+		<Spanish>Caucasus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_82</Tag>
+		<English>Islands</English>
+		<French>Islands</French>
+		<German>Islands</German>
+		<Italian>Islands</Italian>
+		<Spanish>Islands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_83</Tag>
+		<English>Australia</English>
+		<French>Australia</French>
+		<German>Australia</German>
+		<Italian>Australia</Italian>
+		<Spanish>Australia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_84</Tag>
+		<English>Taiwan</English>
+		<French>Taiwan</French>
+		<German>Taiwan</German>
+		<Italian>Taiwan</Italian>
+		<Spanish>Taiwan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_85</Tag>
+		<English>Atlantic Ocean</English>
+		<French>Atlantic Ocean</French>
+		<German>Atlantic Ocean</German>
+		<Italian>Atlantic Ocean</Italian>
+		<Spanish>Atlantic Ocean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_86</Tag>
+		<English>North Sea</English>
+		<French>North Sea</French>
+		<German>North Sea</German>
+		<Italian>North Sea</Italian>
+		<Spanish>North Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_87</Tag>
+		<English>Baltic Sea</English>
+		<French>Baltic Sea</French>
+		<German>Baltic Sea</German>
+		<Italian>Baltic Sea</Italian>
+		<Spanish>Baltic Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_88</Tag>
+		<English>Mediterranean Sea</English>
+		<French>Mediterranean Sea</French>
+		<German>Mediterranean Sea</German>
+		<Italian>Mediterranean Sea</Italian>
+		<Spanish>Mediterranean Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_89</Tag>
+		<English>Black Sea</English>
+		<French>Black Sea</French>
+		<German>Black Sea</German>
+		<Italian>Black Sea</Italian>
+		<Spanish>Black Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_90</Tag>
+		<English>Caspian Sea</English>
+		<French>Caspian Sea</French>
+		<German>Caspian Sea</German>
+		<Italian>Caspian Sea</Italian>
+		<Spanish>Caspian Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_91</Tag>
+		<English>Aral Sea</English>
+		<French>Aral Sea</French>
+		<German>Aral Sea</German>
+		<Italian>Aral Sea</Italian>
+		<Spanish>Aral Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_92</Tag>
+		<English>Red Sea</English>
+		<French>Red Sea</French>
+		<German>Red Sea</German>
+		<Italian>Red Sea</Italian>
+		<Spanish>Red Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_93</Tag>
+		<English>Persian Gulf</English>
+		<French>Persian Gulf</French>
+		<German>Persian Gulf</German>
+		<Italian>Persian Gulf</Italian>
+		<Spanish>Persian Gulf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_94</Tag>
+		<English>Indian Ocean</English>
+		<French>Indian Ocean</French>
+		<German>Indian Ocean</German>
+		<Italian>Indian Ocean</Italian>
+		<Spanish>Indian Ocean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_95</Tag>
+		<English>South China Sea</English>
+		<French>South China Sea</French>
+		<German>South China Sea</German>
+		<Italian>South China Sea</Italian>
+		<Spanish>South China Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_96</Tag>
+		<English>Yellow Sea</English>
+		<French>Yellow Sea</French>
+		<German>Yellow Sea</German>
+		<Italian>Yellow Sea</Italian>
+		<Spanish>Yellow Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_97</Tag>
+		<English>Sea of Japan</English>
+		<French>Sea of Japan</French>
+		<German>Sea of Japan</German>
+		<Italian>Sea of Japan</Italian>
+		<Spanish>Sea of Japan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_98</Tag>
+		<English>Pacific Ocean</English>
+		<French>Pacific Ocean</French>
+		<German>Pacific Ocean</German>
+		<Italian>Pacific Ocean</Italian>
+		<Spanish>Pacific Ocean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_99</Tag>
+		<English>Bactria</English>
+		<French>Bactria</French>
+		<German>Bactria</German>
+		<Italian>Bactria</Italian>
+		<Spanish>Bactria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_100</Tag>
+		<English>Margiana</English>
+		<French>Margiana</French>
+		<German>Margiana</German>
+		<Italian>Margiana</Italian>
+		<Spanish>Margiana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_101</Tag>
+		<English>Crimea</English>
+		<French>Crimea</French>
+		<German>Crimea</German>
+		<Italian>Crimea</Italian>
+		<Spanish>Crimea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_102</Tag>
+		<English>Saurashtra</English>
+		<French>Saurashtra</French>
+		<German>Saurashtra</German>
+		<Italian>Saurashtra</Italian>
+		<Spanish>Saurashtra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_103</Tag>
+		<English>Shu</English>
+		<French>Shu</French>
+		<German>Shu</German>
+		<Italian>Shu</Italian>
+		<Spanish>Shu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_104</Tag>
+		<English>Ba</English>
+		<French>Ba</French>
+		<German>Ba</German>
+		<Italian>Ba</Italian>
+		<Spanish>Ba</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_105</Tag>
+		<English>Min Yue</English>
+		<French>Min Yue</French>
+		<German>Min Yue</German>
+		<Italian>Min Yue</Italian>
+		<Spanish>Min Yue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_106</Tag>
+		<English>Gansu</English>
+		<French>Gansu</French>
+		<German>Gansu</German>
+		<Italian>Gansu</Italian>
+		<Spanish>Gansu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_107</Tag>
+		<English>Makan</English>
+		<French>Makan</French>
+		<German>Makan</German>
+		<Italian>Makan</Italian>
+		<Spanish>Makan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_108</Tag>
+		<English>Buyeo</English>
+		<French>Buyeo</French>
+		<German>Buyeo</German>
+		<Italian>Buyeo</Italian>
+		<Spanish>Buyeo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_109</Tag>
+		<English>Baetica</English>
+		<French>Baetica</French>
+		<German>Baetica</German>
+		<Italian>Baetica</Italian>
+		<Spanish>Baetica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_110</Tag>
+		<English>Lusitania</English>
+		<French>Lusitania</French>
+		<German>Lusitania</German>
+		<Italian>Lusitania</Italian>
+		<Spanish>Lusitania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_111</Tag>
+		<English>Southern Italy</English>
+		<French>Southern Italy</French>
+		<German>Southern Italy</German>
+		<Italian>Southern Italy</Italian>
+		<Spanish>Southern Italy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_112</Tag>
+		<English>Sulawesi</English>
+		<French>Sulawesi</French>
+		<German>Sulawesi</German>
+		<Italian>Sulawesi</Italian>
+		<Spanish>Sulawesi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_113</Tag>
+		<English>Papua</English>
+		<French>Papua</French>
+		<German>Papua</German>
+		<Italian>Papua</Italian>
+		<Spanish>Papua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_114</Tag>
+		<English>Wu</English>
+		<French>Wu</French>
+		<German>Wu</German>
+		<Italian>Wu</Italian>
+		<Spanish>Wu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_115</Tag>
+		<English>Maldives</English>
+		<French>Maldives</French>
+		<German>Maldives</German>
+		<Italian>Maldives</Italian>
+		<Spanish>Maldives</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_116</Tag>
+		<English>Cyprus</English>
+		<French>Cyprus</French>
+		<German>Cyprus</German>
+		<Italian>Cyprus</Italian>
+		<Spanish>Cyprus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_117</Tag>
+		<English>Crete</English>
+		<French>Crete</French>
+		<German>Crete</German>
+		<Italian>Crete</Italian>
+		<Spanish>Crete</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_118</Tag>
+		<English>Rhodes</English>
+		<French>Rhodes</French>
+		<German>Rhodes</German>
+		<Italian>Rhodes</Italian>
+		<Spanish>Rhodes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_119</Tag>
+		<English>Sardinia</English>
+		<French>Sardinia</French>
+		<German>Sardinia</German>
+		<Italian>Sardinia</Italian>
+		<Spanish>Sardinia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_120</Tag>
+		<English>Corsica</English>
+		<French>Corsica</French>
+		<German>Corsica</German>
+		<Italian>Corsica</Italian>
+		<Spanish>Corsica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_121</Tag>
+		<English>Mallorca</English>
+		<French>Mallorca</French>
+		<German>Mallorca</German>
+		<Italian>Mallorca</Italian>
+		<Spanish>Mallorca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_122</Tag>
+		<English>Pontus</English>
+		<French>Pontus</French>
+		<German>Pontus</German>
+		<Italian>Pontus</Italian>
+		<Spanish>Pontus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_123</Tag>
+		<English>Cappadocia</English>
+		<French>Cappadocia</French>
+		<German>Cappadocia</German>
+		<Italian>Cappadocia</Italian>
+		<Spanish>Cappadocia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_124</Tag>
+		<English>Andhra</English>
+		<French>Andhra</French>
+		<German>Andhra</German>
+		<Italian>Andhra</Italian>
+		<Spanish>Andhra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_125</Tag>
+		<English>Numidia</English>
+		<French>Numidia</French>
+		<German>Numidia</German>
+		<Italian>Numidia</Italian>
+		<Spanish>Numidia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_126</Tag>
+		<English>Malta</English>
+		<French>Malta</French>
+		<German>Malta</German>
+		<Italian>Malta</Italian>
+		<Spanish>Malta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_127</Tag>
+		<English>Champa</English>
+		<French>Champa</French>
+		<German>Champa</German>
+		<Italian>Champa</Italian>
+		<Spanish>Champa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_128</Tag>
+		<English>Nanzhao</English>
+		<French>Nanzhao</French>
+		<German>Nanzhao</German>
+		<Italian>Nanzhao</Italian>
+		<Spanish>Nanzhao</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_129</Tag>
+		<English>Assam</English>
+		<French>Assam</French>
+		<German>Assam</German>
+		<Italian>Assam</Italian>
+		<Spanish>Assam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_130</Tag>
+		<English>Qinghai</English>
+		<French>Qinghai</French>
+		<German>Qinghai</German>
+		<Italian>Qinghai</Italian>
+		<Spanish>Qinghai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_131</Tag>
+		<English>Macedonia</English>
+		<French>Macedonia</French>
+		<German>Macedonia</German>
+		<Italian>Macedonia</Italian>
+		<Spanish>Macedonia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_132</Tag>
+		<English>Moesia</English>
+		<French>Moesia</French>
+		<German>Moesia</German>
+		<Italian>Moesia</Italian>
+		<Spanish>Moesia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_133</Tag>
+		<English>Gedrosia</English>
+		<French>Gedrosia</French>
+		<German>Gedrosia</German>
+		<Italian>Gedrosia</Italian>
+		<Spanish>Gedrosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_134</Tag>
+		<English>Bharat</English>
+		<French>Bharat</French>
+		<German>Bharat</German>
+		<Italian>Bharat</Italian>
+		<Spanish>Bharat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_134</Tag>
+		<English>Noricum</English>
+		<French>Noricum</French>
+		<German>Noricum</German>
+		<Italian>Noricum</Italian>
+		<Spanish>Noricum</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_0</Tag>
+		<English>No Region</English>
+		<French>No Region</French>
+		<German>No Region</German>
+		<Italian>No Region</Italian>
+		<Spanish>No Region</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_1</Tag>
+		<English>Black Sea</English>
+		<French>Black Sea</French>
+		<German>Black Sea</German>
+		<Italian>Black Sea</Italian>
+		<Spanish>Black Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_2</Tag>
+		<English>Mediterranean</English>
+		<French>Mediterranean</French>
+		<German>Mediterranean</German>
+		<Italian>Mediterranean</Italian>
+		<Spanish>Mediterranean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_3</Tag>
+		<English>Red Sea</English>
+		<French>Red Sea</French>
+		<German>Red Sea</German>
+		<Italian>Red Sea</Italian>
+		<Spanish>Red Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_4</Tag>
+		<English>Persian Gulf</English>
+		<French>Persian Gulf</French>
+		<German>Persian Gulf</German>
+		<Italian>Persian Gulf</Italian>
+		<Spanish>Persian Gulf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_5</Tag>
+		<English>Caspian</English>
+		<French>Caspian</French>
+		<German>Caspian</German>
+		<Italian>Caspian</Italian>
+		<Spanish>Caspian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_6</Tag>
+		<English>Aral Sea</English>
+		<French>Aral Sea</French>
+		<German>Aral Sea</German>
+		<Italian>Aral Sea</Italian>
+		<Spanish>Aral Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_7</Tag>
+		<English>Arabian Sea</English>
+		<French>Arabian Sea</French>
+		<German>Arabian Sea</German>
+		<Italian>Arabian Sea</Italian>
+		<Spanish>Arabian Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_8</Tag>
+		<English>Thracian</English>
+		<French>Thracian</French>
+		<German>Thracian</German>
+		<Italian>Thracian</Italian>
+		<Spanish>Thracian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_9</Tag>
+		<English>Bulgarian</English>
+		<French>Bulgarian</French>
+		<German>Bulgarian</German>
+		<Italian>Bulgarian</Italian>
+		<Spanish>Bulgarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_10</Tag>
+		<English>Asian</English>
+		<French>Asian</French>
+		<German>Asian</German>
+		<Italian>Asian</Italian>
+		<Spanish>Asian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_11</Tag>
+		<English>Bithynian</English>
+		<French>Bithynian</French>
+		<German>Bithynian</German>
+		<Italian>Bithynian</Italian>
+		<Spanish>Bithynian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_12</Tag>
+		<English>Lycian</English>
+		<French>Lycian</French>
+		<German>Lycian</German>
+		<Italian>Lycian</Italian>
+		<Spanish>Lycian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_13</Tag>
+		<English>Pontus</English>
+		<French>Pontus</French>
+		<German>Pontus</German>
+		<Italian>Pontus</Italian>
+		<Spanish>Pontus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_14</Tag>
+		<English>Galatian</English>
+		<French>Galatian</French>
+		<German>Galatian</German>
+		<Italian>Galatian</Italian>
+		<Spanish>Galatian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_15</Tag>
+		<English>Paphlagonian</English>
+		<French>Paphlagonian</French>
+		<German>Paphlagonian</German>
+		<Italian>Paphlagonian</Italian>
+		<Spanish>Paphlagonian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_16</Tag>
+		<English>Cilician</English>
+		<French>Cilician</French>
+		<German>Cilician</German>
+		<Italian>Cilician</Italian>
+		<Spanish>Cilician</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_17</Tag>
+		<English>Cappadocian</English>
+		<French>Cappadocian</French>
+		<German>Cappadocian</German>
+		<Italian>Cappadocian</Italian>
+		<Spanish>Cappadocian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_18</Tag>
+		<English>Armenian</English>
+		<French>Armenian</French>
+		<German>Armenian</German>
+		<Italian>Armenian</Italian>
+		<Spanish>Armenian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_19</Tag>
+		<English>Rhodes</English>
+		<French>Rhodes</French>
+		<German>Rhodes</German>
+		<Italian>Rhodes</Italian>
+		<Spanish>Rhodes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_20</Tag>
+		<English>Cypriot</English>
+		<French>Cypriot</French>
+		<German>Cypriot</German>
+		<Italian>Cypriot</Italian>
+		<Spanish>Cypriot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_21</Tag>
+		<English>Egyptian</English>
+		<French>Egyptian</French>
+		<German>Egyptian</German>
+		<Italian>Egyptian</Italian>
+		<Spanish>Egyptian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_22</Tag>
+		<English>Egyptian</English>
+		<French>Egyptian</French>
+		<German>Egyptian</German>
+		<Italian>Egyptian</Italian>
+		<Spanish>Egyptian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_23</Tag>
+		<English>Egyptian</English>
+		<French>Egyptian</French>
+		<German>Egyptian</German>
+		<Italian>Egyptian</Italian>
+		<Spanish>Egyptian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_24</Tag>
+		<English>Nobatian</English>
+		<French>Nobatian</French>
+		<German>Nobatian</German>
+		<Italian>Nobatian</Italian>
+		<Spanish>Nobatian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_25</Tag>
+		<English>Makurian</English>
+		<French>Makurian</French>
+		<German>Makurian</German>
+		<Italian>Makurian</Italian>
+		<Spanish>Makurian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_26</Tag>
+		<English>Alodian</English>
+		<French>Alodian</French>
+		<German>Alodian</German>
+		<Italian>Alodian</Italian>
+		<Spanish>Alodian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_27</Tag>
+		<English>Ethiopian</English>
+		<French>Ethiopian</French>
+		<German>Ethiopian</German>
+		<Italian>Ethiopian</Italian>
+		<Spanish>Ethiopian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_28</Tag>
+		<English>Ethiopian</English>
+		<French>Ethiopian</French>
+		<German>Ethiopian</German>
+		<Italian>Ethiopian</Italian>
+		<Spanish>Ethiopian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_29</Tag>
+		<English>Yemeni</English>
+		<French>Yemeni</French>
+		<German>Yemeni</German>
+		<Italian>Yemeni</Italian>
+		<Spanish>Yemeni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_30</Tag>
+		<English>Omani</English>
+		<French>Omani</French>
+		<German>Omani</German>
+		<Italian>Omani</Italian>
+		<Spanish>Omani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_31</Tag>
+		<English>Bahraini</English>
+		<French>Bahraini</French>
+		<German>Bahraini</German>
+		<Italian>Bahraini</Italian>
+		<Spanish>Bahraini</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_32</Tag>
+		<English>Mahran</English>
+		<French>Mahran</French>
+		<German>Mahran</German>
+		<Italian>Mahran</Italian>
+		<Spanish>Mahran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_33</Tag>
+		<English>Suqutran</English>
+		<French>Suqutran</French>
+		<German>Suqutran</German>
+		<Italian>Suqutran</Italian>
+		<Spanish>Suqutran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_34</Tag>
+		<English>Hadhramaut</English>
+		<French>Hadhramaut</French>
+		<German>Hadhramaut</German>
+		<Italian>Hadhramaut</Italian>
+		<Spanish>Hadhramaut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_35</Tag>
+		<English>Hejazi</English>
+		<French>Hejazi</French>
+		<German>Hejazi</German>
+		<Italian>Hejazi</Italian>
+		<Spanish>Hejazi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_36</Tag>
+		<English>Arabian</English>
+		<French>Arabian</French>
+		<German>Arabian</German>
+		<Italian>Arabian</Italian>
+		<Spanish>Arabian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_37</Tag>
+		<English>Saharan</English>
+		<French>Saharan</French>
+		<German>Saharan</German>
+		<Italian>Saharan</Italian>
+		<Spanish>Saharan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_38</Tag>
+		<English>Khuzestani</English>
+		<French>Khuzestani</French>
+		<German>Khuzestani</German>
+		<Italian>Khuzestani</Italian>
+		<Spanish>Khuzestani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_39</Tag>
+		<English>Iraqi</English>
+		<French>Iraqi</French>
+		<German>Iraqi</German>
+		<Italian>Iraqi</Italian>
+		<Spanish>Iraqi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_40</Tag>
+		<English>Vaspurakani</English>
+		<French>Vaspurakani</French>
+		<German>Vaspurakani</German>
+		<Italian>Vaspurakani</Italian>
+		<Spanish>Vaspurakani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_41</Tag>
+		<English>Armenian</English>
+		<French>Armenian</French>
+		<German>Armenian</German>
+		<Italian>Armenian</Italian>
+		<Spanish>Armenian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_42</Tag>
+		<English>Armenian</English>
+		<French>Armenian</French>
+		<German>Armenian</German>
+		<Italian>Armenian</Italian>
+		<Spanish>Armenian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_43</Tag>
+		<English>Georgian</English>
+		<French>Georgian</French>
+		<German>Georgian</German>
+		<Italian>Georgian</Italian>
+		<Spanish>Georgian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_44</Tag>
+		<English>Shirvani</English>
+		<French>Shirvani</French>
+		<German>Shirvani</German>
+		<Italian>Shirvani</Italian>
+		<Spanish>Shirvani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_45</Tag>
+		<English>Azerbaijani</English>
+		<French>Azerbaijani</French>
+		<German>Azerbaijani</German>
+		<Italian>Azerbaijani</Italian>
+		<Spanish>Azerbaijani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_46</Tag>
+		<English>Caucasian</English>
+		<French>Caucasian</French>
+		<German>Caucasian</German>
+		<Italian>Caucasian</Italian>
+		<Spanish>Caucasian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_47</Tag>
+		<English>Levantine</English>
+		<French>Levantine</French>
+		<German>Levantine</German>
+		<Italian>Levantine</Italian>
+		<Spanish>Levantine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_48</Tag>
+		<English>Levantine</English>
+		<French>Levantine</French>
+		<German>Levantine</German>
+		<Italian>Levantine</Italian>
+		<Spanish>Levantine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_49</Tag>
+		<English>Syrian</English>
+		<French>Syrian</French>
+		<German>Syrian</German>
+		<Italian>Syrian</Italian>
+		<Spanish>Syrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_50</Tag>
+		<English>Syrian</English>
+		<French>Syrian</French>
+		<German>Syrian</German>
+		<Italian>Syrian</Italian>
+		<Spanish>Syrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_51</Tag>
+		<English>Trebizond</English>
+		<French>Trebizond</French>
+		<German>Trebizond</German>
+		<Italian>Trebizond</Italian>
+		<Spanish>Trebizond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_52</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_53</Tag>
+		<English>Kermani</English>
+		<French>Kermani</French>
+		<German>Kermani</German>
+		<Italian>Kermani</Italian>
+		<Spanish>Kermani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_54</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_55</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_56</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_57</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_58</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_59</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_60</Tag>
+		<English>Afghan</English>
+		<French>Afghan</French>
+		<German>Afghan</German>
+		<Italian>Afghan</Italian>
+		<Spanish>Afghan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_61</Tag>
+		<English>Khorasani</English>
+		<French>Khorasani</French>
+		<German>Khorasani</German>
+		<Italian>Khorasani</Italian>
+		<Spanish>Khorasani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_62</Tag>
+		<English>Khwarezmian</English>
+		<French>Khwarezmian</French>
+		<German>Khwarezmian</German>
+		<Italian>Khwarezmian</Italian>
+		<Spanish>Khwarezmian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_63</Tag>
+		<English>Sogdian</English>
+		<French>Sogdian</French>
+		<German>Sogdian</German>
+		<Italian>Sogdian</Italian>
+		<Spanish>Sogdian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_64</Tag>
+		<English>Khwarezmian</English>
+		<French>Khwarezmian</French>
+		<German>Khwarezmian</German>
+		<Italian>Khwarezmian</Italian>
+		<Spanish>Khwarezmian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_65</Tag>
+		<English>Tocharistan</English>
+		<French>Tocharistan</French>
+		<German>Tocharistan</German>
+		<Italian>Tocharistan</Italian>
+		<Spanish>Tocharistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_66</Tag>
+		<English>Sistani</English>
+		<French>Sistani</French>
+		<German>Sistani</German>
+		<Italian>Sistani</Italian>
+		<Spanish>Sistani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_67</Tag>
+		<English>Balochi</English>
+		<French>Balochi</French>
+		<German>Balochi</German>
+		<Italian>Balochi</Italian>
+		<Spanish>Balochi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_68</Tag>
+		<English>Sindhi</English>
+		<French>Sindhi</French>
+		<German>Sindhi</German>
+		<Italian>Sindhi</Italian>
+		<Spanish>Sindhi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_69</Tag>
+		<English>Jaziran</English>
+		<French>Jaziran</French>
+		<German>Jaziran</German>
+		<Italian>Jaziran</Italian>
+		<Spanish>Jaziran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_70</Tag>
+		<English>Makran</English>
+		<French>Makran</French>
+		<German>Makran</German>
+		<Italian>Makran</Italian>
+		<Spanish>Makran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_71</Tag>
+		<English>Gujarati</English>
+		<French>Gujarati</French>
+		<German>Gujarati</German>
+		<Italian>Gujarati</Italian>
+		<Spanish>Gujarati</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_72</Tag>
+		<English>Farghana</English>
+		<French>Farghana</French>
+		<German>Farghana</German>
+		<Italian>Farghana</Italian>
+		<Spanish>Farghana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_73</Tag>
+		<English>Punjabi</English>
+		<French>Punjabi</French>
+		<German>Punjabi</German>
+		<Italian>Punjabi</Italian>
+		<Spanish>Punjabi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_74</Tag>
+		<English>Ghazna</English>
+		<French>Ghazna</French>
+		<German>Ghazna</German>
+		<Italian>Ghazna</Italian>
+		<Spanish>Ghazna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_75</Tag>
+		<English>Afghan</English>
+		<French>Afghan</French>
+		<German>Afghan</German>
+		<Italian>Afghan</Italian>
+		<Spanish>Afghan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_76</Tag>
+		<English>Qandahar</English>
+		<French>Qandahar</French>
+		<German>Qandahar</German>
+		<Italian>Qandahar</Italian>
+		<Spanish>Qandahar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_77</Tag>
+		<English>Edessan</English>
+		<French>Edessan</French>
+		<German>Edessan</German>
+		<Italian>Edessan</Italian>
+		<Spanish>Edessan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_78</Tag>
+		<English>Marathi</English>
+		<French>Marathi</French>
+		<German>Marathi</German>
+		<Italian>Marathi</Italian>
+		<Spanish>Marathi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_79</Tag>
+		<English>Karnataka</English>
+		<French>Karnataka</French>
+		<German>Karnataka</German>
+		<Italian>Karnataka</Italian>
+		<Spanish>Karnataka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_80</Tag>
+		<English>Malwi</English>
+		<French>Malwi</French>
+		<German>Malwi</German>
+		<Italian>Malwi</Italian>
+		<Spanish>Malwi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_81</Tag>
+		<English>Rajput</English>
+		<French>Rajput</French>
+		<German>Rajput</German>
+		<Italian>Rajput</Italian>
+		<Spanish>Rajput</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_82</Tag>
+		<English>Bharati</English>
+		<French>Bharati</French>
+		<German>Bharati</German>
+		<Italian>Bharati</Italian>
+		<Spanish>Bharati</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_83</Tag>
+		<English>Gird</English>
+		<French>Gird</French>
+		<German>Gird</German>
+		<Italian>Gird</Italian>
+		<Spanish>Gird</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_84</Tag>
+		<English>Duggar</English>
+		<French>Duggar</French>
+		<German>Duggar</German>
+		<Italian>Duggar</Italian>
+		<Spanish>Duggar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_85</Tag>
+		<English>Himalayan</English>
+		<French>Himalayan</French>
+		<German>Himalayan</German>
+		<Italian>Himalayan</Italian>
+		<Spanish>Himalayan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_86</Tag>
+		<English>Khwarezmian</English>
+		<French>Khwarezmian</French>
+		<German>Khwarezmian</German>
+		<Italian>Khwarezmian</Italian>
+		<Spanish>Khwarezmian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_87</Tag>
+		<English>Iranian</English>
+		<French>Iranian</French>
+		<German>Iranian</German>
+		<Italian>Iranian</Italian>
+		<Spanish>Iranian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_88</Tag>
+		<English>Mazandarani</English>
+		<French>Mazandarani</French>
+		<German>Mazandarani</German>
+		<Italian>Mazandarani</Italian>
+		<Spanish>Mazandarani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_89</Tag>
+		<English>Pamir</English>
+		<French>Pamir</French>
+		<German>Pamir</German>
+		<Italian>Pamir</Italian>
+		<Spanish>Pamir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_90</Tag>
+		<English>Tien Shan</English>
+		<French>Tien Shan</French>
+		<German>Tien Shan</German>
+		<Italian>Tien Shan</Italian>
+		<Spanish>Tien Shan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_91</Tag>
+		<English>Taklamakan</English>
+		<French>Taklamakan</French>
+		<German>Taklamakan</German>
+		<Italian>Taklamakan</Italian>
+		<Spanish>Taklamakan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_92</Tag>
+		<English>Assyrian</English>
+		<French>Assyrian</French>
+		<German>Assyrian</German>
+		<Italian>Assyrian</Italian>
+		<Spanish>Assyrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_93</Tag>
+		<English>Goa</English>
+		<French>Goa</French>
+		<German>Goa</German>
+		<Italian>Goa</Italian>
+		<Spanish>Goa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_94</Tag>
+		<English>Khorasani</English>
+		<French>Khorasani</French>
+		<German>Khorasani</German>
+		<Italian>Khorasani</Italian>
+		<Spanish>Khorasani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_95</Tag>
+		<English>Lake Van</English>
+		<French>Lake Van</French>
+		<German>Lake Van</German>
+		<Italian>Lake Van</Italian>
+		<Spanish>Lake Van</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_96</Tag>
+		<English>Lake Urmia</English>
+		<French>Lake Urmia</French>
+		<German>Lake Urmia</German>
+		<Italian>Lake Urmia</Italian>
+		<Spanish>Lake Urmia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_97</Tag>
+		<English>Dead Sea</English>
+		<French>Dead Sea</French>
+		<German>Dead Sea</German>
+		<Italian>Dead Sea</Italian>
+		<Spanish>Dead Sea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_98</Tag>
+		<English>Lake Sevan</English>
+		<French>Lake Sevan</French>
+		<German>Lake Sevan</German>
+		<Italian>Lake Sevan</Italian>
+		<Spanish>Lake Sevan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_99</Tag>
+		<English>Sea of Galilee</English>
+		<French>Sea of Galilee</French>
+		<German>Sea of Galilee</German>
+		<Italian>Sea of Galilee</Italian>
+		<Spanish>Sea of Galilee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_100</Tag>
+		<English>Namak Lake</English>
+		<French>Namak Lake</French>
+		<German>Namak Lake</German>
+		<Italian>Namak Lake</Italian>
+		<Spanish>Namak Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_101</Tag>
+		<English>Lake Tuz</English>
+		<French>Lake Tuz</French>
+		<German>Lake Tuz</German>
+		<Italian>Lake Tuz</Italian>
+		<Spanish>Lake Tuz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_102</Tag>
+		<English>Saurashtran</English>
+		<French>Lake Egirdir</French>
+		<German>Lake Egirdir</German>
+		<Italian>Lake Egirdir</Italian>
+		<Spanish>Lake Egirdir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_103</Tag>
+		<English>Pushkar Lake</English>
+		<French>Pushkar Lake</French>
+		<German>Pushkar Lake</German>
+		<Italian>Pushkar Lake</Italian>
+		<Spanish>Pushkar Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_104</Tag>
+		<English>Bada Talaab</English>
+		<French>Bada Talaab</French>
+		<German>Bada Talaab</German>
+		<Italian>Bada Talaab</Italian>
+		<Spanish>Bada Talaab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_105</Tag>
+		<English>Lake Tharthar</English>
+		<French>Lake Tharthar</French>
+		<German>Lake Tharthar</German>
+		<Italian>Lake Tharthar</Italian>
+		<Spanish>Lake Tharthar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_106</Tag>
+		<English>Lake Razazah</English>
+		<French>Lake Razazah</French>
+		<German>Lake Razazah</German>
+		<Italian>Lake Razazah</Italian>
+		<Spanish>Lake Razazah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_107</Tag>
+		<English>Lake Hamun</English>
+		<French>Lake Hamun</French>
+		<German>Lake Hamun</German>
+		<Italian>Lake Hamun</Italian>
+		<Spanish>Lake Hamun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_107</Tag>
+		<English>Lake Moeris</English>
+		<French>Lake Moeris</French>
+		<German>Lake Moeris</German>
+		<Italian>Lake Moeris</Italian>
+		<Spanish>Lake Moeris</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

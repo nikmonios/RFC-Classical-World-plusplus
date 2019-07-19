@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIQUE_POWER</Tag>
+		<English>Unique Power</English>
+		<French>Pouvoir unique</French>
+		<German>Einzigartige Macht</German>
+		<Italian>Potere unico</Italian>
+		<Spanish>Poder único:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIQUE_POWER_NONE</Tag>
+		<English>No Unique Power</English>
+		<French>No Unique Power</French>
+		<German>No Unique Power</German>
+		<Italian>No Unique Power</Italian>
+		<Spanish>No Unique Power</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VIS</Tag>
+		<English>The Power of Resettlement:</English>
+		<French>The Power of Resettlement:</French>
+		<German>The Power of Resettlement:</German>
+		<Italian>The Power of Resettlement:</Italian>
+		<Spanish>The Power of Resettlement:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VIS2</Tag>
+		<English>Cheaper settlers</English>
+		<French>Cheaper settlers</French>
+		<German>Cheaper settlers</German>
+		<Italian>Cheaper settlers</Italian>
+		<Spanish>Cheaper settlers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VAN</Tag>
+		<English>The Power of Piracy:</English>
+		<French>The Power of Piracy:</French>
+		<German>The Power of Piracy:</German>
+		<Italian>The Power of Piracy:</Italian>
+		<Spanish>The Power of Piracy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VAN2</Tag>
+		<English>Double gold from blockading enemy ports</English>
+		<French>Double gold from blockading enemy ports</French>
+		<German>Double gold from blockading enemy ports</German>
+		<Italian>Double gold from blockading enemy ports</Italian>
+		<Spanish>Double gold from blockading enemy ports</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OST</Tag>
+		<English>The Power of Restoration:</English>
+		<French>The Power of Restoration:</French>
+		<German>The Power of Restoration:</German>
+		<Italian>The Power of Restoration:</Italian>
+		<Spanish>The Power of Restoration:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OST2</Tag>
+		<English>Faster production of basic buildings</English>
+		<French>Faster production of basic buildings</French>
+		<German>Faster production of basic buildings</German>
+		<Italian>Faster production of basic buildings</Italian>
+		<Spanish>Faster production of basic buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_LOM</Tag>
+		<English>Unique Power</English>
+		<French>Pouvoir unique</French>
+		<German>Einzigartige Macht</German>
+		<Italian>Potere unico</Italian>
+		<Spanish>Poder único:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_LOM2</Tag>
+		<English>No Unique Power</English>
+		<French>No Unique Power</French>
+		<German>No Unique Power</German>
+		<Italian>No Unique Power</Italian>
+		<Spanish>No Unique Power</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_NUB</Tag>
+		<English>The Power of Archery:</English>
+		<French>The Power of Archery:</French>
+		<German>The Power of Archery:</German>
+		<Italian>The Power of Archery:</Italian>
+		<Spanish>The Power of Archery:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_NUB2</Tag>
+		<English>Free Drill I and Combat I Promotions for Archery Units</English>
+		<French>Free Drill I and Combat I Promotions for Archery Units</French>
+		<German>Free Drill I and Combat I Promotions for Archery Units</German>
+		<Italian>Free Drill I and Combat I Promotions for Archery Units</Italian>
+		<Spanish>Free Drill I and Combat I Promotions for Archery Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_EGY</Tag>
+		<English>The Power of Hellenic Philosophy:</English>
+		<French>The Power of Hellenic Philosophy:</French>
+		<German>The Power of Hellenic Philosophy:</German>
+		<Italian>The Power of Hellenic Philosophy:</Italian>
+		<Spanish>The Power of Hellenic Philosophy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_EGY2</Tag>
+		<English>+50% Great People occurence in the Early and Late Classical Eras.</English>
+		<French>+50% Great People occurence in the Early and Late Classical Eras.</French>
+		<German>+50% Great People occurence in the Early and Late Classical Eras.</German>
+		<Italian>+50% Great People occurence in the Early and Late Classical Eras.</Italian>
+		<Spanish>+50% Great People occurence in the Early and Late Classical Eras.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_SYNERGY</Tag>
+		<English>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from nearby cities</English>
+		<French>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from nearby cities</French>
+		<German>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from nearby cities</German>
+		<Italian>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from nearby cities</Italian>
+		<Spanish>[ICON_BULLET]%D1%% a [ICON_GREATPEOPLE] from nearby cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_EGYPT_UP</Tag>
+		<English>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Ptolemaic Unique Power</English>
+		<French>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Ptolemaic Unique Power</French>
+		<German>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Ptolemaic Unique Power</German>
+		<Italian>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Ptolemaic Unique Power</Italian>
+		<Spanish>[ICON_BULLET]%D1%% a [ICON_GREATPEOPLE] from Ptolemaic Unique Power</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CAR</Tag>
+		<English>The Power of Mercenaries:</English>
+		<French>Le Pouvoir des Mercenaires :</French>
+		<German>Die Macht der Söldner:</German>
+		<Italian>Il potere dei mercenari:</Italian>
+		<Spanish>El poder de los mercenarios:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CAR2</Tag>
+		<English>Mercenaries hire and maintenance costs halved</English>
+		<French>Coûts de recrutement et d'entretien des mercenaires divisés par deux</French>
+		<German>Halbierte Sold- und Unterhaltskosten für Söldner</German>
+		<Italian>Dimezzati i costi di assunzione e mantenimento dei mercenari</Italian>
+		<Spanish>Se reducen a la mitad los costes de contrataci&#243;n y mantenimiento de mercenarios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAU</Tag>
+		<English>The Power of Buddhism:</English>
+		<French>The Power of Buddhism:</French>
+		<German>The Power of Buddhism:</German>
+		<Italian>The Power of Buddhism:</Italian>
+		<Spanish>The Power of Buddhism:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAU2</Tag>
+		<English>Starts with Buddhism as State Religion</English>
+		<French>Starts with Buddhism as State Religion</French>
+		<German>Starts with Buddhism as State Religion</German>
+		<Italian>Starts with Buddhism as State Religion</Italian>
+		<Spanish>Starts with Buddhism as State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM</Tag>
+		<English>The Power of the Hill Country:</English>
+		<French>The Power of the Hill Country:</French>
+		<German>The Power of the Hill Country:</German>
+		<Italian>The Power of the Hill Country:</Italian>
+		<Spanish>The Power of the Hill Country:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM2</Tag>
+		<English>Free Guerilla 1 promotion for Melee and Archery units.</English>
+		<French>Free Guerilla 1 promotion for Melee and Archery units.</French>
+		<German>Free Guerilla 1 promotion for Melee and Archery units.</German>
+		<Italian>Free Guerilla 1 promotion for Melee and Archery units.</Italian>
+		<Spanish>Free Guerilla 1 promotion for Melee and Archery units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ANT</Tag>
+		<English>The Power of Leadership:</English>
+		<French>The Power of Leadership:</French>
+		<German>The Power of Leadership:</German>
+		<Italian>The Power of Leadership:</Italian>
+		<Spanish>The Power of Leadership:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ANT2</Tag>
+		<English>Faster unit promotions.</English>
+		<French>Faster unit promotions.</French>
+		<German>Faster unit promotions.</German>
+		<Italian>Faster unit promotions.</Italian>
+		<Spanish>Faster unit promotions.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOJ</Tag>
+		<English>The Power of the Northern Frontier:</English>
+		<French>The Power of the Northern Frontier:</French>
+		<German>The Power of the Northern Frontier:</German>
+		<Italian>The Power of the Northern Frontier:</Italian>
+		<Spanish>The Power of the Northern Frontier:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOJ2</Tag>
+		<English>Free Discipline promotion for all military units.</English>
+		<French>Free Discipline promotion for all military units.</French>
+		<German>Free Discipline promotion for all military units.</German>
+		<Italian>Free Discipline promotion for all military units.</Italian>
+		<Spanish>Free Discipline promotion for all military units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHA</Tag>
+		<English>The Power of Cultural Production:</English>
+		<French>The Power of Cultural Production:</French>
+		<German>The Power of Cultural Production:</German>
+		<Italian>The Power of Cultural Production:</Italian>
+		<Spanish>The Power of Cultural Production:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHA2</Tag>
+		<English>Double efficiency when producing culture.</English>
+		<French>Double efficiency when producing culture.</French>
+		<German>Double efficiency when producing culture.</German>
+		<Italian>Double efficiency when producing culture.</Italian>
+		<Spanish>Double efficiency when producing culture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KAL</Tag>
+		<English>The Power of Nothing:</English>
+		<French>The Power of Nothing:</French>
+		<German>The Power of Nothing:</German>
+		<Italian>The Power of Nothing:</Italian>
+		<Spanish>The Power of Nothing:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KAL2</Tag>
+		<English>No unique power yet.</English>
+		<French>No unique power yet.</French>
+		<German>No unique power yet.</German>
+		<Italian>No unique power yet.</Italian>
+		<Spanish>No unique power yet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHA</Tag>
+		<English>The Power of Nothing:</English>
+		<French>The Power of Nothing:</French>
+		<German>The Power of Nothing:</German>
+		<Italian>The Power of Nothing:</Italian>
+		<Spanish>The Power of Nothing:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHA2</Tag>
+		<English>No unique power yet.</English>
+		<French>No unique power yet.</French>
+		<German>No unique power yet.</German>
+		<Italian>No unique power yet.</Italian>
+		<Spanish>No unique power yet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAB</Tag>
+		<English>The Power of Incense Trading:</English>
+		<French>The Power of Incense Trading:</French>
+		<German>The Power of Incense Trading:</German>
+		<Italian>The Power of Incense Trading:</Italian>
+		<Spanish>The Power of Incense Trading:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAB2</Tag>
+		<English>Saba starts with the Incense Merchants corporation.</English>
+		<French>Saba starts with the Incense Merchants corporation.</French>
+		<German>Saba starts with the Incense Merchants corporation.</German>
+		<Italian>Saba starts with the Incense Merchants corporation.</Italian>
+		<Spanish>Saba starts with the Incense Merchants corporation.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PAN</Tag>
+		<English>The Power of Paradise:</English>
+		<French>The Power of Paradise:</French>
+		<German>The Power of Paradise:</German>
+		<Italian>The Power of Paradise:</Italian>
+		<Spanish>The Power of Paradise:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PAN2</Tag>
+		<English>+1 happy and +1 health in all cities.</English>
+		<French>+1 happy and +1 health in all cities</French>
+		<German>+1 happy and +1 health in all cities</German>
+		<Italian>+1 happy and +1 health in all cities</Italian>
+		<Spanish>+1 happy and +1 health in all cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SEL</Tag>
+		<English>The Power of the Diodochi:</English>
+		<French>The Power of the Diodochi:</French>
+		<German>The Power of the Diodochi:</German>
+		<Italian>The Power of the Diodochi:</Italian>
+		<Spanish>The Power of the Diodochi:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SEL2</Tag>
+		<English>+50% Great General occurrence</English>
+		<French>+50% Great General occurrence</French>
+		<German>+50% Great General occurrence</German>
+		<Italian>+50% Great General occurrence</Italian>
+		<Spanish>+50% Great General occurrence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_HAN</Tag>
+		<English>The Power of Expansion:</English>
+		<French>The Power of Expansion:</French>
+		<German>The Power of Expansion:</German>
+		<Italian>The Power of Expansion:</Italian>
+		<Spanish>The Power of Expansion:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_HAN2</Tag>
+		<English>Cheaper Settlers, Granaries and Aqueducts.</English>
+		<French>Cheaper Settlers, Granaries and Aqueducts.</French>
+		<German>Cheaper Settlers, Granaries and Aqueducts.</German>
+		<Italian>Cheaper Settlers, Granaries and Aqueducts.</Italian>
+		<Spanish>Cheaper Settlers, Granaries and Aqueducts.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_YAM</Tag>
+		<English>The Power of Assimilation:</English>
+		<French>The Power of Kenjutsu:</French>
+		<German>The Power of Kenjutsu:</German>
+		<Italian>The Power of Kenjutsu:</Italian>
+		<Spanish>The Power of Kenjutsu:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_YAM2</Tag>
+		<English>Faster research for techs known to your neighbors if you have contact with them.</English>
+		<French>Faster research for techs known to your neighbors if you have contact with them.</French>
+		<German>Faster research for techs known to your neighbors if you have contact with them.</German>
+		<Italian>Faster research for techs known to your neighbors if you have contact with them.</Italian>
+		<Spanish>Faster research for techs known to your neighbors if you have contact with them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOG</Tag>
+		<English>The Power of Active Defense:</English>
+		<French>The Power of Active Defense:</French>
+		<German>The Power of Active Defense:</German>
+		<Italian>The Power of Active Defense:</Italian>
+		<Spanish>The Power of Active Defense:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOG2</Tag>
+		<English>Within your core and border provinces, enemy units inside your cultural borders take damage each turn.</English>
+		<French>Within your core and border provinces, enemy units inside your cultural borders take damage each turn.</French>
+		<German>Within your core and border provinces, enemy units inside your cultural borders take damage each turn.</German>
+		<Italian>Within your core and border provinces, enemy units inside your cultural borders take damage each turn.</Italian>
+		<Spanish>Within your core and border provinces, enemy units inside your cultural borders take damage each turn.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAT</Tag>
+		<English>The Power of Cultural Diffusion:</English>
+		<French>The Power of Cultural Diffusion:</French>
+		<German>The Power of Cultural Diffusion:</German>
+		<Italian>The Power of Cultural Diffusion:</Italian>
+		<Spanish>The Power of Cultural Diffusion:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAT2</Tag>
+		<English>Successful spreading of Hinduism or Buddhism to foreign cities adds culture to your cities.</English>
+		<French>Successful spreading of Hinduism or Buddhism to foreign cities adds culture to your cities.</French>
+		<German>Successful spreading of Hinduism or Buddhism to foreign cities adds culture to your cities.</German>
+		<Italian>Successful spreading of Hinduism or Buddhism to foreign cities adds culture to your cities.</Italian>
+		<Spanish>Successful spreading of Hinduism or Buddhism to foreign cities adds culture to your cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PAR</Tag>
+		<English>The Power of the Parthian Shot:</English>
+		<French>The Power of the Parthian Shot:</French>
+		<German>The Power of the Parthian Shot:</German>
+		<Italian>The Power of the Parthian Shot:</Italian>
+		<Spanish>The Power of the Parthian Shot:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PAR2</Tag>
+		<English>Free Flanking I Promotion for Cavalry and Missile Cavalry units.</English>
+		<French>Free Flanking I Promotion for Cavalry and Missile Cavalry units.</French>
+		<German>Free Flanking I Promotion for Cavalry and Missile Cavalry units.</German>
+		<Italian>Free Flanking I Promotion for Cavalry and Missile Cavalry units.</Italian>
+		<Spanish>Free Flanking I Promotion for Cavalry and Missile Cavalry units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_JIN</Tag>
+		<English>The Power of Imperial Restoration:</English>
+		<French>The Power of Imperial Restoration:</French>
+		<German>The Power of Imperial Restoration:</German>
+		<Italian>The Power of Imperial Restoration:</Italian>
+		<Spanish>The Power of Imperial Restoration:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_JIN2</Tag>
+		<English>Free defenders in captured Chinese cities.</English>
+		<French>Free defenders in captured Chinese cities.</French>
+		<German>Free defenders in captured Chinese cities.</German>
+		<Italian>Free defenders in captured Chinese cities.</Italian>
+		<Spanish>Free defenders in captured Chinese cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FRA</Tag>
+		<English>The Power of the Carolingian Renaissance:</English>
+		<French>The Power of the Emperor:</French>
+		<German>The Power of the Emperor:</German>
+		<Italian>The Power of the Emperor:</Italian>
+		<Spanish>The Power of the Emperor:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FRA2</Tag>
+		<English>faster production of [ICON_CHRISTIANITY] buildings.</English>
+		<French>Less upkeep for civics</French>
+		<German>Less upkeep for civics</German>
+		<Italian>Less upkeep for civics</Italian>
+		<Spanish>Less upkeep for civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_DAC</Tag>
+		<English>The Power of Fortification:</English>
+		<French>The Power of Fortification:</French>
+		<German>The Power of Fortification:</German>
+		<Italian>The Power of Fortification:</Italian>
+		<Spanish>The Power of Fortification:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_DAC2</Tag>
+		<English>Free City Garrison I promotion for Archery and Melee units</English>
+		<French>Free City Garrison I promotion for Archery and Melee units</French>
+		<German>Free City Garrison I promotion for Archery and Melee units</German>
+		<Italian>Free City Garrison I promotion for Archery and Melee units</Italian>
+		<Spanish>Free City Garrison I promotion for Archery and Melee units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAS</Tag>
+		<English>The Power of the Magi:</English>
+		<French>The Power of the Magi:</French>
+		<German>The Power of the Magi:</German>
+		<Italian>The Power of the Magi:</Italian>
+		<Spanish>The Power of the Magi:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAS2</Tag>
+		<English>State religion buildings can be constructed as soon as the required technology is available for research.</English>
+		<French>State religion buildings can be constructed as soon as the required technology is available for research.</French>
+		<German>State religion buildings can be constructed as soon as the required technology is available for research.</German>
+		<Italian>State religion buildings can be constructed as soon as the required technology is available for research.</Italian>
+		<Spanish>State religion buildings can be constructed as soon as the required technology is available for research.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KUS</Tag>
+		<English>The Power of Tolerance:</English>
+		<French>The Power of Tolerance:</French>
+		<German>The Power of Tolerance:</German>
+		<Italian>The Power of Tolerance:</Italian>
+		<Spanish>The Power of Tolerance:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KUS2</Tag>
+		<English>Less unhappiness and instability from non-state religions</English>
+		<French>Less unhappiness and instability from non-state religions</French>
+		<German>Less unhappiness and instability from non-state religions</German>
+		<Italian>Less unhappiness and instability from non-state religions</Italian>
+		<Spanish>Less unhappiness and instability from non-state religions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AXU</Tag>
+		<English>The Power of the Middleman:</English>
+		<French>The Power of the Middleman:</French>
+		<German>The Power of the Middleman:</German>
+		<Italian>The Power of the Middleman:</Italian>
+		<Spanish>The Power of the Middleman:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AXU2</Tag>
+		<English>Technologies can be brokered.</English>
+		<French>Technologies can be brokered.</French>
+		<German>Technologies can be brokered.</German>
+		<Italian>Technologies can be brokered.</Italian>
+		<Spanish>Technologies can be brokered.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GUP</Tag>
+		<English>The Power of India's Golden Age:</English>
+		<French>The Power of India's Golden Age:</French>
+		<German>The Power of India's Golden Age:</German>
+		<Italian>The Power of India's Golden Age:</Italian>
+		<Spanish>The Power of India's Golden Age:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GUP2</Tag>
+		<English>+50% Golden Age duration and fewer Great People required to start a Golden Age.</English>
+		<French>+50% Golden Age duration and fewer Great People required to start a Golden Age.</French>
+		<German>+50% Golden Age duration and fewer Great People required to start a Golden Age.</German>
+		<Italian>+50% Golden Age duration and fewer Great People required to start a Golden Age.</Italian>
+		<Spanish>+50% Golden Age duration and fewer Great People required to start a Golden Age.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROM</Tag>
+		<English>The Power of Roman Law:</English>
+		<French>The Power of Roman Law:</French>
+		<German>The Power of Roman Law:</German>
+		<Italian>The Power of Roman Law:</Italian>
+		<Spanish>The Power of Roman Law:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROM2</Tag>
+		<English>The Oligrachy, Empire and Bureaucracy civics are available from the start</English>
+		<French>The Oligrachy, Empire and Bureaucracy civics are available from the start</French>
+		<German>The Oligrachy, Empire and Bureaucracy civics are available from the start</German>
+		<Italian>The Oligrachy, Empire and Bureaucracy civics are available from the start</Italian>
+		<Spanish>The Oligrachy, Empire and Bureaucracy civics are available from the start</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CEL</Tag>
+		<English>The Power of the Bards:</English>
+		<French>The Power of the Bards:</French>
+		<German>The Power of the Bards:</German>
+		<Italian>The Power of the Bards:</Italian>
+		<Spanish>The Power of the Bards:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CEL2</Tag>
+		<English>Great Generals can create minor Great Works</English>
+		<French>>Great Generals can create minor Great Works</French>
+		<German>>Great Generals can create minor Great Works</German>
+		<Italian>>Great Generals can create minor Great Works</Italian>
+		<Spanish>>Great Generals can create minor Great Works</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_COR</Tag>
+		<English>The Power of Medicine:</English>
+		<French>Le Pouvoir de ma M&#233;decine:</French>
+		<German>Die Macht der Medizin:</German>
+		<Italian>The Power of Medicine:</Italian>
+		<Spanish>The Power of Medicine:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_COR2</Tag>
+		<English>All land units start with Medic I promotion</English>
+		<French>Chaque unit&#233; commence avec la promotion Infirmier I</French>
+		<German>Alle Einheiten starten mit der Beförderung Sanit&#228;ter I</German>
+		<Italian>All units start with Medic I promotion</Italian>
+		<Spanish>All units start with Medic I promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARA</Tag>
+		<English>The Power of Faith:</English>
+		<French>Le Pouvoir de la Foi:</French>
+		<German>Die Macht des Glaubens:</German>
+		<Italian>The Power of Faith:</Italian>
+		<Spanish>The Power of Faith:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARA2</Tag>
+		<English>State Religion spreads to every newly acquired (founded, conquered, flipped) city.</English>
+		<French>La religion d'Etat se r&#233;pand dans chaque ville avec un temple</French>
+		<German>Ausbreitung der Staatsreligion in allen St&#228;dten</German>
+		<Italian>State Religion spreads to every newly acquired (founded, conquered, flipped) city, and a free Temple is built in it.</Italian>
+		<Spanish>State Religion spreads to every newly acquired (founded, conquered, flipped) city, and a free Temple is built in it.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SRI</Tag>
+		<English>The Power of Thalassocracy:</English>
+		<French>French</French>
+		<German>Die Macht der Tributstaaten:</German>
+		<Italian>Italian</Italian>
+		<Spanish>Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SRI2</Tag>
+		<English>+1 [ICON_COMMERCE] and +1 [ICON_PRODUCTION] from fishing boats.</English>
+		<French>French</French>
+		<German>Alle Kuestenstadte erhalten eine zusaetzliche Handelsroute</German>
+		<Italian>Italian</Italian>
+		<Spanish>Spanish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SRIVIJAYAN_UP</Tag>
+		<English>[LINK=CIVILIZATION_SRIVAJAYA]Sri Vijayan Unique Power[\LINK]</English>
+		<French>[LINK=CIVILIZATION_SRIVAJAYA]Sri Vijayan Unique Power[\LINK]</French>
+		<German>[LINK=CIVILIZATION_SRIVAJAYA]Sri Vijayan Unique Power[\LINK]</German>
+		<Italian>[LINK=CIVILIZATION_SRIVAJAYA]Sri Vijayan Unique Power[\LINK]</Italian>
+		<Spanish>[LINK=CIVILIZATION_SRIVAJAYA]Sri Vijayan Unique Power[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TAN</Tag>
+		<English>The Power of Bureaucracy:</English>
+		<French>The Power of Bureaucracy:</French>
+		<German>The Power of Bureaucracy:</German>
+		<Italian>The Power of Bureaucracy:</Italian>
+		<Spanish>The Power of Bureaucracy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TAN2</Tag>
+		<English>-50% civic upkeep.</English>
+		<French>-50% civic upkeep.</French>
+		<German>-50% civic upkeep.</German>
+		<Italian>-50% civic upkeep.</Italian>
+		<Spanish>-50% civic upkeep.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TOC</Tag>
+		<English>The Power of the Silk Road:</English>
+		<French>The Power of the Silk Road:</French>
+		<German>The Power of the Silk Road:</German>
+		<Italian>The Power of the Silk Road:</Italian>
+		<Spanish>The Power of the Silk Road:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TOC2</Tag>
+		<English>+2 trade routes per city</English>
+		<French>+2 trade routes per city</French>
+		<German>+2 trade routes per city</German>
+		<Italian>+2 trade routes per city</Italian>
+		<Spanish>+2 trade routes per city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FUN</Tag>
+		<English>The Power of the Monsoon:</English>
+		<French>The Power of the Monsoon:</French>
+		<German>The Power of the Monsoon:</German>
+		<Italian>The Power of the Monsoon:</Italian>
+		<Spanish>The Power of the Monsoon:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FUN2</Tag>
+		<English>+1 [ICON_FOOD] from tropical river tiles and jungles do not cause unhealthiness.</English>
+		<French>+1 [ICON_FOOD] from tropical river tiles and jungles do not cause unhealthiness.</French>
+		<German>+1 [ICON_FOOD] from tropical river tiles and jungles do not cause unhealthiness.</German>
+		<Italian>+1 [ICON_FOOD] from tropical river tiles and jungles do not cause unhealthiness.</Italian>
+		<Spanish>+1 [ICON_FOOD] from tropical river tiles and jungles do not cause unhealthiness.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BAC</Tag>
+		<English>The Power of Bactrian Economy:</English>
+		<French>The Power of Bactrian Economy:</French>
+		<German>The Power of Bactrian Economy:</German>
+		<Italian>The Power of Bactrian Economy:</Italian>
+		<Spanish>The Power of Bactrian Economy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BAC2</Tag>
+		<English>+1 gold in all plots that produce at least 2 gold</English>
+		<French>+1 gold in all plots that produce at least 2 gold</French>
+		<German>+1 gold in all plots that produce at least 2 gold</German>
+		<Italian>+1 gold in all plots that produce at least 2 gold</Italian>
+		<Spanish>+1 gold in all plots that produce at least 2 gold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BYZ</Tag>
+		<English>The Power of Endurance:</English>
+		<French>The Power of Endurance:</French>
+		<German>The Power of Endurance:</German>
+		<Italian>The Power of Endurance:</Italian>
+		<Spanish>The Power of Endurance:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BYZ2</Tag>
+		<English>Reduced effects from stability checks</English>
+		<French>Reduced effects from stability checks</French>
+		<German>Reduced effects from stability checks</German>
+		<Italian>Reduced effects from stability checks</Italian>
+		<Spanish>Reduced effects from stability checks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOK</Tag>
+		<English>The Power of the Steppe:</English>
+		<French>The Power of the Steppe:</French>
+		<German>The Power of the Steppe:</German>
+		<Italian>The Power of the Steppe:</Italian>
+		<Spanish>The Power of the Steppe:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOK2</Tag>
+		<English>New cities in Steppe provinces spawn Horses in their city radius</English>
+		<French>New cities in Steppe provinces spawn Horses in their city radius</French>
+		<German>New cities in Steppe provinces spawn Horses in their city radius</German>
+		<Italian>New cities in Steppe provinces spawn Horses in their city radius</Italian>
+		<Spanish>New cities in Steppe provinces spawn Horses in their city radius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHA</Tag>
+		<English>The Power of Nomad Confederacies:</English>
+		<French>The Power of Nomad Confederacies:</French>
+		<German>The Power of Nomad Confederacies:</German>
+		<Italian>The Power of Nomad Confederacies:</Italian>
+		<Spanish>The Power of Nomad Confederacies:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHA2</Tag>
+		<English>Chance to recruit defeated steppe barbarians</English>
+		<French>Chance to recruit defeated steppe barbarians</French>
+		<German>Chance to recruit defeated steppe barbarians</German>
+		<Italian>Chance to recruit defeated steppe barbarians</Italian>
+		<Spanish>Chance to recruit defeated steppe barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_QIN</Tag>
+		<English>The Power of the Lash:</English>
+		<French>The Power of the Lash:</French>
+		<German>The Power of the Lash:</German>
+		<Italian>The Power of the Lash:</Italian>
+		<Spanish>The Power of the Lash:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_QIN2</Tag>
+		<English>Extra production from slaves used to hurry buildings</English>
+		<French>Extra production from slaves used to hurry buildings</French>
+		<German>Extra production from slaves used to hurry buildings</German>
+		<Italian>Extra production from slaves used to hurry buildings</Italian>
+		<Spanish>Extra production from slaves used to hurry buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIB</Tag>
+		<English>The Power of the Tibetan Plateau:</English>
+		<French>The Power of the Tibetan Plateau:</French>
+		<German>The Power of the Tibetan Plateau:</German>
+		<Italian>The Power of the Tibetan Plateau:</Italian>
+		<Spanish>The Power of the Tibetan Plateau:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIB2</Tag>
+		<English>+1 [ICON_FOOD] and [ICON_PRODUCTION] from pasture</English>
+		<French>+1 [ICON_FOOD] and [ICON_PRODUCTION] from pasture</French>
+		<German>+1 [ICON_FOOD] and [ICON_PRODUCTION] from pasture</German>
+		<Italian>+1 [ICON_FOOD] and [ICON_PRODUCTION] from pasture</Italian>
+		<Spanish>+1 [ICON_FOOD] and [ICON_PRODUCTION] from pasture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TIBETAN_UP</Tag>
+		<English>[LINK=CIVILIZATION_TIBET]Tibetan Unique Power[\LINK]</English>
+		<French>[LINK=CIVILIZATION_TIBET]Tibetan Unique Power[\LINK]</French>
+		<German>[LINK=CIVILIZATION_TIBET]Tibetan Unique Power[\LINK]</German>
+		<Italian>[LINK=CIVILIZATION_TIBET]Tibetan Unique Power[\LINK]</Italian>
+		<Spanish>[LINK=CIVILIZATION_TIBET]Tibetan Unique Power[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAC</Tag>
+		<English>The Power of Zealotry:</English>
+		<French>The Power of Zealotry:</French>
+		<German>The Power of Zealotry:</German>
+		<Italian>The Power of Zealotry:</Italian>
+		<Spanish>The Power of Zealotry:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAC2</Tag>
+		<English>All units start with the Blessed Promotion</English>
+		<French>All units start with the Blessed Promotion</French>
+		<German>All units start with the Blessed Promotion</German>
+		<Italian>All units start with the Blessed Promotion</Italian>
+		<Spanish>All units start with the Blessed Promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PON</Tag>
+		<English>The Power of Diplomacy:</English>
+		<French>The Power of Diplomacy:</French>
+		<German>The Power of Diplomacy:</German>
+		<Italian>The Power of Diplomacy:</Italian>
+		<Spanish>The Power of Diplomacy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PON2</Tag>
+		<English>Foreign civs are friendlier</English>
+		<French>Foreign civs are friendlier</French>
+		<German>Foreign civs are friendlier</German>
+		<Italian>Foreign civs are friendlier</Italian>
+		<Spanish>Foreign civs are friendlier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VIE</Tag>
+		<English>The Power of Guerilla Warfare:</English>
+		<French>The Power of Guerilla Warfare:</French>
+		<German>The Power of Guerilla Warfare:</German>
+		<Italian>The Power of Guerilla Warfare:</Italian>
+		<Spanish>The Power of Guerilla Warfare:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_VIE2</Tag>
+		<English>Archery and Melee units strart with Woodsman I and Drill I</English>
+		<French>Archery and Melee units strart with Woodsman I and Drill I</French>
+		<German>Archery and Melee units strart with Woodsman I and Drill I</German>
+		<Italian>Archery and Melee units strart with Woodsman I and Drill I</Italian>
+		<Spanish>Archery and Melee units strart with Woodsman I and Drill I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_START_ROMAN_CIVIL_WAR_TITLE</Tag>
+		<English>Civil War!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_START_ROMAN_CIVIL_WAR_MESSAGE</Tag>
+		<English>A successful general is attempting to seize power! Conquering a few of his cities will cause him to surrender.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_START_ROMAN_CIVIL_WAR_OK</Tag>
+		<English>Ok</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_START_ROMAN_CIVIL_WAR</Tag>
+		<English>A successful Roman general is attempting to seize control of the Empire!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_END_ROMAN_CIVIL_WAR</Tag>
+		<English>The rebellious Roman general has been defeated!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_END_ROMAN_CIVIL_WAR_TITLE</Tag>
+		<English>Victory!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_END_ROMAN_CIVIL_WAR_MESSAGE</Tag>
+		<English>The rebels are surrendering!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_END_ROMAN_CIVIL_WAR_OK</Tag>
+		<English>Ok</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANNIBAL_ATTACKS</Tag>
+		<English>The Carthaginian general Hannibal has outflanked us and brought an army against our cities!</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROME_DEFENDS</Tag>
+		<English>Alarmed by our warlike intentions, the Romans have raised fresh legions to defend their capital!</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROMAN_CONQUESTS</Tag>
+		<English>New legions have been raised to attack %s1_civ_adjective!</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROMAN_INDY_CONQUERORS</Tag>
+		<English>Fighting among independent cities has led to an armed intervention by Rome.</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ANTIGONID_INDY_CONQUERORS</Tag>
+		<English>Inspired by recent victories, the Antigonids have launched an expedition against Greece.</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BACTRIAN_INDY_CONQUERORS</Tag>
+		<English>The Bactrian Greeks are invading Gandhara!</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROMAN_INDY_ASSIMILATION</Tag>
+		<English>An independent city has placed itself under the protection of Rome.</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_HAN_INDY_ASSIMILATION</Tag>
+		<English>An independent city has acknowledged the overlordship of Han.</English>
+		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ROMAN_CONQUESTS_TARGET</Tag>
+		<English>The Romans have raised new legions to conquer our civilization!</English>
+		<German>Die Römer haben eine Armee zum Angriff auf unsere Zivilisation zusammengestellt!</German>
+	</TEXT>
+</Civ4GameText>

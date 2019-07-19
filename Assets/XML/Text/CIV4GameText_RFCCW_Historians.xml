@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Tim McCracken (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN1</Tag>
+		<English>Demetrius the Chronographer</English>
+		<French>Demetrius the Chronographer</French>
+		<German>Demetrius the Chronographer</German>
+		<Italian>Demetrius the Chronographer</Italian>
+		<Spanish>Demetrius the Chronographer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN2</Tag>
+		<English>Polybius</English>
+		<French>Polybius</French>
+		<German>Polybius</German>
+		<Italian>Polybius</Italian>
+		<Spanish>Polybius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN3</Tag>
+		<English>Liu Xiang</English>
+		<French>Liu Xiang</French>
+		<German>Liu Xiang</German>
+		<Italian>Liu Xiang</Italian>
+		<Spanish>Liu Xiang</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN4</Tag>
+		<English>Sima Qian</English>
+		<French>Sima Qian</French>
+		<German>Sima Qian</German>
+		<Italian>Sima Qian</Italian>
+		<Spanish>Sima Qian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN5</Tag>
+		<English>Titus Livius</English>
+		<French>Titus Livius</French>
+		<German>Titus Livius</German>
+		<Italian>Titus Livius</Italian>
+		<Spanish>Titus Livius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN6</Tag>
+		<English>Menander of Ephesus</English>
+		<French>Menander of Ephesus</French>
+		<German>Menander of Ephesus</German>
+		<Italian>Menander of Ephesus</Italian>
+		<Spanish>Menander of Ephesus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN7</Tag>
+		<English>Ban Biao</English>
+		<French>Ban Biao</French>
+		<German>Ban Biao</German>
+		<Italian>Ban Biao</Italian>
+		<Spanish>Ban Biao</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN8</Tag>
+		<English>Josephus</English>
+		<French>Josephus</French>
+		<German>Josephus</German>
+		<Italian>Josephus</Italian>
+		<Spanish>Josephus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN9</Tag>
+		<English>Yu Huan</English>
+		<French>Yu Huan</French>
+		<German>Yu Huan</German>
+		<Italian>Yu Huan</Italian>
+		<Spanish>Yu Huan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN10</Tag>
+		<English>Pliny the Elder</English>
+		<French>Pliny the Elder</French>
+		<German>Pliny the Elder</German>
+		<Italian>Pliny the Elder</Italian>
+		<Spanish>Pliny the Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN11</Tag>
+		<English>Fan Ye</English>
+		<French>Fan Ye</French>
+		<German>Fan Ye</German>
+		<Italian>Fan Ye</Italian>
+		<Spanish>Fan Ye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN12</Tag>
+		<English>Tacitus</English>
+		<French>Tacitus</French>
+		<German>Tacitus</German>
+		<Italian>Tacitus</Italian>
+		<Spanish>Tacitus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN13</Tag>
+		<English>Cicero</English>
+		<French>>Cicero</French>
+		<German>>Cicero</German>
+		<Italian>>Cicero</Italian>
+		<Spanish>>Cicero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN14</Tag>
+		<English>Demetrius the Chronographer</English>
+		<French>Demetrius the Chronographer</French>
+		<German>Demetrius the Chronographer</German>
+		<Italian>Demetrius the Chronographer</Italian>
+		<Spanish>Demetrius the Chronographer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN15</Tag>
+		<English>Cicero</English>
+		<French>>Cicero</French>
+		<German>>Cicero</German>
+		<Italian>>Cicero</Italian>
+		<Spanish>>Cicero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN16</Tag>
+		<English>Tacitus</English>
+		<French>Tacitus</French>
+		<German>Tacitus</German>
+		<Italian>Tacitus</Italian>
+		<Spanish>Tacitus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN17</Tag>
+		<English>Fan Ye</English>
+		<French>Fan Ye</French>
+		<German>Fan Ye</German>
+		<Italian>Fan Ye</Italian>
+		<Spanish>Fan Ye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN18</Tag>
+		<English>Pliny the Elder</English>
+		<French>Pliny the Elder</French>
+		<German>Pliny the Elder</German>
+		<Italian>Pliny the Elder</Italian>
+		<Spanish>Pliny the Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN19</Tag>
+		<English>Ban Biao</English>
+		<French>Ban Biao</French>
+		<German>Ban Biao</German>
+		<Italian>Ban Biao</Italian>
+		<Spanish>Ban Biao</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_TEXT2</Tag>
+		<English>The %s1 States of the World!</English>
+		<French>les civilisations les plus %s1 du monde !</French>
+		<German>Die %s1 Zivilisationen der Welt!</German>
+		<Italian>La civilt&#224; %s1 del mondo!</Italian>
+		<Spanish>Las civilizaciones %s1 del mundo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_PIETY</Tag>
+		<English>Most Pious</English>
+		<French>Most Pious</French>
+		<German>Most Pious</German>
+		<Italian>Most Pious</Italian>
+		<Spanish>Most Pious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_UNKNOWN</Tag>
+		<English>An Unknown State</English>
+		<French>Une civilisation inconnue</French>
+		<German>Unbekannte Zivilisation</German>
+		<Italian>Una civilt&#224; sconosciuta</Italian>
+		<Spanish>Una civilizaci&#243;n desconocida</Spanish>
+	</TEXT>
+</Civ4GameText>

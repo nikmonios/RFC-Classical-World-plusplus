@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAX_START_ERA</Tag>
+		<English>[ICON_BULLET]Can only be built in %s1_Name or earlier</English>
+		<French>[ICON_BULLET]Construction uniquement possible &#224; l'&#233;poque "%s1_Name" et pour les d&#233;buts de partie plus pr&#233;coces</French>
+		<German>[ICON_BULLET]Kann nur im Zeitalter %s1_Name und fr&#252;her errichtet werden</German>
+		<Italian>[ICON_BULLET]Pu&#242; essere costruito soltanto durante l'era %s1_Name o prima</Italian>
+		<Spanish>[ICON_BULLET]Solo se puede construir en [NUM1:el:la:los:las] %s1_Name e inicios anteriores</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_CORPORATION_SCREEN</Tag>
+		<English>Company Advisor</English>
+		<French>Conseiller des soci&#233;t&#233;s commerciales</French>
+		<German>Unternehmensberater</German>
+		<Italian>Consigliere corporativo</Italian>
+		<Spanish>Consejero de corporaci&#243;n</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SCREEN_TITLE</Tag>
+		<English>Company Advisor</English>
+		<French>Conseiller commercial</French>
+		<German>Unternehmensberater</German>
+		<Italian>Consigliere corporativo</Italian>
+		<Spanish>Consejero de corporaci&#243;n</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_JUNGLE</Tag>
+		<English>Tropical Forest</English>
+		<French>
+			<Text>Jungle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Dschungel</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Giungla:Giungle</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Selva:Selvas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REMOVE_JUNGLE</Tag>
+		<English>Remove [LINK=FEATURE_JUNGLE]Tropical Forest[\LINK]</English>
+		<French>d&#233;fricher la [LINK=FEATURE_JUNGLE]jungle[\LINK]</French>
+		<German>[LINK=FEATURE_JUNGLE]Dschungel[\LINK] entfernen</German>
+		<Italian>Rimuovere la [LINK=FEATURE_JUNGLE]giungla[\LINK]</Italian>
+		<Spanish>Quitar [LINK=FEATURE_JUNGLE]selva[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXTRA_COST</Tag>
+		<English>[ICON_BULLET]%D1_Change[ICON_GOLD] Upkeep Cost</English>
+		<French>[ICON_BULLET]Co&#251;t %D1_Change[ICON_GOLD]</French>
+		<German>[ICON_BULLET]%D1_Change[ICON_GOLD] Kosten</German>
+		<Italian>[ICON_BULLET]%D1_Change al costo di [ICON_GOLD]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change al coste en [ICON_GOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_BEGINS</Tag>
+		<English>%s1_PlyrName Golden Age begins</English>
+		<French>L'&#226;ge d'or de %s1_PlyrName commence</French>
+		<German>F&#252;r %s1_PlyrName beginnt ein Goldenes Zeitalter</German>
+		<Italian>L'Et&#224; dell'Oro di %s1_PlyrName inizia</Italian>
+		<Spanish>Empieza la edad de oro de %s1_PlyrName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_HAS_BEGUN</Tag>
+		<English>%s1_PlyrName Golden Age has begun!!!</English>
+		<French>L'&#226;ge d'or de %s1_PlyrName vient de commencer !</French>
+		<German>F&#252;r %s1_PlyrName hat ein Goldenes Zeitalter begonnen!!!</German>
+		<Italian>L'Et&#224; dell'Oro di %s1_PlyrName &#232; iniziata!</Italian>
+		<Spanish>Ha empezado la edad de oro de %s1_PlyrName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_ENDED</Tag>
+		<English>%s1_PlyrName Golden Age has ended...</English>
+		<French>L'&#226;ge d'or de %s1_PlyrName a pris fin...</French>
+		<German>Das Goldene Zeitalter f&#252;r %s1_PlyrName ist beendet ...</German>
+		<Italian>L'Et&#224; dell'Oro di %s1_PlyrName &#232; terminata!</Italian>
+		<Spanish>Ha terminado la edad de oro de %s1_PlyrName...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_PERMANENT_ALLIANCE</Tag>
+		<English>%s1_PlyrName [NUM1:has:has:have:have] made a Permanent Alliance with %s2_TeamName!</English>
+		<French>%s1_PlyrName a forg&#233; une alliance permanente avec %s2_TeamName !</French>
+		<German>%s1_PlyrName hat eine Allianz mit dem Team %s2_TeamName geschlossen!</German>
+		<Italian>%s1_PlyrName ha siglato un'alleanza permanente con la squadra %s2_TeamName!</Italian>
+		<Spanish>%s1_PlyrName ha firmado una alianza permanente con %s2_TeamName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_DECLARED_WAR_ON</Tag>
+		<English>You have declared war on %s1_TeamName!</English>
+		<French>Vous avez d&#233;clar&#233; la guerre &#224; %s1_TeamName !</French>
+		<German>Ihr habt dem Team %s1_TeamName den Krieg erkl&#228;rt!</German>
+		<Italian>Hai dichiarato guerra alla squadra %s1_TeamName!</Italian>
+		<Spanish>Le hab&#233;is declarado la guerra a %s1_TeamName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_DECLARED_WAR_ON_YOU</Tag>
+		<English>%s1_PlyrName [NUM1:has:has:have:have] declared war on you!</English>
+		<French>%s1_PlyrName vous a d&#233;clar&#233; la guerre !</French>
+		<German>%s1_PlyrName hat Euch den Krieg erkl&#228;rt!</German>
+		<Italian>%s1_PlyrName ti ha dichiarato guerra!</Italian>
+		<Spanish>%s1_PlyrName os han declarado la guerra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SOMEONE_DECLARED_WAR</Tag>
+		<English>%s1_PlyrName [NUM1:has:has:have:have] declared war on %s2_PlyrName!</English>
+		<French>%s1_PlyrName a d&#233;clar&#233; la guerre &#224; %s2_PlyrName !</French>
+		<German>%s1_PlyrName hat %s2_PlyrName den Krieg erkl&#228;rt!</German>
+		<Italian>%s1_PlyrName ha dichiarato guerra a %s2_PlyrName!</Italian>
+		<Spanish>%s1_PlyrName le ha declarado la guerra a %s2_PlyrName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SOMEONE_DECLARES_WAR</Tag>
+		<English>%s1_PlyrName [NUM1:declares:declares:declare:declare] war on %s2_PlyrName!</English>
+		<French>%s1_PlyrName d&#233;clare la guerre &#224; %s2_PlyrName !</French>
+		<German>%s1_PlyrName erkl&#228;rt %s2_PlyrName den Krieg!</German>
+		<Italian>%s1_PlyrName dichiara guerra a %s2_PlyrName!</Italian>
+		<Spanish>%s1_PlyrName le declara la guerra a %s2_PlyrName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SOMEONE_MADE_PEACE</Tag>
+		<English>%s1_PlyrName [NUM1:has:has:have:have] made peace with %s2_PlyrName!</English>
+		<French>%s1_PlyrName a fait la paix avec %s2_PlyrName !</French>
+		<German>%s1_PlyrName hat mit %s2_PlyrName Frieden geschlossen!</German>
+		<Italian>%s1_PlyrName ha siglato la pace con %s2_PlyrName!</Italian>
+		<Spanish>%s1_PlyrName ha firmado la paz con %s2_PlyrName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_SPREAD</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has expanded into %s2_CityName.</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]La soci&#233;t&#233; commerciale %s1_CorpName[COLOR_REVERT] s'est d&#233;velopp&#233;e &#224; %s2_CityName.</French>
+		<German>Die Kapitalgesellschaft [COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] hat nach %s2_CityName expandiert.</German>
+		<Italian>La [COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] si &#232; estesa a %s2_CityName.</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] se ha expandido a %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_REMOVED</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName.</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName.</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName.</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName.</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED</Tag>
+		<English>%s1_CorpName has been founded in %s2_CityName!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e &#224; %s2_CityName !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in %s2_CityName gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata a %s2_CityName!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a %s2_CityName!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED_UNKNOWN</Tag>
+		<English>%s1_CorpName has been founded in a distant land!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e dans un pays lointain !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in einem entfernten Land gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata in terre lontane!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a una tierra lejana!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_DIFFERENT_RELIGION</Tag>
+		<English>%D1: "You are an infidel!"</English>
+		<French>%D1 : "Votre conversion &#224; une religion pa&#239;enne nous a profond&#233;ment contrari&#233;s."</French>
+		<German>%D1: "Wir sind entsetzt, dass Ihr in die F&#228;nge einer heidnischen Religion geraten seid!"</German>
+		<Italian>%D1: "Siamo amareggiati del fatto che siate caduti schiavi di una religione empia."</Italian>
+		<Spanish>%D1: "Nos trastorna que hay&#225;is ca&#237;do bajo el influjo de una religi&#243;n infiel."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADE_YIELD_MODIFIERS</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1&#37; %F2_yield from [ICON_TRADE]</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1&#37; %F2_yield avec : [ICON_TRADE]</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1&#37; %F2_yield durch [ICON_TRADE]</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1&#37; %F2_yield da [ICON_TRADE]</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1&#37; %F2_yield por [ICON_TRADE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_GOLD_CITY_CAPTURE</Tag>
+		<English>You have pillaged %d1_Num [ICON_GOLD] from the capture of %s2_CityName!!! What would you like to do with it?</English>
+		<French>Vous avez pill&#233; %d1_Num [ICON_GOLD] en capturant %s2_CityName ! Voulez-vous le garder ?</French>
+		<German>Ihr habt durch die Eroberung von %s2_CityName %d1_Num [ICON_GOLD] erbeutet!!! Wollt Ihr die Stadt behalten?</German>
+		<Italian>Hai saccheggiato %d1_Num [ICON_GOLD] dalla conquista di %s2_CityName!!! Vuoi mantenerla?</Italian>
+		<Spanish>Hab&#233;is saqueado %d1_Num [ICON_GOLD] con la captura de %s2_CityName. &#191;Dese&#225;is conservarla?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CITY_CAPTURE_KEEP</Tag>
+		<English>You have captured %s1_CityName!!! What would you like to do with it?</English>
+		<French>Vous avez captur&#233; %s1_CityName ! Voulez-vous garder cette ville ?</French>
+		<German>Ihr habt die Stadt %s1_CityName eingenommen!!! Wollt Ihr sie behalten?</German>
+		<Italian>Hai conquistato %s1_CityName! Vuoi tenerla?</Italian>
+		<Spanish>Hab&#233;is capturado %s1_CityName. &#191;Dese&#225;is conservarla?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KEEP_CAPTURED_CITY</Tag>
+		<English>Install a new Governor...</English>
+		<French>Oui ! Qu'on installe un nouveau gouverneur...</French>
+		<German>Ja! Benennt einen neuen Statthalter ...</German>
+		<Italian>S&#236;! Instaura un nuovo governatore...</Italian>
+		<Spanish>S&#237;. Que tome posesi&#243;n un nuevo gobernante.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_RAZE_CAPTURED_CITY</Tag>
+		<English>Raze it to the ground!!!</English>
+		<French>NON ! REDUISEZ-LA EN CENDRES !</French>
+		<German>Nein! BRENNT SIE NIEDER!!!</German>
+		<Italian>No! BRUCIAMO TUTTO!</Italian>
+		<Spanish>&#161;No! &#161;REDUCIDLA A CENIZAS!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ENSLAVE_CAPTURED_CITY</Tag>
+		<English>Raze the city and enslave its people!!!</English>
+		<French>NON ! REDUISEZ-LA EN CENDRES !</French>
+		<German>Nein! BRENNT SIE NIEDER!!!</German>
+		<Italian>No! BRUCIAMO TUTTO!</Italian>
+		<Spanish>&#161;No! &#161;REDUCIDLA A CENIZAS!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_RETURN_ALLIED_CITY</Tag>
+		<English>Return control to the %s1_CivName</English>
+		<French>Non, rendez-la aux %s1_CivName.</French>
+		<German>Nein, &#252;bergebt sie wieder an das %s1:2_CivName</German>
+		<Italian>No, restituisci il controllo all'%s1_CivName</Italian>
+		<Spanish>No, devolvedle el control al %s1_CivName</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_EXTERMINATE</Tag>
+		<English>Drive out the heretics and heathens!</English>
+		<French>Drive out the heretics and heathens!</French>
+		<German>Drive out the heretics and heathens!</German>
+		<Italian>Drive out the heretics and heathens!</Italian>
+		<Spanish>Drive out the heretics and heathens!</Spanish>
+	</TEXT>
+</Civ4GameText>

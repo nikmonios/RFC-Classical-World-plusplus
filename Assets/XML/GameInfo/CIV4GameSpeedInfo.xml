@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Speed -->
+<!-- NOTE: If you remove any of these you need to update GameInfo/CultureLevelInfos.xml. Also you will need to update the GlobalDefines.xml if you remove GAMESPEED_STANDARD -->
+<Civ4GameSpeedInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<GameSpeedInfos>
+		<GameSpeedInfo>
+			<Type>GAMESPEED_NORMAL</Type>
+			<Description>TXT_KEY_GAMESPEED_NORMAL</Description>
+			<Help>TXT_KEY_GAMESPEED_EPIC_HELP</Help>
+			<iGrowthPercent>160</iGrowthPercent>
+			<iTrainPercent>150</iTrainPercent>
+			<iConstructPercent>100</iConstructPercent>
+			<iCreatePercent>150</iCreatePercent>
+			<iResearchPercent>180</iResearchPercent>
+			<iBuildPercent>150</iBuildPercent>
+			<iImprovementPercent>150</iImprovementPercent>
+			<iGreatPeoplePercent>300</iGreatPeoplePercent>
+			<iCulturePercent>120</iCulturePercent>
+			<iAnarchyPercent>0</iAnarchyPercent>
+			<iBarbPercent>100</iBarbPercent>
+			<iFeatureProductionPercent>100</iFeatureProductionPercent>
+			<iUnitDiscoverPercent>100</iUnitDiscoverPercent>
+			<iUnitHurryPercent>100</iUnitHurryPercent>
+			<iUnitTradePercent>100</iUnitTradePercent>
+			<iUnitGreatWorkPercent>100</iUnitGreatWorkPercent>
+			<iGoldenAgePercent>100</iGoldenAgePercent>
+			<iHurryPercent>100</iHurryPercent>
+			<iHurryConscriptAngerPercent>100</iHurryConscriptAngerPercent>
+			<iInflationPercent>15</iInflationPercent>
+			<iInflationOffset>-150</iInflationOffset>
+			<iVictoryDelayPercent>100</iVictoryDelayPercent>
+			<GameTurnInfos>
+				<GameTurnInfo>
+					<iMonthIncrement>12</iMonthIncrement>
+					<iTurnsPerIncrement>1170</iTurnsPerIncrement>
+				</GameTurnInfo>
+			</GameTurnInfos>
+		</GameSpeedInfo>
+	</GameSpeedInfos>
+</Civ4GameSpeedInfo>

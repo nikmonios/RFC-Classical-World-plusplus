@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_1</Tag>
+		<English>Grain Merchants</English>
+		<French>Grain Merchants</French>
+		<German>Grain Merchants</German>
+		<Italian>Grain Merchants</Italian>
+		<Spanish>Grain Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_1_PEDIA</Tag>
+		<English>Grain Merchants</English>
+		<French>Grain Merchants</French>
+		<German>Grain Merchants</German>
+		<Italian>Grain Merchants</Italian>
+		<Spanish>Grain Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_2</Tag>
+		<English>Fish Merchants</English>
+		<French>Fish Merchants</French>
+		<German>Fish Merchants</German>
+		<Italian>Fish Merchants</Italian>
+		<Spanish>Fish Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_2_PEDIA</Tag>
+		<English>Fish Merchants</English>
+		<French>Fish Merchants</French>
+		<German>Fish Merchants</German>
+		<Italian>Fish Merchants</Italian>
+		<Spanish>Fish Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_3</Tag>
+		<English>Cloth Merchants</English>
+		<French>Cloth Merchants</French>
+		<German>Cloth Merchants</German>
+		<Italian>Cloth Merchants</Italian>
+		<Spanish>Cloth Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_3_PEDIA</Tag>
+		<English>Cloth Merchants</English>
+		<French>Cloth Merchants</French>
+		<German>Cloth Merchants</German>
+		<Italian>Cloth Merchants</Italian>
+		<Spanish>Cloth Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_4</Tag>
+		<English>Spice Merchants</English>
+		<French>Spice Merchants</French>
+		<German>Spice Merchants</German>
+		<Italian>Spice Merchants</Italian>
+		<Spanish>Spice Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_4_PEDIA</Tag>
+		<English>Spice Merchants</English>
+		<French>Spice Merchants</French>
+		<German>Spice Merchants</German>
+		<Italian>Spice Merchants</Italian>
+		<Spanish>Spice Merchants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_5</Tag>
+		<English>Master Artisans</English>
+		<French>Master Artisans</French>
+		<German>Master Artisans</German>
+		<Italian>Master Artisans</Italian>
+		<Spanish>Master Artisans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_5_PEDIA</Tag>
+		<English>Master Artisans</English>
+		<French>Master Artisans</French>
+		<German>Master Artisans</German>
+		<Italian>Master Artisans</Italian>
+		<Spanish>Master Artisans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_6</Tag>
+		<English>Master Tradesmen</English>
+		<French>Master Tradesmen</French>
+		<German>Master Tradesmen</German>
+		<Italian>Master Tradesmen</Italian>
+		<Spanish>Master Tradesmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_6_PEDIA</Tag>
+		<English>Master Tradesmen</English>
+		<French>Master Tradesmen</French>
+		<German>Master Tradesmen</German>
+		<Italian>Master Tradesmen</Italian>
+		<Spanish>Master Tradesmen</Spanish>
+	</TEXT>
+</Civ4GameText>
