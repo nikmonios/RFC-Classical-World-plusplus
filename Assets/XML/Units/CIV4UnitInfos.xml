@@ -99,7 +99,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
+			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
@@ -373,7 +373,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
+			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
@@ -652,7 +652,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
+			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
@@ -2000,10 +2000,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_JUDAISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_JEWISH_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_JEWISH_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_JUDAISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -2176,10 +2176,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_ZOROASTRIANISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_ZOROASTRIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_ZOROASTRIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_ZOROASTRIANISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -2352,10 +2352,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_HINDUISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_HINDU_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_HINDU_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_HINDUISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -2528,10 +2528,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_BUDDHISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_BUDDHIST_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_BUDDHIST_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_BUDDHISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -2704,10 +2704,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_CONFUCIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_CONFUCIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CONFUCIANISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -2880,10 +2880,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_HELLENISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_HELLENIC_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_HELLENIC_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_HELLENISM</BonusType>
 			<PrereqBonuses>
 			</PrereqBonuses>
 			<ProductionTraits/>
@@ -3057,10 +3057,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_TAOISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_TAOIST_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_TAOIST_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_TAOISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -3233,10 +3233,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_JAINISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_JAIN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_JAIN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_JAINISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -3409,10 +3409,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CHRISTIANITY</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -3585,10 +3585,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY_CATHOLIC</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_CATHOLIC_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_CATHOLIC_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CHRISTIANITY</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -3761,10 +3761,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY_ARIAN</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_ARIAN_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_ARIAN_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CHRISTIANITY</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -3937,10 +3937,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY_MONOPHYSITE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_MONOPHYSITE_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_MONOPHYSITE_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CHRISTIANITY</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -4113,10 +4113,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY_NESTORIAN</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_NESTORIAN_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_NESTORIAN_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_CHRISTIANITY</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -4289,10 +4289,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_MANICHAEISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_MANICHEAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_MANICHEAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_MANICHAEISM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -4465,10 +4465,10 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_ISLAM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_ISLAMIC_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_ISLAMIC_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
-			<BonusType>NONE</BonusType>
+			<BonusType>BONUS_ISLAM</BonusType>
 			<PrereqBonuses/>
 			<ProductionTraits/>
 			<Flavors/>
@@ -4641,7 +4641,7 @@
 			<StateReligion>NONE</StateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_CHRISTIAN_TEMPLE</PrereqBuilding>
+			<PrereqBuilding>BUILDING_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>TECH_STATE_RELIGION</PrereqTech>
 			<TechTypes/>
 			<BonusType>NONE</BonusType>
@@ -10385,7 +10385,7 @@
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HEAVY_SPEARMAN</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_SWORDSMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -13807,7 +13807,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_DAO_INFANTRY</Description>
@@ -15294,10 +15294,10 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_PIKEMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -16661,10 +16661,10 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_HEAVY_SPEARMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -17084,10 +17084,10 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -17232,7 +17232,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -17442,7 +17442,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -17632,7 +17632,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -17822,7 +17822,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -18012,7 +18012,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -18219,7 +18219,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -18426,7 +18426,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -18633,7 +18633,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -18840,7 +18840,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
@@ -19257,7 +19257,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_HOPLITE</Description>
@@ -19510,10 +19510,10 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_PIKEMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -20889,10 +20889,10 @@
 					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_LANCER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets>
@@ -21222,7 +21222,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_SCYTHIAN</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ARABIAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -21420,7 +21420,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_SCYTHIAN</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ARABIAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -21619,7 +21619,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ARABIAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -21894,14 +21894,14 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_LANCER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -22110,14 +22110,14 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_LANCER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -22331,14 +22331,14 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_LANCER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -22887,7 +22887,7 @@
 				<iRangedWaveSize>3</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_SCYTHIAN</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AYYUBID</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -23469,7 +23469,7 @@
 				<iRangedWaveSize>3</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_SCYTHIAN</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AYYUBID</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -23792,7 +23792,7 @@
 			<ProductionTraits/>
 			<Flavors/>
 			<iAIWeight>0</iAIWeight>
-			<iCost>50</iCost>
+			<iCost>55</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -28684,8 +28684,8 @@
 			<Type>UNIT_CATAPULT</Type>
 			<UniqueNames/>
 			<Special>NONE</Special>
-			<Capture>UNITCLASS_CATAPULT</Capture>
-			<Combat>NONE</Combat>
+			<Capture>NONE</Capture>
+			<Combat>UNITCOMBAT_SIEGE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_CITY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -28701,10 +28701,10 @@
 			<bNoCapture>0</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
-			<bMilitaryHappiness>0</bMilitaryHappiness>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>0</bPillage>
+			<bPillage>1</bPillage>
 			<bSpy>0</bSpy>
 			<bSabotage>0</bSabotage>
 			<bDestroy>0</bDestroy>
@@ -28729,10 +28729,10 @@
 			<bHiddenNationality>0</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
-				<!--<UnitClassUpgrade>
+				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_TREBUCHET</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>-->
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
@@ -28749,8 +28749,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<NotUnitAIs>
-			</NotUnitAIs>
+			<NotUnitAIs/>
 			<Builds/>
 			<ReligionSpreads/>
 			<CorporationSpreads/>
@@ -28776,7 +28775,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
+			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
@@ -28807,7 +28806,7 @@
 			</FeatureImpassables>
 			<TerrainPassableTechs/>
 			<FeaturePassableTechs/>
-			<iCombat>4</iCombat>
+			<iCombat>2</iCombat>
 			<iCombatLimit>75</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -28818,10 +28817,10 @@
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
 			<iWithdrawalProb>0</iWithdrawalProb>
-			<iCollateralDamage>0</iCollateralDamage>
-			<iCollateralDamageLimit>0</iCollateralDamageLimit>
-			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
-			<iCityAttack>0</iCityAttack>
+			<iCollateralDamage>100</iCollateralDamage>
+			<iCollateralDamageLimit>50</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
+			<iCityAttack>100</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
@@ -28844,7 +28843,7 @@
 			<DomainMods/>
 			<BonusProductionModifiers/>
 			<iBombRate>0</iBombRate>
-			<iBombardRate>15</iBombardRate>
+			<iBombardRate>10</iBombardRate>
 			<SpecialCargo>NONE</SpecialCargo>
 			<DomainCargo>NONE</DomainCargo>
 			<iCargo>0</iCargo>
@@ -28880,9 +28879,9 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>NONE</Combat>
+			<Combat>UNITCOMBAT_SIEGE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_CITY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_TREBUCHET</Description>
@@ -28938,19 +28937,11 @@
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
-					<UnitAIType>UNITAI_ATTACK</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-				<UnitAI>
 					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 				<UnitAI>
-					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-				<UnitAI>
-					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</NotUnitAIs>
@@ -28966,9 +28957,9 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_FUTURE_TECH_II</PrereqTech>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes>
-				<PrereqTech>NONE</PrereqTech>
+				<PrereqTech>TECH_SIEGE_ENGINES</PrereqTech>
 				<PrereqTech>NONE</PrereqTech>
 				<PrereqTech>NONE</PrereqTech>
 			</TechTypes>
@@ -28982,8 +28973,8 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
+			<iMoves>2</iMoves>
+			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
@@ -29014,8 +29005,8 @@
 			</FeatureImpassables>
 			<TerrainPassableTechs/>
 			<FeaturePassableTechs/>
-			<iCombat>0</iCombat>
-			<iCombatLimit>0</iCombatLimit>
+			<iCombat>4</iCombat>
+			<iCombatLimit>75</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -29025,10 +29016,10 @@
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
 			<iWithdrawalProb>0</iWithdrawalProb>
-			<iCollateralDamage>0</iCollateralDamage>
-			<iCollateralDamageLimit>0</iCollateralDamageLimit>
-			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
-			<iCityAttack>0</iCityAttack>
+			<iCollateralDamage>100</iCollateralDamage>
+			<iCollateralDamageLimit>50</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
+			<iCityAttack>100</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
@@ -29051,7 +29042,7 @@
 			<DomainMods/>
 			<BonusProductionModifiers/>
 			<iBombRate>0</iBombRate>
-			<iBombardRate>0</iBombardRate>
+			<iBombardRate>20</iBombardRate>
 			<SpecialCargo>NONE</SpecialCargo>
 			<DomainCargo>NONE</DomainCargo>
 			<iCargo>0</iCargo>

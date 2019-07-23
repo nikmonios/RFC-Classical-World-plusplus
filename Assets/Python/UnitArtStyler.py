@@ -85,7 +85,7 @@ g_RegionArtStyles = {
 	con.rTarim 				: "UNIT_ARTSTYLE_EAST_ASIAN", 
 	con.rQinghai 			: "UNIT_ARTSTYLE_EAST_ASIAN", 
 	con.rNanzhao 			: "UNIT_ARTSTYLE_SOUTHEAST_ASIAN", 
-	con.rBirma 				: "UNIT_ARTSTYLE_SOUTHEAST_ASIAN", 
+	con.rBirma 				: "UNIT_ARTSTYLE_TAMIL", 
 	con.rFunan 				: "UNIT_ARTSTYLE_SOUTHEAST_ASIAN", 
 	con.rAnnam 				: "UNIT_ARTSTYLE_SOUTHEAST_ASIAN", 
 	con.rMalaya 			: "UNIT_ARTSTYLE_SOUTHEAST_ASIAN", 

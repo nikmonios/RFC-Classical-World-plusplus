@@ -853,6 +853,14 @@
 		<Spanish>Fairground</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_MARKET</Tag>
+		<English>Slave Market</English>
+		<French>Slave Market</French>
+		<German>Slave Market</German>
+		<Italian>Slave Market</Italian>
+		<Spanish>Slave Market</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FAIRGROUND_PEDIA</Tag>
 		<English>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</English>
 		<French>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</French>

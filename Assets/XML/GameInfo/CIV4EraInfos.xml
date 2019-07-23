@@ -17,7 +17,7 @@
 	<EraInfos>
 		<EraInfo>
 			<Type>ERA_ANCIENT</Type>
-			<Description>The Classical Era</Description>
+			<Description>TXT_KEY_ERA_1</Description>
 			<Strategy>TXT_KEY_ERA_1_STRATEGY</Strategy>
 			<bNoGoodies>0</bNoGoodies>
 			<bNoAnimals>1</bNoAnimals>
@@ -45,14 +45,15 @@
 			<iSoundtrackSpace>160</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>0</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_0</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_1</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_2</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_3</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_4</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_5</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_6</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_0_SOUNDTRACK_7</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_NEW_1</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_NEW_2</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_NEW_3</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_SOUNDTRACK_3</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_SOUNDTRACK_4</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_SOUNDTRACK_5</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_CIVIIIMODMIDEAST</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_CHINESEUNI</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_ARABIA_2</EraInfoSoundtrack>
 			</EraInfoSoundtracks>
 			<CitySoundscapes>
 				<CitySoundscape>
@@ -73,7 +74,7 @@
 		</EraInfo>
 		<EraInfo>
 			<Type>ERA_CLASSICAL</Type>
-			<Description>The Silk Road Era</Description>
+			<Description>TXT_KEY_ERA_2</Description>
 			<Strategy>TXT_KEY_ERA_2_STRATEGY</Strategy>
 			<bNoGoodies>1</bNoGoodies>
 			<bNoAnimals>1</bNoAnimals>
@@ -101,14 +102,16 @@
 			<iSoundtrackSpace>160</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>0</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_0</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_1</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_2</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_3</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_4</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_5</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_6</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_1_SOUNDTRACK_7</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_BUDDHIST06</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_BUDDHIST01</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_TREE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_BACH</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ALEXANDER</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_SOUNDTRACK_3</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_SOUNDTRACK_4</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_CIVIIIMODMIDEAST</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_TAJMAHAL</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_ANCIENT_ARABIA_1</EraInfoSoundtrack>
 			</EraInfoSoundtracks>
 			<CitySoundscapes>
 				<CitySoundscape>
@@ -129,7 +132,7 @@
 		</EraInfo>
 		<EraInfo>
 			<Type>ERA_MEDIEVAL</Type>
-			<Description>The Migration Era</Description>
+			<Description>TXT_KEY_ERA_3</Description>
 			<Strategy>TXT_KEY_ERA_3_STRATEGY</Strategy>
 			<bNoGoodies>1</bNoGoodies>
 			<bNoAnimals>1</bNoAnimals>
@@ -157,14 +160,25 @@
 			<iSoundtrackSpace>160</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>0</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_0</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_1</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_2</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_3</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_4</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_5</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_6</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_7</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_ALEXANDER</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_VIKING</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_PELOPONNESIAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MID_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_ANC_EUROPE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_ANC_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MID_EUROPE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MOD_CELTIC</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_FANTASY1</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_FANTASY2</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_ROMAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EC_EARLY_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EC_EARLY_WAR</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EU_LATE_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EU_LATE_WAR</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_GR_EARLY_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_BARBARIAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_GR_EARLY_WAR</EraInfoSoundtrack>
 			</EraInfoSoundtracks>
 			<CitySoundscapes>
 				<CitySoundscape>
@@ -213,14 +227,25 @@
 			<iSoundtrackSpace>140</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>0</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_0</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_1</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_2</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_3</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_4</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_5</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_6</EraInfoSoundtrack>
-				<EraInfoSoundtrack>AS2D_ERA_2_SOUNDTRACK_7</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_ALEXANDER</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_VIKING</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_PELOPONNESIAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MID_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_ANC_EUROPE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_ANC_ROME</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MID_EUROPE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CIV_III_MOD_CELTIC</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_FANTASY1</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_FANTASY2</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_CONQUESTS_ROMAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EC_EARLY_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EC_EARLY_WAR</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EU_LATE_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_EU_LATE_WAR</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_GR_EARLY_PEACE</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_BARBARIAN</EraInfoSoundtrack>
+				<EraInfoSoundtrack>AS2D_SONG_DIP_GR_EARLY_WAR</EraInfoSoundtrack>
 			</EraInfoSoundtracks>
 			<CitySoundscapes>
 				<CitySoundscape>

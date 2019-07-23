@@ -7082,9 +7082,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/hungarian settler with horse/mongol_settler_horseman.nif</NIF>
-			<KFM>Art/Units/Caravan/GreatMerchantAncient.kfm</KFM>
-			<SHADERNIF>Art/Units/hungarian settler with horse/mongol_settler_horseman.nif</SHADERNIF>
+			<NIF>Art/Units/Banker/explorer.nif</NIF>
+			<KFM>Art/Units/Animations/Explorer/Explorer.kfm</KFM>
+			<SHADERNIF>Art/Units/Banker/explorer.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -10764,30 +10764,6 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_HORSE_ARCHER_SCYTHIAN</Type>
-			<Button>,-,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
-			<fScale>0.42</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Indian Indo-Saka Horsearcher/IndianIndoSakaHorsearcher.nif</NIF>
-			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
-			<SHADERNIF>Art/Units/Indian Indo-Saka Horsearcher/IndianIndoSakaHorsearcher.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ARCHER_FATIMID</Type>
 			<Button>,-,Art/Interface/Buttons/mem_units_atlas.dds,4,7</Button>
 			<fScale>0.44</fScale>
@@ -11102,30 +11078,6 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_HORSEMAN_SCYTHIAN</Type>
-			<Button>,-,Art/Interface/Buttons/Warlords_Atlas_1.dds,3,9</Button>
-			<fScale>0.42</fScale>
-			<fInterfaceScale>0.85</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Indian Kushan Light Horseman/IndianKushanLightHorseman.nif</NIF>
-			<KFM>Art/Units/Unique/Persia/Immortal/PersianImmortal.kfm</KFM>
-			<SHADERNIF>Art/Units/Indian Kushan Light Horseman/IndianKushanLightHorseman.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AXEMAN_ARABIAN</Type>
 			<Button>,-,Art/Interface/Buttons/mem_units_atlas.dds,7,2</Button>
 			<fScale>0.44</fScale>
@@ -11255,30 +11207,6 @@
 			<NIF>Art/Units/Caravan/GreatMerchantAncient.nif</NIF>
 			<KFM>Art/Units/Caravan/GreatMerchantAncient.kfm</KFM>
 			<SHADERNIF>Art/Units/Caravan/GreatMerchantAncient_FX.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/GreatMerchantShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_CARAVAN_CHINESE</Type>
-			<Button>,-,Art/Interface/Buttons/mem_units_atlas.dds,8,9</Button>
-			<fScale>0.46</fScale>
-			<fInterfaceScale>0.8</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/chinese merchant/greatmerchantancient.nif</NIF>
-			<KFM>Art/Units/Caravan/GreatMerchantAncient.kfm</KFM>
-			<SHADERNIF>Art/Units/chinese merchant/GreatMerchantAncient_FX.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/GreatMerchantShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>

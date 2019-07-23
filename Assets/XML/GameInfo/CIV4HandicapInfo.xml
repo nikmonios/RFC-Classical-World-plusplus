@@ -94,7 +94,7 @@
 			<iCivicUpkeepPercent>80</iCivicUpkeepPercent>
 			<iInflationPercent>100</iInflationPercent>
 			<iHealthBonus>0</iHealthBonus>
-			<iHappyBonus>1</iHappyBonus>
+			<iHappyBonus>2</iHappyBonus>
 			<iAttitudeChange>0</iAttitudeChange>
 			<iNoTechTradeModifier>60</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>

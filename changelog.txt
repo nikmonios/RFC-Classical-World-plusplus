@@ -1,0 +1,99 @@
+added resources to Dimmidi (south of Cirta), Zeila (southeast of Axum) and Tamralipti (at the mouth of the Ganges)
+Sassanid Cataphract now +25% vs Missile Cavalry and Archer units
+Windmills now buildable with Machinery
+Watermills now 1 hammer, 1 food, 1 coin
+Rome's AI war regions change when the Byzantines spawn
+Western Rome's fall date moved to 470AD
+
+version 0.1.4
+
+Stability tweaks
+
+City name additions, India finished south and east of Thar
+
+added German cities to 550AD map and fixed city name languages for later maps
+
+version 0.1.3
+
+Bugfixes:
+	fixed slavery mechanic so captured slaves appear on the same tile as the capturing units in all cases
+
+UHVs:
+	Pontus' number of Roman cities to conquer increased to 4
+
+Map:
+	Lake Baikal added
+	4 German cities and 2 on the Scythian steppe spawn around 380-400AD
+
+Byzantines:
+	gave them Crop Rotation and Bulk Trade at spawn
+	prevented Corporations from leaving Roman cities when they flip to the Byzantines
+	gave Constantinople 30 culture when built so the Byzantines do not have to wait for their iron
+
+
+version 0.1.2
+
+Bugfixes:
+	fixed an error causing Rome and Carthage to start the game with good relations
+	silkworm stealing can only be done once
+	fixed a bug causing Nan Yue and occasionally Numidia to respawn every few turns after their 1st spawn
+	fixed the Levant city name map
+	
+Art:
+	greatly reduced the size of the leaderhead art, reverted some leaders to vanilla leaderheads
+	
+Terrain and Improvements:
+	removed the food penalties from cottages and gave towns 1 more commerce
+	
+Misc:
+	gave the Maccabeans extra unis in the case of war on spawn with Rome 
+
+version 0.1.1
+
+Bugfixes:
+	found the bug causing the human Mauryan player to become the Sungas when collapsing to their core
+	found a solution to the "city ruins" bug so the Byzantines and Guptas (and others) can now spawn properly in pre-existing cities
+	fixed an error in the Conts.py building list causing various wrong effects
+
+Civics:
+
+	Caste System:
+		Great People penalty lowered to -25%
+		
+	Religious Freedom:
+		+10% science in all cities
+		
+	Dynastic Cult:
+		Capital gold bonus increased to +30%
+	
+	
+Civs:
+	Antigonids:
+		Peltast withdrawal chance increased to 30%
+	Rome:
+		"make Rome the biggest city" UHV goal moved to 50AD
+
+	Celts:
+		culture UHV goal moved to BY 75bc
+		new UP: Great Generals can create minor Great Works of 1000 culture
+		Dun now gives no promotions but allows 1 artist
+		
+	Japan:
+		added Calendar, Military Drill, Marksmanship, Siege Engines and Monarchy to the starting techs
+		Kingdoms of Wu and Shu added as "neighbours" giving the UP tech bonus and Japan must be in contact with the civ in question to get the bonus
+		the Haniwa now only requires Iron Working and Militarty Drill
+		
+	Dacia:
+		Dava now replaces walls, 50% defense and 2xp for melee units
+		
+	Byzantines:
+		UU changed to a Feodorati, cheaper Swordsman, available early and starts with Discipline (bonus vs barbs)
+		
+Wonders:
+	Trajan's Column now makes the owner immune to stability checks from losing cities to barbarians and is pre-built in Rome in the 220AD scenario but obsoletes with the Stirrup
+	
+Misc:
+	added indepentdent cities of Kourion/Curium, on Cyprus, and Qiaohsi, on the peninsula east of Qufu
+	changed Cottage degradation during plague to 1 level per hit
+	all Cottage type improvements are -1 food
+		

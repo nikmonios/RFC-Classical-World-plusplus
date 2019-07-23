@@ -268,9 +268,7 @@ class CvRFCEventHandler:
 		if iOwner == con.iByzantines and (city.getX(), city.getY()) == con.tCapitals[con.iByzantines]:
 			city.changeCulture(con.iByzantines, 30, True)
 		
-		
 		self.cnm.assignName(city)
-		self.corp.onCityBuilt(city)
 		self.rel.onCityBuilt(city)
 		self.rfccwaiw.onCityBuilt(city, iOwner)
 		#Rhye - delete culture of barbs and minor civs to prevent weird unhappiness
@@ -439,19 +437,31 @@ class CvRFCEventHandler:
 	def onChangeWar(self, argsList):
 		'War Status Changes'
 		bIsWar, iTeam, iRivalTeam = argsList
+		'''if bIsWar:
+			if iTeam < con.iNumPlayers and iRivalTeam < con.iNumPlayers:
+				print ("War declared, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0), "year=", utils.getYear()) 
+		else:
+			if iTeam < con.iNumPlayers and iRivalTeam < con.iNumPlayers:
+				print ("Peace, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0), "year=", utils.getYear())
+		if iTeam < iNumPlayers and iRivalTeam < iNumPlayers:
+			self.rel.onChangeWar(argsList)'''
 			
 		if gc.getPlayer(con.iRome).isAlive():
-			#print "Roman triggers"
+			print "Roman triggers"
 			self.rfccwaiw.checkRomanWarTriggers(argsList)
 		
-		if iTeam != utils.getHumanID() and iTeam < iNumPlayers and iRivalTeam < iNumPlayers:
+		'''if iTeam < iNumPlayers and iRivalTeam < iNumPlayers:
 			if bIsWar:
 				if iTeam < con.iNumPlayers and gc.getPlayer(iTeam).getNumCities() > 1 and gc.getPlayer(iTeam).getAnarchyTurns() < 1 and gc.getPlayer(iTeam).getGoldenAgeTurns() < 1 and utils.getYear() >  (con.tBirth[iTeam] + 10):
 					print ("STABILITY CHECK war, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "year=", utils.getYear())
-					utils.stabilityCheck(iTeam, 1)
-				if iRivalTeam < con.iNumPlayers and gc.getPlayer(iRivalTeam).getAnarchyTurns() < 1 and gc.getPlayer(iRivalTeam).getGoldenAgeTurns() < 1 and utils.getYear() >  (con.tBirth[iRivalTeam] + 10):
+					self.utils.stabilityCheck(iTeam, False, 1)
+				if iRivalTeam < con.iNumPlayers and gc.getPlayer(iRivalTeam).getNumCities() < 2 and gc.getPlayer(iRivalTeam).getAnarchyTurns() < 1 and gc.getPlayer(iRivalTeam).getGoldenAgeTurns() < 1 and utils.getYear() >  (con.tBirth[iRivalTeam] + 10):
 					print ("STABILITY CHECK war, iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0))
-					utils.stabilityCheck(iRivalTeam, -1)
+					self.utils.stabilityCheck(iRivalTeam, False, -1)
+			else:
+				print ("STABILITY CHECK peace, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0), "year=", utils.getYear())
+				self.utils.stabilityCheck(iTeam, True, 1)
+				self.utils.stabilityCheck(iRivalTeam, True, -1)'''
 		
 
 

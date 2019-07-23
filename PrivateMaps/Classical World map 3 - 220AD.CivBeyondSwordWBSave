@@ -135,8 +135,6 @@ BeginTeam
 	Tech=TECH_SELECTIVE_BREEDING
 	Tech=TECH_BRIDGE_BUILDING
 	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_MILITARY_DRILL
-	Tech=TECH_PHILOSOPHY
 	ContactWithTeam=6
 	AtWar=17
 	AtWar=27
@@ -347,8 +345,6 @@ BeginTeam
 	Tech=TECH_SELECTIVE_BREEDING
 	Tech=TECH_BRIDGE_BUILDING
 	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_MILITARY_DRILL
-	Tech=TECH_PHILOSOPHY
 	ContactWithTeam=17
 	AtWar=6
 	AtWar=27
@@ -610,8 +606,6 @@ BeginTeam
 	Tech=TECH_BRIDGE_BUILDING
 	Tech=TECH_SCALE_ARMOR
 	Tech=TECH_AGRARIANISM
-	Tech=TECH_MILITARY_DRILL
-	Tech=TECH_PHILOSOPHY
 	Tech=TECH_FREE_TECH_TRADE
 	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=27
@@ -781,7 +775,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=5
-	LeaderType=LEADER_SIMHAVISHNU
+	LeaderType=LEADER_KHARAVELA
 	CivType=CIVILIZATION_PALLAVAS
 	PlayableCiv=0
 	StateReligion=RELIGION_HINDUISM
@@ -847,7 +841,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=10
-	LeaderType=LEADER_TIRAIYAN
+	LeaderType=LEADER_NEDUNJ
 	CivType=CIVILIZATION_KALABHRAS
 	PlayableCiv=0
 	StateReligion=RELIGION_BUDDHISM
@@ -1060,7 +1054,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=26
-	LeaderType=LEADER_KAUNDINYA
+	LeaderType=LEADER_LIEUYE
 	CivType=CIVILIZATION_FUNAN
 	PlayableCiv=0
 	StartingEra=ERA_ANCIENT
@@ -1101,7 +1095,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=29
-	LeaderType=LEADER_NINTOKU
+	LeaderType=LEADER_JINGU
 	CivType=CIVILIZATION_YAMATO
 	PlayableCiv=1
 	StartingEra=ERA_CLASSICAL
@@ -8357,7 +8351,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Russadir
 		CityPopulation=3
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		BuildingType=BUILDING_MONUMENT
 		Player13Culture=30
@@ -13055,7 +13048,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Cirta
 		CityPopulation=3
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		BuildingType=BUILDING_FAIRGROUND
 		Player13Culture=30
@@ -15645,7 +15637,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Carthago
 		CityPopulation=4
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_HARBOR
 		BuildingType=BUILDING_COURTHOUSE
 		ReligionType=RELIGION_CHRISTIANITY
@@ -17722,7 +17713,6 @@ BeginPlot
 		CityName=Leptis Magna
 		CityPopulation=3
 		Player13Culture=30
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 	EndCity
 	TeamReveal=0,2,13,
@@ -20015,7 +20005,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Aquileia
 		CityPopulation=4
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		BuildingType=BUILDING_FAIRGROUND
 		ReligionType=RELIGION_HELLENISM
@@ -22166,7 +22155,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Aquincum
 		CityPopulation=2
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		BuildingType=BUILDING_MONUMENT
 	EndCity
@@ -22678,7 +22666,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Singidunum
 		CityPopulation=3
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		BuildingType=BUILDING_FAIRGROUND
 		Player13Culture=30
@@ -23085,7 +23072,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Cyrene
 		CityPopulation=3
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_COURTHOUSE
 		ReligionType=RELIGION_HELLENISM
 		Player13Culture=30
@@ -39191,7 +39177,7 @@ BeginPlot
 	PlotType=2
 	BeginCity
 		CityOwner=21
-		CityName=Arbela
+		CityName=Arbrla
 		CityPopulation=3
 		ReligionType=RELIGION_ZOROASTRIANISM
 		Player21Culture=30
@@ -41282,13 +41268,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=47
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=21,
 EndPlot
 BeginPlot
 	x=76,y=48
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=21,
@@ -41778,7 +41764,7 @@ EndPlot
 BeginPlot
 	x=77,y=48
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 EndPlot
 BeginPlot
 	x=77,y=49
@@ -75358,6 +75344,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=141,y=34
+	BonusType=BONUS_PEARL
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -75904,8 +75892,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=142,y=34
-	BonusType=BONUS_PEARL
-	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -76481,6 +76467,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=143,y=35
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	BeginUnit
@@ -77061,8 +77049,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=144,y=35
-	BonusType=BONUS_FISH
-	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,

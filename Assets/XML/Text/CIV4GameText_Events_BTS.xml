@@ -8561,38 +8561,6 @@
 		<Spanish>A retired military commander from Europe has offered his services to us. Shall we let him reform the army?</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_ARMY_REFORMER_INDIA</Tag>
-		<English>A retired military commander from Bactria has offered his services to the %s1_civ_adjective court.</English>
-		<French>A retired military commander from Bactria has offered his services to the %s1_civ_adjective court.</French>
-		<German>A retired military commander from Bactria has offered his services to the %s1_civ_adjective court.</German>
-		<Italian>A retired military commander from Bactria has offered his services to the %s1_civ_adjective court.</Italian>
-		<Spanish>A retired military commander from Bactria has offered his services to the %s1_civ_adjective court.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_ARMY_REFORMER_1_INDIA</Tag>
-		<English>A retired military commander from Bactria has offered his services to us. Shall we let him reform the army?</English>
-		<French>A retired military commander from Bactria has offered his services to us. Shall we let him reform the army?</French>
-		<German>A retired military commander from Bactria has offered his services to us. Shall we let him reform the army?</German>
-		<Italian>A retired military commander from Bactria has offered his services to us. Shall we let him reform the army?</Italian>
-		<Spanish>A retired military commander from Bactria has offered his services to us. Shall we let him reform the army?</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_ARMY_REFORMER_CHINA</Tag>
-		<English>A retired military commander from Qin has offered his services to the %s1_civ_adjective court.</English>
-		<French>A retired military commander from Qin has offered his services to the %s1_civ_adjective court.</French>
-		<German>A retired military commander from Qin has offered his services to the %s1_civ_adjective court.</German>
-		<Italian>A retired military commander from Qin has offered his services to the %s1_civ_adjective court.</Italian>
-		<Spanish>A retired military commander from Qin has offered his services to the %s1_civ_adjective court.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_ARMY_REFORMER_1_CHINA</Tag>
-		<English>A retired military commander from Qin has offered his services to us. Shall we let him reform the army?</English>
-		<French>A retired military commander from Qin has offered his services to us. Shall we let him reform the army?</French>
-		<German>A retired military commander from Qin has offered his services to us. Shall we let him reform the army?</German>
-		<Italian>A retired military commander from Qin has offered his services to us. Shall we let him reform the army?</Italian>
-		<Spanish>A retired military commander from Qin has offered his services to us. Shall we let him reform the army?</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_EVENT_ARMY_REFORMER_1</Tag>
 		<English>Reform the infantry.</English>
 		<French>Reform the infantry.</French>

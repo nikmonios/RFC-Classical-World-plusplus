@@ -617,20 +617,6 @@ BeginTeam
 EndTeam
 BeginTeam
 	TeamID=44
-	Tech=TECH_ARCHERY
-	Tech=TECH_ANIMAL_HUSBANDRY
-	Tech=TECH_HORSEMANSHIP
-	Tech=TECH_POTTERY
-	Tech=TECH_CONSTRUCTION
-	Tech=TECH_LUXURY_TRADE
-	Tech=TECH_CURRENCY
-	Tech=TECH_MINING
-	Tech=TECH_BRONZE_WORKING
-	Tech=TECH_IRON_WORKING
-	Tech=TECH_PRIESTHOOD
-	Tech=TECH_HORSE_ARCHERY
-	Tech=TECH_FREE_TECH_TRADE
-	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=44
 	RevealMap=0
 EndTeam
@@ -1060,7 +1046,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=26
-	LeaderType=LEADER_KAUNDINYA
+	LeaderType=LEADER_LIEUYE
 	CivType=CIVILIZATION_FUNAN
 	PlayableCiv=1
 	StartingEra=ERA_ANCIENT
@@ -1100,7 +1086,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=29
-	LeaderType=LEADER_NINTOKU
+	LeaderType=LEADER_JINGU
 	CivType=CIVILIZATION_YAMATO
 	PlayableCiv=1
 	StartingEra=ERA_CLASSICAL
@@ -40890,13 +40876,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=47
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=19,21,
 EndPlot
 BeginPlot
 	x=76,y=48
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=19,
@@ -41385,7 +41371,7 @@ EndPlot
 BeginPlot
 	x=77,y=48
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 EndPlot
 BeginPlot
 	x=77,y=49
@@ -58852,7 +58838,7 @@ BeginPlot
 	BeginCity
 		CityOwner=4
 		CityName=Varanasi
-		CityPopulation=4
+		CityPopulation=2
 		BuildingType=BUILDING_DHAMEK_STUPA
 		ReligionType=RELIGION_HINDUISM
 		HolyCityReligionType=RELIGION_HINDUISM
@@ -60385,7 +60371,7 @@ BeginPlot
 	BeginCity
 		CityOwner=4
 		CityName=Pataliputra
-		CityPopulation=4
+		CityPopulation=2
 		BuildingType=BUILDING_PALACE
 		ReligionType=RELIGION_HINDUISM
 		ReligionType=RELIGION_BUDDHISM
@@ -74350,6 +74336,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=141,y=34
+	BonusType=BONUS_PEARL
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -74888,7 +74875,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=142,y=34
-	BonusType=BONUS_PEARL
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -75462,6 +75448,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=143,y=35
+	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -76037,7 +76024,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=144,y=35
-	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,

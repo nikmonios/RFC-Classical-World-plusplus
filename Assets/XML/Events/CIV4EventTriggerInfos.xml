@@ -2927,9 +2927,7 @@
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs>
-				<PrereqTech>TECH_MILITARY_DRILL</PrereqTech>
-			</OrPreReqs>
+			<OrPreReqs/>
 			<AndPreReqs/>
 			<ObsoleteTechs/>
 			<bRecurring>0</bRecurring>
@@ -3440,11 +3438,7 @@
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs>
-				<PrereqTech>TECH_STABILITY_STABLE</PrereqTech>
-				<PrereqTech>TECH_STABILITY_UNSTABLE</PrereqTech>
-				<PrereqTech>TECH_STABILITY_COLLAPSING</PrereqTech>
-			</OrPreReqs>
+			<OrPreReqs/>
 			<AndPreReqs/>
 			<ObsoleteTechs/>
 			<bRecurring>0</bRecurring>
@@ -3526,9 +3520,7 @@
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs>
-				<PrereqTech>TECH_THEOCRACY</PrereqTech>
-			</OrPreReqs>
+			<OrPreReqs/>
 			<AndPreReqs/>
 			<ObsoleteTechs/>
 			<bRecurring>0</bRecurring>
@@ -10674,178 +10666,6 @@
 				<ReligionType>RELIGION_HELLENISM</ReligionType>
 				<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 				<ReligionType>RELIGION_JUDAISM</ReligionType>
-			</ReligionsRequired>
-			<iNumReligions>0</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_ARMY_REFORMER_1</Event>
-				<Event>EVENT_ARMY_REFORMER_2</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs>
-				<PrereqTech>TECH_MILITARY_DRILL</PrereqTech>
-			</AndPreReqs>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>1</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>0</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>0</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_ARMY_REFORMER_CHINESE</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_ARMY_REFORMER_CHINA</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_ARMY_REFORMER_1_CHINA</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>0</bSinglePlayer>
-			<iPercentGamesActive>100</iPercentGamesActive>
-			<iWeight>400</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>NONE</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired/>
-			<iNumBuildings>0</iNumBuildings>
-			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>0</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired>
-				<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
-				<ReligionType>RELIGION_TAOISM</ReligionType>
-			</ReligionsRequired>
-			<iNumReligions>0</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_ARMY_REFORMER_1</Event>
-				<Event>EVENT_ARMY_REFORMER_2</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs>
-				<PrereqTech>TECH_MILITARY_DRILL</PrereqTech>
-			</AndPreReqs>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>1</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>0</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>0</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_ARMY_REFORMER_INDIAN</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_ARMY_REFORMER_INDIA</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_ARMY_REFORMER_1_INDIA</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>0</bSinglePlayer>
-			<iPercentGamesActive>100</iPercentGamesActive>
-			<iWeight>400</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>NONE</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired/>
-			<iNumBuildings>0</iNumBuildings>
-			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>0</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired>
-				<ReligionType>RELIGION_HINDUISM</ReligionType>
-				<ReligionType>RELIGION_BUDDHISM</ReligionType>
 			</ReligionsRequired>
 			<iNumReligions>0</iNumReligions>
 			<CorporationsRequired/>

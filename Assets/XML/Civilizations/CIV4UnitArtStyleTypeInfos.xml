@@ -10,29 +10,6 @@
 			<Type>UNIT_ARTSTYLE_EUROPEAN</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</LateArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</LateArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MONGOL_KESHIK</LateArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-			</StyleUnits>
-		</UnitArtStyleTypeInfo>
-		<UnitArtStyleTypeInfo><!--UNIT_ARTSTYLE_EUROPEAN-->
-			<Type>UNIT_ARTSTYLE_EUROPEAN</Type>
-			<StyleUnits>
-				<StyleUnit>
 					<UnitType>UNIT_MARKSMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_EUROPEAN</EarlyArtDefineTag>
@@ -316,14 +293,6 @@
 		<UnitArtStyleTypeInfo><!--UNIT_ARTSTYLE_GREEK-->
 			<Type>UNIT_ARTSTYLE_GREEK</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_CARAVAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CARAVAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CARAVAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CARAVAN</LateArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_SKIRMISHER</UnitType>
 					<UnitMeshGroup>
@@ -2509,14 +2478,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_CHINESE</EarlyArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_CHINESE</MiddleArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_CHINESE</LateArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CARAVAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CARAVAN_CHINESE</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CARAVAN_CHINESE</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CARAVAN_CHINESE</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 			</StyleUnits>

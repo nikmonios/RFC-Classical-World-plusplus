@@ -11,7 +11,7 @@
 			<Description>TXT_KEY_RELIGION_JUDAISM</Description>
 			<Adjective>TXT_KEY_RELIGION_JUDAISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_JUDAISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -42,7 +42,7 @@
 			<Description>TXT_KEY_RELIGION_ZOROASTRIANISM</Description>
 			<Adjective>TXT_KEY_RELIGION_ZOROASTRIANISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -73,7 +73,7 @@
 			<Description>TXT_KEY_RELIGION_HINDUISM</Description>
 			<Adjective>TXT_KEY_RELIGION_HINDUISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_HINDUISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -104,7 +104,7 @@
 			<Description>TXT_KEY_RELIGION_BUDDHISM</Description>
 			<Adjective>TXT_KEY_RELIGION_BUDDHISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_BUDDHISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -135,7 +135,7 @@
 			<Description>TXT_KEY_RELIGION_CONFUCIANISM</Description>
 			<Adjective>TXT_KEY_RELIGION_CONFUCIANISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CONFUCIANISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -166,7 +166,7 @@
 			<Description>TXT_KEY_RELIGION_HELLENISM</Description>
 			<Adjective>TXT_KEY_RELIGION_HELLENISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_HELLENISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -197,7 +197,7 @@
 			<Description>TXT_KEY_RELIGION_TAOISM</Description>
 			<Adjective>TXT_KEY_RELIGION_TAOISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_TAOISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -228,7 +228,7 @@
 			<Description>TXT_KEY_RELIGION_JAINISM</Description>
 			<Adjective>TXT_KEY_RELIGION_JAINISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_JAINISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -259,7 +259,7 @@
 			<Description>TXT_KEY_RELIGION_CHRISTIANITY</Description>
 			<Adjective>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_THEOLOGY</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -290,7 +290,7 @@
 			<Description>TXT_KEY_RELIGION_MANICHAEISM</Description>
 			<Adjective>TXT_KEY_RELIGION_MANICHAEISM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_MANICHAEISM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_MYSTICISM</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>2</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -321,7 +321,7 @@
 			<Description>TXT_KEY_RELIGION_ISLAM</Description>
 			<Adjective>TXT_KEY_RELIGION_ISLAM_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_ISLAM_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_THEOCRACY</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -352,7 +352,7 @@
 			<Description>Catholic Christianity</Description>
 			<Adjective>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -383,7 +383,7 @@
 			<Description>Arian Christianity</Description>
 			<Adjective>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -414,7 +414,7 @@
 			<Description>Miaphysite Christianity</Description>
 			<Adjective>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
@@ -445,7 +445,7 @@
 			<Description>Nestorian Christianity</Description>
 			<Adjective>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_FUTURE_TECH_II</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>5</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>

@@ -464,7 +464,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=26
-	LeaderType=LEADER_KAUNDINYA
+	LeaderType=LEADER_LIEUYE
 	CivType=CIVILIZATION_FUNAN
 	PlayableCiv=1
 	StartingEra=ERA_ANCIENT
@@ -504,7 +504,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=29
-	LeaderType=LEADER_NINTOKU
+	LeaderType=LEADER_JINGU
 	CivType=CIVILIZATION_YAMATO
 	PlayableCiv=1
 	StartingEra=ERA_CLASSICAL
@@ -11691,6 +11691,7 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	BonusType=BONUS_DEER
+	ImprovementType=IMPROVEMENT_CAMP
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -13534,7 +13535,6 @@ BeginPlot
 		CityName=Massilia
 		CityPopulation=2
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_2
 	EndCity
 	TeamReveal=49,
 EndPlot
@@ -14468,8 +14468,6 @@ BeginPlot
 		CityPopulation=4
 		BuildingType=BUILDING_PALACE
 		BuildingType=BUILDING_WALLS
-		CorporationType=CORPORATION_1
-		CorporationType=CORPORATION_2
 		Player3Culture=30
 	EndCity
 	TeamReveal=3,
@@ -17514,8 +17512,6 @@ BeginPlot
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_LIBRARY
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_1
-		CorporationType=CORPORATION_2
 	EndCity
 	TeamReveal=3,48,
 EndPlot
@@ -21990,6 +21986,7 @@ EndPlot
 BeginPlot
 	x=44,y=34
 	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=49,
@@ -25657,8 +25654,6 @@ BeginPlot
 		BuildingType=BUILDING_COLOSSUS
 		BuildingType=BUILDING_COLOSSUS_FUNCTION
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_2
-		CorporationType=CORPORATION_4
 		Player49Culture=35
 	EndCity
 	TeamReveal=0,48,49,
@@ -26605,14 +26600,14 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=8
+		UnitType=UNIT_SPEARMAN, UnitOwner=50
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=8
+		CityOwner=50
 		CityName=Tungul
 		CityPopulation=2
 	EndCity
@@ -26695,6 +26690,20 @@ BeginPlot
 		UnitAIType=UNITAI_ATTACK
 	EndUnit
 	BeginUnit
+		UnitType=UNIT_GALATIAN_INFANTRY, UnitOwner=2
+		Damage=0
+		Level=1, Experience=0
+		FacingDirection=4
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GALATIAN_INFANTRY, UnitOwner=2
+		Damage=0
+		Level=1, Experience=0
+		FacingDirection=4
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
 		UnitType=UNIT_SPEARMAN, UnitOwner=2
 		Damage=0
 		Level=1, Experience=0
@@ -26745,9 +26754,6 @@ BeginPlot
 		BuildingType=BUILDING_PYRAMIDS_FUNCTION
 		ReligionType=RELIGION_JUDAISM
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_1
-		CorporationType=CORPORATION_2
-		CorporationType=CORPORATION_4
 		Player2Culture=1
 	EndCity
 	TeamReveal=2,
@@ -26874,7 +26880,6 @@ BeginPlot
 		CityName=Byzantion
 		CityPopulation=2
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_1
 	EndCity
 	TeamReveal=0,49,
 EndPlot
@@ -29359,19 +29364,6 @@ BeginPlot
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
-	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=8
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_COUNTER
-	EndUnit
-	BeginCity
-		CityOwner=8
-		CityName=Medewi
-		CityPopulation=2
-		BuildingType=BUILDING_PALACE
-	EndCity
 EndPlot
 BeginPlot
 	x=58,y=23
@@ -29609,7 +29601,6 @@ BeginPlot
 		CityName=Chersonesos
 		CityPopulation=2
 		ReligionType=RELIGION_HELLENISM
-		CorporationType=CORPORATION_1
 	EndCity
 	TeamReveal=50,
 EndPlot
@@ -30513,7 +30504,6 @@ EndPlot
 BeginPlot
 	x=60,y=40
 	BonusType=BONUS_FISH
-	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=0,1,
@@ -31623,8 +31613,6 @@ BeginPlot
 		CityOwner=0
 		CityName=Tyros
 		CityPopulation=4
-		CorporationType=CORPORATION_3
-		CorporationType=CORPORATION_4
 		Player0Culture=30
 	EndCity
 	TeamReveal=0,1,
@@ -33110,6 +33098,7 @@ BeginPlot
 	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=1,
@@ -35931,13 +35920,10 @@ BeginPlot
 		CityOwner=1
 		CityName=Babylon
 		CityPopulation=5
-		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_HANGING_GARDEN
 		BuildingType=BUILDING_ISHTAR_GATE
 		ReligionType=RELIGION_JUDAISM
 		ReligionType=RELIGION_ZOROASTRIANISM
-		CorporationType=CORPORATION_3
-		CorporationType=CORPORATION_4
 		Player1Culture=30
 	EndCity
 	TeamReveal=1,
@@ -38467,13 +38453,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=47
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=1,
 EndPlot
 BeginPlot
 	x=76,y=48
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -38938,7 +38924,7 @@ EndPlot
 BeginPlot
 	x=77,y=48
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 EndPlot
 BeginPlot
 	x=77,y=49
@@ -46367,7 +46353,6 @@ BeginPlot
 		CityName=Samarqand
 		CityPopulation=2
 		ReligionType=RELIGION_BUDDHISM
-		CorporationType=CORPORATION_1
 	EndCity
 	TeamReveal=48,
 EndPlot
@@ -70528,6 +70513,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=141,y=34
+	BonusType=BONUS_PEARL
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=48,
@@ -71063,7 +71049,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=142,y=34
-	BonusType=BONUS_PEARL
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=48,
@@ -71096,8 +71081,6 @@ BeginPlot
 		CityName=Panyu
 		CityPopulation=2
 		ReligionType=RELIGION_TAOISM
-		CorporationType=CORPORATION_2
-		CorporationType=CORPORATION_4
 	EndCity
 	TeamReveal=48,
 EndPlot
@@ -71631,6 +71614,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=143,y=35
+	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=48,
@@ -71745,7 +71729,6 @@ EndPlot
 BeginPlot
 	x=143,y=50
 	BonusType=BONUS_PIG
-	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=49,50,
@@ -71764,7 +71747,6 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	BonusType=BONUS_WHEAT
-	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=48,49,50,
@@ -72187,7 +72169,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=144,y=35
-	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=48,
@@ -72852,7 +72833,6 @@ BeginPlot
 		HolyCityReligionType=RELIGION_CONFUCIANISM
 		ReligionType=RELIGION_TAOISM
 		HolyCityReligionType=RELIGION_TAOISM
-		Player50Culture=30
 	EndCity
 	TeamReveal=50,
 EndPlot
@@ -73390,19 +73370,18 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=49
+		UnitType=UNIT_ARCHER, UnitOwner=50
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=49
+		CityOwner=50
 		CityName=Linzi
 		CityPopulation=4
 		ReligionType=RELIGION_CONFUCIANISM
 		ReligionType=RELIGION_TAOISM
-		Player49Culture=10
 	EndCity
 	TeamReveal=50,
 EndPlot
@@ -75357,8 +75336,6 @@ BeginPlot
 		CityPopulation=2
 		ReligionType=RELIGION_CONFUCIANISM
 		ReligionType=RELIGION_TAOISM
-		CorporationType=CORPORATION_1
-		CorporationType=CORPORATION_2
 	EndCity
 	TeamReveal=48,
 EndPlot
@@ -75367,7 +75344,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	BonusType=BONUS_RICE
-	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=48,

@@ -198,7 +198,7 @@ tCapitals = (
 	(112, 30), # 5 Singhapura
 	(136, 50), # 6 Xian
 	(153, 62), # 7 Liaodong
-	(58, 22), # 8 Meroe
+	(58, 21), # 8 Meroe
 	(68, 21), # 9 Mariba
 	(105, 17), # 10 Madurai
 	(60, 52), # 11 Sinope
@@ -1025,10 +1025,10 @@ lEnemyCivsOnSpawn = [
 	[], # Tibet
 	[iHan, iJin, iQin], # Tang
 	[iRome, iSassanids, iEgypt, iByzantines, iSaba], # Arabs
-	[], # Xiongnu
+	[iQin, iHan], # Xiongnu
 	[], # Numidia
 	[iParthia, iTocharians, iSatavahana, iBactria], # Scythians
-	[iQin, iHan], # Nan Yue
+	[iQin, iHan, iVietnam], # Nan Yue
 	[], # Sungas
 	[], # Macedon
 	[], # Makuria
@@ -1036,7 +1036,7 @@ lEnemyCivsOnSpawn = [
 	[iJin, iHan], # Shu
 	[iJin, iQin], # Wu
 	[iSassanids, iTocharians, iGupta], # Hepthalites
-	[], # Xianbei
+	[iQin, iHan], # Xianbei
 	[iRome, iByzantines], # Huns
 	[], # Avars
 	[], # Rouran
@@ -1374,7 +1374,7 @@ lStartingTechs = [
 	iCurrency, iIronWorking, iWriting, iAlphabet, iInfantryTactics, iMilitaryDrill, iSiegeEngines, iElephantTraining, iHorsemanship, ], 
 	# 2 Egypt 19
 	[iPyramidsFunctionTech, iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, 
-	iSailing, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iHorsemanship, iArchery, ], 
+	iSailing, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iHorsemanship, ], 
 	# 3 Carthage 18
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iHorsemanship, iSailing, 
 	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, ], 
@@ -1420,7 +1420,7 @@ lStartingTechs = [
 	# 17 Han 23
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
 	iCalendar, iSiegeEngines, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, iHorticulture, iHorsemanship, iInfantryTactics, iCropRotation, iAlphabet, 
-	iAstronomy, iCodeOfLaws, iMilitaryDrill, ], 
+	iAstronomy, ], 
 	# 18 Satavahana 20
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, 
 	iLuxuryTrade, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, iHorticulture, iMasonry, iCalendar, iCurrency, ], 
@@ -1453,7 +1453,7 @@ lStartingTechs = [
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
 	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
 	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iBureaucracy, iMarksmanship, iInfantryTactics, iSelectiveBreeding, 
-	iBridgeBuilding, iScaleArmor, iCodeOfLaws, iAgrarianism, iMilitaryDrill, ], 
+	iBridgeBuilding, iScaleArmor, iCodeOfLaws, iAgrarianism, ], 
 	# 28 Sassanids 38
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
 	iHorticulture, iCalendar, iHorsemanship, iSelectiveBreeding, iHorseArchery, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
@@ -1466,7 +1466,7 @@ lStartingTechs = [
 	# 30 Gupta 36
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iMarksmanship, iAgriculture, iHorticulture, 
 	iCropRotation, iCasteSystem, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iIronWorking, iAstronomy, 
-	iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, iMetalCasting, iSelectiveBreeding, iScaleArmor, iSiegeEngines, ], 
+	iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, iMetalCasting, iSelectiveBreeding, iScaleArmor, ], 
 	# 31 Byzantines 42
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
 	iHorticulture, iCalendar, iHorsemanship, iSailing, iConstruction, iTheology, iNavalWarfare, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iIronWorking, 
@@ -1555,12 +1555,12 @@ lStartingTechs = [
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
 	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
 	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, 
-	iScaleArmor, iCodeOfLaws, iMilitaryDrill, ], 
+	iScaleArmor, iCodeOfLaws, ], 
 	# Wu
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
 	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
 	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, 
-	iScaleArmor, iCodeOfLaws, iMilitaryDrill, ], 
+	iScaleArmor, iCodeOfLaws, ], 
 	# Hepthalites
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, 
 	iIronWorking, iCurrency, iSelectiveBreeding, iMarksmanship, iScaleArmor, iCavalryTactics, iTheStirrup, ],
@@ -1898,7 +1898,7 @@ iWaterRoute = 25
 
 iNumBuildings = 207
 (iPalace, iForbiddenPalace, #1
-iGrandAnicut, #2
+iInvasionProject, #2
 iWalls, iCelticDun, iMaccabeeKotel, #5
 iCastle, iDacianDava, #7
 iBarracks, iStratopedon, iArmyCamp, #10
@@ -1954,7 +1954,7 @@ iPyramidsFunctionBuilding, iColossusFunctionBuilding) = range(iNumBuildings)
 
 # REGIONS for RFC RiseAndFall, RFC Stability, RFC AIWars, MEM Religions and MEM Regional Recruitment
 
-iNumRegions = 136
+iNumRegions = 135
 (rNoRegion, rCaledonia, rHibernia, rBritannia, rScania, rAquitania, rGaul, rSeptimania, rIberia, rGermania, rNItaly, rSicily, rGreece, rIllyricum, rThrace, rDacia, 
 rSlavia, rAsia, rArmenia, rSyria, rMesopotamia, rArabia, rArabiaFelix, rJudea, rEgypt, rLibya, rAfrica, rMauretania, rNubia, rAxum, rPunt, rSahara, rAethiopia, rGuinea, 
 rMedia, rPersia, rParthia, rArachosia, rSogdiana, rSindh, rGandhara, rPunjab, rThar, rMagadha, rBangala, rKalinka, rKerala, rTamilNadu, rAvanti, rDeccan, rLanka, rTibet, 
@@ -1962,8 +1962,7 @@ rTarim, rBirma, rFunan, rAnnam, rMalaya, rSumatra, rJava, rBorneo, rPhilipines, 
 rGoguryeo, rYamato, rEmishi, rHokkaido, rScythianSteppe, rSarmatianSteppe, rMongolianSteppe, rSiberia, rCaucasus, rIslands, rAustralia, rTaiwan, rAtlanticOcean, 
 rNorthSea, rBalticSea, rMediterraneanSea, rBlackSea, rCaspianSea, rAralSea, rRedSea, rPersianGulf, rIndianOcean, rSouthChinaSea, rYellowSea, rSeaOfJapan, rPacificOcean, 
 rBactria, rMargiana, rCrimea, rSaurashtra, rShu, rBa, rMinYue, rGansu, rMakan, rBuyeo, rBaetica, rLusitania, rSItaly, rSulawesi, rPapua, rWu, rMaldives, rCyprus, rCrete, 
-rRhodes, rSardinia, rCorsica, rMallorca, rPontus, rCappadocia, rAndhra, rNumidia, rMalta, rChampa, rNanzhao, rAssam, rQinghai, rMacedonia, rMoesia, rGedrosia, rBharat,
-rNoricum) = range(iNumRegions)
+rRhodes, rSardinia, rCorsica, rMallorca, rPontus, rCappadocia, rAndhra, rNumidia, rMalta, rChampa, rNanzhao, rAssam, rQinghai, rMacedonia, rMoesia, rGedrosia, rBharat) = range(iNumRegions)
 
 lMediterraneanRegions = [rMacedonia, rBaetica, rIberia, rMallorca, rNumidia, rAfrica, rLibya, rEgypt, rJudea, rSyria, rCappadocia, rAsia, rCyprus, rRhodes, rThrace, rCrete, rGreece, rIllyricum, rNItaly, rSItaly, rSicily, rSeptimania, rCorsica, rSardinia]
 lWesternMediterraneanRegions = [rBaetica, rIberia, rMallorca, rNumidia, rAfrica, rIllyricum, rNItaly, rSItaly, rSicily, rSeptimania, rCorsica, rSardinia]
@@ -2001,7 +2000,7 @@ lCoreRegions = [
 	[rNItaly, rSItaly], # Rome
 	[rAnnam], # Vietnam
 	[rTarim], # Tocharians
-	[rBactria], # Bactria
+	[rBactria, rMargiana], # Bactria
 	[rHan, rQi, rWu], # Han
 	[rDeccan], # Satavahana
 	[rArmenia], # Armenia
@@ -2010,7 +2009,7 @@ lCoreRegions = [
 	[rDacia], # Dacia
 	[rGoguryeo, rJin], # Goguryeo
 	[rAxum], # Axum
-	[rSogdiana, rBactria, rGandhara], # Kushans
+	[rArachosia, rSogdiana, rBactria, rGandhara], # Kushans
 	[rFunan], # Funan
 	[rHan, rQin, rZhao], # Jin
 	[rPersia, rMesopotamia], # Sassanids
@@ -2064,7 +2063,7 @@ lNormalRegions = [
 	[rNubia, rJudea, rLibya, rCyprus, rCrete, rRhodes, rSyria, rCappadocia], # Egypt
 	[rBaetica, rSicily, rMauretania, rSardinia, rCorsica, rMallorca, rLibya, rNumidia, rIberia, rLusitania, rMalta], # Carthage
 	[rGandhara, rSindh, rAvanti, rKalinka, rArachosia, rBangala, rAndhra, rPunjab, rGedrosia, rBharat], # Mauryans
-	[rDeccan, rAndhra, rBangala], # Kalinka
+	[rDeccan, rAvanti, rTamilNadu, rAndhra], # Kalinka
 	[rZhao, rShu, rBa, rYan, rChu, rQi, rMinYue, rNanYue, rWu], # Qin
 	[rGoguryeo, rYan, rJin], # Gojoseon
 	[rAxum, rEgypt], # Nubia
@@ -2072,20 +2071,19 @@ lNormalRegions = [
 	[rKerala, rLanka, rAndhra], # Pandyans
 	[rAsia, rThrace, rCappadocia, rCaucasus, rCrimea], # Pontus
 	[rIberia, rNItaly, rIllyricum, rAquitania, rSeptimania], # Celts
-	[rGreece, rMacedonia, rAsia, rSyria, rJudea, rEgypt, rLibya, rAfrica, rBaetica, rIllyricum, rIberia, rLusitania, rSicily, rCyprus, rCrete, rRhodes, rSardinia, 
-	rCorsica, rMallorca, rThrace, rCappadocia, rNumidia, rSeptimania, rPontus, rAquitania, rGaul, rMalta], # Rome
+	[rGreece, rMacedonia, rAsia, rSyria, rJudea, rEgypt, rLibya, rAfrica, rBaetica, rIllyricum, rIberia, rLusitania, rSicily, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca, rThrace, rCappadocia, rNumidia, rSeptimania, rPontus, rAquitania, rGaul, rMalta], # Rome
 	[rNanYue, rFunan, rChampa], # Vietnam
 	[rFerghana, rGansu, rSogdiana], # Tocharians
-	[rGandhara, rArachosia, rPunjab, rSindh, rSogdiana, rMargiana], # Bactria
+	[rGandhara, rArachosia, rPunjab, rSindh, rSogdiana, rFerghana, rGedrosia], # Bactria
 	[rZhao, rYan, rNanYue, rAnnam, rShu, rBa, rMinYue, rGansu, rQin, rChu, rTarim, rGoguryeo, rBuyeo], # Han
 	[rKerala, rSaurashtra, rAndhra, rMagadha, rAvanti, rBharat], # Satavahana
 	[rCaucasus, rSyria, rCappadocia], # Armenia
 	[rSyria, rArabia, ], # Maccabees
 	[rMesopotamia, rArmenia, rSyria, rMargiana, rSindh, rArachosia, rBactria, rGedrosia], # Parthia
-	[rThrace, rIllyricum, rMoesia, rMacedonia, rNoricum], # Dacia
+	[rThrace, rIllyricum, rMoesia, rMacedonia], # Dacia
 	[rBuyeo, rJin, rYan], # Goguryeo
 	[rNubia, rPunt, rArabiaFelix], # Axum
-	[rArachosia, rSindh, rPunjab, rMagadha, rMargiana, rParthia, rSaurashtra, rFerghana, rGedrosia], # Kushans
+	[rSindh, rPunjab, rMagadha, rMargiana, rParthia, rSaurashtra, rFerghana, rGedrosia], # Kushans
 	[rBirma, rAnnam, rChampa], # Funan
 	[rYan, rQi, rChu, rWu, rBa, rNanYue], # Jin
 	[rParthia, rArmenia, rSyria, rJudea, rEgypt, rSogdiana, rAsia, rArmenia, rMargiana, rBactria, rArachosia, rGedrosia, rMedia], # Sassanids
@@ -2094,7 +2092,7 @@ lNormalRegions = [
 	[rSyria, rMoesia, rJudea, rEgypt, rLibya, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca, rIllyricum], # Byzantines
 	[rLusitania, rBaetica, rGaul, rSeptimania, rMallorca], # Visigoths
 	[rMauretania, rSicily, rAfrica, rMallorca, rSardinia], # Vandals
-	[rSeptimania, rSItaly, rGreece, rThrace, rDacia, rMoesia, rMacedonia, rNoricum], # Ostrogoths
+	[rSeptimania, rSItaly, rGreece, rThrace, rDacia, rMoesia, rMacedonia], # Ostrogoths
 	[rSeptimania, rGermania, rNItaly, rSardinia, rCorsica, rMallorca, rAquitania], # Franks
 	[rAvanti, rKerala, rAndhra], # Chalukyans
 	[rSItaly, rSicily, rIllyricum, rGermania, rSeptimania], # Lombards
@@ -2104,7 +2102,7 @@ lNormalRegions = [
 	[rNepal, rShu, rGansu, rBirma], # Tibet
 	[rQin, rChu, rWu, rYan, rNanYue, rAnnam, rMinYue, rGansu, rTarim, rBuyeo], # Tang
 	[rLibya, rAfrica, rPersia, rMedia, rParthia, rArachosia, rEgypt, rMesopotamia, rNumidia, rMargiana, rSindh, rGedrosia], # Arabs
-	[rBuyeo, rYan, rZhao, rGansu, rTarim, rQinghai, rQin], # Xiongnu
+	[rBuyeo, rYan, rZhao, rGansu, rTarim, rQinghai], # Xiongnu
 	[rAfrica, rLibya], # Numidia
 	[rArachosia, rBactria, rAvanti, rPunjab, rMargiana, rSogdiana, rGedrosia], # Scythians
 	[rChu, rWu, rAnnam], # Nan Yue
@@ -2115,20 +2113,19 @@ lNormalRegions = [
 	[rQin, rHan, rChu, rQi], # Shu
 	[rBa, rShu, rHan, rQi], # Wu
 	[rParthia, rArachosia, rBactria, rSindh, rTarim, rGedrosia, rMargiana, rBactria, rGandhara, rSindh, rArachosia], # Hepthalites
-	[rBuyeo, rYan, rZhao, rGansu, rTarim, rQinghai, rQin], # Xianbei
+	[rBuyeo, rYan, rZhao, rGansu, rTarim, rQinghai], # Xianbei
 	[rCaucasus, rSarmatianSteppe, rThrace, rMoesia], # Huns
 	[rNItaly, rThrace, rGreece, rGermania, rMoesia], # Avars
 	[rFerghana, rQin, rZhao, rYan, rSarmatianSteppe], # Rouran
 	[rKerala, rSaurashtra, rAvanti, rAndhra], # Vakataka
 	[rBa, rShu, rHan, rQi], # Song
 	[rGandhara, rSindh, rAvanti, rKalinka, rBangala], # Magadha
-	[rGreece, rMoesia, rAsia, rSyria, rJudea, rEgypt, rLibya, rAfrica, rBaetica, rIllyricum, rIberia, rSeptimania, rLusitania, rSicily, rCyprus, rCrete, rRhodes, 
-	rSardinia, rCorsica, rMallorca, rThrace, rNumidia], # Rebel Rome
+	[rGreece, rMoesia, rAsia, rSyria, rJudea, rEgypt, rLibya, rAfrica, rBaetica, rIllyricum, rIberia, rSeptimania, rLusitania, rSicily, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca, rThrace, rNumidia], # Rebel Rome
 	[rKalinka, rTamilNadu, rMagadha, rDeccan], # Pallavas
 	[rKerala, rDeccan, rAndhra], # Kalabhras
-	[rGaul, rScania, rNItaly, rIllyricum, rNoricum], # Saxons
+	[rGaul, rScania, rNItaly, rIllyricum], # Saxons
 	[rMagadha, rAvanti, rGandhara], # Harsha
-	[rAfrica, rBaetica, rIllyricum, rIberia, rLusitania, rSicily, rSardinia, rCorsica, rMallorca, rNumidia, rSeptimania, rAquitania, rGaul, rMalta], # Western Rome
+	[rAfrica, rBaetica, rIllyricum, rIberia, rLusitania, rSicily, rSardinia, rCorsica, rMallorca, rNumidia, rSeptimania, rAquitania, rGaul], # Western Rome
 	[rSeptimania, rAquitania, rAfrica, rSicily], # Moors
 	[rFunan], # Champa
 ]
@@ -2140,23 +2137,23 @@ lBroaderRegions = [
 	[rAfrica, rArabia, rArabiaFelix, rGreece, rThrace, rSItaly, rSicily, rMacedonia], # Egypt
 	[rSItaly, rNItaly, rGreece, rThrace, rAsia, rCappadocia, rSyria, rJudea, rEgypt, rCyprus, rCrete, rRhodes], # Carthage
 	[rSaurashtra, rTamilNadu, rKerala, rBactria, rMargiana], # Mauryans
-	[rMagadha, rAvanti, rTamilNadu], # Kalinka
+	[rMagadha, rBangala], # Kalinka
 	[rGansu, rTarim, rAnnam, rBuyeo, rGoguryeo, rJin], # Qin
 	[rZhao, rQi, rHan], # Gojoseon
 	[rLibya, rArabia, rArabiaFelix], # Nubia
 	[rJudea, rSyria, rMesopotamia, rEgypt, rNubia, rAxum], # Saba
 	[rDeccan, rKalinka], # Pandyans
 	[rGreece, rArmenia, rSyria, rDacia, rMoesia, rMacedonia], # Pontus
-	[rBritannia, rGermania, rLusitania, rBaetica], # Celts
-	[rBritannia, rGermania, rMesopotamia, rArmenia, rCrimea, rArabia, rArabiaFelix, rMauretania, rDacia], # Rome
+	[rBritannia, rGermania, rLusitania], # Celts
+	[rBritannia, rGermania, rMesopotamia, rArmenia, rCrimea, rArabia, rArabiaFelix], # Rome
 	[rChu, rShu, rBa, rBirma], # Vietnam
-	[rMongolianSteppe], # Tocharians
-	[rParthia, rSaurashtra, rFerghana, rGedrosia], # Bactria
+	[], # Tocharians
+	[rParthia, rSaurashtra], # Bactria
 	[rMongolianSteppe, rFerghana, rTibet, rBirma, rJin], # Han
 	[rPunjab, rTamilNadu, rKalinka, rSindh], # Satavahana
 	[rAsia, rPontus, rMedia, rMesopotamia, rJudea], # Armenia
 	[rArabiaFelix, rMesopotamia, rEgypt], # Maccabees
-	[rSogdiana, rGandhara, rSaurashtra, rJudea, rEgypt, rCappadocia, rAsia, rPontus, rCaucasus, rArabiaFelix], # Parthia
+	[rSogdiana, rGandhara, rSaurashtra, rJudea, rEgypt, rCappadocia, rAsia, rPontus, rCaucasus], # Parthia
 	[rGreece, rNItaly, rGermania], # Dacia
 	[rZhao, rQi, rHan], # Goguryeo
 	[rEgypt, rArabia, rMakan, rSindh], # Axum
@@ -2166,20 +2163,20 @@ lBroaderRegions = [
 	[rJudea, rArabia, rArabiaFelix, rEgypt, rCappadocia, rAsia, rPontus, rMakan, rSindh], # Sassanids
 	[rJin, rGoguryeo, rBuyeo, rQi, rYan], # Yamato
 	[rSindh, rArachosia, rGandhara, rBactria, rSaurashtra, rKerala, rTamilNadu, rGedrosia], # Gupta
-	[rMesopotamia, rArmenia, rAfrica, rSItaly, rNItaly, rSicily, rBaetica, rIberia, rSeptimania, rNumidia, rMauretania, rNoricum], # Byzantines
+	[rMesopotamia, rArmenia, rAfrica, rSItaly, rNItaly, rSicily, rBaetica, rIberia, rSeptimania, rNumidia, rMauretania], # Byzantines
 	[rMauretania, rNumidia, rAfrica, rSicily, rSardinia, rCorsica, rSItaly, rNItaly], # Visigoths
 	[rSItaly, rLibya, rCorsica], # Vandals
 	[rAsia, rGermania, rGaul, rAquitania], # Ostrogoths
-	[rIberia, rSItaly, rIllyricum, rNoricum], # Franks
+	[rIberia, rSItaly, rIllyricum], # Franks
 	[rMagadha, rSaurashtra, rPunjab, rTamilNadu, rBharat], # Chalukyans
-	[rGaul, rAquitania, rCorsica, rSardinia, rNoricum], # Lombards
+	[rGaul, rAquitania, rCorsica, rSardinia], # Lombards
 	[rScythianSteppe, rBactria, rMargiana, rParthia], # Gokturks
 	[rBirma, rFunan, rLanka, rBangala, rChampa], # Srivajaya
 	[rMargiana, rMedia, rThrace, rSogdiana, rFerghana], # Khazars
 	[rTarim, rAnnam, rBangala], # Tibet
 	[rFerghana, rGoguryeo, rMongolianSteppe, rSarmatianSteppe, rSogdiana], # Tang
 	[rCappadocia, rBaetica, rIberia, rLusitania, rPontus, rAsia, rSogdiana, rArmenia, rCaucasus], # Arabs
-	[rHan, rShu, rQi, rSarmatianSteppe, rFerghana], # Xiongnu
+	[], # Xiongnu
 	[rAfrica, rLibya], # Numidia
 	[rMagadha, rDeccan, rPersia, rFerghana, rSogdiana, rParthia, rBharat], # Scythians
 	[rChu, rWu, rAnnam], # Nan Yue
@@ -2190,7 +2187,7 @@ lBroaderRegions = [
 	[rQin, rHan, rChu, rQi], # Shu
 	[rBa, rShu, rHan, rQi], # Wu
 	[rParthia, rBactria, rSindh, rFerghana, rTarim], # Hepthalites
-	[rHan, rShu, rQi, rSarmatianSteppe, rFerghana], # Xianbei
+	[], # Xianbei
 	[rGreece, rAsia, rGaul, rNItaly], # Huns
 	[], # Avars
 	[rSogdiana, rBuyeo, rTibet], # Rouran
@@ -2202,7 +2199,7 @@ lBroaderRegions = [
 	[rKerala, rDeccan, rAndhra], # Kalabhras
 	[], # Saxons
 	[rSindh, rBangala, rSaurashtra, rDeccan], # Harsha
-	[rBritannia, rGermania, rMauretania], # Western Rome
+	[rBritannia, rGermania], # Western Rome
 	[rLibya, rSItaly], # Moors
 	[rAnnam, rMalaya], # Champa
 ]
@@ -2210,7 +2207,7 @@ lBroaderRegions = [
 # Target regions: no stability effect but AI wars + 10
 lTargetRegions = [
 	[rThrace, rGreece, rSyria], # Antigonids
-	[rJudea, rSyria, rEgypt], # Seleucids
+	[rJudea], # Seleucids
 	[], # Egypt
 	[rIberia, rSicily, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca], # Carthage
 	[rGandhara, rSindh, rAvanti, rKalinka], # Mauryans
@@ -2383,7 +2380,7 @@ lSpecialRegions = [
 	[], # Dacia
 	[], # Goguryeo
 	[], # Axum
-	[rMargiana, rArachosia], # Kushans
+	[rMargiana, rArachosia, rSogdiana, rFerghana, rBactria], # Kushans
 	[], # Funan
 	[], # Sassanids
 	[], # Yamato
@@ -2456,7 +2453,7 @@ mercRegions = {
 	iArea_African: set([rMauretania, rAfrica, rLibya, rEgypt, rNubia, rAxum, rPunt, rSahara, rAethiopia, rGuinea]),
 	iArea_Greek: set ([rAsia, rArmenia, rMedia, rMesopotamia, rNItaly, rSItaly, rSicily, rGreece, rThrace]),
 	iArea_Persian: set ([rPersia, rMedia, rParthia, rArachosia, rBactria, rMargiana, rSogdiana]),
-	iArea_Scythian: set ([rThrace, rCaucasus, rScythianSteppe, rArmenia, rDacia, rIllyricum]),
+	iArea_Scythian: set ([rThrace, rCaucasus, rScythianSteppe]),
 	iArea_Sarmatian: set ([rMargiana, rSogdiana, rFerghana, rBactria, rParthia, rTarim, rSarmatianSteppe]),
 	iArea_Mongolian: set ([rTarim, rGansu, rQin, rZhao, rYan, rBuyeo, rMongolianSteppe]),
 	iArea_Indian: set ([rGandhara, rSindh, rPunjab, rSaurashtra, rAvanti, rMagadha, rBangala, rDeccan, rKerala, rTamilNadu, rKalinka]),

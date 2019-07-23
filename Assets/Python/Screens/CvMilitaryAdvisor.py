@@ -40,7 +40,7 @@ class CvMilitaryAdvisor:
 		self.GREAT_GENERAL_BAR_ID = "MilitaryAdvisorGreatGeneralBar"
 		self.GREAT_GENERAL_LABEL_ID = "MilitaryAdvisorGreatGeneralLabel"
 		# srpt
-		#self.FORCE_LIMIT_LABEL_ID = "ForceLimitLabel"
+		self.FORCE_LIMIT_LABEL_ID = "ForceLimitLabel"
 
 		self.Z_BACKGROUND = -2.1
 		self.Z_CONTROLS = self.Z_BACKGROUND - 0.2
@@ -154,7 +154,7 @@ class CvMilitaryAdvisor:
 		self.drawCombatExperience()
 		
 		# srpt
-		#self.drawForceLimit()
+		self.drawForceLimit()
 
 		self.refresh(true)
 		

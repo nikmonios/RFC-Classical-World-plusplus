@@ -201,7 +201,7 @@ g_buildingInfoTypeList = []
 g_unitFilterDictionary = {}
 
 # Set to true to print out debug messages in the logs
-g_bDebug = True
+g_bDebug = False
 
 
 class MercenaryUtils:
@@ -570,8 +570,8 @@ class MercenaryUtils:
 		#edead - end
 				
 		# Debug code - start		
-		#if(g_bDebug):
-			#self.printMercenaryDataToLog(mercenary)
+		if(g_bDebug):
+			self.printMercenaryDataToLog(mercenary)
 		# Debug code - end
 		
 		# hire the mercenary
@@ -609,8 +609,8 @@ class MercenaryUtils:
 		#edead - end
 				
 		# Debug code - start		
-		#if(g_bDebug):
-			#self.printMercenaryDataToLog(mercenary)
+		if(g_bDebug):
+			self.printMercenaryDataToLog(mercenary)
 		# Debug code - end
 
 		# Finally return the mercenary cost
@@ -1217,8 +1217,8 @@ class MercenaryUtils:
 			tmpMercenary.loadData(mercenary)
 
 			# Debug code - start
-			#if(g_bDebug):
-				#self.printMercenaryDataToLog(tmpMercenary)	
+			if(g_bDebug):
+				self.printMercenaryDataToLog(tmpMercenary)	
 			# Debug code - end
 
 			# Add the mercenary into the mercenaryDict				
@@ -1261,8 +1261,8 @@ class MercenaryUtils:
 		tmpMercenary.loadData(mercenary)
 
 		# Debug code - start		
-		#if(g_bDebug):
-			#self.printMercenaryDataToLog(tmpMercenary)	
+		if(g_bDebug):
+			self.printMercenaryDataToLog(tmpMercenary)	
 		# Debug code - end
 			
 		return tmpMercenary
@@ -1309,8 +1309,8 @@ class MercenaryUtils:
 			tmpMercenary.loadData(mercenary)
 
 			# Debug code - start
-			#if(g_bDebug):
-				#self.printMercenaryDataToLog(tmpMercenary)	
+			if(g_bDebug):
+				self.printMercenaryDataToLog(tmpMercenary)	
 			# Debug code - end
 					
 		return tmpMercenary
@@ -1776,7 +1776,7 @@ class MercenaryUtils:
 
 		# edead: start
 		iMax = g_iMaxGlobalMercenaryPoolSize
-		#if CyGame().getGameTurnYear() >= 1080 and CyGame().getGameTurnYear() < 1220: iMax += 1
+		if CyGame().getGameTurnYear() >= 1080 and CyGame().getGameTurnYear() < 1220: iMax += 1
 		if availableMercenaryCount >= iMax: 
 		# edead: end
 
@@ -1863,7 +1863,7 @@ class MercenaryUtils:
 
 		# edead: start
 		iMax = g_iMaxGlobalMercenaryPoolSize
-		#if CyGame().getGameTurnYear() >= 1080 and CyGame().getGameTurnYear() < 1220: iMax += 1
+		if CyGame().getGameTurnYear() >= 1080 and CyGame().getGameTurnYear() < 1220: iMax += 1
 		if availableMercenaryCount >= iMax: 
 		# edead: end
 

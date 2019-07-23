@@ -856,11 +856,6 @@
 		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UP_HAN_INDY_ASSIMILATION</Tag>
-		<English>An independent city has acknowledged the overlordship of Han.</English>
-		<German>Eine Armee wurde zusammengestellt zum Angriff auf %s1_civ_adjective!</German>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_UP_ROMAN_CONQUESTS_TARGET</Tag>
 		<English>The Romans have raised new legions to conquer our civilization!</English>
 		<German>Die Römer haben eine Armee zum Angriff auf unsere Zivilisation zusammengestellt!</German>

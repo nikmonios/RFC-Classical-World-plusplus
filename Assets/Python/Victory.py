@@ -780,28 +780,28 @@ class Victory:
 						bControl = true
 						regionList = [con.rHan, con.rChu, con.rQi, con.rQin, con.rMinYue, con.rNanYue, con.rShu, con.rBa, con.rWu, con.rChu, con.rYan, con.rZhao]
 						for regionID in regionList:
-							if not utils.checkRegionControl(iHan, regionID):
+							if not utils.checkRegionControl(iJin, regionID):
 								bControl = False
 						if bControl:
-							sd.setGoal(iHan, 0, 1)
+							sd.setGoal(iJin, 0, 1)
 						else:
-							sd.setGoal(iHan, 0, 0)
+							sd.setGoal(iJin, 0, 0)
 					
 					# Jin UHV2: 6 luxuries in 350AD
-					if sd.getGoal(iHan, 1) == -1:
+					if sd.getGoal(iJin, 1) == -1:
 						if iGameTurn <= getTurnForYear(350):
-							if self.getNumLuxuries(iHan) >= 6:
-								sd.setGoal(iHan, 1, 1)
+							if self.getNumLuxuries(iJin) >= 6:
+								sd.setGoal(iJin, 1, 1)
 						else:
-							sd.setGoal(iHan, 1, 0)
+							sd.setGoal(iJin, 1, 0)
 					
 					# Jin UHV3: Be the first to discover The Stirrup, see onTechAcquired
 					
 				else:
 					
-					# Han UHV1: Control provinces by 50AD
+					# Han UHV1: Control provinces by 50BC
 					if sd.getGoal(iHan, 0) == -1:
-						if iGameTurn <= getTurnForYear(50):
+						if iGameTurn <= getTurnForYear(-50):
 							bControl = True
 							regionList = [con.rQin, con.rHan, con.rQi, con.rChu, con.rShu, con.rBa, con.rYan, con.rZhao, con.rGansu, con.rTarim, con.rNanYue, con.rMinYue]
 							for regionID in regionList:
@@ -816,11 +816,14 @@ class Victory:
 					
 					
 					# Han UHV2: Be the first to discover Paper, see onTechAcquired
-							
-					# Han UHV3: highest population in 100AD
-					if sd.getGoal(iHan, 2) == -1:
+					if sd.getGoal(iHan, 1) == -1:
 						if iGameTurn == getTurnForYear(100):
-							iPop = gc.getPlayer(iHan).getRealPopulation()
+							sd.setGoal(iHan, 1, 0)
+							
+					# Han UHV3: double nearest rivals population in 150AD
+					if sd.getGoal(iHan, 2) == -1:
+						if iGameTurn == getTurnForYear(150):
+							iPop = gc.getPlayer(iHan).getRealPopulation() / 2
 							bHighest = True
 							for iLoopCiv in range(iNumPlayers):
 								if iLoopCiv != iHan:
@@ -921,13 +924,8 @@ class Victory:
 		elif iPlayer == iParthia:
 			if pParthia.isAlive():
 				
-				# Parthian UHV1: Build a Palace and the National Epic in Ctesiphon by 50BC
-				if iGameTurn == getTurnForYear(-50) + 1:
-					if sd.getGoal(iParthia, 0) == -1:
-						sd.setGoal(iParthia, 0, 0)
-				
 				# Parthian UHV2: 5% land by 50AD
-				if sd.getGoal(iParthia, 1) == -1:
+				if sd.getGoal(iParthia, 0) == -1:
 					if iGameTurn <= getTurnForYear(50):
 						totalLand = gc.getMap().getLandPlots()
 						ownedLand = pParthia.getTotalLand()
@@ -936,8 +934,13 @@ class Victory:
 						else:
 							landPercent = 0.0
 						if landPercent >= 4.995:
-							sd.setGoal(iParthia, 1, 1)
+							sd.setGoal(iParthia, 0, 1)
 					else:
+						sd.setGoal(iParthia, 0, 0)
+				
+				# Parthian UHV2: Build a Palace and the National Epic in Ctesiphon by 50BC
+				if iGameTurn == getTurnForYear(-50) + 1:
+					if sd.getGoal(iParthia, 1) == -1:
 						sd.setGoal(iParthia, 1, 0)
 						
 				# Parthian UHV3: Kill 20 Roman units see onCombatResult
@@ -1013,35 +1016,11 @@ class Victory:
 						#sd.setGoal(iKushans, 0, 0)
 						
 				# Kushan UHV1: build 5 Cloth Markets, Spice Markets or Artisan's Quarters in any combination by 200AD see onBuildingBuilt
-				#if iGameTurn == getTurnForYear(200):
-					#if sd.getGoal(iKushans, 0) == -1:
-						#sd.setGoal(iKushans, 0, 0)
-						
-				# Kushan UHV1: have the most valuable trade routes in 200AD
-				if iGameTurn == getTurnForYear(250):
-					iKushanTradeRouteGold = 0
-					iBestTradeRouteGold = 0
-					cityList = PyPlayer(iKushans).getCityList()
-					iTradeCommerce = 0
-					for pCity in cityList:
-						city = pCity.GetCy()
-						iTradeCommerce += city.getTradeYield(2)
-						iTradeRouteGold = iTradeCommerce #* pKushans.getCommercePercent(0) / 100
-					for iCiv in range(iNumPlayers):
-						iTradeCommerce = 0
-						cityList = PyPlayer(iCiv).getCityList()
-						for pCity in cityList:
-							city = pCity.GetCy()
-							iTradeCommerce += city.getTradeYield(2)
-						iTradeRouteGold = iTradeCommerce #* gc.getPlayer(iCiv).getCommercePercent(0) / 100
-						if iTradeRouteGold > iBestTradeRouteGold:
-							iBestTradeRouteGold = iTradeRouteGold
-					if iKushanTradeRouteGold > iBestTradeRouteGold:
-						sd.setGoal(iKushans, 0, 1)
-					else:
+				if iGameTurn == getTurnForYear(200):
+					if sd.getGoal(iKushans, 0) == -1:
 						sd.setGoal(iKushans, 0, 0)
 				
-				# Kushan UHV2: Best culture in 250AD
+				# Kushan UHV2: Best culture in 250
 				if iGameTurn == getTurnForYear(250):
 					if self.isTopCulture(iKushans):
 						sd.setGoal(iKushans, 1, 1)
@@ -1121,7 +1100,7 @@ class Victory:
 						
 					sd.setAxumTradeGold(iTradeGold + sd.getAxumTradeGold())
 					
-					if self.getAxumTradeGold() >= 3000:
+					if self.getAxumTradeGold() >= 3000 * (gc.getGame().getGameSpeedType() + 2) / 2:
 						sd.setGoal(iAxum, 2, 1)
 						
 					if iGameTurn >= getTurnForYear(400):
@@ -1165,7 +1144,12 @@ class Victory:
 		elif iPlayer == iSassanids:
 			if pSassanids.isAlive():
 				
-				# Sassanid UHV1: control Darius' empire in 450AD
+				# Sassanid UHV1: Build 3 Zoroastrian Cathedrals by 600AD see onBuildingBuilt
+				if iGameTurn == getTurnForYear(600):
+					if sd.getGoal(iSassanids, 0) == -1:
+						sd.setGoal(iSassanids, 0, 0)
+				
+				# Sassanid UHV2: control Darius' empire in 450AD
 				if iGameTurn == getTurnForYear(450):
 					bControl = true
 					regionList = [con.rPersia, con.rMedia, con.rParthia, con.rArachosia, con.rMesopotamia, con.rSyria, con.rMargiana, con.rArmenia, con.rEgypt, con.rAsia, con.rJudea, con.rBactria, con.rSogdiana, con.rCappadocia, con.rPontus, con.rCaucasus, con.rGandhara]
@@ -1173,13 +1157,8 @@ class Victory:
 						if not utils.checkRegionOwnedCity(iSassanids, regionID):
 							bControl = False
 					if bControl:
-						sd.setGoal(iSassanids, 0, 1)
+						sd.setGoal(iSassanids, 1, 1)
 					else:
-						sd.setGoal(iSassanids, 0, 0)
-				
-				# Sassanid UHV2: Build 3 Zoroastrian Cathedrals by 600AD see onBuildingBuilt
-				if iGameTurn == getTurnForYear(600):
-					if sd.getGoal(iSassanids, 1) == -1:
 						sd.setGoal(iSassanids, 1, 0)
 				
 				# Sassanid UHV3: Have a city with legendary culture
@@ -1929,34 +1908,39 @@ class Victory:
 					else:
 						sd.setGoal(iPandyans, 2, 0)
 						
-		# Jin UHV3: Be the first to discover the Stirrup
-		if iTech == con.iTheStirrup:
-			if sd.get3KingdomsMarker() == -1 and sd.getGoal(iJin, 1) == -1:
-				if iPlayer == iJin:
-					sd.setGoal(iJin, 2, 1)
-				else:
-					sd.setGoal(iJin, 2, 0)
-					
-			elif sd.get3KingdomsMarker() == 1 and sd.getGoal(iQin, 1) == -1:
+		# Qin/Jin UHV3: Be the first to discover the Stirrup
+		if iPlayer == iQin and sd.get3KingdomsMarker() == 1:
+			if sd.getGoal(iQin, 2) == -1 and iTech == con.iTheStirrup:
 				if iPlayer == iQin:
 					sd.setGoal(iQin, 2, 1)
 				else:
 					sd.setGoal(iQin, 2, 0)
 					
-			elif sd.get3KingdomsMarker() == 2 and sd.getGoal(iHan, 1) == -1:
-				if iPlayer == iHan:
-					sd.setGoal(iHan, 2, 1)
-				else:
-					sd.setGoal(iHan, 2, 0)
 
 		
-		# Han UHV2: Be the first to discover Paper
-		if iTech == con.iPaper:
-			if sd.get3KingdomsMarker() == -1 and sd.getGoal(iHan, 1) == -1:
-				if iPlayer == iHan:
-					sd.setGoal(iHan, 1, 1)
+		# Han UHV3: Be the first to discover Paper with Jin goal
+		if iPlayer == iHan:
+			if sd.get3KingdomsMarker() == 2:
+				if sd.getGoal(iHan, 2) == -1 and iTech == con.iTheStirrup:
+					if iPlayer == iHan:
+						sd.setGoal(iHan, 2, 1)
+					else:
+						sd.setGoal(iHan, 2, 0)
+			else:
+				if iTech == con.iPaper and sd.getGoal(iHan, 1) == -1:
+					if iPlayer == iHan:
+						sd.setGoal(iHan, 1, 1)
+					else:
+						sd.setGoal(iHan, 1, 0)
+									
+									
+		# Jin UHV3: Be the first to discover the Stirrup
+		if iPlayer == iJin:
+			if sd.getGoal(iJin, 2) == -1 and iTech == con.iTheStirrup:
+				if iPlayer == iJin:
+					sd.setGoal(iJin, 2, 1)
 				else:
-					sd.setGoal(iHan, 1, 0)
+					sd.setGoal(iJin, 2, 0)
 									
 		# Roman Republc UHV2: Be the first to discover Engineering & Jurisprudence
 		if not gc.getTeam(pRome.getTeam()).isHasTech(con.iRomanEmpire):
@@ -2044,7 +2028,7 @@ class Victory:
 		if iPlayer == iPandyans and sd.getGoal(iPandyans, 1) == -1:
 			if sd.get3KingdomsMarker() == 3:
 				#if iBuilding in [con.iNationalEpic, con.iGrandAnicut]:
-				if iBuilding in [con.iNationalEpic, con.iGrandAnicut]: # dummy wnder for now to avoid breaking saves
+				if iBuilding in [con.iNationalEpic, con.iKhajuraho]: # dummy wnder for now to avoid breaking saves
 					sd.setWondersBuilt(iPandyans, sd.getWondersBuilt(iPandyans) + 1)
 				if sd.getWondersBuilt(iPandyans) == 2:
 					sd.setGoal(iPandyans, 1, 1)
@@ -2147,7 +2131,7 @@ class Victory:
 							if (city.getX(), city.getY()) == con.tCtesiphon:
 								sd.setWondersBuilt(iParthia, sd.getWondersBuilt(iParthia) + 1)
 								if sd.getWondersBuilt(iParthia) == 2:
-									sd.setGoal(iParthia, 0, 1)
+									sd.setGoal(iParthia, 1, 1)
 		
 		# Ostrogoth UHV1: Build a Palace and Royal Mausoleum in Rome by 50BC
 		elif iPlayer == iOstrogoths:
@@ -2232,14 +2216,12 @@ class Victory:
 		# Tocharian UHV3: Spread Buddhism to 5 Han or Goguryeo cities by 200AD
 		if pUnit.getOwner() == iTocharians and bSuccess:
 			if sd.getGoal(iTocharians, 2) == -1 and gc.getGame().getGameTurn() <= getTurnForYear(200):
-				x = pUnit.getX()
-				y = pUnit.getY()
-				regionList = [con.rGansu, con.rQin, con.rHan, con.rZhao, con.rYan, con.rBuyeo, con.rGoguryeo, con.rJin, con.rShu, con.rBa, con.rChu, con.rQi, con.rChu]
-				if gc.getMap().plot(x, y).getRegionID() in regionList:
-					if iReligion == con.iBuddhism:
+				city = CyMap().plot(pUnit.getX(), pUnit.getY()).getPlotCity()
+				if iReligion == con.iBuddhism: 
+					if city.getOwner() == iHan or city.getOwner() == iGoguryeo or city.getOwner() == iQin:
 						sd.setNumTocharianConversions(sd.getNumTocharianConversions() + 1)
-				if sd.getNumTocharianConversions() == 3:
-					sd.setGoal(iTocharians, 2, 1)
+						if sd.getNumTocharianConversions() == 5:
+							sd.setGoal(iTocharians, 2, 1)
 							
 		# Satavahana UHV3: Spread Buddhism and Hinduism to 3 southeast asian cities by 50AD
 		if pUnit.getOwner() == iSatavahana and bSuccess:
@@ -2848,7 +2830,7 @@ class Victory:
 				elif iGoal == 1:
 					iNumClothMarkets = (self.getNumBuildings(iPandyans, con.iClothMarket))
 					iNumSpiceMarkets = (self.getNumBuildings(iPandyans, con.iSpiceMarket))
-					aHelp.append(self.getIcon(iNumClothMarkets >= 2) + 'Cloth Markets: ' + str(iNumClothMarkets) + ' / 2  ' + self.getIcon(iNumSpiceMarkets >= 2) + 'Spice Markets: ' + str(iNumSpiceMarkets) + ' / 2  ')
+					aHelp.append(self.getIcon(iNumClothMarkets >= 2) + 'Cloth Markets: ' + str(iNumClothMarkets) + ' / 7  ' + self.getIcon(iNumSpiceMarkets >= 2) + 'Spice Markets: ' + str(iNumSpiceMarkets))
 				elif iGoal == 2:
 					aHelp.append(self.getIcon(sd.getGoal(iPandyans, 2) == -1) + 'Steel Working not known to another civilization')
 					
@@ -3089,16 +3071,15 @@ class Victory:
 				if sd.get3KingdomsMarker() == 2:
 					aHelp.append(self.getIcon(sd.getGoal(iHan, 2) != 0) + 'Stirrup not yet discovered')
 				else:
-					iHanPop = gc.getPlayer(iHan).getRealPopulation()
+					iHanPop = gc.getPlayer(iHan).getRealPopulation() / 2
 					bHighest = True
-					iOtherPop = 0
 					for iLoopCiv in range(con.iNumPlayers):
 						if iLoopCiv != iHan:
-							if gc.getPlayer(iLoopCiv).getRealPopulation() > iOtherPop:
+							if iHanPop < gc.getPlayer(iLoopCiv).getRealPopulation():
+								bHighest = False
 								iOtherPop = gc.getPlayer(iLoopCiv).getRealPopulation()
-					if iHanPop < iOtherPop:
-						bHighest = False
-					aHelp.append(self.getIcon(bHighest) + 'Largest population')
+								break
+					#aHelp.append(self.getIcon(bHighest) + 'Double the population of your nearest rival')
 					aHelp.append('Your population: ' + str(iHanPop) + '  Nearest rival: ' + str(iOtherPop))
 		
 		elif iPlayer == iSatavahana:
@@ -3161,8 +3142,6 @@ class Victory:
 		
 		elif iPlayer == iParthia:
 			if iGoal == 0:
-				aHelp.append(self.getIcon(sd.getGoal(iParthia, 1) == 1) + 'Palace and National Epic built in Ctesiphon')
-			elif iGoal == 1:
 				totalLand = gc.getMap().getLandPlots()
 				ownedLand = pParthia.getTotalLand()
 				if totalLand > 0:
@@ -3170,6 +3149,8 @@ class Victory:
 				else:
 					landPercent = 0.0
 				aHelp.append(self.getIcon(landPercent >= 4.995) + 'Land Area: ' + u"%.2f" % landPercent + '% / 5%')
+			elif iGoal == 1:
+				aHelp.append(self.getIcon(sd.getGoal(iParthia, 1) == 1) + 'Palace and National Epic built in Ctesiphon')
 			elif iGoal == 2:
 				aHelp.append(self.getIcon(sd.getNumParthianKills() >= 20) + 'Roman units killed: ' + str(sd.getNumParthianKills()) + ' / 20')
 		
@@ -3198,28 +3179,8 @@ class Victory:
 		
 		elif iPlayer == iKushans:
 			if iGoal == 0:
-				iKushanTradeRouteGold = 0
-				iBestTradeRouteGold = 0
-				iRival = -1
-				cityList = PyPlayer(iKushans).getCityList()
-				iTradeCommerce = 0
-				for pCity in cityList:
-					city = pCity.GetCy()
-					iTradeCommerce += city.getTradeYield(2)
-					iKushanTradeRouteGold = iTradeCommerce #* pKushans.getCommercePercent(0) / 100
-				for iCiv in range(iNumPlayers):
-					iTradeCommerce = 0
-					cityList = PyPlayer(iCiv).getCityList()
-					for pCity in cityList:
-						city = pCity.GetCy()
-						iTradeCommerce += city.getTradeYield(2)
-					iTradeRouteGold = iTradeCommerce #* gc.getPlayer(iCiv).getCommercePercent(0) / 100
-					if iTradeRouteGold > iBestTradeRouteGold:
-						iBestTradeRouteGold = iTradeRouteGold
-						iRival = iCiv
-				aHelp.append('Kushan trade route value: ' + str(iKushanTradeRouteGold) + ' Highest rival trade route value: ' + str(iBestTradeRouteGold))
-				#iCount = sd.getWondersBuilt(iKushans)
-				#aHelp.append(self.getIcon(iCount >= 5) + 'Trade buildings built: ' + str(iCount) + ' /5')
+				iCount = sd.getWondersBuilt(iKushans)
+				aHelp.append(self.getIcon(iCount >= 5) + 'Trade buildings built: ' + str(iCount) + ' /5')
 			elif iGoal == 1: 
 				iKushanCulture = gc.getPlayer(iPlayer).countTotalCulture()
 				iRivalCulture = 0
@@ -3228,7 +3189,7 @@ class Victory:
 						if gc.getPlayer(iPlayerLoop).countTotalCulture() > iRivalCulture:
 							iRivalCulture = gc.getPlayer(iPlayerLoop).countTotalCulture()
 				aHelp.append(self.getIcon(self.isTopCulture(iKushans)) + 'Highest Culture')
-				aHelp.append('Kushan culture: ' + str(iKushanCulture) + ' Highest rival culture: ' + str(iRivalCulture))
+				aHelp.append("Kushan culture: " + str(iKushanCulture) + " Highest rival culture: " + str(iRivalCulture))
 			elif iGoal == 2:
 				iKushanLand = pKushans.getTotalLand()
 				iOtherLand = 0
@@ -3281,6 +3242,9 @@ class Victory:
 		
 		elif iPlayer == iSassanids:
 			if iGoal == 0:
+				iNumBuildings = sd.getWondersBuilt(iSassanids)
+				aHelp.append(self.getIcon(iNumBuildings >= 3) + 'Zoroastrian Cathedrals: ' + str(iNumBuildings) + ' / 3')
+			elif iGoal == 1:
 				bArmenia = utils.checkRegionControl(iSassanids, con.rArmenia)
 				bPersia = utils.checkRegionControl(iSassanids, con.rPersia)
 				bAsia = utils.checkRegionControl(iSassanids, con.rAsia)
@@ -3301,9 +3265,6 @@ class Victory:
 				aHelp.append(self.getIcon(bArmenia) + 'Armenia, ' + self.getIcon(bPersia) + 'Persia, ' + self.getIcon(bAsia) + 'Asia, ' + self.getIcon(bSyria) + 'Syria, ' + self.getIcon(bJudea) + 'Judea, ' + self.getIcon(bCappadocia) + 'Cappadocia, ' + self.getIcon(bPontus) + 'Pontus, ' + self.getIcon(bMedia) + 'Media')
 				aHelp.append(self.getIcon(bArachosia) + 'Arachosia, ' + self.getIcon(bMesopotamia) + 'Mesopotamia, ' + self.getIcon(bEgypt) + 'Egypt, ' + self.getIcon(bParthia) + 'Parthia, ' + self.getIcon(bMargiana) + 'Margiana, ' +self.getIcon(bBactria) + 'Bactria, ' + self.getIcon(bSogdiana) + 'Sogdiana')
 				aHelp.append(self.getIcon(bGandhara) + 'Gandhara, ' + self.getIcon(bCaucasus) + 'Caucasus')
-			elif iGoal == 1:
-				iNumBuildings = sd.getWondersBuilt(iSassanids)
-				aHelp.append(self.getIcon(iNumBuildings >= 3) + 'Zoroastrian Cathedrals: ' + str(iNumBuildings) + ' / 3')
 			elif iGoal == 2:
 				aHelp.append(self.getIcon(self.isHasLegendaryCity(iSassanids)) + 'Cities with Legendary Culture: 0 / 1')
 		
@@ -3322,17 +3283,17 @@ class Victory:
 		
 		elif iPlayer == iJin:
 			if iGoal == 0: 
-				bHan = utils.checkRegionControl(iJin, con.rHan)
-				bWu = utils.checkRegionControl(iJin, con.rWu)
-				bQi = utils.checkRegionControl(iJin, con.rQi) 
-				bQin = utils.checkRegionControl(iJin, con.rQin) 
-				bMinYue = utils.checkRegionControl(iJin, con.rMinYue) 
-				bNanYue = utils.checkRegionControl(iJin, con.rNanYue) 
-				bShu = utils.checkRegionControl(iJin, con.rShu) 
-				bBa = utils.checkRegionControl(iJin, con.rBa)
-				bChu = utils.checkRegionControl(iJin, con.rChu)
-				bYan = utils.checkRegionControl(iJin, con.rYan)
-				bZhao = utils.checkRegionControl(iJin, con.rZhao)
+				bHan = utils.checkRegionControl(iQin, con.rHan)
+				bWu = utils.checkRegionControl(iQin, con.rWu)
+				bQi = utils.checkRegionControl(iQin, con.rQi) 
+				bQin = utils.checkRegionControl(iQin, con.rQin) 
+				bMinYue = utils.checkRegionControl(iQin, con.rMinYue) 
+				bNanYue = utils.checkRegionControl(iQin, con.rNanYue) 
+				bShu = utils.checkRegionControl(iQin, con.rShu) 
+				bBa = utils.checkRegionControl(iQin, con.rBa)
+				bChu = utils.checkRegionControl(iQin, con.rChu)
+				bYan = utils.checkRegionControl(iQin, con.rYan)
+				bZhao = utils.checkRegionControl(iQin, con.rZhao)
 				aHelp.append(self.getIcon(bHan) + 'Han, ' + self.getIcon(bWu) + 'Wu, ' + self.getIcon(bQi) + 'Qi, ' + self.getIcon(bQin) + 'Qin' + self.getIcon(bChu) + 'Chu')
 				aHelp.append(self.getIcon(bMinYue) + 'Min Yue, ' + self.getIcon(bNanYue) + 'Nanyue, ' + self.getIcon(bShu) + 'Shu, ' + self.getIcon(bBa) + 'Ba')
 				aHelp.append(self.getIcon(bYan) + 'Yan, ' + self.getIcon(bZhao) + 'Zhao')

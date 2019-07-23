@@ -7,76 +7,12 @@
 <Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_ZHAO_TUO</Type>
-			<Button>art/LeaderHeads/Abaoji_v2/Btn_LH_Bleda.dds</Button>
-			<NIF>art/LeaderHeads/Abaoji_v2/Abaoji_v2.nif</NIF>
-			<KFM>art/LeaderHeads/Abaoji_v2/tokugawa.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Abaoji_v2/Abaoji_v2.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Abaoji_v2/montezuma_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_LIU_BEI</Type>
-			<Button>art/LeaderHeads/Abaoji_v2/Btn_LH_Bleda.dds</Button>
-			<NIF>art/LeaderHeads/Abaoji_v2/Abaoji_v2.nif</NIF>
-			<KFM>art/LeaderHeads/Abaoji_v2/tokugawa.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Abaoji_v2/Abaoji_v2.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Abaoji_v2/montezuma_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_ATILLA</Type>
-			<Button>art/LeaderHeads/Bleda/Btn_LH_Bleda.dds</Button>
-			<NIF>art/LeaderHeads/Bleda/hannibal.nif</NIF>
-			<KFM>art/LeaderHeads/Bleda/hannibal.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Bleda/hannibal_noshader.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Bleda/hannibal_BG.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_BHOJA</Type>
-			<Button>,art/interface/buttons/leaderheads/Bhoja.dds,Art/Interface/Buttons/mem_leaders_atlas.dds,1,2</Button>
-			<NIF>art/LeaderHeads/Bhoja/asoka.nif</NIF>
-			<KFM>art/LeaderHeads/Bhoja/asoka.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Bhoja/asoka.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Bhoja/asoka_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_SIMHAVISHNU</Type>
-			<Button>>art/LeaderHeads/Ambhi/btn_lh_gandhara_ambhi.dds</Button>
-			<NIF>art/LeaderHeads/Ambhi/asoka.nif</NIF>
-			<KFM>art/LeaderHeads/Ambhi/asoka.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Ambhi/asoka.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Ambhi/asoka_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_TIRAIYAN</Type>
-			<Button>art/LeaderHeads/Porus/btn_lh_paurava_porus.dds</Button>
-			<NIF>art/LeaderHeads/Porus/tokugawa.nif</NIF>
-			<KFM>art/LeaderHeads/Porus/tokugawa.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Porus/tokugawa_noshader.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Porus/tokugawa_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_HARSHA</Type>
-			<Button>,-,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,12</Button>
-			<NIF>art/LeaderHeads/Dharmapala/masinissa.nif</NIF>
-			<KFM>art/LeaderHeads/Dharmapala/augustus_caesar.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Dharmapala/masinissa.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Dharmapala/augustus_caesar_bg2.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_BARBARIAN</Type>
 			<Button>,-,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,12</Button>
 			<NIF>art/LeaderHeads/Sid/sid.nif</NIF>
 			<KFM>art/LeaderHeads/Sid/sid.kfm</KFM>
 			<NoShaderNIF>art/LeaderHeads/Sid/sid_noshader.nif</NoShaderNIF>
 			<BackgroundKFM>art/LeaderHeads/Sid/sid_BG.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_SURYAVARMAN</Type>
-			<Button>,Art/interface/LeaderHeads/Btn_LH_China_ShihHuangTi.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,2</Button>
-			<NIF>art/LeaderHeads/Suryavarman/Suryavarman.nif</NIF>
-			<KFM>art/LeaderHeads/Suryavarman/Suryavarman.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Suryavarman/Suryaverman_NONSHADER.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Suryavarman/Suryavarman_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_MANSA_MUSA</Type>
@@ -95,7 +31,7 @@
 			<BackgroundKFM>art/LeaderHeads/Pericles/Pericles_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_PUSYAMITRA</Type>
+			<Type>ART_DEF_LEADER_KHARAVELA</Type>
 			<Button>Art/LeaderHeads/Kharavela/kharavela_btn.dds</Button>
 			<NIF>art/LeaderHeads/Kharavela/shaka (2).nif</NIF>
 			<KFM>art/LeaderHeads/Kharavela/shaka2.kfm</KFM>
@@ -117,6 +53,14 @@
 			<KFM>art/LeaderHeads/Alexander_the _Great/alexander.kfm</KFM>
 			<NoShaderNIF>art/LeaderHeads/Alexander_the _Great/alexander_noshader.nif</NoShaderNIF>
 			<BackgroundKFM>art/LeaderHeads/Alexander_the _Great/alexander_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BHOJA</Type>
+			<Button>,art/interface/buttons/leaderheads/Bhoja.dds,Art/Interface/Buttons/mem_leaders_atlas.dds,1,2</Button>
+			<NIF>art/LeaderHeads/Bhoja/asoka.nif</NIF>
+			<KFM>art/LeaderHeads/Bhoja/asoka.kfm</KFM>
+			<NoShaderNIF>art/LeaderHeads/Bhoja/asoka.nif</NoShaderNIF>
+			<BackgroundKFM>art/LeaderHeads/Bhoja/asoka_bg.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_HAMMURABI</Type>
@@ -280,14 +224,6 @@
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_HANNIBAL</Type>
-			<Button>,Art/interface/LeaderHeads/Btn_LH_America_Washington.dds,Art/Interface/Buttons/Warlords_Atlas_2.dds,4,7</Button>
-			<NIF>art/LeaderHeads/Hannibal/hannibal.nif</NIF>
-			<KFM>art/LeaderHeads/Hannibal/hannibal.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Hannibal/hannibal_noshader.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Hannibal/hannibal_BG.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_GAISERIC</Type>
 			<Button>art/LeaderHeads/odysseus/odysseus_btn.dds</Button>
 			<NIF>art/LeaderHeads/odysseus/odysseusbeard.nif</NIF>
 			<KFM>art/LeaderHeads/odysseus/cunne_shote.kfm</KFM>
@@ -437,14 +373,6 @@
 			<KFM>art/LeaderHeads/Demetrius/alexander.kfm</KFM>
 			<NoShaderNIF>art/LeaderHeads/Demetrius/alexander_noshader.nif</NoShaderNIF>
 			<BackgroundKFM>art/LeaderHeads/Demetrius/alexander_bg.kfm</BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_TOKUGAWA</Type>
-			<Button>,Art/interface/LeaderHeads/Btn_LH_Japan_Tokugawa.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,12</Button>
-			<NIF>art/LeaderHeads/Tokugawa/tokugawa.nif</NIF>
-			<KFM>art/LeaderHeads/Tokugawa/tokugawa.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Tokugawa/tokugawa_noshader.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Tokugawa/tokugawa_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_SHAPUR</Type>

@@ -1657,7 +1657,7 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_KAUNDINYA</LeaderName>
+					<LeaderName>LEADER_LIEUYE</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -1844,7 +1844,7 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_NINTOKU</LeaderName>
+					<LeaderName>LEADER_JINGU</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -2800,10 +2800,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -2824,11 +2820,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -3093,10 +3089,6 @@
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 			</Buildings>
@@ -3699,10 +3691,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -3723,11 +3711,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -3884,10 +3872,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -3908,11 +3892,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -4069,10 +4053,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -4093,11 +4073,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -4128,7 +4108,7 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_ATILLA</LeaderName>
+					<LeaderName>LEADER_SAKA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -4230,10 +4210,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -4254,11 +4230,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -4391,10 +4367,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -4415,11 +4387,11 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_HORSEMAN_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSEMAN_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_HORSE_ARCHER_XIONGNU</UnitType>
+					<UnitType>UNIT_HORSE_ARCHER_SCYTHIAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_HORSE_ARCHER</UnitClassType>
@@ -4727,7 +4699,7 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_SIMHAVISHNU</LeaderName>
+					<LeaderName>LEADER_KHARAVELA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -4780,7 +4752,7 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_TIRAIYAN</LeaderName>
+					<LeaderName>LEADER_NEDUNJ</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -5163,10 +5135,6 @@
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
@@ -5336,10 +5304,6 @@
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_DHAMEK_STUPA</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_TOMB_KHAL</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 			</Buildings>

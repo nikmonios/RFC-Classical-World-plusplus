@@ -1,0 +1,143 @@
+CHANGES FROM CivIV and RFC
+
+
+Religions:
+
+There are fourteen religions, nine already founded and three yet to be founded at the start of the scenario, one of which subsequently splits into four branches. The unfounded religions can be be founded in the normal way by being the first to discover a specific tech, but they will also appear automatically if no civilization does so before the time when that religion was founded. Christianity is founded in Jerusalem around 30AD, Manichaeism in Babylon around 250-260AD, and Islam appears with the Arab spawn at Mecca in 630AD. The first time a civ with Christianity as its state religion researches a religious tech or produces a Great Prophet, Christianity splits into four branches. The original Christian religion disappears from the game (if you see it, its a bug) and the existing Christian cites, missionaries and buildings convert to one of the branches, based on who owns the city, where it is and a little chance. The old Christian Holy City (almost always Jerusalem) becomes the Holy City of the branch that the civ that currently controls the city has as its state religion. If the holy city is subsequently captured by a civ with one of the other barnches as its state religion, the old branch loses the holy city and the new ones gains it.
+
+With a couple of unique exceptions, the ability to convert to a state religion is not available to the early civs when they spawn. To do so you need a tech called... State Religion, which is two techs away for most starting civs. Conversion also requires the religion to be present in half of your cities. The conditions under which Missionaries can be built has also changed, see "Pilgrims and Scripture resources" below.
+
+
+Specialists, Tile Yields and Improvements:
+
+All tiles that yield at least 2 of any given yield lose 1 yield if they are not adjacent to the working city. 
+
+Specialists are in general more powerful in RFCCW than regular BtS and there are some new specialists. Tile yields are also a bit different. The biggest changes are that citizens (the default specialist) get 1 hammer and 1 coin, and mines are not buildable unless there is a resource present. There are also 2 new specialist types which each require a tech but no building and can be used without limit as to number: the Tradesman (requires Engineering, 2 hammers and 1 coin) and the Artisan (requires Metal Casting, 1 hammer, 1 culture and 1 coin). None of these new specialists generate any Great People Points, but all specialists that produce at least 1 hammer also cause 1 unhealth.
+
+Roads are only used for movement and are not necessary to connect resources. This is done for the speed increase it brings to the game. 
+
+Cottages cannot be built adjacent other cottages, hamlets, villages or towns.
+
+
+Non-Tradeable Techs:
+
+Some technologies are not tradeable. This generally reflects their nature as ideas or practices that need to embraced or learned by large sections of society to be effective and at the same time slows overall progress through specific tech paths. The non-tradeable techs are of two types: civic/society type techs and the archery/horse achery line, reasoning as follows: Archery, horsemanship and especially horse archery were highly challenging skills that needed to be learned from childhood by a significant portion of the population and actively maintained in order for those societies to produce effective military formations of those types. An idea like Caste System needs to be ingrained in the entirety of society, accepted by everyone, in order to become something efficient and productive enough to be represented in the game as a bonus, as it is. 
+
+NEW FEATURES
+
+
+Slaves:
+
+When running the Slavery civic, you can enslave defeated enemy units. Slaves can be used 4 ways. They can work as workers (at 75% work rate), be sacrificed in one of your cities to rush a building, be sold for gold in another civ's city, or be settled in one of your cities for +2 prod, -1 food. When you switch out of slavery all your slaves, settled or not, disappear.
+
+Bribing and Hiring Barbarians:
+
+This is done with a spy on the same tile as the barbarians and only works within your cultural borders and if you have currency. Barbarians can be bribed to leave your lands for 10 gold per unit. Barbs can also be hired as mercenaries if you have enough gold. The buttons for each action will appear if you have enough gold. In both cases there is a 20% chance the barbs will steal your gold and kill your spy.
+
+For pirates, you get a popup when they enter your waters if you have enough gold to at least bribe them. If you're rich enough to hire them, you get a popup with the extra option. Again the 20% chance of failure applies.
+
+Pilgrims and Scripture resources:
+
+The Pilgrim is a new unit for acquiring and spreading religions. The Scriptures are new resources produced by buildings, like Hit Movies or Singles in regular BtS. The Pilgrim can become a missionary of a particular religion in the Holy city of that Religion, so with this unit you don't have wait for a religion to spread to you randomly, you can go out and get it. Missionaries can be built if the city has the religion in question  and you fulfill any 1 of the following 3 conditions: you have a monastery in the city, you have the proper state religion, you have the proper religion resource. The Scripture resource also gives 1 more happy face from Temples and Cathedrals of the same religion. The resource is produced, 3 at a time, by the Shrine of the religion and 2 at a time by the Academy.
+
+
+
+
+Secret Diplomacy:
+
+Spies can be used to vassalize AI civs or to vassalize the human player to the AI. To do this you must be at war and must send a spy to the enemy capital. Certain conditions must be met. To vassilize an AI civ you must have 4 times as many cities as them and have an army adjacent to their capital which outnumbers the cities defenders 3 to 1. To capitulate to the AI you must have no more than one third as many cities as your enemy. When the vassalization occurs all war/peace conditions of the vassal change to match the master.
+
+Roads and Movement:
+
+Roads are not necessary to connect resources. This is done for game speed. Most unit movement is doubled but some terrain (woodland, forest jungle) takes 3 movement.
+
+
+Forest and Jungle:
+
+There are 3 kinds of forest. Woodland takes 3 movement points to enter, provides 1 hammer, is choppable for production with Iron Working and sometimes contains the Timber resource which requires a lumber camp and speeds production of ships. All units can enter Woodland. Tropical forest takes 2 movement points to enter, is choppable with Iron Working but not for production and gives no unhealth. All units can enter Tropical Forest. Forest is not choppable and is impassable to most cavalry, heavier infantry and siege
+
+Force Limits:
+
+Your ability to train units is limited based on your population. Your ability to train naval units is limited based on the population of your coastal cities. You can see your used and available army and navy force limits in the military advisor.
+
+UHV TIPS
+
+Antigonids: the Armenians are the first civ to spawn with Monarchy, in 180BC. there are captureable wonders in Athens, Rhodes, Babylon and Diospolis (in Egypt) at the start of the game.
+
+Egypt: for the Mediterranean ports goal, any port on the Mediterranean Sea in Greece, Macedonia, Thrace, Asia, Cappadocia, Syria, Judea, Egypt, Libya, Cyprus or Crete counts.
+
+Mauryans: for the 10 Edicts goal you get credit for each Edict as it is built and do not lose credit for it if you lose the city later. for the Buddhism goal, everything south and east of, and including Gandhara and Sindh counts as India
+
+Kalinga: the nearest horses are in Punjab
+
+Gojoseon: the Kushans spawn with Marksmanship in 50AD
+
+Pandyans: for the resources trading goal, you must have active trades for 2 or the resources at once, some time before the deadline
+
+Bactria: everything south and east of, and including Gandhara and Sindh counts as India
+
+Satavahanas: Birma, Annam, Malaya, Sumatra, Funan, Kalimantan, and Java count as SE Asian
+
+Goguryeo: the Chinese, Japanese, Korean and Vietnamese civs count as east Asian
+
+Jin: the Hephthalites spawn with knowledge of the Stirrup in or around 460AD
+
+Chalukyans: Hinduism, Jainism and Buddhism count as Indian religions
+
+Yamato: the Jin, Shu, Wu, Goguryeo and Vietnamese civilizations count as neighbors
+
+
+CONDITIONAL EVENTS
+
+
+if you gift a city in India to an Indian civ that has Ivory(ex Seleucids take Pattala and give it to the Mauryans), you get elephants
+
+in the event of war between human Rome and AI Carthage, whoever declares it, Hannibal spawns in northern Italy.
+
+in the event of war between AI Rome and either Carthage, Egypt, the Antigonids or the Judeans, no matter who declares it, Rome gets Legions and Catapults near an enemy city,
+
+in the event of war between Rome and human Celts or Carthage, if Rome has few or no defenders in or near Rome, they get some.
+
+if AI Rome gets a great general and there are indy cities in Rome's normal regions, they get an attacking army there
+
+
+
+NEW STABILITY SYSTEM
+
+The system works on three concepts: Stablility Levels, Stability Checks and Crises.
+
+There are three stability levels, Stable, Unstable and Collapsing, indicated by the usual symbols next to the civs name and score in the main screen. All playable civs start at stable. There is no stability score associated with these levels, all the game knows is whether you are stable, unstable or collapsing.
+
+In certain circumstances as the game prgresses, Stability Checks can occur. A Stability Check observes various qualities of your empire and calculates a stability score. Depending on this score, your Stbility Level may go up or down and you may experience a Crisis.
+
+Stabilty checks occur:
+when you lose a city to conquest (not flips or trades)
+when new civs spawn near you
+when you discover certain techs 
+when you start a revolution
+
+there are no stability checks for a civ in the first 40 turns after its birth. there are no stability checks during anarchy except the check that occurs at the start of the revolution.  there are no stability checks during a golden age and golden ages reset your stability level to Stable.
+
+The following factors influence the Stablility Check: civics, religion, economy, health and happiness, and the population of your empire's core vs it's periphery, mitigated by certain factors.
+
+The civics section is roughly the same as before, there are good combinations and bad ones. There are also penalties for running Caste System while not Hindu or running Slavery while Christian.
+
+The religion calculation counts the number of non-state religions in your cities and, if you have a state religion, the number of your cities that do not have it. If you are running Caste System Hinduism does not count as a foreign religion.
+
+The health and happiness calcualtion counts all the happy, unhappy, healthy and unhealthy faces in your empire, divided by the number of cities. The effect on stability is minor compred to the other factors.
+
+The empire core vs periphery works as follows: all the cities population in your core provinces is multiplied by 4 to get the core population number, the population of any cities in your normal regions is left as is if you are running the empire civic (or the theocracy civic with the state religion present) and the bureaucracy civic and have a courthouse in the city, but multiplied by 1 + 1 for each of the preceding conditions that does not apply. So for example if you were running empire but not bureaucracy and had no courthouses the periphery population would be multiplied by 3. Cities outside of your normal regions receive additional penalties. If the core population number is higher, stability is affected positively and if the periphery is higher stability is affected negatively. So the rule of thumb is that without favorable civics or buildings you can carry an empire population equal to the population of your core with no ill effects. There are also penalties for losing control of any of your core provinces and for having lost cities recently.
+
+The economy calcualtion looks at 2 factors: can you save gold and progress in research at the same time ie if you are not earning gold at zero tech you are in trouble, and is your total food, commerce and production going up or down.
+
+Two things can result from a stability check: your Stability Level can be adjusted and you may experience a crisis. 
+
+There are 3 levels of crisis: minor, major and terminal. Their effects range from anarchy and revolts in cities to complete collapse. All crises cause at least a couple of turns of anarchy and once you are in anarchy you are immune to further Stability Checks until it is over.
+
+THREE SPECIAL CIVS: the Tamils, the Romans and the Jin
+
+The Romans are so big and important that they get two sets of UHVs: one representing the Republic and one representing the Empire. Just as the Romans spawn, the player gets a popup asking which set of goals he or she would like to pursue. 
+
+The Jin are the dynasty that came out on top after the famous "Three Kingdoms" period in China. To add more possibilities to this era, the Human player can start out as any of the three kingdoms and pursue the unification of China and the other goals from there. 
+
+There were 3 great dynasties that ruled Tamil Nadu during this period and in this mod the human player can choose to play as any of them. They share UUs, UBs and UPs (for now anyway) but each have their own UHVs.

@@ -11,8 +11,8 @@
 			<Type>GAMESPEED_NORMAL</Type>
 			<Description>TXT_KEY_GAMESPEED_NORMAL</Description>
 			<Help>TXT_KEY_GAMESPEED_EPIC_HELP</Help>
-			<iGrowthPercent>160</iGrowthPercent>
-			<iTrainPercent>150</iTrainPercent>
+			<iGrowthPercent>170</iGrowthPercent>
+			<iTrainPercent>160</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>150</iCreatePercent>
 			<iResearchPercent>180</iResearchPercent>
@@ -30,8 +30,8 @@
 			<iGoldenAgePercent>100</iGoldenAgePercent>
 			<iHurryPercent>100</iHurryPercent>
 			<iHurryConscriptAngerPercent>100</iHurryConscriptAngerPercent>
-			<iInflationPercent>15</iInflationPercent>
-			<iInflationOffset>-150</iInflationOffset>
+			<iInflationPercent>30</iInflationPercent>
+			<iInflationOffset>-90</iInflationOffset>
 			<iVictoryDelayPercent>100</iVictoryDelayPercent>
 			<GameTurnInfos>
 				<GameTurnInfo>

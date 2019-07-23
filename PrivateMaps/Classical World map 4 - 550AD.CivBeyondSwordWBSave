@@ -1207,7 +1207,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=26
-	LeaderType=LEADER_KAUNDINYA
+	LeaderType=LEADER_LIEUYE
 	CivType=CIVILIZATION_FUNAN
 	PlayableCiv=0
 	StartingEra=ERA_ANCIENT
@@ -1247,7 +1247,7 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=29
-	LeaderType=LEADER_NINTOKU
+	LeaderType=LEADER_JINGU
 	CivType=CIVILIZATION_YAMATO
 	PlayableCiv=0
 	StartingEra=ERA_CLASSICAL
@@ -41107,13 +41107,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=47
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=28,
 EndPlot
 BeginPlot
 	x=76,y=48
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=28,
@@ -41592,7 +41592,7 @@ EndPlot
 BeginPlot
 	x=77,y=48
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 EndPlot
 BeginPlot
 	x=77,y=49
@@ -61562,13 +61562,6 @@ BeginPlot
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
-	BeginUnit
-		UnitType=UNIT_BAMBOO_ARCHER, UnitOwner=30
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_CITY_DEFENSE
-	EndUnit
 	BeginCity
 		CityOwner=30
 		CityName=Tamralipti
@@ -74951,6 +74944,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=141,y=34
+	BonusType=BONUS_PEARL
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -75497,8 +75492,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=142,y=34
-	BonusType=BONUS_PEARL
-	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -76074,6 +76067,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=143,y=35
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	BeginUnit
@@ -76654,8 +76649,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=144,y=35
-	BonusType=BONUS_FISH
-	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,

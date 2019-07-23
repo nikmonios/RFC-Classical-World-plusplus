@@ -7,7 +7,7 @@
 <!-- -->
 <!-- Civic Infos -->
 	<CivicInfos>
-		<CivicInfo><!--CIVIC_DESPOTISM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
 			<Type>CIVIC_DESPOTISM</Type>
 			<Description>TXT_KEY_CIVIC_DESPOTISM</Description>
@@ -76,7 +76,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_MONARCHY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
 			<Type>CIVIC_MONARCHY</Type>
 			<Description>TXT_KEY_CIVIC_HEREDITARY_RULE</Description>
@@ -154,7 +154,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_OLIGARCHY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
 			<Type>CIVIC_OLIGARCHY</Type>
 			<Description>TXT_KEY_CIVIC_ARISTOCRACY</Description>
@@ -224,7 +224,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_EMPIRE-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
 			<Type>CIVIC_EMPIRE</Type>
 			<Description>TXT_KEY_CIVIC_EMPIRE</Description>
@@ -298,7 +298,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_THEOCRACY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
 			<Type>CIVIC_THEOCRACY</Type>
 			<Description>TXT_KEY_CIVIC_THEOCRACY</Description>
@@ -373,7 +373,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_TRIBAL_CUSTOM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
 			<Type>CIVIC_TRIBAL_CUSTOM</Type>
 			<Description>TXT_KEY_CIVIC_TRIBAL_CUSTOM</Description>
@@ -442,7 +442,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_TYRANNY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
 			<Type>CIVIC_TYRANNY</Type>
 			<Description>TXT_KEY_CIVIC_TYRANNY</Description>
@@ -513,7 +513,7 @@
 			</SpecialistYieldChanges>
 			<Help/>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_VASSALAGE-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
 			<Type>CIVIC_VASSALAGE</Type>
 			<Description>TXT_KEY_CIVIC_VASSALAGE</Description>
@@ -583,7 +583,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_RELIGIOUS_LAW-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
 			<Type>CIVIC_RELIGIOUS_LAW</Type>
 			<Description>TXT_KEY_CIVIC_RELIGIOUS_LAW</Description>
@@ -653,7 +653,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_BUREAUCRACY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
 			<Type>CIVIC_BUREAUCRACY</Type>
 			<Description>TXT_KEY_CIVIC_BUREAUCRACY</Description>
@@ -723,7 +723,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_TRIBAL_LEVY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_TRIBAL_LEVY</Type>
 			<Description>TXT_KEY_CIVIC_TRIBALISM</Description>
@@ -792,7 +792,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_SLAVERY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_SLAVERY</Type>
 			<Description>TXT_KEY_CIVIC_SLAVERY</Description>
@@ -853,7 +853,12 @@
 			</Hurrys>
 			<SpecialBuildingNotRequireds/>
 			<SpecialistValids/>
-			<BuildingHappinessChanges/>
+			<BuildingHappinessChanges>
+				<BuildingHappinessChange>
+					<BuildingType>BUILDINGCLASS_SLAVE_MARKET</BuildingType>
+					<iHappinessChange>-1</iHappinessChange>
+				</BuildingHappinessChange>
+			</BuildingHappinessChanges>
 			<BuildingHealthChanges/>
 			<FeatureHappinessChanges/>
 			<ImprovementYieldChanges>
@@ -864,7 +869,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_CASTE_SYSTEM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_CASTE_SYSTEM</Type>
 			<Description>TXT_KEY_CIVIC_CASTE_SYSTEM</Description>
@@ -948,7 +953,7 @@
 				</SpecialistYieldChange>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_SERFDOM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_SERFDOM</Type>
 			<Description>TXT_KEY_CIVIC_SERFDOM</Description>
@@ -1023,7 +1028,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_WAGE_LABOR-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_WAGE_LABOR</Type>
 			<Description>TXT_KEY_CIVIC_WAGE_LABOR</Description>
@@ -1098,7 +1103,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_DECENTRALIZATION-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_DECENTRALIZATION</Type>
 			<Description>TXT_KEY_CIVIC_DECENTRALIZATION</Description>
@@ -1168,7 +1173,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_AGRARIANISM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_AGRARIANISM</Type>
 			<Description>TXT_KEY_CIVIC_AGRARIANISM</Description>
@@ -1247,7 +1252,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_TRADE_ECONOMY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_TRADE_ECONOMY</Type>
 			<Description>TXT_KEY_CIVIC_TRADE_ECONOMY</Description>
@@ -1321,7 +1326,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_PATRONAGE-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_PATRONAGE</Type>
 			<Description>TXT_KEY_CIVIC_PATRONAGE</Description>
@@ -1400,7 +1405,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_MILITARY_ECONOMY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_MILITARY_ECONOMY</Type>
 			<Description>TXT_KEY_CIVIC_MILITARY_ECONOMY</Description>
@@ -1480,7 +1485,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_PAGANISM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			<Type>CIVIC_PAGANISM</Type>
 			<Description>TXT_KEY_CIVIC_PAGANISM</Description>
@@ -1549,7 +1554,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_DYNASTIC_CULT-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			<Type>CIVIC_DYNASTIC_CULT</Type>
 			<Description>TXT_KEY_CIVIC_DYNASTIC_CULT</Description>
@@ -1633,7 +1638,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_STATE_RELIGION-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			<Type>CIVIC_STATE_RELIGION</Type>
 			<Description>TXT_KEY_CIVIC_STATE_RELIGION</Description>
@@ -1692,7 +1697,7 @@
 			<Hurrys/>
 			<SpecialBuildingNotRequireds>
 				<SpecialBuildingNotRequired>
-					<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
+					<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
 					<bNotRequired>1</bNotRequired>
 				</SpecialBuildingNotRequired>
 			</SpecialBuildingNotRequireds>
@@ -1707,7 +1712,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_MILITANCY-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			<Type>CIVIC_MILITANCY</Type>
 			<Description>TXT_KEY_CIVIC_MILITANCY</Description>
@@ -1778,7 +1783,7 @@
 			<SpecialistYieldChanges>
 			</SpecialistYieldChanges>
 		</CivicInfo>
-		<CivicInfo><!--CIVIC_SYNCRETISM-->
+		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			<Type>CIVIC_SYNCRETISM</Type>
 			<Description>TXT_KEY_CIVIC_FREE_RELIGION</Description>

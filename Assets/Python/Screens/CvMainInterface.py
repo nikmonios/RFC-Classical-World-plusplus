@@ -1702,18 +1702,18 @@ class CvMainInterface:
 							break
 					pPlot = CyMap().plot(pUnit.getX(), pUnit.getY())
 					if pUnit.getUnitType() == con.iSpy and pPlot.getOwner() == pUnit.getOwner() and gc.getTeam(pUnitOwner.getTeam()).isHasTech(con.iCurrency):
-						#print "starting bribe"
+						print "starting bribe"
 						iNumUnits = pPlot.getNumUnits()
 						iCost = 0
 						for i in range (iNumUnits):
 							unit = pPlot.getUnit(i)
 							if unit.getOwner() == con.iBarbarian:
-								#print "counting 1 barb"
+								print "counting 1 barb"
 								iCost += 10
-								#print ("bribe cost", iCost)
+								print ("bribe cost", iCost)
 						if bWonder == true:
 							iCost /= 2
-						#print ("total bribe cost", iCost)
+						print ("total bribe cost", iCost)
 						if iCost > 0 and pUnitOwner.getGold() >= iCost:
 							screen.appendMultiListButton( "BottomButtonContainer", gc.getTechInfo(con.iCurrency).getButton(), 0, WidgetTypes.WIDGET_GENERAL, 665, 665, False )
 							screen.show( "BottomButtonContainer" )

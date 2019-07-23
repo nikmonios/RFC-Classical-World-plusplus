@@ -23,51 +23,10 @@ iSpiceMerchants = con.iSpiceMerchants
 iMasterArtisans = con.iMasterArtisans
 iMasterTradesmen = con.iMasterTradesmen
 
-tBabylon = (71,39)
-tConstantinople = (53, 51)
-tAlexandria = (53,35)
-tTyre = (62,40)
-tSyracuse = (35, 44)
-tMassilia = (27, 54)
-tSamarkand = (93, 54)
-tKashgar = (106, 58)
-tMadurai = (105, 17)
-tRhodes = (51, 43)
-tWuxi = (150, 46)
-tPanyu = (142, 36)
-tDunhuang = (120, 58)
-tGoa = (100, 24)
-tCarthage = (29, 40)
-tCherson = (58, 55)
-
-lPermanentGrainCities = [tConstantinople, tAlexandria, tSyracuse, tWuxi, tCarthage, tCherson]
-lPermanentFishCities = [tSyracuse, tMassilia, tAlexandria, tMadurai, tRhodes, tWuxi, tPanyu, tGoa, tCarthage]
-lPermanentClothCities = [tBabylon, tTyre, tSamarkand, tKashgar, tMadurai, tDunhuang]
-lPermanentSpiceCities = [tTyre, tAlexandria, tBabylon, tMadurai, tRhodes, tGoa, tPanyu]
-
 class Companies:
 
 
 	def checkTurn(self, iGameTurn):
-	
-		return
-	
-		"""for iPlayer in range(iNumPlayers):
-			pPlayer = gc.getPlayer(iPlayer)
-			if pPlayer.getNumCities() > 4:
-				if pPlayer.getCapitalCity().getPopulation() > 6:
-					gc.getTeam(pPlayer.getTeam()).isHasTech(con.iBulkTrade):
-						if pPlayer.getNumAvailableBonuses(con.iFish) > 1 or pPlayer.getNumAvailableBonuses(con.iCrab) > 1 or pPlayer.getNumAvailableBonuses(con.iClam) > 1:
-							if pPlayer.getCapitalCity().isCoastal():
-								pPlayer.getCapitalCity().setHasCorporation(con.iFishMerchants, True, True, True)
-							else:
-								apCityList = PyPlayer(iPlayer).getCityList()
-								iLargestCoastalCityPop = 0
-								for pCity in apCityList:
-									city = pCity.GetCy()
-									if city.isCoastal():
-										if city.getPopulation() > iLargestCoastalCityPop:
-											
 		
 		iCompany = iGameTurn % iNumCompanies
 		
@@ -128,7 +87,7 @@ class Companies:
 				city = cityValueList[i][0]
 				if city.isHasCorporation(iCompany):
 					city.setHasCorporation(iCompany, False, True, True)
-					break"""
+					break
 
 
 	def onPlayerChangeStateReligion(self, argsList):
@@ -143,18 +102,6 @@ class Companies:
 				if city.isHasCorporation(iCompany):
 					if self.getCityValue(city, iCompany) < 0:
 						city.setHasCorporation(iCompany, False, True, True)'''
-						
-	def onCityBuilt(self, city):
-	
-		tCity = (city.getX(), city.getY())
-		if tCity in lPermanentGrainCities:
-			city.setHasCorporation(iGrainMerchants, True, True, True)
-		if tCity in lPermanentFishCities:
-			city.setHasCorporation(iFishMerchants, True, True, True)
-		if tCity in lPermanentClothCities:
-			city.setHasCorporation(iClothMerchants, True, True, True)
-		if tCity in lPermanentSpiceCities:
-			city.setHasCorporation(iSpiceMerchants, True, True, True)
 
 
 	def onCityAcquired(self, argsList):

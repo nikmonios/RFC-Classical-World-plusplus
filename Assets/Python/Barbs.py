@@ -35,74 +35,77 @@ iHuman = utils.getHumanID()
 
 # iCiv, Name, Year, X, Y, iReligion, Skip
 tMinorCities = (
-	(iIndependent,  "Artashat",			 -315,  71, 51, [], [], [], 0), 
-	(iIndependent,  "Chersonesos",		 -310,  58, 56, [con.iHellenism], [], [con.iGrainMerchants], 0), 
-	(iIndependent,  "Tamralipti",		 -305, 116, 34, [con.iHinduism], [], [], 0), 
-	(iIndependent,  "Mediolanum",		 -300,  32, 57, [], [], [], 0), 
-	(iIndependent3,  "Min Yue",		 	 -300, 148, 39, [con.iTaoism], [], [], 0),
-	(iIndependent3,  "Lutetia",		 	 -295,  23, 63, [], [], [], 0), 
-	(iIndependent,  "Amaravati",		 -290, 109, 26, [con.iHinduism], [], [], 0), 
-	(iIndependent3,  "Khotan",		 	 -285, 109, 54, [], [], [], 0), 
-	(iIndependent2,  "Ji",		 	 	 -285, 143, 59, [], [], [], 0), 
-	(iIndependent2,  "Trapezus",		 -270,  65, 51, [], [], [], 0), 
-	(iIndependent3,  "Jinyang",		 	 -270, 139, 55, [], [], [], 0),
-	(iIndependent,  "Dunhuang",	 		 -270, 120, 58, [], [], [con.iClothMerchants], 0),
-	(iIndependent3,  "Kourion",		 	 -250,  58, 41, [], [], [], 0), 
-	(iIndependent,  "Turpan",	 		 -215, 117, 63, [], [], [], 0), 
-	(iIndependent,  "Tzirta",	 		 -280,  24, 40, [], [], [], 0), 
-	(iIndependent,  "Iol",	 			 -220,  20, 41, [], [], [], 0), 
-	(iIndependent3,  "Albana",			 -190,  74, 54, [], [], [con.iWalls], 0), # before Armenian spawn
-	(iIndependent3,  "Govapuri",	 	 -180, 100, 24, [con.iHinduism], [], [con.iFishMerchants, con.iSpiceMerchants], 0), 
-	(iIndependent3,  "Halin",			 -150, 124, 33, [], [], [], 0),
-	(iIndependent3,  "Qiaohsi",		 	 -150, 148, 51, [], [], [], 0), 
-	(iIndependent2,  "Charax",		 	 -130,  74, 36, [], [], [], 0),
-	(iIndependent3,  "Qandahar",	 	 -100,  90, 41, [con.iZoroastrianism], [], [], 0), # before Saka invasion
-	(iIndependent3,  "Dunhuang",	 	  -70, 120, 58, [con.iBuddhism], [], [con.iClothMerchants], 0), 
-	(iIndependent,  "Tamralipti",		  -70, 116, 34, [con.iHinduism], [], [], 0), 
-	(iIndependent2,  "Khotan",			  -75, 109, 54, [], [], [], 0), 
-	(iIndependent,  "Chersonesos",		  -50,  58, 56, [con.iHellenism], [], [con.iClothMerchants], 0), 
-	(iIndependent3,  "Dunhuang",	 	  -20, 120, 58, [con.iBuddhism], [], [], 0), 
-	(iIndependent2,  "Adulis",		 	    5,  64, 22, [], [], [], 0),
-	(iIndependent2,  "Merv",		 	   40,  87, 49, [con.iZoroastrianism, con.iJudaism], [], [], 0), # if razed before Kushan spawn
-	(iIndependent,  "Samarqand",		   45,  93, 54, [con.iBuddhism], [], [], 0), 
-	(iIndependent2,  "Prey Nokor",	 	   50, 135, 19, [], [], [], 0), # before Funan spawn
-	(iIndependent3,  "Sundapura",		   50, 136,  2, [con.iHinduism], [], [], 0), 
-	(iIndependent3,  "Indrapura",		   90, 138, 26, [], [], [], 0), 
-	(iIndependent3,  "Pragjyotishpur",	  120, 120, 38, [con.iHinduism], [], [], 0), 
-	(iIndependent3,  "Bakkah",			  150,  67, 27, [], [], [], 0), 
-	(iIndependent3,  "Yathreb",			  200,  67, 31, [], [], [], 0), 
-	#(iIndependent3,  "Iling",			  200, 138, 45, [con.iTaoism], [], [], 0), 
-	(iIndependent3,  "Jianye",			  210, 148, 47, [con.iTaoism, con.iConfucianism], [], [], 0), # before 3 kingdoms
-	(iIndependent3,  "Sundapura",		  225, 136,  2, [con.iHinduism], [], [], 0), 
-	(iIndependent3,  "Khotan",		 	  225, 109, 54, [con.iBuddhism], [], [], 0), 
-	(iIndependent3,  "Dunhuang",	 	  225, 120, 58, [con.iBuddhism], [], [con.iClothMerchants], 0), 
-	(iIndependent,  "Chersonesos",		  225,  58, 56, [con.iHellenism], [], [], 0),
-	(iIndependent,  "Utou",		 		  245, 171, 57, [], [], [con.iWalls], 0),
-	(iIndependent2,  "Edo",		 		  245, 170, 54, [], [], [con.iWalls], 0),
-	(iIndependent3,  "Dazaifu",	 		  245, 161, 49, [], [], [con.iWalls], 0),
-	(iBarbarian,  "Erphesfurt",			  380,  35, 67, [], [], [], 0), 
-	(iBarbarian,  "Ratisbon",			  385,  37, 63, [], [], [], 0), 
-	(iIndependent3,  "Tanais",			  395,  65, 61, [], [], [], 0),
-	(iBarbarian,  "Sarkel",				  395,  68, 65, [], [], [], 0),
-	(iBarbarian,  "Stratisburgum",		  400,  30, 62, [], [], [], 0), 
-	(iBarbarian,  "Mimigernaford",		  410,  31, 68, [], [], [], 0),  
-	(iIndependent,  "Chersonesos",		  415,  58, 56, [], [], [], 0), # before Huns
-	(iIndependent2,  "Sundapura",		  500, 136,  2, [con.iHinduism], [], [], 0), 
-	(iIndependent2,  "Khotan",		 	  505, 109, 54, [con.iBuddhism], [], [], 0), 
-	(iIndependent,  "Dunhuang",	 		  505, 120, 58, [con.iBuddhism], [], [con.iClothMerchants], 0), 
-	(iIndependent3,  "Sundapura",		  550, 136,  2, [con.iHinduism], [], [], 0), 
-	(iIndependent3,  "Khotan",		 	  550, 109, 54, [con.iBuddhism], [], [], 0), # for 550AD map
-	(iIndependent,  "Utou",		 		  550, 171, 57, [], [], [con.iWalls], 0),
-	(iIndependent2,  "Edo",		 		  550, 170, 54, [], [], [con.iWalls], 0),
-	(iIndependent3,  "Dazaifu",	 		  550, 161, 49, [], [], [con.iWalls], 0),
-	(iBarbarian,  "Erphesfurt",			  550,  35, 67, [], [], [], 0), 
-	(iBarbarian,  "Ratisbon",			  550,  37, 63, [], [], [], 0), 
-	(iBarbarian,  "Stratisburgum",		  550,  30, 62, [], [], [], 0), 
-	(iBarbarian,  "Mimigernaford",		  550,  31, 68, [], [], [], 0),  
-	(iIndependent3,  "Halin",			  556, 124, 33, [con.iBuddhism], [], [], 0),
-	(iIndependent2,  "Dali",		 	  560, 127, 39, [con.iBuddhism], [], [], 0), # before Tibetan spawn   
-	(iIndependent3,  "Dagon",			  556, 124, 26, [con.iBuddhism], [], [], 0),
-	(iIndependent3,  "Yathreb",			  625,  67, 31, [], [], [], 0), # before Arab spawn
+	(iIndependent,  "Artashat",			 -310,  71, 51, [], [], 0), 
+	(iIndependent,  "Chersonesos",		 -300,  58, 56, [con.iHellenism], [], 0), 
+	(iIndependent,  "Tamralipti",		 -300, 116, 34, [con.iHinduism], [], 0), 
+	(iIndependent,  "Mediolanum",		 -300,  32, 57, [], [], 0), 
+	(iIndependent3,  "Min Yue",		 	 -300, 148, 39, [con.iTaoism], [], 0),
+	(iIndependent3,  "Lutetia",		 	 -295,  23, 63, [], [], 0),
+	(iIndependent,  "Amaravati",		 -290, 109, 26, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Khotan",		 	 -285, 109, 54, [], [], 0), 
+	(iIndependent2,  "Ji",		 	 	 -285, 143, 59, [], [], 0), 
+	(iIndependent2,  "Trapezus",		 -270,  65, 51, [], [], 0), 
+	(iIndependent3,  "Jinyang",		 	 -270, 139, 55, [], [], 0),
+	(iIndependent,  "Dunhuang",	 		 -270, 120, 58, [], [], 0),  
+	(iIndependent3,  "Kourion",		 	 -250,  58, 41, [], [], 0), 
+	(iIndependent,  "Turpan",	 		 -215, 117, 63, [], [], 0), 
+	(iIndependent,  "Tzirta",	 		 -280,  24, 40, [], [], 0), 
+	(iIndependent,  "Iol",	 			 -220,  20, 41, [], [], 0), 
+	(iIndependent3,  "Albana",			 -190,  74, 54, [], [], 0), # before Armenian spawn
+	(iIndependent3,  "Govapuri",	 	 -180, 100, 24, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Halin",			 -150, 124, 33, [], [], 0),
+	(iIndependent3,  "Qiaohsi",		 	 -150, 148, 51, [], [], 0), 
+	(iIndependent2,  "Charax",		 	 -130,  74, 36, [], [], 0),
+	(iIndependent3,  "Qandahar",	 	 -100,  90, 41, [con.iZoroastrianism], [], 0), # before Saka invasion
+	(iIndependent3,  "Dunhuang",	 	  -70, 120, 58, [], [], 0), 
+	(iIndependent,  "Tamralipti",		  -70, 116, 34, [con.iHinduism], [], 0), 
+	(iIndependent2,  "Khotan",			  -75, 109, 54, [], [], 0), 
+	(iIndependent,  "Chersonesos",		  -50,  58, 56, [con.iHellenism], [], 0), 
+	(iIndependent3,  "Dunhuang",	 	  -20, 120, 58, [con.iBuddhism], [], 0), 
+	(iIndependent2,  "Adulis",		 	    5,  64, 22, [], [], 0),
+	(iIndependent2,  "Merv",		 	   40,  87, 49, [con.iZoroastrianism, con.iJudaism], [], 0), # if razed before Kushan spawn
+	(iIndependent,  "Samarqand",		   45,  93, 54, [con.iBuddhism], [], 0), 
+	(iIndependent2,  "Prey Nokor",	 	   50, 135, 19, [], [], 0), # before Funan spawn
+	(iIndependent3,  "Sundapura",		   50, 136,  2, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Indrapura",		   90, 138, 26, [], [], 0), 
+	(iIndependent3,  "Pragjyotishpur",	  120, 120, 38, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Bakkah",			  150,  67, 27, [], [], 0), 
+	(iIndependent3,  "Yathreb",			  200,  67, 31, [], [], 0), 
+	#(iIndependent3,  "Iling",			  200, 138, 45, [con.iTaoism], [], 0), 
+	(iIndependent3,  "Jianye",			  210, 148, 47, [con.iTaoism, con.iConfucianism], [], 0), # before 3 kingdoms
+	(iIndependent3,  "Sundapura",		  225, 136,  2, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Khotan",		 	  225, 109, 54, [con.iBuddhism], [], 0), 
+	(iIndependent3,  "Dunhuang",	 	  225, 120, 58, [con.iBuddhism], [], 0), 
+	(iIndependent,  "Chersonesos",		  225,  58, 56, [con.iHellenism], [], 0), 
+	#(iIndependent,  "Utou",		 		  221, 171, 57, [], [con.iWalls], 0),
+	#(iIndependent2,  "Edo",		 		  221, 170, 53, [], [con.iWalls], 0),
+	#(iIndependent3,  "Hiroshima",	 	  221, 161, 49, [], [con.iWalls], 0),
+	(iIndependent,  "Utou",		 		  245, 171, 57, [], [con.iWalls], 0),
+	(iIndependent2,  "Edo",		 		  245, 170, 54, [], [con.iWalls], 0),
+	(iIndependent3,  "Dazaifu",	 		  245, 161, 49, [], [con.iWalls], 0),
+	(iBarbarian,  "Erphesfurt",			  380,  35, 67, [], [], 0), 
+	(iBarbarian,  "Ratisbon",			  385,  37, 63, [], [], 0), 
+	(iIndependent3,  "Tanais",			  395,  65, 61, [], [], 0),
+	(iBarbarian,  "Sarkel",				  395,  68, 65, [], [], 0),
+	(iBarbarian,  "Stratisburgum",		  400,  30, 62, [], [], 0), 
+	(iBarbarian,  "Mimigernaford",		  410,  31, 68, [], [], 0),  
+	(iIndependent,  "Chersonesos",		  415,  58, 56, [], [], 0), # before Huns
+	(iIndependent2,  "Sundapura",		  500, 136,  2, [con.iHinduism], [], 0), 
+	(iIndependent2,  "Khotan",		 	  505, 109, 54, [con.iBuddhism], [], 0), 
+	(iIndependent,  "Dunhuang",	 		  505, 120, 58, [con.iBuddhism], [], 0), 
+	(iIndependent3,  "Sundapura",		  550, 136,  2, [con.iHinduism], [], 0), 
+	(iIndependent3,  "Khotan",		 	  550, 109, 54, [con.iBuddhism], [], 0), # for 550AD map
+	(iIndependent,  "Utou",		 		  550, 171, 57, [], [con.iWalls], 0),
+	(iIndependent2,  "Edo",		 		  550, 170, 54, [], [con.iWalls], 0),
+	(iIndependent3,  "Dazaifu",	 		  550, 161, 49, [], [con.iWalls], 0),
+	(iBarbarian,  "Erphesfurt",			  550,  35, 67, [], [], 0), 
+	(iBarbarian,  "Ratisbon",			  550,  37, 63, [], [], 0), 
+	(iBarbarian,  "Stratisburgum",		  550,  30, 62, [], [], 0), 
+	(iBarbarian,  "Mimigernaford",		  550,  31, 68, [], [], 0),  
+	(iIndependent3,  "Halin",			  556, 124, 33, [con.iBuddhism], [], 0),
+	(iIndependent2,  "Dali",		 	  560, 127, 39, [con.iBuddhism], [], 0), # before Tibetan spawn   
+	(iIndependent3,  "Dagon",			  556, 124, 26, [con.iBuddhism], [], 0),
+	(iIndependent3,  "Yathreb",			  625,  67, 31, [], [], 0), # before Arab spawn
 )
 
 t320BCMinorCities = (
@@ -152,6 +155,10 @@ lateSupport = [con.iHeavySpearman, con.iMarksman]
 class Barbs:
 
 	def setup(self):
+		
+		#if gc.getPlayer(con.iSeleucids).isPlayable():
+			#for i in range(len(t320BCMinorCities)):
+				#self.foundCity(t320BCMinorCities[i][0], t320BCMinorCities[i][1], t320BCMinorCities[i][2], t320BCMinorCities[i][3], t320BCMinorCities[i][4], t320BCMinorCities[i][5], t320BCMinorCities[i][6])
 		return
 
 
@@ -164,23 +171,17 @@ class Barbs:
 		iBonus = 0
 		
 		# Randomness
-		if iGameTurn > getTurnForYear(con.tBirth[iHuman]) - 25:
-			iRand1 = gc.getGame().getSorenRandNum(2, 'Random spawn size for this turn')
-			iRand2 = gc.getGame().getSorenRandNum(2, 'Another one')
-			iRand3 = gc.getGame().getSorenRandNum(2, 'One more')
-		else:
-			iRand1 = 1
-			iRand2 = 1
-			iRand3 = 1
-			
+		iRand1 = gc.getGame().getSorenRandNum(2, 'Random spawn size for this turn') + 1
+		iRand2 = gc.getGame().getSorenRandNum(2, 'Another one') + 1
+		iRand3 = gc.getGame().getSorenRandNum(2, 'One more') + 1
 		
 		# Independent cities
 		for i in range(len(tMinorCities)):
-			if tMinorCities[i][8] == 0:
+			if tMinorCities[i][7] == 0:
 				iTurn = getTurnForYear(tMinorCities[i][2])
 				if iGameTurn == iTurn or iGameTurn == iTurn + 5 or iGameTurn == iTurn + 10:
-					if self.foundCity(tMinorCities[i][0], tMinorCities[i][1], tMinorCities[i][3], tMinorCities[i][4], tMinorCities[i][5], tMinorCities[i][6], tMinorCities[i][7]):
-						continue
+					if self.foundCity(tMinorCities[i][0], tMinorCities[i][1], tMinorCities[i][3], tMinorCities[i][4], tMinorCities[i][5], tMinorCities[i][6]):
+						tMinorCities[i][7] == 1
 		
 		# Independent states - extra defense for minor cities
 		if iGameTurn % 20 == 10 and iGameTurn >= getTurnForYear(-290):
@@ -621,11 +622,11 @@ class Barbs:
 		# later Goths
 		if iGameTurn >= getTurnForYear(180) and iGameTurn <= getTurnForYear(300):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iLancer]), iBonus +1, iGameTurn, 11, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iHorseman]), iBonus +1, iGameTurn, 11, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(180) and iGameTurn <= getTurnForYear(380):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iLancer]), iBonus + iRand2, iGameTurn, 14, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iHorseman]), iBonus + iRand2, iGameTurn, 14, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(380) and iGameTurn <= getTurnForYear(450):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
@@ -1088,9 +1089,7 @@ class Barbs:
 				CyInterface().addMessage(iHuman, False, con.iDuration, szBuffer, "AS2D_CIVIC_ADOPT", InterfaceMessageTypes.MESSAGE_TYPE_MAJOR_EVENT, None, gc.getInfoTypeForString("COLOR_RED"), -1, -1, False, False)
 
 
-	def foundCity(self, iCiv, sName, iX, iY, lReligions=[], lCorporations =[], lBuildings=[]):
-	
-		#print ("CITY:", sName, "lReligions=", lReligions, "lCorporations=", lCorporations, "lBuildings=", lBuildings)
+	def foundCity(self, iCiv, sName, iX, iY, lReligions=[], lBuildings=[]):
 	
 		if not self.checkRegion(iX, iY):
 			return None
@@ -1115,9 +1114,6 @@ class Barbs:
 		
 		for iReligion in lReligions:
 			city.setHasReligion(iReligion, True, False, False)
-		
-		for iCorporation in lCorporations:
-			city.setHasCorporation(iCorporation, True, False, False)
 			
 		for iBuilding in lBuildings:
 			city.setNumRealBuilding(iBuilding, 1)

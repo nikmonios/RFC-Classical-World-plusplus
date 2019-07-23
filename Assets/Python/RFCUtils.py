@@ -2090,8 +2090,8 @@ class RFCUtils:
 		
 	def getWarCount(self, iPlayer):
 	
-		#print "getWarCount"
-		#print ("iPlayer", iPlayer)
+		print "getWarCount"
+		print ("iPlayer", iPlayer)
 	
 		iCount =0
 		for iLoopCiv in range(iNumPlayers):
@@ -2100,17 +2100,6 @@ class RFCUtils:
 					print ("iLoopCiv", iLoopCiv)
 					iCount += 1
 		return iCount
-		
-	def isAtWarWithMajor(self, iPlayer):
-	
-		team = gc.getTeam(gc.getPlayer(iPlayer).getTeam())
-		for iLoopPlayer in range(con.iNumPlayers):
-			if iLoopPlayer != iPlayer:
-				if (team.isAtWar(iLoopPlayer)):
-					return True
-					break
-		return False
-		
 		
 	def findRemotestCity(self, iPlayer, bRevolt = False):
 		'''finds the city furthest from the capital'''
@@ -2131,7 +2120,7 @@ class RFCUtils:
 		
 	def findRemotestProvince(self, iPlayer):
 	
-		#print ("findRemotestProvince", iPlayer)
+		print ("findRemotestProvince", iPlayer)
 	
 		capital = gc.getPlayer(iPlayer).getCapitalCity()
 		iCapitalX = capital.getX()
@@ -2174,7 +2163,7 @@ class RFCUtils:
 		eDirectionType = DirectionTypes.DIRECTION_NORTHEAST
 		
 		if (abs(tStartingPlot[0] - tDestinationPlot[0]) > 1) or (abs(tStartingPlot[1] - tDestinationPlot[1]) > 1):
-			#print "out of range"
+			print "out of range"
 			return
 		elif tStartingPlot[1] < tDestinationPlot[1]: # dest is N of start
 			if tStartingPlot[0] > tDestinationPlot[0]: # dest is NE of start
@@ -2206,7 +2195,7 @@ class RFCUtils:
 				if gc.getMap().plot(tStartingPlot[0], tStartingPlot[1]).isRiverCrossing(DirectionTypes.DIRECTION_SOUTHEAST):
 					bCrossing = True
 			elif tStartingPlot[0] == tDestinationPlot[0]: # dest is due S of start
-				#print "dest is due S of start"
+				print "dest is due S of start"
 				eDirectionType = DirectionTypes.DIRECTION_SOUTH
 				if gc.getMap().plot(tStartingPlot[0], tStartingPlot[1]).isRiverCrossing(DirectionTypes.DIRECTION_SOUTH):
 					bCrossing = True
@@ -2227,9 +2216,9 @@ class RFCUtils:
 		
 	def stabilityCheck(self, iPlayer, iAdjustment = 0):
 	
-		print ("stabilityCheck called", "iPlayer =", iPlayer)
+		print "stabilityCheck called"
 		
-		#print ("iPlayer =", iPlayer)
+		print ("iPlayer =", iPlayer)
 	
 		#CyInterface().addMessage(utils.getHumanID(), True, iDuration, CyTranslator().getText("STABILITY CHECK", ()) + " " + gc.getPlayer(iPlayer).getCivilizationDescription(0), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 		if (iPlayer > iNumPlayers):
@@ -2262,7 +2251,7 @@ class RFCUtils:
 		
 		
 		
-		if (iGameTurn < getTurnForYear(con.tBirth[iPlayer]) + 50):
+		if (iGameTurn < getTurnForYear(con.tBirth[iPlayer]) + 30):
 			print "pass, too early"
 			return
 			
@@ -2384,9 +2373,7 @@ class RFCUtils:
 		if bExiled:
 			print "Exiled"
 			if utils.getYear() > con.tFall[iCiv] or pPlayer.getNumCities() <= 3:
-				print "terminal crisis"
 				self.terminalCrisis(iPlayer, iCiv, pPlayer, pTeam)
-				return
 			else:
 				iEmpireRating -= 6
 				
@@ -2795,8 +2782,6 @@ class RFCUtils:
 		
 		
 	def secedeDistantCities(self, iPlayer, iCiv):
-		if iPlayer < con.iNumPlayers:
-			return
 		apCityList = PyPlayer(iPlayer).getCityList()
 		for pLoopCity in apCityList:
 			regionID = gc.getMap().plot(pLoopCity.getX(), pLoopCity.getY()).getRegionID()
@@ -3051,17 +3036,6 @@ class RFCUtils:
 		pPlayer = gc.getPlayer(iPlayer)
 		pPlayer.setCivName(localText.getText(sName, ()), localText.getText(sShort, ()), localText.getText(sAdj, ()))
 		pPlayer.setName(localText.getText(sLeader, ()))
-		
-	def getLargestCity(self, iPlayer):
-	
-		iLargestCityPop = 0
-		apCityList = PyPlayer(iPlayer).getCityList()
-		
-		return
-		
-	def getLargestPort(self, iPlayer):
-	
-		return
 
 # singleton for use by all modules
 

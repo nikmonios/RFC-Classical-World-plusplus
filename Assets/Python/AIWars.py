@@ -48,19 +48,19 @@ class AIWars:
 		if (iGameTurn % 20 == 20):
 			utils.restorePeaceHuman(iIndependent, False)
 		
-		if (iGameTurn % 20 == 1 and iGameTurn > 5):
+		if (iGameTurn % 20 == 1 and iGameTurn > 40):
 			utils.restorePeaceAI(iIndependent, False)
-		if (iGameTurn % 20 == 6 and iGameTurn > 5):
+		if (iGameTurn % 20 == 6 and iGameTurn > 40):
 			utils.restorePeaceAI(iIndependent2, False)
-		if (iGameTurn % 20 == 11 and iGameTurn > 5):
+		if (iGameTurn % 20 == 11 and iGameTurn > 40):
 			utils.restorePeaceAI(iIndependent3, False)
 		
 		#turn automatically war on between independent cities and some AI major civs
-		if (iGameTurn % 20 == 2 and iGameTurn > 5): #1 turn after restorePeace()
+		if (iGameTurn % 20 == 2 and iGameTurn > 40): #1 turn after restorePeace()
 			utils.minorWars(iIndependent)
-		if (iGameTurn % 20 == 7 and iGameTurn > 5): #1 turn after restorePeace()
+		if (iGameTurn % 20 == 7 and iGameTurn > 40): #1 turn after restorePeace()
 			utils.minorWars(iIndependent2)
-		if (iGameTurn % 20 == 12 and iGameTurn > 5): #1 turn after restorePeace()
+		if (iGameTurn % 20 == 12 and iGameTurn > 40): #1 turn after restorePeace()
 			utils.minorWars(iIndependent3)
 			
 		# just another AI war function
@@ -70,10 +70,9 @@ class AIWars:
 				iCiv = sd.getCivilization(iLoopPlayer)
 				# alive, not human, not at war, 10 turns after spawn
 				if iLoopPlayer != iHuman and gc.getPlayer(iLoopPlayer).isAlive() and iGameTurn > con.tBirth[iCiv]:
-					print (gc.getPlayer(iLoopPlayer).getName())
+					print ("iLoopPlayer", iLoopPlayer)
 					if utils.getWarCount(iLoopPlayer) != 0:
 						print "already at war"
-						continue
 					else:
 						# has a target
 						if sd.getWarTarget(iLoopPlayer, 0) != -1:
@@ -113,7 +112,7 @@ class AIWars:
 					
 	def checkAIWars(self, iPlayer, iGameTurn):
 	
-		print ("checkAIWars, iPlayer", iPlayer, "year=", utils.getYear())
+		print ("checkAIWars, iPlayer", iPlayer, "iGameTurn", iGameTurn)
 		
 		#if gc.getGame().getSorenRandNum(100, 'random number') > 50:
 			#return
@@ -121,8 +120,6 @@ class AIWars:
 		tTeam = gc.getTeam(pPlayer.getTeam())
 		iCiv = sd.getCivilization(iPlayer)
 		iPower = pPlayer.getPower()
-		iCapitalX = gc.getPlayer(iPlayer).getCapitalCity().getX()
-		iCapitalY = gc.getPlayer(iPlayer).getCapitalCity().getY()
 		#print ("iCiv=", iCiv)
 		iWarTargetPlayer = -1
 		
@@ -132,56 +129,40 @@ class AIWars:
 		for tPlot in plotList:
 			pCurrent = gc.getMap().plot(tPlot[0], tPlot[1])
 			if pCurrent.isCity():
-				#print ("city in core regions", pCurrent.getPlotCity().getName())
-				if pCurrent.getPlotCity().getOwner() >= con.iNumPlayers:
-					print "minor target in core"
-					return
-				elif pCurrent.getPlotCity().getOwner() != iPlayer:
+				print ("city in core regions", pCurrent.getPlotCity().getName())
+				if pCurrent.getPlotCity().getOwner() != iPlayer:
 					print ("foreign city in core regions", pCurrent.getPlotCity().getName())
 					lEnemyCities.append(pCurrent.getPlotCity())
 					
 		if len(lEnemyCities):
 			print "foreigners in core"
 			iEnemyDistance = 200
-			#capital = gc.getPlayer(iPlayer).getCapitalCity()
-			#iCapitalX = capital.getX()
-			#iCapitalY = capital.getY()
+			capital = gc.getPlayer(iPlayer).getCapitalCity()
+			iCapitalX = capital.getX()
+			iCapitalY = capital.getY()
 			for pLoopCity in lEnemyCities:
 				if gc.getPlayer(iPlayer).canContact(pLoopCity.getOwner()):
 					if abs(pLoopCity.getX() - iCapitalX) < iEnemyDistance or abs(pLoopCity.getY() - iCapitalY) < iEnemyDistance :
-						iEnemyDistance = max(abs(pLoopCity.getX() - iCapitalX), abs(pLoopCity.getY() - iCapitalY))
+						iEnemyDistance = max((pLoopCity.getX() - iCapitalX), (pLoopCity.getY() - iCapitalY))
 						iWarTargetPlayer = pLoopCity.getOwner()
-			print ("iWarTargetPlayer=", iWarTargetPlayer)
+						print ("iWarTargetPlayer=", iWarTargetPlayer)
 						
 			if iWarTargetPlayer != -1:
 				if utils.canDeclareWar(iPlayer, iWarTargetPlayer):
 					if utils.isAVassal(iWarTargetPlayer):
 						iMaster = utils.getMaster(iWarTargetPlayer)
 						iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
-						if utils.isAtWarWithMajor(iMaster):
-							iTotalRivalPower *= 2/3
 						if iPower > iTotalRivalPower *2/3:
 							if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly and pPlayer.AI_getAttitude(iMaster) < con.iFriendly:
-								print ("initWar", iPlayer, iWarTargetPlayer)
 								self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+								print ("initWar", iPlayer, iWarTargetPlayer)
 								return
-							else:
-								print "too friendly towards target"
-						else:
-							print "target too powerful"
 					else:
-						iRivalPower = gc.getPlayer(iWarTargetPlayer).getPower()
-						if utils.isAtWarWithMajor(iWarTargetPlayer):
-							iRivalPower *= 2/3
-						if iPower > iRivalPower *2/3:
+						if iPower > gc.getPlayer(iWarTargetPlayer).getPower() *2/3:
 							if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly:
-								print ("initWar", iPlayer, iWarTargetPlayer)
 								self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+								print ("initWar", iPlayer, iWarTargetPlayer)
 								return
-							else:
-								print "too friendly towards target"
-						else:
-							print "target too powerful"
 					
 
 		if iWarTargetPlayer == -1:
@@ -193,30 +174,28 @@ class AIWars:
 			# aggressive civs
 			if con.tAggression[iCiv] == 2:
 				print "Aggressive"
+				#if con.tAggression[iCiv] >= 0:
 				# preferred targets in target regions
 				lEnemyCities = []
 				plotList = utils.getRegionPlotList(con.lTargetRegions[iCiv])
 				for tPlot in plotList:
 					pCurrent = gc.getMap().plot(tPlot[0], tPlot[1])
 					if pCurrent.isCity():
-						#print ("city in target regions", pCurrent.getPlotCity().getName())
-						if pCurrent.getPlotCity().getOwner() >= con.iNumPlayers:
-							print "minor target in target region"
-							return
-					elif pCurrent.getPlotCity().getOwner() in con.lWarTargets[iCiv]:
-						lEnemyCities.append(pCurrent.getPlotCity())
-						print ("target civ city in target regions", pCurrent.getPlotCity().getName())
+						print ("city in target regions", pCurrent.getPlotCity().getName())
+						if pCurrent.getPlotCity().getOwner() in con.lWarTargets[iCiv]:
+							lEnemyCities.append(pCurrent.getPlotCity())
+							print ("target civ city in target regions", pCurrent.getPlotCity().getName())
 
 				if len(lEnemyCities):
 					print "war targets in target regions"
 					iEnemyDistance = 200
-					#capital = gc.getPlayer(iPlayer).getCapitalCity()
-					#iCapitalX = capital.getX()
-					#iCapitalY = capital.getY()
+					capital = gc.getPlayer(iPlayer).getCapitalCity()
+					iCapitalX = capital.getX()
+					iCapitalY = capital.getY()
 					for pLoopCity in lEnemyCities:
 						if gc.getPlayer(iPlayer).canContact(pLoopCity.getOwner()):
 							if abs(pLoopCity.getX() - iCapitalX) < iEnemyDistance or abs(pLoopCity.getY() - iCapitalY) < iEnemyDistance :
-								iEnemyDistance = max(abs(pLoopCity.getX() - iCapitalX), abs(pLoopCity.getY() - iCapitalY))
+								iEnemyDistance = max((pLoopCity.getX() - iCapitalX), (pLoopCity.getY() - iCapitalY))
 								iWarTargetPlayer = pLoopCity.getOwner()
 								print ("iWarTargetPlayer=", iWarTargetPlayer)
 						
@@ -225,30 +204,17 @@ class AIWars:
 							if utils.isAVassal(iWarTargetPlayer):
 								iMaster = utils.getMaster(iWarTargetPlayer)
 								iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
-								if utils.isAtWarWithMajor(iMaster):
-									iTotalRivalPower *= 2/3
 								if iPower > iTotalRivalPower *2/3:
 									if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly and pPlayer.AI_getAttitude(iMaster) < con.iFriendly:
-										print ("initWar", iPlayer, iWarTargetPlayer)
 										self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+										print ("initWar", iPlayer, iWarTargetPlayer)
 										return
-									else:
-										print "too friendly towards target"
-								else:
-									print "target too powerful"
 							else:
-								iRivalPower = gc.getPlayer(iWarTargetPlayer).getPower()
-								if utils.isAtWarWithMajor(iWarTargetPlayer):
-									iRivalPower *= 2/3
-								if iPower > iRivalPower *2/3:
+								if iPower > gc.getPlayer(iWarTargetPlayer).getPower() *2/3:
 									if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly:
-										print ("initWar", iPlayer, iWarTargetPlayer)
 										self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+										print ("initWar", iPlayer, iWarTargetPlayer)
 										return
-									else:
-										print "too friendly towards target"
-								else:
-									print "target too powerful"
 							
 				if iWarTargetPlayer == -1:
 
@@ -258,21 +224,21 @@ class AIWars:
 					for tPlot in plotList:
 						pCurrent = gc.getMap().plot(tPlot[0], tPlot[1])
 						if pCurrent.isCity():
-							#print ("city in target regions", pCurrent.getPlotCity().getName())
-							if pCurrent.getPlotCity().getOwner() != iPlayer and pCurrent.getPlotCity().getOwner() < con.iNumPlayers:
+							print ("city in target regions", pCurrent.getPlotCity().getName())
+							if pCurrent.getPlotCity().getOwner() != iPlayer:
 								lEnemyCities.append(pCurrent.getPlotCity())
 								print ("other civcity in target regions", pCurrent.getPlotCity().getName())
 
 					if len(lEnemyCities):
 						print "other civs in target regions"
 						iEnemyDistance = 200
-						#capital = gc.getPlayer(iPlayer).getCapitalCity()
-						#iCapitalX = capital.getX()
-						#iCapitalY = capital.getY()
+						capital = gc.getPlayer(iPlayer).getCapitalCity()
+						iCapitalX = capital.getX()
+						iCapitalY = capital.getY()
 						for pLoopCity in lEnemyCities:
 							if gc.getPlayer(iPlayer).canContact(pLoopCity.getOwner()):
 								if abs(pLoopCity.getX() - iCapitalX) < iEnemyDistance or abs(pLoopCity.getY() - iCapitalY) < iEnemyDistance :
-									iEnemyDistance = max(abs(pLoopCity.getX() - iCapitalX), abs(pLoopCity.getY() - iCapitalY))
+									iEnemyDistance = max((pLoopCity.getX() - iCapitalX), (pLoopCity.getY() - iCapitalY))
 									iWarTargetPlayer = pLoopCity.getOwner()
 									print ("iWarTargetPlayer=", iWarTargetPlayer)
 						
@@ -281,30 +247,17 @@ class AIWars:
 								if utils.isAVassal(iWarTargetPlayer):
 									iMaster = utils.getMaster(iWarTargetPlayer)
 									iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
-									if utils.isAtWarWithMajor(iMaster):
-										iTotalRivalPower *= 2/3
 									if iPower > iTotalRivalPower *2/3:
 										if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly and pPlayer.AI_getAttitude(iMaster) < con.iFriendly:
-											print ("initWar", iPlayer, iWarTargetPlayer)
 											self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+											print ("initWar", iPlayer, iWarTargetPlayer)
 											return
-										else:
-											print "too friendly towards target"
-									else:
-										print "target too powerful"
 								else:
-									iRivalPower = gc.getPlayer(iWarTargetPlayer).getPower()
-									if utils.isAtWarWithMajor(iWarTargetPlayer):
-										iRivalPower *= 2/3
-									if iPower > iRivalPower *2/3:
+									if iPower > gc.getPlayer(iWarTargetPlayer).getPower() *2/3:
 										if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iFriendly:
-											print ("initWar", iPlayer, iWarTargetPlayer)
 											self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+											print ("initWar", iPlayer, iWarTargetPlayer)
 											return
-										else:
-											print "too friendly towards target"
-									else:
-										print "target too powerful"
 								
 					if iWarTargetPlayer == -1:
 						# other civs in normal regions
@@ -313,56 +266,40 @@ class AIWars:
 						for tPlot in plotList:
 							pCurrent = gc.getMap().plot(tPlot[0], tPlot[1])
 							if pCurrent.isCity():
-								#print ("city in normal regions", pCurrent.getPlotCity().getName())
-								if pCurrent.getPlotCity().getOwner() >= con.iNumPlayers:
-									print "minor target in normal region"
-									return
-								elif pCurrent.getPlotCity().getOwner() != iPlayer:
+								print ("city in normal regions", pCurrent.getPlotCity().getName())
+								if pCurrent.getPlotCity().getOwner() != iPlayer:
 									lEnemyCities.append(pCurrent.getPlotCity())
 									print ("foreign city in normal regions", pCurrent.getPlotCity().getName())
 
 						if len(lEnemyCities):
 							print "other civs in normal regions"
 							iEnemyDistance = 200
-							#capital = gc.getPlayer(iPlayer).getCapitalCity()
-							#iCapitalX = capital.getX()
-							#iCapitalY = capital.getY()
+							capital = gc.getPlayer(iPlayer).getCapitalCity()
+							iCapitalX = capital.getX()
+							iCapitalY = capital.getY()
 							for pLoopCity in lEnemyCities:
 								if gc.getPlayer(iPlayer).canContact(pLoopCity.getOwner()):
 									if abs(pLoopCity.getX() - iCapitalX) < iEnemyDistance or abs(pLoopCity.getY() - iCapitalY) < iEnemyDistance :
-										iEnemyDistance = max(abs(pLoopCity.getX() - iCapitalX), abs(pLoopCity.getY() - iCapitalY))
+										iEnemyDistance = max((pLoopCity.getX() - iCapitalX), (pLoopCity.getY() - iCapitalY))
 										iWarTargetPlayer = pLoopCity.getOwner()
-							print ("iWarTargetPlayer=", iWarTargetPlayer)
+										print ("iWarTargetPlayer=", iWarTargetPlayer)
 						
 							if iWarTargetPlayer != -1:
 								if utils.canDeclareWar(iPlayer, iWarTargetPlayer):
 									if utils.isAVassal(iWarTargetPlayer):
 										iMaster = utils.getMaster(iWarTargetPlayer)
 										iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
-										if utils.isAtWarWithMajor(iMaster):
-											iTotalRivalPower *= 2/3
 										if iPower > iTotalRivalPower:
 											if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iPleased and pPlayer.AI_getAttitude(iMaster) < con.iPleased:
-												print ("initWar", iPlayer, iWarTargetPlayer)
 												self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+												print ("initWar", iPlayer, iWarTargetPlayer)
 												return
-											else:
-												print "too friendly towards target"
-										else:
-											print "target too powerful"
 									else:
-										iRivalPower = gc.getPlayer(iWarTargetPlayer).getPower()
-										if utils.isAtWarWithMajor(iWarTargetPlayer):
-											iRivalPower *= 2/3
-										if iPower > iRivalPower:
+										if iPower > gc.getPlayer(iWarTargetPlayer).getPower():
 											if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iPleased:
-												print ("initWar", iPlayer, iWarTargetPlayer)
 												self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+												print ("initWar", iPlayer, iWarTargetPlayer)
 												return
-											else:
-												print "too friendly towards target"
-										else:
-											print "target too powerful"
 									
 			# normal civs
 			elif con.tAggression[iCiv] == 1:
@@ -373,53 +310,40 @@ class AIWars:
 				for tPlot in plotList:
 					pCurrent = gc.getMap().plot(tPlot[0], tPlot[1])
 					if pCurrent.isCity():
-						#print ("city in normal regions", pCurrent.getPlotCity().getName())
-						if pCurrent.getPlotCity().getOwner() != iPlayer and pCurrent.getPlotCity().getOwner() < con.iNumPlayers:
+						print ("city in normal regions", pCurrent.getPlotCity().getName())
+						if pCurrent.getPlotCity().getOwner() != iPlayer:
 							print ("foreign city in normal regions", pCurrent.getPlotCity().getName())
 							lEnemyCities.append(pCurrent.getPlotCity())
 
 				if len(lEnemyCities):
 					print "other civs in normal regions"
 					iEnemyDistance = 200
-					#capital = gc.getPlayer(iPlayer).getCapitalCity()
-					#iCapitalX = capital.getX()
-					#iCapitalY = capital.getY()
+					capital = gc.getPlayer(iPlayer).getCapitalCity()
+					iCapitalX = capital.getX()
+					iCapitalY = capital.getY()
 					for pLoopCity in lEnemyCities:
 						if gc.getPlayer(iPlayer).canContact(pLoopCity.getOwner()):
 							if abs(pLoopCity.getX() - iCapitalX) < iEnemyDistance or abs(pLoopCity.getY() - iCapitalY) < iEnemyDistance :
-								iEnemyDistance = max(abs(pLoopCity.getX() - iCapitalX), abs(pLoopCity.getY() - iCapitalY))
+								iEnemyDistance = max((pLoopCity.getX() - iCapitalX), (pLoopCity.getY() - iCapitalY))
 								iWarTargetPlayer = pLoopCity.getOwner()
-					print ("iWarTargetPlayer=", iWarTargetPlayer)
+								print ("iWarTargetPlayer=", iWarTargetPlayer)
 						
-					if iWarTargetPlayer != -1:
-						if utils.canDeclareWar(iPlayer, iWarTargetPlayer):
-							if utils.isAVassal(iWarTargetPlayer):
-								iMaster = utils.getMaster(iWarTargetPlayer)
-								iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
-								if utils.isAtWarWithMajor(iMaster):
-									iTotalRivalPower *= 2/3
-								if iPower > iTotalRivalPower *3/2:
-									if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iCautious and pPlayer.AI_getAttitude(iMaster) < con.iCautious:
-										print ("initWar", iPlayer, iWarTargetPlayer)
-										self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
-										return
-									else:
-										print "too friendly towards target"
+						if iWarTargetPlayer != -1:
+							if utils.canDeclareWar(iPlayer, iWarTargetPlayer):
+								if utils.isAVassal(iWarTargetPlayer):
+									iMaster = utils.getMaster(iWarTargetPlayer)
+									iTotalRivalPower = gc.getPlayer(iMaster).getPower() + gc.getPlayer(iWarTargetPlayer).getPower()
+									if iPower > iTotalRivalPower *3/2:
+										if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iCautious and pPlayer.AI_getAttitude(iMaster) < con.iCautious:
+											self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+											print ("initWar", iPlayer, iWarTargetPlayer)
+											return
 								else:
-									print "target too powerful"
-							else:
-								iRivalPower = gc.getPlayer(iWarTargetPlayer).getPower()
-								if utils.isAtWarWithMajor(iWarTargetPlayer):
-									iRivalPower *= 2/3
-								if iPower > iRivalPower *2/3:
-									if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iCautious:
-										print ("initWar", iPlayer, iWarTargetPlayer)
-										self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
-										return
-									else:
-										print "too friendly towards target"
-								else:
-									print "target too powerful"
+									if iPower > gc.getPlayer(iWarTargetPlayer).getPower() *3/2:
+										if pPlayer.AI_getAttitude(iWarTargetPlayer) < con.iCautious:
+											self.initWar(iPlayer, iWarTargetPlayer, iGameTurn)
+											print ("initWar", iPlayer, iWarTargetPlayer)
+											return
 
 	def initWar(self, iPlayer, iTargetCiv, iGameTurn): 
 	
@@ -436,38 +360,32 @@ class AIWars:
 		if iTargetCiv < iNumPlayers:
 			if iPlayer == con.iRome and iTargetCiv != utils.getHumanID() and iTargetCiv in [con.iCelts, con.iCarthage, con.iEgypt, con.iAntigonids, con.iMaccabees]:
 				if sd.getRomanAIWar(iTargetCiv) == 0:
-					gc.getTeam(gc.getPlayer(iPlayer).getTeam()).declareWar(iTargetCiv, True, WarPlanTypes.WARPLAN_TOTAL)
-					print ("declareWar, iPlayer", iPlayer, "iTargetCiv", iTargetCiv)
+					gc.getTeam(gc.getPlayer(iPlayer).getTeam()).declareWar(iTargetCiv, True, -1)
+					#print ("declareWar, iPlayer", iPlayer, "iTargetCiv", iTargetCiv)
 				else:
 					gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
 					sd.setWarTarget(iPlayer, 0, iTargetCiv)
 					sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
 					sd.setWarTarget(iPlayer, 2, True)
-					print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
-			elif iPlayer in [con.iSeleucids, con.iEgypt, con.iAntigonids] and iTargetCiv != utils.getHumanID() and iTargetCiv in [con.iSeleucids, con.iEgypt, con.iAntigonids]:
-				gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
-				sd.setWarTarget(iPlayer, 0, iTargetCiv)
-				sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
-				sd.setWarTarget(iPlayer, 2, True)
-				print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
+					#print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
 			elif iPlayer == con.iParthia and iTargetCiv != utils.getHumanID() and iTargetCiv in [con.iSeleucids]:
 				gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
 				sd.setWarTarget(iPlayer, 0, iTargetCiv)
 				sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
 				sd.setWarTarget(iPlayer, 2, True)
-				print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
+				#print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
 			elif iPlayer == con.iSassanids and iTargetCiv != utils.getHumanID() and iTargetCiv in [con.iSeleucids, con.iParthia]:
 				gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
 				sd.setWarTarget(iPlayer, 0, iTargetCiv)
 				sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
 				sd.setWarTarget(iPlayer, 2, True)
-				print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
+				#print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
 			elif iPlayer == con.iHan and iTargetCiv != utils.getHumanID() and iTargetCiv in [con.iQin, con.iVietnam]:
 				gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
 				sd.setWarTarget(iPlayer, 0, iTargetCiv)
 				sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
 				sd.setWarTarget(iPlayer, 2, True)
-				print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
+				#print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
 			#elif iTargetCiv != utils.getHumanID() and iTargetCiv in con.lWarTargets[sd.getCivilization(iPlayer)]:
 				#gc.getTeam(gc.getPlayer(iPlayer).getTeam()).AI_setWarPlan(iTargetCiv, WarPlanTypes.WARPLAN_PREPARING_TOTAL)
 				#sd.setWarTarget(iPlayer, 0, iTargetCiv)
@@ -479,10 +397,10 @@ class AIWars:
 				sd.setWarTarget(iPlayer, 0, iTargetCiv)
 				sd.setWarTarget(iPlayer, 1, iGameTurn + 20 + gc.getGame().getSorenRandNum(10, 'random number'))
 				sd.setWarTarget(iPlayer, 2, False)
-				print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
+				#print ("setWarTarget, iPlayer", iPlayer, "iTargetCiv", sd.getWarTarget(iPlayer, 0), "iGameTurn", sd.getWarTarget(iPlayer, 1))
 		else:
 			gc.getTeam(gc.getPlayer(iPlayer).getTeam()).declareWar(iTargetCiv, True, -1)
-			print ("declareWar, iPlayer", iPlayer, "iTargetCiv", iTargetCiv)
+			#print ("declareWar, iPlayer", iPlayer, "iTargetCiv", iTargetCiv)
 
 		
 

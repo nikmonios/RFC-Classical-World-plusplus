@@ -26,7 +26,6 @@ iSeleucids = con.iSeleucids
 iPontus = con.iPontus
 iMaccabees = con.iMaccabees
 iRome = con.iRome
-iHan = con.iHan
 iBarbarian = con.iBarbarian
 iGoguryeo = con.iGoguryeo
 iCelts = con.iCelts
@@ -41,7 +40,6 @@ iHuman = utils.getHumanID()
 iNumPlayers = con.iNumPlayers
 
 pRome = gc.getPlayer(iRome)
-pHan = gc.getPlayer(iHan)
 pCarthage = gc.getPlayer(iCarthage)
 pAntigonids = gc.getPlayer(iAntigonids)
 pSeleucids = gc.getPlayer(iSeleucids)
@@ -134,19 +132,6 @@ class RFCCWAIWars:
 				utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iRome)
 				if gc.getPlayer(utils.getHumanID()).canContact(iRome):
 					CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ROMAN_INDY_ASSIMILATION", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			
-		# Han indy city allegiance
-		if (iGameTurn < getTurnForYear(150)) and (iGameTurn >= getTurnForYear(con.tBirth[iHan] + utils.getTurns(50))) and (iGameTurn % 20 == 0) and iHan != utils.getHumanID() and pHan.isAlive(): #every 20 turns starting 100 years after Han's birth
-			pTargetCity = utils.getRandomMinorCityByRegion(con.lNormalRegions[iHan])
-			if (pTargetCity != None):
-				iOldOwner = gc.getMap().plot(pTargetCity.getX(),pTargetCity.getY()).getOwner()
-				utils.cultureManager((pTargetCity.getX(),pTargetCity.getY()), 100, iHan, iOldOwner, False, False, False)
-				utils.flipUnitsInCityBefore((pTargetCity.getX(),pTargetCity.getY()), iHan, iOldOwner)
-				self.setTempFlippingCity((pTargetCity.getX(),pTargetCity.getY()))
-				utils.flipCity((pTargetCity.getX(),pTargetCity.getY()), 0, 0, iHan, [iOldOwner])
-				utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iHan)
-				if gc.getPlayer(utils.getHumanID()).canContact(iHan):
-					CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_HAN_INDY_ASSIMILATION", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
 				
 			
 
@@ -199,7 +184,7 @@ class RFCCWAIWars:
 			utils.makeUnitAI(con.iCatapult, iRome, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 			CyInterface().addMessage(iRome, False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ROMAN_CONQUESTS",(gc.getPlayer(iEnemy).getCivilizationShortDescriptionKey(),)), "", 0, "", ColorTypes(con.iWhite), -1, -1, True, True)
 			CyInterface().addMessage(iEnemy, False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ROMAN_CONQUESTS_TARGET", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			print "Roman conquerors landed"
+			#print "Roman conquerors landed"
 		
 
 				
@@ -244,7 +229,7 @@ class RFCCWAIWars:
 		CyInterface().addMessage(iRome, False, con.iDuration, CyTranslator().getText("TXT_KEY_HANNIBAL_ATTACKS", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
 		
 	def triggerRomanDefenderSpawn(self, iAttacker):
-		print "roman defender spawn"
+		#print "roman defender spawn"
 		pRome = gc.getMap().plot(con.tRome[0], con.tRome[1]).getPlotCity()
 		iNumLegions = 2
 		if pRome.getOwner() == iRome:
@@ -302,7 +287,7 @@ class RFCCWAIWars:
 		utils.makeUnitAI(con.iLegionary, iRome, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
 		if gc.getPlayer(utils.getHumanID()).canContact(iRome):
 			CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ROMAN_INDY_CONQUERORS", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-		print "Roman indy attack triggered"
+		#print "Roman indy attack triggered"
 		
 	def triggerAntigonidGreeceAttack(self):
 	
@@ -316,7 +301,7 @@ class RFCCWAIWars:
 			utils.makeUnitAI(con.iAntigonidPeltast, iAntigonids, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
 			if gc.getPlayer(utils.getHumanID()).canContact(iAntigonids):
 				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ANTIGONID_INDY_CONQUERORS", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			print "Antigond Greek attack triggered"
+			#print "Antigond Greek attack triggered"
 			
 	def triggerBactrianIndiaAttack(self):
 	
@@ -330,7 +315,7 @@ class RFCCWAIWars:
 			utils.makeUnitAI(con.iArcher, iBactria, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 			if gc.getPlayer(utils.getHumanID()).canContact(iBactria):
 				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_BACTRIAN_INDY_CONQUERORS", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			print "Bactrian Gandhara attack triggered"
+			#print "Bactrian Gandhara attack triggered"
 			
 	def triggerArabAttack(self):
 	
@@ -343,7 +328,7 @@ class RFCCWAIWars:
 			utils.makeUnitAI(con.iMarksman, iArabs, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 			if gc.getPlayer(utils.getHumanID()).canContact(iArabs):
 				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_UP_ARAB_CONQUERORS", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			print "Arab attack triggered"
+			#print "Arab attack triggered"
 			
 
 		
@@ -361,7 +346,7 @@ class RFCCWAIWars:
 			utils.makeUnitAI(con.iSpearman, iRome, (tPlot), UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 			utils.makeUnitAI(con.iJavelinman, iRome, (tPlot), UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 			city.setNumRealBuilding(con.iWalls, 1)
-			print "Roman defense and walls"
+			#print "Roman defense and walls"
 		
 		# Roman Civil War
 		if bConquest and iNewOwner == iRome and iPreviousOwner == iByzantines and sd.getCivilization(iByzantines) == iRebelRome:
@@ -480,9 +465,9 @@ class RFCCWAIWars:
 	def onBuildingBuilt(self, iBuildingType, city):
 	
 	
-		#if iBuildingType == con.iInvasionProject:
-			#city.setNumRealBuilding(con.iInvasionProject, 0)
-			#self.triggerAIInvasion(city.getOwner())
+		if iBuildingType == con.iInvasionProject:
+			city.setNumRealBuilding(con.iInvasionProject, 0)
+			self.triggerAIInvasion(city.getOwner())
 	
 		# Gokturk UB
 		if iBuildingType == con.iGokturkOrkhonInscription:
@@ -530,7 +515,7 @@ class RFCCWAIWars:
 				iThreshold += 20
 			if iWinningPlayer == iAttackingPlayer:
 				iThreshold += 10
-				#print ("pWinningPlayer.getCapitalCity().productionLeft()", pWinningPlayer.getCapitalCity().productionLeft())
+				print ("pWinningPlayer.getCapitalCity().productionLeft()", pWinningPlayer.getCapitalCity().productionLeft())
 				if (iRandom < iThreshold):
 					if iWinningPlayer != iHuman and pWinningPlayer.getCapitalCity().isProductionBuilding() and pWinningPlayer.getCapitalCity().productionLeft() > 45:
 						pWinningPlayer.getCapitalCity().changeProduction(60)
@@ -886,7 +871,7 @@ class RFCCWAIWars:
 	
 	def startRomanCivilWar(self):
 								
-		print "starting Roman civil war"
+		#print "starting Roman civil war"
 		gc.getTeam(pRome.getTeam()).setHasTech(con.iStabilityCollapsing, False, iRome, False, False)
 		gc.getTeam(pRome.getTeam()).setHasTech(con.iStabilityUnstable, False, iRome, False, False)
 		gc.getTeam(pRome.getTeam()).setHasTech(con.iStabilityStable, True, iRome, False, False)
@@ -943,7 +928,7 @@ class RFCCWAIWars:
 			CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_START_ROMAN_CIVIL_WAR", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
 		
 	def endRomanCivilWar(self):
-		print "ending Roman civil war"
+		#print "ending Roman civil war"
 		rebelCityList = PyPlayer(iByzantines).getCityList()
 		for pCity in rebelCityList:
 			#print ("flipping", pCity.getName())
@@ -1007,7 +992,7 @@ class RFCCWAIWars:
 		if iCiv == iRome and gc.getPlayer(utils.getHumanID()).getNumCities() < 1:
 			if city.plot().getRegionID() in con.lCoreRegions[iRome] or city.plot().getRegionID() in con.lNormalRegions[iRome]:
 				city.setNumRealBuilding(con.iWalls, 1)
-				print "Roman walls"
+				#print "Roman walls"
 			
 	def triggerAIInvasion(self, iPlayer):
 	

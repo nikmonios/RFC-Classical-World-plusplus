@@ -758,7 +758,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_PAR1</Tag>
-		<English>Build a Palace and the National Epic in Ctesiphon by 50BC</English>
+		<English>Control 5% of world territory by 50AD</English>
 		<French></French>
 		<German></German>
 		<Italian></Italian>
@@ -766,7 +766,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_PAR2</Tag>
-		<English>Control 5% of world territory by 50AD</English>
+		<English>Build a Palace and the National Epic in Ctesiphon by 50BC</English>
 		<French></French>
 		<German></German>
 		<Italian></Italian>
@@ -836,17 +836,9 @@
 		<Italian></Italian>
 		<Spanish></Spanish>
 	</TEXT>
-	<!--<TEXT>
-		<Tag>TXT_KEY_UHV_KUS1</Tag>
-		<English>Build 5 Cloth Markets, Spice Markets or Artisan's Quarters, in any combination, by 200AD</English>
-		<French></French>
-		<German></German>
-		<Italian></Italian>
-		<Spanish></Spanish>
-	</TEXT>-->
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KUS1</Tag>
-		<English>Have the highest trade route income in 200AD</English>
+		<English>Build 5 Cloth Markets, Spice Markets or Artisan's Quarters, in any combination, by 200AD</English>
 		<French></French>
 		<German></German>
 		<Italian></Italian>
@@ -926,7 +918,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_SAS1</Tag>
-		<English>Control the empire of Darius the Great by 450AD</English>
+		<English>Build 3 Zoroastrian Cathedrals by 600AD</English>
 		<French></French>
 		<German></German>
 		<Italian></Italian>
@@ -934,7 +926,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_SAS2</Tag>
-		<English>Build 3 Zoroastrian Cathedrals by 600AD</English>
+		<English>Control the empire of Darius the Great by 450AD</English>
 		<French></French>
 		<German></German>
 		<Italian></Italian>
