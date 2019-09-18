@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="windows-1255"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="CvGameCoreDLL"
-	ProjectGUID="{0839103A-3707-457B-A5A2-BEB34D674844}"
+	ProjectGUID="{D07B2788-F5E5-4385-B28D-35AE1517880D}"
 	RootNamespace="CvGameCoreDLL"
 	Keyword="MakeFileProj"
-	TargetFrameworkVersion="131072"
+	TargetFrameworkVersion="196613"
 	>
 	<Platforms>
 		<Platform
@@ -24,11 +24,11 @@
 			>
 			<Tool
 				Name="VCNMakeTool"
-				BuildCommandLine="nmake /NOLOGO /K Debug"
-				ReBuildCommandLine="nmake /NOLOGO Debug_clean&#x0D;&#x0A;nmake /NOLOGO /K Debug&#x0D;&#x0A;"
-				CleanCommandLine="nmake /NOLOGO Debug_clean"
-				Output="CvGameCoreDLL.dll"
-				PreprocessorDefinitions="WIN32;_DEBUG;_USRDLL"
+				BuildCommandLine="nmake Debug"
+				ReBuildCommandLine="nmake Debug_clean&#x0D;&#x0A;nmake Debug"
+				CleanCommandLine="nmake Debug_clean"
+				Output=""
+				PreprocessorDefinitions="WIN32;_DEBUG"
 				IncludeSearchPath=""
 				ForcedIncludes=""
 				AssemblySearchPath=""
@@ -37,18 +37,18 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Release|Win32"
+			Name="Final_Release|Win32"
 			OutputDirectory="$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="0"
 			>
 			<Tool
 				Name="VCNMakeTool"
-				BuildCommandLine="nmake /NOLOGO /K Release"
-				ReBuildCommandLine="nmake /NOLOGO Release_clean&#x0D;&#x0A;nmake /NOLOGO /K Release&#x0D;&#x0A;"
-				CleanCommandLine="nmake /NOLOGO Release_clean"
-				Output="CvGameCoreDLL.dll"
-				PreprocessorDefinitions="WIN32;NDEBUG;_USRDLL"
+				BuildCommandLine="nmake Release"
+				ReBuildCommandLine="nmake Release_clean&#x0D;&#x0A;nmake Release"
+				CleanCommandLine="nmake Release_clean"
+				Output=""
+				PreprocessorDefinitions="WIN32;NDEBUG"
 				IncludeSearchPath=""
 				ForcedIncludes=""
 				AssemblySearchPath=""
@@ -222,6 +222,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvRhyes.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvSelectionGroup.cpp"
 				>
 			</File>
@@ -247,6 +251,10 @@
 			</File>
 			<File
 				RelativePath=".\CvTeamAI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvTextScreens.cpp"
 				>
 			</File>
 			<File
@@ -684,6 +692,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvRhyes.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CvSelectionGroup.h"
 				>
 			</File>
@@ -865,10 +877,6 @@
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
-			<File
-				RelativePath=".\CvGameCoreDLL.rc"
-				>
-			</File>
 		</Filter>
 	</Files>
 	<Globals>

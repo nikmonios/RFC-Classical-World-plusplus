@@ -3,13 +3,13 @@
 #########################################
 
 #### Paths ####
-TOOLKIT=C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003
-PSDK=C:\Program Files (x86)\WindowsSDK
-CIVINSTALL=C:\Program Files (x86)\Firaxis Games\Sid Meier's Civilization 4\Beyond the Sword
-GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
-GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
+TOOLKIT=C:\PROGRA~1\MIBB05~1
+PSDK=C:\Program Files\WI6B09~1
+CIVINSTALL=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword
+GLOBALBOOST=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
+GLOBALPYTHON=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=$(CIVINSTALL)\Mods\RFC Classical World
+YOURMOD=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword\Mods\RFC Classical World
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -17,7 +17,7 @@ CPP="$(TOOLKIT)\bin\cl.exe"
 LD="$(TOOLKIT)\bin\link.exe"
 RC="$(PSDK)\bin\rc.exe"
 ## Uncomment to build dependencies using fastdep
-FD="$(MAKEDIR)\bin\fastdep.exe"
+#FD="$(MAKEDIR)\bin\fastdep.exe"
 
 #### BLACKLIST ####
 ## Uncomment to block CvTextScreen (accidentally included by Firaxis)
