@@ -257,7 +257,7 @@ void CyPlotPythonInterface1(python::class_<CyPlot>& x)
 		.def("setScriptData", &CyPlot::setScriptData, "void (str) - Set stored custom data")
 		
 		.def("getRegionID", &CyPlot::getRegionID, "int ()") // edead
-		.def("getRegionName", &CyPlot::getRegionName, "str (bool bTooltip)") // edead 
+		.def("getRegionName", &CyPlot::getRegionName, "str (bool bTooltip)") // edead // srpt debug DLL fix
 		.def("cameraLookAt", &CyPlot::cameraLookAt, "void ()") // edead
 	;
 }

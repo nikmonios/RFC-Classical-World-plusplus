@@ -1800,7 +1800,7 @@ DenialTypes CvTeamAI::AI_surrenderTrade(TeamTypes eTeam, int iPowerMultiplier) c
 
 	// edead: start
 	// srpt temporary fix
-	if (getID() == NOMAD0 || getID() == NOMAD1 || getID() == NOMAD2 || getID() == NOMAD3)
+	if (getID() == NOMAD || getID() == NOMAD2 || getID() == NOMAD3)
 	{
 		return DENIAL_JOKING;
 	}
@@ -2081,8 +2081,8 @@ DenialTypes CvTeamAI::AI_surrenderTrade(TeamTypes eTeam, int iPowerMultiplier) c
 				return DENIAL_TOO_FAR;
 			}
 			
-			// edead: do not allow vassals with borders value of 5 (CvRhyes.cpp) - too distant or insignificant // srpt borders function not used, for now vassal and master must have borders touching
-			if (AI_calculateAdjacentLandPlots(eTeam) == 0)
+			// edead: do not allow vassals with borders value of 5 (CvRhyes.cpp) - too distant or insignificant // srpt changed to 4
+			if (GET_PLAYER(kMasterTeam.getLeaderID()).getBorders(getLeaderID()) >= 5 && AI_calculateAdjacentLandPlots(eTeam) == 0)
 			{
 				return DENIAL_TOO_FAR;
 			}

@@ -2853,7 +2853,7 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 	else
 	{
 		// edead: start region name display
-		szString.append(pPlot->getRegionName(true)); // srpt debug DLL fix here
+		szString.append(pPlot->getRegionName(true)); // srpt debug DLL fix
 		long result = -1;
 		CyArgsList argsList;
 		argsList.add(GC.getGameINLINE().getActivePlayer());
@@ -6845,7 +6845,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit, bool
 				if (GC.getUnitInfo(eUnit).getPrereqAndTechs(iI) != NO_TECH)
 				{
 					bHasOrTechPrereq = true;
-					if (bTechChooserText || GC.getGameINLINE().getActivePlayer() == NO_PLAYER || GET_TEAM(GET_PLAYER(ePlayer).getTeam()).isHasTech((TechTypes)(GC.getUnitInfo(eUnit).getPrereqAndTechs(iI))))
+					if (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).isHasTech((TechTypes)(GC.getUnitInfo(eUnit).getPrereqAndTechs(iI))))
 					{
 						bHasOrTech = true;
 					}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CvGameCoreDLL">
+</Property><Property Name="Solution File" Value="C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.sln">
+</Property><Property Name="User Options File" Value="C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.suo">
+</Property><Property Name="Date" Value="16 October 2019">
+</Property><Property Name="Time" Value="12:26">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CvGameCoreDLL.sln" Description="File successfully backed up as C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="CvGameCoreDLL.suo" Description="File successfully backed up as C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.suo.old">
+</Event><Event ErrorLevel="0" Project="CvGameCoreDLL" Source="CvGameCoreDLL.vcproj" Description="Converting project file 'C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CvGameCoreDLL" Source="CvGameCoreDLL.vcproj" Description="VCConvertEngine could not convert attribute CompileAsManaged =  under Tool VCNMakeTool.">
+</Event><Event ErrorLevel="1" Project="CvGameCoreDLL" Source="CvGameCoreDLL.vcproj" Description="VCConvertEngine could not convert attribute CompileAsManaged =  under Tool VCNMakeTool.">
+</Event><Event ErrorLevel="0" Project="CvGameCoreDLL" Source="CvGameCoreDLL.vcproj" Description="Done converting to new project file 'C:\Users\nikmo\Downloads\rfccw for github\RFC Classical World\CvGameCoreDLL\CvGameCoreDLL.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CvGameCoreDLL" Source="CvGameCoreDLL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CvGameCoreDLL.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CvGameCoreDLL.sln" Description="Converted">
+</Event></UpgradeLog>

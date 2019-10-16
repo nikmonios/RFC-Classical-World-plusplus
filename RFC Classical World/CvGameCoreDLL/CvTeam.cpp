@@ -2702,8 +2702,7 @@ int CvTeam::getResearchCost(TechTypes eTech) const
 	// edead: start
 	if ((getID() >= 0) && (getID() < NUM_MAJOR_PLAYERS))
 	{
-		//iCost *= researchPercent[getID()];
-		iCost *= researchPercent[GET_PLAYER((PlayerTypes)getID()).getCivilizationType()]; // srpt
+		iCost *= researchPercent[getID()];
 		iCost /= 100;
 	}
 	// edead: end

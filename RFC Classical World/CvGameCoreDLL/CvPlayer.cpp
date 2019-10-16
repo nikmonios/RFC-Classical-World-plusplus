@@ -1756,10 +1756,10 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 		{
 			//Rhye - start UP (Babylonian/Khwarezmian/Sassanid)
 			//pNewCity->changeOccupationTimer(((GC.getDefineINT("BASE_OCCUPATION_TURNS") + ((pNewCity->getPopulation() * GC.getDefineINT("OCCUPATION_TURNS_POPULATION_PERCENT")) / 100)) * (100 - iTeamCulturePercent)) / 100);
-			//if (getID() != SASSANIDS)
+			if (getID() != SASSANIDS)
 			pNewCity->changeOccupationTimer(((GC.getDefineINT("BASE_OCCUPATION_TURNS") + ((pNewCity->getPopulation() * GC.getDefineINT("OCCUPATION_TURNS_POPULATION_PERCENT")) / 100)) * (100 - iTeamCulturePercent)) / 100);
-			//else
-				//pNewCity->changeOccupationTimer(0);
+			else
+				pNewCity->changeOccupationTimer(0);
 			//Rhye - end UP 
 		}
 		GC.getMapINLINE().verifyUnitValidPlot();
@@ -5504,124 +5504,7 @@ void CvPlayer::found(int iX, int iY)
 bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool bIgnoreCost) const
 {
 	PROFILE_FUNC();
-	// srpt force limit
-	int iJ = 0;
-	int iLimit = 0;
-	if (bTestVisible)
-	{
-		iJ += 1;
-	}
-	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_LAND)
-	{
-		iLimit += 5;
-		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
-		{
-			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_LAND))
-			{
-				iJ += (getUnitClassCountPlusMaking((UnitClassTypes)iK));
-			}
-		}
-		if (getTotalPopulation() <= 10)
-		{
-			iLimit += (getTotalPopulation());
-		}
-		else
-		{
-			iLimit += (((getTotalPopulation() - 10)/2) + 10);
-		}
-		if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-		{
-			iLimit += (iLimit / 4);
-		}
-		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (iJ > iLimit)
-			{
-				return false;
-			}
-		}
-		
-		/*if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-			{
-				if (iJ > (getTotalPopulation() * 2/3) + 5)
-				{
-					return false;
-				}
-			}
-			else
-			{
-				if (iJ > (getTotalPopulation() / 2) + 5)
-				{
-					return false;
-				}
-			}
-		}*/
-	}
-	
-	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_SEA)
-	{
-		int iCoastalPopulation = 0;
-		CvCity* pLoopCity;
-		int iLoop;
-		iLimit += 3;
-		for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
-		{
-			if (pLoopCity->isCoastal(GC.getMIN_WATER_SIZE_FOR_OCEAN()))
-			{
-				iCoastalPopulation += pLoopCity->getPopulation();
-			}
-		}
-		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
-		{
-			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_SEA))
-			{
-				iJ += (getUnitClassCountPlusMaking((UnitClassTypes)iK));
-			}
-		}
-		
-		if (iCoastalPopulation <= 10)
-		{
-			iLimit += (iCoastalPopulation);
-		}
-		else
-		{
-			iLimit = ((iCoastalPopulation/2) + 10);
-		}
-		if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-		{
-			iLimit += (iLimit / 4);
-		}
-		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (iJ > iLimit)
-			{
-				return false;
-			}
-		}
-		
-		/*if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-			{
-				if (iJ > (iCoastalPopulation * 3/4) + 3)
-				{
-					return false;
-				}
-			}
-			else
-			{
-				if (iJ > (iCoastalPopulation / 2) + 3)
-				{
-					return false;
-				}
-			}
-		}*/
-	}
-		
-	// srpt end
-	
+
 	UnitClassTypes eUnitClass;
 	int iI;
 
@@ -5814,7 +5697,7 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 			return false;
 		}
 	}
-	
+
 	if (!(currentTeam.isHasTech((TechTypes)(GC.getBuildingInfo(eBuilding).getPrereqAndTech()))))
 	{
 		return false;
@@ -5838,20 +5721,9 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 
 	if (GC.getBuildingInfo(eBuilding).getSpecialBuildingType() != NO_SPECIALBUILDING)
 	{
-		// srpt Sassanid UP
-		if ((getID() == SASSANIDS) && (GC.getBuildingInfo(eBuilding).getPrereqReligion() == getStateReligion()))
+		if (!(currentTeam.isHasTech((TechTypes)(GC.getSpecialBuildingInfo((SpecialBuildingTypes) GC.getBuildingInfo(eBuilding).getSpecialBuildingType()).getTechPrereq()))))
 		{
-			if ((!(canResearch((TechTypes)(GC.getSpecialBuildingInfo((SpecialBuildingTypes) GC.getBuildingInfo(eBuilding).getSpecialBuildingType()).getTechPrereq())))) && (!(currentTeam.isHasTech((TechTypes)(GC.getSpecialBuildingInfo((SpecialBuildingTypes) GC.getBuildingInfo(eBuilding).getSpecialBuildingType()).getTechPrereq())))))
-			{
-				return false;
-			}
-		}
-		else
-		{
-			if (!(currentTeam.isHasTech((TechTypes)(GC.getSpecialBuildingInfo((SpecialBuildingTypes) GC.getBuildingInfo(eBuilding).getSpecialBuildingType()).getTechPrereq()))))
-			{
-				return false;
-			}
+			return false;
 		}
 	}
 
@@ -6211,8 +6083,7 @@ int CvPlayer::getProductionNeeded(UnitTypes eUnit) const
 	// edead: start
 	if (getID() >= 0 && getID() < NUM_MAJOR_PLAYERS)
 	{
-		//iProductionNeeded *= productionPercent[getID()];
-		iProductionNeeded *= productionPercent[getCivilizationType()];
+		iProductionNeeded *= productionPercent[getID()];
 		iProductionNeeded /= 100;
 	}
 	// edead: end
@@ -6833,15 +6704,6 @@ int CvPlayer::calculateUnitCost(int& iFreeUnits, int& iFreeMilitaryUnits, int& i
 {
 	int iSupport;
 
-	// srpt Leoreth: help AIs, especially those that start with large stacks, so they don't disband them
-	if (!isHuman())
-	{
-		if (GC.getGame().getGameTurn() < getTurnForYear(startingYear[getID()]) + (20))
-		{
-			return 0;
-		}
-	}
-
 	iFreeUnits = GC.getHandicapInfo(getHandicapType()).getFreeUnits();
 
 	iFreeUnits += getBaseFreeUnits();
@@ -6907,12 +6769,6 @@ int CvPlayer::calculateUnitCost() const
 		return 0;
 	}
 
-	// srpt Leoreth: independents do not have to pay unit costs
-	if (getID() == INDEPENDENT || getID() == INDEPENDENT2)
-	{
-		return 0;
-	}
-
 	int iFreeUnits;
 	int iFreeMilitaryUnits;
 	int iPaidUnits;
@@ -6930,12 +6786,6 @@ int CvPlayer::calculateUnitSupply() const
 	int iBaseSupplyCost;
 
 	if (isAnarchy())
-	{
-		return 0;
-	}
-
-	// srpt Leoreth: independents do not have to pay unit supply
-	if (getID() == INDEPENDENT || getID() == INDEPENDENT2)
 	{
 		return 0;
 	}
@@ -7020,8 +6870,7 @@ int CvPlayer::calculateInflationRate() const
 	// edead: start inflation rate adjustment
 	if (getID() >= 0 && getID() < NUM_MAJOR_PLAYERS)
 	{
-		//iRatePercent *= inflationRate[getID()];
-		iRatePercent *= inflationRate[getCivilizationType()]; // srpt
+		iRatePercent *= inflationRate[getID()];
 		iRatePercent /= 100;
 	}
 	// edead: end
@@ -7808,17 +7657,7 @@ bool CvPlayer::canConvert(ReligionTypes eReligion) const
 			return false;
 		}
 	}
-	
-	// srpt
-	if (eReligion == CHRISTIANITY)
-	{
-		if ((GC.getGameINLINE().isReligionFounded((ReligionTypes)CATHOLICISM)) || (GC.getGameINLINE().isReligionFounded((ReligionTypes)ARIANISM)) || (GC.getGameINLINE().isReligionFounded((ReligionTypes)MONOPHYSITISM))|| (GC.getGameINLINE().isReligionFounded((ReligionTypes)NESTORIANISM)))
-		{
-			return false;
-		}
-	}
-	// srpt end
-	
+
 	return true;
 }
 
@@ -8326,8 +8165,7 @@ int CvPlayer::greatPeopleThreshold(bool bMilitary) const
 	// edead: start balancing
 	if (getID() >= 0 && getID() < NUM_MAJOR_PLAYERS)
 	{
-		//iThreshold *= greatPeoplePercent[getID()];
-		iThreshold *= greatPeoplePercent[getCivilizationType()]; // srpt
+		iThreshold *= greatPeoplePercent[getID()];
 		iThreshold /= 100;
 	}
 	else
@@ -22044,8 +21882,7 @@ int CvPlayer::getGrowthThreshold(int iPopulation) const
 		// edead: start normalized modifier
 		if (getID() >= 0 && getID() < NUM_MAJOR_PLAYERS)
 		{
-			//iThreshold *= growthPercent[getID()];
-			iThreshold *= growthPercent[getCivilizationType()]; // srpt
+			iThreshold *= growthPercent[getID()];
 			iThreshold /= 100;
 		}
 		// edead: end

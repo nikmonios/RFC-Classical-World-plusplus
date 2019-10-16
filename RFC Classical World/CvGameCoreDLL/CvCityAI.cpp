@@ -310,8 +310,7 @@ void CvCityAI::AI_assignWorkingPlots()
 					iExtraSpecialists -= iSpecialistsToAdd;
 
 					// if we cannot fit that many, then add as many as we can
-					// srpt Leoreth: no unlimited specialist effects
-					if (iSpecialistCount > iMaxSpecialistCount /*&& !GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI)*/)
+					if (iSpecialistCount > iMaxSpecialistCount && !GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI))
 					{
 						iExtraSpecialists += iSpecialistCount - iMaxSpecialistCount;
 						iSpecialistCount = iMaxSpecialistCount;
@@ -3325,8 +3324,7 @@ int CvCityAI::AI_buildingValueThreshold(BuildingTypes eBuilding, int iFocusFlags
 				{
 					if (iI != GC.getDefineINT("DEFAULT_SPECIALIST"))
 					{
-						// srpt Leoreth: unlimited specialists removed
-						bool bUnlimited = false; //(GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI));
+						bool bUnlimited = (GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI));
 						int iRunnable = (getMaxSpecialistCount((SpecialistTypes)iI) > 0);
 						
 						if (bUnlimited || (iRunnable > 0))

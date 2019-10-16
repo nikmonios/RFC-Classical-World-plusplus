@@ -2362,6 +2362,23 @@ bool CvPlot::canHaveImprovement(ImprovementTypes eImprovement, TeamTypes eTeam, 
 			}
 		}
 	}
+	
+	/*if ((eImprovement) == GC.getInfoTypeForString("IMPROVEMENT_COTTAGE")) // srpt cottage project
+	{
+		for (iI = 0; iI < NUM_CARDINALDIRECTION_TYPES; ++iI)
+		{
+			pLoopPlot = plotCardinalDirection(getX_INLINE(), getY_INLINE(), ((CardinalDirectionTypes)iI));
+
+			if (pLoopPlot != NULL)
+			{
+				if (((pLoopPlot->getImprovementType()) == GC.getInfoTypeForString("IMPROVEMENT_COTTAGE")) || ((pLoopPlot->getImprovementType()) == GC.getInfoTypeForString("IMPROVEMENT_HAMLET")) || ((pLoopPlot->getImprovementType()) == GC.getInfoTypeForString("IMPROVEMENT_VILLAGE")) ||((pLoopPlot->getImprovementType()) == GC.getInfoTypeForString("IMPROVEMENT_TOWN")))
+				{
+					return false;
+					break;
+				}
+			}
+		}
+	}*/
 
 	return true;
 }
@@ -2916,24 +2933,6 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 		iRouteCost = MAX_INT;
 		iRouteFlatCost = MAX_INT;
 	}
-	
-	// srpt river crossing consumes all moves unless at a city bridge
-	if (pFromPlot->isRiverCrossing(directionXY(pFromPlot, this)))
-	{
-		bool bCrossing = true;
-		if (GET_TEAM(pUnit->getTeam()).isBridgeBuilding())
-		{
-			if ((pFromPlot->isFriendlyCity(*pUnit, false)) || (this->isFriendlyCity(*pUnit, false)))
-			{
-				bCrossing = false;
-			}
-		}
-		if (bCrossing)
-		{
-			iRegularCost = pUnit->maxMoves();
-		}
-	}
-	// srpt end
 
 	return std::max(1, std::min(iRegularCost, std::min(iRouteCost, iRouteFlatCost)));
 }
@@ -6352,6 +6351,18 @@ int CvPlot::calculateNatureYield(YieldTypes eYield, TeamTypes eTeam, bool bIgnor
 		if (getFeatureType() != NO_FEATURE)
 		{
 			iYield += GC.getFeatureInfo(getFeatureType()).getYieldChange(eYield);
+
+			//srpt: Funan UP: +1 food, +1 production on jungle tiles
+			/*if (getOwnerINLINE() == FUNAN)
+			{
+				if (getFeatureType() == GC.getInfoTypeForString("FEATURE_JUNGLE"))
+				{
+					//if ((int)eYield == 0 || (int)eYield == 1)
+					//{
+					iYield += 1;
+					//}
+				}
+			}*/
 		}
 	}
 
@@ -6640,7 +6651,7 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 		}
 	}
 	
-	/*// srpt near food bonus
+	// srpt near food bonus
 	if (ePlayer != NO_PLAYER)
 	{
 		if ((eYield == (YieldTypes)0) && (iYield >= 2))
@@ -6648,37 +6659,14 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 			pWorkingCity = getWorkingCity();
 			if (pWorkingCity != NULL)
 			{
-				if (plotDistance(pWorkingCity->getX_INLINE(), pWorkingCity->getY_INLINE(), getX_INLINE(), getY_INLINE()) >= 2)
+				if (plotDistance(pWorkingCity->getX_INLINE(), pWorkingCity->getY_INLINE(), getX_INLINE(), getY_INLINE()) <= 1)
 				{
-					iYield -= 1;
+					iYield += 1;
 				}
 			}
 		}
 	}
-	// srpt*/
-	
-	// srpt yield changes based on distance from and connection to the working city
-	if (ePlayer != NO_PLAYER)
-	{
-		pWorkingCity = getWorkingCity();
-		if (pWorkingCity != NULL)
-		{
-			if (plotDistance(pWorkingCity->getX_INLINE(), pWorkingCity->getY_INLINE(), getX_INLINE(), getY_INLINE()) >= 2)
-			{
-				if (iYield > 1)
-				{
-					iYield -= 1;
-				}
-			}
-			if (!isConnectedTo(pWorkingCity))
-			{
-				if (iYield > 1)
-				{
-					iYield -= 1;
-				}
-			}
-		}
-	}
+	// srpt
 
 	return std::max(0, iYield);
 }
@@ -9000,9 +8988,7 @@ void CvPlot::doCulture()
 
 							}
 
-							//if (pCity->isBarbarian() || (!(GC.getGameINLINE().isOption(GAMEOPTION_NO_CITY_FLIPPING)) && (GC.getGameINLINE().isOption(GAMEOPTION_FLIPPING_AFTER_CONQUEST) || !(pCity->isEverOwned(eCulturalOwner))) && (pCity->getNumRevolts(eCulturalOwner) >= GC.getDefineINT("NUM_WARNING_REVOLTS"))))
-							// srpt 
-							if ((!(GC.getGameINLINE().isOption(GAMEOPTION_NO_CITY_FLIPPING)) && (GC.getGameINLINE().isOption(GAMEOPTION_FLIPPING_AFTER_CONQUEST) || !(pCity->isEverOwned(eCulturalOwner))) && (pCity->getNumRevolts(eCulturalOwner) >= GC.getDefineINT("NUM_WARNING_REVOLTS"))))
+							if (pCity->isBarbarian() || (!(GC.getGameINLINE().isOption(GAMEOPTION_NO_CITY_FLIPPING)) && (GC.getGameINLINE().isOption(GAMEOPTION_FLIPPING_AFTER_CONQUEST) || !(pCity->isEverOwned(eCulturalOwner))) && (pCity->getNumRevolts(eCulturalOwner) >= GC.getDefineINT("NUM_WARNING_REVOLTS"))))
 							{
 								if (GC.getGameINLINE().isOption(GAMEOPTION_ONE_CITY_CHALLENGE) && GET_PLAYER(eCulturalOwner).isHuman())
 								{
@@ -10237,89 +10223,8 @@ void CvPlot::applyEvent(EventTypes eEvent)
 bool CvPlot::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible) const
 {
 	// srpt
-	UnitClassTypes eUnitClass = ((UnitClassTypes)(GC.getUnitInfo(eUnit).getUnitClassType()));
-	if ((eUnitClass == GC.getInfoTypeForString("UNITCLASS_ASSASSIN")) || (eUnitClass == GC.getInfoTypeForString("UNITCLASS_INQUISITOR")))
-	{
-		return false;
-	}
+	//UnitClassTypes eUnitClass = ((UnitClassTypes)(GC.getUnitInfo(eUnit).getUnitClassType()));
 	// srpt end
-	
-	// srpt force limit
-	/*int iJ = 0;
-	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_LAND)
-	{
-		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
-		{
-			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_LAND))
-			{
-				iJ += ((GET_PLAYER(getOwnerINLINE())).getUnitClassCountPlusMaking((UnitClassTypes)iK));
-			}
-		}
-		
-		
-		
-		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-			{
-				if (iJ > ((GET_PLAYER(getOwnerINLINE())).getTotalPopulation() * 3/4) + 5)
-				{
-					return false;
-				}
-			}
-			else
-			{
-				if (iJ > ((GET_PLAYER(getOwnerINLINE())).getTotalPopulation() / 2) + 5)
-				{
-					return false;
-				}
-			}
-		}
-	}
-	
-	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_SEA)
-	{
-		iJ = 0;
-		int iCoastalPopulation = 0;
-		CvCity* pLoopCity;
-		int iLoop;
-		for (pLoopCity = (GET_PLAYER(getOwnerINLINE())).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = (GET_PLAYER(getOwnerINLINE())).nextCity(&iLoop))
-		{
-			if (pLoopCity->isCoastal(GC.getMIN_WATER_SIZE_FOR_OCEAN()))
-			{
-				iCoastalPopulation += pLoopCity->getPopulation();
-			}
-		}
-		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
-		{
-			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_SEA))
-			{
-				iJ += ((GET_PLAYER(getOwnerINLINE())).getUnitClassCountPlusMaking((UnitClassTypes)iK));
-			}
-		}
-		
-		
-		
-		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
-		{
-			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
-			{
-				if (iJ > (iCoastalPopulation * 3/4) + 3)
-				{
-					return false;
-				}
-			}
-			else
-			{
-				if (iJ > (iCoastalPopulation / 2) + 3)
-				{
-					return false;
-				}
-			}
-		}
-	}*/
-	// srpt end
-	
 	CvCity* pCity = getPlotCity();
 
 	if (GC.getUnitInfo(eUnit).isPrereqReligion())
@@ -10818,7 +10723,7 @@ CvWString CvPlot::getRegionName(bool bTooltip) const
 		sprintf(szBuffer, "TXT_KEY_REGION_%d", regionMap[EARTH_Y - 1 - getY_INLINE()][getX_INLINE()]);
 	szResult = gDLL->getText(szBuffer);
 	return gDLL->getText(szResult);
-} 
+} // srpt debug DLL fix
 
 // centers camera on plot
 
