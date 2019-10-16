@@ -566,6 +566,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREAT_PALACE</Tag>
+		<English>Saba Unique Building</English>
+		<French>Saba Unique Building</French>
+		<German>Saba Unique Building</German>
+		<Italian>Saba Unique Building</Italian>
+		<Spanish>Saba Unique Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUMMER_PALACE</Tag>
 		<English>Summer Palace</English>
 		<French>Summer Palace</French>
 		<German>Summer Palace</German>
@@ -574,6 +582,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREAT_PALACE_PEDIA</Tag>
+		<English>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</English>
+		<French>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</French>
+		<German>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</German>
+		<Italian>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Italian>
+		<Spanish>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUMMER_PALACE_PEDIA</Tag>
 		<English>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</English>
 		<French>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</French>
 		<German>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</German>

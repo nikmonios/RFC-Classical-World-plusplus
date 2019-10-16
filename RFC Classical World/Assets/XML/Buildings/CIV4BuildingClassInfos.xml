@@ -20,6 +20,18 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_SUMMER_PALACE</Type>
+			<Description>TXT_KEY_BUILDING_SUMMER_PALACE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<bNoLimit>1</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_SUMMER_PALACE</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GREAT_PALACE</Type>
 			<Description>TXT_KEY_BUILDING_GREAT_PALACE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
