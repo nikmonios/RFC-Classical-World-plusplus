@@ -9,7 +9,7 @@ CIVINSTALL=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilizatio
 GLOBALBOOST=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
 GLOBALPYTHON=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword\Mods\RFC Classical World
+#YOURMOD=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword\Mods\RFC Classical World
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -17,7 +17,7 @@ CPP="$(TOOLKIT)\bin\cl.exe"
 LD="$(TOOLKIT)\bin\link.exe"
 RC="$(PSDK)\bin\rc.exe"
 ## Uncomment to build dependencies using fastdep
-#FD="$(MAKEDIR)\bin\fastdep.exe"
+FD="C:\Users\nikmo\Documents\fastdep\bin\fastdep.exe"
 
 #### BLACKLIST ####
 ## Uncomment to block CvTextScreen (accidentally included by Firaxis)

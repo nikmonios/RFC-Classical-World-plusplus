@@ -12,8 +12,8 @@ BeginGame
 	Victory=VICTORY_CULTURAL
 	Victory=VICTORY_RELIGIOUS
 	Victory=VICTORY_HISTORICAL
-	GameTurn=540
-	MaxTurns=660
+	GameTurn=360
+	MaxTurns=780
 	MaxCityElimination=0
 	TargetScore=0
 	StartYear=-320
@@ -21,12 +21,24 @@ BeginGame
 	ModPath=Mods\RFC Classical World
 EndGame
 BeginTeam
+	TeamID=0
+	ContactWithTeam=0
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=1
+	ContactWithTeam=1
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=2
+	ContactWithTeam=2
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=3
+	ContactWithTeam=3
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=4
@@ -50,7 +62,6 @@ BeginTeam
 	Tech=TECH_LUXURY_TRADE
 	Tech=TECH_MONARCHY
 	Tech=TECH_CURRENCY
-	Tech=TECH_CODE_OF_LAWS
 	Tech=TECH_STATE_RELIGION
 	Tech=TECH_METAL_CASTING
 	Tech=TECH_IRON_WORKING
@@ -84,13 +95,10 @@ BeginTeam
 	Tech=TECH_LUXURY_TRADE
 	Tech=TECH_MONARCHY
 	Tech=TECH_CURRENCY
-	Tech=TECH_CODE_OF_LAWS
 	Tech=TECH_STATE_RELIGION
 	Tech=TECH_METAL_CASTING
 	Tech=TECH_IRON_WORKING
 	Tech=TECH_ORGANISED_RELIGION
-	Tech=TECH_CODE_OF_LAWS
-	Tech=TECH_STATE_RELIGION
 	Tech=TECH_WRITING
 	Tech=TECH_ALPHABET
 	Tech=TECH_FREE_TECH_TRADE
@@ -141,6 +149,9 @@ BeginTeam
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=7
+	ContactWithTeam=7
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=8
@@ -208,7 +219,6 @@ BeginTeam
 	Tech=TECH_LUXURY_TRADE
 	Tech=TECH_MONARCHY
 	Tech=TECH_CURRENCY
-	Tech=TECH_CODE_OF_LAWS
 	Tech=TECH_STATE_RELIGION
 	Tech=TECH_METAL_CASTING
 	Tech=TECH_IRON_WORKING
@@ -221,8 +231,14 @@ BeginTeam
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=11
+	ContactWithTeam=11
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=12
+	ContactWithTeam=12
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=13
@@ -276,7 +292,6 @@ BeginTeam
 	Tech=TECH_BRONZE_WORKING
 	Tech=TECH_IRON_WORKING
 	Tech=TECH_PRIESTHOOD
-	Tech=TECH_ORGANISED_RELIGION
 	Tech=TECH_WRITING
 	Tech=TECH_FREE_TECH_TRADE
 	Tech=TECH_STABILITY_STABLE
@@ -306,6 +321,9 @@ BeginTeam
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=16
+	ContactWithTeam=16
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=17
@@ -372,8 +390,6 @@ BeginTeam
 	Tech=TECH_PRIESTHOOD
 	Tech=TECH_ASTRONOMY
 	Tech=TECH_ORGANISED_RELIGION
-	Tech=TECH_CODE_OF_LAWS
-	Tech=TECH_STATE_RELIGION
 	Tech=TECH_WRITING
 	Tech=TECH_ALPHABET
 	Tech=TECH_HORSEMANSHIP
@@ -418,37 +434,19 @@ BeginTeam
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=20
+	ContactWithTeam=20
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=21
-	Tech=TECH_ARCHERY
-	Tech=TECH_MARKSMANSHIP
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_ANIMAL_HUSBANDRY
-	Tech=TECH_HORSEMANSHIP
-	Tech=TECH_SELECTIVE_BREEDING
-	Tech=TECH_CAVALRY_TACTICS
-	Tech=TECH_HORSE_ARCHERY
-	Tech=TECH_POTTERY
-	Tech=TECH_CONSTRUCTION
-	Tech=TECH_MASONRY
-	Tech=TECH_LUXURY_TRADE
-	Tech=TECH_CURRENCY
-	Tech=TECH_MINING
-	Tech=TECH_BRONZE_WORKING
-	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_IRON_WORKING
-	Tech=TECH_PRIESTHOOD
-	Tech=TECH_ASTRONOMY
-	Tech=TECH_ORGANISED_RELIGION
-	Tech=TECH_WRITING
-	Tech=TECH_ALPHABET
-	Tech=TECH_FREE_TECH_TRADE
-	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=21
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=22
+	ContactWithTeam=22
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=23
@@ -605,7 +603,6 @@ BeginTeam
 	Tech=TECH_SELECTIVE_BREEDING
 	Tech=TECH_BRIDGE_BUILDING
 	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_AGRARIANISM
 	Tech=TECH_FREE_TECH_TRADE
 	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=27
@@ -614,105 +611,136 @@ BeginTeam
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=28
+	ContactWithTeam=28
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=29
+	ContactWithTeam=29
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=30
+	ContactWithTeam=30
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=31
+	ContactWithTeam=31
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=32
+	ContactWithTeam=32
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=33
+	ContactWithTeam=33
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=34
+	ContactWithTeam=34
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=35
+	ContactWithTeam=35
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=36
+	ContactWithTeam=36
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=37
+	ContactWithTeam=37
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=38
+	ContactWithTeam=38
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=39
+	ContactWithTeam=39
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=40
+	ContactWithTeam=40
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=41
+	ContactWithTeam=41
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=42
+	ContactWithTeam=42
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=43
+	ContactWithTeam=43
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=44
-	Tech=TECH_ARCHERY
-	Tech=TECH_MARKSMANSHIP
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_ANIMAL_HUSBANDRY
-	Tech=TECH_HORSEMANSHIP
-	Tech=TECH_SELECTIVE_BREEDING
-	Tech=TECH_HORSE_ARCHERY
-	Tech=TECH_POTTERY
-	Tech=TECH_CONSTRUCTION
-	Tech=TECH_MASONRY
-	Tech=TECH_LUXURY_TRADE
-	Tech=TECH_CURRENCY
-	Tech=TECH_MINING
-	Tech=TECH_BRONZE_WORKING
-	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_IRON_WORKING
-	Tech=TECH_PRIESTHOOD
-	Tech=TECH_WRITING
-	Tech=TECH_ALPHABET
-	Tech=TECH_FREE_TECH_TRADE
-	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=44
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=45
+	ContactWithTeam=45
+	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=46
-	Tech=TECH_ARCHERY
-	Tech=TECH_MARKSMANSHIP
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_ANIMAL_HUSBANDRY
-	Tech=TECH_HORSEMANSHIP
-	Tech=TECH_SELECTIVE_BREEDING
-	Tech=TECH_HORSE_ARCHERY
-	Tech=TECH_POTTERY
-	Tech=TECH_CONSTRUCTION
-	Tech=TECH_MASONRY
-	Tech=TECH_LUXURY_TRADE
-	Tech=TECH_CURRENCY
-	Tech=TECH_MINING
-	Tech=TECH_BRONZE_WORKING
-	Tech=TECH_SCALE_ARMOR
-	Tech=TECH_IRON_WORKING
-	Tech=TECH_PRIESTHOOD
-	Tech=TECH_WRITING
-	Tech=TECH_ALPHABET
-	Tech=TECH_FREE_TECH_TRADE
-	Tech=TECH_STABILITY_STABLE
 	ContactWithTeam=46
 	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=47
+	ContactWithTeam=47
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=48
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=49
+	RevealMap=0
 EndTeam
 BeginTeam
+	TeamID=50
+	RevealMap=0
 EndTeam
 BeginPlayer
 	Team=0
 	LeaderType=LEADER_ANTIGONUS
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_ANTIGONIDS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -723,9 +751,22 @@ EndPlayer
 BeginPlayer
 	Team=1
 	LeaderType=LEADER_SELEUCUS
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_SELEUCIDS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -736,9 +777,22 @@ EndPlayer
 BeginPlayer
 	Team=2
 	LeaderType=LEADER_PTOLEMY
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_EGYPT
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -749,9 +803,22 @@ EndPlayer
 BeginPlayer
 	Team=3
 	LeaderType=LEADER_HANNIBAL
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_CARTHAGE
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -762,37 +829,74 @@ EndPlayer
 BeginPlayer
 	Team=4
 	LeaderType=LEADER_ASOKA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_MAGADHA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
-	StateReligion=RELIGION_HINDUISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=5
 	LeaderType=LEADER_KHARAVELA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_PALLAVAS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
-	StateReligion=RELIGION_HINDUISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=6
 	LeaderType=LEADER_LIU_BEI
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_SHU
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -803,22 +907,48 @@ EndPlayer
 BeginPlayer
 	Team=7
 	LeaderType=LEADER_DANGUN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_GOJOSEON
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DYNASTIC_CULT
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=8
 	LeaderType=LEADER_ARRAKKAMANI
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_NUBIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -829,9 +959,22 @@ EndPlayer
 BeginPlayer
 	Team=9
 	LeaderType=LEADER_TUBA_ABU
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_HIMYARITES
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -842,23 +985,48 @@ EndPlayer
 BeginPlayer
 	Team=10
 	LeaderType=LEADER_NEDUNJ
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_KALABHRAS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
-	StateReligion=RELIGION_BUDDHISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=11
 	LeaderType=LEADER_MITHRIDATES
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_PONTUS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -869,9 +1037,22 @@ EndPlayer
 BeginPlayer
 	Team=12
 	LeaderType=LEADER_VERCINGETORIX
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_CELTS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -882,23 +1063,48 @@ EndPlayer
 BeginPlayer
 	Team=13
 	LeaderType=LEADER_CAESAR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_ROME
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BUREAUCRACY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DYNASTIC_CULT
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=14
 	LeaderType=LEADER_THUC_PHAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_CHAMPA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -909,23 +1115,48 @@ EndPlayer
 BeginPlayer
 	Team=15
 	LeaderType=LEADER_SAPADBIZES
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_TOCHARIANS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
-	StateReligion=RELIGION_BUDDHISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=16
 	LeaderType=LEADER_DEMETRIUS
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_BACTRIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -936,36 +1167,74 @@ EndPlayer
 BeginPlayer
 	Team=17
 	LeaderType=LEADER_SUN_QUAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_WU
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DYNASTIC_CULT
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=18
 	LeaderType=LEADER_SATAKARNI
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_VAKATAKA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
-	StateReligion=RELIGION_HINDUISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=19
 	LeaderType=LEADER_TIGRANES
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_ARMENIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -976,10 +1245,22 @@ EndPlayer
 BeginPlayer
 	Team=20
 	LeaderType=LEADER_SIMON_MACCABEE
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_MACCABEES
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
 	StateReligion=RELIGION_JUDAISM
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -990,12 +1271,25 @@ EndPlayer
 BeginPlayer
 	Team=21
 	LeaderType=LEADER_ARSACES
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_PARTHIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
@@ -1003,9 +1297,22 @@ EndPlayer
 BeginPlayer
 	Team=22
 	LeaderType=LEADER_DECEBAL
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_DACIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1016,9 +1323,22 @@ EndPlayer
 BeginPlayer
 	Team=23
 	LeaderType=LEADER_GWANGGAETO
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_GOGURYEO
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1029,9 +1349,22 @@ EndPlayer
 BeginPlayer
 	Team=24
 	LeaderType=LEADER_EZANA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_AXUM
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1042,9 +1375,22 @@ EndPlayer
 BeginPlayer
 	Team=25
 	LeaderType=LEADER_KANISHKA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_KUSHANS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1055,8 +1401,20 @@ EndPlayer
 BeginPlayer
 	Team=26
 	LeaderType=LEADER_LIEUYE
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_FUNAN
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -1069,23 +1427,48 @@ EndPlayer
 BeginPlayer
 	Team=27
 	LeaderType=LEADER_SIMA_YAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_JIN
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_CLASSICAL
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TYRANNY
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_AGRARIANISM
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=28
 	LeaderType=LEADER_SHAPUR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_SASSANIDS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
 	StateReligion=RELIGION_ZOROASTRIANISM
 	StartingEra=ERA_CLASSICAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1096,9 +1479,22 @@ EndPlayer
 BeginPlayer
 	Team=29
 	LeaderType=LEADER_JINGU
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_YAMATO
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_CLASSICAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1109,37 +1505,74 @@ EndPlayer
 BeginPlayer
 	Team=30
 	LeaderType=LEADER_CHANDRAGUPTA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_GUPTA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StateReligion=RELIGION_HINDUISM
-	StartingEra=ERA_CLASSICAL
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
+	StartingEra=ERA_MEDIEVAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=31
 	LeaderType=LEADER_JUSTINIAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_BYZANTINES
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
 	StateReligion=RELIGION_CHRISTIANITY
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BUREAUCRACY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_TRADE_ECONOMY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=32
 	LeaderType=LEADER_ALARIC
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_VISIGOTHS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StartingEra=ERA_MEDIEVAL
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
+	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1150,9 +1583,22 @@ EndPlayer
 BeginPlayer
 	Team=33
 	LeaderType=LEADER_GAISERIC
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_VANDALS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StartingEra=ERA_MEDIEVAL
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
+	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1163,9 +1609,22 @@ EndPlayer
 BeginPlayer
 	Team=34
 	LeaderType=LEADER_THEODORIC
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_OSTROGOTHS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StartingEra=ERA_MEDIEVAL
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
+	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1176,8 +1635,20 @@ EndPlayer
 BeginPlayer
 	Team=35
 	LeaderType=LEADER_CHARLEMAGNE
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_FRANKS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=RELIGION_CHRISTIANITY
 	StartingEra=ERA_MEDIEVAL
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -1190,23 +1661,48 @@ EndPlayer
 BeginPlayer
 	Team=36
 	LeaderType=LEADER_PULAKESI
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_CHALUKYANS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StateReligion=RELIGION_HINDUISM
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_MEDIEVAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_AGRARIANISM
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_STATE_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=37
 	LeaderType=LEADER_LIUTPRAND
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_LOMBARDS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1217,9 +1713,22 @@ EndPlayer
 BeginPlayer
 	Team=38
 	LeaderType=LEADER_BILGE
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_GOKTURKS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_CLASSICAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1230,9 +1739,22 @@ EndPlayer
 BeginPlayer
 	Team=39
 	LeaderType=LEADER_SAMARATUNGGA
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_SRIVAJAYA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_MEDIEVAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1243,9 +1765,22 @@ EndPlayer
 BeginPlayer
 	Team=40
 	LeaderType=LEADER_BULAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_KHAZARS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
-	StartingEra=ERA_MEDIEVAL
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
+	StartingEra=ERA_CLASSICAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1256,10 +1791,22 @@ EndPlayer
 BeginPlayer
 	Team=41
 	LeaderType=LEADER_SONGTSEN_GAMPO
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_TIBET
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
 	StateReligion=RELIGION_BUDDHISM
-	StartingEra=ERA_MEDIEVAL
+	StartingEra=ERA_CLASSICAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1270,9 +1817,22 @@ EndPlayer
 BeginPlayer
 	Team=42
 	LeaderType=LEADER_TAIZONG
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_TANG
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_MEDIEVAL
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1283,10 +1843,22 @@ EndPlayer
 BeginPlayer
 	Team=43
 	LeaderType=LEADER_ABUBAKR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_ARABS
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
 	StateReligion=RELIGION_ISLAM
 	StartingEra=ERA_RENAISSANCE
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_THEOCRACY
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1297,9 +1869,22 @@ EndPlayer
 BeginPlayer
 	Team=44
 	LeaderType=LEADER_ROURAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_XIANBEI
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_RENAISSANCE
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1310,9 +1895,22 @@ EndPlayer
 BeginPlayer
 	Team=45
 	LeaderType=LEADER_SYPHAX
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_NUMIDIA
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1323,9 +1921,22 @@ EndPlayer
 BeginPlayer
 	Team=46
 	LeaderType=LEADER_SAKA
-	CivType=CIVILIZATION_SAKAS
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
+	CivType=CIVILIZATION_HEPHTHALITES
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBAL_LEVY
@@ -1336,9 +1947,22 @@ EndPlayer
 BeginPlayer
 	Team=47
 	LeaderType=LEADER_ROURAN
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_ROURAN
+	Color=NONE
+	ArtStyle=NONE
 	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_TRIBAL_CUSTOM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
@@ -1349,31 +1973,64 @@ EndPlayer
 BeginPlayer
 	Team=48
 	LeaderType=LEADER_MINOR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK2
+	ArtStyle=NONE
 	PlayableCiv=0
 	MinorNationStatus=1
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=49
 	LeaderType=LEADER_MINOR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK3
+	ArtStyle=NONE
 	PlayableCiv=0
 	MinorNationStatus=1
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
 	Team=50
 	LeaderType=LEADER_MINOR
+	LeaderName=
+	CivDesc=
+	CivShortDesc=
+	CivAdjective=
+	FlagDecal=
+	WhiteFlag=0
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK4
+	ArtStyle=NONE
 	PlayableCiv=0
 	MinorNationStatus=1
+	StartingGold=0
+	StartingX=-1, StartingY=-1
+	StateReligion=
 	StartingEra=ERA_ANCIENT
+	RandomStartLocation=false
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginMap
@@ -16268,10 +16925,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=56
-	RiverNSDirection=0
-	isNOfRiver
-	RiverWEDirection=1
-	isWOfRiver
 	BonusType=BONUS_STONE
 	ImprovementType=IMPROVEMENT_QUARRY
 	TerrainType=TERRAIN_GRASS
@@ -18849,6 +19502,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=35,y=50
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=0,2,13,
@@ -19429,7 +20083,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=51
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,2,13,
 EndPlot
@@ -19929,6 +20583,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=37,y=48
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=0,2,13,
@@ -27937,6 +28592,13 @@ BeginPlot
 	x=52,y=35
 	TerrainType=TERRAIN_COAST
 	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=2
+		Damage=0
+		Level=1, Experience=0
+		FacingDirection=6
+		UnitAIType=UNITAI_SETTLER_SEA
+	EndUnit
 	TeamReveal=0,2,13,
 EndPlot
 BeginPlot
@@ -28420,7 +29082,7 @@ BeginPlot
 	RiverNSDirection=0
 	isWOfRiver
 	RouteType=ROUTE_ROAD
-	TerrainType=TERRAIN_DESERT
+	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 	TeamReveal=0,2,8,
 EndPlot
@@ -28429,7 +29091,7 @@ BeginPlot
 	RiverNSDirection=0
 	isWOfRiver
 	RouteType=ROUTE_ROAD
-	TerrainType=TERRAIN_DESERT
+	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 	BeginUnit
 		UnitType=UNIT_SPEARMAN, UnitOwner=8
@@ -28450,7 +29112,7 @@ BeginPlot
 	x=53,y=26
 	RiverNSDirection=0
 	isWOfRiver
-	TerrainType=TERRAIN_DESERT
+	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 	TeamReveal=0,2,8,
 EndPlot
@@ -29066,7 +29728,7 @@ BeginPlot
 	x=54,y=31
 	BonusType=BONUS_GOLD
 	ImprovementType=IMPROVEMENT_MINE
-	TerrainType=TERRAIN_DESERT
+	TerrainType=TERRAIN_WASTELAND
 	PlotType=1
 	TeamReveal=0,2,8,13,
 EndPlot
@@ -30342,20 +31004,19 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=56,y=44
-	BonusType=BONUS_CRAB
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=0,2,13,
 EndPlot
 BeginPlot
 	x=56,y=45
-	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_COAST
+	PlotType=3
 	TeamReveal=0,2,13,
 EndPlot
 BeginPlot
 	x=56,y=46
-	BonusType=BONUS_STONE
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -30895,6 +31556,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=57,y=43
+	BonusType=BONUS_CRAB
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=0,2,13,
@@ -30907,17 +31570,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=57,y=45
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
-	TeamReveal=0,31,
+	TeamReveal=0,2,13,
 EndPlot
 BeginPlot
 	x=57,y=46
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
-	TeamReveal=0,31,
+	TeamReveal=0,2,13,
 EndPlot
 BeginPlot
 	x=57,y=47
@@ -31497,7 +32160,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=58,y=46
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,2,13,
@@ -31944,6 +32607,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=59,y=30
+	BonusType=BONUS_STONE
+	ImprovementType=IMPROVEMENT_QUARRY
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
 	PlotType=1
@@ -32045,7 +32710,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=59,y=46
-	BonusType=BONUS_TIMBER
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
@@ -32588,7 +33252,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=47
-	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,2,13,
@@ -32685,8 +33348,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=59
-	FeatureType=FEATURE_MARSH, FeatureVariety=0
-	TerrainType=TERRAIN_WETLAND
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,13,
 EndPlot
@@ -35334,7 +35996,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=42
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,2,13,
 EndPlot
@@ -35921,9 +36583,7 @@ EndPlot
 BeginPlot
 	x=66,y=43
 	RouteType=ROUTE_ROAD
-	BonusType=BONUS_SORGHUM
-	ImprovementType=IMPROVEMENT_FARM
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,2,13,
 EndPlot
@@ -36480,6 +37140,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=42
+	BonusType=BONUS_SORGHUM
+	ImprovementType=IMPROVEMENT_FARM
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -37081,7 +37743,7 @@ BeginPlot
 	x=68,y=48
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_DENSE_FOREST, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,2,13,
@@ -37102,7 +37764,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=51
-	FeatureType=FEATURE_DENSE_FOREST, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -38053,14 +38715,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=70,y=42
-	BonusType=BONUS_SHEEP
-	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,2,21,
 EndPlot
 BeginPlot
 	x=70,y=43
+	BonusType=BONUS_SHEEP
+	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,2,21,
@@ -38560,8 +39222,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=71,y=40
-	BonusType=BONUS_WHEAT
-	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,2,21,
@@ -38570,6 +39230,8 @@ BeginPlot
 	x=71,y=41
 	RiverNSDirection=2
 	isWOfRiver
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -38666,8 +39328,6 @@ BeginPlot
 		CityOwner=13
 		CityName=Artashat
 		CityPopulation=3
-		ReligionType=RELIGION_CHRISTIANITY
-		ReligionType=RELIGION_ZOROASTRIANISM
 		Player13Culture=30
 	EndCity
 	TeamReveal=0,13,49,
@@ -39125,6 +39785,13 @@ BeginPlot
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
+	TeamReveal=0,2,21,
+EndPlot
+BeginPlot
+	x=72,y=42
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
 	BeginUnit
 		UnitType=UNIT_ARCHER, UnitOwner=21
 		Damage=0
@@ -39140,13 +39807,6 @@ BeginPlot
 		ReligionType=RELIGION_HELLENISM
 		Player21Culture=30
 	EndCity
-	TeamReveal=0,2,21,
-EndPlot
-BeginPlot
-	x=72,y=42
-	RouteType=ROUTE_ROAD
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
 	TeamReveal=0,2,21,
 EndPlot
 BeginPlot
@@ -39690,7 +40350,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=73,y=46
-	BonusType=BONUS_COPPER
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -40189,8 +40848,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=42
-	BonusType=BONUS_STONE
-	ImprovementType=IMPROVEMENT_QUARRY
+	BonusType=BONUS_COPPER
+	ImprovementType=IMPROVEMENT_MINE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,2,21,
@@ -42204,6 +42863,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=78,y=42
+	BonusType=BONUS_SILVER
+	ImprovementType=IMPROVEMENT_MINE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=21,
@@ -42218,14 +42879,14 @@ EndPlot
 BeginPlot
 	x=78,y=44
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 	TeamReveal=21,
 EndPlot
 BeginPlot
 	x=78,y=45
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 	TeamReveal=21,
 EndPlot
 BeginPlot
@@ -42675,7 +43336,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=79,y=42
-	BonusType=BONUS_SILVER
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -43182,7 +43842,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=80,y=44
-	TerrainType=TERRAIN_STEPPE
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=21,
 EndPlot
@@ -43613,22 +44273,21 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=81,y=38
-	BonusType=BONUS_HORSE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=21,
 EndPlot
 BeginPlot
 	x=81,y=39
+	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=21,
 EndPlot
 BeginPlot
 	x=81,y=40
-	BonusType=BONUS_CITRUS
-	ImprovementType=IMPROVEMENT_ORCHARD
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_SALTFLAT
 	PlotType=2
 	TeamReveal=21,
 EndPlot
@@ -43640,7 +44299,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=81,y=42
-	TerrainType=TERRAIN_STEPPE
+	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=21,
 EndPlot
@@ -44096,7 +44755,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=41
-	TerrainType=TERRAIN_SALTFLAT
+	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 	TeamReveal=21,
 EndPlot
@@ -47985,6 +48644,8 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
+	BonusType=BONUS_SHEEP
+	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=4,21,25,
@@ -48460,8 +49121,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=43
-	BonusType=BONUS_SHEEP
-	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=4,21,25,
@@ -51589,13 +52248,13 @@ BeginPlot
 	x=97,y=51
 	isNOfRiver
 	RiverWEDirection=3
-	BonusType=BONUS_SHEEP
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=25,
 EndPlot
 BeginPlot
 	x=97,y=52
+	BonusType=BONUS_SHEEP
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=25,
@@ -52937,7 +53596,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=100,y=21
-	BonusType=BONUS_SPICES
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -52945,6 +53603,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=100,y=22
+	BonusType=BONUS_SPICES
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -53017,6 +53676,7 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=4,18,46,
@@ -53516,7 +54176,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=101,y=19
+	BonusType=BONUS_CINNAMON
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	TeamReveal=5,10,49,
+EndPlot
+BeginPlot
+	x=101,y=20
+	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
@@ -53535,23 +54203,16 @@ BeginPlot
 	EndUnit
 	BeginCity
 		CityOwner=49
-		CityName=Mohodayapuri
+		CityName=Vanchi Murthur
 		CityPopulation=2
 		ReligionType=RELIGION_HINDUISM
 		ReligionType=RELIGION_JAINISM
 	EndCity
-	TeamReveal=5,10,49,
-EndPlot
-BeginPlot
-	x=101,y=20
-	RouteType=ROUTE_ROAD
-	TerrainType=TERRAIN_GRASS
-	PlotType=2
 	TeamReveal=5,10,18,49,
 EndPlot
 BeginPlot
 	x=101,y=21
-	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=5,18,49,
@@ -53584,8 +54245,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=101,y=26
-	isNOfRiver
-	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
@@ -53621,7 +54280,6 @@ BeginPlot
 	x=101,y=30
 	isNOfRiver
 	RiverWEDirection=3
-	RouteType=ROUTE_ROAD
 	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -53699,8 +54357,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=101,y=41
-	BonusType=BONUS_HORSE
-	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=4,25,46,
@@ -54069,9 +54725,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=17
-	BonusType=BONUS_SPICES
-	ImprovementType=IMPROVEMENT_PLANTATION
-	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=5,10,49,
@@ -54085,7 +54739,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=19
-	BonusType=BONUS_CINNAMON
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -54129,8 +54782,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=25
-	RiverNSDirection=2
-	isWOfRiver
+	isNOfRiver
+	RiverWEDirection=1
 	BonusType=BONUS_STONE
 	ImprovementType=IMPROVEMENT_QUARRY
 	TerrainType=TERRAIN_PLAINS
@@ -54139,8 +54792,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=26
-	isNOfRiver
-	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
@@ -54168,8 +54819,6 @@ BeginPlot
 	x=102,y=29
 	isNOfRiver
 	RiverWEDirection=1
-	RouteType=ROUTE_ROAD
-	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=4,5,18,46,
@@ -54252,6 +54901,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=41
+	BonusType=BONUS_CITRUS
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=4,25,46,
@@ -54294,6 +54944,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=45
+	BonusType=BONUS_HEMP
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=4,25,
@@ -54600,22 +55251,25 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=103,y=15
-	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
-	TerrainType=TERRAIN_GRASS
-	PlotType=2
-	TeamReveal=5,10,
-EndPlot
-BeginPlot
-	x=103,y=16
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=5,10,
 EndPlot
 BeginPlot
-	x=103,y=17
+	x=103,y=16
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=0
+	PlotType=2
+	TeamReveal=5,10,
+EndPlot
+BeginPlot
+	x=103,y=17
+	BonusType=BONUS_SPICES
+	ImprovementType=IMPROVEMENT_PLANTATION
+	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 	TeamReveal=5,10,
 EndPlot
 BeginPlot
@@ -54658,8 +55312,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=103,y=23
+	RiverNSDirection=0
 	isNOfRiver
 	RiverWEDirection=1
+	isWOfRiver
 	BonusType=BONUS_SUGAR
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -54699,7 +55355,7 @@ BeginPlot
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=2
 	TeamReveal=4,5,18,
 EndPlot
 BeginPlot
@@ -54708,7 +55364,7 @@ BeginPlot
 	isWOfRiver
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=1
 	BeginUnit
 		UnitType=UNIT_SPEARMAN, UnitOwner=18
 		Damage=0
@@ -54856,7 +55512,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=103,y=44
-	BonusType=BONUS_IRON
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=4,25,46,
@@ -54980,6 +55635,7 @@ BeginPlot
 	x=103,y=64
 	isNOfRiver
 	RiverWEDirection=3
+	BonusType=BONUS_SHEEP
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -55179,8 +55835,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=16
+	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=0
+	PlotType=1
 	TeamReveal=5,10,48,
 EndPlot
 BeginPlot
@@ -55222,7 +55879,7 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=5,10,
 EndPlot
@@ -55235,10 +55892,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=23
-	RiverNSDirection=0
-	isNOfRiver
-	RiverWEDirection=1
-	isWOfRiver
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -55315,7 +55968,6 @@ BeginPlot
 	x=104,y=32
 	isNOfRiver
 	RiverWEDirection=3
-	RouteType=ROUTE_ROAD
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -55379,8 +56031,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=41
+	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
 	RouteType=ROUTE_ROAD
-	BonusType=BONUS_CITRUS
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=4,25,46,
@@ -55393,6 +56046,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=43
+	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=4,25,46,
@@ -55532,7 +56186,6 @@ BeginPlot
 	x=104,y=64
 	isNOfRiver
 	RiverWEDirection=3
-	BonusType=BONUS_SHEEP
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -55760,8 +56413,6 @@ BeginPlot
 		CityPopulation=4
 		BuildingType=BUILDING_PALACE
 		ReligionType=RELIGION_HINDUISM
-		ReligionType=RELIGION_BUDDHISM
-		ReligionType=RELIGION_JUDAISM
 		ReligionType=RELIGION_JAINISM
 		Player10Culture=30
 	EndCity
@@ -55791,11 +56442,13 @@ BeginPlot
 	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=1
 	TeamReveal=5,10,
 EndPlot
 BeginPlot
 	x=105,y=21
+	RiverNSDirection=2
+	isWOfRiver
 	BonusType=BONUS_HEMP
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -55883,7 +56536,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	RouteType=ROUTE_ROAD
 	BonusType=BONUS_IRON
 	ImprovementType=IMPROVEMENT_MINE
 	TerrainType=TERRAIN_GRASS
@@ -55952,7 +56604,7 @@ BeginPlot
 	x=105,y=40
 	RiverNSDirection=2
 	isWOfRiver
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=4,25,46,
 EndPlot
@@ -56114,8 +56766,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=105,y=62
-	BonusType=BONUS_DEER
-	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=17,
@@ -56124,6 +56774,7 @@ BeginPlot
 	x=105,y=63
 	isNOfRiver
 	RiverWEDirection=3
+	BonusType=BONUS_DEER
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -56131,7 +56782,7 @@ EndPlot
 BeginPlot
 	x=105,y=64
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=105,y=65
@@ -56358,8 +57009,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=106,y=20
-	isNOfRiver
-	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -56367,6 +57016,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=106,y=21
+	isNOfRiver
+	RiverWEDirection=1
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -56451,7 +57102,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=106,y=31
-	RouteType=ROUTE_ROAD
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -56531,18 +57181,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=106,y=41
-	ImprovementType=IMPROVEMENT_PLANTATION
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
-	TeamReveal=46,
+	TeamReveal=4,25,46,
 EndPlot
 BeginPlot
 	x=106,y=42
-	BonusType=BONUS_DEER
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=1
-	TeamReveal=46,
+	TeamReveal=4,25,46,
 EndPlot
 BeginPlot
 	x=106,y=43
@@ -56649,28 +57297,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
+		UnitType=UNIT_SPEARMAN, UnitOwner=48
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_CITY_DEFENSE
+		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=44
+		CityOwner=48
 		CityName=Kashgar
 		CityPopulation=4
 		ReligionType=RELIGION_JUDAISM
@@ -56965,6 +57599,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=107,y=20
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	TeamReveal=5,10,
+EndPlot
+BeginPlot
+	x=107,y=21
 	isNOfRiver
 	RiverWEDirection=1
 	RouteType=ROUTE_ROAD
@@ -56988,23 +57629,15 @@ BeginPlot
 		CityOwner=10
 		CityName=Kanchipuram
 		CityPopulation=3
-		ReligionType=RELIGION_BUDDHISM
 		ReligionType=RELIGION_HINDUISM
 		Player10Culture=30
 	EndCity
 	TeamReveal=5,10,
 EndPlot
 BeginPlot
-	x=107,y=21
+	x=107,y=22
 	BonusType=BONUS_COW
 	ImprovementType=IMPROVEMENT_PASTURE
-	RouteType=ROUTE_ROAD
-	TerrainType=TERRAIN_GRASS
-	PlotType=2
-	TeamReveal=5,10,
-EndPlot
-BeginPlot
-	x=107,y=22
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -57012,7 +57645,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=107,y=23
-	BonusType=BONUS_SPICES
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
@@ -57084,7 +57716,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=107,y=30
-	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=4,5,18,
@@ -58930,28 +59561,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=44
+		UnitType=UNIT_ARCHER, UnitOwner=49
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=44
+		CityOwner=49
 		CityName=Kara-khoja
 		CityPopulation=2
 		ReligionType=RELIGION_BUDDHISM
@@ -59326,11 +59943,10 @@ BeginPlot
 		CityOwner=4
 		CityName=Varanasi
 		CityPopulation=2
-		BuildingType=BUILDING_DHAMEK_STUPA
+		ProductionUnit=UNIT_MARKSMAN
 		ReligionType=RELIGION_HINDUISM
 		HolyCityReligionType=RELIGION_HINDUISM
 		ReligionType=RELIGION_BUDDHISM
-		ReligionType=RELIGION_JAINISM
 		Player4Culture=36
 	EndCity
 	TeamReveal=0,4,5,
@@ -59856,6 +60472,7 @@ BeginPlot
 		CityOwner=4
 		CityName=Bhodgaya
 		CityPopulation=1
+		ProductionUnit=UNIT_AXEMAN
 		ReligionType=RELIGION_HINDUISM
 		ReligionType=RELIGION_BUDDHISM
 		HolyCityReligionType=RELIGION_BUDDHISM
@@ -60882,6 +61499,7 @@ BeginPlot
 		CityOwner=4
 		CityName=Pataliputra
 		CityPopulation=2
+		ProductionUnit=UNIT_MARKSMAN
 		BuildingType=BUILDING_PALACE
 		ReligionType=RELIGION_HINDUISM
 		ReligionType=RELIGION_BUDDHISM
@@ -62496,31 +63114,16 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
+		UnitType=UNIT_SPEARMAN, UnitOwner=49
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_CITY_DEFENSE
+		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=44
+		CityOwner=49
 		CityName=Turpan
 		CityPopulation=3
-		BuildingType=BUILDING_PALACE
 		BuildingType=BUILDING_WALLS
 	EndCity
 	TeamReveal=49,
@@ -63962,28 +64565,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
+		UnitType=UNIT_SPEARMAN, UnitOwner=50
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_CITY_DEFENSE
+		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=44
+		CityOwner=50
 		CityName=Dunhuang
 		CityPopulation=3
 		BuildingType=BUILDING_WALLS
@@ -68151,8 +68740,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=128,y=68
-	BonusType=BONUS_HORSE
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
@@ -68162,8 +68750,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=128,y=70
-	isNOfRiver
-	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -68709,8 +69295,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=129,y=70
-	isNOfRiver
-	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -69288,8 +69872,7 @@ BeginPlot
 	x=130,y=70
 	isNOfRiver
 	RiverWEDirection=1
-	BonusType=BONUS_SHEEP
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -70010,8 +70593,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=132,y=8
-	FeatureType=FEATURE_MARSH, FeatureVariety=0
-	TerrainType=TERRAIN_WETLAND
+	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -70559,8 +71142,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=133,y=7
-	FeatureType=FEATURE_MARSH, FeatureVariety=0
-	TerrainType=TERRAIN_WETLAND
+	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -71481,8 +72064,7 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	RouteType=ROUTE_ROAD
-	BonusType=BONUS_SORGHUM
-	TerrainType=TERRAIN_GRASS
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=6,17,27,
 EndPlot
@@ -72628,9 +73210,6 @@ BeginPlot
 		CityPopulation=4
 		BuildingType=BUILDING_BARRACKS
 		BuildingType=BUILDING_FAIRGROUND
-		BuildingType=BUILDING_MAOLING
-		BuildingType=BUILDING_GREAT_WALL
-		BuildingType=BUILDING_TERRACOTTA
 		ReligionType=RELIGION_CONFUCIANISM
 		ReligionType=RELIGION_TAOISM
 		Player27Culture=30
@@ -73111,6 +73690,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=137,y=44
+	BonusType=BONUS_SILK
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -73144,7 +73724,7 @@ BeginPlot
 	RiverWEDirection=1
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=1
 	TeamReveal=6,17,27,
 EndPlot
 BeginPlot
@@ -73673,7 +74253,6 @@ EndPlot
 BeginPlot
 	x=138,y=44
 	RouteType=ROUTE_ROAD
-	BonusType=BONUS_SILK
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=6,17,
@@ -73699,7 +74278,7 @@ BeginPlot
 	x=138,y=47
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=1
 	TeamReveal=6,17,27,
 EndPlot
 BeginPlot
@@ -74183,9 +74762,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=139,y=38
-	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=1
+	PlotType=2
 	TeamReveal=17,
 EndPlot
 BeginPlot
@@ -74221,7 +74800,8 @@ BeginPlot
 	x=139,y=43
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_GRASS
+	FeatureType=FEATURE_MARSH, FeatureVariety=0
+	TerrainType=TERRAIN_WETLAND
 	PlotType=2
 	TeamReveal=6,17,
 EndPlot
@@ -74229,6 +74809,8 @@ BeginPlot
 	x=139,y=44
 	RiverNSDirection=2
 	isWOfRiver
+	BonusType=BONUS_PIG
+	ImprovementType=IMPROVEMENT_PASTURE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -74782,8 +75364,6 @@ BeginPlot
 	x=140,y=44
 	isNOfRiver
 	RiverWEDirection=1
-	BonusType=BONUS_PIG
-	ImprovementType=IMPROVEMENT_PASTURE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=6,17,
@@ -74989,28 +75569,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
+		UnitType=UNIT_SPEARMAN, UnitOwner=49
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_HORSE_ARCHER_SCYTHIAN, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_ATTACK
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=44
-		Damage=0
-		Level=1, Experience=0
-		FacingDirection=4
-		UnitAIType=UNITAI_CITY_DEFENSE
+		UnitAIType=UNITAI_COUNTER
 	EndUnit
 	BeginCity
-		CityOwner=44
+		CityOwner=49
 		CityName=Pingcheng
 		CityPopulation=3
 		ReligionType=RELIGION_CONFUCIANISM
@@ -75433,8 +75999,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=141,y=44
-	FeatureType=FEATURE_MARSH, FeatureVariety=0
-	TerrainType=TERRAIN_WETLAND
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=6,17,
 EndPlot
@@ -75999,7 +76564,8 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	TerrainType=TERRAIN_GRASS
+	FeatureType=FEATURE_MARSH, FeatureVariety=0
+	TerrainType=TERRAIN_WETLAND
 	PlotType=2
 	TeamReveal=6,17,
 EndPlot
@@ -77096,7 +77662,6 @@ BeginPlot
 	x=144,y=41
 	RiverNSDirection=0
 	isWOfRiver
-	BonusType=BONUS_PIG
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -77673,7 +78238,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=145,y=43
-	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 	TeamReveal=17,
@@ -78229,6 +78793,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=146,y=43
+	BonusType=BONUS_PIG
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=17,
@@ -79885,7 +80450,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=149,y=43
-	BonusType=BONUS_DYE
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -83436,7 +84000,7 @@ BeginPlot
 	x=156,y=57
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=1
+	PlotType=2
 	TeamReveal=49,
 EndPlot
 BeginPlot
@@ -83948,7 +84512,7 @@ BeginPlot
 	x=157,y=57
 	FeatureType=FEATURE_LIGHT_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=1
+	PlotType=2
 	TeamReveal=49,
 EndPlot
 BeginPlot
