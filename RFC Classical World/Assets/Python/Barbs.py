@@ -168,9 +168,9 @@ class Barbs:
 		iBonus = 0
 		
 		# Randomness
-		iRand1 = gc.getGame().getSorenRandNum(2, 'Random spawn size for this turn') + 1
-		iRand2 = gc.getGame().getSorenRandNum(2, 'Another one') + 1
-		iRand3 = gc.getGame().getSorenRandNum(2, 'One more') + 1
+		iRand1 = gc.getGame().getSorenRandNum(1, 'Random spawn size for this turn')
+		iRand2 = gc.getGame().getSorenRandNum(1, 'Another one')
+		iRand3 = gc.getGame().getSorenRandNum(1, 'One more')
 		
 		# Independent cities
 		for i in range(len(tMinorCities)):
@@ -189,11 +189,11 @@ class Barbs:
 					if plot.isCity() and plot.getNumUnits() < 5 and iOwner >= con.iNumPlayers:
 						if iGameTurn <= getTurnForYear(100):
 							utils.makeUnit(self.getRandomUnit(earlySupport), iOwner, (tMinorCity[2], tMinorCity[3]), 1)
-							gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iWalls, 1)
+							#gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iWalls, 1)
 						else:
 							utils.makeUnit(self.getRandomUnit(lateSupport), iOwner, (tMinorCity[2], tMinorCity[3]), 1)
-							gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iWalls, 1)
-							gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iCastle, 1)
+							#gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iWalls, 1)
+							#gc.getMap().plot(tMinorCity[2], tMinorCity[3]).getPlotCity().setNumRealBuilding(con.iCastle, 1)
 							
 							
 							
