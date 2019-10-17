@@ -66,7 +66,6 @@ g_RegionArtStyles = {
 	con.rParthia 			: "UNIT_ARTSTYLE_PERSIAN", 
 	con.rArachosia 			: "UNIT_ARTSTYLE_PERSIAN", 
 	con.rSogdiana 			: "UNIT_ARTSTYLE_PERSIAN", 
-	con.rBharat 			: "UNIT_ARTSTYLE_INDIA", 
 	con.rSindh 				: "UNIT_ARTSTYLE_INDIA", 
 	con.rGandhara 			: "UNIT_ARTSTYLE_INDIA", 
 	con.rPunjab 			: "UNIT_ARTSTYLE_INDIA", 

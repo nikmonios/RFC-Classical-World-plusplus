@@ -60,46 +60,37 @@ tMedina = (45,14)
 tPersepolis = (80,37) 
 tVaranasi = (111,37) 
 tTaxila = (100,46) 
-tCtesiphon = (72,41)
-tDamascus = (65,41)
-tTyre = (62,40) 
+tCtesiphon = (72,42)
+tDamascus = (65,42)
+tTyre = (62,41) 
 tAntioch = (64,46) 
 tRome = (35, 51) 
 tPataliputra = (114,37)
 tQufu = (145, 51)
 tLuoyang = (140, 50)
 tAthens = (47, 46)
-tCarthage = (19, 45)
+tCarthage = (29, 40)
 tVatapi = (103, 25)
 tPella = (47, 50)
-tXian = (136, 50)
 
-lAINoRaze = [
-	tConstantinople, tJerusalem, tMecca, tPersepolis, tVaranasi, tAlexandria, tBabylon, tRome, tPataliputra, tLuoyang, tQufu, tTyre, tAthens, tCarthage, 
-	tAntioch, tTaxila, tCtesiphon, tPella, tXian
-]
+lAINoRaze = [tConstantinople, tJerusalem, tMecca, tPersepolis, tVaranasi, tAlexandria, tBabylon, tRome, tPataliputra, tLuoyang, tQufu, tTyre, tAthens]
 
 
-tRomanNumerals = ( 
-	"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", 
-	"XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV", "XXXV", "XXXVI", "XXXVII", "XXXVIII", "XXXIX", "XXXX" 
-)
+tRomanNumerals = ( "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", 
+"XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV", "XXXV", "XXXVI", "XXXVII", "XXXVIII", "XXXIX", "XXXX" )
 
 # PLAYERS
 
 iNumPlayers = 48
-(
-	iAntigonids, iSeleucids, iEgypt, iCarthage, iMauryans, iKalinka, iQin, iGojoseon, iNubia, iSaba, iPandyans, iPontus, iCelts, iRome, iVietnam, iTocharians, iBactria, 
-	iHan, iSatavahana, iArmenia, iMaccabees, iParthia, iDacia, iGoguryeo, iAxum, iKushans, iFunan, iJin, iSassanids, iYamato, iGupta, iByzantines, iVisigoths, iVandals, 
-	iOstrogoths, iFranks, iChalukyans, iLombards, iGokturks, iSrivajaya, iKhazars, iTibet, iTang, iArabs, iNomad0, iNomad1, iNomad2, iNomad3
-	) = range(iNumPlayers)
+(iAntigonids, iSeleucids, iEgypt, iCarthage, iMauryans, iKalinka, iQin, iGojoseon, iNubia, iSaba, iPandyans, iPontus, iCelts, iRome, iVietnam, iTocharians, iBactria, 
+iHan, iSatavahana, iArmenia, iMaccabees, iParthia, iDacia, iGoguryeo, iAxum, iKushans, iFunan, iJin, iSassanids, iYamato, iGupta, iByzantines, iVisigoths, iVandals, 
+iOstrogoths, iFranks, iChalukyans, iLombards, iGokturks, iSrivajaya, iKhazars, iTibet, iTang, iArabs, iNomad0, iNomad1, iNomad2, iNomad3) = range(iNumPlayers)
 
 iNumLeaders = 56
-(
-	iAntigonus, iSeleucus, iPtolemy, iHannibal, iAsoka, iKharavela, iQinShiHuang, iDangun, iArrakamani, iTubaAbu, iNedunj, iMithridates, iVercingetorix, iCaesar, 
-	iThucPhan, iSapadbizes, iDemetrius, iLeaderWu, iSatakarni, iTigranes, iSimonMaccabee, iArsaces, iDecebal, iGwanggaeto, iEzana, iKanishka, iLieuye, iSimaYan, iShapur, 
-	iJingu, iChandragupta, iJustinian, iAlaric, iGaiseric, iTheodoric, iCharlemagne, iPulakesi, iLiutprand, iBilge, iSarmatungga, iBulan, iSongstenGampo, iTaizong, 
-	iAbuBakr, iGhana, iSyphax, iSakaLeader, iZhaoTuo, iRouranLeader, iLiuBei, iSunQuan, iPusyamitra, iPompey, iTariq, iBarbarianLeader, iMinorLeader, ) = range(iNumLeaders)
+(iAntigonus, iSeleucus, iPtolemy, iHannibal, iAsoka, iKharavela, iQinShiHuang, iDangun, iArrakamani, iTubaAbu, iNedunj, iMithridates, iVercingetorix, iCaesar, 
+iThucPhan, iSapadbizes, iDemetrius, iLeaderWu, iSatakarni, iTigranes, iSimonMaccabee, iArsaces, iDecebal, iGwanggaeto, iEzana, iKanishka, iLieuye, iSimaYan, iShapur, 
+iJingu, iChandragupta, iJustinian, iAlaric, iGaiseric, iTheodoric, iCharlemagne, iPulakesi, iLiutprand, iBilge, iSarmatungga, iBulan, iSongstenGampo, iTaizong, 
+iAbuBakr, iGhana, iSyphax, iSakaLeader, iZhaoTuo, iRouranLeader, iLiuBei, iSunQuan, iPusyamitra, iPompey, iTariq, iBarbarianLeader, iMinorLeader, ) = range(iNumLeaders)
 
 
 iIndependent = iNumPlayers
@@ -110,80 +101,12 @@ iNumMajPlayers = 44
 iNumMinorPlayers = 3
 iNumTotalPlayers = 51
 
-iNumCivilizations = 71
-(
-	iAntigonids, # 0
-	iSeleucids, # 1
-	iEgypt, # 2
-	iCarthage, # 3
-	iMauryans, # 4
-	iKalinka, # 5
-	iQin, # 6
-	iGojoseon, # 7
-	iNubia, # 8
-	iSaba, # 9
-	iPandyans, # 10
-	iPontus, # 11
-	iCelts, # 12
-	iRome, # 13
-	iVietnam, # 14
-	iTocharians, # 15
-	iBactria, # 16
-	iHan, # 17
-	iSatavahana, # 18
-	iArmenia, # 19
-	iMaccabees, # 20
-	iParthia, # 21
-	iDacia, # 22
-	iGoguryeo, # 23
-	iAxum, # 24
-	iKushans, # 25
-	iFunan, # 26
-	iJin, # 27
-	iSassanids, # 28
-	iYamato, # 29
-	iGupta, # 30
-	iByzantines, # 31
-	iVisigoths, # 32
-	iVandals, # 33
-	iOstrogoths, # 34
-	iFranks, # 35
-	iChalukyans, # 36
-	iLombards, # 37
-	iGokturks, # 38
-	iSrivajaya, # 39
-	iKhazars, # 40
-	iTibet, # 41
-	iTang, # 42
-	iArabs, # 43
-	iXiongnu, # 44
-	iNumidia, # 45
-	iScythians, # 46
-	iNanYue, # 47
-	iSungas, # 48
-	iMacedon, # 49
-	iMakuria, # 50
-	iHimyarites, # 51
-	iShu, # 52
-	iWu, # 53
-	iHephthalites, # 54
-	iXianbei, # 55
-	iHuns, # 56
-	iAvars, # 57
-	iRouran, # 58
-	iVakatakas, # 59
-	iSong, # 60
-	iMagadha, # 61
-	iRebelRome, # 62
-	iPallavas, # 63
-	iKalabhras, # 64
-	iSaxons, # 65
-	iHarsha, # 66
-	iWesternRome, # 67
-	iMoors, # 68
-	iChampa, # 69
-	iMinor # 70
-	) = range(iNumCivilizations)
+iNumCivilizations = 70
+(iAntigonids, iSeleucids, iEgypt, iCarthage, iMauryans, iKalinka, iQin, iGojoseon, iNubia, iSaba, iPandyans, iPontus, iCelts, iRome, iVietnam, iTocharians, iBactria, 
+iHan, iSatavahana, iArmenia, iMaccabees, iParthia, iDacia, iGoguryeo, iAxum, iKushans, iFunan, iJin, iSassanids, iYamato, iGupta, iByzantines, iVisigoths, iVandals, 
+iOstrogoths, iFranks, iChalukyans, iLombards, iGokturks, iSrivajaya, iKhazars, iTibet, iTang, iArabs, iXiongnu, iNumidia, iScythians, iNanYue, iSungas, iMacedon, 
+iMakuria, iHimyarites, iShu, iWu, iHephthalites, iXianbei, iHuns, iAvars, iRouran, iVakatakas, iSong, iMagadha, iRebelRome, iPallavas, iKalabhras, iSaxons, iWesternRome, 
+iMoors, iChampa, iMinor) = range(iNumCivilizations)
 
 
 
@@ -218,9 +141,9 @@ tCapitals = (
 	(96, 47), # 25 Kapisa
 	(135, 19), # 26 Khmer
 	(140, 50), # 27 Luoyang
-	(72, 41), # 28 Ctesiphon
+	(72, 42), # 28 Ctesiphon
 	(166, 52), # 29 Yamato
-	(114, 37), # 30 Pataliputra
+	(114, 38), # 30 Pataliputra
 	(53, 51), # 31 Constantinople
 	(22, 55), # 32 Tolosa
 	(29, 40), # 33 Carthage
@@ -234,38 +157,37 @@ tCapitals = (
 	(118, 44), # 41 Lhasa
 	(139, 55), # 42 Taiyuan
 	(67, 27), # 43 Mecca
-	(128, 69), # Luut, Xiongnu
+	(135, 72), # Xiongnu
 	(24, 40), # Numidians, Cirta
 	(93, 35), # Sakas, Pattala
 	(148, 39), # Min Yue
 	(114, 38), # Pataliputra
 	(47, 50), # Pella
-	(58, 21), # Makuria, Meroe
+	(58, 21), # Meroe
 	(68, 21), # Mariba
-	(131, 45), # Shu, Chengdu
-	(148, 47), # Wu, Jianye
+	(131, 45), # Shu
+	(148, 47), # Jianye
 	(93, 54), # Hepthalites, Samarkand
 	(135, 72), # Xianbei
 	(40, 62), # Huns, Noricum
 	(40, 62), # Avars, Noricum
 	(106, 58), # Rouran, Kashgar
-	(104, 27), # Vakatakas, Pratishthana
-	(146, 45), # Song, Jianye
+	(104, 27), # Vakataks, Pratishthana
+	(146, 45), # Jianye
 	(115, 38), # Pataliputra
 	(35, 52), # Rome
 	(109, 26), # Amaravati
 	(105, 17), # Madurai
 	(31, 68), # Saxons - Mimigernaford
-	(107, 38), # Harsha - Kannauj
 	(35, 52), # Rome
 	(35, 52), # Moors - Gadir for now
 	(139, 21), # Champa
-	) 
+) 
 
 
 # preferred capital if tCapital is not possible
 tBackupCapitals = ( 
-	(47,50), # 0 Pella, for Macedonian respawn
+	(46,53), # 0 Pella, for Macedonian respawn
 	(64, 46), # SEL Antioch
 	(53,34), # 2 Alexandria
 	(29, 40), # 3 Carthage
@@ -331,16 +253,15 @@ tBackupCapitals = (
 	(109, 26), # Amaravati
 	(105, 17), # Madurai
 	(31, 68), # Saxons - Mimigernaford
-	(107, 38), # Harsha - Kannauj
 	(35, 52), # Rome
 	(35, 52), # Moors - Gadir for now
 	(-1, -1), # Champa
-	) 
+) 
 
 
 # The AI will have its palace moved for free here
 tNewCapitals = ( 
-	(47,50), # 0 Pella, for Macedonian respawn
+	(46,53), # 0 Pella, for Macedonian respawn
 	(64, 46), # SEL Antioch
 	(53,34), # 2 Alexandria
 	(29, 40), # 3 Carthage
@@ -382,8 +303,8 @@ tNewCapitals = (
 	(133,  6), # 39 Pelambang
 	(73, 63), # 40 Atil
 	(118, 44), # 41 Lhasa
-	(136, 50), # 6 Xian
-	(65, 41), # ARA - Damascus
+	(134, 50), # 6 Xian
+	(65, 42), # ARA - Damascus
 	(135, 72), # Xiongnu
 	(24, 41), # Numidians, Cirta
 	(93, 35), # Sakas, Pattala
@@ -406,11 +327,10 @@ tNewCapitals = (
 	(109, 26), # Amaravati
 	(105, 17), # Madurai
 	(31, 68), # Saxons - Mimigernaford
-	(107, 38), # Harsha - Kannauj
 	(35, 52), # Rome
 	(35, 52), # Moors - Gadir for now
 	(-1, -1), # Champa
-	) # 
+) # 
 
 tBirth = (
 	-321, #iAntigonids
@@ -421,9 +341,9 @@ tBirth = (
 	-321, #iKalinka 
 	-321, #iQin
 	-321, #iGojoseon 
-	-321, #iNubia
-	-321, #iSaba
-	-321, #iPandyans
+	-315, #iNubia
+	-305, #iSaba
+	-300, #iPandyans
 	-290, #iPontus
 	-285, #iCelts
 	-270, #iRome
@@ -453,7 +373,7 @@ tBirth = (
 	 570, #iLombards
 	 575, #iGokturks
 	 600, #iSrivajaya
-	 603, #iKhazars
+	 605, #iKhazars
 	 610, #iTibet
 	 620, #iTang
 	 630, #iArabs
@@ -465,13 +385,13 @@ tBirth = (
 	-150, #iMacedon
 	 600, #iMakuria
 	 225, #iHimyarites
-	 220, #iShu
-	 220, #iWu
-	 390, #iHephthalites
+	 225, #iShu
+	 225, #iWu
+	 400, #iHephthalites
 	  90, #iXianbei
 	 425, #iHuns
-	 558, #iAvars
-	 415, #iRouran
+	 560, #iAvars
+	 410, #iRouran
 	 225, #iVakataka
 	 550, #iSong
 	 100, #iMagadha
@@ -479,13 +399,21 @@ tBirth = (
 	 550, #iPallavas
 	 250, #iKalabhras
 	 490, #iSaxons
-	 606, #Harsha
 	 330, #iWestern Rome
 	 710, #iMoors
 	 190, #iChampa
 	-320, #iMinor
-	)
 
+)
+
+
+#tPeakBegin = (
+	  #-320, -320, -320, -320, -320, -320, -320, -320, -315,-305,-300,-295,-290,-280,-270, -260, -220, -210, -200,-180,-160, -140, -80, -30, 15, 50,150,220,225,250,320,330,500,550,590,600,605,610,620,630,710)
+#	   ANT   SEL   EGY   CAR   MAU   KAL   QIN   GOJ   NUB  SAB  PAN  TOC  PON  CEL  ROM   VIE   BAC   HAN   SAT  ARM  MAC   PAR  DAC  GOG AXU KUS FUN JIN SAS YAM GUP BYZ FRA CHA GOK SRI KHA TIB TAN ARA GHA  NUM  SAK  NAN
+
+#tPeakEnd = (
+	  #-100, -100, -80, -100, -180, -100, -210, -100,-150,-305,-100,-100, -50,-150, 350, -260, -220,   50, -200,-180,-160,  150, -80, -30, 15, 50,150,220,225,250,500,600,500,550,590,600,605,610,620,630,710)
+#	   ANT   SEL  EGY   CAR   MAU   KAL   QIN   GOJ  NUB  SAB  PAN  TOC  PON  CEL  ROM   VIE   BAC   HAN   SAT  ARM  MAC   PAR  DAC  GOG AXU KUS FUN JIN SAS YAM GUP BYZ FRA CHA GOK SRI KHA TIB TAN ARA GHA  NUM  SAK  NAN
 
 tVictory = ( # for final score calculation
 	1500,1500,1500,1250,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500)
@@ -505,75 +433,74 @@ tRespawnCutoff = (
 
 tFall = ( # a bit of determinism: no resurrection & stability penalty (if negative) beyond this point
 	-150, #iAntigonids 0
-	-50, #iSeleucids 1
-	50, #iEgypt 2
-	60, #iCarthage 3 
+	 -50, #iSeleucids 1
+	  50, #iEgypt 2
+	 -60, #iCarthage 3 
 	-180, #iMauryans 4
-	100, #iKalinka 5
+	 100, #iKalinka 5
 	-210, #iQin 6
 	-100, #iGojoseon 7 
-	100, #iNubia 8
-	100, #iSaba 9
-	200, #iPandyans 10
-	100, #iPontus 11
-	50, #iCelts 12
-	460, #iRome 13
-	100, #iVietnam 14
-	50, #iTocharians 15
-	-50, #iBactria 16
-	150, #iHan 17
-	100, #iSatavahana 18
-	200, #iArmenia 19
-	-80, #iMaccabees 20
-	200, #iParthia 21
-	150, #iDacia 22
+	 100, #iNubia 8
+	 100, #iSaba 9
+	 200, #iPandyans 10
+	 100, #iPontus 11
+	  50, #iCelts 12
+	 460, #iRome 13
+	 100, #iVietnam 14
+	  50, #iTocharians 15
+	 -50, #iBactria 16
+	 150, #iHan 17
+	 100, #iSatavahana 18
+	 200, #iArmenia 19
+	 -80, #iMaccabees 20
+	 200, #iParthia 21
+	 150, #iDacia 22
 	1000, #iGoguryeo 23
-	300, #iAxum 24
-	350, #iKushans 25
-	300, #iFunan 26
-	350, #iJin 27
-	630, #iSassanids 28
+	 300, #iAxum 24
+	 350, #iKushans 25
+	 300, #iFunan 26
+	 350, #iJin 27
+	 630, #iSassanids 28
 	1000, #iYamato 29
-	550, #iGupta 30
+	 550, #iGupta 30
 	1000, #iByzantines 31
-	700, #iVisigoths 32
-	530, #iVandals 33
-	570, #iOstrogoths 34
+	 700, #iVisigoths 32
+	 530, #iVandals 33
+	 570, #iOstrogoths 34
 	1000, #iFranks 35
-	800, #iChalukyans 36
-	800, #iLombards 37
-	800, #iGokturks 38
-	800, #iSrivajaya
-	800, #iKhazars
+	 800, #iChalukyans 36
+	 800, #iLombards 37
+	 800, #iGokturks 38
+	 800, #iSrivajaya
+	 800, #iKhazars
 	1000, #iTibet
-	800, #iTang
-	800, #iArabs
-	50, #iXiongnu
-	50, #iNumidia
-	100, #iScythians
-	100, #iNanYue
+	 800, #iTang
+	 800, #iArabs
+	  50, #iXiongnu
+	  50, #iNumidia
+	 100, #iScythians
+	 100, #iNanYue
 	-100, #iSungas
 	-100, #iMacedon
 	1000, #iMakuria
-	600, #iHimyarites
-	600, #iShu
-	600, #iWu
-	550, #iHephthalites
-	300, #iXianbei
-	450, #iHuns
-	800, #iAvars
-	700, #iRouran
-	800, #iVakataka
-	800, #iSong
-	300, #iMagadha
-	250, #iRebelRome
-	800, #iPallavas
-	800, #iKalabhras
-	900, #iSaxons
-	700, #Harsha
-	800, #iWestern Rome
-	900, #iMoors
-	900  #iChampa
+	 600, #iHimyarites
+	 600, #iShu
+	 600, #iWu
+	 550, #iHephthalites
+	 300, #iXianbei
+	 450, #iHuns
+	 800, #iAvars
+	 700, #iRouran
+	 800, #iVakataka
+	 800, #iSong
+	 500, #iMagadha
+	 250, #iRebelRome
+	 800, #iPallavas
+	 800, #iKalabhras
+	 900, #iSaxons
+	 800, #iWestern Rome
+	 900, #iMoors
+	 900  #iChampa
 	#iMinor
 )
 
@@ -644,19 +571,22 @@ tStabilityHandicap = (
  0, #iPallavas
  0, #iKalabhras
  0, #iSaxons
- 0, #Harsha
  0, #iWesternRome
  0, #iMoors
  0  #iChampa
 #iMinor
 )
 
+#tFallRespawned = ( # slight changes for respawned civs
+   #1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000)
+#	ANT  SEL  EGY  CAR  MAU  KAL  QIN  GOJ  NUB  SAB  PAN  TOC  PON  CEL  ROM  VIE  BAC  HAN  SAT  ARM  MAC  PAR  DAC  GOG  AXU  KUS  FUN  JIN  SAS  YAM  GUP  BYZ  FRA  CHA  GOK  SRI  KHA  TIB  TAN  ARA  GHA  NUM  SAK  NAN
+
 tNoSettler = (
 	  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   1,   0,   0,   0,   0,   1,   0,   1,   1,   0,   1,   0,   0,   1,   1,   0,   0,   0,   0,   0,   0,   0,   1,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0)
 #	ANT  SEL  EGY  CAR  MAU  KAL  QIN  GOJ  NUB  SAB  PAN  PON  CEL  ROM  VIE  TOC  BAC  HAN  SAT  ARM  MAC  PAR  DAC  GOG  AXU  KUS  FUN  JIN  SAS  YAM  GUP  BYZ  VIS  VAN  OST  FRA  CHA  LOM  GOK  SRI  KHA  TIB  TAN  ARA
 
 tStartingGold = (
-	 200, 300, 200, 200, 300, 100, 100, 100,  50,  50,  50,  50, 150, 300,  50, 100, 100, 300, 100, 100, 100, 300, 200, 100, 100, 200, 100, 200, 300, 100, 100, 200, 100, 100, 100, 100, 100, 100, 300, 100, 100, 100, 300, 500, 100, 100, 100, 100, 100, 100, 100)
+	 200, 300, 200, 200, 300, 100, 100, 100,  50,  50,  50,  50, 150, 300,  50, 100, 100, 300, 100, 100, 100, 300, 200, 100, 100, 200, 100, 200, 300, 100, 100, 200, 100, 100, 100, 100, 100, 100, 200, 100, 100, 100, 100, 500, 100, 100, 100, 100, 100, 100, 100)
 #	 ANT  SEL  EGY  CAR  MAU  KAL  QIN  GOJ  NUB  SAB  PAN  PON  CEL  ROM  VIE  TOC  BAC  HAN  SAT  ARM  MAC  PAR  DAC  GOG  AXU  KUS  FUN  JIN  SAS  YAM  GUP  BYZ  VIS  VAN  OST  FRA  CHA  LOM  GOK  SRI  KHA  TIB  TAN  ARA  GHA  NUM  SAK  NAN  IN1  IN2  IN3
 
 t80BCGold = (
@@ -708,7 +638,7 @@ tAggression = ( # 0 = passive, 1 = normal, 2 = agressive
 	0, #iSaba 9
 	0, #iPandyans 10
 	0, #iPontus 11
-	0, #iCelts 12
+	1, #iCelts 12
 	2, #iRome 13
 	1, #iVietnam 14
 	0, #iTocharians 15
@@ -762,7 +692,6 @@ tAggression = ( # 0 = passive, 1 = normal, 2 = agressive
 	1, #iPallavas
 	2, #iKalabhras
 	2, #iSaxons
-	1, #Harsha
 	1, #iWestern Rome
 	1, #iMoors
 	1  #iChampa
@@ -782,7 +711,7 @@ tGoals = (
 ("TXT_KEY_UHV_GOJ1", "TXT_KEY_UHV_GOJ2", "TXT_KEY_UHV_GOJ3"),
 ("TXT_KEY_UHV_NUB1", "TXT_KEY_UHV_NUB2", "TXT_KEY_UHV_NUB3"),
 ("TXT_KEY_UHV_SAB1", "TXT_KEY_UHV_SAB2", "TXT_KEY_UHV_SAB3"),
-("TXT_KEY_UHV_TAM1", "TXT_KEY_UHV_TAM2", "TXT_KEY_UHV_TAM3"),
+("TXT_KEY_UHV_PAN1", "TXT_KEY_UHV_PAN2", "TXT_KEY_UHV_PAN3"),
 ("TXT_KEY_UHV_PON1", "TXT_KEY_UHV_PON2", "TXT_KEY_UHV_PON3"),
 ("TXT_KEY_UHV_CEL1", "TXT_KEY_UHV_CEL2", "TXT_KEY_UHV_CEL3"),
 ("TXT_KEY_UHV_ROM1", "TXT_KEY_UHV_ROM2", "TXT_KEY_UHV_ROM3"),
@@ -828,7 +757,7 @@ tGoals = (
 ("TXT_KEY_UHV_GOJ1", "TXT_KEY_UHV_GOJ2", "TXT_KEY_UHV_GOJ3"),
 ("TXT_KEY_UHV_NUB1", "TXT_KEY_UHV_NUB2", "TXT_KEY_UHV_NUB3"),
 ("TXT_KEY_UHV_SAB1", "TXT_KEY_UHV_SAB2_EPIC", "TXT_KEY_UHV_SAB3_EPIC"),
-("TXT_KEY_UHV_TAM1", "TXT_KEY_UHV_TAM2", "TXT_KEY_UHV_TAM3"),
+("TXT_KEY_UHV_PAN1", "TXT_KEY_UHV_PAN2", "TXT_KEY_UHV_PAN3"),
 ("TXT_KEY_UHV_PON1", "TXT_KEY_UHV_PON2", "TXT_KEY_UHV_PON3"),
 ("TXT_KEY_UHV_CEL1", "TXT_KEY_UHV_CEL2", "TXT_KEY_UHV_CEL3"),
 ("TXT_KEY_UHV_ROM1", "TXT_KEY_UHV_ROM2", "TXT_KEY_UHV_ROM3"),
@@ -877,31 +806,6 @@ tRomanGoals = (
 ("TXT_KEY_UHV_ROM7", "TXT_KEY_UHV_ROM8", "TXT_KEY_UHV_ROM9"),
 )
 ) 
-
-
-tTamilGoals = (
-( # Normal
-("TXT_KEY_UHV_CHO1", "TXT_KEY_UHV_CHO2", "TXT_KEY_UHV_CHO3"),
-("TXT_KEY_UHV_PAN1", "TXT_KEY_UHV_PAN2", "TXT_KEY_UHV_PAN3"),
-("TXT_KEY_UHV_CHE1", "TXT_KEY_UHV_CHE2", "TXT_KEY_UHV_CHE3"),
-),
-( # Epic
-("TXT_KEY_UHV_CHO1", "TXT_KEY_UHV_CHO2", "TXT_KEY_UHV_CHO3"),
-("TXT_KEY_UHV_PAN1", "TXT_KEY_UHV_PAN2", "TXT_KEY_UHV_PAN3"),
-("TXT_KEY_UHV_CHE1", "TXT_KEY_UHV_CHE2", "TXT_KEY_UHV_CHE3"),
-)
-)
-
-tHarshaGoals = (
-( # Normal
-("TXT_KEY_UHV_HAR1", "TXT_KEY_UHV_HAR2", "TXT_KEY_UHV_HAR3"),
-),
-
-( # Normal
-("TXT_KEY_UHV_HAR1", "TXT_KEY_UHV_HAR2", "TXT_KEY_UHV_HAR3"),
-)
-)
-
 
 
 lContactCivsOnSpawn = [
@@ -973,7 +877,6 @@ lContactCivsOnSpawn = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[], # Harsha
 	[], # Western Rome
 	[iArabs], # Moors
 	[], # Champa
@@ -1047,7 +950,6 @@ lEnemyCivsOnSpawn = [
 	[], # Pallavas
 	[], # Kalabhras
 	[iFranks], # Saxons
-	[iChalukyans, iGupta], # Harsha
 	[], # Western Rome
 	[iVisigoths, iVandals, iRome], # Moors
 	[], # Champa
@@ -1123,7 +1025,6 @@ lNeighbours = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[iChalukyans, iGupta], # Harsha
 	[], # Western Rome
 	[], # Moors
 	[], # Champa
@@ -1197,7 +1098,6 @@ lWarTargets = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[iChalukyans, iGupta], # Harsha
 	[], # Western Rome
 	[], # Moors
 	[], # Champa
@@ -1222,9 +1122,9 @@ lOlderNeighbours = [
 	[], # Vietnam
 	[], # Tocharians
 	[iSeleucids], # Bactria
-	[iQin, iGojoseon], # Han
+	[iQin, iGojoseon, iVietnam], # Han
 	[iKalinka, iMauryans, iPandyans], # Satavahana
-	[iAntigonids, iPontus, iSeleucids], # Armenia
+	[iAntigonids, iPontus], # Armenia
 	[iSeleucids, iEgypt], # Maccabees
 	[iSeleucids, iArmenia, iBactria], # Parthia
 	[], # Dacia
@@ -1271,7 +1171,6 @@ lOlderNeighbours = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[iChalukyans, iGupta], # Harsha
 	[], # Western Rome
 	[], # Moors
 	[], # Champa
@@ -1287,9 +1186,8 @@ iPaganismCivic, iDynasticCultCivic, iStateReligionCivic, iMilitancyCivic, iSyncr
 
 # RELIGIONS
 
-iNumReligions = 15
-(iJudaism, iZoroastrianism, iHinduism, iBuddhism, iConfucianism, iHellenism, iTaoism, iJainism, iChristianity, iManichaeism, iIslam, iCatholicism, iArianism, 
-iMonophysitism, iNestorianism) = range(iNumReligions)
+iNumReligions = 11
+(iJudaism, iZoroastrianism, iHinduism, iBuddhism, iConfucianism, iHellenism, iTaoism, iJainism, iChristianity, iManichaeism, iIslam) = range(iNumReligions)
 
 tPersecutionOrder = (
 	(iTaoism, iConfucianism, iHinduism, iBuddhism, iJainism, iManichaeism, iHellenism, iZoroastrianism, iIslam, iChristianity),
@@ -1309,8 +1207,8 @@ iHolyWarPeriod = 100
 
 # COMPANIES (CORPORATIONS)
 
-iNumCompanies = 7
-(iGrainMerchants, iFishMerchants, iClothMerchants, iSpiceMerchants, iMasterArtisans, iMasterTradesmen, iIncenseMerchants) = range(iNumCompanies)
+iNumCompanies = 6
+(iGrainMerchants, iFishMerchants, iClothMerchants, iSpiceMerchants, iMasterArtisans, iMasterTradesmen) = range(iNumCompanies)
 
 
 # CIVICS
@@ -1349,120 +1247,112 @@ iNumTerrains = 14
 # TECHS
 
 iNumTechs = 95
-(iArchery, iSiegeEngines, iMarksmanship, iAgriculture, iHorticulture, iCropRotation, iCasteSystem, iCalendar, iAgrarianism, iThePlough, iAnimalHusbandry, 
-iElephantTraining, iHorsemanship, iSelectiveBreeding, iCavalryTactics, iTheStirrup, iHorseArchery, iFishing, iSailing, iNavalWarfare, iSternRudder, iNavigation, 
-iAstrolabe, iPottery, iConstruction, iMasonry, iBridgeBuilding, iEngineering, iFortification, iSanitation, iMachinery, iMedicine, iArchitecture, iPaper, iEducation, 
-iPrintingPress, iBureaucracy, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, iCodeOfLaws, iStateReligion, iBulkTrade, iJurisprudence, iBanking, 
-iManufacturedTrade, iWageLabor, iMining, iBronzeWorking, iInfantryTactics, iMilitaryDrill, iLogistics, iMetalCasting, iScaleArmor, iIronWorking, iSteelWorking, 
-iChainmail, iBlastFurnace, iAlchemy, iGunpowder, iPriesthood, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iReligiousLaw, iMysticism, iSyncretism, 
-iTheocracy, iWriting, iAlphabet, iMathematics, iCartography, iLiterature, iDrama, iPhilosophy, iAesthetics, iPatronage, iTibetanUP, iTocharianUP, iFunanUP, 
-iSriVijayanUP, iFreeTradeTech, iImperialismTech, iStabilityStable, iStabilityUnstable, iStabilityCollapsing, iOverextension, iRomanEmpire, iPyramidsFunctionTech, 
-iColossusFunctionTech, iTrajansColumnFunctionTech, iSuccessionTech) = range(iNumTechs) #4
+(iArchery, iSiegeEngines, iMarksmanship, iAgriculture, iHorticulture, iCropRotation, iCasteSystem, iCalendar, iAgrarianism, iThePlough, iAnimalHusbandry, iElephantTraining, iHorsemanship, 
+iSelectiveBreeding, iCavalryTactics, iTheStirrup, iHorseArchery, iFishing, iSailing, iNavalWarfare, iSternRudder, iNavigation, iAstrolabe, iPottery, iConstruction, iMasonry, iBridgeBuilding, 
+iEngineering, iFortification, iSanitation, iMachinery, iMedicine, iArchitecture, iPaper, iEducation, iPrintingPress, iBureaucracy, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, 
+iCodeOfLaws, iStateReligion, iBulkTrade, iJurisprudence, iBanking, iManufacturedTrade, iWageLabor, iMining, iBronzeWorking, iInfantryTactics, iMilitaryDrill, iLogistics, iMetalCasting, 
+iScaleArmor, iIronWorking, iSteelWorking, iChainmail, iBlastFurnace, iAlchemy, iGunpowder, iPriesthood, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iReligiousLaw, iMysticism, 
+iSyncretism, iTheocracy, iWriting, iAlphabet, iMathematics, iCartography, iLiterature, iDrama, iPhilosophy, iAesthetics, iPatronage, 
+iTibetanUP, iTocharianUP, iFunanUP, iSriVijayanUP, iFreeTradeTech, iImperialismTech, iStabilityStable, 
+iStabilityUnstable, iStabilityCollapsing, iOverextension, iRomanEmpire, iPyramidsFunctionTech, iColossusFunctionTech, iTrajansColumnFunctionTech, iSuccessionTech) = range(iNumTechs) #4
 
-lStabilityTechs = [iCasteSystem, iCalendar, iAgrarianism, iPaper, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iBulkTrade, iJurisprudence, iBanking, 
-iManufacturedTrade, iWageLabor, iPriesthood, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iReligiousLaw, iMysticism, iSyncretism, iTheocracy, iWriting, 
-iAlphabet, iMathematics, iCartography, iLiterature, iDrama, iPhilosophy, iAesthetics, iPatronage, ]
+lStabilityTechs = [iCasteSystem, iCalendar, iAgrarianism, iPaper, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iBulkTrade, iJurisprudence, iBanking, iManufacturedTrade, 
+iWageLabor, iPriesthood, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iReligiousLaw, iMysticism, iSyncretism, iTheocracy, iWriting, iAlphabet, iMathematics, iCartography, 
+iLiterature, iDrama, iPhilosophy, iAesthetics, iPatronage, ]
 
 # STARTING TECHS
 
 lStartingTechs = [
 	# 0 Antigonids 19
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iMilitaryDrill, iHorsemanship, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iMilitaryDrill, iHorsemanship, ], 
 	# 1 Seleucids 19
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iConstruction, iLuxuryTrade, 
-	iCurrency, iIronWorking, iWriting, iAlphabet, iInfantryTactics, iMilitaryDrill, iSiegeEngines, iElephantTraining, iHorsemanship, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iWriting, iAlphabet, iInfantryTactics, iMilitaryDrill, iSiegeEngines, iElephantTraining, iHorsemanship, ], 
 	# 2 Egypt 19
-	[iPyramidsFunctionTech, iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, 
-	iSailing, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iHorsemanship, ], 
+	[iPyramidsFunctionTech, iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, 
+	iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, iHorsemanship, ], 
 	# 3 Carthage 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iHorsemanship, iSailing, 
-	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iHorsemanship, iSailing, iConstruction, 
+	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iSiegeEngines, iInfantryTactics, ], 
 	# 4 Mauryans 19
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
-	iIronWorking, iAstronomy, iWriting, iAlphabet, iCasteSystem, iElephantTraining, iOrganisedReligion, iMasonry, iHorticulture, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iIronWorking, 
+	iAstronomy, iWriting, iAlphabet, iCasteSystem, iElephantTraining, iOrganisedReligion, iMasonry, iHorticulture, ], 
 	# 5 Kalinka 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
-	iIronWorking, iAstronomy, iWriting, iAlphabet, iCasteSystem, iElephantTraining, iOrganisedReligion, iHorticulture, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iIronWorking, 
+	iAstronomy, iWriting, iAlphabet, iCasteSystem, iElephantTraining, iOrganisedReligion, iHorticulture, ], 
 	# 6 Qin 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iLuxuryTrade, iCurrency, 
-	iIronWorking, iAstronomy, iWriting, iInfantryTactics, iConstruction, iSiegeEngines, iFishing, iMasonry, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iLuxuryTrade, iCurrency, iIronWorking, 
+	iAstronomy, iWriting, iInfantryTactics, iConstruction, iSiegeEngines, iFishing, ], 
 	# 7 Gojoseon 15
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iIronWorking, iAstronomy, iWriting, iHorsemanship, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iIronWorking, iAstronomy, iWriting, iHorsemanship, ], 
 	# 8 Nubia 12
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, 
-	iLuxuryTrade, iWriting, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iWriting, ],
 	# 9 Saba 12
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iSailing, iAgriculture, iConstruction, iLuxuryTrade, 
-	iWriting, iCurrency, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iSailing, iAgriculture, iConstruction, iLuxuryTrade, iWriting, iCurrency, ],
 	# 10 Pandyans 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
-	iIronWorking, iAstronomy, iWriting, iAlphabet, iCasteSystem, iSailing, iHorticulture, iOrganisedReligion, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iIronWorking, 
+	iAstronomy, iWriting, iAlphabet, iCasteSystem, iSailing, iHorticulture, iOrganisedReligion, ], 
 	# 11 Pontus 16
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iInfantryTactics, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, iLuxuryTrade, 
+	iCurrency, iIronWorking, iWriting, iAlphabet, iInfantryTactics, ], 
 	# 12 Celts 11
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iAgriculture, iConstruction, iLuxuryTrade, 
-	iIronWorking, iMetalCasting, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iAgriculture, iConstruction, iLuxuryTrade, iIronWorking, iMetalCasting, ],
 	# 13 Rome 20
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, iInfantryTactics, iAstronomy, iHorsemanship, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, iInfantryTactics, iAstronomy, iHorsemanship, ], 
 	# 14 Vietnam 13
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iIronWorking, iWriting, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, iIronWorking, 
+	iWriting, ], 
 	# 15 Tocharians 13
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
-	iWriting, iAstronomy, iHorsemanship, iTocharianUP, ],
-	# 16 Bactria 20
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iHorsemanship, iSelectiveBreeding, iInfantryTactics, iSiegeEngines, iMilitaryDrill, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iWriting, iAstronomy, 
+	iHorsemanship, iTocharianUP, ],
+	# 16 Bactria 18
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iWriting, iAlphabet, iHorsemanship, iSelectiveBreeding, iInfantryTactics, ], 
 	# 17 Han 23
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iCalendar, iSiegeEngines, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, iHorticulture, iHorsemanship, iInfantryTactics, iCropRotation, iAlphabet, 
-	iAstronomy, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iCalendar, iSiegeEngines, 
+	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, iHorticulture, iHorsemanship, iInfantryTactics, iCropRotation, iAlphabet, iAstronomy, ], 
 	# 18 Satavahana 20
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, iHorticulture, iMasonry, iCalendar, iCurrency, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, iIronWorking, 
+	iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, iHorticulture, iMasonry, iCalendar, iCurrency, ], 
 	# 19 Armenia 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, 
-	iConstruction, iLuxuryTrade, iIronWorking, iWriting, iAlphabet, iCurrency, iMonarchy, iSelectiveBreeding, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, iConstruction, iLuxuryTrade, 
+	iIronWorking, iWriting, iAlphabet, iCurrency, iMonarchy, iSelectiveBreeding, ],
 	# 20 Maccabees 19
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorticulture, 
-	iConstruction, iLuxuryTrade, iIronWorking, iWriting, iAlphabet, iCodeOfLaws, iOrganisedReligion, iStateReligion, iCurrency, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorticulture, iConstruction, iLuxuryTrade, 
+	iIronWorking, iWriting, iAlphabet, iCodeOfLaws, iOrganisedReligion, iStateReligion, iCurrency, ],
 	# 21 Parthia 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, iHorseArchery, 
-	iConstruction, iLuxuryTrade, iIronWorking, iCurrency, iWriting, iAlphabet, iSelectiveBreeding, iMonarchy, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, iHorseArchery, iConstruction, 
+	iLuxuryTrade, iIronWorking, iCurrency, iWriting, iAlphabet, iSelectiveBreeding, iMonarchy, ],
 	# 22 Dacia 14
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, 
-	iLuxuryTrade, iMetalCasting, iIronWorking, iWriting, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, iMetalCasting, 
+	iIronWorking, iWriting, ],
 	# 23 Goguryeo 24
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iCalendar, iAgriculture, 
-	iHorticulture, iSailing, iNavalWarfare, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iWriting, iAlphabet, iHorsemanship, 
-	iMilitaryDrill, iInfantryTactics, iMarksmanship, iSiegeEngines, iMonarchy, iOrganisedReligion, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iCalendar, iAgriculture, iSailing, iConstruction, 
+	iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iWriting, iAlphabet, iHorsemanship, iInfantryTactics, iSiegeEngines, iMonarchy, iOrganisedReligion, ], 
 	# 24 Axum 21
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iNavalWarfare, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iMonarchy, iHorsemanship, iHorticulture, ], 
-	# 25 Kushans 20
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, 
-	iSelectiveBreeding, iHorseArchery, iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iMonarchy, iHorticulture, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iNavalWarfare, iConstruction, 
+	iLuxuryTrade, iCurrency, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iMonarchy, iHorsemanship, iHorticulture, ], 
+	# 25 Kushans 19
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, iSelectiveBreeding, iHorseArchery, 
+	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iMonarchy, ], 
 	# 26 Funan 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, 
-	iLuxuryTrade, iMetalCasting, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iHorticulture, iSailing],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
+	iMetalCasting, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iHorticulture, iSailing],
 	# 27 Jin 35
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
-	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iBureaucracy, iMarksmanship, iInfantryTactics, iSelectiveBreeding, 
-	iBridgeBuilding, iScaleArmor, iCodeOfLaws, iAgrarianism, ], 
-	# 28 Sassanids 38
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCalendar, iHorsemanship, iSelectiveBreeding, iHorseArchery, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
-	iStateReligion, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iInfantryTactics, iMarksmanship, iCavalryTactics, 
-	iMetalCasting, iScaleArmor, iMilitaryDrill, iPhilosophy, iPatronage, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, 
+	iMathematics, iLiterature, iJurisprudence, iBureaucracy, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, iScaleArmor, iCodeOfLaws, ], 
+	# 28 Sassanids 35
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, iCalendar, 
+	iHorsemanship, iSelectiveBreeding, iHorseArchery, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iIronWorking, iAstronomy, 
+	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iInfantryTactics, iMarksmanship, iCavalryTactics, 
+	iMetalCasting, iScaleArmor, ], 
 	# 29 Yamato 25
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iWriting, iHorticulture, iCalendar, iMonarchy, iMarksmanship, 
-	iMilitaryDrill, iSiegeEngines, iCropRotation, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iWriting, iHorticulture, iCalendar, iMonarchy, iMarksmanship, iMilitaryDrill, iSiegeEngines, iCropRotation, ], 
 	# 30 Gupta 36
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iMarksmanship, iAgriculture, iHorticulture, 
 	iCropRotation, iCasteSystem, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iIronWorking, iAstronomy, 
@@ -1473,123 +1363,117 @@ lStartingTechs = [
 	iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iMilitaryDrill, iLogistics, iEngineering, iScaleArmor, iInfantryTactics, iBridgeBuilding, 
 	iJurisprudence, iBureaucracy, iMetalCasting, iCropRotation, iBulkTrade], 
 	# 36 Visigoths 31
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iStateReligion, 
-	iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iStateReligion, iMetalCasting, iIronWorking, 
+	iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
 	# 38 Vandals 33
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iNavalWarfare, iArchery, 
-	iSiegeEngines, iAgriculture, iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, 
-	iCurrency, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, 
-	iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iNavalWarfare, iArchery, iSiegeEngines, iAgriculture, 
+	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iStateReligion, iMetalCasting, 
+	iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
 	# 37 Ostrogoths 32
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, 
-	iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iStateReligion, iMetalCasting, iIronWorking, 
+	iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
 	# 32 Franks 34
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, 
-	iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, 
-	iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, iCodeOfLaws, iStateReligion, 
+	iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
 	# 36 Chalukyans 43
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, 
-	iAgriculture, iHorticulture, iCalendar, iHorsemanship, iCropRotation, iCasteSystem, iSailing, iNavalWarfare, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, 
-	iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iWriting, iAlphabet, 
-	iMathematics, iLiterature, iPhilosophy, iElephantTraining, iScaleArmor, iChainmail, iJurisprudence, iReligiousLaw, iPatronage, iMilitaryDrill, iInfantryTactics, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, iAgriculture, 
+	iHorticulture, iCalendar, iHorsemanship, iCropRotation, iCasteSystem, iSailing, iNavalWarfare, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, 
+	iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, 
+	iScaleArmor, iChainmail, iJurisprudence, iReligiousLaw, iPatronage], 
 	# 34 Lombards 33
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
-	iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, 
+	iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCavalryTactics, iScaleArmor, iChainmail, ], 
 	# 35 Gokturks 29
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, 
-	iSelectiveBreeding, iHorseArchery, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, 
-	iAlphabet, iTheStirrup, iMarksmanship, iCavalryTactics, iCalendar, iHorticulture, iScaleArmor, iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, iSelectiveBreeding, 
+	iHorseArchery, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iTheStirrup, iMarksmanship, 
+	iCavalryTactics, iCalendar, iHorticulture, iScaleArmor, iChainmail, ], 
 	# 36 Srivajaya 27
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iNavalWarfare, iSiegeEngines, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iWriting, iAlphabet, iHorticulture, 
-	iCropRotation, iCalendar, iOrganisedReligion, iMonarchy, iSternRudder, iSriVijayanUP, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iNavalWarfare, iSiegeEngines, 
+	iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iWriting, iAlphabet, iHorticulture, iCropRotation, iCalendar, iOrganisedReligion, iMonarchy, 
+	iSternRudder, iSriVijayanUP, ], 
 	# 37 Khazars 31
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, 
-	iSelectiveBreeding, iHorseArchery, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, 
-	iAlphabet, iTheStirrup, iMarksmanship, iSerfdom, iCavalryTactics, iCalendar, iHorticulture, iMonarchy, iCropRotation, iScaleArmor, iChainmail, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iArchery, iAgriculture, iHorsemanship, iSelectiveBreeding, iHorseArchery, 
+	iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iTheStirrup, iMarksmanship, iSerfdom, 
+	iCavalryTactics, iCalendar, iHorticulture, iMonarchy, iCropRotation, iScaleArmor, iChainmail, ], 
 	# Tibet 29
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, 
-	iSelectiveBreeding, iHorticulture, iCalendar, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, 
-	iAlphabet, iStateReligion, iMonasticism, iMarksmanship, iTheStirrup, iHorseArchery, iCavalryTactics, iScaleArmor, iTibetanUP, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iHorsemanship, iSelectiveBreeding, 
+	iHorticulture, iCalendar, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iStateReligion, iMonasticism, 
+	iMarksmanship, iTheStirrup, iHorseArchery, iCavalryTactics, iScaleArmor, iTibetanUP, ], 
 	# Tang 49
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iSailing, iNavalWarfare, iConstruction, iEngineering, iLuxuryTrade, iMonarchy, 
-	iVassalage, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, 
-	iCartography, iLiterature, iPhilosophy, iCavalryTactics, iTheStirrup, iBridgeBuilding, iMarksmanship, iInfantryTactics, iMilitaryDrill, iScaleArmor, iChainmail, 
-	iJurisprudence, iBureaucracy, iPaper, iBulkTrade, iAgrarianism, iStateReligion, iLogistics, ],  
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iSailing, iNavalWarfare, iConstruction, iEngineering, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
+	iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iCartography, iLiterature, iPhilosophy, iCavalryTactics, 
+	iTheStirrup, iBridgeBuilding, iMarksmanship, iInfantryTactics, iMilitaryDrill, iScaleArmor, iChainmail, iJurisprudence, iBureaucracy, iPaper, 
+	iBulkTrade, iAgrarianism, ],  
 	# Arabs 44
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, 
-	iAgriculture, iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iSailing, iNavalWarfare, iConstruction, iEngineering, 
-	iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, 
-	iMonasticism, iTheology, iMysticism, iWriting, iAlphabet, iMathematics, iTheocracy, iLiterature, iPhilosophy, iCavalryTactics, iBridgeBuilding, iScaleArmor, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, iAgriculture, 
+	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iSailing, iNavalWarfare, iConstruction, iEngineering, iLuxuryTrade, iMonarchy, iVassalage, 
+	iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iMysticism, iWriting, iAlphabet, 
+	iMathematics, iTheocracy, iLiterature, iPhilosophy, iCavalryTactics, iBridgeBuilding, iScaleArmor, ], 
 	# Xiongnu
-	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iLuxuryTrade, iIronWorking, 
-	iCurrency, iSelectiveBreeding, iFishing, iConstruction, ],
+	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, iCurrency, 
+	iSelectiveBreeding, iFishing, iConstruction, ],
 	# Numidia
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iLuxuryTrade, 
-	iIronWorking, iCurrency, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iLuxuryTrade, iIronWorking, iCurrency, ], 
 	# Scythians
-	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, 
-	iIronWorking, iCurrency, iSelectiveBreeding, iFishing, iConstruction, ],
+	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, iCurrency, 
+	iSelectiveBreeding, iFishing, iConstruction, ],
 	# NanYue 15
-	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iWriting, ], 
+	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iCurrency, iIronWorking, iWriting, ], 
 	# Sungas
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, iElephantTraining, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iCurrency, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, iElephantTraining, ], 
 	# Macedon
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iWriting, iAlphabet, iAstronomy, iSiegeEngines, iInfantryTactics, iMilitaryDrill, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iSailing, iAgriculture, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iWriting, iAlphabet, iAstronomy, iSiegeEngines, iInfantryTactics, iMilitaryDrill, ], 
 	# Makuria
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iNavalWarfare, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet,  
-	iMarksmanship, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iNavalWarfare, iConstruction, 
+	iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet,  iMarksmanship, ], 
 	# Himyarites
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iNavalWarfare, iConstruction, iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iNavalWarfare, iConstruction, 
+	iLuxuryTrade, iCurrency, iCodeOfLaws, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, ], 
 	# Shu
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
-	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, 
-	iScaleArmor, iCodeOfLaws, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, 
+	iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, iScaleArmor, iCodeOfLaws, ], 
 	# Wu
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, 
-	iOrganisedReligion, iWriting, iAlphabet, iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, 
-	iScaleArmor, iCodeOfLaws, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, iMetalCasting, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, 
+	iMathematics, iLiterature, iJurisprudence, iMarksmanship, iInfantryTactics, iSelectiveBreeding, iBridgeBuilding, iScaleArmor, iCodeOfLaws, ], 
 	# Hepthalites
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, 
-	iIronWorking, iCurrency, iSelectiveBreeding, iMarksmanship, iScaleArmor, iCavalryTactics, iTheStirrup, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, iCurrency, 
+	iSelectiveBreeding, iMarksmanship, iScaleArmor, iCavalryTactics, iTheStirrup, ],
 	# Xianbei
-	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, 
-	iIronWorking, iCurrency, iSelectiveBreeding, iFishing, iConstruction, ],
+	[iStabilityUnstable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, iCurrency, 
+	iSelectiveBreeding, iFishing, iConstruction, ],
 	# Huns
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, 
-	iLuxuryTrade, iIronWorking, iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, 
+	iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
 	# Avars
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, 
-	iLuxuryTrade, iIronWorking, iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, 
+	iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
 	# Rouran
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, 
-	iLuxuryTrade, iIronWorking, iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iArchery, iAgriculture, iHorsemanship, iHorseArchery, iLuxuryTrade, iIronWorking, 
+	iCurrency, iSelectiveBreeding, iMarksmanship, iTheStirrup, ], 
 	# Vakataka
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, 
-	iAgriculture, iHorticulture, iCropRotation, iCasteSystem, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, 
-	iCodeOfLaws, iIronWorking, iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, iAgriculture, 
+	iHorticulture, iCropRotation, iCasteSystem, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iIronWorking, 
+	iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, ], 
 	# Song
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, 
-	iAgriculture, iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
-	iStateReligion, iIronWorking, iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, iAgriculture, 
+	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iIronWorking, iAstronomy, 
+	iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, ], 
 	# Magadha
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, 
-	iConstruction, iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iCurrency, iIronWorking, iAstronomy, iOrganisedReligion, iWriting, iAlphabet, iCasteSystem, ], 
 	# Rebel Rome
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, iLuxuryTrade, iCurrency, 
+	iIronWorking, iAstronomy, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, ], 
 	# Pallavas
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iMarksmanship, iAgriculture, 
 	iHorticulture, iCalendar, iHorsemanship, iCropRotation, iCasteSystem, iElephantTraining, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, 
@@ -1599,25 +1483,20 @@ lStartingTechs = [
 	iHorticulture, iCalendar, iHorsemanship, iCropRotation, iCasteSystem, iElephantTraining, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iCurrency, 
 	iStateReligion, iMetalCasting, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, ], 
 	# 32 Saxons
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, 
-	iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, 
-	iCodeOfLaws, iMetalCasting, iIronWorking, iSteelWorking, iWriting, ], 
-	# 30 Harsha 36
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iMarksmanship, iAgriculture, 
-	iHorticulture, iCropRotation, iCasteSystem, iCalendar, iHorsemanship, iSailing, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, 
-	iStateReligion, iIronWorking, iAstronomy, iOrganisedReligion, iMonasticism, iWriting, iAlphabet, iMathematics, iLiterature, iPhilosophy, iElephantTraining, 
-	iMetalCasting, iSelectiveBreeding, iScaleArmor, iSteelWorking, iChainmail, iSiegeEngines, iPatronage, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iAgriculture, iHorticulture, 
+	iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iConstruction, iLuxuryTrade, iMonarchy, iVassalage, iSerfdom, iCurrency, iCodeOfLaws, iMetalCasting, 
+	iIronWorking, iSteelWorking, iWriting, ], 
 	# Western Rome
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, 
-	iLuxuryTrade, iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, ], 
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iAgriculture, iSailing, iConstruction, iLuxuryTrade, 
+	iCurrency, iIronWorking, iAstronomy, iWriting, iAlphabet, iMilitaryDrill, iSiegeEngines, ], 
 	# Moors
 	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iSiegeEngines, iMarksmanship, 
-	iAgriculture, iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iSailing, iNavalWarfare, iConstruction, iEngineering, 
-	iLuxuryTrade, iMonarchy, iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, 
-	iMonasticism, iTheology, iMysticism, iWriting, iAlphabet, iMathematics, iTheocracy, iLiterature, iPhilosophy, iCavalryTactics, iScaleArmor, ], 
+	iAgriculture, iHorticulture, iCropRotation, iCalendar, iHorsemanship, iSelectiveBreeding, iTheStirrup, iSailing, iNavalWarfare, iConstruction, iEngineering, iLuxuryTrade, iMonarchy, 
+	iVassalage, iCurrency, iCodeOfLaws, iStateReligion, iMetalCasting, iIronWorking, iSteelWorking, iAstronomy, iOrganisedReligion, iMonasticism, iTheology, iMysticism, iWriting, iAlphabet, 
+	iMathematics, iTheocracy, iLiterature, iPhilosophy, iCavalryTactics, iScaleArmor, ], 
 	# 26 Champa 18
-	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, 
-	iLuxuryTrade, iMetalCasting, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iHorticulture, iSailing, iFunanUP, ],
+	[iStabilityStable, iFreeTradeTech, iAnimalHusbandry, iPottery, iMining, iPriesthood, iBronzeWorking, iMasonry, iFishing, iArchery, iAgriculture, iConstruction, iLuxuryTrade, 
+	iMetalCasting, iIronWorking, iOrganisedReligion, iWriting, iAlphabet, iHorticulture, iSailing, iFunanUP, ],
 	
  ]
 
@@ -1626,7 +1505,7 @@ lStartingTechs = [
 
 # SPECIALISTS
 
-iSettledSlave = 16
+iSettledSlave = 13
 
 # FEATURES
 iNumFeatures = 9
@@ -1645,7 +1524,7 @@ iMarsh, ) = range (iNumFeatures)
  
 # UNITS
 
-iNumUnits = 171
+iNumUnits = 167
 (iSettler, 
 iWorker, 
 iSlave, 
@@ -1664,10 +1543,6 @@ iHellenicMissionary,
 iTaoistMissionary, 
 iJainMissionary, 
 iChristianMissionary, 
-iCatholicMissionary, 
-iArianMissionary, 
-iMonophysiteMissionary, 
-iNestorianMissionary, 
 iManicheanMssionary, 
 iIslamicMissionary, 
 iApostle, 
@@ -1788,8 +1663,8 @@ iBedouinCamelRider,
 iCamelArcher, 
 iWarElephant,
 iDeccanElephantRider,
-iArmoredElephant,
 iIntoxicatedElephant,
+iArmoredElephant,
 iCatapult, 
 iTrebuchet, 
 iWorkBoat, 
@@ -1804,7 +1679,7 @@ iBalangay,
 iGreatProphet, 
 iGreatProphet2, 
 iGreatProphet3, 
-iGreatArtist, 
+iGreatArist, 
 iGreatArtist2,
 iGreatScholar, 
 iGreatScholar2, 
@@ -1869,10 +1744,10 @@ iRoundship ]
 
 # RESOURCES
 
-iNumResources = 50
-(iHorse, iIron, iCopper, iMarble, iStone, iClam, iCrab, iCow, iDeer, iFish, iPig, iRice, iSheep, iWheat, iBarley, 
-iDye, iFur, iGold, iIncense, iSilk, iSilver, iPepper, iSugar, iWine, iHemp, iCotton, iHoney, iSalt, iOlives, 
-iCitrus, iDates, iGems, iPearls, iIvory, iCinnamon, iSorghum, iCamel, iTimber, iTea, iHellenicWisdom, iJainWisdom, iHinduWisdom, 
+iNumResources = 55
+(iHorse, iIron, iCopper, iSulfur, iMarble, iStone, iClam, iCrab, iCow, iDeer, iFish, iPig, iRice, iSheep, iWheat, iBarley, 
+iDye, iFur, iGold, iIncense, iSilk, iSilver, iPepper, iSugar, iWine, iWhale, iHemp, iCotton, iHoney, iSalt, iOlives, 
+iCitrus, iApples, iDates, iGems, iPearls, iIvory, iOpium, iCinnamon, iSorghum, iCharcoal, iCamel, iTimber, iTea, iHellenicWisdom, iJainWisdom, iHinduWisdom, 
 iBuddhistWisdom, iTaoistWisdom, iConfucianWisdom, iZoroastrianWisdom, iJewishWisdom, iChristianWisdom, iManicheanWisdom, iIslamicWisdom) = range(iNumResources)
 
 # IMPROVEMENTS
@@ -1896,7 +1771,7 @@ iWaterRoute = 25
 
 # BUILDINGS
 
-iNumBuildings = 207
+iNumBuildings = 186
 (iPalace, iForbiddenPalace, #1
 iInvasionProject, #2
 iWalls, iCelticDun, iMaccabeeKotel, #5
@@ -1905,7 +1780,6 @@ iBarracks, iStratopedon, iArmyCamp, #10
 iArcheryRange, iNubianBowyer, #12
 iStable, iParthianHorseBreeder, #14
 iGranary, #15
-iStockyard, 
 iAqueduct, iFunanCanal, iPandyanKalyani, #18
 iPublicBaths, #19
 iHospital, iGuptaPharmacist, #21
@@ -1936,10 +1810,6 @@ iHinduTemple, iHinduCathedral, iHinduMonastery, iHinduReliquary, iHinduShrine, #
 iTaoistTemple, iTaoistCathedral, iTaoistMonastery, iTaoistReliquary, iTaoistShrine, #108
 iJainTemple, iJainCathedral, iJainMonastery, iJainReliquary, iJainShrine, #113
 iChristianTemple, iChristianCathedral, iChristianMonastery, iChristianReliquary, iChristianShrine, #118
-iCatholicTemple, iCatholicCathedral, iCatholicMonastery, iCatholicReliquary, iCatholicShrine, #118
-iArianTemple, iArianCathedral, iArianMonastery, iArianReliquary, iArianShrine, #118
-iMonophysiteTemple, iMonophysiteCathedral, iMonophysiteMonastery, iMonophysiteReliquary, iMonophysiteShrine, #118
-iNestorianTemple, iNestorianCathedral, iNestorianMonastery, iNestorianReliquary, iNestorianShrine, #118
 iManicheanTemple, iManicheanCathedral, iManicheanMonastery, iManicheanReliquary, iManicheanShrine, #123
 iIslamicTemple, iIslamicCathedral, iIslamicMonastery, iIslamicReliquary, iIslamicShrine, #128
 iHellenicAcademy, iJainAcademy, iHinduAcademy, iBuddhistAcademy, iTaoistAcademy, iConfucianAcademy, iZoroastrianAcademy, iJewishAcademy, iChristianAcademy, iManicheanAcademy, iIslamicAcademy, # 139
@@ -1947,22 +1817,21 @@ iPlague, #140
 iGrainMarket, iFishMarket, iClothMarket, iSpiceMarket, iArtisansQuarter, iTradesmensQuarter, #146
 iHeroicEpic, iNationalEpic, iMilitaryAcademy, iDenOfSpies, iRoyalTomb, iRoyalMint, iMedicalSchool, 
 iKhajuraho, iPyramids, iTempleOfArtemis, iHangingGardens, iIshtarGate, iParthenon, iColossus, iGreatWall, iTerracottaArmy, iGreatLighthouse, iGreatLibrary, iTrajansColumn, #165
-iColosseum, iArchimedesWorkshop, iMaolingMausoleum, iSpiralMinaret, iStCatherinesMonastery, iTombOfKhalid, iDhamekStupa, iNalandaUniversity, #173
+iColosseum, iArchimedesWorkshop, iUnitedNations, iSpiralMinaret, iHouseOfWisdom, iTombOfKhalid, iDhamekStupa, iNalandaUniversity, #173
 iHagiaSophia, iBamyanBuddha, iDomeOfTheRock, iUmayyadMosque, iIronPillar, iQalehDokhtar, iGrandCanal, #180
 iBorobudur, iTheodosianWalls, iShwedagonPaya, #183
 iPyramidsFunctionBuilding, iColossusFunctionBuilding) = range(iNumBuildings)
 
 # REGIONS for RFC RiseAndFall, RFC Stability, RFC AIWars, MEM Religions and MEM Regional Recruitment
 
-iNumRegions = 135
-(rNoRegion, rCaledonia, rHibernia, rBritannia, rScania, rAquitania, rGaul, rSeptimania, rIberia, rGermania, rNItaly, rSicily, rGreece, rIllyricum, rThrace, rDacia, 
-rSlavia, rAsia, rArmenia, rSyria, rMesopotamia, rArabia, rArabiaFelix, rJudea, rEgypt, rLibya, rAfrica, rMauretania, rNubia, rAxum, rPunt, rSahara, rAethiopia, rGuinea, 
-rMedia, rPersia, rParthia, rArachosia, rSogdiana, rSindh, rGandhara, rPunjab, rThar, rMagadha, rBangala, rKalinka, rKerala, rTamilNadu, rAvanti, rDeccan, rLanka, rTibet, 
-rTarim, rBirma, rFunan, rAnnam, rMalaya, rSumatra, rJava, rBorneo, rPhilipines, rChu, rQi, rYan, rZhao, rWei, rQin, rHan, rNanYue, rNepal, rPamir, rFerghana, rJin, 
-rGoguryeo, rYamato, rEmishi, rHokkaido, rScythianSteppe, rSarmatianSteppe, rMongolianSteppe, rSiberia, rCaucasus, rIslands, rAustralia, rTaiwan, rAtlanticOcean, 
-rNorthSea, rBalticSea, rMediterraneanSea, rBlackSea, rCaspianSea, rAralSea, rRedSea, rPersianGulf, rIndianOcean, rSouthChinaSea, rYellowSea, rSeaOfJapan, rPacificOcean, 
-rBactria, rMargiana, rCrimea, rSaurashtra, rShu, rBa, rMinYue, rGansu, rMakan, rBuyeo, rBaetica, rLusitania, rSItaly, rSulawesi, rPapua, rWu, rMaldives, rCyprus, rCrete, 
-rRhodes, rSardinia, rCorsica, rMallorca, rPontus, rCappadocia, rAndhra, rNumidia, rMalta, rChampa, rNanzhao, rAssam, rQinghai, rMacedonia, rMoesia, rGedrosia, rBharat) = range(iNumRegions)
+iNumRegions = 134
+(rNoRegion, rCaledonia, rHibernia, rBritannia, rScania, rAquitania, rGaul, rSeptimania, rIberia, rGermania, rNItaly, rSicily, rGreece, rIllyricum, rThrace, rDacia, rSlavia, rAsia, rArmenia, 
+rSyria, rMesopotamia, rArabia, rArabiaFelix, rJudea, rEgypt, rLibya, rAfrica, rMauretania, rNubia, rAxum, rPunt, rSahara, rAethiopia, rGuinea, rMedia, rPersia, rParthia, rArachosia, rSogdiana, 
+rSindh, rGandhara, rPunjab, rThar, rMagadha, rBangala, rKalinka, rKerala, rTamilNadu, rAvanti, rDeccan, rLanka, rTibet, rTarim, rBirma, rFunan, rAnnam, rMalaya, rSumatra, rJava, rBorneo, 
+rPhilipines, rChu, rQi, rYan, rZhao, rWei, rQin, rHan, rNanYue, rNepal, rPamir, rFerghana, rJin, rGoguryeo, rYamato, rEmishi, rHokkaido, rScythianSteppe, rSarmatianSteppe, rMongolianSteppe, 
+rSiberia, rCaucasus, rIslands, rAustralia, rTaiwan, rAtlanticOcean, rNorthSea, rBalticSea, rMediterraneanSea, rBlackSea, rCaspianSea, rAralSea, rRedSea, rPersianGulf, rIndianOcean, 
+rSouthChinaSea, rYellowSea, rSeaOfJapan, rPacificOcean, rBactria, rMargiana, rCrimea, rSaurashtra, rShu, rBa, rMinYue, rGansu, rMakan, rBuyeo, rBaetica, rLusitania, rSItaly, rSulawesi, rPapua, 
+rWu, rMaldives, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca, rPontus, rCappadocia, rAndhra, rNumidia, rMalta, rChampa, rNanzhao, rAssam, rQinghai, rMacedonia, rMoesia, rGedrosia) = range(iNumRegions)
 
 lMediterraneanRegions = [rMacedonia, rBaetica, rIberia, rMallorca, rNumidia, rAfrica, rLibya, rEgypt, rJudea, rSyria, rCappadocia, rAsia, rCyprus, rRhodes, rThrace, rCrete, rGreece, rIllyricum, rNItaly, rSItaly, rSicily, rSeptimania, rCorsica, rSardinia]
 lWesternMediterraneanRegions = [rBaetica, rIberia, rMallorca, rNumidia, rAfrica, rIllyricum, rNItaly, rSItaly, rSicily, rSeptimania, rCorsica, rSardinia]
@@ -2012,7 +1881,7 @@ lCoreRegions = [
 	[rArachosia, rSogdiana, rBactria, rGandhara], # Kushans
 	[rFunan], # Funan
 	[rHan, rQin, rZhao], # Jin
-	[rPersia, rMesopotamia], # Sassanids
+	[rPersia, rMedia, rMesopotamia], # Sassanids
 	[rYamato], # Yamato
 	[rMagadha], # Gupta
 	[rThrace, rAsia, rGreece, rCappadocia, rPontus, rMacedonia], # Byzantines
@@ -2050,7 +1919,6 @@ lCoreRegions = [
 	[rAndhra], # Pallavas
 	[rTamilNadu], # Kalabhras
 	[rGermania], # Saxons
-	[rBharat], # Harsha
 	[rNItaly, rSItaly], # Western Rome
 	[rBaetica, rMauretania, rNumidia], # Moors
 	[rChampa], # Champa
@@ -2062,7 +1930,7 @@ lNormalRegions = [
 	[rAsia, rGreece, rJudea, rEgypt, rMedia, rArmenia, rPersia, rArachosia, rCyprus, rCrete, rRhodes, rPontus, rCappadocia, rParthia, rMargiana, rMacedonia, rGedrosia], # Seleucids
 	[rNubia, rJudea, rLibya, rCyprus, rCrete, rRhodes, rSyria, rCappadocia], # Egypt
 	[rBaetica, rSicily, rMauretania, rSardinia, rCorsica, rMallorca, rLibya, rNumidia, rIberia, rLusitania, rMalta], # Carthage
-	[rGandhara, rSindh, rAvanti, rKalinka, rArachosia, rBangala, rAndhra, rPunjab, rGedrosia, rBharat], # Mauryans
+	[rGandhara, rSindh, rAvanti, rKalinka, rArachosia, rBangala, rAndhra, rPunjab, rGedrosia], # Mauryans
 	[rDeccan, rAvanti, rTamilNadu, rAndhra], # Kalinka
 	[rZhao, rShu, rBa, rYan, rChu, rQi, rMinYue, rNanYue, rWu], # Qin
 	[rGoguryeo, rYan, rJin], # Gojoseon
@@ -2076,7 +1944,7 @@ lNormalRegions = [
 	[rFerghana, rGansu, rSogdiana], # Tocharians
 	[rGandhara, rArachosia, rPunjab, rSindh, rSogdiana, rFerghana, rGedrosia], # Bactria
 	[rZhao, rYan, rNanYue, rAnnam, rShu, rBa, rMinYue, rGansu, rQin, rChu, rTarim, rGoguryeo, rBuyeo], # Han
-	[rKerala, rSaurashtra, rAndhra, rMagadha, rAvanti, rBharat], # Satavahana
+	[rKerala, rSaurashtra, rAndhra, rMagadha, rAvanti], # Satavahana
 	[rCaucasus, rSyria, rCappadocia], # Armenia
 	[rSyria, rArabia, ], # Maccabees
 	[rMesopotamia, rArmenia, rSyria, rMargiana, rSindh, rArachosia, rBactria, rGedrosia], # Parthia
@@ -2086,9 +1954,9 @@ lNormalRegions = [
 	[rSindh, rPunjab, rMagadha, rMargiana, rParthia, rSaurashtra, rFerghana, rGedrosia], # Kushans
 	[rBirma, rAnnam, rChampa], # Funan
 	[rYan, rQi, rChu, rWu, rBa, rNanYue], # Jin
-	[rParthia, rArmenia, rSyria, rJudea, rEgypt, rSogdiana, rAsia, rArmenia, rMargiana, rBactria, rArachosia, rGedrosia, rMedia], # Sassanids
+	[rParthia, rArmenia, rSyria, rJudea, rEgypt, rSogdiana, rAsia, rArmenia, rMargiana, rBactria, rArachosia, rGedrosia], # Sassanids
 	[rEmishi], # Yamato
-	[rPunjab, rDeccan, rKalinka, rAvanti, rAndhra, rBangala, rBharat], # Gupta
+	[rPunjab, rDeccan, rKalinka, rAvanti, rAndhra, rBangala], # Gupta
 	[rSyria, rMoesia, rJudea, rEgypt, rLibya, rCyprus, rCrete, rRhodes, rSardinia, rCorsica, rMallorca, rIllyricum], # Byzantines
 	[rLusitania, rBaetica, rGaul, rSeptimania, rMallorca], # Visigoths
 	[rMauretania, rSicily, rAfrica, rMallorca, rSardinia], # Vandals
@@ -2096,7 +1964,7 @@ lNormalRegions = [
 	[rSeptimania, rGermania, rNItaly, rSardinia, rCorsica, rMallorca, rAquitania], # Franks
 	[rAvanti, rKerala, rAndhra], # Chalukyans
 	[rSItaly, rSicily, rIllyricum, rGermania, rSeptimania], # Lombards
-	[rTarim, rGansu, rYan, rZhao, rBuyeo, rSogdiana, rFerghana], # Gokturks
+	[rTarim, rGansu, rYan, rZhao, rBuyeo, rSogdiana], # Gokturks
 	[rBorneo, rMalaya], # Srivajaya
 	[rCaucasus, rArmenia, rDacia, rCrimea, rSarmatianSteppe], # Khazars
 	[rNepal, rShu, rGansu, rBirma], # Tibet
@@ -2106,7 +1974,7 @@ lNormalRegions = [
 	[rAfrica, rLibya], # Numidia
 	[rArachosia, rBactria, rAvanti, rPunjab, rMargiana, rSogdiana, rGedrosia], # Scythians
 	[rChu, rWu, rAnnam], # Nan Yue
-	[rBangala, rPunjab, rAvanti, rKalinka, rBharat], # Sungas
+	[rBangala, rPunjab, rAvanti, rKalinka], # Sungas
 	[rThrace, rAsia, rSItaly], # Macedon
 	[rEgypt, rAxum], # Makuria
 	[rArabia, rAxum, rMakan], # Himyarites
@@ -2124,7 +1992,6 @@ lNormalRegions = [
 	[rKalinka, rTamilNadu, rMagadha, rDeccan], # Pallavas
 	[rKerala, rDeccan, rAndhra], # Kalabhras
 	[rGaul, rScania, rNItaly, rIllyricum], # Saxons
-	[rMagadha, rAvanti, rGandhara], # Harsha
 	[rAfrica, rBaetica, rIllyricum, rIberia, rLusitania, rSicily, rSardinia, rCorsica, rMallorca, rNumidia, rSeptimania, rAquitania, rGaul], # Western Rome
 	[rSeptimania, rAquitania, rAfrica, rSicily], # Moors
 	[rFunan], # Champa
@@ -2168,7 +2035,7 @@ lBroaderRegions = [
 	[rSItaly, rLibya, rCorsica], # Vandals
 	[rAsia, rGermania, rGaul, rAquitania], # Ostrogoths
 	[rIberia, rSItaly, rIllyricum], # Franks
-	[rMagadha, rSaurashtra, rPunjab, rTamilNadu, rBharat], # Chalukyans
+	[rMagadha, rSaurashtra, rPunjab, rTamilNadu], # Chalukyans
 	[rGaul, rAquitania, rCorsica, rSardinia], # Lombards
 	[rScythianSteppe, rBactria, rMargiana, rParthia], # Gokturks
 	[rBirma, rFunan, rLanka, rBangala, rChampa], # Srivajaya
@@ -2178,7 +2045,7 @@ lBroaderRegions = [
 	[rCappadocia, rBaetica, rIberia, rLusitania, rPontus, rAsia, rSogdiana, rArmenia, rCaucasus], # Arabs
 	[], # Xiongnu
 	[rAfrica, rLibya], # Numidia
-	[rMagadha, rDeccan, rPersia, rFerghana, rSogdiana, rParthia, rBharat], # Scythians
+	[rMagadha, rDeccan, rPersia, rFerghana, rSogdiana, rParthia], # Scythians
 	[rChu, rWu, rAnnam], # Nan Yue
 	[rGandhara, rSindh, rSaurashtra, rAndhra, rKerala, rTamilNadu], # Sungas
 	[rThrace, rAsia, rSItaly], # Macedon
@@ -2198,7 +2065,6 @@ lBroaderRegions = [
 	[rKalinka, rTamilNadu, rMagadha, rDeccan], # Pallavas
 	[rKerala, rDeccan, rAndhra], # Kalabhras
 	[], # Saxons
-	[rSindh, rBangala, rSaurashtra, rDeccan], # Harsha
 	[rBritannia, rGermania], # Western Rome
 	[rLibya, rSItaly], # Moors
 	[rAnnam, rMalaya], # Champa
@@ -2236,7 +2102,7 @@ lTargetRegions = [
 	[rZhao, rNanYue, rAnnam, rChu, rWu], # Jin
 	[rPersia, rMesopotamia, rMedia, rParthia, rMargiana, rArmenia, rArachosia, rSogdiana, rAsia, rSyria, rJudea, rEgypt, rCappadocia, rPontus], # Sassanids
 	[rEmishi], # Yamato
-	[rBangala, rPunjab, rDeccan, rKalinka, rSindh, rAvanti, rSaurashtra, rBharat], # Gupta
+	[rBangala, rPunjab, rDeccan, rKalinka, rSindh, rAvanti, rSaurashtra], # Gupta
 	[rAfrica, rSicily, rSItaly, rIllyricum], # Byzantines
 	[rLusitania, rBaetica, rGaul, rAquitania], # Visigoths
 	[rMauretania, rSicily], # Vandals
@@ -2272,7 +2138,6 @@ lTargetRegions = [
 	[], # Pallavas
 	[], # Kalabhras
 	[rGaul], # Saxons
-	[], # Harsha
 	[rSItaly, rNItaly, rSicily, rSeptimania, rIllyricum, rAfrica, rIberia, rSeptimania, rGaul, rSardinia, rCorsica, rMallorca], # Western Rome
 	[], # Moors
 	[], # Champa
@@ -2285,9 +2150,9 @@ lRevealRegions = [
 	[rSyria, rMesopotamia, rAsia, rGreece, rJudea, rEgypt, rMedia, rArmenia, rPersia, rArachosia, rGedrosia, rMargiana, rParthia, rCyprus, rCrete, rThrace, rPontus, rCappadocia, rRhodes, rMediterraneanSea], # Seleucids
 	[rArabia, rEgypt, rLibya, rJudea, rSyria, rMesopotamia, rAsia, rGreece, rNubia, rCyprus, rCrete, rThrace, rMediterraneanSea, rRedSea], # Egypt
 	[rAfrica, rIberia, rSicily, rMauretania, rLibya, rEgypt, rJudea, rSyria, rAsia, rGreece, rSicily, rIberia, rSeptimania, rSItaly, rBaetica, rMallorca, rCorsica, rSardinia, rMediterraneanSea], # Carthage
-	[rMagadha, rPunjab, rGandhara, rSindh, rAvanti, rKalinka, rArachosia, rGedrosia, rBangala, rBharat], # Mauryans
+	[rMagadha, rPunjab, rGandhara, rSindh, rAvanti, rKalinka, rArachosia, rGedrosia, rBangala], # Mauryans
 	[rDeccan, rMagadha, rTamilNadu, rKerala, rKalinka], # Kalinka
-	[rGansu, rQin, rShu, rHan, rZhao, rBa, rQi, rYan], # Qin
+	[rGansu, rQin, rShu, rHan, rZhao, rBa, rQi], # Qin
 	[rGoguryeo, rBuyeo, rYan], # Gojoseon
 	[rNubia, rAxum, rEgypt], # Nubia
 	[rArabiaFelix, rRedSea], # Saba
@@ -2308,13 +2173,13 @@ lRevealRegions = [
 	[rAxum, rNubia, rPunt, rArabiaFelix, rRedSea], # Axum
 	[rSogdiana, rGandhara, rArachosia, rGedrosia, rSindh, rPunjab, rFerghana, rTarim, rMargiana, rBactria], # Kushans
 	[rFunan, rAnnam, rChampa], # Funan
-	[rHan, rChu, rQin, rQi, rZhao, rYan, rNanYue, rAnnam, rShu, rBa, rWu, rMinYue], # Jin
+	[rHan, rChu, rQin, rQi, rZhao, rYan, rNanYue, rAnnam, rShu, rBa, rWu], # Jin
 	[rPersia, rMedia, rArachosia, rGedrosia, rMesopotamia, rParthia, rArmenia, rSyria, rJudea, rEgypt, rSogdiana, rMargiana, rSindh], # Sassanids
 	[rEmishi, rYamato, rJin], # Yamato
-	[rMagadha, rBangala, rPunjab, rDeccan, rKalinka, rSindh, rAvanti, rBharat], # Gupta
+	[rMagadha, rBangala, rPunjab, rDeccan, rKalinka, rSindh, rAvanti], # Gupta
 	[rMacedonia, rNItaly, rSItaly, rSicily, rGreece, rAsia, rIllyricum, rDacia, rThrace, rSyria, rJudea, rMesopotamia, rEgypt, rLibya, rAfrica, rMauretania, rIberia, rSeptimania, rAquitania, rGaul, rArmenia, rCorsica, rSardinia, rCrete, rCyprus, rMediterraneanSea, rBlackSea, rCappadocia], # Byzantines
 	[rIberia, rSeptimania, rNItaly, rBaetica, rLusitania], # Visigoths
-	[rIberia, rBaetica, rAfrica, rSicily, rSardinia, rMallorca, rMauretania], # Vandals
+	[rIberia, rBaetica, rAfrica, rSicily, rSardinia, rMallorca], # Vandals
 	[rIllyricum, rDacia, rNItaly, rSItaly, rThrace], # Ostrogoths
 	[rGaul, rAquitania, rSeptimania, rGermania, rNItaly, rIberia], # Franks
 	[rAvanti, rDeccan, rKerala, rTamilNadu, rAndhra, rKalinka, rMagadha], # Chalukyans
@@ -2322,7 +2187,7 @@ lRevealRegions = [
 	[rMongolianSteppe, rSarmatianSteppe, rTarim, rGansu, rZhao, rYan, rBuyeo], # Gokturks
 	[rSumatra, rMalaya, rJava, rBorneo], # Srivajaya
 	[rScythianSteppe, rCaucasus, rArmenia, rDacia, rCrimea, rSarmatianSteppe], # Khazars
-	[rTibet, rShu, rBirma, rQinghai, rTarim, rAssam], # Tibet
+	[rTibet, rShu, rBirma, rQinghai, rTarim], # Tibet
 	[rHan, rChu, rQin, rQi, rZhao, rYan, rNanYue, rAnnam, rWu, rBa, rShu, rGansu, rMinYue], # Tang
 	[rArabia, rSyria, rMesopotamia, rJudea, rEgypt, rArabiaFelix, rRedSea], # Arabs
 	[rMongolianSteppe, rBuyeo, rYan, rZhao, rGansu, rQin, rTarim], # Xiongnu
@@ -2347,7 +2212,6 @@ lRevealRegions = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[rPunjab, rMagadha, rAvanti, rSaurashtra, rBharat], # Harsha
 	[], # Western Rome
 	[], # Moors
 	[], # Champa
@@ -2385,7 +2249,7 @@ lSpecialRegions = [
 	[], # Sassanids
 	[], # Yamato
 	[rQi, rYan], # Jin
-	[rBharat], # Gupta
+	[], # Gupta
 	[], # Byzantines
 	[], # Visigoths
 	[], # Vandals
@@ -2397,7 +2261,7 @@ lSpecialRegions = [
 	[], # Srivajaya
 	[], # Khazars
 	[], # Tibet
-	[rQi], # Tang
+	[], # Tang
 	[], # Arabs
 	[], # Xiongnu
 	[], # Numidia
@@ -2421,7 +2285,6 @@ lSpecialRegions = [
 	[], # Pallavas
 	[], # Kalabhras
 	[], # Saxons
-	[], # Harsha
 	[], # Western Rome
 	[], # Moors
 	[], # Champa

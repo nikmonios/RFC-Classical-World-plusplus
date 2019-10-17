@@ -34,16 +34,16 @@ class Companies:
 		
 		for iLoopCiv in range(iNumPlayers):
 			if iCompany in [iSpiceMerchants, iClothMerchants] and gc.getTeam(gc.getPlayer(iLoopCiv).getTeam()).isHasTech(con.iLuxuryTrade): 
-				iMaxCompanies += 4
+				iMaxCompanies += 3
 			if iCompany in [iGrainMerchants, iFishMerchants] and gc.getTeam(gc.getPlayer(iLoopCiv).getTeam()).isHasTech(con.iBulkTrade): 
-				iMaxCompanies += 4
+				iMaxCompanies += 3
 			if iCompany in [iMasterArtisans, iMasterTradesmen] and gc.getTeam(gc.getPlayer(iLoopCiv).getTeam()).isHasTech(con.iManufacturedTrade): 
-				iMaxCompanies += 4
+				iMaxCompanies += 3
 		if iMaxCompanies == 0: 
 			return
 		
 		
-		#iMaxCompanies = 10
+		iMaxCompanies = 10
 		
 		# loop through all cities, check the company value for each and add the good ones to a list of tuples (city, value)
 		cityValueList = []

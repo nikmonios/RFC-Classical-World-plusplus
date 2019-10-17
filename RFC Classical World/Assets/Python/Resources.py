@@ -28,7 +28,7 @@ class Resources:
 			iOwner = gc.getMap().plot(iX,iY).getOwner()
 			if iOwner >= 0 and textKey != -1: # only show alert to the tile owner
 				city = gc.getMap().findCity(iX, iY, iOwner, TeamTypes.NO_TEAM, True, False, TeamTypes.NO_TEAM, DirectionTypes.NO_DIRECTION, CyCity())
-				if not city.isNone() and iOwner >= 0:
+				if not city.isNone():
 					szText = localText.getText(textKey, (gc.getBonusInfo(iBonus).getTextKey(), city.getName(), gc.getPlayer(iOwner).getCivilizationAdjective(0)))
 					CyInterface().addMessage(iOwner, False, con.iDuration, szText, "AS2D_DISCOVERBONUS", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, gc.getBonusInfo(iBonus).getButton(), ColorTypes(con.iWhite), iX, iY, True, True)
 
@@ -40,13 +40,6 @@ class Resources:
 
 
 	def checkTurn(self, iGameTurn):
-	
-		if iGameTurn == getTurnForYear(-320):
-			if utils.getHumanID() != con.iRome:
-				gc.getMap().plot(38, 59).setFeatureType(con.iForest, 0) # to make NE entrance to Italy easier to defend against barbs
-				gc.getMap().plot(38, 59).setFeatureType(con.iDenseForest, 0) # to block out the Celts
-		if iGameTurn == getTurnForYear(250):
-			gc.getMap().plot(38, 59).setFeatureType(con.iForest, 0)
 	
 		if iGameTurn == getTurnForYear(-75 + (sd.getSeed() % 10)):
 			self.removeResource(16, 37) # north african elephants
@@ -69,23 +62,19 @@ class Resources:
 			gc.getMap().plot(113, 37).setImprovementType(4) # farm near Pataliputra
 			gc.getMap().plot(116, 38).setImprovementType(14) # pasture near Pataliputra
 			gc.getMap().plot(141, 51).setImprovementType(4) # farm near Luoyang
-			gc.getMap().plot(141, 52).setImprovementType(4) # farm near Luoyang - all to make Roman Empire UHV harder
+			gc.getMap().plot(141, 52).setImprovementType(4) # farm near Luoyang - all to make Egyptian UHV harder
 			
-		if iGameTurn == (getTurnForYear(530)):
+		"""if iGameTurn == (getTurnForYear(530)):
 			gc.getMap().plot(126, 40).setFeatureType(con.iTropicalForest, 0)
-			gc.getMap().plot(127, 38).setImprovementType(14) # Dali
+			gc.getMap().plot(125, 39).setImprovementType(14) # Dali
 			
 		if iGameTurn == (getTurnForYear(con.tBirth[con.iTibet]) -10):
-			gc.getMap().plot(121, 43).setFeatureType(con.iWoodland, 0)
-			gc.getMap().plot(122, 42).setFeatureType(con.iWoodland, 0)
-			gc.getMap().plot(123, 40).setFeatureType(con.iTropicalForest, 0)
-			gc.getMap().plot(124, 39).setPlotType(PlotTypes.PLOT_HILLS, True, True)# hill
-			gc.getMap().plot(124, 36).setFeatureType(con.iTropicalForest, 0)
-			gc.getMap().plot(125, 37).setFeatureType(con.iTropicalForest, 0)# access to & from Tibetan plateau
-			
-		if iGameTurn == (getTurnForYear(con.tBirth[con.iTibet]) -100):
-			gc.getMap().plot(129, 42).setFeatureType(con.iWoodland, 0)
-			gc.getMap().plot(130, 41).setFeatureType(con.iWoodland, 0) # prevent Qin cheesing the UHV by settling Nanzhao
+			gc.getMap().plot(122, 43).setFeatureType(con.iWoodland, 0)
+			gc.getMap().plot(123, 42).setFeatureType(con.iWoodland, 0)
+			gc.getMap().plot(124, 40).setFeatureType(con.iTropicalForest, 0)
+			gc.getMap().plot(125, 39).setFeatureType(con.iTropicalForest, 0)
+			gc.getMap().plot(127, 41).setFeatureType(con.iTropicalForest, 0)
+			gc.getMap().plot(122, 41).setFeatureType(con.iTropicalForest, 0)# access to & from Tibetan plateau"""
 			
 		if iGameTurn == (getTurnForYear(con.tBirth[con.iGokturks]) -10):
 			gc.getMap().plot(136, 71).setBonusType(con.iIron)

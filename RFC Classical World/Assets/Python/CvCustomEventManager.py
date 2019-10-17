@@ -80,7 +80,6 @@ class CvCustomEventManager(CvEventManager.CvEventManager, object):
 			7629 : ('ThreeKingdomsChoice', self.rnfEventApply7629, self.rnfEventBegin7629),
 			7630 : ('SecretDiplomacyVassalize', self.rfccwaiwEventApply7630, self.rfccwaiwEventBegin7630),
 			7631 : ('SecretDiplomacySurrender', self.rfccwaiwEventApply7631, self.rfccwaiwEventBegin7631),
-			7632 : ('3TamilKingdoms', self.rnfEventApply7632, self.rnfEventBegin7632),
 		}
 
 		# --> INSERT EVENT HANDLER INITIALIZATION HERE <--
@@ -300,10 +299,3 @@ class CvCustomEventManager(CvEventManager.CvEventManager, object):
    
 	def rfccwaiwEventApply7631(self, playerID, netUserData, popupReturn):
 		self.rfccwaiw.eventApply7631(popupReturn)
-		
-	def rnfEventBegin7632(self):
-		pass
-   
-	def rnfEventApply7632(self, playerID, netUserData, popupReturn):
-		self.rnf.eventApply7632(popupReturn)
-

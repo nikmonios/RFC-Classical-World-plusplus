@@ -577,12 +577,12 @@ class CvMainInterface:
 		screen.hide( "CultureBar" )
 
 		# Holy City Overlay
-		#for i in range( gc.getNumReligionInfos() ):
-			#xCoord = xResolution - 258 + (i * 23) # edead (34)
-			#yCoord = 42
-			#szName = "ReligionHolyCityDDS" + str(i)
-			#screen.addDDSGFC( szName, ArtFileMgr.getInterfaceArtInfo("INTERFACE_HOLYCITY_OVERLAY").getPath(), xCoord, yCoord, 24, 24, WidgetTypes.WIDGET_HELP_RELIGION_CITY, i, -1 )
-			#screen.hide( szName ) 
+		for i in range( gc.getNumReligionInfos() ):
+			xCoord = xResolution - 258 + (i * 23) # edead (34)
+			yCoord = 42
+			szName = "ReligionHolyCityDDS" + str(i)
+			screen.addDDSGFC( szName, ArtFileMgr.getInterfaceArtInfo("INTERFACE_HOLYCITY_OVERLAY").getPath(), xCoord, yCoord, 24, 24, WidgetTypes.WIDGET_HELP_RELIGION_CITY, i, -1 )
+			screen.hide( szName )
 
 		for i in range( gc.getNumCorporationInfos() ):
 			xCoord = xResolution - 242 + (i * 20) # edead (34)
@@ -1682,12 +1682,9 @@ class CvMainInterface:
 							pCity = pPlot.getPlotCity()
 							for iReligionLoop in range(gc.getNumReligionInfos()):
 								if pCity.isHolyCityByType(iReligionLoop):
-									for iUnitClass in range(gc.getNumUnitClassInfos()):
-										if gc.getUnitClassInfo(iUnitClass).getDefaultUnitIndex() == (con.iJewishMissionary + iReligionLoop):
-											if pUnitOwner.getUnitClassCountPlusMaking(iUnitClass) < 3:
-												screen.appendMultiListButton( "BottomButtonContainer", gc.getReligionInfo(iReligionLoop).getButton(), 0, WidgetTypes.WIDGET_GENERAL, 668 + iReligionLoop, 668 + iReligionLoop, False )
-												screen.show( "BottomButtonContainer" )
-												iCount = iCount + 1
+									screen.appendMultiListButton( "BottomButtonContainer", gc.getReligionInfo(iReligionLoop).getButton(), 0, WidgetTypes.WIDGET_GENERAL, 668 + iReligionLoop, 668 + iReligionLoop, False )
+									screen.show( "BottomButtonContainer" )
+									iCount = iCount + 1
 									
 					# barbarian bribe srpt
 					pUnit = g_pSelectedUnit
@@ -2668,19 +2665,14 @@ class CvMainInterface:
 				screen.show( "MaintenanceAmountText" )
 
 				szBuffer = u""
-				
-				#srpt
-				
-				k = 0
+
 				for i in range(gc.getNumReligionInfos()):
-					#xCoord = xResolution - 260 + (i * 23) # edead (34)
-					xCoord = xResolution - 260 + (k * 30) # edead (34)
+					xCoord = xResolution - 260 + (i * 23) # edead (34)
 					yCoord = 42
 					
 					bEnable = True
 						
 					if (pHeadSelectedCity.isHasReligion(i)):
-						k += 1
 						if (pHeadSelectedCity.isHolyCityByType(i)):
 							szTempBuffer = u"%c" %(gc.getReligionInfo(i).getHolyCityChar())
 							szName = "ReligionHolyCityDDS" + str(i)
@@ -2715,10 +2707,10 @@ class CvMainInterface:
 						
 						szButton = gc.getReligionInfo(i).getButton()
 					
-					else: 
-						continue # srpt
-						#bEnable = False
-						#szButton = gc.getReligionInfo(i).getButton()
+					else:
+					
+						bEnable = False
+						szButton = gc.getReligionInfo(i).getButton()
 
 					szName = "ReligionDDS" + str(i)
 					screen.setImageButton( szName, szButton, xCoord, yCoord, 24, 24, WidgetTypes.WIDGET_HELP_RELIGION_CITY, i, -1 )

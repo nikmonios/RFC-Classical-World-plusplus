@@ -49,8 +49,7 @@ tMinorCities = (
 	(iIndependent,  "Dunhuang",	 		 -270, 120, 58, [], [], 0),  
 	(iIndependent3,  "Kourion",		 	 -250,  58, 41, [], [], 0), 
 	(iIndependent,  "Turpan",	 		 -215, 117, 63, [], [], 0), 
-	(iIndependent,  "Tzirta",	 		 -280,  24, 40, [], [], 0), 
-	(iIndependent,  "Iol",	 			 -220,  20, 41, [], [], 0), 
+	(iIndependent,  "Cirta",	 		 -280,  24, 40, [], [], 0), 
 	(iIndependent3,  "Albana",			 -190,  74, 54, [], [], 0), # before Armenian spawn
 	(iIndependent3,  "Govapuri",	 	 -180, 100, 24, [con.iHinduism], [], 0), 
 	(iIndependent3,  "Halin",			 -150, 124, 33, [], [], 0),
@@ -62,7 +61,7 @@ tMinorCities = (
 	(iIndependent2,  "Khotan",			  -75, 109, 54, [], [], 0), 
 	(iIndependent,  "Chersonesos",		  -50,  58, 56, [con.iHellenism], [], 0), 
 	(iIndependent3,  "Dunhuang",	 	  -20, 120, 58, [con.iBuddhism], [], 0), 
-	(iIndependent2,  "Adulis",		 	    5,  64, 22, [], [], 0),
+	(iIndependent2,  "Adulis",		 	   10,  64, 22, [], [], 0),
 	(iIndependent2,  "Merv",		 	   40,  87, 49, [con.iZoroastrianism, con.iJudaism], [], 0), # if razed before Kushan spawn
 	(iIndependent,  "Samarqand",		   45,  93, 54, [con.iBuddhism], [], 0), 
 	(iIndependent2,  "Prey Nokor",	 	   50, 135, 19, [], [], 0), # before Funan spawn
@@ -102,21 +101,19 @@ tMinorCities = (
 	(iBarbarian,  "Ratisbon",			  550,  37, 63, [], [], 0), 
 	(iBarbarian,  "Stratisburgum",		  550,  30, 62, [], [], 0), 
 	(iBarbarian,  "Mimigernaford",		  550,  31, 68, [], [], 0),  
-	(iIndependent3,  "Halin",			  556, 124, 33, [con.iBuddhism], [], 0),
-	(iIndependent2,  "Dali",		 	  560, 127, 39, [con.iBuddhism], [], 0), # before Tibetan spawn   
-	(iIndependent3,  "Dagon",			  556, 124, 26, [con.iBuddhism], [], 0),
+	(iIndependent2,  "Dali",		 	  560, 127, 39, [con.iBuddhism], [], 0), # before Tibetan spawn 
 	(iIndependent3,  "Yathreb",			  625,  67, 31, [], [], 0), # before Arab spawn
 )
 
 t320BCMinorCities = (
-	#(iIndependent, "Burdigala", 18, 57, [], [], []),
+	(iIndependent, "Burdigala", 18, 57, [], [], []),
 	(iIndependent2, "Masillia", 27, 54, [con.iHellenism], [], []),
-	#(iIndependent3, "Roma", 35, 52, [], [], []),
+	(iIndependent3, "Roma", 35, 52, [], [], []),
 	(iIndependent, "Syracousai", 36, 43, [con.iHellenism], [], []),
-	#(iIndependent, "Epidamnos", 44, 50, [con.iHellenism], [], []),
-	#(iIndependent3, "Saguntum", 21, 49, [], [con.iWalls], []),
+	(iIndependent, "Epidamnos", 44, 50, [con.iHellenism], [], []),
+	(iIndependent3, "Saguntum", 21, 49, [], [con.iWalls], []),
 	(iIndependent2, "Cyrene", 43, 36, [con.iHellenism], [], []),
-	#(iIndependent3, "Pella", 46, 53, [con.iHellenism], [], []),
+	(iIndependent3, "Pella", 46, 53, [con.iHellenism], [], []),
 	(iIndependent, "Athinai", 47, 46, [con.iHellenism], [con.iParthenon], [con.iHellenism]),
 	(iIndependent2, "Rhodos", 52, 44, [con.iHellenism], [con.iColossus], []),
 	(iIndependent3, "Tungul", 54, 23, [], [], []),
@@ -129,7 +126,7 @@ t320BCMinorCities = (
 	(iIndependent2, "Mulasthan", 98, 41, [con.iHinduism], [], []),
 	(iIndependent3, "Bharuch", 100, 30, [con.iHinduism], [], []),
 	(iIndependent, "Takshashila", 100, 46, [con.iBuddhism, con.iHinduism], [], []),
-	#(iIndependent2, "Vanchi Murthur", 101, 21, [con.iJainism, con.iHinduism], [], [con.iJainism]),
+	(iIndependent2, "Vanchi Murthur", 101, 21, [con.iJainism, con.iHinduism], [], [con.iJainism]),
 	(iIndependent3, "Anuradhapura", 107, 13, [con.iBuddhism], [], []),
 	(iIndependent, "Jinyang", 137, 54, [], [], []),
 	(iIndependent2, "Luoyang", 139, 50, [con.iConfucianism, con.iTaoism], [], []),
@@ -449,17 +446,17 @@ class Barbs:
 		
 		if iGameTurn >= getTurnForYear(-140) and iGameTurn <= getTurnForYear(150):
 			if utils.checkRegionControl(iHuman, con.rBuyeo) or utils.checkRegionControl(iHuman, con.rYan): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHorseman_Xiongnu]), iBonus + iRand2, iGameTurn, 9, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
+			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHorseman_Xiongnu]), iBonus + iRand2 +1, iGameTurn, 9, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
 			iBonus = 0
 		
 		if iGameTurn >= getTurnForYear(150) and iGameTurn <= getTurnForYear(350):
 			if utils.checkRegionControl(iHuman, con.rBuyeo) or utils.checkRegionControl(iHuman, con.rYan): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHorseArcher_Xiongnu]), iBonus + iRand2, iGameTurn, 7, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
+			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHorseArcher_Xiongnu]), iBonus + iRand2 +1, iGameTurn, 7, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
 			iBonus = 0
 		
 		if iGameTurn >= getTurnForYear(350) and iGameTurn <= getTurnForYear(800):
 			if utils.checkRegionControl(iHuman, con.rBuyeo) or utils.checkRegionControl(iHuman, con.rYan): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHeavyHorseArcher]), iBonus + iRand2, iGameTurn, 7, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
+			self.spawnUnits(iBarbarian, (149,71),(161,67), self.getRandomUnit([con.iHeavyHorseArcher]), iBonus + iRand2 +1, iGameTurn, 7, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Xianbei")
 			iBonus = 0
 		
 		# Kushans
@@ -481,93 +478,93 @@ class Barbs:
 		# Helveti
 		if iGameTurn >= getTurnForYear(-320) and iGameTurn <= getTurnForYear(-200):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (28,62),(31,59), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus, iGameTurn, 13, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Helveti")
+			self.spawnUnits(iBarbarian, (28,62),(31,59), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 13, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Helveti")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(-200) and iGameTurn <= getTurnForYear(1):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (28,62),(31,59), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + 1, iGameTurn, 7, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Helveti")
+			self.spawnUnits(iBarbarian, (28,62),(31,59), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 7, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Helveti")
 			iBonus = 0
 			
 		# Belgae
 		if iGameTurn >= getTurnForYear(-320) and iGameTurn <= getTurnForYear(-150):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rSeptimania) or utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (23,71),(30,65), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus, iGameTurn, 19, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Belgae")
+			self.spawnUnits(iBarbarian, (23,71),(30,65), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 19, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Belgae")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(-150) and iGameTurn <= getTurnForYear(1):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rSeptimania) or utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (23,71),(30,65), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus +1, iGameTurn, 11, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Belgae")
+			self.spawnUnits(iBarbarian, (23,71),(30,65), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 11, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Belgae")
 			iBonus = 0
 			
 		# Frisii
 		if iGameTurn >= getTurnForYear(-320) and iGameTurn <= getTurnForYear(1):
 			if utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (27,73),(32,69), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus, iGameTurn, 20, 8, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Frisii")
+			self.spawnUnits(iBarbarian, (27,73),(32,69), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 20, 8, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Frisii")
 			iBonus = 0
 		
 		# Illyrians
 		if iGameTurn >= getTurnForYear(-310) and iGameTurn <= getTurnForYear(-150):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus, iGameTurn, 20, 12, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Illyrian")
+			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2, iGameTurn, 20, 12, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Illyrian")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(-150) and iGameTurn <= getTurnForYear(-50):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus +1, iGameTurn, 12, 12, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Illyrian")
+			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 12, 12, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Illyrian")
 			iBonus = 0
 		
 		# Getae
 		if iGameTurn >= getTurnForYear(-300) and iGameTurn <= getTurnForYear(-200):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus, iGameTurn, 17, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Getae")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 17, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Getae")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(-200) and iGameTurn <= getTurnForYear(-100):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus +1, iGameTurn, 11, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Getae")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 11, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Getae")
 			iBonus = 0
 		
 		# Quadi
 		if iGameTurn >= getTurnForYear(-300) and iGameTurn <= getTurnForYear(-200):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus, iGameTurn, 24, 9, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Quadi")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 24, 9, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Quadi")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(-200) and iGameTurn <= getTurnForYear(-100):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus +1, iGameTurn, 14, 9, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Quadi")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Goth, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 14, 9, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Quadi")
 			iBonus = 0
 		
 		# Iazyges
 		if iGameTurn >= getTurnForYear(-200) and iGameTurn <= getTurnForYear(250):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (51,64),(56,56), self.getRandomUnit([con.iHorseman]), iBonus + iRand2, iGameTurn, 15, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Iazyges")
+			self.spawnUnits(iBarbarian, (51,64),(56,56), self.getRandomUnit([con.iHorseman]), iBonus + iRand2 +1, iGameTurn, 15, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Iazyges")
 			iBonus = 0
 		
 		# Roxolani
 		if iGameTurn >= getTurnForYear(-150) and iGameTurn <= getTurnForYear(250):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (51,64),(56,56), self.getRandomUnit([con.iHorseman]), iBonus + iRand2, iGameTurn, 12, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Iazyges")
+			self.spawnUnits(iBarbarian, (51,64),(56,56), self.getRandomUnit([con.iHorseman]), iBonus + iRand2 +1, iGameTurn, 12, 5, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Iazyges")
 			iBonus = 0
 		
 		# Marcomanni
 		if iGameTurn >= getTurnForYear(1) and iGameTurn <= getTurnForYear(250):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 11, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 11, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(250) and iGameTurn <= getTurnForYear(400):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iHorseman]), iBonus + iRand2, iGameTurn, 13, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iHorseman]), iBonus + iRand2 +1, iGameTurn, 13, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(400) and iGameTurn <= getTurnForYear(500):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iSwordsman]), iBonus + iRand2, iGameTurn, 13, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iSwordsman]), iBonus + iRand2 +1, iGameTurn, 13, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Marcomanni")
 			iBonus = 0
 		
 		# Suevi
 		if iGameTurn >= getTurnForYear(1) and iGameTurn <= getTurnForYear(200):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 12, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Suevi")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2 +1, iGameTurn, 12, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Suevi")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(200) and iGameTurn <= getTurnForYear(400):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iHorseman]), iBonus + iRand2, iGameTurn, 14, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Suevi")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iAxeman_Teutonic, con.iHeavySpearman, con.iHorseman]), iBonus + iRand2 +1, iGameTurn, 14, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Suevi")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(400) and iGameTurn <= getTurnForYear(500):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul): iBonus += iHandicap
@@ -612,17 +609,17 @@ class Barbs:
 		# early Goths
 		if iGameTurn >= getTurnForYear(1) and iGameTurn <= getTurnForYear(180):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (50,66),(61,59), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 13, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (50,66),(61,59), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 10, 4, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(1) and iGameTurn <= getTurnForYear(180):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (50,66),(61,59), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 15, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (50,66),(61,59), self.getRandomUnit([con.iAxeman_Teutonic, con.iSpearman]), iBonus + iRand2, iGameTurn, 13, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		
 		# later Goths
 		if iGameTurn >= getTurnForYear(180) and iGameTurn <= getTurnForYear(300):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iHorseman]), iBonus +1, iGameTurn, 11, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iHorseman]), iBonus +1, iGameTurn, 9, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(180) and iGameTurn <= getTurnForYear(380):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
@@ -630,33 +627,33 @@ class Barbs:
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(380) and iGameTurn <= getTurnForYear(450):
 			if utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace) or utils.checkRegionControl(iHuman, con.rNItaly): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iSwordsman]), iBonus + iRand2 +1, iGameTurn, 9, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
+			self.spawnUnits(iBarbarian, (42,61),(53,56), self.getRandomUnit([con.iHeavySpearman, con.iSwordsman]), iBonus + iRand2 +1, iGameTurn, 7, 3, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Goth")
 			iBonus = 0
 		
 		# Burgundians
 		if iGameTurn >= getTurnForYear(350) and iGameTurn <= getTurnForYear(500):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 11, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Burgundian")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 9, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Burgundian")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(500) and iGameTurn <= getTurnForYear(600):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 11, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Burgundian")
+			self.spawnUnits(iBarbarian, (31,63),(41,61), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 9, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Burgundian")
 			iBonus = 0
 		
 		# Gepids
 		if iGameTurn >= getTurnForYear(260) and iGameTurn <= getTurnForYear(500):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 13, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Gepid")
+			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iAxeman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 9, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Gepid")
 			iBonus = 0
 		if iGameTurn >= getTurnForYear(500) and iGameTurn <= getTurnForYear(700):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 11, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Gepid")
+			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman]), iBonus + iRand2 +1, iGameTurn, 8, 2, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Gepid")
 			iBonus = 0
 		
 		# Visigoths
 		if iGameTurn >= getTurnForYear(410) and iGameTurn <= getTurnForYear(416):
 			if utils.checkRegionControl(iHuman, con.rIberia) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (16,58),(28,52), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman, con.iLancer]), iBonus + iRand2 +1, iGameTurn, 2, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Visigoth")
+			self.spawnUnits(iBarbarian, (16,58),(28,52), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman, con.iLancer]), iBonus + iRand2 +1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Visigoth")
 			iBonus = 0
 		if iGameTurn == getTurnForYear(418):
 			if utils.checkRegionControl(iHuman, con.rIberia) or utils.checkRegionControl(iHuman, con.rGaul) or utils.checkRegionControl(iHuman, con.rSeptimania): iBonus += iHandicap
@@ -672,7 +669,7 @@ class Barbs:
 		# Ostrogoths
 		if iGameTurn >= getTurnForYear(466) and iGameTurn <= getTurnForYear(476):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman, con.iLancer]), iBonus + iRand2 +1, iGameTurn, 3, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Ostrogoth")
+			self.spawnUnits(iBarbarian, (38,61),(45,53), self.getRandomUnit([con.iSwordsman, con.iHeavySpearman, con.iLancer]), iBonus + iRand2 +1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Ostrogoth")
 			iBonus = 0
 		if iGameTurn == getTurnForYear(478):
 			if utils.checkRegionControl(iHuman, con.rNItaly) or utils.checkRegionControl(iHuman, con.rIllyricum) or utils.checkRegionControl(iHuman, con.rGreece) or utils.checkRegionControl(iHuman, con.rThrace): iBonus += iHandicap
@@ -702,7 +699,7 @@ class Barbs:
 		# Chinese Bandits
 		if iGameTurn >= getTurnForYear(-260) and iGameTurn <= getTurnForYear(850):
 			if utils.checkRegionControl(iHuman, con.rQi) or utils.checkRegionControl(iHuman, con.rHan) or utils.checkRegionControl(iHuman, con.rWu) or utils.checkRegionControl(iHuman, con.rChu): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (131,46),(150,39), self.getRandomUnit([con.iSpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian]), iBonus +1, iGameTurn, 15, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Bandit")
+			self.spawnUnits(iBarbarian, (128,46),(150,39), self.getRandomUnit([con.iSpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian]), iBonus +1, iGameTurn, 12, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Bandit")
 			iBonus = 0
 		
 		# Qiang
@@ -724,7 +721,7 @@ class Barbs:
 		
 		if iGameTurn >= getTurnForYear(300) and iGameTurn <= getTurnForYear(850):
 			if utils.checkRegionControl(iHuman, con.rQin) or utils.checkRegionControl(iHuman, con.rHan) or utils.checkRegionControl(iHuman, con.rShu) or utils.checkRegionControl(iHuman, con.rBa): iBonus += iHandicap
-			self.spawnUnits(iBarbarian, (131,44),(136,39), self.getRandomUnit([con.iMarksman_East_Asian, con.iSwordsman_East_Asian]), iBonus +1, iGameTurn, 12, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Bai")
+			self.spawnUnits(iBarbarian, (131,44),(136,39), self.getRandomUnit([con.iHeavySpearman_East_Asian, con.iMarksman_East_Asian, con.iSwordsman_East_Asian]), iBonus +1, iGameTurn, 12, 1, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Bai")
 			iBonus = 0
 		
 		# Nan Yue
@@ -740,15 +737,15 @@ class Barbs:
 		# Yellow Turban Rebellion
 		if iGameTurn >= getTurnForYear(180) and iGameTurn <= getTurnForYear(190):
 			if gc.getPlayer(con.iHan).isAlive():
-				self.spawnUnits(iBarbarian, (135,52),(147,49), self.getRandomUnit([con.iHeavySpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian, con.iArcher_East_Asian, con.iAxeman_East_Asian]), iBonus +iRand1 +1, iGameTurn, 3, 1, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Yellow Turban")
+				self.spawnUnits(iBarbarian, (135,52),(147,49), self.getRandomUnit([con.iHeavySpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian, con.iArcher_East_Asian, con.iAxeman_East_Asian]), iBonus +iRand1 +1, iGameTurn, 3, 1, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Yellow Turban Rebel")
 				iBonus = 0
-				self.spawnUnits(iBarbarian, (135,52),(147,49), self.getRandomUnit([con.iHeavySpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian, con.iArcher_East_Asian, con.iAxeman_East_Asian]), iBonus +iRand1 +1, iGameTurn, 7, 1, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Yellow Turban")
+				self.spawnUnits(iBarbarian, (135,52),(147,49), self.getRandomUnit([con.iHeavySpearman_East_Asian, con.iSpearman_East_Asian, con.iArcher_East_Asian, con.iArcher_East_Asian, con.iAxeman_East_Asian]), iBonus +iRand1 +1, iGameTurn, 7, 1, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "Yellow Turban Rebel")
 				iBonus = 0
 	
 	#### Middle East ####
 			
 		# Parthians
-		if iGameTurn >= getTurnForYear(-180) and iGameTurn <= getTurnForYear(-155):
+		if iGameTurn >= getTurnForYear(-200) and iGameTurn <= getTurnForYear(-155):
 			if utils.checkRegionControl(iHuman, con.rParthia) or utils.checkRegionControl(iHuman, con.rPersia) or utils.checkRegionControl(iHuman, con.rMargiana) or utils.checkRegionControl(iHuman, con.rMedia): iBonus += iHandicap
 			self.spawnUnits(iBarbarian, (79,50),(86,42), self.getRandomUnit([con.iHorseArcher]), iBonus +iRand1 +1, iGameTurn, 7, 8, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "Parthian")
 			iBonus = 0
@@ -831,39 +828,25 @@ class Barbs:
 	#### Pirates ####
 		
 		# Western Mediterranean pirates
-		if iGameTurn > getTurnForYear(-250) and iGameTurn < getTurnForYear(300):
-			self.spawnUnits(iBarbarian, (15,53),(41,34), con.iPirateGalley, 1, iGameTurn, 15, 1, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(-250) and iGameTurn < getTurnForYear(100):
+			self.spawnUnits(iBarbarian, (15,53),(41,34), con.iPirateGalley, iRand1, iGameTurn, 15, 1, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 			
-		if iGameTurn > getTurnForYear(300) and iGameTurn < getTurnForYear(700):
-			self.spawnUnits(iBarbarian, (15,53),(41,34), con.iWarGalley, 1, iGameTurn, 12, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(100) and iGameTurn < getTurnForYear(700):
+			self.spawnUnits(iBarbarian, (15,53),(41,34), con.iWarGalley, iRand2, iGameTurn, 12, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 		
 		# Eastern Mediterranean pirates
-		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(300):
-			self.spawnUnits(iBarbarian, (42,48),(62,35), con.iPirateGalley, 1, iGameTurn, 15, 5, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(100):
+			self.spawnUnits(iBarbarian, (42,48),(62,35), con.iPirateGalley, iRand3, iGameTurn, 15, 5, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 			
-		if iGameTurn > getTurnForYear(300) and iGameTurn < getTurnForYear(700):
-			self.spawnUnits(iBarbarian, (42,48),(62,35), con.iWarGalley, 1, iGameTurn, 12, 7, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(100) and iGameTurn < getTurnForYear(700):
+			self.spawnUnits(iBarbarian, (42,48),(62,35), con.iWarGalley, iRand1, iGameTurn, 12, 7, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 			
 		# Indian Ocean pirates
-		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(300):
-			self.spawnUnits(iBarbarian, (78,21),(124,0), con.iPirateGalley, 1, iGameTurn, 11, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(100):
+			self.spawnUnits(iBarbarian, (78,21),(124,0), con.iPirateGalley, iRand2, iGameTurn, 11, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 			
-		if iGameTurn > getTurnForYear(300) and iGameTurn < getTurnForYear(700):
-			self.spawnUnits(iBarbarian, (78,21),(124,0), con.iWarGalley, 1, iGameTurn, 11, 0, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
-			
-		# Southeast Asia pirates
-		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(300):
-			self.spawnUnits(iBarbarian, (136,34),(147,2), con.iPirateGalley, 1, iGameTurn, 11, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
-			
-		if iGameTurn > getTurnForYear(300) and iGameTurn < getTurnForYear(700):
-			self.spawnUnits(iBarbarian, (136,34),(147,2), con.iWarGalley, 1, iGameTurn, 11, 0, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
-			
-		# East Asia pirates
-		if iGameTurn > getTurnForYear(-300) and iGameTurn < getTurnForYear(300):
-			self.spawnUnits(iBarbarian, (147,59),(167,49), con.iPirateGalley, 1, iGameTurn, 11, 3, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
-			
-		if iGameTurn > getTurnForYear(300) and iGameTurn < getTurnForYear(700):
-			self.spawnUnits(iBarbarian, (147,59),(167,49), con.iWarGalley, 1, iGameTurn, 11, 0, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
+		if iGameTurn > getTurnForYear(100) and iGameTurn < getTurnForYear(700):
+			self.spawnUnits(iBarbarian, (78,21),(124,0), con.iWarGalley, iRand3, iGameTurn, 11, 0, utils.outerSeaSpawn, UnitAITypes.UNITAI_ATTACK_SEA, "Pirate")
 			
 	
 			

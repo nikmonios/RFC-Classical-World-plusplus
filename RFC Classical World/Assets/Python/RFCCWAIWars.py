@@ -359,8 +359,8 @@ class RFCCWAIWars:
 		# freeing of slaves
 		if pNewOwner.getCivics(2) != 11:
 			
-			for iSpecialist in range(city.getFreeSpecialistCount(con.iSettledSlave)):
-				city.changeFreeSpecialistCount(con.iSettledSlave, -1)
+			for iSpecialist in range(city.getFreeSpecialistCount(1)):
+					city.changeFreeSpecialistCount(1, -1)
 		
 		# land for elephants
 		
@@ -368,14 +368,13 @@ class RFCCWAIWars:
 		lIndianRegions = [con.rGandhara, con.rPunjab, con.rSindh, con.rMagadha, con.rAvanti, con.rDeccan, con.rSaurashtra, con.rKerala, con.rTamilNadu, con.rKalinka, con.rBangala]
 		lIndianCivs = [con.iMauryans, con.iPandyans, con.iSatavahana]
 		
-		if bTrade and iPreviousOwner < iNumPlayers and iNewOwner in lIndianCivs and pNewOwner.getNumAvailableBonuses(con.iIvory) > 0 and city.plot().getRegionID() in lIndianRegions and utils.getYear() <= -100 and sd.getElephants(iPreviousOwner) == 0:
+		if bTrade and iPreviousOwner < iNumPlayers and iNewOwner in lIndianCivs and pNewOwner.getNumAvailableBonuses(con.iIvory) > 0 and city.plot().getRegionID() in lIndianRegions:
 			pNewOwner = gc.getPlayer(iNewOwner)
 			teamPreviousOwner = gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam())
 			tPlot = utils.findNearestLandPlot((city.getX(),city.getY()), iPreviousOwner)
 			utils.makeUnit(con.iWarElephant, iPreviousOwner, (tPlot), 3)
 			utils.makeUnit(con.iSpearman, iNewOwner, (city.getX(), city.getY()), 2)
 			teamPreviousOwner.signOpenBorders(iNewOwner)
-			sd.setElephants(iPreviousOwner, 1)
 		
 		# Pyramids
 		if city.getNumBuilding(con.iPyramids):
@@ -406,12 +405,8 @@ class RFCCWAIWars:
 			if gc.getGame().getSorenRandNum(100, 'chance') > 50:
 				utils.makeUnit(con.iMarksman, con.iJin, (tPlot), 1)
 			else:
-				utils.makeUnit(con.iJinDaoInfantry, con.iJin, (tPlot), 1)
+				utils.makeUnit(con.iHeavySpearman, con.iJin, (tPlot), 1)
 		# end Jin UP
-		elif iOwner != utils.getHumanID():
-			iCiv = sd.getCivilization(iOwner)
-			if utils.getYear() < con.tBirth[iCiv] + 20:
-				self.spawnCityDefense(iOwner, iCiv, (pCity.getX(), pCity.getY()))
 		
 		# Pyramids
 		if pCity.getNumBuilding(con.iPyramids):
@@ -481,7 +476,6 @@ class RFCCWAIWars:
 		pWinningPlayer = gc.getPlayer(pWinningUnit.getOwner())
 		pLosingPlayer = gc.getPlayer(pLosingUnit.getOwner())
 		pAttackingPlayer = gc.getPlayer(pAttackingUnit.getOwner())
-		iHuman = utils.getHumanID()
 		
 		if pWinningPlayer.getID() == con.iKhazars:
 			iRandom = gc.getGame().getSorenRandNum(100, 'capture chance')
@@ -515,47 +509,32 @@ class RFCCWAIWars:
 				iThreshold += 20
 			if iWinningPlayer == iAttackingPlayer:
 				iThreshold += 10
-				print ("pWinningPlayer.getCapitalCity().productionLeft()", pWinningPlayer.getCapitalCity().productionLeft())
 				if (iRandom < iThreshold):
-					if iWinningPlayer != iHuman and pWinningPlayer.getCapitalCity().isProductionBuilding() and pWinningPlayer.getCapitalCity().productionLeft() > 45:
-						pWinningPlayer.getCapitalCity().changeProduction(60)
-						return
-					elif iWinningPlayer != iHuman and pWinningPlayer.getGold() < 10:
-						pWinningPlayer.changeGold(20)
-						return
-					else:
-						if gc.getMap().plot(pLosingUnit.getX(), pLosingUnit.getY()).getNumDefenders(iLosingPlayer) <= 1:
-							pPlot = gc.getMap().plot(pLosingUnit.getX(), pLosingUnit.getY())
-							if pPlot.getTerrainType() != con.iWasteland and pPlot.getFeatureType() != con.iJungle:
-								pNewUnit = pWinningPlayer.initUnit(con.iSlave, pLosingUnit.getX(), pLosingUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-								CyInterface().addMessage(pWinningPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_WIN", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(8),pLosingUnit.getX(),pLosingUnit.getY(),True,True)
-								CyInterface().addMessage(pLosingPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_LOSE", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(7),pLosingUnit.getX(),pLosingUnit.getY(),True,True)
-								pNewUnit.finishMoves()
-						else:
-							pPlot = gc.getMap().plot(pWinningUnit.getX(), pWinningUnit.getY())
-							if pPlot.getTerrainType() != con.iWasteland and pPlot.getFeatureType() != con.iJungle:
-								pNewUnit = pWinningPlayer.initUnit(con.iSlave, pWinningUnit.getX(), pWinningUnit.getY(), UnitAITypes.UNITAI_WORKER, DirectionTypes.DIRECTION_SOUTH)
-								CyInterface().addMessage(pWinningPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_WIN", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(8),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
-								CyInterface().addMessage(pLosingPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_LOSE", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(7),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
-								pNewUnit.finishMoves()
-					
-				
-			elif iAttackingPlayer == iLosingPlayer:
-				if (iRandom < iThreshold):
-					if iWinningPlayer != iHuman and pWinningPlayer.getCapitalCity().isProductionBuilding():
-						pWinningPlayer.getCapitalCity().changeProduction(60)
-						return
-					elif iWinningPlayer != iHuman and pWinningPlayer.getGold() < 10:
-						pWinningPlayer.changeGold(20)
-						return
+					if gc.getMap().plot(pLosingUnit.getX(), pLosingUnit.getY()).getNumDefenders(iLosingPlayer) <= 1:
+						pPlot = gc.getMap().plot(pLosingUnit.getX(), pLosingUnit.getY())
+						if pPlot.getTerrainType() != con.iWasteland and pPlot.getFeatureType() != con.iJungle:
+							pNewUnit = pWinningPlayer.initUnit(con.iSlave, pLosingUnit.getX(), pLosingUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+							CyInterface().addMessage(pWinningPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_WIN", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(8),pLosingUnit.getX(),pLosingUnit.getY(),True,True)
+							CyInterface().addMessage(pLosingPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_LOSE", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(7),pLosingUnit.getX(),pLosingUnit.getY(),True,True)
+							pNewUnit.finishMoves()
 					else:
 						pPlot = gc.getMap().plot(pWinningUnit.getX(), pWinningUnit.getY())
 						if pPlot.getTerrainType() != con.iWasteland and pPlot.getFeatureType() != con.iJungle:
 							pNewUnit = pWinningPlayer.initUnit(con.iSlave, pWinningUnit.getX(), pWinningUnit.getY(), UnitAITypes.UNITAI_WORKER, DirectionTypes.DIRECTION_SOUTH)
-							pNewUnit.finishMoves()
 							CyInterface().addMessage(pWinningPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_WIN", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(8),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
 							CyInterface().addMessage(pLosingPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_LOSE", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(7),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
 							pNewUnit.finishMoves()
+					
+				
+			elif iAttackingPlayer == iLosingPlayer:
+				if (iRandom < iThreshold):
+					pPlot = gc.getMap().plot(pWinningUnit.getX(), pWinningUnit.getY())
+					if pPlot.getTerrainType() != con.iWasteland and pPlot.getFeatureType() != con.iJungle:
+						pNewUnit = pWinningPlayer.initUnit(con.iSlave, pWinningUnit.getX(), pWinningUnit.getY(), UnitAITypes.UNITAI_WORKER, DirectionTypes.DIRECTION_SOUTH)
+						pNewUnit.finishMoves()
+						CyInterface().addMessage(pWinningPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_WIN", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(8),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
+						CyInterface().addMessage(pLosingPlayer.getID(),True,15,CyTranslator().getText("TXT_KEY_UP_ENSLAVE_LOSE", ()),'SND_REVOLTEND',1,'Art/Units/Slave/button_slave.dds',ColorTypes(7),pWinningUnit.getX(),pWinningUnit.getY(),True,True)
+						pNewUnit.finishMoves()
 					
 				
 	def onCityRazed(self, argsList):
@@ -563,14 +542,7 @@ class RFCCWAIWars:
 		city, iPlayer = argsList
 		iPopulation = city.getPopulation()
 		if gc.getPlayer(iPlayer).getCivics(2) == con.iSlaveryCivic:
-			if iPlayer != utils.getHumanID() and gc.getPlayer(iPlayer).getCapitalCity().isProductionBuilding():
-				gc.getPlayer(iPlayer).getCapitalCity().changeProduction(60 * iPopulation)
-				return
-			elif iPlayer != utils.getHumanID() and gc.getPlayer(iPlayer).getGold() < 10:
-				gc.getPlayer(iPlayer).changeGold(20 * iPopulation)
-				return
-			else:
-				utils.makeUnit(con.iSlave, iPlayer, (city.getX(), city.getY()), iPopulation, DirectionTypes.DIRECTION_SOUTH, UnitAITypes.UNITAI_WORKER)
+			utils.makeUnit(con.iSlave, iPlayer, (city.getX(), city.getY()), iPopulation, DirectionTypes.DIRECTION_SOUTH, UnitAITypes.UNITAI_WORKER)
 				
 				
 				
@@ -606,7 +578,7 @@ class RFCCWAIWars:
 			for pLoopCity in apCityList:
 				city = pLoopCity.GetCy()
 				for iSpecialist in range(city.getFreeSpecialistCount(con.iSettledSlave)):
-					city.changeFreeSpecialistCount(con.iSettledSlave, -1)
+					city.changeFreeSpecialistCount(1, -1)
 			
 	def doDistantConquest(self, iCiv, iX, iY):
 		
@@ -1167,27 +1139,6 @@ class RFCCWAIWars:
 		popup.setHeaderString(CyTranslator().getText("TXT_KEY_SECRET_DIPLOMACY_TITLE", ()))
 		popup.setBodyString(CyTranslator().getText("TXT_KEY_SECRET_DIPLOMACY_FAILURE_MESSAGE", ()))
 		popup.launch()
-		
-	def spawnCityDefense(self, iPlayer, iCiv, tPlot):
-		
-		pPlayer = gc.getPlayer(iPlayer)
-		tTeam = gc.getTeam(pPlayer.getTeam())
-		iUnitType = con.iSpearman
-		if iCiv == con.iQin: iUnitType = con.iQinInfantry
-		if iCiv == con.iPontus: iUnitType = con.iPonticUazali
-		if iCiv == con.iAxum: iUnitType = con.iAxumSarawit
-		if iCiv == con.iRome: iUnitType = con.iLegionary
-		if tTeam.isHasTech(con.iArchery):
-			iUnitType = con.iArcher
-			if iCiv == con.iNubia: iUnitType = con.iNubiaLongbowman
-			if iCiv == con.iHan: iUnitType = con.iChokonu
-			if iCiv == con.iTocharians: iUnitType = con.iTarimBowman
-			if iCiv == con.iPandyans: iUnitType = con.iPandyanVillavar
-		if tTeam.isHasTech(con.iMarksmanship):
-			iUnitType = con.iMarksman
-			if iCiv == con.iVietnam: iUnitType = con.iAuLacCrossbowman
-			if iCiv == con.iGupta: iUnitType = con.iBambooArcher
-		utils.makeUnitAI(iUnitType, iPlayer, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 	
 
 			

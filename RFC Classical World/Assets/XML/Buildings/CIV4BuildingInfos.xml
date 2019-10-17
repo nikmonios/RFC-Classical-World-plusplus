@@ -177,7 +177,7 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
-		<BuildingInfo><!--BUILDING_SUMMER_PALACE -->
+		<BuildingInfo><!--BUILDING_SUMMER_PALACE-->
 			<BuildingClass>BUILDINGCLASS_SUMMER_PALACE</BuildingClass><!-- -->
 			<Type>BUILDING_SUMMER_PALACE</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>

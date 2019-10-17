@@ -87,7 +87,6 @@ iKalabhraSpawn = (195 + iRand1)
 iVakatakaSpawn = (210 + iRand3)
 iHephthaliteInvasion = (390 + iRand2)
 iRouranInvasion = (415 + iRand1)
-iLiuSongSpawn = (415 + iRand2)
 iHunsInvasion = (425 + iRand2)
 iAvarInvasion = (558 + iRand3)
 iArabMesopotamiaInvasion = (640 + iRand1)
@@ -396,20 +395,8 @@ class RiseAndFall:
 			self.do3KingdomsShu()
 		if popupReturn.getButtonClicked() == 2: # 2nd button
 			self.do3KingdomsWu()
-			
-	def tamilKingdomsPopup(self):
-		self.showPopup(7632, CyTranslator().getText("TXT_KEY_POPUP_TAMIL_CHOICE_TITLE", ()), CyTranslator().getText("TXT_KEY_POPUP_TAMIL_CHOICE_MESSAGE", ()), (CyTranslator().getText("TXT_KEY_POPUP_TAMIL_CHOICE_CHOLAS", ()), CyTranslator().getText("TXT_KEY_POPUP_TAMIL_CHOICE_PANDYANS", ()), CyTranslator().getText("TXT_KEY_POPUP_TAMIL_CHOICE_CHERAS", ())))
-			
-	def eventApply7632(self, popupReturn): # Tamil Kingdoms choice
-		if popupReturn.getButtonClicked() == 0: # 1st button
-			self.do3KingdomsChola()
-		if popupReturn.getButtonClicked() == 1: # 2nd button
-			self.do3KingdomsPandyan()
-		if popupReturn.getButtonClicked() == 2: # 2nd button
-			self.do3KingdomsChera()
 
 
-		
 #######################################
 ### Main methods (Event-Triggered) ###
 #####################################
@@ -422,7 +409,7 @@ class RiseAndFall:
 		
 		self.createEarlyStartingUnits()
 		for iLoopPlayer in range(iNumPlayers):
-			utils.setCivicsStability(iLoopPlayer)
+			self.setCivicsStability(iLoopPlayer)
 			if gc.getPlayer(iLoopPlayer).getNumCities() >= 1:
 				sd.setNumCities(iLoopPlayer, gc.getPlayer(iLoopPlayer).getNumCities())
 		for iLoopCiv in [iIndependent, iIndependent2, iIndependent3]:
@@ -494,8 +481,6 @@ class RiseAndFall:
 			sd.setCivilization(iVietnam, iMagadha)
 			self.setCivDesc(iVietnam, "Kingdom of Champa", "Champa", "Champan", "Khu Lien")
 			
-			utils.revealPlots(iJin, utils.getRegionPlotList(lRevealRegions[iJin], True)) 
-			
 		elif not (gc.getPlayer(iSeleucids).isPlayable()): # 80BC
 			# Mauryans to Sungas
 			sd.setCivilization(iMauryans, iSungas)
@@ -505,10 +490,6 @@ class RiseAndFall:
 			self.setCivDesc(iNomad1, "Kingdom of Mauretania", "Mauretania", "Mauretanian", "Bochhus")
 			
 		else: # 320BC
-			
-			if utils.getHumanID() == iQin:
-				self.foundCity(iIndependent, "Shouchun", 145, 47, [iTaoism], [])
-			
 			if not utils.getHumanID() == iAntigonids:
 				pAntigonids.AI_changeAttitudeExtra(iEgypt, -2)
 				pAntigonids.AI_changeAttitudeExtra(iSeleucids, -2)
@@ -523,11 +504,8 @@ class RiseAndFall:
 			gc.getPlayer(iLoopCiv).changeGold(tStartingGold[iLoopCiv]) # edead: set starting gold
 				
 			#utils.revealPlots(iLoopCiv, utils.getRegionPlotList(lRevealRegions[iLoopCiv], True)) 
-			
 			#if iLoopCiv != utils.getHumanID():
 				#utils.revealMap(iLoopCiv) 
-				
-			
 		
 
 			
@@ -542,9 +520,6 @@ class RiseAndFall:
 		if utils.getHumanID() == iJin and (gc.getPlayer(iSassanids).isPlayable()) and not (gc.getPlayer(iDacia).isPlayable()):
 			self.threeKingdomsPopup()
 				
-				
-		
-				
 		
 			
 		# look at starting plot for late civs
@@ -558,10 +533,6 @@ class RiseAndFall:
 	def checkTurn(self, iGameTurn):
 	
 		print ("RiseAndFall.checkTurn, year=", utils.getYear())
-		
-		if iGameTurn == getTurnForYear(-320):
-			utils.stabilityCheck(iCarthage)
-		
 		iHuman = utils.getHumanID()
 		# update unit art styles of independents
 		#for iLoopPlayer in range(iIndependent, iBarbarian):
@@ -578,7 +549,7 @@ class RiseAndFall:
 		if (iGameTurn % 20 == 1):
 			for iLoopCiv in range(iNumPlayers):
 				if gc.getTeam(gc.getPlayer(iLoopCiv).getTeam()).isHasTech(iOverextension):
-					utils.secedeDistantCities(iLoopCiv, sd.getCivilization(iLoopCiv))
+					self.secedeDistantCities(iLoopCiv, sd.getCivilization(iLoopCiv))
 					gc.getTeam(gc.getPlayer(iLoopCiv).getTeam()).setHasTech(iOverextension, False, iLoopCiv, False, False)
 					#if gc.getPlayer(iHuman).canContact(iLoopCiv):
 						#CyInterface().addMessage(utils.getHumanID(), False, iDuration, localText.getText("TXT_KEY_SECEDE_DISTANT1", ()) + " " + gc.getPlayer(iLoopCiv).getCivilizationDescription(0) + " " + localText.getText("TXT_KEY_SECEDE_DISTANT2", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
@@ -594,6 +565,8 @@ class RiseAndFall:
 		if iGameTurn == getTurnForYear(-318):
 			# help for AI Qin
 			if iHuman != iQin:
+				self.convertSurroundingCities(iQin, utils.getSpecialPlotList(iQin))
+				self.convertSurroundingPlotCulture(iQin, utils.getSpecialPlotList(iQin))
 				utils.makeUnit(iSpearman, iQin, tCapitals[iQin], 2)
 				utils.makeUnit(iQinInfantry, iQin, tCapitals[iQin], 2)
 				utils.makeUnit(iCatapult, iQin, tCapitals[iQin], 2)
@@ -632,19 +605,18 @@ class RiseAndFall:
 		if iGameTurn == getTurnForYear(iXiongnuSpawn) - 20:
 			utils.killAndFragmentCiv(iNomad0, False)
 			utils.clearCulture(iNomad0)
-			self.createSettlerAndGarrison(iNomad0, tCapitals[iXiongnu], iXiongnu)
 		if iGameTurn == getTurnForYear(iXiongnuSpawn):
 			sd.setCivilization(iNomad0, iXiongnu)
 			pNomad0.setCivilizationType(iXiongnu)
 			self.setCivDesc(iNomad0, "Xiongnu Khanate", "Xiongnu", "Xiongnu", "Modu Chanyu")
 			self.assignTechs(iNomad0, iXiongnu)
-			self.provinceAttack(iNomad0, iXiongnu, [rMongolianSteppe, rGansu, rZhao])
+			self.provinceAttack(iNomad0, iXiongnu, [rMongolianSteppe, rTarim, rGansu])
 			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_XIONGNU", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 			for iEnemyCiv in lEnemyCivsOnSpawn[iXiongnu]:
 				if utils.isActive(iEnemyCiv):
 					gc.getTeam(pNomad0.getTeam()).declareWar(iEnemyCiv, False, -1)
 		if iGameTurn == getTurnForYear(iXiongnuSpawn) + 10:
-			self.provinceAttack(iNomad0, iXiongnu, [rMongolianSteppe, rTarim, rGansu, rYan, rZhao, rQin, rQinghai])
+			self.provinceAttack(iNomad2, iXiongnu, [rMongolianSteppe, rTarim, rGansu, rYan, rZhao, rQin, rQinghai])
 			
 		# Sungas
 		if getTurnForYear(-200) < iGameTurn < getTurnForYear(-100) and iGameTurn % 8 == 0 and not pMauryans.isAlive() and sd.getCivilization(iMauryans) == iMauryans:
@@ -697,7 +669,7 @@ class RiseAndFall:
 				if utils.isActive(iEnemyCiv):
 					gc.getTeam(pNomad0.getTeam()).declareWar(iEnemyCiv, False, -1)
 		if iGameTurn == getTurnForYear(iXianbeiSpawn) + 10:
-			self.provinceAttack(iNomad0, iXianbei, [rMongolianSteppe, rTarim, rGansu, rYan, rZhao, rQin, rQinghai])
+			self.provinceAttack(iNomad2, iXianbei, [rMongolianSteppe, rTarim, rGansu, rYan, rZhao, Qin, rQinghai])
 		
 		# Pallavas
 		if iGameTurn == getTurnForYear(iPallavaSpawn) - 20:
@@ -767,28 +739,6 @@ class RiseAndFall:
 					if utils.isActive(iEnemyCiv):
 						gc.getTeam(pSatavahana.getTeam()).declareWar(iEnemyCiv, False, -1)
 		
-		# Liu Song
-		if iGameTurn == getTurnForYear(iLiuSongSpawn) - 20:
-			if iHan != iHuman and not gc.getTeam(pHan.getTeam()).isHasTech(iStabilityStable):
-				utils.killAndFragmentCiv(iHan, False)
-				utils.clearCulture(iHan)
-				sd.setCivilization(iHan, iSong)
-		if iGameTurn == getTurnForYear(iLiuSongSpawn):
-			if sd.getCivilization(iHan) == iSong:
-				pHan.setCivilizationType(iSong)
-				self.setCivDesc(iHan, "Liu Song Empire", "Liu Song", "Liu Song", "Wen")
-				self.assignTechs(iHan, iSong)
-				sd.setFlipsDelay(iHan, 0)
-				self.birthConditional(iHan, (148, 47), utils.getCorePlotList(iSong))
-				CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_SONG", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
-				for iEnemyCiv in lEnemyCivsOnSpawn[iSong]:
-					if utils.isActive(iEnemyCiv):
-						gc.getTeam(pHan.getTeam()).declareWar(iEnemyCiv, False, -1)
-		if iGameTurn == getTurnForYear(iLiuSongSpawn) + 1 and sd.getCivilization(iHan) == iSong:
-			self.birthConditional(iHan, (148, 47), utils.getCorePlotList(iSong))
-		if iGameTurn == getTurnForYear(iLiuSongSpawn) + 5:
-			self.provinceAttack(iHan, iSong, [rMinYue, rNanYue])
-		
 		# Hephthalites
 		if iGameTurn == getTurnForYear(iHephthaliteInvasion) - 20:
 			utils.killAndFragmentCiv(iNomad2, False)
@@ -813,15 +763,15 @@ class RiseAndFall:
 			utils.clearCulture(iNomad3)
 		if iGameTurn == getTurnForYear(iRouranInvasion):
 			sd.setCivilization(iNomad3, iRouran)
-			pNomad3.setCivilizationType(iRouran)
-			pNomad3.setLeader(iRouranLeader)
+			pAntigonids.setCivilizationType(iRouran)
+			pAntigonids.setLeader(iRouranLeader)
 			self.setCivDesc(iNomad3, "Rouran Khaganate", "Rouran", "Rouran", "Yujiulu")
 			self.assignTechs(iNomad3, iRouran)
 			self.provinceAttack(iNomad3, iRouran, [rTarim, rGansu, rMongolianSteppe])
 			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_ROURAN", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 			for iEnemyCiv in lEnemyCivsOnSpawn[iRouran]:
 				if utils.isActive(iEnemyCiv):
-					gc.getTeam(pNomad3.getTeam()).declareWar(iEnemyCiv, False, -1)
+					gc.getTeam(pAntigonids.getTeam()).declareWar(iEnemyCiv, False, -1)
 		if iGameTurn == getTurnForYear(iRouranInvasion) + 5:
 			self.provinceAttack(iNomad3, iRouran, [rQin, rZhao])
 		
@@ -832,15 +782,15 @@ class RiseAndFall:
 			utils.clearCulture(iNomad0)
 		if iGameTurn == getTurnForYear(iHunsInvasion):
 			sd.setCivilization(iNomad0, iHuns)
-			pNomad0.setCivilizationType(iHuns)
-			pNomad0.setLeader(iRouranLeader)
+			pSeleucids.setCivilizationType(iHuns)
+			pSeleucids.setLeader(iRouranLeader)
 			self.setCivDesc(iNomad0, "Hun Empire", "Huns", "Hun", "Atilla")
 			self.assignTechs(iNomad0, iHuns)
 			self.provinceAttack(iNomad0, iHuns, [rDacia, rScythianSteppe, rCrimea, rCaucasus])
 			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INVASION_HUNS_SCYTHIA", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 			for iEnemyCiv in lEnemyCivsOnSpawn[iHuns]:
 				if utils.isActive(iEnemyCiv):
-					gc.getTeam(pNomad0.getTeam()).declareWar(iEnemyCiv, False, -1)
+					gc.getTeam(pSeleucids.getTeam()).declareWar(iEnemyCiv, False, -1)
 		if iGameTurn == getTurnForYear(iHunsInvasion) + 15:
 			self.provinceAttack(iNomad0, iHuns, [rIllyricum])
 			self.provinceAttack(iNomad0, iHuns, [rThrace, rNItaly], True)
@@ -852,15 +802,15 @@ class RiseAndFall:
 				utils.clearCulture(iNomad2)
 		if iGameTurn == getTurnForYear(iAvarInvasion):
 			sd.setCivilization(iNomad2, iAvars)
-			pNomad2.setCivilizationType(iAvars)
-			pNomad2.setLeader(iRouranLeader)
+			pEgypt.setCivilizationType(iAvars)
+			pEgypt.setLeader(iRouranLeader)
 			self.setCivDesc(iNomad2, "Avar Khaganate", "Avars", "Avar", "Bayan")
 			self.assignTechs(iNomad2, iAvars)
 			self.provinceAttack(iNomad2, iAvars, [rDacia, rIllyricum])
 			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_AVARS", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 			for iEnemyCiv in lEnemyCivsOnSpawn[iAvars]:
 				if utils.isActive(iEnemyCiv):
-					gc.getTeam(pNomad2.getTeam()).declareWar(iEnemyCiv, False, -1)
+					gc.getTeam(pEgypt.getTeam()).declareWar(iEnemyCiv, False, -1)
 		if iGameTurn == getTurnForYear(iAvarInvasion) + 5:
 			self.provinceAttack(iNomad2, iAvars, [rThrace], True)
 			
@@ -881,7 +831,7 @@ class RiseAndFall:
 		# Chenla
 		if iGameTurn > getTurnForYear(525) and not pFunan.isAlive():
 			utils.clearCulture(iFunan)
-			#sd.setCivilization(iFunan, iChenla)
+			sd.setCivilization(iFunan, iChenla)
 			self.setCivDesc(iFunan, "Kingdom of Chenla", "Chenla", "Chenla", "Mahendravarman")
 			self.assignTechs(iFunan, iFunan)
 			self.provinceAttack(iFunan, iFunan, [rFunan])
@@ -901,34 +851,6 @@ class RiseAndFall:
 				#if utils.isActive(iEnemyCiv):
 					#gc.getTeam(pPlayer.getTeam()).declareWar(iEnemyCiv, False, -1)
 			
-		# Harsha
-		if iGameTurn == getTurnForYear(606) and not pMauryans.isAlive():
-			sd.setCivilization(iMauryans, iHarsha)
-			pMauryans.setCivilizationType(iHarsha)
-			pMauryans.setCivics(4, iStateReligionCivic)
-			pMauryans.setLastStateReligion(iBuddhism)
-			pMauryans.setLeader(iPusyamitra)
-			self.setCivDesc(iMauryans, "Empire of Harshavardhana", "Pushyabhuti", "Pushyabhutis", "Harshavardhana")
-			self.assignTechs(iMauryans, iHarsha)
-			pMauryans.setCivics(0, iMonarchyCivic)
-			pMauryans.setCivics(1, iVassalageCivic)
-			pMauryans.setCivics(2, iCasteSystemCivic)
-			pMauryans.setCivics(3, iPatronageCivic)
-			pMauryans.setCivics(4, iStateReligionCivic)
-			sd.setFlipsDelay(iMauryans, 0)
-			self.birthConditional(iMauryans, (107, 38), utils.getCorePlotList(iHarsha))
-			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_HARSHA", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
-			for iEnemyCiv in lEnemyCivsOnSpawn[iHarsha]:
-				if utils.isActive(iEnemyCiv):
-					gc.getTeam(pMauryans.getTeam()).declareWar(iEnemyCiv, False, -1)
-			if utils.getHumanID() not in [iChalukyans, iTibet, iTang, iArabs]:
-				self.newCivPopup(iMauryans)
-		if iGameTurn == getTurnForYear(607) and sd.getCivilization(iMauryans) == iHarsha:
-			self.birthConditional(iMauryans, (107, 38), utils.getCorePlotList(iHarsha))
-		if iGameTurn == (606) + 5:
-			if utils.getHumanID() != iMauryans:
-				self.provinceAttack(iMauryans, iHarsha, [rMagadha, rAvanti, rSindh])
-			
 		# Arab conquerors
 		if iGameTurn == getTurnForYear(iArabMesopotamiaInvasion) and iArabs != iHuman and not (utils.checkRegionControl(iArabs, rMesopotamia)):
 			self.provinceAttack(iArabs, iArabs, [rMesopotamia])
@@ -946,14 +868,14 @@ class RiseAndFall:
 		if iGameTurn == getTurnForYear(iMoorsInvasion) - 10 and iHuman != iArabs:
 			utils.killAndFragmentCiv(iNomad1, False)
 			utils.clearCulture(iNomad1)
-		if iGameTurn == getTurnForYear(iMoorsInvasion + 1) and iHuman != iArabs:
+		if iGameTurn == getTurnForYear(iMoorsInvasion) and iHuman != iArabs:
 			sd.setCivilization(iNomad1, iMoors)
 			pNomad1.setCivilizationType(iMoors)
 			self.setCivDesc(iNomad1, "Moorish Emirate", "Moors", "Moor", "Tariq ibn Ziyad")
 			pNomad1.setLeader(iTariq)
 			pNomad1.setFlag("Art/Interface/TeamColor/FlagDECAL_Blank.dds")
 			self.assignTechs(iNomad1, iMoors)
-			gc.getTeam(gc.getPlayer(iNomad1).getTeam()).setVassal(iArabs, True, False)
+			gc.getTeam(gc.getPlayer(iMoors).getTeam()).setVassal(iArabs, True, False)
 			self.provinceAttack(iNomad1, iMoors, [rMauretania, rBaetica, rNumidia])
 			CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_MOORS", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 			
@@ -974,8 +896,6 @@ class RiseAndFall:
 								continue
 							#if iPlayer == iFunan and iGameTurn > 350:
 								#continue
-							if iPlayer == iMauryans:
-								self.setCivDesc(iMauryans, "Kingdom of Magadha", "Magadha", "Magadhan", "Vasudeva")
 							self.provinceAttack(iPlayer, sd.getCivilization(iPlayer), lCoreRegions[iPlayer])
 			
 		
@@ -1093,8 +1013,8 @@ class RiseAndFall:
 				else:
 					#print ("initBirth called", "iLoopCiv=", iLoopCiv, "tBirth[iLoopCiv]=", tBirth[iLoopCiv])
 					self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
-					#if iLoopCiv == iByzantines:
-						#DynamicCivs.checkName(iRome)
+					if iLoopCiv == iByzantines:
+						DynamicCivs.checkName(iRome)
 					
 		# Byzantine setup
 		if (iGameTurn == getTurnForYear(tBirth[iByzantines]) - 5):
@@ -1103,7 +1023,7 @@ class RiseAndFall:
 				sd.setStopSpawn(iByzantines, 1)
 				return
 			# get rid of far eastern Roman conquests
-			utils.secedeDistantCities(iRome, iRome)
+			self.secedeDistantCities(iRome, iRome)
 			# end eastern Roman wars
 			for iCiv in range(iNumPlayers):
 				if iCiv in [iArmenia, iPontus, iParthia, iSassanids, iMaccabees, iEgypt, iNubia, iAxum, iSeleucids, iAntigonids, iSaba]:
@@ -1251,10 +1171,10 @@ class RiseAndFall:
 
 
 	def initBirth(self, iCurrentTurn, iBirthYear, iPlayer):
+		#print ("initBirth, iCiv=", iCiv)
 		iHuman = utils.getHumanID()
 		iBirthTurn = getTurnForYear(iBirthYear)
 		iCiv = sd.getCivilization(iPlayer)
-		#print ("initBirth, iCiv=", iCiv)
 		#print("iBirthTurn:%d, iCurrentTurn:%d" %(iBirthTurn, iCurrentTurn))
 		#print("getSpawnDelay:%d, getFlipsDelay:%d" %(self.getSpawnDelay(iCiv), self.getFlipsDelay(iCiv)))
 		
@@ -1504,71 +1424,70 @@ class RiseAndFall:
 ##											pCurrentFar.setRevealed(iCiv, False, True, -1);
 
 
-	def birthConditional(self, iPlayer, tCapital, plotList):
+	def birthConditional(self, iCiv, tCapital, plotList):
 		
-		print("birthConditional, FlipsDelay=%d" %(self.getFlipsDelay(iPlayer)))
-		print ("iPlayer", iPlayer)
+		#print("birthConditional, FlipsDelay=%d" %(self.getFlipsDelay(iCiv)))
 		
 		
 		startingPlot = (tCapital[0], tCapital[1])
 		iOwner = gc.getMap().plot(tCapital[0], tCapital[1]).getOwner()
-		if self.getFlipsDelay(iPlayer) == 0:
-			iFlipsDelay = self.getFlipsDelay(iPlayer) + 2
+		if self.getFlipsDelay(iCiv) == 0:
+			iFlipsDelay = self.getFlipsDelay(iCiv) + 2
 			if iFlipsDelay > 0:
 				
 				# pre-spawn a catapult to revive the player
-				#gc.getPlayer(iPlayer).revive() # forces alive status
-				print ("revived")
-				pCatapult = utils.makeUnit(iCatapult, iPlayer, (iCatapultX, iCatapultY), 1)
-				print ("catapult: ", pCatapult.getName())
+				#gc.getPlayer(iCiv).revive() # forces alive status
+				#print ("revived")
+				pCatapult = utils.makeUnit(iCatapult, iCiv, (iCatapultX, iCatapultY), 1)
+				#print ("catapult: ", pCatapult.getName())
 				
 				
 				# flip capital instead of spawning starting units
-				utils.flipCity(tCapital, False, True, iPlayer, ())
-				utils.cultureManager(tCapital, 100, iPlayer, iOwner, True, False, False)
-				self.convertSurroundingPlotCultureSquare(iPlayer, (tCapital[0]-1,tCapital[1]-1), (tCapital[0]+1,tCapital[1]+1))
+				utils.flipCity(tCapital, False, True, iCiv, ())
+				utils.cultureManager(tCapital, 100, iCiv, iOwner, True, False, False)
+				self.convertSurroundingPlotCultureSquare(iCiv, (tCapital[0]-1,tCapital[1]-1), (tCapital[0]+1,tCapital[1]+1))
 				
-				utils.cultureManager(startingPlot, 100, iPlayer, iOwner, True, False, False)
-				utils.flipUnitsInCityBefore(startingPlot, iPlayer, iOwner)
+				utils.cultureManager(startingPlot, 100, iCiv, iOwner, True, False, False)
+				utils.flipUnitsInCityBefore(startingPlot, iCiv, iOwner)
 				self.setTempFlippingCity(startingPlot) #necessary for the (688379128, 0) bug
-				utils.flipCity(startingPlot, 0, 0, iPlayer, [iOwner])
-				utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iPlayer)
+				utils.flipCity(startingPlot, 0, 0, iCiv, [iOwner])
+				utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iCiv)
 				
-				print ("starting units in", tCapital[0], tCapital[1])
-				print ("birthConditional: starting units in", tCapital[0], tCapital[1])
-				self.createStartingUnits(iPlayer, tCapitals[sd.getCivilization(iPlayer)], sd.getCivilization(iPlayer))
-				#utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-				#utils.clearPlague(iPlayer)
-				print ("flipping remaining units")
+				#print ("starting units in", tCapital[0], tCapital[1])
+				#print ("birthConditional: starting units in", tCapital[0], tCapital[1])
+				self.createStartingUnits(iCiv, tCapitals[sd.getCivilization(iCiv)], sd.getCivilization(iCiv))
+				utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+				utils.clearPlague(iCiv)
+				#print ("flipping remaining units")
 				for i in range(iIndependent, iBarbarian+1):
-					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iPlayer, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
-				self.setFlipsDelay(iPlayer, iFlipsDelay) #save
+					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iCiv, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
+				self.setFlipsDelay(iCiv, iFlipsDelay) #save
 				
 				# kill the catapult and cover the plots
 				plotZero = gc.getMap().plot(iCatapultX, iCatapultY)
 				if (plotZero.getNumUnits()):
 					catapult = plotZero.getUnit(0)
-					catapult.kill(False, iPlayer)
-				utils.coverPlots(iCatapultX, iCatapultY, iPlayer) # edead
-				print ("Plots covered")
-				utils.coverPlots(tCapital[0], tCapital[1], iPlayer)# possible fix for city ruins bug
-				utils.revealPlots(iPlayer, utils.getRegionPlotList(lRevealRegions[sd.getCivilization(iPlayer)], True)) # re-reveal the plot
+					catapult.kill(False, iCiv)
+				utils.coverPlots(iCatapultX, iCatapultY, iCiv) # edead
+				#print ("Plots covered")
+				utils.coverPlots(tCapital[0], tCapital[1], iCiv)# possible fix for city ruins bug
+				utils.revealPlots(iCiv, utils.getRegionPlotList(lRevealRegions[iCiv], True)) # re-reveal the plot
 		
 		else: #starting units have already been placed, now the second part
-			iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iPlayer, plotList)
-			self.convertSurroundingPlotCulture(iPlayer, plotList)
+			iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iCiv, plotList)
+			self.convertSurroundingPlotCulture(iCiv, plotList)
 			
 			# extra help for the post-barbarian invasion AI
-			#if iPlayer != utils.getHumanID() and iPlayer in [iParthia, iDacia, iSrivajaya, iTang, iArabs]:
-				#iNumAICitiesConverted += self.convertSurroundingCities(iPlayer, utils.getNormalPlotList(iPlayer), True) # barbs only
+			#if iCiv != utils.getHumanID() and iCiv in [iParthia, iDacia, iSrivajaya, iTang, iArabs]:
+				#iNumAICitiesConverted += self.convertSurroundingCities(iCiv, utils.getNormalPlotList(iCiv), True) # barbs only
 				
 			# extra help for Rome and Parthia
-			if iPlayer != utils.getHumanID() and iPlayer in [iRome, iParthia, iKushans, iJin, iTang, iGupta]:
+			if iCiv != utils.getHumanID() and iCiv in [iRome, iParthia, iKushans, iJin]:
 				#print "conditional"
-				iNumAICitiesConverted += self.convertSurroundingCities(iPlayer, utils.getSpecialPlotList(iPlayer), True) # barbs & indys only
+				iNumAICitiesConverted += self.convertSurroundingCities(iCiv, utils.getSpecialPlotList(iCiv), True) # barbs & indys only
 			
 			for i in range(iIndependent, iBarbarian+1):
-				utils.flipUnitsInArea(plotList, iPlayer, i, False, True) #remaining barbs/indeps in the region now belong to the new civ   
+				utils.flipUnitsInArea(plotList, iCiv, i, False, True) #remaining barbs/indeps in the region now belong to the new civ   
 			#print ("utils.flipUnitsInArea()")
 			
 			
@@ -1576,98 +1495,96 @@ class RiseAndFall:
 			plotZero = gc.getMap().plot(iCatapultX, iCatapultY)
 			if (plotZero.getNumUnits()):
 				catapult = plotZero.getUnit(0)
-				catapult.kill(False, iPlayer)
-			utils.coverPlots(iCatapultX, iCatapultY, iPlayer) # edead
+				catapult.kill(False, iCiv)
+			utils.coverPlots(iCatapultX, iCatapultY, iCiv) # edead
 			#print ("Plots covered")
 			
 			# create workers
-			if gc.getPlayer(iPlayer).getNumCities() > 0:
-				capital = gc.getPlayer(iPlayer).getCapitalCity()
-				self.createStartingWorkers(iPlayer, (capital.getX(), capital.getY()))
+			if gc.getPlayer(iCiv).getNumCities() > 0:
+				capital = gc.getPlayer(iCiv).getCapitalCity()
+				self.createStartingWorkers(iCiv, (capital.getX(), capital.getY()))
 			
 			# convert human cities
 			if iNumHumanCitiesToConvert > 0:
-				self.flipPopup(iPlayer, plotList)
+				self.flipPopup(iCiv, plotList)
 			
 			# move AI capital
-			#if tNoSettler[iPlayer] > 0:
-			if not self.moveCapital(tCapital, iPlayer):
-				self.moveCapital(tBackupCapitals[sd.getCiviization(iPlayer)], iPlayer)
+			#if tNoSettler[iCiv] > 0:
+			if not self.moveCapital(tCapital, iCiv):
+				self.moveCapital(tBackupCapitals[iCiv], iCiv)
 			
 			# extra units in flipped cities
-			self.createPostFlipUnits(iPlayer)
+			self.createPostFlipUnits(iCiv)
 			
 			# extra settlers
-			self.createPostFlipSettlers(iPlayer, tCapital)
+			self.createPostFlipSettlers(iCiv, tCapital)
 
 
 	def birthInvasion(self, iPlayer, tCapital, plotList):#, iPlayer = -1):
 	
-		print ("birthInvasion, iPlayer=", iPlayer, "iCiv=", sd.getCivilization(iPlayer))
-		print("birthInvasion, FlipsDelay=%d" %(self.getFlipsDelay(iPlayer)))
+		#print ("birthInvasion, iPlayer=", iPlayer, "iCiv=", sd.getCivilization(iPlayer))
+		#print("birthInvasion, FlipsDelay=%d" %(self.getFlipsDelay(iCiv)))
 		#if iPlayer == -1:
 			#iPlayer = iCiv
 			
 		bMaccabeanRomanWar = False
 		
 		if self.getFlipsDelay(iPlayer) == 0:
-			print ("1st part of birthInvasion, iPlayer=", iPlayer)
+			#print ("1st part of birthInvasion, iPlayer=", iPlayer)
 			iFlipsDelay = self.getFlipsDelay(iPlayer) + 2
-			print ("iFlipsDelay=", iFlipsDelay)
+			#print ("iFlipsDelay=", iFlipsDelay)
 			if iFlipsDelay > 0:
 				
 				# declare war on the capital's owner
-				print ("tCapital=", tCapital[0], tCapital[1])
+				#print ("tCapital=", tCapital[0], tCapital[1])
 				if gc.getMap().plot(tCapital[0], tCapital[1]).isCity():
-					print "capital is city"
+					#print "capital is city"
 					iCapitalOwner = gc.getMap().plot(tCapital[0],tCapital[1]).getOwner()
-					print ("iCapitalOwner=", iCapitalOwner)
+					#print ("iCapitalOwner=", iCapitalOwner)
 					if sd.getCivilization(iPlayer) == iMaccabees and iCapitalOwner == iRome:
 						bMaccabeanRomanWar = True
 					if not gc.getTeam(gc.getPlayer(iPlayer).getTeam()).isAtWar(gc.getPlayer(iCapitalOwner).getTeam()):
-						print ("declare war, iPlayer=", iPlayer, "iCapitalOwner=", iCapitalOwner)
+						#print ("declare war, iPlayer=", iPlayer, "iCapitalOwner=", iCapitalOwner)
 						gc.getTeam(gc.getPlayer(iPlayer).getTeam()).declareWar(gc.getPlayer(iCapitalOwner).getTeam(), True, -1)
 				
-					# traitors open the gates...
-					city = gc.getMap().plot(tCapital[0],tCapital[1]).getPlotCity()
-					if city:
-						city.changeCultureUpdateTimer(3);
-						city.changeOccupationTimer(3);
-						CyInterface().addMessage(city.getOwner(), False, iDuration, localText.getText("TXT_KEY_TRAITOR_REVOLT", (city.getName(),)), "AS2D_CITY_REVOLT", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, ArtFileMgr.getInterfaceArtInfo("INTERFACE_RESISTANCE").getPath(), ColorTypes(iRed), city.getX(), city.getY(), True, True);
-					
-					# find a spot for the siege
-					for tPlot in ((city.getX(), city.getY()+1), (city.getX(), city.getY()-1), (city.getX()+1, city.getY()), (city.getX()-1, city.getY()), (city.getX()+1, city.getY()+1), (city.getX()-1, city.getY()-1), (city.getX()+1, city.getY()-1), (city.getX()-1, city.getY()+1)):
-						pPlot = gc.getMap().plot(tPlot[0], tPlot[1])
-						if pPlot.getOwner() < 0 or gc.getTeam(gc.getPlayer(iPlayer).getTeam()).isAtWar(gc.getPlayer(pPlot.getOwner()).getTeam()):
-							if (not pPlot.isWater() and not pPlot.isPeak() and pPlot.getFeatureType() not in [iForest, iMarsh, iJungle, iDenseForest, iIce]):
-								if not utils.areDividedByRiver(tPlot, [city.getX(), city.getY()]):
-									break
-									
-					
-					startingPlot = gc.getMap().plot(tPlot[0], tPlot[1])
-					
-					# clear the spot
-					iNumUnitsInAPlot = startingPlot.getNumUnits()
-					if iNumUnitsInAPlot:
-						for i in range(iNumUnitsInAPlot):
-							unit = startingPlot.getUnit(0)
-							if unit.getOwner() != iPlayer:
-								unit.kill(False, iBarbarian)
-					
-					print ("birthInvasion: starting units in", tPlot[0], tPlot[1])
-					self.createStartingUnits(iPlayer, (tPlot[0], tPlot[1]), sd.getCivilization(iPlayer))
-					if bMaccabeanRomanWar:
-						self.createAdditionalMaccabeanUnits(iPlayer, tCapitals[iPlayer])
-					utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-					utils.clearPlague(iPlayer)
-					for i in range(iIndependent, iBarbarian+1):
-						utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iPlayer, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
-					self.setFlipsDelay(iPlayer, iFlipsDelay) #save
-				else:
-					self.createSettlerAndGarrison(iPlayer, tCapital, sd.getCivilization(iPlayer))
+				# traitors open the gates...
+				city = gc.getMap().plot(tCapital[0],tCapital[1]).getPlotCity()
+				if city:
+					city.changeCultureUpdateTimer(3);
+					city.changeOccupationTimer(3);
+					CyInterface().addMessage(city.getOwner(), False, iDuration, localText.getText("TXT_KEY_TRAITOR_REVOLT", (city.getName(),)), "AS2D_CITY_REVOLT", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, ArtFileMgr.getInterfaceArtInfo("INTERFACE_RESISTANCE").getPath(), ColorTypes(iRed), city.getX(), city.getY(), True, True);
+				
+				# find a spot for the siege
+				for tPlot in ((city.getX(), city.getY()+1), (city.getX(), city.getY()-1), (city.getX()+1, city.getY()), (city.getX()-1, city.getY()), (city.getX()+1, city.getY()+1), (city.getX()-1, city.getY()-1), (city.getX()+1, city.getY()-1), (city.getX()-1, city.getY()+1)):
+					pPlot = gc.getMap().plot(tPlot[0], tPlot[1])
+					if pPlot.getOwner() < 0 or gc.getTeam(gc.getPlayer(iPlayer).getTeam()).isAtWar(gc.getPlayer(pPlot.getOwner()).getTeam()):
+						if (not pPlot.isWater() and not pPlot.isPeak() and pPlot.getFeatureType() not in [iForest, iMarsh, iJungle, iDenseForest, iIce]):
+							if not utils.areDividedByRiver(tPlot, [city.getX(), city.getY()]):
+								break
+								
+				
+				startingPlot = gc.getMap().plot(tPlot[0], tPlot[1])
+				
+				# clear the spot
+				iNumUnitsInAPlot = startingPlot.getNumUnits()
+				if iNumUnitsInAPlot:
+					for i in range(iNumUnitsInAPlot):
+						unit = startingPlot.getUnit(0)
+						if unit.getOwner() != iPlayer:
+							unit.kill(False, iBarbarian)
+				
+				#print ("birthInvasion: starting units in", tPlot[0], tPlot[1])
+				self.createStartingUnits(iPlayer, (tPlot[0], tPlot[1]), sd.getCivilization(iPlayer))
+				if bMaccabeanRomanWar:
+					self.createAdditionalMaccabeanUnits(iPlayer, tCapitals[iPlayer])
+				utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
+				utils.clearPlague(iPlayer)
+				for i in range(iIndependent, iBarbarian+1):
+					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iPlayer, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
+				self.setFlipsDelay(iPlayer, iFlipsDelay) #save
 		
 		else: #starting units have already been placed, now the second part
-			print ("2nd part of birthInvasion, iPlayer=", iPlayer)
+			#print ("2nd part of birthInvasion, iPlayer=", iPlayer)
 			iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iPlayer, plotList)
 			
 			# extra help for the post-barbarian invasion AI
@@ -1678,7 +1595,7 @@ class RiseAndFall:
 			self.convertSurroundingPlotCulture(iPlayer, plotList)
 			for i in range(iIndependent, iBarbarian+1):
 				utils.flipUnitsInArea(plotList, iPlayer, i, False, True) #remaining barbs/indeps in the region now belong to the new civ   
-			print ("utils.flipUnitsInArea()")
+			#print ("utils.flipUnitsInArea()")
 			
 			# kill the catapult & cover the plots
 			plotZero = gc.getMap().plot(iCatapultX, iCatapultY)
@@ -1686,7 +1603,7 @@ class RiseAndFall:
 				catapult = plotZero.getUnit(0)
 				catapult.kill(False, iPlayer)
 			utils.coverPlots(iCatapultX, iCatapultY, iPlayer) # edead
-			print ("Plots covered")
+			#print ("Plots covered")
 			
 			# create workers
 			if gc.getPlayer(iPlayer).getNumCities() > 0:
@@ -1709,36 +1626,36 @@ class RiseAndFall:
 			#self.createPostFlipSettlers(iCiv, tCapital)
 
 
-	def birthInFreeRegion(self, iPlayer, tCapital, plotList):
+	def birthInFreeRegion(self, iCiv, tCapital, plotList):
 		
-		print("birthInFreeRegion, FlipsDelay=%d" %(self.getFlipsDelay(iPlayer)))
+		#print("birthInFreeRegion, FlipsDelay=%d" %(self.getFlipsDelay(iCiv)))
 		
 		startingPlot = gc.getMap().plot(tCapital[0], tCapital[1])
-		if self.getFlipsDelay(iPlayer) == 0:
-			iFlipsDelay = self.getFlipsDelay(iPlayer) + 2
+		if self.getFlipsDelay(iCiv) == 0:
+			iFlipsDelay = self.getFlipsDelay(iCiv) + 2
 			if iFlipsDelay > 0:
-				self.createStartingUnits(iPlayer, tCapitals[sd.getCivilization(iPlayer)], sd.getCivilization(iPlayer))
-				utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-				utils.clearPlague(iPlayer)
+				self.createStartingUnits(iCiv, tCapitals[sd.getCivilization(iCiv)], sd.getCivilization(iCiv))
+				utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+				utils.clearPlague(iCiv)
 				for i in range(iIndependent, iBarbarian+1):
-					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iPlayer, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
-				self.setFlipsDelay(iPlayer, iFlipsDelay) #save
+					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iCiv, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
+				self.setFlipsDelay(iCiv, iFlipsDelay) #save
 		
 		else: #starting units have already been placed, now the second part
-			print ("2nd part of birth, iPlayer=", iPlayer)
-			if iPlayer not in [iYamato, iPandyans] or iPlayer != utils.getHumanID():
-				iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iPlayer, plotList)
+			#print ("2nd part of birth, iCiv=", iCiv)
+			if iCiv != iYamato or iCiv != utils.getHumanID():
+				iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iCiv, plotList)
 			else:
 				iNumAICitiesConverted, iNumHumanCitiesToConvert = 0, 0
 			
 			# extra help for Rome
-			if iPlayer != utils.getHumanID() and iPlayer == iRome:
-				self.convertSurroundingCities(iPlayer, utils.getSpecialPlotList(iPlayer), True) # barbs & indys only
+			if iCiv != utils.getHumanID() and iCiv == iRome:
+				self.convertSurroundingCities(iCiv, utils.getSpecialPlotList(iCiv), True) # barbs & indys only
 			
-			if iPlayer not in [iYamato, iPandyans] or iPlayer != utils.getHumanID():
-				self.convertSurroundingPlotCulture(iPlayer, plotList)
+			if iCiv != iYamato or iCiv != utils.getHumanID():
+				self.convertSurroundingPlotCulture(iCiv, plotList)
 				for i in range(iIndependent, iBarbarian+1):
-					utils.flipUnitsInArea(plotList, iPlayer, i, False, True) #remaining barbs/indeps in the region now belong to the new civ   
+					utils.flipUnitsInArea(plotList, iCiv, i, False, True) #remaining barbs/indeps in the region now belong to the new civ   
 			
 			
 			
@@ -1746,53 +1663,54 @@ class RiseAndFall:
 			plotZero = gc.getMap().plot(iCatapultX, iCatapultY)
 			if (plotZero.getNumUnits()):
 				catapult = plotZero.getUnit(0)
-				catapult.kill(False, iPlayer)
-			utils.coverPlots(iCatapultX, iCatapultY, iPlayer) # edead
-			print ("Plots covered")
+				catapult.kill(False, iCiv)
+			utils.coverPlots(iCatapultX, iCatapultY, iCiv) # edead
+			#print ("Plots covered")
 			
 			# create workers
-			if gc.getPlayer(iPlayer).getNumCities() > 0:
-				capital = gc.getPlayer(iPlayer).getCapitalCity()
-				self.createStartingWorkers(iPlayer, (capital.getX(), capital.getY()))
+			if gc.getPlayer(iCiv).getNumCities() > 0:
+				capital = gc.getPlayer(iCiv).getCapitalCity()
+				if iCiv != iByzantines:
+					self.createStartingWorkers(iCiv, (capital.getX(), capital.getY()))
 			
 			# convert human cities
 			if iNumHumanCitiesToConvert > 0:
-				self.flipPopup(iPlayer, plotList)
+				self.flipPopup(iCiv, plotList)
 			
 			# move AI capital
-			#if tNoSettler[iPlayer] > 0:
-			if not self.moveCapital(tCapital, iPlayer):
-				self.moveCapital(tBackupCapitals[iPlayer], iPlayer)
+			#if tNoSettler[iCiv] > 0:
+			if not self.moveCapital(tCapital, iCiv):
+				self.moveCapital(tBackupCapitals[iCiv], iCiv)
 			
 			# extra units in flipped cities
-			self.createPostFlipUnits(iPlayer)
+			self.createPostFlipUnits(iCiv)
 			
 			# extra settlers
-			self.createPostFlipSettlers(iPlayer, tCapital)
+			self.createPostFlipSettlers(iCiv, tCapital)
 			
 			
-	def byzantineBirthInFreeRegion(self, iPlayer, tCapital, plotList):
+	def byzantineBirthInFreeRegion(self, iCiv, tCapital, plotList):
 		
-		print("byzantineBirthInFreeRegion, FlipsDelay=%d" %(self.getFlipsDelay(iPlayer)))
+		#print("byzantineBirthInFreeRegion, FlipsDelay=%d" %(self.getFlipsDelay(iCiv)))
 		
 		startingPlot = gc.getMap().plot(tCapital[0], tCapital[1])
-		if self.getFlipsDelay(iPlayer) == 0:
-			iFlipsDelay = self.getFlipsDelay(iPlayer) + 2
+		if self.getFlipsDelay(iCiv) == 0:
+			iFlipsDelay = self.getFlipsDelay(iCiv) + 2
 			if iFlipsDelay > 0:
-				self.createStartingUnits(iPlayer, tCapitals[sd.getCivilization(iPlayer)], sd.getCivilization(iPlayer))
-				utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-				utils.clearPlague(iPlayer)
+				self.createStartingUnits(iCiv, tCapitals[sd.getCivilization(iCiv)], sd.getCivilization(iCiv))
+				utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+				utils.clearPlague(iCiv)
 				for i in range(iIndependent, iBarbarian+1):
-					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iPlayer, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
-				self.setFlipsDelay(iPlayer, iFlipsDelay) #save
+					utils.flipUnitsInArea(utils.getAreaPlotList((tCapital[0]-2, tCapital[1]-2), (tCapital[0]+2, tCapital[1]+2)), iCiv, i, True, True) #This is for AI only. During Human player spawn, that area is already cleaned
+				self.setFlipsDelay(iCiv, iFlipsDelay) #save
 		
 		else: #starting units have already been placed, now the second part
-			print ("2nd part of birth, iPlayer=", iPlayer)
+			#print ("2nd part of birth, iCiv=", iCiv)
 			self.byzantineConvertRomanCities()
 			
-			self.convertSurroundingPlotCulture(iPlayer, plotList)
+			self.convertSurroundingPlotCulture(iCiv, plotList)
 			for i in range(iIndependent, iBarbarian+1):
-				utils.flipUnitsInArea(plotList, iPlayer, i, False, True) #remaining barbs/indeps in the region now belong to the new civ  
+				utils.flipUnitsInArea(plotList, iCiv, i, False, True) #remaining barbs/indeps in the region now belong to the new civ  
 			utils.byzantineRomanUnitFlip()
 			if iRome != utils.getHumanID():
 				# stabilize Western Rome
@@ -1815,63 +1733,63 @@ class RiseAndFall:
 			plotZero = gc.getMap().plot(iCatapultX, iCatapultY)
 			if (plotZero.getNumUnits()):
 				catapult = plotZero.getUnit(0)
-				catapult.kill(False, iPlayer)
-			utils.coverPlots(iCatapultX, iCatapultY, iPlayer) # edead
-			print ("Plots covered")
+				catapult.kill(False, iCiv)
+			utils.coverPlots(iCatapultX, iCatapultY, iCiv) # edead
+			#print ("Plots covered")
 			
 			# create workers
-			if gc.getPlayer(iPlayer).getNumCities() > 0:
-				capital = gc.getPlayer(iPlayer).getCapitalCity()
-				if iPlayer != iByzantines:
-					self.createStartingWorkers(iPlayer, (capital.getX(), capital.getY()))
+			if gc.getPlayer(iCiv).getNumCities() > 0:
+				capital = gc.getPlayer(iCiv).getCapitalCity()
+				if iCiv != iByzantines:
+					self.createStartingWorkers(iCiv, (capital.getX(), capital.getY()))
 			
 			# convert human cities
 			#if iNumHumanCitiesToConvert > 0:
-				#self.flipPopup(iPlayer, plotList)
+				#self.flipPopup(iCiv, plotList)
 			
 			# move AI capital
-			#if tNoSettler[iPlayer] > 0:
-			if not self.moveCapital(tCapital, iPlayer):
-				self.moveCapital(tBackupCapitals[iPlayer], iPlayer)
+			#if tNoSettler[iCiv] > 0:
+			if not self.moveCapital(tCapital, iCiv):
+				self.moveCapital(tBackupCapitals[iCiv], iCiv)
 			
 			# extra units in flipped cities
-			self.createPostFlipUnits(iPlayer)
+			self.createPostFlipUnits(iCiv)
 			
 			# extra settlers
-			self.createPostFlipSettlers(iPlayer, tCapital)
+			self.createPostFlipSettlers(iCiv, tCapital)
 
 
-	def birthInForeignBorders(self, iPlayer, lCorePlots, lBroaderPlots):
-		print "2nd part of birthInForeignBorders"
+	def birthInForeignBorders(self, iCiv, lCorePlots, lBroaderPlots):
+		#print "2nd part of birthInForeignBorders"
 		
-		iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iPlayer, lCorePlots)
-		self.convertSurroundingPlotCulture(iPlayer, lCorePlots)
+		iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iCiv, lCorePlots)
+		self.convertSurroundingPlotCulture(iCiv, lCorePlots)
 		
 		# extra help for the post-barbarian invasion AI
-		if iPlayer != iHuman and iPlayer in [iParthia, iDacia, iSrivajaya, iTang, iArabs]:
-			iNumExtraCities, dummy = self.convertSurroundingCities(iPlayer, utils.getNormalPlotList(iPlayer), True) # barbs only
+		if iCiv != iHuman and iCiv in [iParthia, iDacia, iSrivajaya, iTang, iArabs]:
+			iNumExtraCities, dummy = self.convertSurroundingCities(iCiv, utils.getNormalPlotList(iCiv), True) # barbs only
 			iNumAICitiesConverted += iNumExtraCities
 
 		#now starting units must be placed
 		if (iNumAICitiesConverted > 0):
 			#utils.debugTextPopup( 'iConverted OK for placing units' )
-			dummy1, plotList = utils.plotListSearch( lCorePlots, utils.ownedCityPlots, iPlayer )
+			dummy1, plotList = utils.plotListSearch( lCorePlots, utils.ownedCityPlots, iCiv )
 			rndNum = gc.getGame().getSorenRandNum(len(plotList), 'searching any city just flipped')
-			print ("rndNum for starting units", rndNum)
+			#print ("rndNum for starting units", rndNum)
 			if (len(plotList)):
 				result = plotList[rndNum]
 				if (result):
-					self.createStartingUnits(iPlayer, result, sd.getCivilization(iPlayer))
-					utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-					utils.clearPlague(iPlayer)
-					#gc.getPlayer(iPlayer).changeAnarchyTurns(1)
+					self.createStartingUnits(iCiv, result, sd.getCivilization(iCiv))
+					utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+					utils.clearPlague(iCiv)
+					#gc.getPlayer(iCiv).changeAnarchyTurns(1)
 			for i in range(iIndependent, iBarbarian+1):
-				utils.flipUnitsInArea(lCorePlots, iPlayer, i, False, False) #remaining barbs in the region now belong to the new civ 
+				utils.flipUnitsInArea(lCorePlots, iCiv, i, False, False) #remaining barbs in the region now belong to the new civ 
 			
 			# move AI capital
-			#if tNoSettler[iPlayer] > 0:
-			if not self.moveCapital(tCapitals[sd.getCivilization(iPlayer)], iPlayer):
-				self.moveCapital(tBackupCapitals[sd.getCivilization(iPlayer)], iPlayer)
+			#if tNoSettler[iCiv] > 0:
+			if not self.moveCapital(tCapitals[iCiv], iCiv):
+				self.moveCapital(tBackupCapitals[iCiv], iCiv)
 		
 		else:   #search another place
 			dummy, plotList = utils.plotListSearch( lCorePlots, utils.goodPlots, [] )
@@ -1879,31 +1797,31 @@ class RiseAndFall:
 			if (len(plotList)):
 				result = plotList[rndNum]
 				if (result):
-					self.createStartingUnits(iPlayer, result, sd.getCivilization(iPlayer))
-					utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-					utils.clearPlague(iPlayer)
+					self.createStartingUnits(iCiv, result, sd.getCivilization(iCiv))
+					utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+					utils.clearPlague(iCiv)
 			else:
 				dummy1, plotList = utils.plotListSearch( lBroaderPlots, utils.goodPlots, [] )
 				rndNum = gc.getGame().getSorenRandNum(len(plotList), 'searching other good plots in a broader region')
 				if (len(plotList)):
 					result = plotList[rndNum]
 					if (result):
-						self.createStartingUnits(iPlayer, result, sd.getCivilization(iPlayer))
-						self.createStartingWorkers(iPlayer, result)
-						utils.setPlagueCountdown(iPlayer, -utils.getTurns(iImmunity))
-						utils.clearPlague(iPlayer)
+						self.createStartingUnits(iCiv, result, sd.getCivilization(iCiv))
+						self.createStartingWorkers(iCiv, result)
+						utils.setPlagueCountdown(iCiv, -utils.getTurns(iImmunity))
+						utils.clearPlague(iCiv)
 			for i in range(iIndependent, iBarbarian+1):
-				utils.flipUnitsInArea(lCorePlots, iPlayer, i, True, True) #remaining barbs in the region now belong to the new civ 
+				utils.flipUnitsInArea(lCorePlots, iCiv, i, True, True) #remaining barbs in the region now belong to the new civ 
 		
 		if (iNumHumanCitiesToConvert > 0):
-			self.flipPopup(iPlayer, lCorePlots)
+			self.flipPopup(iCiv, lCorePlots)
 		
 		# extra units in flipped cities
-		self.createPostFlipUnits(iPlayer)
+		self.createPostFlipUnits(iCiv)
 
 
 	def convertSurroundingCities(self, iCiv, plotList, fBarbOnly = False):
-			print "convertSurroundingCities"
+			#print "convertSurroundingCities"
 			iConvertedCitiesCount = 0
 			iNumHumanCities = 0
 			cityList = []
@@ -1929,7 +1847,7 @@ class RiseAndFall:
 					loopCity = cityList[i]
 					loopX = loopCity.getX()
 					loopY = loopCity.getY()
-					print ("cityList", loopCity.getName(), (loopX, loopY))
+					#print ("cityList", loopCity.getName(), (loopX, loopY))
 					#iHuman = utils.getHumanID()
 					iOwner = loopCity.getOwner()
 					iCultureChange = 0 #if 0, no flip; if > 0, flip will occur with the value as variable for utils.CultureManager()
@@ -1989,10 +1907,7 @@ class RiseAndFall:
 			if (iConvertedCitiesCount > 0):
 				if (gc.getPlayer(iCiv).isHuman()):
 					CyInterface().addMessage(iCiv, True, iDuration, CyTranslator().getText("TXT_KEY_FLIP_TO_US", ()), "", 0, "", ColorTypes(iGreen), -1, -1, True, True)
-			
-			# hit neighbours stability
-			self.hitNeighboursStability(iCiv)
-			
+
 			#print( "converted cities", iConvertedCitiesCount)
 			return (iConvertedCitiesCount, iNumHumanCities)
 						
@@ -2125,17 +2040,13 @@ class RiseAndFall:
 
 	def createAdditionalUnits( self, iCiv, tPlot ):
 			
-		if iCiv == iGojoseon:
-			utils.makeUnit(iChosonHorseman, iCiv, tPlot, 3)
-			#utils.makeUnit(iDeccanElephantRider, iCiv, tPlot, 1)
-			
 		if iCiv == iMauryans:
-			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
-			utils.makeUnit(iDeccanElephantRider, iCiv, tPlot, 1)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 		if iCiv == iQin:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iQinInfantry, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iQinInfantry, iCiv, tPlot, 2)
 
 		if iCiv == iTocharians:
 			utils.makeUnit(iTarimBowman, iCiv, tPlot, 2)
@@ -2143,108 +2054,108 @@ class RiseAndFall:
 			
 		if iCiv == iArmenia:
 			utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iAzatavrear, iCiv, tPlot, 3)
+			utils.makeUnit(iAzatavrear, iCiv, tPlot, 2)
 			
 		if iCiv == iMaccabees:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iMaccabee, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iMaccabee, iCiv, tPlot, 2)
 			
 		if iCiv == iSeleucids:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iHoplite, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iHoplite, iCiv, tPlot, 2)
 			
 		if iCiv == iHan:
 			utils.makeUnit(iChokonu, iCiv, tPlot, 4)
-			#utils.makeUnit(iSpearman, iCiv, tPlot, 4)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 4)
 			
 		if iCiv == iRome:
-			utils.makeUnit(iLegionary, iCiv, tPlot, 4)
+			utils.makeUnit(iLegionary, iCiv, tPlot, 6)
 			
 		if iCiv == iPandyans:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iAxeman, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 		if iCiv == iBactria:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			#utils.makeUnit(iSpearman, iCiv, tPlot, 2)
-			utils.makeUnit(iHetairoi, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 2)
+			utils.makeUnit(iHetairoi, iCiv, tPlot, 2)
 			
 		if iCiv == iParthia:
-			utils.makeUnit(iShivatir, iCiv, tPlot, 4)
+			utils.makeUnit(iShivatir, iCiv, tPlot, 6)
 			if utils.getHumanID() != iParthia:
-				utils.makeUnit(iShivatir, iCiv, tPlot, 4)
+				utils.makeUnit(iShivatir, iCiv, tPlot, 6)
 			
 		if iCiv == iSatavahana:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iKshatriya, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iKshatriya, iCiv, tPlot, 2)
 			
 		if iCiv == iDacia:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iFalxman, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iFalxman, iCiv, tPlot, 2)
 			
 		if iCiv == iGoguryeo:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iGoguryeoGaemamusa, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 2)
 			
 		if iCiv == iKushans:
 			utils.makeUnit(iHorseArcher_Kushan, iCiv, tPlot, 5)
-			#utils.makeUnit(iArcher, iCiv, tPlot, 5)
+			utils.makeUnit(iArcher, iCiv, tPlot, 5)
 			
 		if iCiv == iAxum:
-			utils.makeUnit(iHorseman, iCiv, tPlot, 2)
-			utils.makeUnit(iAxumSarawit, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 		if iCiv == iSassanids:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 3)
-			#utils.makeUnit(iSwordsman, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 3)
 			utils.makeUnit(iSassanidCataphract, iCiv, tPlot, 4)
 			
 		if iCiv == iYamato:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iHaniwa, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iHaniwa, iCiv, tPlot, 2)
 		
 		if iCiv == iJin:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iJinDaoInfantry, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iJinDaoInfantry, iCiv, tPlot, 2)
 			
 		if iCiv == iByzantines:
-			#utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
 			utils.makeUnit(iByzantineFeodorati, iCiv, tPlot, 4)
 		
 		if iCiv == iGupta:
-			utils.makeUnit(iBambooArcher, iCiv, tPlot, 4)
+			utils.makeUnit(iBambooArcher, iCiv, tPlot, 5)
 		
 		if iCiv == iFranks:
-			#utils.makeUnit(iSpearman, iCiv, tPlot, 4)
-			utils.makeUnit(iFrankThrowingAxeman, iCiv, tPlot, 4)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 4)
+			utils.makeUnit(iFrankThrowingAxeman, iCiv, tPlot, 2)
 		
 		if iCiv == iChalukyans:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 		if iCiv == iGokturks:
-			#utils.makeUnit(iMarksman, iCiv, tPlot, 8)
-			utils.makeUnit(iGokturkWarrior, iCiv, tPlot, 5)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 8)
+			utils.makeUnit(iGokturkWarrior, iCiv, tPlot, 10)
 		
 		if iCiv == iSrivajaya:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 2)
 			
 		if iCiv == iKhazars:
-			utils.makeUnit(iHeavyHorseArcher, iCiv, tPlot, 3)
-			utils.makeUnit(iKhazarArsiyah, iCiv, tPlot, 4)
+			utils.makeUnit(iHeavyHorseArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 6)
 			
 		if iCiv == iTibet:
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 6)
 			utils.makeUnit(iSpearman, iCiv, tPlot, 6)
 		
 		if iCiv == iTang:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iTibetKhampa, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 		
 		if iCiv == iArabs:
-			#utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iArabiaGhazi, iCiv, tPlot, 6)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 	def createAdditionalMaccabeanUnits( self, iCiv, tPlot ):
 	
@@ -2255,8 +2166,6 @@ class RiseAndFall:
 	def createStartingUnits(self, iPlayer, tPlot, iCiv = -1):
 		"""Creates starting units for initBirth."""
 		
-		print ("createStartingUnits, iPlayer", iPlayer, "iCiv", iCiv)
-		
 		if iCiv == -1:
 			iCiv = iPlayer
 		iHandicap = gc.getGame().getHandicapType()
@@ -2265,7 +2174,6 @@ class RiseAndFall:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
 			utils.makeUnit(iNubiaLongbowman, iPlayer, tPlot, 2)
 			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
-			utils.makeUnit(iWorker, iPlayer, tPlot, 1) # not covered by createStartingWorkers due to birth date
 				
 		if iCiv == iCelts:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
@@ -2293,7 +2201,6 @@ class RiseAndFall:
 		if iCiv == iSaba:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
 			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
-			utils.makeUnit(iWorker, iPlayer, tPlot, 1) # not covered by createStartingWorkers due to birth date
 			tSeaPlot = utils.findSeaPlots(tPlot, 1, iPlayer)
 			if tSeaPlot:
 				utils.makeUnit(iGalley, iPlayer, tSeaPlot, 1)
@@ -2313,7 +2220,7 @@ class RiseAndFall:
 			
 		if iCiv == iRome:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
-			utils.makeUnit(iHellenicMissionary, iPlayer, tPlot, 2)
+			utils.makeUnit(iHellenicMissionary, iPlayer, tPlot, 3)
 			utils.makeUnit(iLegionary, iPlayer, tPlot, 3)
 			utils.makeUnit(iJavelinman, iPlayer, tPlot, 2)
 			if iPlayer != utils.getHumanID():
@@ -2339,16 +2246,16 @@ class RiseAndFall:
 				utils.makeUnit(iWorkBoat, iPlayer, tSeaPlot, 1)
 			
 		if iCiv == iPandyans:
-			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
-			#utils.makeUnit(iPandyanVillavar, iPlayer, tPlot, 1)
-			#utils.makeUnit(iHinduMissionary, iPlayer, tPlot, 1)
-			#tSeaPlot = utils.findSeaPlots(tPlot, 1, iPlayer)
-			#if tSeaPlot:
-				#utils.makeUnit(iGalley, iPlayer, tSeaPlot, 1)
-				#utils.makeUnit(iWorkBoat, iPlayer, tSeaPlot, 1)
-			#if iPlayer != utils.getHumanID():
-				#utils.makeUnit(iPandyanVillavar, iPlayer, tPlot, 1)
-				#utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
+			utils.makeUnit(iPandyanVillavar, iPlayer, tPlot, 2)
+			utils.makeUnit(iHinduMissionary, iPlayer, tPlot, 1)
+			tSeaPlot = utils.findSeaPlots(tPlot, 1, iPlayer)
+			if tSeaPlot:
+				utils.makeUnit(iGalley, iPlayer, tSeaPlot, 1)
+				utils.makeUnit(iWorkBoat, iPlayer, tSeaPlot, 1)
+			if iPlayer != utils.getHumanID():
+				utils.makeUnit(iPandyanVillavar, iPlayer, tPlot, 1)
+				utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
 			
 		if iCiv == iBactria:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
@@ -2356,6 +2263,7 @@ class RiseAndFall:
 			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
 			utils.makeUnit(iHetairoi, iPlayer, tPlot, 2)
 			utils.makeUnit(iHellenicMissionary, iPlayer, tPlot, 1)
+			utils.makeUnit(iBuddhistMissionary, iPlayer, tPlot, 1)
 			if iPlayer != utils.getHumanID():
 				utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
 				utils.makeUnit(iHetairoi, iPlayer, tPlot, 1)
@@ -2371,7 +2279,7 @@ class RiseAndFall:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
 			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
 			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
-			utils.makeUnit(iKshatriya, iPlayer, tPlot, 3)
+			utils.makeUnit(iKshatriya, iPlayer, tPlot, 2)
 			utils.makeUnit(iHinduMissionary, iPlayer, tPlot, 2)
 			if iPlayer != utils.getHumanID():
 				utils.makeUnit(iSettler, iPlayer, tPlot, 1)
@@ -2379,7 +2287,7 @@ class RiseAndFall:
 				utils.makeUnit(iArcher, iPlayer, tPlot, 1)
 			
 		if iCiv == iParthia:
-			utils.makeUnit(iZoroastrianMissionary, iPlayer, tPlot, 1)
+			utils.makeUnit(iZoroastrianMissionary, iPlayer, tPlot, 2)
 			utils.makeUnit(iSettler, iPlayer, tPlot, 3)
 			utils.makeUnit(iArcher, iPlayer, tPlot, 8)
 			utils.makeUnit(iShivatir, iPlayer, tPlot, 8)
@@ -2438,12 +2346,13 @@ class RiseAndFall:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
 			utils.makeUnit(iMarksman, iPlayer, tPlot, 4)
 			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 4)
-			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 5)
-			utils.makeUnit(iSassanidCataphract, iPlayer, tPlot, 5)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 4)
+			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 4)
+			utils.makeUnit(iSassanidCataphract, iPlayer, tPlot, 4)
 			#utils.makeUnit(iCatapult, iPlayer, tPlot, 2)
 			utils.makeUnit(iZoroastrianMissionary, iPlayer, tPlot, 2)
 			if iCiv != utils.getHumanID():
-				utils.makeUnit(iHorseArcher, iPlayer, tPlot, 2)
+				utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
 				utils.makeUnit(iSassanidCataphract, iPlayer, tPlot, 2)
 				#utils.makeUnit(iCatapult, iPlayer, tPlot, 2)
 			
@@ -2467,10 +2376,10 @@ class RiseAndFall:
 			utils.makeUnit(iByzantineFeodorati, iPlayer, tPlot, 1)
 			pByzantines.AI_changeAttitudeExtra(iRome, 3)
 			pRome.AI_changeAttitudeExtra(iByzantines, 3)
-			gc.getTeam(pByzantines.getTeam()).signOpenBorders(iRome)
+			#gc.getTeam(pByzantines.getTeam()).signOpenBorders(iRome)
 			tSeaPlot = utils.findSeaPlots(tPlot, 1, iPlayer)
 			if tSeaPlot:
-				utils.makeUnit(iWarGalley, iPlayer, tSeaPlot, 3)
+				utils.makeUnit(iWarGalley, iPlayer, tSeaPlot, 1)
 		
 		if iCiv == iGupta:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
@@ -2484,23 +2393,12 @@ class RiseAndFall:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
 			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
 			utils.makeUnit(iVisigothComitatus, iPlayer, tPlot, 2)
-			if self.isChristianitySplit():
-				gc.getPlayer(iVisigoths).setLastStateReligion(iArianism)
-				utils.makeUnit(iArianMissionary, iPlayer, tPlot, 2)
-			else:
-				gc.getPlayer(iVisigoths).setLastStateReligion(iChristianity)
-				utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
+			utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
 		
 		if iCiv == iVandals:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
 			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
 			utils.makeUnit(iVandalMountedWarrior, iPlayer, tPlot, 2)
-			if self.isChristianitySplit():
-				gc.getPlayer(iVandals).setLastStateReligion(iArianism)
-				utils.makeUnit(iArianMissionary, iPlayer, tPlot, 2)
-			else:
-				gc.getPlayer(iVandals).setLastStateReligion(iChristianity)
-				utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
 			tSeaPlot = utils.findSeaPlots(tPlot, 1, iPlayer)
 			if tSeaPlot:
 				utils.makeUnit(iGalley, iPlayer, tSeaPlot, 2)
@@ -2508,26 +2406,16 @@ class RiseAndFall:
 		
 		if iCiv == iOstrogoths:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
-			utils.makeUnit(iOstrogothSwordsman, iPlayer, tPlot, 4)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 4)
 			utils.makeUnit(iLancer, iPlayer, tPlot, 2)
-			if self.isChristianitySplit():
-				gc.getPlayer(iOstrogoths).setLastStateReligion(iArianism)
-				utils.makeUnit(iArianMissionary, iPlayer, tPlot, 2)
-			else:
-				gc.getPlayer(iOstrogoths).setLastStateReligion(iChristianity)
-				utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
+			utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
 		
 		if iCiv == iFranks:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
 			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 4)
 			utils.makeUnit(iFrankThrowingAxeman, iPlayer, tPlot, 2)
 			utils.makeUnit(iLancer, iPlayer, tPlot, 2)
-			if self.isChristianitySplit():
-				gc.getPlayer(iFranks).setLastStateReligion(iCatholicism)
-				utils.makeUnit(iCatholicMissionary, iPlayer, tPlot, 2)
-			else:
-				gc.getPlayer(iFranks).setLastStateReligion(iChristianity)
-				utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
+			utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 3)
 		
 		if iCiv == iChalukyans:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 1)
@@ -2537,17 +2425,12 @@ class RiseAndFall:
 		
 		if iCiv == iLombards:
 			utils.makeUnit(iSettler, iPlayer, tPlot, 2)
-			if self.isChristianitySplit():
-				gc.getPlayer(iLombards).setLastStateReligion(iArianism)
-				utils.makeUnit(iArianMissionary, iPlayer, tPlot, 2)
-			else:
-				gc.getPlayer(iLombards).setLastStateReligion(iChristianity)
-				utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
+			utils.makeUnit(iChristianMissionary, iPlayer, tPlot, 2)
 			utils.makeUnit(iLombardMilitia, iPlayer, tPlot, 4)
 			utils.makeUnit(iLancer, iPlayer, tPlot, 2)
 			
 		if iCiv == iGokturks:
-			t2ndPlot = (106, 63) # Almaliq
+			t2ndPlot = (108, 65) # Almaliq
 			utils.makeUnit(iSettler, iPlayer, tPlot, 3)
 			utils.makeUnit(iMarksman, iPlayer, tPlot, 6)
 			utils.makeUnit(iGokturkWarrior, iPlayer, tPlot, 8)
@@ -2615,15 +2498,9 @@ class RiseAndFall:
 			utils.makeUnit(iMarksman, iPlayer, tPlot, 4)
 			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 4)
 			utils.makeUnit(iCatapult, iPlayer, tPlot, 1)
-		
-		if iCiv == iHarsha:
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 4)
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 3)
-			utils.makeUnit(iArmoredElephant, iPlayer, tPlot, 1)
-			utils.makeUnit(iBuddhistMissionary, iPlayer, tPlot, 2)
 			
 		# immobilize all units exceept 1 settler to prevent wandering before the flip
-		if iPlayer != utils.getHumanID():
+		if iCiv != utils.getHumanID():
 			bSettler = False
 			plot = gc.getMap().plot(tPlot[0], tPlot[1])
 			iNumUnitsInAPlot = plot.getNumUnits()
@@ -2642,7 +2519,7 @@ class RiseAndFall:
 			
 			
 		# hit neighbours stability
-		#self.hitNeighboursStability(iCiv)
+		self.hitNeighboursStability(iCiv)
 		
 			
 	
@@ -2672,8 +2549,8 @@ class RiseAndFall:
 		for x in range(iMapWidth):
 			for y in range(iMapHeight):
 				plotList.append((x, y))
-		print ("reveal map, iPlayer", iPlayer, "iCiv", iCiv)
-		utils.unrevealPlots(iPlayer, plotList)
+		#utils.unrevealPlots(iCiv, plotList)
+		#print ("iPlayer", iPlayer, "iCiv", iCiv)
 		utils.revealPlots(iPlayer, utils.getRegionPlotList(lRevealRegions[iCiv], True)) 
 		
 		
@@ -2687,17 +2564,7 @@ class RiseAndFall:
 					#DynamicCivs.checkName(iLoopCiv)
 					
 		if utils.getHumanID() == iRome and iPlayer == iRome:
-			self.romanUHVChoicePopup() 
-			
-		if iPlayer == iPandyans:
-			if utils.getHumanID() == iPandyans:
-				self.tamilKingdomsPopup()
-			else:
-				iRand = gc.getGame().getSorenRandNum(100, 'random number')
-				if iRand < 50:
-					self.do3KingdomsChola()
-				else:
-					self.do3KingdomsPandyan()
+			self.romanUHVChoicePopup()
 			
 			
 
@@ -2707,160 +2574,152 @@ class RiseAndFall:
 	
 		
 		self.assignTechs(iPlayer, iCiv)
+		iHandicap = 0
+		if iDefender == utils.getHumanID():
+			iHandicap = gc.getGame().getHandicapType()
+			iBonus += iHandicap
 			
 			
 		if iCiv == iAntigonids:
 			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1 + iBonus, eDirectionType)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType)
 		
 		if iCiv == iSungas:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iAxeman, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iWarElephant, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-		
-		if iCiv == iHarsha:
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArmoredElephant, iPlayer, tPlot, iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 1)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iAxeman, iPlayer, tPlot, 1 + iBonus)
+			utils.makeUnit(iWarElephant, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv == iRome:
-			utils.makeUnit(iLegionary, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iLegionary, iPlayer, tPlot, 1 + iBonus, eDirectionType)
+			utils.makeUnit(iLegionary, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv == iVietnam:
-			utils.makeUnit(iAuLacCrossbowman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
+			utils.makeUnit(iAuLacCrossbowman, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv == iYamato:
-			utils.makeUnit(iHaniwa, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
+			utils.makeUnit(iHaniwa, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv == iArmenia:
-			utils.makeUnit(iAzatavrear, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
+			utils.makeUnit(iAzatavrear, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
 		
 		if iCiv == iGoguryeo:
-			utils.makeUnit(iGoguryeoGaemamusa, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
+			utils.makeUnit(iGoguryeoGaemamusa, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
 		
 		if iCiv == iParthia:
-			utils.makeUnit(iShivatir, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
+			utils.makeUnit(iShivatir, iPlayer, tPlot, 2)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
 		
 		if iCiv == iSassanids:
-			utils.makeUnit(iSassanidCataphract, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iSassanidCataphract, iPlayer, tPlot, 2)
+			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 2)
 		
 		if iCiv == iNanYue:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iAxeman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iAxeman, iPlayer, tPlot, 1)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1)
 		
 		if iCiv in [iFunan, iMauryans, iKalinka, iPandyans, iNubia, iSaba, iAxum]:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iAxeman, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iAxeman, iPlayer, tPlot, 1 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv in [iTocharians, iGojoseon]:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHorseman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 2)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 2)
+			utils.makeUnit(iHorseman, iPlayer, tPlot, 2)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1)
 		
 		if iCiv == iNumidia:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHorseman, iPlayer, tPlot, 3 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 1)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iHorseman, iPlayer, tPlot, 3 + iBonus)
 		
 		if iCiv == iShu:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iAxeman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 4)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 4)
+			utils.makeUnit(iAxeman, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
 		if iCiv == iWu:
-			utils.makeUnit(iArcher, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iAxeman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 4)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 4)
+			utils.makeUnit(iAxeman, iPlayer, tPlot, 2 + iBonus)
+			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus)
 		
-		if iCiv == iSong:
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 3, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iCatapult, iPlayer, tPlot, 1 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+
 		
 		if iCiv == iScythians:
-			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 3 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 3 + iHandicap)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 1)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
 		
 		if iCiv == iXiongnu:
-			utils.makeUnit(iHorseman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
+			utils.makeUnit(iHorseman, iPlayer, tPlot, 2 + iHandicap)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 1)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
 		
 		if iCiv == iXianbei:
-			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 4 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iArcher, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iSpearman, iPlayer, tPlot, 1, eDirectionType)
+			utils.makeUnit(iHorseArcher, iPlayer, tPlot, 2 + iHandicap)
+			utils.makeUnit(iArcher, iPlayer, tPlot, 1)
+			utils.makeUnit(iSpearman, iPlayer, tPlot, 1)
 		
 		if iCiv == iHephthalites:
-			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 2, eDirectionType)
+			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iHandicap)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 2)
 		
 		if iCiv == iHuns:
-			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 5 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 2, eDirectionType)
+			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 5 + iHandicap)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 2)
 		
 		if iCiv == iAvars:
-			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 3, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 2, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iHandicap)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 3)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 2)
 		
 		if iCiv == iPallavas:
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
+			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 1)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1)
 		
 		if iCiv == iKalabhras:
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
+			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 1)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1)
 		
 		if iCiv == iVakatakas:
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 1, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 2)
+			utils.makeUnit(iHeavySpearman, iPlayer, tPlot, 1)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 1)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1)
 		
 		if iCiv == iRouran:
-			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 3, eDirectionType)
+			utils.makeUnit(iHeavyHorseArcher, iPlayer, tPlot, 4 + iHandicap)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 3)
 		
 		if iCiv == iArabs:
-			utils.makeUnit(iArabiaGhazi, iPlayer, tPlot, 3 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 2, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iArabiaGhazi, iPlayer, tPlot, 3)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 2)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 1)
 		
 		if iCiv == iMoors:
-			utils.makeUnit(iLancer, iPlayer, tPlot, 6 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iSwordsman, iPlayer, tPlot, 6 + iBonus, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
-			utils.makeUnit(iMarksman, iPlayer, tPlot, 6, eDirectionType)
-			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 3, eDirectionType, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING)
+			utils.makeUnit(iLancer, iPlayer, tPlot, 6)
+			utils.makeUnit(iSwordsman, iPlayer, tPlot, 6)
+			utils.makeUnit(iMarksman, iPlayer, tPlot, 6)
+			utils.makeUnit(iTrebuchet, iPlayer, tPlot, 3)
 			
 		# init contacts
 		pPlayer = gc.getPlayer(iPlayer)
@@ -2908,8 +2767,7 @@ class RiseAndFall:
 		
 		iNumWorkers = 2
 		if iCiv == iNubia: iNumWorkers -= 1
-		if iCiv in [iCelts, iVisigoths, iOstrogoths, iVandals, iFranks, iLombards, iByzantines, iJin, iTang, iSassanids, iGupta, iArabs]: iNumWorkers -= 2
-		if iCiv == iRome: iNumWorkers += 1
+		if iCiv in [iCelts, iVisigoths, iOstrogoths, iVandals, iFranks, iByzantines]: iNumWorkers -= 2
 		#if utils.getYear() > 100: iNumWorkers = 4
 		#elif utils.getYear() > -150: iNumWorkers = 3
 		utils.makeUnit(iWorker, iCiv, tPlot, iNumWorkers)
@@ -2944,12 +2802,12 @@ class RiseAndFall:
 
 
 
-	def hitNeighboursStability( self, iPlayer ):
+	def hitNeighboursStability( self, iCiv ):
 		
-		if (len(lOlderNeighbours[sd.getCivilization(iPlayer)])):
-			for iLoop in lOlderNeighbours[sd.getCivilization(iPlayer)]:
-				#print ("hitNeighboursStability, iPlayer=", iPlayer, "Neighbor =", iLoop)
-				utils.stabilityCheck(iLoop, -3)
+		if (len(lOlderNeighbours[iCiv])):
+			for iLoop in lOlderNeighbours[iCiv]:
+				#print ("hitNeighboursStability, iCiv=", iCiv, "Neighbor =", iLoop)
+				self.stabilityCheck(iLoop, -3)
 				
 	
 
@@ -3229,8 +3087,6 @@ class RiseAndFall:
 		self.assignTechs(iPlayer, iCiv)
 		
 	def provinceAttack(self, iPlayer, iCiv, lRegions, bHumanOnly = False):
-	
-		gc.getPlayer(iPlayer).changeGold(500)
 		cityList = []
 		if bHumanOnly:
 			for pyCity in PyPlayer(utils.getHumanID()).getCityList():
@@ -3265,7 +3121,7 @@ class RiseAndFall:
 			city.changeOccupationTimer(3);
 				
 		# find a spot for the siege
-		eDirectionType = DirectionTypes.DIRECTION_SOUTH
+		eDirectionType = -1
 		for tPlot in ((city.getX(), city.getY()+1), (city.getX(), city.getY()-1), (city.getX()+1, city.getY()), (city.getX()-1, city.getY()), (city.getX()+1, city.getY()+1), (city.getX()-1, city.getY()-1), (city.getX()+1, city.getY()-1), (city.getX()-1, city.getY()+1)):
 			pPlot = gc.getMap().plot(tPlot[0], tPlot[1])
 			if (not pPlot.isWater() and not pPlot.isPeak() and pPlot.getFeatureType() not in [iForest, iMarsh, iJungle, iDenseForest, iIce]):
@@ -3292,10 +3148,7 @@ class RiseAndFall:
 		for i in range(gc.getMap().plot(city.getX(), city.getY()).getNumUnits()):
 			if iJavelinman <= (gc.getMap().plot(city.getX(), city.getY()).getUnit(i).getUnitType()) <= iTrebuchet:
 				iDefenders += 1
-		if city.getOwner() != utils.getHumanID() or gc.getGame().getHandicapType() == 2:
-			iBonus += iDefenders / 2
-		if city.getOwner == utils.getHumanID() and city.GetCy().isCapital() : 
-			iBonus -= (2 - (2 - gc.getGame().getHandicapType())) # spare human capital on normal diffuculties
+		iBonus += iDefenders / 3
 			
 				
 		#print ("birthInvasion: starting units in", tPlot[0], tPlot[1])
@@ -3313,7 +3166,7 @@ class RiseAndFall:
 			iTempValue = gc.getPlayer(iPlayer).getSettlersMaps(iMapHeight - 1 - kPlotList[i][1], kPlotList[i][0])
 			#pCurrent = gc.getMap().plot(kPlotList[i][0], kPlotList[i][1])
 			#iTempValue = pCurrent.getFoundValue(gc.getPlayer(iPlayer).getLeader())
-			#print ("plot", kPlotList[i][0], kPlotList[i][1], "iTempValue", iTempValue)
+			print ("plot", kPlotList[i][0], kPlotList[i][1], "iTempValue", iTempValue)
 			if iTempValue > 50 and iTempValue > iValue:
 				iValue = iTempValue
 				tPlot = (kPlotList[i][0], kPlotList[i][1])
@@ -3375,61 +3228,6 @@ class RiseAndFall:
 		
 		return
 		
-	def do3KingdomsChola(self):
-	
-		utils.killUnitsInArea((105, 17), (105, 17), iPandyans)
-		#gc.getPlayer(iPandyans).setFlag("Art/Interface/TeamColor/FlagDECAL_chola.dds")
-		self.createTamilStartingUnits((107, 20))
-		self.foundCity(iIndependent, "Madurai", 105, 17, [iHinduism, iBuddhism], [iWalls, iMonument])
-		self.foundCity(iIndependent2, "Karur", 104, 20, [iHinduism, iJainism], [iWalls, iMonument])
-		self.setCivDesc(iPandyans, "Chola Kingdom", "Chola", "Cholan", "Karikala")
-		sd.set3KingdomsMarker(3)
-		utils.revealPlots(iPandyans, utils.getRegionPlotList(lRevealRegions[iPandyans], True))
-		
-		return
-		
-		
-	def do3KingdomsPandyan(self):
-		
-		utils.killUnitsInArea((105, 17), (105, 17), iPandyans)
-		self.foundCity(iIndependent, "Kaveripattinam", 107, 20, [iHinduism, iBuddhism], [iWalls, iMonument])
-		self.foundCity(iIndependent2, "Karur", 104, 20, [iHinduism, iJainism], [iWalls, iMonument])
-		self.setCivDesc(iPandyans, "Pandyan Kingdom", "Pandya", "Pandyan", "Nedunj")
-		self.createTamilStartingUnits((105, 17))
-		sd.set3KingdomsMarker(4)
-		utils.revealPlots(iPandyans, utils.getRegionPlotList(lRevealRegions[iPandyans], True))
-		
-		return
-		
-		
-	def do3KingdomsChera(self):
-	
-		#gc.getPlayer(iPandyans).setFlag("Art/Interface/TeamColor/FlagDECAL_chera.dds")
-		self.createTamilStartingUnits((104, 20), False)
-		utils.killUnitsInArea((105, 17), (105, 17), iPandyans)
-		self.foundCity(iIndependent, "Kaveripattinam", 107, 20, [iHinduism, iJainism], [iWalls, iMonument])
-		self.foundCity(iIndependent, "Madurai", 105, 17, [iHinduism, iBuddhism], [iWalls, iMonument])
-		self.setCivDesc(iPandyans, "Chera Kingdom", "Chera", "Cheran", "Kuttuvan")
-		sd.set3KingdomsMarker(5)
-		utils.revealPlots(iPandyans, utils.getRegionPlotList(lRevealRegions[iPandyans], True))
-		
-		return
-		
-	def createTamilStartingUnits(self, tPlot, bShips = True):
-	
-		utils.makeUnit(iSettler, iPandyans, tPlot, 1)
-		utils.makeUnit(iPandyanVillavar, iPandyans, tPlot, 1)
-		utils.makeUnit(iHinduMissionary, iPandyans, tPlot, 1)
-		utils.makeUnit(iWorker, iPandyans, tPlot, 2) # not covered by createStartingWorkers due to birth date
-		tSeaPlot = utils.findSeaPlots(tPlot, 1, iPandyans)
-		if bShips:
-			if tSeaPlot:
-				utils.makeUnit(iGalley, iPandyans, tSeaPlot, 1)
-				utils.makeUnit(iWorkBoat, iPandyans, tSeaPlot, 1)
-			if iPandyans != utils.getHumanID():
-				utils.makeUnit(iPandyanVillavar, iPandyans, tPlot, 1)
-				utils.makeUnit(iSpearman, iPandyans, tPlot, 1)
-		
 		
 	def onCityAcquired(self, argsList):
 		'City Acquired and Kept'
@@ -3445,7 +3243,585 @@ class RiseAndFall:
 							#CyInterface().addMessage(utils.getHumanID(), False, iDuration, localText.getText("TXT_KEY_OVEREXTENSION1", ()) + " " + gc.getPlayer(iNewOwner).getCivilizationAdjective(0) + " " + localText.getText("TXT_KEY_OVEREXTENSION2", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 					
 		
+	def stabilityCheck(self, iPlayer, iAdjustment = 0):
 	
+		print "stabilityCheck called"
+		
+		print ("iPlayer =", iPlayer)
+	
+		#CyInterface().addMessage(utils.getHumanID(), True, iDuration, CyTranslator().getText("STABILITY CHECK", ()) + " " + gc.getPlayer(iPlayer).getCivilizationDescription(0), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
+		if (iPlayer > iNumPlayers):
+			return
+		pPlayer = gc.getPlayer(iPlayer)
+		pTeam = gc.getTeam(pPlayer.getTeam())
+		apCityList = PyPlayer(iPlayer).getCityList()
+		iCiv = sd.getCivilization(iPlayer)
+		iGameTurn = gc.getGame().getGameTurn()
+		iCivicGovernment = pPlayer.getCivics(0)
+		iCivicLegal = pPlayer.getCivics(1)
+		iCivicLabor = pPlayer.getCivics(2)
+		iCivicReligion = pPlayer.getCivics(4)
+		iHuman = utils.getHumanID()
+		iStateReligion = pPlayer.getStateReligion()
+		
+		# calibrate the system here:
+		#iAdjustment -= 1
+		
+		if utils.getYear() > tFall[iCiv]:
+			iAdjustment -= 3
+			
+		if pPlayer.getNumCities <= 1:
+			print "pass on 1 city or none"
+			return
+		
+		if iPlayer == iRome and (tBirth[iByzantines] + 20) > utils.getYear() > (tBirth[iByzantines] - 20):
+			print "pass on Byzantine birth"
+			return
+		
+		
+		
+		if (iGameTurn < getTurnForYear(tBirth[iPlayer]) + 30):
+			print "pass, too early"
+			return
+			
+		if (pPlayer.getAnarchyTurns() > 0):
+			print "pass, anarchy"
+			return
+			
+		if (pPlayer.getGoldenAgeTurns()) > 0:
+			print "pass, golden age"
+			return
+			
+		if iGameTurn < getTurnForYear(tFall[iCiv]):
+			if (sd.getLastRebellion(iPlayer)) > utils.getYear() - 30:
+				print "pass, recent rebellion"
+				return
+		else:
+			if (sd.getLastRebellion(iPlayer)) > utils.getYear() - 10:
+				print "pass, recent rebellion"
+				return
+		
+
+		sd.setLastRebellion(iPlayer, utils.getYear())
+
+		
+		## CIVICS ##
+		
+		# combinations of civics and state religions
+		
+		# Civics
+		print "CIVICS"
+		
+		iCivicsRating = sd.getCivicsStability(iPlayer)
+		
+		print ("iCivicsRating=", iCivicsRating)
+		
+		
+
+			
+		## HAPPINESS AND HEALTH ##
+		print "HEALTH & HAPPINESS"
+		# balance of health and happiness per city, with extra penalty for angry citizens
+		
+		iNumCities = pPlayer.getNumCities()
+		if iNumCities < 1: iNumCities =1
+		
+		iHappinessAndHealthRating = 0
+		print ("total happy", pPlayer.calculateTotalCityHappiness(), "total unhappy", pPlayer.calculateTotalCityUnhappiness(), "cities", iNumCities)
+		print ("total health", pPlayer.calculateTotalCityHealthiness(), "total unhealth", pPlayer.calculateTotalCityUnhealthiness(), "cities", iNumCities)
+		iHappiness = ((pPlayer.calculateTotalCityHappiness()) - (pPlayer.calculateTotalCityUnhappiness())) / (iNumCities)
+		iHealth = ((pPlayer.calculateTotalCityHealthiness()) - (pPlayer.calculateTotalCityUnhealthiness())) / (iNumCities)
+		print ("iHappiness=", iHappiness, "iHealth=", iHealth)
+		
+		if iHappiness < 0: iHappinessAndHealthRating -= 1
+		elif iHappiness > 3: iHappinessAndHealthRating += 1
+		
+		if iHealth < 0: iHappinessAndHealthRating -= 1
+		elif iHealth > 3: iHappinessAndHealthRating += 1
+		
+		if iPlayer == utils.getHumanID(): # I think this kills the AI unfairly
+			for pLoopCity in apCityList:
+				if (pLoopCity.GetCy().angryPopulation(0) > 0): 
+					iHappinessAndHealthRating -= 1
+					print "angry city"
+					
+		print ("iHappinessAndHealthRating", iHappinessAndHealthRating)
+		
+		## ECONOMY ##
+		print "ECONOMY"
+		# balance of income and costs
+		
+		iEconomyRating = 0
+		
+		iRate = (pPlayer.calculateGoldRate() + pPlayer.calculateBaseNetResearch()) - (pPlayer.calculateInflatedCosts())
+		print ("gold=", pPlayer.calculateGoldRate(), "research=", pPlayer.calculateBaseNetResearch(), "costs=", pPlayer.calculateInflatedCosts(), "iRate", iRate)
+		
+		if iRate < -300: iEconomyRating -= 4
+		elif iRate < -200: iEconomyRating -= 3
+		elif iRate < -100: iEconomyRating -= 2
+		elif iRate < -20: iEconomyRating -= 1
+		elif iRate > +10: iEconomyRating += 1
+		elif iRate > +30: iEconomyRating += 2
+		
+		
+		iEconomy = pPlayer.calculateTotalYield(YieldTypes.YIELD_COMMERCE) - pPlayer.calculateInflatedCosts()
+		iIndustry = pPlayer.calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
+		iAgriculture = pPlayer.calculateTotalYield(YieldTypes.YIELD_FOOD)
+		
+		iGrowth = iEconomy + iIndustry + iAgriculture
+			
+			
+		if iGrowth * 2 < sd.getOldEconomyRating(iPlayer): 
+			iEconomyRating -= 3 
+			print "high economic decline"
+		elif iGrowth * 4 < sd.getOldEconomyRating(iPlayer) * 3: 
+			iEconomyRating -= 2 
+			print "med economic decline"
+		elif iGrowth < sd.getOldEconomyRating(iPlayer): 
+			iEconomyRating -= 1
+			print "some economic decline"
+		
+		sd.setOldEconomyRating(iPlayer, iGrowth)
+		
+		print ("iEconomyRating", iEconomyRating)
+			
+
+			
+		## EMPIRE ##
+		print "EMPIRE"
+		# balance of core and empire populations, mitigated by courthouses and civics
+		
+		iEmpireRating = 0
+		bExiled = True
+		for regionID in utils.getCoreRegions(iCiv):
+			if (utils.checkRegionOwnedCity(iPlayer, regionID)): 
+				bExiled = False
+			if not (utils.checkRegionControl(iPlayer, regionID)):
+				iEmpireRating -= 3
+				print "core province not controlled"
+		if bExiled:
+			print "Exiled"
+			if utils.getYear() > tFall[iCiv]:
+				self.terminalCrisis(iPlayer, iCiv, pPlayer, pTeam)
+			else:
+				iEmpireRating -= 6
+				
+		iCorePop = 0
+		iEmpirePop = 0
+		for pLoopCity in apCityList:
+			if not pLoopCity.isNone(): 
+				if pLoopCity.GetCy().isCapital():
+					iCorePop += pLoopCity.getPopulation() * 3
+				else:
+					regionID = gc.getMap().plot(pLoopCity.GetCy().getX(),pLoopCity.GetCy().getY()).getRegionID()
+					if regionID in utils.getCoreRegions(iCiv) or regionID in utils.getSpecialRegions(iCiv): 
+						iCorePop += pLoopCity.getPopulation() * 2
+					else:
+						iFactor = 1
+						if not ((iCivicGovernment == iTheocracyCivic) and (pLoopCity.GetCy().isHasReligion(iStateReligion))):
+							if iCivicGovernment != iEmpireCivic: iFactor += 1
+						if not (iCivicLegal == iBureaucracyCivic):
+							iFactor += 1
+						if not (pLoopCity.GetCy().getNumRealBuilding(iCourthouse)): 
+							iFactor += 1
+						if not regionID in utils.getNormalRegions(iCiv):
+							iFactor += 1
+						iEmpirePop += pLoopCity.getPopulation() * iFactor
+			
+		print ("iCorePop=", iCorePop, "iEmpirePop=", iEmpirePop)
+		
+		if iCorePop > iEmpirePop *2: iEmpireRating += 2
+		elif iCorePop > iEmpirePop: iEmpireRating += 1
+		elif iCorePop *5 < iEmpirePop: iEmpireRating -= 5
+		elif iCorePop *4 < iEmpirePop: iEmpireRating -= 4
+		elif iCorePop *3 < iEmpirePop: iEmpireRating -= 3
+		elif iCorePop *2 < iEmpirePop: iEmpireRating -= 2
+		elif iCorePop < iEmpirePop: iEmpireRating -= 1
+				
+		if (pPlayer.getNumCities()) * 2 < (sd.getNumCities(iPlayer)): 
+			iEmpireRating -= 3
+			print "high city losses"
+		elif (pPlayer.getNumCities()) * 3 < (sd.getNumCities(iPlayer)) * 2: 
+			iEmpireRating -= 2
+			print "med city losses"
+		elif pPlayer.getNumCities() < sd.getNumCities(iPlayer): 
+			iEmpireRating -= 1
+			print "some losses"
+		
+		print ("iEmpireRating=", iEmpireRating)
+		
+		## RELIGION ##
+		print "RELIGION"
+		iReligionRating = 0
+		iNumForeignReligions = 0
+		iNumNonbelievingCities = 0
+		
+		if (iCivicReligion == iDynasticCultCivic) or (iCivicReligion == iPaganismCivic): 
+			for pLoopCity in apCityList:
+				for iLoopReligion in range(iNumReligions):
+					if pLoopCity.GetCy().isHasReligion(iLoopReligion):
+						if iLoopReligion != iHinduism: 
+							iNumForeignReligions += 1
+						elif iLoopReligion == iHinduism and iCivicLabor != iCasteSystemCivic:
+							iNumForeignReligions += 1
+		elif iCivicReligion == iStateReligionCivic: 
+			for pLoopCity in apCityList:
+				if not pLoopCity.GetCy().isHasReligion(iStateReligion):
+					iNumNonbelievingCities += 2
+				for iLoopReligion in range(iNumReligions):
+					if pLoopCity.GetCy().isHasReligion(iLoopReligion) and iLoopReligion != iStateReligion:
+						iNumForeignReligions += 1
+		elif (iCivicReligion == iMilitancyCivic) or (iCivicGovernment == iTheocracyCivic): 
+			for pLoopCity in apCityList:
+				if not pLoopCity.GetCy().isHasReligion(iStateReligion):
+					iNumNonbelievingCities += 2
+				for iLoopReligion in range(iNumReligions):
+					if pLoopCity.GetCy().isHasReligion(iLoopReligion) and iLoopReligion != iStateReligion:
+						iNumForeignReligions += 2
+						
+		print ("iNumForeignReligions", iNumForeignReligions, "iNumNonbelievingCities", iNumNonbelievingCities, "iNumCities", iNumCities)
+						
+		if iNumNonbelievingCities *2 > iNumCities: iReligionRating -= 2
+		elif iNumNonbelievingCities *4 > iNumCities: iReligionRating -= 1
+		
+		if iNumForeignReligions > iNumCities *2: iReligionRating -= 2
+		elif iNumForeignReligions > iNumCities: iReligionRating -= 1
+		
+		print ("iReligionRating=", iReligionRating)
+		
+		print "TOTALS"
+		print ("Civics:", iCivicsRating, "Health & Happiness:", iHappinessAndHealthRating, "Economy:", iEconomyRating, "Empire:", iEmpireRating, "Religion:", iReligionRating)
+		print ("Total:", iCivicsRating + iHappinessAndHealthRating + iEconomyRating + iEmpireRating + iReligionRating)
+		#iAdjustment = 3
+		print ("iAdjustment=", iAdjustment)
+		
+		iStability = iCivicsRating + iHappinessAndHealthRating + iEconomyRating + iEmpireRating + iReligionRating + iAdjustment
+		if iPlayer == iByzantines: iStability += 3 # Byzantine UP
+		#if iGameTurn > getTurnForYear(tFall[iCiv]): iStability -= 3
+		
+		### RESULTS ###
+		print "RESULT"
+
+		if pTeam.isHasTech(iStabilityCollapsing):
+			if iStability < -3:
+				if iGameTurn > getTurnForYear(tFall[iCiv]) and iPlayer != iHuman:
+					print ("already collapsing, terminal crisis, iCiv=", iCiv)
+					self.terminalCrisis(iPlayer, iCiv, pPlayer, pTeam)
+					return
+				else:
+					print ("already collapsing, severe crisis, iCiv=", iCiv)
+					#self.severeCrisis(iPlayer, iCiv, pPlayer, pTeam)
+					self.majorCrisis(iPlayer, iCiv, pPlayer, pTeam, 6)
+					return
+			elif iStability < 3:
+				print ("stability flat at collapsing, major crisis, iCiv=", iCiv)
+				#self.moderateCrisis(iPlayer, iCiv, pPlayer, pTeam)
+				self.majorCrisis(iPlayer, iCiv, pPlayer, pTeam, 3)
+			elif iStability > 3:
+				print ("upgrade from collapsing to unstable, iCiv=", iCiv)
+				pTeam.setHasTech(iStabilityCollapsing, False, iPlayer, False, False)
+				pTeam.setHasTech(iStabilityUnstable, True, iPlayer, False, False)
+				return
+				
+		elif pTeam.isHasTech(iStabilityUnstable):
+			if iStability < -6:
+				if iGameTurn > getTurnForYear(tFall[iCiv]) and iPlayer != iHuman:
+					print ("unstable and past fall, terminal crisis, iCiv=", iCiv)
+					pTeam.setHasTech(iStabilityUnstable, False, iPlayer, False, False)
+					pTeam.setHasTech(iStabilityCollapsing, True, iPlayer, False, False)
+					#self.severeCrisis(iPlayer, iCiv, pPlayer, pTeam)
+					self.terminalCrisis(iPlayer, iCiv, pPlayer, pTeam)
+					return
+				else:
+					print ("downgrade from unstable to collapsing, major crisis, iCiv=", iCiv)
+					pTeam.setHasTech(iStabilityUnstable, False, iPlayer, False, False)
+					pTeam.setHasTech(iStabilityCollapsing, True, iPlayer, False, False)
+					#self.moderateCrisis(iPlayer, iCiv, pPlayer, pTeam)
+					self.majorCrisis(iPlayer, iCiv, pPlayer, pTeam, 3)
+					return
+			elif iStability <= 0:
+				print ("stability flat at unstable, minor crisis, iCiv=", iCiv)
+				self.minorCrisis(iPlayer, iCiv, pPlayer, pTeam)
+				return
+			else:
+				print ("stability upgrade from unstable to stable, no crisis, iCiv=", iCiv)
+				pTeam.setHasTech(iStabilityUnstable, False, iPlayer, False, False)
+				pTeam.setHasTech(iStabilityStable, True, iPlayer, False, False)
+				return
+		else:
+			#if iStability < -6:
+				#print ("downgrade from stable to unstable, minor crisis, iCiv=", iCiv)
+				#pTeam.setHasTech(iStabilityStable, False, iPlayer, False, False)
+				#pTeam.setHasTech(iStabilityUnstable, True, iPlayer, False, False)
+				#self.minorCrisis(iPlayer, iCiv, pPlayer, pTeam)
+				#return
+			if iStability < -3:
+				print ("downgrade from stable to unstable, no crisis, iCiv=", iCiv)
+				pTeam.setHasTech(iStabilityStable, False, iPlayer, False, False)
+				pTeam.setHasTech(iStabilityUnstable, True, iPlayer, False, False)
+				if iPlayer == iHuman:
+					CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("Your civilization has become unstable!", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
+					#CyInterface().addMessage(utils.getHumanID(), True, iDuration, CyTranslator().getText("Your civilization has become unstable!", "", 0, "", ColorTypes(iRed), -1, -1, True, True))
+				return
+			else: 
+				print ("stability flat at stable, no crisis, iCiv=", iCiv)
+
+					
+			
+		
+	def minorCrisis(self, iPlayer, iCiv, pPlayer, pTeam): # brief anarchy, revolts in provinces
+		self.secedeDistantCities(iPlayer, iCiv)
+		sd.setLastRebellion(iPlayer, utils.getYear())
+		iCrisis = gc.getGame().getSorenRandNum(3, 'number') + 1
+		
+		pPlayer.changeAnarchyTurns(iCrisis)
+		
+		while iCrisis >=1:
+			if utils.findRemotestCity(iPlayer, True) != None:
+				utils.findRemotestCity(iPlayer, True).GetCy().changeOccupationTimer(iCrisis + 1);
+				iCrisis -= 1
+			else:
+				iCrisis = 0
+			
+		
+		#apCityList = PyPlayer(iPlayer).getCityList()
+		#gc.getPlayer(iPlayer).changeAnarchyTurns(iCrisis - 1)
+		#for pLoopCity in apCityList:
+			#if gc.getMap().plot(pLoopCity.getX(), pLoopCity.getY()).getRegionID() not in utils.getCoreRegions(iCiv):
+				#if gc.getGame().getSorenRandNum(6, 'number') > iCrisis:
+					#pLoopCity.GetCy().changeOccupationTimer(iCrisis + 1);
+		#return
+		
+	def majorCrisis(self, iPlayer, iCiv, pPlayer, pTeam, iCrisis):
+		self.secedeDistantCities(iPlayer, iCiv)
+		sd.setLastRebellion(iPlayer, utils.getYear())
+		
+		if iPlayer == iMauryans and iCiv == iMauryans and utils.checkRegionOwnedCity(iMauryans, rMagadha) and iMauryans != utils.getHumanID() and utils.getYear() < tFall[iSungas]:
+			self.sungaRevolution()
+	
+		iCrisis += gc.getGame().getSorenRandNum(3, 'number')
+		if utils.getYear() > tFall[iCiv]:
+			iCrisis += (utils.getYear() - tFall[iCiv]) / 50
+		iSuccessions = iCrisis / 3
+		iRevolts = iCrisis
+		
+		pPlayer.changeAnarchyTurns(iCrisis)
+		
+		while iSuccessions >= 1:
+			if utils.findRemotestCity(iPlayer) != None:
+				utils.secedeCity(utils.findRemotestCity(iPlayer).GetCy())
+				iSuccessions -= 1
+				iRevolts -= 1
+			else:
+				iSuccessions = 0
+		else:
+			while iRevolts >= 1:
+				if utils.findRemotestCity(iPlayer, True) != None:
+					utils.findRemotestCity(iPlayer, True).GetCy().changeOccupationTimer(iRevolts + 1);
+					iRevolts -= 1
+				else:
+					iRevolts = 0
+		
+	def moderateCrisis(self, iPlayer, iCiv, pPlayer, pTeam): # longer anarchy, rebellions in provinces, Sungas, Roman civil wars
+		self.secedeDistantCities(iPlayer, iCiv)
+		#if iPlayer == iRome and not gc.getPlayer(iByzantines).isAlive() and utils.getHumanID() != iByzantines and sd.getRomanRebellions() < 2 and utils.getYear() < (tBirth[iByzantines] - 20):
+			#sd.setRomanRebellions(sd.getRomanRebellions() + 1)
+			#if iPlayer == utils.getHumanID():
+				#rfccwaiw.startRomanCivilWarPopup(iRome)
+			#else:
+				#rfccwaiw.startRomanCivilWar()
+				#return
+		#elif iPlayer == iByzantines and sd.getCivilization(iByzantines) == iRebelRome:
+			#rfccwaiw.endRomanCivilWar()
+		if iPlayer == iMauryans and iCiv == iMauryans and utils.checkRegionOwnedCity(iMauryans, rMagadha) and iMauryans != utils.getHumanID() and utils.getYear() < con.tFall[iSungas]:
+			self.sungaRevolution()
+		elif iPlayer == iQin and pHan.isAlive() and sd.getCivilization(iQin) == iQin and utils.getHumanID() != iQin and utils.getHumanID() != iHan:
+			self.terminalCrisis(iQin, iQin, pQin, pTeam)
+			gc.getTeam(pHan.getTeam()).setHasTech(iStabilityStable, True, iPlayer, False, False)
+		else:
+			iCrisis = gc.getGame().getSorenRandNum(3, 'number') + 3
+			if utils.getYear() > tFall[iCiv]:
+				iCrisis += (utils.getYear() - tFall[iCiv]) / 50
+			iSuccessions = iCrisis / 3
+			pPlayer.changeAnarchyTurns(iCrisis + 1)
+			iRevolts = iCrisis
+			#print ("iSuccessions ", iSuccessions)
+			#print ("iRevolts ", iRevolts)
+			apCityList = PyPlayer(iPlayer).getCityList()
+			gc.getPlayer(iPlayer).changeAnarchyTurns(iCrisis)
+			while (iSuccessions >= 1):
+				if utils.findRemotestProvince(iPlayer) != (None, None):
+					regionID, cityList = utils.findRemotestProvince(iPlayer)
+					#print ("len(cityList)", len(cityList))
+					if len(cityList) <= iSuccessions:
+						#print "len(cityList) <= iSuccessions "
+						for pCity in cityList:
+							utils.secedeCity(pCity)
+						iSuccessions -= len(cityList)
+						iRevolts -= len(cityList)
+						#print ("iSuccessions ", iSuccessions)
+						#print ("iRevolts ", iRevolts)
+						if utils.findRemotestProvince(iPlayer) != (None, None):
+							regionID, cityList = utils.findRemotestProvince(iPlayer)
+						else:
+							iSuccessions = 0
+					else:
+						#print "else"
+						for i in range(iSuccessions):
+							utils.secedeCity((cityList[i]))
+						iRevolts -= iSuccessions
+						#print ("iSuccessions ", iSuccessions)
+						#print ("iRevolts ", iRevolts)
+						iSuccessions = 0
+				else:
+					iSuccessions = 0
+			else:
+				while (iRevolts >= 1):
+					if utils.findRemotestProvince(iPlayer) != (None, None):
+						regionID, cityList = utils.findRemotestProvince(iPlayer)
+						if len(cityList) <= iRevolts:
+							#print "len(cityList) <= iRevolts "
+							for pCity in cityList:
+								pCity.changeOccupationTimer(iRevolts);
+							iSuccessions -= len(cityList)
+							iRevolts -= len(cityList)
+							#print ("iSuccessions ", iSuccessions)
+							#print ("iRevolts ", iRevolts)
+							if utils.findRemotestProvince(iPlayer) != (None, None):
+								regionID, cityList = utils.findRemotestProvince(iPlayer)
+							else:
+								iSuccessions = 0
+						else:
+							#print "else"
+							for i in range(iRevolts):
+								(cityList[i]).changeOccupationTimer(iRevolts);
+							iRevolts = 0
+							#print ("iSuccessions ", iSuccessions)
+							#print ("iRevolts ", iRevolts)
+					else:
+						iRevolts = 0
+
+			if gc.getPlayer(utils.getHumanID()).canContact(iPlayer):
+				CyInterface().addMessage(utils.getHumanID(), False, iDuration, localText.getText("TXT_KEY_STABILITY_CIVILWAR4", ()) + " " + gc.getPlayer(iPlayer).getCivilizationDescription(0) + " " + \
+				localText.getText("TXT_KEY_STABILITY_CIVILWAR5", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
+		return
+	
+	def severeCrisis(self, iPlayer, iCiv, pPlayer, pTeam): 
+		#print ("severeCrisis, iPlayer=", iPlayer)
+		self.secedeDistantCities(iPlayer, iCiv)
+		#if iPlayer == iRome and utils.getYear() < (tBirth[iByzantines] -10) and utils.getHumanID() != iByzantines and sd.getRomanRebellions() < 2 and utils.getYear() < (tBirth[iByzantines] - 20):
+			#sd.setRomanRebellions(sd.getRomanRebellions() + 1)
+			#if iPlayer == utils.getHumanID():
+				#rfccwaiw.startRomanCivilWarPopup(iRome)
+			#else:
+				#rfccwaiw.startRomanCivilWar()
+		#elif iPlayer == iByzantines and sd.getCivilization(iByzantines) == iRebelRome:
+			#rfccwaiw.endRomanCivilWar()
+		if iPlayer == iMauryans and iCiv == iMauryans and utils.checkRegionOwnedCity(iMauryans, rMagadha) and iMauryans != utils.getHumanID() and utils.getYear() < con.tFall[iSungas]:
+			self.sungaRevolution()
+			return
+		elif iPlayer == iQin and pHan.isAlive() and sd.getCivilization(iQin) == iQin and utils.getHumanID() != iQin and utils.getHumanID() != iHan:
+			self.terminalCrisis(iQin, iQin, pQin, pTeam)
+			gc.getTeam(pHan.getTeam()).setHasTech(iStabilityStable, True, iPlayer, False, False)
+		else:
+			#print "crisis"
+			iCrisis = gc.getGame().getSorenRandNum(3, 'number') + 6
+			if utils.getYear() > tFall[iCiv]:
+				iCrisis += (utils.getYear() - tFall[iCiv]) / 50
+			iSuccessions = iCrisis / 3
+			iRevolts = iCrisis
+			#print ("iSuccessions ", iSuccessions)
+			#print ("iRevolts ", iRevolts)
+			apCityList = PyPlayer(iPlayer).getCityList()
+			gc.getPlayer(iPlayer).changeAnarchyTurns(iCrisis)
+			while (iSuccessions >= 1):
+				if utils.findRemotestProvince(iPlayer) != (None, None):
+					regionID, cityList = utils.findRemotestProvince(iPlayer)
+					#print ("len(cityList)", len(cityList))
+					if len(cityList) <= iSuccessions:
+						#print "len(cityList) <= iSuccessions "
+						for pCity in cityList:
+							utils.secedeCity(pCity)
+						iSuccessions -= len(cityList)
+						iRevolts -= len(cityList)
+						#print ("iSuccessions ", iSuccessions)
+						#print ("iRevolts ", iRevolts)
+						if utils.findRemotestProvince(iPlayer) != (None, None):
+							regionID, cityList = utils.findRemotestProvince(iPlayer)
+						else:
+							iSuccessions = 0
+					else:
+						#print "else"
+						for i in range(iSuccessions):
+							utils.secedeCity((cityList[i]))
+						iRevolts -= iSuccessions
+						#print ("iSuccessions ", iSuccessions)
+						#print ("iRevolts ", iRevolts)
+						iSuccessions = 0
+				else: iSuccessions = 0
+			else:
+				while (iRevolts >= 1):
+					if utils.findRemotestProvince(iPlayer) != (None, None):
+						regionID, cityList = utils.findRemotestProvince(iPlayer)
+						if len(cityList) <= iRevolts:
+							#print "len(cityList) <= iRevolts "
+							for pCity in cityList:
+								pCity.changeOccupationTimer(iRevolts);
+							iSuccessions -= len(cityList)
+							iRevolts -= len(cityList)
+							#print ("iSuccessions ", iSuccessions)
+							#print ("iRevolts ", iRevolts)
+							if utils.findRemotestProvince(iPlayer) != (None, None):
+								regionID, cityList = utils.findRemotestProvince(iPlayer)
+							else:
+								iSuccessions = 0
+						else:
+							#print "else"
+							for i in range(iRevolts):
+								(cityList[i]).changeOccupationTimer(iRevolts);
+							iRevolts = 0
+							#print ("iSuccessions ", iSuccessions)
+							#print ("iRevolts ", iRevolts)
+					else:
+						iRevolts = 0
+			if gc.getPlayer(utils.getHumanID()).canContact(iPlayer):
+				CyInterface().addMessage(utils.getHumanID(), False, iDuration, localText.getText("TXT_KEY_STABILITY_CIVILWAR4", ()) + " " + gc.getPlayer(iPlayer).getCivilizationDescription(0) + " " + \
+				localText.getText("TXT_KEY_STABILITY_CIVILWAR5", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
+		return
+	
+	def terminalCrisis(self, iPlayer, iCiv, pPlayer, pTeam): # collapse
+	
+		if iPlayer == iMauryans and iCiv == iMauryans and utils.checkRegionOwnedCity(iMauryans, rMagadha) and iMauryans != utils.getHumanID() and utils.getYear() < tFall[iSungas]:
+			self.sungaRevolution()
+			
+		else:
+			utils.killAndFragmentCiv(iPlayer, False)
+			if gc.getPlayer(utils.getHumanID()).canContact(iPlayer):
+				CyInterface().addMessage(utils.getHumanID(), False, iDuration, gc.getPlayer(iPlayer).getCivilizationDescription(0) + " " + \
+				localText.getText("TXT_KEY_STABILITY_CIVILWAR3", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
+		return
+		
+		
+	def secedeDistantCities(self, iPlayer, iCiv):
+		apCityList = PyPlayer(iPlayer).getCityList()
+		for pLoopCity in apCityList:
+			regionID = gc.getMap().plot(pLoopCity.getX(), pLoopCity.getY()).getRegionID()
+			if regionID not in utils.getCoreRegions(iCiv) and regionID not in utils.getNormalRegions(iCiv) and regionID not in utils.getBroaderRegions(iCiv):
+				utils.secedeCity(pLoopCity.GetCy())
+				
+	def empireStability(self, iCorePop, iEmpirePop):
+	
+		iEmpireRating = 0
+		maxPosBonus = 2
+		maxNegBonus = 5
+
+		if iCorePop > iEmpirePop:
+			iEmpireRating += min(iCorePop/iEmpirePop, maxPosBonus)
+		elif iCorePop < iEmpirePop:
+			iEmpireRating -= min(iEmpirePop/iCorePop, maxNegBonus)
+
+		#print ("iEmpireRating=", iEmpireRating)
+		return iEmpireRating
 		
 	def setCivDesc(self, iPlayer, sName, sShort="", sAdj="", sLeader=""):
 		
@@ -3453,7 +3829,212 @@ class RiseAndFall:
 		pPlayer.setCivName(localText.getText(sName, ()), localText.getText(sShort, ()), localText.getText(sAdj, ()))
 		pPlayer.setName(localText.getText(sLeader, ()))
 		
+	def setCivicsStability(self, iPlayer):
 	
+		pPlayer = gc.getPlayer(iPlayer)
+		
+		iCivicGovernment = pPlayer.getCivics(0)
+		iCivicLegal = pPlayer.getCivics(1)
+		iCivicLabor = pPlayer.getCivics(2)
+		iCivicEconomy = pPlayer.getCivics(3)
+		iCivicReligion = pPlayer.getCivics(4)
+		
+		iStateReligion = pPlayer.getStateReligion()
+		
+		iCivicsRating = 0 
+		
+		if iCivicGovernment == iMonarchyCivic:
+			if iCivicLegal == iBarbarismCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "monarchy", "barbarism")
+			if iCivicLegal in [iVassalageCivic, iReligiousLawCivic]: 
+				iCivicsRating += 1
+				#print ("good combo", "monarchy", "vassalage, or religious law")
+			if iCivicLabor == iSerfdomCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "monarchy", "serfdom")
+			if iCivicLabor == iWageLaborCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "monarchy", "wage labor")
+			if iCivicEconomy == iPatronageCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "monarchy", "patronage")
+			if iCivicReligion in [iDynasticCultCivic, iStateReligionCivic]: 
+				iCivicsRating += 1
+				#print ("good combo", "monarchy", "dynastic cult or state religion")
+			
+		if iCivicGovernment == iOligarchyCivic:
+			if iCivicLegal in [iBarbarismCivic, iTyrannyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "oligrachy", "barbarism or tyranny")
+			if iCivicLegal == iBureaucracyCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "oligrachy", "bureaucracy")
+			if iCivicLabor == iTribalismCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "oligrachy", "tribalism")
+			if iCivicReligion in [iDynasticCultCivic, iMilitancyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "oligrachy", "dynastic cult or militancy")
+			if iCivicEconomy in [iAgrarianismCivic, iPatronageCivic]: 
+				iCivicsRating += 1
+				#print ("good combo", "oligrachy", "agrarianism or patronage")
+			
+		if iCivicGovernment == iEmpireCivic:
+			if iCivicLegal == iBureaucracyCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "empire", "bureaucracy")
+			if iCivicLegal in [iBarbarismCivic, iTyrannyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "empire", "tyranny")
+			if iCivicLabor == iTribalismCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "empire", "tribalism")
+			if iCivicEconomy == iDecentralizationCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "empire", "decentralization")
+			if iCivicEconomy == iAgrarianismCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "empire", "agrarianism")
+			
+		if iCivicLegal == iBarbarismCivic:
+			if iCivicLabor == iWageLaborCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "barbarism", "wage labor")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "barbarism", "trade economy")
+			
+		if iCivicLegal == iTyrannyCivic:
+			if iCivicLabor in [iCasteSystemCivic, iWageLaborCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "tyranny", "caste system or wage labor")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "tyranny", "trade economy")
+			if iCivicReligion == iDynasticCultCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "tyranny", "dynastic cult")
+			if iCivicReligion in [iStateReligionCivic, iMilitancyCivic, iSyncretismCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "tyranny", "state religion, militancy or syncretism")
+			
+		if iCivicLegal == iVassalageCivic:
+			if iCivicLabor in [iCasteSystemCivic, iSerfdomCivic]: 
+				iCivicsRating += 1
+				#print ("good combo", "vassalge", "caste system or serfdom")
+			if iCivicLabor == iWageLaborCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "vassalge", "wage labor")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "vassalge", "trade economy")
+			if iCivicEconomy == iPatronageCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "vassalge", "patronage")
+			
+		if iCivicLegal == iReligiousLawCivic:
+			if iCivicLabor in [iCasteSystemCivic, iSerfdomCivic]: 
+				iCivicsRating += 1
+				#print ("good combo", "religious law", "caste system or serfdom")
+			if iCivicLabor == iWageLaborCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "religious law", "wage labor")
+			if iCivicEconomy in [iTradeEconomyCivic, iMilitaryEconomyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "religious law", "trade economy or military economy")
+			if iCivicReligion in [iPaganismCivic, iDynasticCultCivic, iSyncretismCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "religious law", "paganism, dynastic cult or syncretism")
+			
+		if iCivicLegal == iBureaucracyCivic:
+			if iCivicLabor in [iTribalismCivic, iCasteSystemCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "bureaucracy", "tribalism or caste system")
+			if iCivicLabor == iSlaveryCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "bureaucracy", "slavery")
+			if iCivicEconomy == iDecentralizationCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "bureaucracy", "decentralization")
+			
+		if iCivicLabor == iTribalismCivic:
+			if iCivicEconomy == iDecentralizationCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "tribalism", "decentralization")
+			if iCivicEconomy in [iTradeEconomyCivic, iMilitaryEconomyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "tribalism", "trade economy or military economy")
+			if iCivicReligion == iDynasticCultCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "tribalism", "dynastic cult")
+			
+		if iCivicLabor == iSlaveryCivic:
+			if iCivicEconomy == iAgrarianismCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "slavery", "agrarianism")
+			
+		if iCivicLabor == iCasteSystemCivic:
+			if iCivicEconomy == iAgrarianismCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "caste system", "agrarianism")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "caste system", "trade economy")
+			if iCivicReligion in [iDynasticCultCivic, iSyncretismCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "caste system", "dynastic cult or syncretism")
+			
+		if iCivicLabor == iSerfdomCivic:
+			if iCivicEconomy == iAgrarianismCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "serfdom", "agrarianism")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "serfdom", "trade economy")
+			if iCivicReligion == iStateReligionCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "serfdom", "state religion")
+			
+		if iCivicLabor == iWageLaborCivic:
+			if iCivicEconomy in [iDecentralizationCivic, iAgrarianismCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "wage labor", "decentralization or agrarianism")
+			if iCivicEconomy == iTradeEconomyCivic: 
+				iCivicsRating += 1
+				#print ("good combo", "wage labor", "trade economy")
+			if iCivicReligion == iMilitancyCivic: 
+				iCivicsRating -= 1
+				#print ("bad combo", "wage labor", "militancy")
+			
+		if iCivicEconomy == iTradeEconomyCivic:
+			if iCivicReligion in [iDynasticCultCivic, iMilitancyCivic]: 
+				iCivicsRating -= 1
+				#print ("bad combo", "trade economy", "dynastic cult or militancy")
+			
+		# Civics + State Religion
+			
+		if iCivicLabor == iCasteSystemCivic and iStateReligion != iHinduism: 
+			iCivicsRating -= 1
+			#print "caste wo hindu"
+		
+		if iCivicLabor == iSlaveryCivic and iStateReligion == iChristianity: 
+			iCivicsRating -= 1
+			#print "christian slaves"
+		
+		sd.setCivicsStability(iPlayer, iCivicsRating)
+		
+	def setStartingEconomyRating(self, iPlayer):
+	
+		pPlayer = gc.getPlayer(iPlayer)
+		
+		iEconomy = pPlayer.calculateTotalYield(YieldTypes.YIELD_COMMERCE) - pPlayer.calculateInflatedCosts()
+		iIndustry = pPlayer.calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
+		iAgriculture = pPlayer.calculateTotalYield(YieldTypes.YIELD_FOOD)
+		
+		iGrowth = iEconomy + iIndustry + iAgriculture
+		
+		sd.setOldEconomyRating(iPlayer, iGrowth)
 		
 	def sungaRevolution(self):
 	
@@ -3467,46 +4048,6 @@ class RiseAndFall:
 		CyInterface().addMessage(iHuman, True, iDuration, CyTranslator().getText("TXT_KEY_INDEPENDENCE_TEXT_SUNGAS", ()), "", 0, "", ColorTypes(iRed), -1, -1, True, True)
 		self.majorCrisis(iMauryans, iSungas, pMauryans, gc.getTeam(pMauryans.getTeam()), 1)
 		
-	def foundCity(self, iCiv, sName, iX, iY, lReligions=[], lBuildings=[]):
 	
-		#if not self.checkRegion(iX, iY):
-			#return None
-		
-		pCiv = gc.getPlayer(iCiv)
-		pCiv.initCity(iX, iY)
-		city = gc.getMap().plot(iX, iY).getPlotCity()
-		
-		if not city or city.isNone():
-			return None
-		
-		city.setName(sName, False)
-		
-		if utils.getYear() < 240:
-			pCiv.initUnit(iSpearman, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			pCiv.initUnit(iArcher, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-		else:
-			pCiv.initUnit(iHeavySpearman, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			pCiv.initUnit(iMarksman, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			
-		UnitArtStyler.updateUnitArtAtPlot(city.plot())
-		
-		for iReligion in lReligions:
-			city.setHasReligion(iReligion, True, False, False)
-			
-		for iBuilding in lBuildings:
-			city.setNumRealBuilding(iBuilding, 1)
-			
-		UnitArtStyler.updateUnitArtAtPlot(city.plot())
-		
-		return city
-		
-	def isChristianitySplit(self):
-	
-		bSplit = False
-		for iReligion in [iCatholicism, iArianism, iMonophysitism, iNestorianism]:
-			if gc.getGame().isReligionFounded(iReligion):
-				bSplit = True
-				
-		return bSplit
 
 			

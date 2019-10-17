@@ -3,13 +3,13 @@
 #########################################
 
 #### Paths ####
-TOOLKIT=C:\PROGRA~1\MIBB05~1
-PSDK=C:\Program Files\WI6B09~1
+TOOLKIT=C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003
+PSDK=C:\Program Files (x86)\WindowsSDK
 CIVINSTALL=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword
-GLOBALBOOST=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
-GLOBALPYTHON=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword
+GLOBALBOOST=$(CIVINSTALL)\Boost-1.32.0
+GLOBALPYTHON=$(CIVINSTALL)\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-#YOURMOD=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword\Mods\RFC Classical World
+YOURMOD=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword\Mods\RFC Classical World
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"

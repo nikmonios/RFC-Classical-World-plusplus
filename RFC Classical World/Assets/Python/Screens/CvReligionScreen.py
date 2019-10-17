@@ -128,8 +128,7 @@ class CvReligionScreen:
 		self.LEFT_EDGE_TEXT = 10
 		self.X_RELIGION_START = 154
 		self.Y_RELIGION_START = 154
-		#self.DX_RELIGION = 116
-		self.DX_RELIGION = 136 # srpt wider spacing for the longer religion names
+		self.DX_RELIGION = 116
 		self.DY_RELIGION = 116
 		self.DX_RELIGION_OFFSET = self.DX_RELIGION
 		self.X_RELIGION = 0
@@ -252,14 +251,7 @@ class CvReligionScreen:
 			## Attachs the symbols so they will scroll 
 			xLoop = self.X_RELIGION_START
 			for i in range(gc.getNumReligionInfos()):
-				# srpt
-				bProceed = False
 				if gc.getGame().getReligionGameTurnFounded(i) >= 0:
-					bProceed = True
-				if i == con.iChristianity:
-					if gc.getGame().getReligionGameTurnFounded(con.iCatholicism) >= 0:
-						bProceed = False
-				if bProceed:
 					screen.addCheckBoxGFCAt("CivicList", self.getReligionButtonName(i), gc.getReligionInfo(i).getButton(), ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), self.X_RELIGION_AREA + xLoop - 25, self.Y_RELIGION_AREA + 10, self.BUTTON_SIZE, self.BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_LABEL, False)
 					#else:
 					#szHelpImageID = self.HELP_IMAGE_NAME + str(i)
@@ -315,14 +307,7 @@ class CvReligionScreen:
 		xLoop = self.X_RELIGION_START
 		for i in range(gc.getNumReligionInfos()):
 			pHolyCity = gc.getGame().getHolyCity(i)
-			# srpt
-			bProceed = False
-			if gc.getGame().getReligionGameTurnFounded(i) >= 0:
-				bProceed = True
-			if i == con.iChristianity:
-				if gc.getGame().getReligionGameTurnFounded(con.iCatholicism) >= 0:
-					bProceed = False
-			if bProceed:
+			if gc.getGame().getReligionGameTurnFounded(i) >= 0: 
                                 if not pHolyCity.isRevealed(gc.getPlayer(self.iActivePlayer).getTeam(), False):
                                         szFounded = localText.getText("TXT_KEY_UNKNOWN", ())
                                         screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HOLY_CITY, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)

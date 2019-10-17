@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1255"?>
 <VisualStudioUserFile
 	ProjectType="Visual C++"
 	Version="9.00"
@@ -34,7 +34,7 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Final_Release|Win32"
+			Name="Release|Win32"
 			>
 			<DebugSettings
 				Command="$(TargetPath)"

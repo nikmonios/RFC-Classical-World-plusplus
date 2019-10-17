@@ -289,7 +289,6 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 	def placeUnits(self):
 		screen = self.getScreen()
 		
-		
 		# Create and place a tech pane									
 		list = self.getSortedList( gc.getNumUnitInfos(), gc.getUnitInfo )
 		
@@ -299,7 +298,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 				if not gc.getGame().isUnitEverActive(item[1]):
 					list.remove(item)
 
-		nColumns = 4
+		nColumns = 5
 		nEntries = len(list)
 		nRows = nEntries // nColumns
 		if (nEntries % nColumns):

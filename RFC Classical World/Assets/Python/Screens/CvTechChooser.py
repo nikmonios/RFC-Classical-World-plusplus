@@ -5,8 +5,6 @@ import CvUtil
 import ScreenInput
 import CvScreenEnums
 import CvScreensInterface
-# srpt
-import Consts as con
 
 PIXEL_INCREMENT = 7
 BOX_INCREMENT_WIDTH = 27 # Used to be 33 #Should be a multiple of 3...
