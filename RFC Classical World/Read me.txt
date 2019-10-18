@@ -3,14 +3,16 @@ CHANGES FROM CivIV and RFC
 
 Religions:
 
-There are eleven religions, nine already founded and three yet to be founded at the start of the scenario. The unfounded religions can be be founded in the normal way by being the first to discover a specific tech, but they will also appear automatically if no civilization does so before the time when that religion was founded. Christianity is founded in Jerusalem around 30AD, Manichaeism in Babylon around 250-260AD, and Islam appears with the Arab spawn at Mecca in 630AD.
+There are fourteen religions, nine already founded and three yet to be founded at the start of the scenario, one of which subsequently splits into four branches. The unfounded religions can be be founded in the normal way by being the first to discover a specific tech, but they will also appear automatically if no civilization does so before the time when that religion was founded. Christianity is founded in Jerusalem around 30AD, Manichaeism in Babylon around 250-260AD, and Islam appears with the Arab spawn at Mecca in 630AD. The first time a civ with Christianity as its state religion researches a religious tech or produces a Great Prophet, Christianity splits into four branches. The original Christian religion disappears from the game (if you see it, its a bug) and the existing Christian cites, missionaries and buildings convert to one of the branches, based on who owns the city, where it is and a little chance. The old Christian Holy City (almost always Jerusalem) becomes the Holy City of the branch that the civ that currently controls the city has as its state religion. If the holy city is subsequently captured by a civ with one of the other barnches as its state religion, the old branch loses the holy city and the new ones gains it.
 
-With a couple of unique exceptions, the ability to convert to a state religion is not available the early civs when they spawn. To do so you need a tech called... State Religion, which is two techs away for most starting civs. Conversion also requires the religion to be present in half of your cities. The conditions under which Missionaries can be built has also changed, see "Pilgrims and Scripture resources" below.
+With a couple of unique exceptions, the ability to convert to a state religion is not available to the early civs when they spawn. To do so you need a tech called... State Religion, which is two techs away for most starting civs. Conversion also requires the religion to be present in half of your cities. The conditions under which Missionaries can be built has also changed, see "Pilgrims and Scripture resources" below.
 
 
 Specialists, Tile Yields and Improvements:
 
-Specialists are in general more powerful in RFCCW than regular BtS and there are some new specialists. Tile yields are also a bit different. The biggest changes are that citizens (the default specialist) get 1 hammer and 1 coin, and mines are not buildable unless there is a resource present. There are also 2 new specialist types which each require a tech but no building and can be used without limit as to number: the Tradesman (requires Engineering, 2 hammers and 1 coin) and the Artisan (requires Metal Casting, 1 hammer, 1 culture and 1 coin). None of these new specialists generate any Great People Points. 
+All tiles that yield at least 2 of any given yield lose 1 yield if they are not adjacent to the working city. 
+
+Specialists are in general more powerful in RFCCW than regular BtS and there are some new specialists. Tile yields are also a bit different. The biggest changes are that citizens (the default specialist) get 1 hammer and 1 coin, and mines are not buildable unless there is a resource present. There are also 2 new specialist types which each require a tech but no building and can be used without limit as to number: the Tradesman (requires Engineering, 2 hammers and 1 coin) and the Artisan (requires Metal Casting, 1 hammer, 1 culture and 1 coin). None of these new specialists generate any Great People Points, but all specialists that produce at least 1 hammer also cause 1 unhealth.
 
 Roads are only used for movement and are not necessary to connect resources. This is done for the speed increase it brings to the game. 
 
@@ -52,13 +54,17 @@ Roads are not necessary to connect resources. This is done for game speed. Most 
 
 Forest and Jungle:
 
-There are 3 kinds of forest. Woodland takes 3 movement points to enter, provides 1 hammer, is choppable for production with Iron Working and sometimes contains the Timber resource which requires a lumber camp and speeds production of ships. All units can enter Woodland. Tropical forest takes 2 movement points to enter, is choppable with Iron Working but not for production and gives no unhealth. All units can enter Tropical Forest. Forest is not choppable until Engineering and is impassable to most cavalry, heavier infantry and siege
+There are 3 kinds of forest. Woodland takes 3 movement points to enter, provides 1 hammer, is choppable for production with Iron Working and sometimes contains the Timber resource which requires a lumber camp and speeds production of ships. All units can enter Woodland. Tropical forest takes 2 movement points to enter, is choppable with Iron Working but not for production and gives no unhealth. All units can enter Tropical Forest. Forest is not choppable and is impassable to most cavalry, heavier infantry and siege
+
+Force Limits:
+
+Your ability to train units is limited based on your population. Your ability to train naval units is limited based on the population of your coastal cities. You can see your used and available army and navy force limits in the military advisor.
 
 UHV TIPS
 
-Antigonids: the Armenians are the first civ to spawn with Monarchy, in 180BC. there are captureable wonders in Rhodes, Babylon and Diospolis (in Egypt) at the start of the game.
+Antigonids: the Armenians are the first civ to spawn with Monarchy, in 180BC. there are captureable wonders in Athens, Rhodes, Babylon and Diospolis (in Egypt) at the start of the game.
 
-Egypt: for the Mediterranean ports goal, any port on the Mediterranean Sea in Greece, Thrace, Anatolia, Syria, Judea, Egypt, Libya, Cyprus or Crete counts.
+Egypt: for the Mediterranean ports goal, any port on the Mediterranean Sea in Greece, Macedonia, Thrace, Asia, Cappadocia, Syria, Judea, Egypt, Libya, Cyprus or Crete counts.
 
 Mauryans: for the 10 Edicts goal you get credit for each Edict as it is built and do not lose credit for it if you lose the city later. for the Buddhism goal, everything south and east of, and including Gandhara and Sindh counts as India
 
@@ -128,8 +134,10 @@ Two things can result from a stability check: your Stability Level can be adjust
 
 There are 3 levels of crisis: minor, major and terminal. Their effects range from anarchy and revolts in cities to complete collapse. All crises cause at least a couple of turns of anarchy and once you are in anarchy you are immune to further Stability Checks until it is over.
 
-TWO SPECIAL CIVS: the Romans and the Jin
+THREE SPECIAL CIVS: the Tamils, the Romans and the Jin
 
 The Romans are so big and important that they get two sets of UHVs: one representing the Republic and one representing the Empire. Just as the Romans spawn, the player gets a popup asking which set of goals he or she would like to pursue. 
 
 The Jin are the dynasty that came out on top after the famous "Three Kingdoms" period in China. To add more possibilities to this era, the Human player can start out as any of the three kingdoms and pursue the unification of China and the other goals from there. 
+
+There were 3 great dynasties that ruled Tamil Nadu during this period and in this mod the human player can choose to play as any of them. They share UUs, UBs and UPs (for now anyway) but each have their own UHVs.

@@ -108,7 +108,7 @@ class CvTopCivs:
 					localText.getText("TXT_KEY_TOPCIVS_TECH", ()),
 					localText.getText("TXT_KEY_TOPCIVS_CULTURE", ()),
 					localText.getText("TXT_KEY_TOPCIVS_SIZE", ()),
-					localText.getText("TXT_KEY_TOPCIVS_PIETY", ()), # edead
+					#localText.getText("TXT_KEY_TOPCIVS_PIETY", ()), # edead
 				    ]
 
 		# Randomly choose what category and what historian will be used

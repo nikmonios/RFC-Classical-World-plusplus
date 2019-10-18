@@ -2373,9 +2373,9 @@ def canTriggerGreed(argsList):
 	if 0 == player.getNumAvailableBonuses(iCopper):
 		listBonuses.append(iCopper)
 	# edead: start
-	iSulfur = CvUtil.findInfoTypeNum(gc.getBonusInfo,gc.getNumBonusInfos(),'BONUS_SULFUR')
-	if 0 == player.getNumAvailableBonuses(iSulfur):
-		listBonuses.append(iSulfur)
+	#iSulfur = CvUtil.findInfoTypeNum(gc.getBonusInfo,gc.getNumBonusInfos(),'BONUS_SULFUR')
+	#if 0 == player.getNumAvailableBonuses(iSulfur):
+		#listBonuses.append(iSulfur)
 	# edead: end
 
 	map = gc.getMap()
@@ -2502,7 +2502,8 @@ def applyGreedDone1(argsList):
 	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
 		
 	iUnitType = getGreedUnit(player, plot)
-	iNumUnits = gc.getWorldInfo(gc.getMap().getWorldSize()).getDefaultPlayers() / 2 + 1
+	#iNumUnits = gc.getWorldInfo(gc.getMap().getWorldSize()).getDefaultPlayers() / 2 + 1
+	iNumUnits = 3 # srpt
 	
 	if iUnitType != -1:
 		for i in range(iNumUnits):
@@ -3488,6 +3489,15 @@ def applyPeasantRevolt1(argsList):
 	iEvent = argsList[0]
 	kTriggeredData = argsList[1]
 	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	
+	return
+
+####### Stability check (srpt) #######
+
+def applyStabilityCheck(argsList):
+	kTriggeredData = argsList[1]
+	iPlayer = kTriggeredData.ePlayer
+	utils.stabilityCheck(iPlayer)
 	
 	return
 	

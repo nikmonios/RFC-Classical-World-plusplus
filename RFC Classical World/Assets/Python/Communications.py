@@ -18,7 +18,9 @@ class Communications:
 
 	def checkTurn(self, iGameTurn):
 		
-		if iGameTurn >= getTurnForYear(-250):
+		return
+		
+		"""if iGameTurn >= getTurnForYear(-250):
 			civList = utils.getRandomCivList()
 			iPlayer = civList[iGameTurn % con.iNumPlayers]
 			print ("CommunicationscheckTurn, iPlayer=", iPlayer)
@@ -26,7 +28,7 @@ class Communications:
 				if gc.getPlayer(iPlayer).isAlive(): # and iGameTurn >= getTurnForYear(con.tBirth[iPlayer]) + utils.getTurns(15):
 					self.decay(iPlayer)
 			else:
-				print "nonetype"
+				print "nonetype"""
 
 				
 	def decay(self, iPlayer):

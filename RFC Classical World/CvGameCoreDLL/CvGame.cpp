@@ -5588,7 +5588,7 @@ void CvGame::setHeadquarters(CorporationTypes eIndex, CvCity* pNewValue, bool bA
 			pHeadquarters->updateCorporation();
 			pHeadquarters->setInfoDirty(true);
 
-			if (bAnnounce)
+			/*if (bAnnounce)
 			{
 				if (isFinalInitialized() && !(gDLL->GetWorldBuilderMode()))
 				{
@@ -5611,7 +5611,7 @@ void CvGame::setHeadquarters(CorporationTypes eIndex, CvCity* pNewValue, bool bA
 						}
 					}
 				}
-			}
+			}*/
 		}
 
 		AI_makeAssignWorkDirty();
@@ -5792,7 +5792,7 @@ void CvGame::doTurn()
 
 	//doGlobalWarming(); // edead: disabled
 
-	doHolyCity(); // edead: disabled //srpt
+	//doHolyCity(); // edead: disabled //srpt
 
 	//doHeadquarters(); // edead: disabled
 

@@ -1780,6 +1780,128 @@ bool CvCity::isBuildingsMaxed() const
 
 bool CvCity::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool bIgnoreCost, bool bIgnoreUpgrades) const
 {
+	// srpt force limit
+	int iJ = 0;
+	int iLimit = 0;
+	if (bTestVisible)
+	{
+		iJ += 1;
+	}
+	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_LAND)
+	{
+		iLimit += 5;
+		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
+		{
+			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_LAND))
+			{
+				iJ += (GET_PLAYER(getOwnerINLINE()).getUnitClassCountPlusMaking((UnitClassTypes)iK));
+			}
+		}
+		
+		
+		
+		if (GET_PLAYER(getOwnerINLINE()).getTotalPopulation() <= 10)
+		{
+			iLimit += (GET_PLAYER(getOwnerINLINE()).getTotalPopulation());
+		}
+		else
+		{
+			iLimit += (((GET_PLAYER(getOwnerINLINE()).getTotalPopulation() - 10)/2) + 10);
+		}
+		if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
+		{
+			iLimit += (iLimit / 4);
+		}
+		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
+		{
+			if (iJ > iLimit)
+			{
+				return false;
+			}
+		}
+		
+		/*if (GC.getUnitInfo(eUnit).isMilitaryProduction())
+		{
+			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
+			{
+				if (iJ > (GET_PLAYER(getOwnerINLINE()).getTotalPopulation() * 2/3) + 5)
+				{
+					return false;
+				}
+			}
+			else
+			{
+				if (iJ > (GET_PLAYER(getOwnerINLINE()).getTotalPopulation() / 2) + 5)
+				{
+					return false;
+				}
+			}
+		}*/
+	}
+	
+	if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_SEA)
+	{
+		iJ = 0;
+		int iCoastalPopulation = 0;
+		CvCity* pLoopCity;
+		int iLoop;
+		for (pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+		{
+			if (pLoopCity->isCoastal(GC.getMIN_WATER_SIZE_FOR_OCEAN()))
+			{
+				iCoastalPopulation += pLoopCity->getPopulation();
+			}
+		}
+		for (int iK = 0; iK < GC.getNumUnitClassInfos(); iK++)
+		{
+			if ((GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).isMilitaryProduction()) && (GC.getUnitInfo((UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iK).getDefaultUnitIndex()).getDomainType() == DOMAIN_SEA))
+			{
+				iJ += (GET_PLAYER(getOwnerINLINE()).getUnitClassCountPlusMaking((UnitClassTypes)iK));
+			}
+		}
+		
+		
+		
+		if (iCoastalPopulation <= 10)
+		{
+			iLimit += (iCoastalPopulation);
+		}
+		else
+		{
+			iLimit = ((iCoastalPopulation/2) + 10);
+		}
+		if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
+		{
+			iLimit += (iLimit / 4);
+		}
+		if (GC.getUnitInfo(eUnit).isMilitaryProduction())
+		{
+			if (iJ > iLimit)
+			{
+				return false;
+			}
+		}
+		
+		/*if (GC.getUnitInfo(eUnit).isMilitaryProduction())
+		{
+			if (GET_TEAM(getTeam()).isHasTech((TechTypes)LOGISTICS))
+			{
+				if (iJ > (iCoastalPopulation * 3/4) + 3)
+				{
+					return false;
+				}
+			}
+			else
+			{
+				if (iJ > (iCoastalPopulation / 2) + 3)
+				{
+					return false;
+				}
+			}
+		}*/
+	}
+		
+	// srpt end
 	if (eUnit == NO_UNIT)
 	{
 		return false;
@@ -1819,13 +1941,14 @@ bool CvCity::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool b
 		return false;
 	}
 
-	if (!bIgnoreUpgrades)
-	{
-		if (allUpgradesAvailable(eUnit) != NO_UNIT)
-		{
-			return false;
-		}
-	}
+	// srpt upgrades do not block lower tech units from being trained
+	//if (!bIgnoreUpgrades)
+	//{
+		//if (allUpgradesAvailable(eUnit) != NO_UNIT)
+		//{
+			//return false;
+		//}
+	//}
 
 	if (!plot()->canTrain(eUnit, bContinue, bTestVisible))
 	{
@@ -3908,6 +4031,7 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 
 		for (iI = 0; iI < GC.getNumSpecialistInfos(); iI++)
 		{
+			
 			changeMaxSpecialistCount(((SpecialistTypes)iI), GC.getBuildingInfo(eBuilding).getSpecialistCount(iI) * iChange);
 			changeFreeSpecialistCount(((SpecialistTypes)iI), GC.getBuildingInfo(eBuilding).getFreeSpecialistCount(iI) * iChange);
 		}
@@ -4114,23 +4238,12 @@ LeaderHeadTypes CvCity::getPersonalityType() const
 
 ArtStyleTypes CvCity::getArtStyleType() const
 {
+	
+	
 	// edead: start tile-specific city art styles
 	if (artStyleMap[EARTH_Y -1 -getY()][getX()] >= 0)
 	{
-		//if (artStyleMap[EARTH_Y -1 -getY()][getX()] == ARTSTYLE_MEDITERRANEAN)
-		//{
-			//if (GET_PLAYER(getOwnerINLINE()).getStateReligion() == SUNNI || GET_PLAYER(getOwnerINLINE()).getStateReligion() == SHIA || GET_PLAYER(getOwnerINLINE()).getArtStyleType() == (ArtStyleTypes)ARTSTYLE_MIDDLE_EAST)
-			//{
-				//return (ArtStyleTypes)ARTSTYLE_TURKISH;
-			//}
-		//}
-		//else if (artStyleMap[EARTH_Y -1 -getY()][getX()] == ARTSTYLE_INDIAN)
-		//{
-			//if (GET_PLAYER(getOwnerINLINE()).getStateReligion() == SUNNI || GET_PLAYER(getOwnerINLINE()).getStateReligion() == SHIA || (GET_PLAYER(getOwnerINLINE()).getArtStyleType() == (ArtStyleTypes)ARTSTYLE_MIDDLE_EAST && !GET_PLAYER(getOwnerINLINE()).isMinorCiv()))
-			//{
-				//return (ArtStyleTypes)ARTSTYLE_MIDDLE_EAST;
-			//}
-		//}
+		
 		return (ArtStyleTypes)artStyleMap[EARTH_Y -1 -getY()][getX()];
 	}
 	else
@@ -4836,8 +4949,8 @@ int CvCity::foodDifference(bool bBottom) const
 {
 	int iDifference;
 	// srpt
-	CvCity* pLoopCity;
-	int iLoop;
+	//CvCity* pLoopCity;
+	//int iLoop;
 
 	if (isDisorder())
 	{
@@ -4861,7 +4974,7 @@ int CvCity::foodDifference(bool bBottom) const
 		}
 	}
 	// srpt food distribution
-	iDifference *= 100;
+	/*iDifference *= 100;
 	if (! isCapital())
 	{
 		if (getPopulation() > 2)
@@ -4883,7 +4996,7 @@ int CvCity::foodDifference(bool bBottom) const
 			}
 		}
 	}
-	iDifference /= 100;
+	iDifference /= 100;*/
 	// srpt end
 
 	return iDifference;
@@ -5515,7 +5628,8 @@ long CvCity::getRealPopulation() const
 {
 	// edead: start real population change
 	//return (((long)(pow((float)getPopulation(), 2.8f))) * 1000);
-	return (((long)(pow((float)getPopulation(), 2.0f))) * 1000);
+	//return (((long)(pow((float)getPopulation(), 2.0f))) * 1000);
+	return (((long)(pow((float)getPopulation(), 2.6f))) * 1000); // srpt pop 15 = approx 1,000,000
 	// edead: end
 }
 
@@ -5837,7 +5951,8 @@ int CvCity::calculateDistanceMaintenanceTimes100() const
 		// edead: start Rating
 		if ((getOwnerINLINE() >= 0) && (getOwnerINLINE() < NUM_MAJOR_PLAYERS))
 		{
-			iTempMaintenance *= distanceMaintenancePercent[getOwnerINLINE()];
+			//iTempMaintenance *= distanceMaintenancePercent[getOwnerINLINE()];
+			iTempMaintenance *= distanceMaintenancePercent[GET_PLAYER(getOwnerINLINE()).getCivilizationType()]; // srpt
 			iTempMaintenance /= 100;
 		}
 		else
@@ -5903,7 +6018,8 @@ int CvCity::calculateNumCitiesMaintenanceTimes100() const
 	// edead: start Rating
 	if ((getOwnerINLINE() >= 0) && (getOwnerINLINE() < NUM_MAJOR_PLAYERS))
 	{
-		iNumCitiesMaintenance *= numCitiesMaintenancePercent[getOwnerINLINE()];
+		//iNumCitiesMaintenance *= numCitiesMaintenancePercent[getOwnerINLINE()];
+		iNumCitiesMaintenance *= numCitiesMaintenancePercent[GET_PLAYER(getOwnerINLINE()).getCivilizationType()]; // srpt
 		iNumCitiesMaintenance /= 100;
 	}
 	// edead: end
@@ -6565,8 +6681,8 @@ int CvCity::getMilitaryHappiness() const
 {
 	int i;
 	i = getMilitaryHappinessUnits();
-	return (floor(sqrt(2*i+0.25)-0.5) * GET_PLAYER(getOwnerINLINE()).getHappyPerMilitaryUnit()); // srpt militarty unit happiness change: 1 unit for 1st happy face, 2 more for 2nd etc.
-	//return (getMilitaryHappinessUnits() * GET_PLAYER(getOwnerINLINE()).getHappyPerMilitaryUnit());
+	//return (floor(sqrt(2*i+0.25)-0.5) * GET_PLAYER(getOwnerINLINE()).getHappyPerMilitaryUnit()); // srpt militarty unit happiness change: 1 unit for 1st happy face, 2 more for 2nd etc.
+	return (getMilitaryHappinessUnits() * GET_PLAYER(getOwnerINLINE()).getHappyPerMilitaryUnit());
 	}
 
 
@@ -7614,8 +7730,8 @@ void CvCity::setOccupationTimer(int iNewValue)
 {
 	bool bOldOccupation;
 	
-	//Leoreth: cap city disorder at 4 turns
-	iNewValue = std::min(iNewValue, 4);
+	//Leoreth: cap city disorder at 4 turns // srpt 3
+	iNewValue = std::min(iNewValue, 3);
 
 	if (getOccupationTimer() != iNewValue)
 	{
@@ -7642,8 +7758,8 @@ void CvCity::setOccupationTimer(int iNewValue)
 
 void CvCity::changeOccupationTimer(int iChange)												
 {
-	//Leoreth: occupation time capped at 4
-	setOccupationTimer(std::min(getOccupationTimer() + iChange, 4));
+	//Leoreth: occupation time capped at 4 // srpt 3
+	setOccupationTimer(std::min(getOccupationTimer() + iChange, 3));
 }
 
 
@@ -10204,13 +10320,23 @@ int CvCity::getMaxSpecialistCount(SpecialistTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
 	FAssertMsg(eIndex < GC.getNumSpecialistInfos(), "eIndex expected to be < GC.getNumSpecialistInfos()");
-	return m_paiMaxSpecialistCount[eIndex];
+
+	int iMaxSpecialistCount = m_paiMaxSpecialistCount[eIndex];
+	
+	// Leoreth: unlimited specialist effects now only double available specialists
+	if (GET_PLAYER(getOwnerINLINE()).isSpecialistValid(eIndex))
+	{
+		iMaxSpecialistCount *= 2;
+	}
+
+	return iMaxSpecialistCount;
 }
 
 
 bool CvCity::isSpecialistValid(SpecialistTypes eIndex, int iExtra) const
 {
-	return (((getSpecialistCount(eIndex) + iExtra) <= getMaxSpecialistCount(eIndex)) || GET_TEAM(GET_PLAYER(getOwnerINLINE()).getTeam()).isSpecialistValid(eIndex) || GET_PLAYER(getOwnerINLINE()).isSpecialistValid(eIndex) || (eIndex == GC.getDefineINT("DEFAULT_SPECIALIST")));
+	// srpt Leoreth unlimited specialists removed
+	return (((getSpecialistCount(eIndex) + iExtra) <= getMaxSpecialistCount(eIndex)) || /*GET_TEAM(GET_PLAYER(getOwnerINLINE()).getTeam()).isSpecialistValid(eIndex) || GET_PLAYER(getOwnerINLINE()).isSpecialistValid(eIndex) || */(eIndex == GC.getDefineINT("DEFAULT_SPECIALIST")));
 }
 
 
@@ -12041,7 +12167,7 @@ void CvCity::doCulture()
 	{
 		if (getOwnerINLINE() < NUM_MAJOR_PLAYERS)
 		{
-			changeCultureTimes100(getOwnerINLINE(), getCommerceRateTimes100(COMMERCE_CULTURE) * (culturePercent[getOwnerINLINE()]) / 100, false, true);
+			changeCultureTimes100(getOwnerINLINE(), getCommerceRateTimes100(COMMERCE_CULTURE) * (culturePercent[GET_PLAYER(getOwnerINLINE()).getCivilizationType()]) / 100, false, true);
 		}
 		else
 		{

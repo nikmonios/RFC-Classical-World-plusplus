@@ -541,6 +541,17 @@ class CvVictoryScreen:
 						screen.setTableText(szTable, 0, iRow, localText.getText(con.tRomanGoals[gc.getGame().getGameSpeedType()][0][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY) # srpt altenate goals for Rome
 					else:
 						screen.setTableText(szTable, 0, iRow, localText.getText(con.tRomanGoals[gc.getGame().getGameSpeedType()][1][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+				
+				elif iHuman == con.iPandyans:
+					if sd.get3KingdomsMarker() == 3:
+						screen.setTableText(szTable, 0, iRow, localText.getText(con.tTamilGoals[gc.getGame().getGameSpeedType()][0][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY) # srpt altenate goals for Tamils
+					elif sd.get3KingdomsMarker() == 4:
+						screen.setTableText(szTable, 0, iRow, localText.getText(con.tTamilGoals[gc.getGame().getGameSpeedType()][1][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY) # srpt altenate goals for Tamils
+					elif sd.get3KingdomsMarker() == 5:
+						screen.setTableText(szTable, 0, iRow, localText.getText(con.tTamilGoals[gc.getGame().getGameSpeedType()][2][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+				elif iHuman == con.iMauryans and sd.getCivilization(con.iMauryans) == con.iHarsha:
+					screen.setTableText(szTable, 0, iRow, localText.getText(con.tHarshaGoals[gc.getGame().getGameSpeedType()][0][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+				
 				else:
 					screen.setTableText(szTable, 0, iRow, localText.getText(con.tGoals[gc.getGame().getGameSpeedType()][self.iActivePlayer][i], ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY) # edead - added game speed type
 				screen.setTableText(szTable, 2, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_ACCOMPLISHED", ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)

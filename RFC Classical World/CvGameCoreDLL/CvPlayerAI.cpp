@@ -2430,18 +2430,18 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 		return 0;
 	}
 
-	// edead - start (moved the switch data into maxTakenTiles array in CvRhyes.cpp)
-	if (getID() < NUM_MAJOR_PLAYERS)
-	{
-		if (iTakenTiles > maxTakenTiles[getID()])
-		{
-			return 0;
-		}
-	}
-	else if (iTakenTiles > (NUM_CITY_PLOTS / 3))
-	{
-		return 0;
-	}
+	// edead - start (moved the switch data into maxTakenTiles array in CvRhyes.cpp) // srpt removed this for now
+	//if (getID() < NUM_MAJOR_PLAYERS)
+	//{
+		//if (iTakenTiles > maxTakenTiles[getID()])
+		//{
+			//return 0;
+		//}
+	//}
+	//else if (iTakenTiles > (NUM_CITY_PLOTS / 3))
+	//{
+		//return 0;
+	//}
 	// edead - end
 
 	if (iTeammateTakenTiles > (NUM_CITY_PLOTS *2/3)) // Rhye
@@ -2703,8 +2703,8 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 				FAssert(iMaxDistanceFromCapital > 0);
 				
 				//Rhye - start switch
-				//iValue *= 100 + (((bAdvancedStart ? 80 : 50) * std::max(0, (iMaxDistanceFromCapital - iDistance))) / iMaxDistanceFromCapital);
-				iValue *= 100 + (((bAdvancedStart ? 80 : compactEmpireModifier[getID()]) * std::max(0, (iMaxDistanceFromCapital - iDistance))) / iMaxDistanceFromCapital);
+				iValue *= 100 + (((bAdvancedStart ? 80 : 50) * std::max(0, (iMaxDistanceFromCapital - iDistance))) / iMaxDistanceFromCapital); // srpt revert
+				//iValue *= 100 + (((bAdvancedStart ? 80 : compactEmpireModifier[getID()]) * std::max(0, (iMaxDistanceFromCapital - iDistance))) / iMaxDistanceFromCapital);
 				//Rhye - end
 				
 				iValue /= 100;
@@ -3014,7 +3014,7 @@ int CvPlayerAI::AI_targetCityValue(CvCity* pCity, bool bRandomize, bool bIgnoreA
 	{
 		// edead: start from Rhye - "some civs will extend wars further" (moved to an array)
 		//iValue += std::max(1, ((GC.getMapINLINE().maxStepDistance() * 2) - GC.getMapINLINE().calculatePathDistance(pNearestCity->plot(), pCity->plot())));
-		if (getID() < NUM_MAJOR_PLAYERS)
+		if (getID() < NUM_CIV_DESC)
 		{
 			iValue += std::max(1, ((GC.getMapINLINE().maxStepDistance() * 2) - GC.getMapINLINE().calculatePathDistance(pNearestCity->plot(), pCity->plot()))/warDistanceModifier[getID()]);
 		}
@@ -5091,8 +5091,12 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 								
 								switch (getID())
 								{
-								case QIN:
-									if (iI == MASONRY) {
+								case ANTIGONIDS:
+								case SELEUCIDS:
+									if (iI == HORSE_ARCHERY || iI == MARKSMANSHIP) {
+										iValue /= 2;
+									}
+									if (iI == VASSALAGE || iI == MONARCHY) {
 										iValue *= 2;
 									}
 									break;
@@ -5100,20 +5104,16 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 									if (iI == PAPER || iI == MILITARY_DRILL) {
 										iValue *= 2;
 									}
+									if (iI == THEOLOGY) {
+										iValue /= 2;
+									}
 									break;
 								case CARTHAGE:
-									if (iI == BULK_TRADE || iI == NAVAL_WARFARE) {
+									if (iI == BULK_TRADE || iI == NAVAL_WARFARE|| iI == MILITARY_DRILL) {
 										iValue *= 2;
 									}
-									break;
-								case SELEUCIDS:
-									if (iI == VASSALAGE || iI == MONARCHY) {
-										iValue *= 2;
-									}
-									break;
-								case ANTIGONIDS:
-									if (iI == MATHEMATICS || iI == MONARCHY) {
-										iValue *= 2;
+									if (iI == LITERATURE) {
+										iValue /= 2;
 									}
 									break;
 								case MAURYANS:
@@ -5160,6 +5160,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 									if (iI == SAILING || iI == NAVAL_WARFARE) {
 										iValue /= 2;
 									}
+									if (iI == ELEPHANT_TRAINING) {
+										iValue /= 4;
+									}
 									break;
 								case SABA:
 									if (iI == SAILING || iI == ORGANISED_RELIGION) {
@@ -5173,6 +5176,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 									if (iI == FISHING || iI == SAILING || iI == NAVAL_WARFARE) {
 										iValue /= 4;
 									}
+									if (iI == ELEPHANT_TRAINING) {
+										iValue /= 4;
+									}
 									break;
 								case ROME:
 									if (iI == CALENDAR || iI == MATHEMATICS || iI == BRIDGE_BUILDING || iI == ENGINEERING) {
@@ -5181,6 +5187,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 									if (iI == ARCHERY || iI == MARKSMANSHIP || iI == CAVALRY_TACTICS || iI == MONARCHY) {
 										iValue /= 3;
 									}
+									if (iI == ELEPHANT_TRAINING) {
+										iValue /= 4;
+									}
 									break;
 								case MACCABEES:
 									if (iI == MONASTICISM || iI == THEOLOGY) {
@@ -5188,6 +5197,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 									}
 									if (iI == FISHING || iI == SAILING || iI == NAVAL_WARFARE) {
 										iValue /= 2;
+									}
+									if (iI == ELEPHANT_TRAINING) {
+										iValue /= 4;
 									}
 									break;
 								case BACTRIA:
@@ -5272,12 +5284,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 										iValue *= 2;
 									}
 									break;
-								case GHANA:
-									if (iI == MONARCHY) {
-										iValue *= 2;
-									}
-									if (iI == FISHING || iI == SAILING || iI == NAVAL_WARFARE) {
-										iValue /= 3;
+								case BYZANTINES:
+									if (iI == MONASTICISM || iI == RELIGIOUS_LAW_TECH || iI == MYSTICISM){
+										iValue *= 3; // to trigger Christian schism
 									}
 									break;
 								default:
@@ -5618,9 +5627,9 @@ int CvPlayerAI::AI_getAttitudeVal(PlayerTypes ePlayer, bool bForced) const
 	else
 	{
 	iAttitude = GC.getLeaderHeadInfo(getPersonalityType()).getBaseAttitude();
-	iAttitude += attitudeMods[getID()][ePlayer]; // edead: permanent modifier
+	//iAttitude += attitudeMods[getID()][ePlayer]; // edead: permanent modifier // srpt turned off for now
 	
-	iAttitude += std::max(0, borders[getID()][ePlayer] -3); // srpt
+	//iAttitude += std::max(0, borders[getID()][ePlayer] -3); // srpt turned off for now 
 
 	iAttitude += GC.getHandicapInfo(GET_PLAYER(ePlayer).getHandicapType()).getAttitudeChange();
 
@@ -5889,17 +5898,17 @@ int CvPlayerAI::AI_getBonusTradeAttitude(PlayerTypes ePlayer) const
 		if (GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeDivisor() != 0)
 		{
 			// srpt Saba UP
-			if ((GET_PLAYER(getID()).getLeaderType()) == TUBA_ABU)
+			/*if ((GET_PLAYER(getID()).getLeaderType()) == TUBA_ABU)
 			{
 				iAttitudeChange = ((AI_getBonusTradeCounter(ePlayer) / GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeDivisor()) * 2);
 				return range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit())), abs((GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit()) * 2 ));
-			}
+			}*/
 			// srpt end
-			else
-			{
-				iAttitudeChange = (AI_getBonusTradeCounter(ePlayer) / GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeDivisor());
-				return range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit()));
-			}
+			//else
+			//{
+			iAttitudeChange = (AI_getBonusTradeCounter(ePlayer) / GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeDivisor());
+			return range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getBonusTradeAttitudeChangeLimit()));
+			//}
 		}
 	}
 
@@ -10773,8 +10782,9 @@ ReligionTypes CvPlayerAI::AI_bestReligion() const
 
 			if (eFavorite == iI)
 			{
-				iValue *= 3; // edead (5)
-				iValue /= 2; // edead (4)
+				//iValue *= 3; // edead (5)
+				//iValue /= 2; // edead (4)
+				iValue *= 3; // sprt
 			}
 
 			// stop vassals from switching away from master's religion
@@ -10837,10 +10847,10 @@ int CvPlayerAI::AI_religionValue(ReligionTypes eReligion) const
 		return 0;
 	}*/ // srpt
 
-	// if (getHasReligionCount(eReligion) == 0)
-	// {
-		// return 0;
-	// }
+	if (getHasReligionCount(eReligion) == 0)
+	{
+		return 0;
+	}
 	
 	// edead: end
 
@@ -19092,9 +19102,9 @@ int CvPlayerAI::AI_getFirstImpressionAttitude(PlayerTypes ePlayer) const
 	int iAttitude = GC.getHandicapInfo(kPlayer.getHandicapType()).getAttitudeChange();
 	
 	iAttitude += GC.getLeaderHeadInfo(getPersonalityType()).getBaseAttitude();
-	iAttitude += attitudeMods[getID()][ePlayer];
+	//iAttitude += attitudeMods[getID()][ePlayer]; // srpt turned off for now
 	
-	iAttitude += std::max(0, borders[getID()][ePlayer] -3); // srpt
+	//iAttitude += std::max(0, borders[getID()][ePlayer] -3); // srpt turned off for now
 	
 	//if (GC.getGameINLINE().isDebugMode())
 	//{

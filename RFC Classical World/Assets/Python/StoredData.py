@@ -228,7 +228,8 @@ class StoredData:
 					"UnplacedMercenaries" : {},
 					},
 				#-----------other stuff
-				'lSilkWorms' : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				'lSilkWorms' : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				'lElephants' : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 			}
 		
 		self.setSeed()
@@ -731,6 +732,13 @@ class StoredData:
 
 	def setSilkWorms(self, iCiv, iNewValue):
 		self.scriptDict['lSilkWorms'][iCiv] = iNewValue
+		
+	def getElephants(self, iCiv):
+		if iCiv >= iNumPlayers: return -1
+		return self.scriptDict['lElephants'][iCiv]
+
+	def setElephants(self, iCiv, iNewValue):
+		self.scriptDict['lElephants'][iCiv] = iNewValue
 
 # All modules import the following single instance, not the class
 

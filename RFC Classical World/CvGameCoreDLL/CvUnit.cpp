@@ -715,9 +715,9 @@ void CvUnit::doTurn()
 	
 	
 	// srpt distant supply mod
-	CvCity* pNearestCity;
-	pNearestCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE());
-	int iDistance;
+	//CvCity* pNearestCity;
+	//pNearestCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE());
+	//int iDistance;
 	
 	// srpt end
 
@@ -2335,7 +2335,19 @@ bool CvUnit::canEnterTerritory(TeamTypes eTeam, bool bIgnoreRightOfPassage) cons
 	{
 		if (GET_TEAM(getTeam()).isOpenBorders(eTeam))
 		{
-			return true;
+			// srpt
+			if ((!m_pUnitInfo->isMilitaryProduction()) || (GET_TEAM(getTeam()).isVassal(eTeam)) || (GET_TEAM(eTeam).isVassal(getTeam())))
+			{
+				return true;
+			}
+			int iI;
+			for (iI = 0; iI < (MAX_TEAMS - 3); iI++)
+			{
+				if ((GET_TEAM(getTeam()).isAtWar((TeamTypes)iI)) && (GET_TEAM(eTeam).isAtWar((TeamTypes)iI)))
+				{
+					return true;
+				}
+			}
 		}
 	}
 	// old Satavahana UP srpt
@@ -2450,6 +2462,21 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 	{
 		return false;
 	}
+	
+	// srpt river crossing restrictions
+	//const CvUnit* pMover = this;
+	//if (pMover->plot()->isRiverCrossing(directionXY(pMover->plot(), pPlot)))
+	//if (this->plot()->isRiverCrossing(directionXY(this->plot(), pPlot)))
+	//{
+		//if (!((pPlot->isFriendlyCity(*this, true)) || (this->plot()->isFriendlyCity(*this, true))))
+		//{
+			//if (!((pPlot->getImprovementType() == GC.getInfoTypeForString("IMPROVEMENT_WATER_ROUTE")) && (this->plot()->getImprovementType() == GC.getInfoTypeForString("IMPROVEMENT_WATER_ROUTE"))))
+			//{
+				//return false;
+			//}
+		//}
+	//}
+	// srpt end
 
 	if (pPlot->isImpassable())
 	{
@@ -2601,7 +2628,7 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 				}
 			}
 		}
-		break; // srpt comment
+		break;
 
 	case DOMAIN_IMMOBILE:
 		return false;
@@ -2821,6 +2848,15 @@ bool CvUnit::canMoveOrAttackInto(const CvPlot* pPlot, bool bDeclareWar) const
 
 bool CvUnit::canMoveThrough(const CvPlot* pPlot) const
 {
+	// srpt
+	//if ((getDomainType() == DOMAIN_LAND) && (pPlot->isWater()))
+	//{
+		//if (pPlot->getImprovementType() == GC.getInfoTypeForString("IMPROVEMENT_WATER_ROUTE"))
+		//{
+			//return true;
+		//}
+	//}
+	// srpt end
 	return canMoveInto(pPlot, false, false, true);
 }
 

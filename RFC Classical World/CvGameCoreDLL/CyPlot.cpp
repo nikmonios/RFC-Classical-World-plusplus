@@ -1061,7 +1061,7 @@ int CyPlot::getRegionID()
 std::wstring CyPlot::getRegionName(bool bTooltip)
 {
 	return m_pPlot ? m_pPlot->getRegionName(bTooltip) : std::wstring();
-} // srpt debug DLL fix
+} 
 
 void CyPlot::cameraLookAt()
 {

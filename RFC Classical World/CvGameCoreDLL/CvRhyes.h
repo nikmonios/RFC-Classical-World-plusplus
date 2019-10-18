@@ -10,7 +10,7 @@
 #define MAX_COM_SHRINE			(20)
 #define NUM_MAJOR_PLAYERS		(48)
 #define NUM_MAJOR_LEADERS		(55) // srpt
-#define NUM_CIV_DESC			(68) // srpt
+#define NUM_CIV_DESC			(71) // srpt
 #define SLAVERY					(11)
 #define PERSECUTION				(23)
 #define PROMOTION_MERCENARY		(57)
@@ -71,8 +71,8 @@ enum MyCivs
 	TIBET, // 41
 	TANG, // 42
 	ARABS, // 43
-	GHANA,
-	NOMAD,
+	NOMAD0,
+	NOMAD1,
 	NOMAD2,
 	NOMAD3,
 	INDEPENDENT,
@@ -156,6 +156,10 @@ enum MyReligions
 	CHRISTIANITY,
 	MANICHAEISM,
 	ISLAM,
+	CATHOLICISM,
+	ARIANISM,
+	MONOPHYSITISM,
+	NESTORIANISM,
 	NUM_RELIGIONS
 };
 
@@ -167,6 +171,7 @@ enum MyCorporations
 	SPICEMERCHANTS,
 	ARTISANS,
 	TRADESMEN,
+	INCENSEMERCHANTS,
 	NUM_CORPORATIONS
 };
 
@@ -305,7 +310,6 @@ enum MyTechs
 	CURRENCY,
 	CODE_OF_LAWS,
 	STATE_RELIGION,
-	RELIGIOUS_LAW,
 	BULK_TRADE,
 	JURISPRUDENCE,
 	BANKING,
@@ -361,31 +365,31 @@ enum MyBuildings
 	WALLS = 3,
 	STABLE = 13,
 	COURTHOUSE = 28,
-	BUDDHIST_SHRINE = 98,
-	HINDU_SHRINE = 103,
-	GREAT_WALL = 161,
-	TERRACOTTA = 162,
-	GREAT_LIGHTHOUSE = 163,
-	GREAT_LIBRARY = 164,
-	TRAJANS_COLUMN = 165,
-	COLLOSEUM = 166,
-	ARCHIMEDES = 167,
-	SYNTHESIS = 168,
-	MINARET = 169,
-	HOUSE_OF_WISDOM = 170,
-	KHALID = 171,
-	STUPA = 172,
-	NALANDA = 173,
-	HAGIA = 174,
-	BAMIYAN = 175,
-	DOME_OF_THE_ROCK = 176,
-	UMAYYAD_MOSQUE = 177,
-	IRON_PILLAR = 178,
-	QALEH_DOKHTAR = 179,
-	GRAND_CANAL = 180,
-	BOROBUDUR = 181,
-	THEODOSIAN_WALLS = 182,
-	SHWEDAGON_PAYA = 183
+	BUDDHIST_SHRINE = 99,
+	HINDU_SHRINE = 104,
+	GREAT_WALL = 182,
+	TERRACOTTA = 183,
+	GREAT_LIGHTHOUSE = 184,
+	GREAT_LIBRARY = 185,
+	TRAJANS_COLUMN = 186,
+	COLLOSEUM = 187,
+	ARCHIMEDES = 188,
+	SYNTHESIS = 189,
+	MINARET = 190,
+	HOUSE_OF_WISDOM = 191,
+	KHALID = 192,
+	STUPA = 193,
+	NALANDA = 194,
+	HAGIA = 195,
+	BAMIYAN = 196,
+	DOME_OF_THE_ROCK = 197,
+	UMAYYAD_MOSQUE = 198,
+	IRON_PILLAR = 199,
+	QALEH_DOKHTAR = 200,
+	GRAND_CANAL = 201,
+	BOROBUDUR = 202,
+	THEODOSIAN_WALLS = 203,
+	SHWEDAGON_PAYA = 204
 };
 
 enum MyArtStyles
@@ -408,23 +412,23 @@ enum MyArtStyles
 extern int startingYear[NUM_MAJOR_PLAYERS];
 extern int startingCalendarYear[NUM_MAJOR_PLAYERS];
 extern bool startingEra[NUM_MAJOR_PLAYERS];
-extern int maxTakenTiles[NUM_MAJOR_PLAYERS];
-extern int warDistanceModifier[NUM_MAJOR_PLAYERS];
-extern int warCoastalModifier[NUM_MAJOR_PLAYERS];
-extern int inflationRate[NUM_MAJOR_PLAYERS];
-extern int growthPercent[NUM_MAJOR_PLAYERS];
-extern int productionPercent[NUM_MAJOR_PLAYERS];
-extern int researchPercent[NUM_MAJOR_PLAYERS];
-extern int greatPeoplePercent[NUM_MAJOR_PLAYERS];
-extern int culturePercent[NUM_MAJOR_PLAYERS];
-extern int distanceMaintenancePercent[NUM_MAJOR_PLAYERS];
-extern int numCitiesMaintenancePercent[NUM_MAJOR_PLAYERS];
-extern int compactEmpireModifier[NUM_MAJOR_PLAYERS];
+extern int maxTakenTiles[NUM_MAJOR_PLAYERS]; // srpt not used
+extern int warDistanceModifier[NUM_CIV_DESC];
+extern int warCoastalModifier[NUM_CIV_DESC];
+extern int inflationRate[NUM_CIV_DESC];
+extern int growthPercent[NUM_CIV_DESC];
+extern int productionPercent[NUM_CIV_DESC];
+extern int researchPercent[NUM_CIV_DESC];
+extern int greatPeoplePercent[NUM_CIV_DESC];
+extern int culturePercent[NUM_CIV_DESC];
+extern int distanceMaintenancePercent[NUM_CIV_DESC];
+extern int numCitiesMaintenancePercent[NUM_CIV_DESC];
+extern int compactEmpireModifier[NUM_CIV_DESC]; // srpt not used
 extern int civSpreadFactor[MAX_PLAYERS][NUM_RELIGIONS];
 extern int borders[NUM_MAJOR_LEADERS][NUM_MAJOR_LEADERS];
 extern int attitudeMods[NUM_MAJOR_PLAYERS][NUM_MAJOR_PLAYERS];
-extern int massacreProb[MAX_PLAYERS];
-extern int buildProsecutorProb[NUM_MAJOR_PLAYERS];
+extern int massacreProb[NUM_CIV_DESC];
+extern int buildProsecutorProb[NUM_CIV_DESC];
 extern int regionMap[EARTH_Y][EARTH_X];
 extern int artStyleMap[EARTH_Y][EARTH_X];
 //extern int settlersMaps[NUM_MAJOR_PLAYERS][EARTH_Y][EARTH_X];

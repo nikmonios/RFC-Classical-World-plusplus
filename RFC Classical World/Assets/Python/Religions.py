@@ -55,7 +55,9 @@ class Religions:
 
 
 	def checkTurn(self, iGameTurn):
-		
+			
+		#if iGameTurn == getTurnForYear(332):
+			 #self.christianSplit()
 		# India
 		if (iGameTurn % 20 == 0):
 			if utils.getRandomPaganCityByRegion(con.lIndianRegions) != None:
@@ -90,7 +92,7 @@ class Religions:
 				self.spreadReligion(utils.getRandomCityByRegion(con.lChineseRegions), con.iTaoism)
 		
 		# Christianity
-		if (not gc.getGame().isReligionFounded(con.iChristianity)):
+		if (not gc.getGame().isReligionFounded(con.iChristianity)) and (not gc.getGame().isReligionFounded(con.iCatholicism)):
 			if (iGameTurn % 25 == 5):
 				self.spreadReligion(utils.getRandomCityByRegion(con.lEasternMediterraneanRegions), con.iHellenism)
 			
@@ -245,10 +247,11 @@ class Religions:
 					apCityList = PyPlayer(iPlayer).getCityList()
 					for pyCity in apCityList:
 						pCity = pyCity.GetCy()
-						# Buddhists convert to Hinduism in India after 100BC
-						if pCity.isHasReligion(con.iHinduism) and pCity.isHasReligion(con.iBuddhism) and iGameTurn > getTurnForYear(-100) and gc.getMap().plot(pCity.getX(), pCity.getY()).getRegionID() in [con.rSindh, con.rSaurashtra, con.rPunjab, con.rAvanti, con.rMagadha, con.rBangala, con.rDeccan, con.rKerala, con.rTamilNadu] and gc.getGame().getSorenRandNum(100, 'remove Buddhism') > 90:
-							if not pCity.isHolyCityByType(con.iBuddhism):
-								pCity.setHasReligion(con.iBuddhism, False, False, False)
+						# Buddhists convert to Hinduism in India after 50BC
+						if pCity.isHasReligion(con.iHinduism) and pCity.isHasReligion(con.iBuddhism) and iGameTurn > getTurnForYear(-50) and gc.getMap().plot(pCity.getX(), pCity.getY()).getRegionID() in [con.rSindh, con.rSaurashtra, con.rPunjab, con.rAvanti, con.rMagadha, con.rBangala, con.rDeccan, con.rKerala, con.rTamilNadu] and gc.getGame().getSorenRandNum(100, 'remove Buddhism') > 90:
+							if (sd.getGoal(con.iGupta, 2) != 1) or (utils.getHumanID != con.iGupta): # spare the human Gupta player from having the Dhamek Stupa cancelled
+								if not pCity.isHolyCityByType(con.iBuddhism):
+									pCity.setHasReligion(con.iBuddhism, False, False, False)
 						# Hellenic convert to Christianity
 						if pCity.isHasReligion(con.iHellenism) and pCity.isHasReligion(con.iChristianity) and gc.getGame().getSorenRandNum(100, 'remove Hellenism') > 90:
 							if not pCity.isHolyCityByType(con.iHellenism):
@@ -269,7 +272,7 @@ class Religions:
 			return -1
 		
 		# do not spread the religion if the city already has it, or the owner is using Persecution civic
-		if city.isHasReligion(iReligion) or gc.getPlayer(city.getOwner()).getCivics(4) == con.iMilitancyCivic:
+		if city.isHasReligion(iReligion) or gc.getPlayer(city.getOwner()).getCivics(4) == con.iTheocracyCivic:
 			return -1
 			
 		if iReligion == con.iChristianity:
@@ -378,11 +381,159 @@ class Religions:
 
 
 	def onTechAcquired(self, iTech, iPlayer):
+		
+		# Christian schism
+		if iTech in [con.iReligiousLaw, con.iMonasticism, con.iMysticism]:
+			if gc.getPlayer(iPlayer).getStateReligion() == con.iChristianity:
+				self.christianSplit()
+			
+			
+	def christianSplit(self):
 	
-		return
+		lCatholicRegions = [con.rCaledonia, con.rHibernia, con.rBritannia, con.rLusitania, con.rBaetica, con.rIberia, con.rAquitania, con.rSeptimania, con.rGaul, con.rNItaly, con.rSicily, con.rGreece, con.rIllyricum, con.rThrace, con.rAsia, con.rAfrica, con.rMauretania, con.rCyprus, con.rCrete, con.rRhodes, con.rSardinia, con.rCorsica, con.rMallorca, con.rPontus, con.rCappadocia, con.rNumidia, con.rMalta, con.rMacedonia, con.rSItaly, con.rMoesia]
+		lCatholicCivs = [con.iRome, con.iByzantines, con.iFranks, con.iLombards, con.iCelts, con.iCarthage]
+		lArianRegions = [con.rScania, con.rGermania, con.rSlavia, con.rScythianSteppe, con.rDacia]
+		lArianCivs = [con.iVisigoths, con.iVandals, con.iOstrogoths]
+		lMonophysiteRegions = [con.rArmenia, con.rArabia, con.rArabiaFelix, con.rEgypt, con.rLibya, con.rNubia, con.rAxum, con.rPunt, con.rSahara, con.rAethiopia, con.rGuinea, con.rCaucasus]
+		lMonophysiteCivs = [con.iEgypt, con.iArmenia, con.iAxum, con.iNubia, con.iSaba]
+		lNestorianRegions = [con.rSyria, con.rMedia, con.rPersia]
+		lNestorianCivs = [con.iSassanids]
+		lContestedRegions = [con.rSyria, con.rJudea, con.rMesopotamia]
+		for iPlayer in range(con.iNumTotalPlayers):
+			apCityList = PyPlayer(iPlayer).getCityList()
+			for pyCity in apCityList:
+				pCity = pyCity.GetCy()
+				bHolyCity = False
+				if pCity.isHasReligion(con.iChristianity):
+					if pCity.isHolyCityByType(con.iChristianity):
+						bHolyCity = True
+					pCurrent = gc.getMap().plot(pCity.getX(), pCity.getY())
+					
+					if pCurrent.getRegionID() in lCatholicRegions:
+						if pCity.getOwner() in lArianCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iArianism, con.iCatholicism)
+						elif pCity.getOwner() in lMonophysiteCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism, con.iCatholicism)
+						else:
+							self.convertChristianCity(pCity, bHolyCity, con.iCatholicism)
+					
+					elif pCurrent.getRegionID() in lArianRegions:
+						if pCity.getOwner() in lCatholicCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iCatholicism, con.iArianism)
+						elif pCity.getOwner() in lMonophysiteCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism, con.iArianism)
+						else:
+							self.convertChristianCity(pCity, bHolyCity, con.iArianism)
+					
+					elif pCurrent.getRegionID() in lMonophysiteRegions:
+						if pCity.getOwner() in lCatholicCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iCatholicism, con.iMonophysitism)
+						if pCity.getOwner() in lNestorianCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iNestorianism, con.iMonophysitism)
+						else:
+							self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism)
+					
+					elif pCurrent.getRegionID() in lNestorianRegions or pCurrent.getX() > 76:
+						if pCity.getOwner() in lCatholicCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iCatholicism, con.iNestorianism)
+						elif pCity.getOwner() in lMonophysiteCivs:
+							self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism, con.iNestorianism)
+						else:
+							self.convertChristianCity(pCity, bHolyCity, con.iNestorianism)
+					elif pCurrent.getRegionID() in lContestedRegions:
+						if pCity.getOwner() in lCatholicCivs:
+							if gc.getGame().getSorenRandNum(100, 'chance') > 50:
+								self.convertChristianCity(pCity, bHolyCity, con.iCatholicism, con.iNestorianism)
+							else:
+								self.convertChristianCity(pCity, bHolyCity, con.iCatholicism, con.iMonophysitism)
+						elif pCity.getOwner() in lMonophysiteCivs:
+							if gc.getGame().getSorenRandNum(100, 'chance') > 50:
+								self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism, con.iNestorianism)
+							else:
+								self.convertChristianCity(pCity, bHolyCity, con.iMonophysitism, con.iCatholicism)
+						elif pCity.getOwner() in lNestorianCivs:
+							if gc.getGame().getSorenRandNum(100, 'chance') > 50:
+								self.convertChristianCity(pCity, bHolyCity, con.iNestorianism, con.iMonophysitism)
+							else:
+								self.convertChristianCity(pCity, bHolyCity, con.iNestorianism, con.iCatholicism)
+						else:
+							self.convertChristianCity(pCity, bHolyCity, con.iNestorianism, con.iMonophysitism, con.iCatholicism)
+	
+		for iPlayer in range(con.iNumPlayers):
+			pPlayer = gc.getPlayer(iPlayer)
+			if pPlayer.getStateReligion() == con.iChristianity:
+				if iPlayer in lCatholicCivs:
+					pPlayer.setLastStateReligion(con.iCatholicism)
+				elif iPlayer in lArianCivs:
+					pPlayer.setLastStateReligion(con.iArianism)
+				elif iPlayer in lMonophysiteCivsCivs:
+					pPlayer.setLastStateReligion(con.iMonophysitismism)
+				elif iPlayer in lNestorianCivsCivs:
+					pPlayer.setLastStateReligion(con.iNestorianismianism)
+					
+				unitList = PyPlayer(iPlayer).getUnitList()
+				if(len(unitList)):
+					for unit in unitList:
+						if unit.getUnitType() == con.iChristianMissionary:
+							tPlot = (unit.getX(), unit.getY())
+							unit.kill(False, iPlayer)
+							if iPlayer in lCatholicCivs:
+								utils.makeUnit(con.iCatholicMissionary, iPlayer, tPlot, 1)
+							elif iPlayer in lArianCivs:
+								utils.makeUnit(con.iArianMissionary, iPlayer, tPlot, 1)
+							if iPlayer in lMonophysiteCivs:
+								utils.makeUnit(con.iMonophysiteMissionary, iPlayer, tPlot, 1)
+							if iPlayer in lNestorianCivs:
+								utils.makeUnit(con.iNestorianMissionary, iPlayer, tPlot, 1)
+						
+						
+				
+					
+			#for iCiv in lCatholicCivs:
+				#self.convertChristianCiv(iCiv, con.iCatholicism)
+			#for iCiv in lArianCivs:
+				#self.convertChristianCiv(iCiv, con.iArianism)
+			#for iCiv in lMonophysiteCivs:
+				#self.convertChristianCiv(iCiv, con.iMonophysitism)
+			#for iCiv in lNestorianCivs:
+				#self.convertChristianCiv(iCiv, con.iNestorianism)
+									
+	def convertChristianCity(self, city, bHolyCity, iFirstReligion, iSecondReligion = -1, iThirdReligion = -1):
+			
+		
+		city.setHasReligion(con.iChristianity, False, False, False)
+		if bHolyCity:
+			gc.getGame().setHolyCity(iFirstReligion, city, True)
+			gc.getGame().clearHolyCity(con.iChristianity)
+		else:
+			city.setHasReligion(iFirstReligion, True, False, False)
+		
+		if iSecondReligion != -1:
+			city.setHasReligion(iSecondReligion, True, False, False)
+		if iThirdReligion != -1:
+			city.setHasReligion(iThirdReligion, True, False, False)
+		for iBuilding in range(con.iChristianTemple, con.iChristianShrine):
+			if city.getNumRealBuilding(iBuilding) > 0:
+				city.setNumRealBuilding(iBuilding, 0)
+				city.setNumRealBuilding(iBuilding + iFirstReligion - 6, 1)
+				
+				
+	"""def convertChristianCiv(self, iPlayer, iReligion):
+		
+		bReligionPresent = False
+		for pyCity in PyPlayer(iPlayer).getCityList()
+			if pyCity.GetCy().isHasReligion(iReligion):
+			bReligionPresent = True
+			break
+		if bReligionPresent:"""
+				
+			
+
 
 	def onGreatPersonBorn(self, iPlayer):
-		
+	
+		if gc.getPlayer(iPlayer).getStateReligion() == con.iChristianity:
+			self.christianSplit()
 		return
 
 

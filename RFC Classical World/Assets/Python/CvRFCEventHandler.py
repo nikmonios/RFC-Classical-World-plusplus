@@ -13,7 +13,7 @@ import RiseAndFall
 import Barbs
 import AIWars
 import Victory
-import Plague
+#import Plague
 import Communications
 import DynamicCivs
 import Companies
@@ -54,6 +54,7 @@ class CvRFCEventHandler:
 		eventManager.addEventHandler("firstContact", self.onFirstContact)
 		eventManager.addEventHandler("cityAcquired", self.onCityAcquired)
 		eventManager.addEventHandler("goldenAge", self.onGoldenAge) # srpt
+		eventManager.addEventHandler("corporationSpread", self.onCorporationSpread) # srpt
 		eventManager.addEventHandler("cityAcquiredAndKept", self.onCityAcquiredAndKept)
 		eventManager.addEventHandler("cityRazed", self.onCityRazed)
 		eventManager.addEventHandler("cityBuilt", self.onCityBuilt)
@@ -79,7 +80,7 @@ class CvRFCEventHandler:
 		self.barb = Barbs.Barbs()
 		self.aiw = AIWars.AIWars()
 		self.vic = Victory.Victory()
-		self.pla = Plague.Plague()
+		#self.pla = Plague.Plague()
 		self.com = Communications.Communications()
 		self.dc = DynamicCivs.DynamicCivs()
 		self.corp = Companies.Companies()
@@ -91,7 +92,7 @@ class CvRFCEventHandler:
 		sd.setup()
 		self.rnf.setup()
 		self.aiw.setup()
-		self.pla.setup()
+		#self.pla.setup()
 		self.dc.setup()
 		self.rel.setup()
 		self.barb.setup()
@@ -128,7 +129,7 @@ class CvRFCEventHandler:
 		self.barb.checkTurn(iGameTurn)
 		self.rel.checkTurn(iGameTurn)
 		self.aiw.checkTurn(iGameTurn)
-		self.pla.checkTurn(iGameTurn)
+		#self.pla.checkTurn(iGameTurn)
 		self.com.checkTurn(iGameTurn)
 		self.corp.checkTurn(iGameTurn)
 		self.rfccwaiw.checkTurn(iGameTurn)
@@ -169,7 +170,7 @@ class CvRFCEventHandler:
 		if self.rnf.getDeleteMode(0) != -1:
 			self.rnf.deleteMode(iPlayer)
 		
-		self.pla.checkPlayerTurn(iGameTurn, iPlayer)
+		#self.pla.checkPlayerTurn(iGameTurn, iPlayer)
 		
 		if pPlayer.isAlive() and iPlayer < iNumPlayers:
 			self.vic.checkPlayerTurn(iGameTurn, iPlayer)
@@ -199,7 +200,7 @@ class CvRFCEventHandler:
 			#if iBuildingType >= con.iHeroicEpic:
 				#if iOwner < iNumPlayers:
 					#print ("STABILITY CHECK wonder, iOwner=", gc.getPlayer(iOwner).getCivilizationShortDescription(0), "year=", utils.getYear())
-					#self.rnf.stabilityCheck(iOwner, True, 1)
+					#self.utils.stabilityCheck(iOwner, True, 1)
 		# Trajan's Column
 		if iBuildingType == con.iTrajansColumn:
 			gc.getTeam(gc.getPlayer(iOwner).getTeam()).setHasTech(con.iTrajansColumnFunctionTech, True, iOwner, False, False)
@@ -216,7 +217,7 @@ class CvRFCEventHandler:
 		if iPlayer < iNumPlayers and iTechType not in [con.iStabilityStable, con.iStabilityUnstable, con.iStabilityCollapsing]:
 			self.vic.onTechAcquired(iTechType, iPlayer) # Franks
 			self.res.onTechAcquired(iTechType)
-			#self.rel.onTechAcquired(iTechType, iPlayer)
+			self.rel.onTechAcquired(iTechType, iPlayer)
 			if iPlayer < con.iNumMajPlayers and gc.getPlayer(iPlayer).getNumCities() > 1 and utils.getYear() >  (con.tBirth[sd.getCivilization(iPlayer)]) + 50 and iTechType in con.lStabilityTechs:
 			#if iPlayer < con.iNumMajPlayers:
 				#if gc.getPlayer(iPlayer).getNumCities() > 1:
@@ -225,11 +226,11 @@ class CvRFCEventHandler:
 				if utils.getYear() < con.tFall[iPlayer]:
 					if (sd.getLastRebellion(iPlayer)) < utils.getYear() - 30:
 						print ("STABILITY CHECK tech, iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
-						self.rnf.stabilityCheck(iPlayer, 0)
+						utils.stabilityCheck(iPlayer, 0)
 				else:
 					if (sd.getLastRebellion(iPlayer)) < utils.getYear() - 10:
 						print ("STABILITY CHECK tech, iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
-						self.rnf.stabilityCheck(iPlayer, 0)
+						utils.stabilityCheck(iPlayer, 0)
 				
 		if iTechType == con.iTheStirrup:
 			gc.getTeam(gc.getPlayer(iPlayer).getTeam()).setHasTech(con.iTrajansColumnFunctionTech, False, utils.getHumanID(), False, False)
@@ -252,7 +253,11 @@ class CvRFCEventHandler:
 		self.rel.onReligionSpread(iReligion, iOwner, pSpreadCity)
 		self.vic.onReligionSpread()
 		self.vic.maccabeanCheck()
-
+		
+	def onCorporationSpread(self, argsList):
+	
+		iCorporation, iOwner, pSpreadCity = argsList
+		self.vic.onCorporationSpread(iCorporation, iOwner, pSpreadCity)
 
 	def onCityBuilt(self, argsList):
 		'City Built'
@@ -286,7 +291,7 @@ class CvRFCEventHandler:
 		#print ("onCityRazed", city.getName(), "iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "iPreviousOwner=", gc.getPlayer(iPreviousOwner).getCivilizationShortDescription(0), "year=", utils.getYear())
 		if iPreviousOwner == iPlayer and city.getPreviousOwner() != -1:
 			iPreviousOwner = city.getPreviousOwner()
-		self.pla.onCityRazed(argsList)
+		#self.pla.onCityRazed(argsList)
 		self.rel.onCityRazed(argsList)
 		self.rfccwaiw.onCityRazed(argsList)
 		if iPlayer != con.iBarbarian or not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iTrajansColumnFunctionTech)):
@@ -296,33 +301,33 @@ class CvRFCEventHandler:
 						print ("STABILITY CHECK city razed iPreviousOwner=", gc.getPlayer(iPreviousOwner).getCivilizationShortDescription(0), "year=", utils.getYear())
 						regionID = gc.getMap().plot(city.getX(), city.getY()).getRegionID()
 						if regionID in utils.getCoreRegions(sd.getCivilization(iPreviousOwner)):
-							self.rnf.stabilityCheck(iPreviousOwner, -3)
+							utils.stabilityCheck(iPreviousOwner, -3)
 						elif regionID in utils.getNormalRegions(sd.getCivilization(iPreviousOwner)):
 							if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-								self.rnf.stabilityCheck(iPreviousOwner, -2)
+								utils.stabilityCheck(iPreviousOwner, -2)
 						else:
 							if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-								self.rnf.stabilityCheck(iPreviousOwner, -1)
+								utils.stabilityCheck(iPreviousOwner, -1)
 				else:
 					print ("STABILITY CHECK city razed iPreviousOwner=", gc.getPlayer(iPreviousOwner).getCivilizationShortDescription(0), "year=", utils.getYear())
 					regionID = gc.getMap().plot(city.getX(), city.getY()).getRegionID()
 					if regionID in utils.getCoreRegions(sd.getCivilization(iPreviousOwner)):
-						self.rnf.stabilityCheck(iPreviousOwner, -3)
+						utils.stabilityCheck(iPreviousOwner, -3)
 					elif regionID in utils.getNormalRegions(sd.getCivilization(iPreviousOwner)):
 						if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-							self.rnf.stabilityCheck(iPreviousOwner, -2)
+							utils.stabilityCheck(iPreviousOwner, -2)
 					else:
 						if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-							self.rnf.stabilityCheck(iPreviousOwner, -1)
+							utils.stabilityCheck(iPreviousOwner, -1)
 				if iPlayer < con.iNumPlayers and gc.getPlayer(iPreviousOwner).getNumCities() > 1 and gc.getPlayer(iPreviousOwner).getAnarchyTurns() < 1 and gc.getPlayer(iPreviousOwner).getGoldenAgeTurns() < 1:
 					print ("STABILITY CHECK city razed iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
 					regionID = gc.getMap().plot(city.getX(), city.getY()).getRegionID()
 					if regionID in utils.getCoreRegions(sd.getCivilization(iPlayer)):
-						self.rnf.stabilityCheck(iPlayer, -9)
+						utils.stabilityCheck(iPlayer, -9)
 					elif regionID in utils.getNormalRegions(sd.getCivilization(iPlayer)):
-						self.rnf.stabilityCheck(iPlayer, -6)
+						utils.stabilityCheck(iPlayer, -6)
 					else:
-						self.rnf.stabilityCheck(iPlayer, -3)
+						utils.stabilityCheck(iPlayer, -3)
 			# Refugees
 			sd.setVal('tRazedCityData', (city.getX(), city.getY(), city.getNameKey()))
 
@@ -344,29 +349,29 @@ class CvRFCEventHandler:
 							print ("STABILITY CHECK city lost iNewOwner=", iNewOwner, "iPreviousOwner=", iPreviousOwner, "year=", utils.getYear())
 							regionID = gc.getMap().plot(city.getX(), city.getY()).getRegionID()
 							if regionID in utils.getCoreRegions(sd.getCivilization(iPreviousOwner)):
-								self.rnf.stabilityCheck(iPreviousOwner, -3)
+								utils.stabilityCheck(iPreviousOwner, -3)
 							elif regionID in utils.getNormalRegions(sd.getCivilization(iPreviousOwner)): 
 								if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-									self.rnf.stabilityCheck(iPreviousOwner, -2)
+									utils.stabilityCheck(iPreviousOwner, -2)
 							else: 
 								if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-									self.rnf.stabilityCheck(iPreviousOwner, -1)
+									utils.stabilityCheck(iPreviousOwner, -1)
 					else:
 						print ("STABILITY CHECK city lost iNewOwner=", iNewOwner, "iPreviousOwner=", iPreviousOwner, "year=", utils.getYear())
 						regionID = gc.getMap().plot(city.getX(), city.getY()).getRegionID()
 						if regionID in utils.getCoreRegions(sd.getCivilization(iPreviousOwner)):
-							self.rnf.stabilityCheck(iPreviousOwner, -3)
+							utils.stabilityCheck(iPreviousOwner, -3)
 						elif regionID in utils.getNormalRegions(sd.getCivilization(iPreviousOwner)): 
 							if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-								self.rnf.stabilityCheck(iPreviousOwner, -2)
+								utils.stabilityCheck(iPreviousOwner, -2)
 						else: 
 							if not (gc.getTeam(gc.getPlayer(iPreviousOwner).getTeam()).isHasTech(con.iStabilityStable)):
-								self.rnf.stabilityCheck(iPreviousOwner, -1)
+								utils.stabilityCheck(iPreviousOwner, -1)
 						
 			
 		if iNewOwner < iNumPlayers:
 			utils.spreadMajorCulture(iNewOwner, city.getX(), city.getY())
-			self.pla.onCityAcquired(iPreviousOwner, iNewOwner, city)
+			#self.pla.onCityAcquired(iPreviousOwner, iNewOwner, city)
 			self.dc.onCityAcquired(argsList)
 				
 			
@@ -413,10 +418,11 @@ class CvRFCEventHandler:
 			self.dc.onPlayerChangeStateReligion(argsList)
 			self.corp.onPlayerChangeStateReligion(argsList)
 			self.vic.onPlayerChangeStateReligion(argsList)
-			self.rnf.setCivicsStability(iPlayer)
+			utils.setCivicsStability(iPlayer)
+			utils.setStartingEconomyRating(iPlayer)
 			#if gc.getPlayer(iPlayer).getNumCities() > 1 and gc.getPlayer(iPlayer).getGoldenAgeTurns() < 1:
 				#print ("STABILITY CHECK religion change, iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
-				#self.rnf.stabilityCheck(iPlayer, False, 0)
+				#self.utils.stabilityCheck(iPlayer, False, 0)
 
 
 	def onVassalState(self, argsList):
@@ -425,8 +431,8 @@ class CvRFCEventHandler:
 		
 		self.dc.onVassalState(argsList)
 		#print ("STABILITY CHECK vassal, iMaster=", gc.getPlayer(iMaster).getCivilizationShortDescription(0), "iVassal=", gc.getPlayer(iVassal).getCivilizationShortDescription(0), "year=", utils.getYear())
-		#self.rnf.stabilityCheck(iMaster, True, 1)
-		#self.rnf.stabilityCheck(iVassal, True, 0)
+		#self.utils.stabilityCheck(iMaster, True, 1)
+		#self.utils.stabilityCheck(iVassal, True, 0)
 
 	def onChangeWar(self, argsList):
 		'War Status Changes'
@@ -448,14 +454,14 @@ class CvRFCEventHandler:
 			if bIsWar:
 				if iTeam < con.iNumPlayers and gc.getPlayer(iTeam).getNumCities() > 1 and gc.getPlayer(iTeam).getAnarchyTurns() < 1 and gc.getPlayer(iTeam).getGoldenAgeTurns() < 1 and utils.getYear() >  (con.tBirth[iTeam] + 10):
 					print ("STABILITY CHECK war, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "year=", utils.getYear())
-					self.rnf.stabilityCheck(iTeam, False, 1)
+					self.utils.stabilityCheck(iTeam, False, 1)
 				if iRivalTeam < con.iNumPlayers and gc.getPlayer(iRivalTeam).getNumCities() < 2 and gc.getPlayer(iRivalTeam).getAnarchyTurns() < 1 and gc.getPlayer(iRivalTeam).getGoldenAgeTurns() < 1 and utils.getYear() >  (con.tBirth[iRivalTeam] + 10):
 					print ("STABILITY CHECK war, iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0))
-					self.rnf.stabilityCheck(iRivalTeam, False, -1)
+					self.utils.stabilityCheck(iRivalTeam, False, -1)
 			else:
 				print ("STABILITY CHECK peace, iTeam=", gc.getPlayer(iTeam).getCivilizationShortDescription(0), "iRivalTeam=", gc.getPlayer(iRivalTeam).getCivilizationShortDescription(0), "year=", utils.getYear())
-				self.rnf.stabilityCheck(iTeam, True, 1)
-				self.rnf.stabilityCheck(iRivalTeam, True, -1)'''
+				self.utils.stabilityCheck(iTeam, True, 1)
+				self.utils.stabilityCheck(iRivalTeam, True, -1)'''
 		
 
 
@@ -492,9 +498,9 @@ class CvRFCEventHandler:
 		if iPlayer < iNumPlayers:
 			self.rfccwaiw.onRevolution(iPlayer)
 			if iPlayer < iNumPlayers and gc.getPlayer(iPlayer).getNumCities() > 1 and gc.getPlayer(iPlayer).getGoldenAgeTurns() < 1:
-				self.rnf.setCivicsStability(iPlayer)
+				utils.setCivicsStability(iPlayer)
 				print ("STABILITY CHECK revolution, iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
-				self.rnf.stabilityCheck(iPlayer, 0)
+				utils.stabilityCheck(iPlayer, 0)
 
 
 	def onSetPlayerAlive(self, argsList):
@@ -512,11 +518,11 @@ class CvRFCEventHandler:
 		pUnit, iPlayer, pCity = argsList
 		
 		self.vic.onGreatPersonBorn(argsList) # Seleucids
-		#self.rel.onGreatPersonBorn(iPlayer)
+		self.rel.onGreatPersonBorn(iPlayer)
 		self.rfccwaiw.onGreatPersonBorn(argsList)
 		'''if iPlayer < iNumPlayers:
 			print ("STABILITY CHECK GP, iPlayer=", gc.getPlayer(iPlayer).getCivilizationShortDescription(0), "year=", utils.getYear())
-			self.rnf.stabilityCheck(iPlayer, True, 1)'''
+			self.utils.stabilityCheck(iPlayer, True, 1)'''
 
 	# This method handles the key input and will bring up the mercenary manager screen if the 
 	# player has at least one city and presses the 'M' key.
